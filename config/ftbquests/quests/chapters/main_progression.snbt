@@ -1,0 +1,640 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_progression"
+	group: "7B921CB93186BAA4"
+	icon: "statues:player_statue_spawn_egg"
+	id: "6B6334451397490D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FC11E23B1D5E8AD"]
+			description: [
+				"To unlock Age 1, just click through the quests in the \"Read Me\" tab."
+				""
+				"After accepting the reward for this quest, start in Age 1 Tools"
+			]
+			icon: "minecraft:stone"
+			id: "5928D99A2F786286"
+			rewards: [
+				{
+					id: "390529740878907B"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								ad_astra: {
+									0: {
+										Count: 1.0d
+										id: "ad_astra:astrodux"
+									}
+								}
+								ae2: {
+									0: {
+										Count: 1.0d
+										id: "ae2:guide"
+									}
+								}
+								alexsmobs: {
+									0: {
+										Count: 1.0d
+										id: "alexsmobs:animal_dictionary"
+									}
+								}
+								apotheosis: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1.0d
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								botania: {
+									0: {
+										Count: 1.0d
+										id: "botania:lexicon"
+									}
+								}
+								chococraft: {
+									0: {
+										Count: 1.0d
+										id: "chococraft:chocopedia"
+									}
+								}
+								deeperdarker: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "deeperdarker:wanderers_notebook"
+										}
+									}
+								}
+								engineersdecor: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "engineersdecor:engineersdecor_manual"
+										}
+									}
+								}
+								immersiveengineering: {
+									0: {
+										Count: 1.0d
+										id: "immersiveengineering:manual"
+									}
+								}
+								industrialforegoing: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								mysticalagriculture: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "mysticalagriculture:guide"
+										}
+									}
+								}
+								occultism: {
+									0: {
+										Count: 1.0d
+										id: "occultism:dictionary_of_spirits"
+										tag: {
+											"modonomicon:book_id": "occultism:dictionary_of_spirits"
+										}
+									}
+								}
+								pneumaticcraft: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "pneumaticcraft:book"
+										}
+									}
+								}
+								powah: {
+									0: {
+										Count: 1.0d
+										id: "powah:book"
+									}
+								}
+								rftoolsbase: {
+									0: {
+										Count: 1.0d
+										id: "rftoolsbase:manual"
+									}
+								}
+								rootsclassic: {
+									0: {
+										Count: 1.0d
+										id: "rootsclassic:runic_tablet"
+									}
+								}
+								silentgear: {
+									0: {
+										Count: 1.0d
+										id: "silentgear:guide_book"
+									}
+								}
+								solcarrot: {
+									0: {
+										Count: 1.0d
+										id: "solcarrot:food_book"
+									}
+								}
+								statues: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "statues:statues"
+										}
+									}
+								}
+								thermal: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+								totemic: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "totemic:totempedia"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "75C204049F7833F5"
+					title: "Start Age 1"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "69AC5EE97DD6451D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 1"
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5928D99A2F786286"
+				"4438CC470515A45C"
+				"55052EAA5C32C89B"
+				"2F5CEEB974A828E0"
+				"6D28D5894B4A7B24"
+				"7CBA951B498ED321"
+				"59366F5573EC5ACF"
+			]
+			description: [
+				"To unlock Age 2 you will need to progress through all/most of the Main Quests of Age 1. "
+				""
+				"The key objectives are:"
+				""
+				"- Craft Leather"
+				"- Craft an Iron Ingot"
+				"- Craft a Shaft"
+				"- Produce Green Powder"
+				"- Carve a Totem"
+				"- Craft your Nature's Compass"
+				"- Craft your Explorer's Compass"
+			]
+			id: "0240FDF5F774DEEE"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "2E87419E472B2A55"
+				title: "Start Age 2"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "448DE63D826E71F9"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 2"
+			x: -18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0240FDF5F774DEEE"
+				"7010308F4F836BAD"
+				"167D3CEDB408CD26"
+				"3B463909368B9B82"
+				"3E0F7B994C1A95BC"
+				"41B42F2569AC3752"
+				"31C0D70E20FECEBB"
+			]
+			description: [
+				"To unlock Age 3 you will need to progress through all/most of the Main Quests of Age 2. "
+				""
+				"The key objectives are:"
+				""
+				"- Craft Treated Wood Planks"
+				"- Create Livingrock"
+				"- Create Otherstone"
+				"- Craft Infused Nether Stone"
+				"- Make Cheap Plastic"
+				"- Craft a Material Grader"
+			]
+			id: "79705DCA6ADC0148"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "6F0C49F751B5CFEF"
+				title: "Start Age 3"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "275722CE4FA19C44"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 3"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"79705DCA6ADC0148"
+				"280C23FA611548B8"
+				"6BDAA8260D1272B1"
+				"6A3EF71F50C465DD"
+				"6C1E83D3986A642A"
+				"3497470BDCF8A2F2"
+				"063D7CEC1B7AEE2D"
+				"6118F7D4117D0F5F"
+			]
+			description: [
+				"To unlock Age 4 you will need to progress through all/most of the Main Quests of Age 3. "
+				""
+				"The key objectives are:"
+				""
+				"- Create Brass"
+				"- Start producing Plastic Honeycomb"
+				"- Construct your first rocket"
+				"- Make Plastic Sheet"
+				"- Create Terrasteel Ingot"
+				"- Trade a Diamond for a Mana Diamond"
+				"- Trade an Ender Pearl for a Mana Pearl"
+			]
+			id: "481CC7DD0387169C"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "7E62DE06EC870236"
+				title: "Start Age 4"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "155B218D8517A4F5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 4"
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"481CC7DD0387169C"
+				"281EE59C33F78909"
+				"2E18138D211E9206"
+				"0933440E7DFA2B10"
+				"48ABF1D3186757AE"
+			]
+			description: [
+				"To unlock Age 5 you will need to progress through all/most of the Main Quests of Age 4. "
+				""
+				"The key objectives are:"
+				""
+				"- Make second rocket"
+				"- Construct finished Printed Circuit Board"
+				"- Make Mead of Kvasir (and drink it)"
+				"- Find Dragonstone in Alfheim"
+			]
+			id: "060D5244CBD4660D"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "5D843BDA277B19CB"
+				title: "Start Age 5"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "690CACE83A233FAF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 5"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"060D5244CBD4660D"
+				"2D895377F6FE3960"
+				"342F53F8AED7FC27"
+				"597D94CDF152FC02"
+				"479450C7005487E5"
+				"59D3363EBA2DD136"
+				"41701B1E09B1F776"
+				"308211C27148B5C7"
+				"2B8A712FE3E8F480"
+			]
+			description: [
+				"To unlock Age 6 you will need to progress through all/most of the Main Quests of Age 5. "
+				""
+				"The key objectives are:"
+				""
+				"- Make a Heart of the Deep"
+				"- Forge a Plasteel Ingot"
+				"- Forge a Voidmetal Ingot"
+				"- Create Earth Essence &o(Ars Noveau)&r"
+				"- Create Water Essence &o(Ars Noveau)&r"
+				"- Create Fire Essence &o(Ars Noveau)&r"
+				"- Create Air Essence &o(Ars Noveau)&r"
+				"- Make Magebloom Fiber"
+			]
+			id: "6C00F063FD2700AD"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "4C97A02A7D12AB2C"
+				title: "Start Age 6"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4716CAC3D44D0D36"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 6"
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6C00F063FD2700AD"
+				"5BEE3233A277F52E"
+				"6A337CED7C4DE0ED"
+				"7D6EBC73A32BFA92"
+				"4AC78DE83D2FDDD5"
+				"1288C1609FEA3F39"
+				"26CFA7E3DAE92864"
+			]
+			description: [
+				"To unlock Age 7 you will need to progress through all/most of the Main Quests of Age 6. "
+				""
+				"The key objectives are:"
+				""
+				"- Make HDPE Sheet"
+				"- Make Tier 3 Rocket"
+				"- Create a Spirited Crystal"
+				"- Create a Master Infusion Crystal"
+				"- Make a Crystal Housing Unit"
+				"- Make a ZPM Housing Unit"
+			]
+			id: "7AB6777B9471D4AD"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "3B93B7256E6AC495"
+				title: "Start Age 7"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "535EBF1A6B8D6EF1"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 7"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5928D99A2F786286"]
+			description: [
+				"No problem. This is a repeatable quest.  "
+				"Just accept the reward, and it should refresh. If you lose the Akashic Tome again, you'll be able to recover it, here."
+			]
+			id: "2F67465EF0102715"
+			rewards: [{
+				id: "172B26FE5DBCB932"
+				item: {
+					Count: 1b
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							ad_astra: {
+								0: {
+									Count: 1.0d
+									id: "ad_astra:astrodux"
+								}
+							}
+							ae2: {
+								0: {
+									Count: 1.0d
+									id: "ae2:guide"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1.0d
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							botania: {
+								0: {
+									Count: 1.0d
+									id: "botania:lexicon"
+								}
+							}
+							chococraft: {
+								0: {
+									Count: 1.0d
+									id: "chococraft:chocopedia"
+								}
+							}
+							deeperdarker: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
+									}
+								}
+							}
+							engineersdecor: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
+									}
+								}
+							}
+							immersiveengineering: {
+								0: {
+									Count: 1.0d
+									id: "immersiveengineering:manual"
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							mysticalagriculture: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+							}
+							occultism: {
+								0: {
+									Count: 1.0d
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							powah: {
+								0: {
+									Count: 1.0d
+									id: "powah:book"
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1.0d
+									id: "rftoolsbase:manual"
+								}
+							}
+							rootsclassic: {
+								0: {
+									Count: 1.0d
+									id: "rootsclassic:runic_tablet"
+								}
+							}
+							silentgear: {
+								0: {
+									Count: 1.0d
+									id: "silentgear:guide_book"
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1.0d
+									id: "solcarrot:food_book"
+								}
+							}
+							statues: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "statues:statues"
+									}
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+							totemic: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "totemic:totempedia"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1.0d
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Only accept this if you need a new Akashic Tome."
+			tasks: [{
+				id: "17FBA8C4AF120FA4"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "I Lost My Akashic Tome!"
+			x: -19.5d
+			y: 1.5d
+		}
+	]
+	title: "Main Progression"
+}

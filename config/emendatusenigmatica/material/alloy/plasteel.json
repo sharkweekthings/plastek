@@ -1,0 +1,21 @@
+{
+    "id": "plasteel",
+    "source": "modded",
+    "localizedName": "Plasteel",
+    "processedTypes": [
+      "dust",
+      "shard",
+      "clump",
+      "crushed_ore",
+      "gear",
+      "rod",
+      "plate"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 2
+    },
+    "colors": {
+      "materialColor": "31305D"
+    }
+}

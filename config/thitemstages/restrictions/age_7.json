@@ -1,0 +1,28 @@
+{
+  "Restriction Data": {
+    "stage": "age_7",
+    "itemList": [],
+    "modList": [
+      "extendedcrafting"
+    ],
+    "tagList": [
+      "kubejs:age_7_item"
+    ],
+    "exceptionList": [],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

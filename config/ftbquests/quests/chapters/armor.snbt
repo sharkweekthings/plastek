@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor"
+	group: "5F8EFC9EDBDA235C"
+	icon: {
+		Count: 1b
+		id: "emendatusenigmatica:copper_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "646C311D6BF6C389"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29ABB78197853F7B"]
+			id: "38EF3CCF0F3F50B5"
+			shape: "circle"
+			tasks: [{
+				id: "16CAEA7496B5D3F6"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29ABB78197853F7B"]
+			id: "1983EA84BECBA310"
+			shape: "circle"
+			tasks: [{
+				id: "61F927CB8C62C434"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29ABB78197853F7B"]
+			id: "37B06249C0750803"
+			shape: "circle"
+			tasks: [{
+				id: "565DC5CCDA47319C"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29ABB78197853F7B"]
+			id: "6E3DE70C0CE05D06"
+			shape: "circle"
+			tasks: [{
+				id: "455B1A968EE0224A"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0EAC1C918A0B2E6D"
+				"4438CC470515A45C"
+			]
+			id: "661D5C93922B4751"
+			shape: "circle"
+			tasks: [{
+				id: "36DCA8142868F3F3"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0EAC1C918A0B2E6D"
+				"27FBC19A999E7499"
+			]
+			id: "12C96B59E4BD837F"
+			shape: "circle"
+			tasks: [{
+				id: "3685F2AEE1AB7ABD"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0EAC1C918A0B2E6D"
+				"27FBC19A999E7499"
+			]
+			id: "234B3E7AE665C667"
+			shape: "circle"
+			tasks: [{
+				id: "31199F5BB5C53F5E"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0EAC1C918A0B2E6D"
+				"4438CC470515A45C"
+			]
+			id: "45207CCD6F12C407"
+			shape: "circle"
+			tasks: [{
+				id: "6D5844F0AAB2FB55"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "28A9031163E97C2C"
+			shape: "circle"
+			tasks: [{
+				id: "7A7CB29FFFC0A097"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wooden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "74CAC14014F119E9"
+			shape: "circle"
+			tasks: [{
+				id: "24D8ACB54A68BA5D"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wooden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "749057E1B51E082E"
+			shape: "circle"
+			tasks: [{
+				id: "2637CA61428ACBAF"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wooden_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "2C78EF60EA51B155"
+			shape: "circle"
+			tasks: [{
+				id: "2844273BE33570AB"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wooden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "3CB2229786099FCD"
+			shape: "circle"
+			tasks: [{
+				id: "43D3F1FF1F73F52B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:bone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "35EB9E0C97DA32A5"
+			shape: "circle"
+			tasks: [{
+				id: "5ED16B53F94F1BA8"
+				item: {
+					Count: 1b
+					id: "immersive_armors:bone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "05CBF6EF4CA48EDA"
+			shape: "circle"
+			tasks: [{
+				id: "2E364513DAAAD669"
+				item: {
+					Count: 1b
+					id: "immersive_armors:bone_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "62358A326D3926A0"
+			shape: "circle"
+			tasks: [{
+				id: "09520E1B80FE9065"
+				item: {
+					Count: 1b
+					id: "immersive_armors:bone_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "1631511C74EA85F2"
+			shape: "circle"
+			tasks: [{
+				id: "5FCD53A18D7626E2"
+				item: {
+					Count: 1b
+					id: "minecraft:leather_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "79B86C98EFFAB966"
+			shape: "circle"
+			tasks: [{
+				id: "22DB386A78D23F36"
+				item: {
+					Count: 1b
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "61D9A953825DE7FF"
+			shape: "circle"
+			tasks: [{
+				id: "0602DE3EAFB54DD1"
+				item: {
+					Count: 1b
+					id: "minecraft:leather_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "18B4ACA63650D98E"
+			shape: "circle"
+			tasks: [{
+				id: "0CE7C77D28B9A2E7"
+				item: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Armor"
+}

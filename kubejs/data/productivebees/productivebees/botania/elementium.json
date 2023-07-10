@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#dc5af8",
+    "secondaryColor": "#804f40",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "flowerTag": "forge:storage_blocks/elementium",
+    "selfbreed": false,
+    "conditions": [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "sharkweekisntamod"
+        }
+    ]
+}

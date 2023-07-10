@@ -1,0 +1,1114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_2"
+	group: "04DB2BB1A10D6373"
+	icon: "create:water_wheel"
+	id: "7082CBFFE93B716B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"And with the future, comes choices. Like these choices: "
+				""
+				"Choice 1) Set up the necessities to better Tools, Armors, and Weapons"
+				"Choice 2) Set up the necessities to get Treated Wood so you can make better storage systems."
+				"Choice 3) Set up the necessities to start powering your Create machines with a Water Wheel"
+				""
+				"You can also head over to the Magic tab and start on Botania. You'll need Livingrock to do some things with Occultism, so it's suggested to do Botania first in the Magic tab."
+			]
+			id: "1BEF36F590BA5162"
+			subtitle: "Not so linear"
+			tasks: [{
+				id: "053321D13EAC1C3E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Second Age"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: ["This path is the foundation for Treated wood, and better storage."]
+			id: "50031393944F8B2E"
+			tasks: [{
+				id: "1D5427F73550D5A0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "How To Treat Wood, For Dummies."
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50031393944F8B2E"]
+			description: [
+				"It'l be great to get that better storage up and running, won't it?  "
+				""
+				"Well, if you picked this as your first route -- you got some more hand cranking to do!  This time you'll need to power up an Encased Fan with some water so you can do some bulk Washing."
+				""
+				"Of course, you can always wait until you have a Water Wheel and power the Encased Fan automatically. "
+			]
+			id: "1CBA8C2CFE9A8017"
+			tasks: [
+				{
+					id: "6997C052D6D2AB90"
+					item: "create:propeller"
+					type: "item"
+				}
+				{
+					id: "5A723CB3C4BD28DF"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "77CB57BBE46FCF53"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "21A6066E526BE40B"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "So Cranky"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CBA8C2CFE9A8017"]
+			description: [
+				"A simple setup could look something like this: "
+				""
+				"{image:kubejs:textures/create/create_fan_sample.png width:125 height:125 align:1}"
+			]
+			id: "4B05051E2D5A54FF"
+			tasks: [{
+				id: "75690BF4D8D04485"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CBA8C2CFE9A8017"]
+			description: ["Trapdoors are optional. If you know of a better way to contain the water, the choice is yours."]
+			id: "4514A9A99052FB71"
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "0E36B27FE6ECC036"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trapdoors"
+					}
+				}
+				title: "Any #minecraft:trapdoors"
+				type: "item"
+			}]
+			title: "Trapdoors Optional"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1CBA8C2CFE9A8017"]
+			id: "257884FF983105F8"
+			tasks: [{
+				id: "3EFD70223C514203"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B05051E2D5A54FF"]
+			description: [
+				"1 Concrete Powder will cost 4 Sand, 4 Gravel, and 1 Dye of whatever color Concrete you want. "
+				""
+				"When you have enough Concrete Powder, take it over to your Washing Fan, drop them in front of the fan, or on the Depot (if you set up a Depot). Then get to cranking!   "
+				""
+				"After a little while, your stack should convert into \"Concrete\"!"
+			]
+			id: "1C89D3758FDA8D63"
+			tasks: [
+				{
+					count: 4L
+					id: "27774C81B7C2D57F"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "769A7DD4E555A08E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "535F49EF42F3B968"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dyes"
+						}
+					}
+					title: "Any #forge:dyes"
+					type: "item"
+				}
+			]
+			title: "Concrete Powder"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C89D3758FDA8D63"]
+			description: ["With this kind of knowledge, you could get a job as someone who makes sidewalks!"]
+			id: "116360F62F2EB226"
+			tasks: [{
+				id: "620CFC76666B7908"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:concrete"
+					}
+				}
+				title: "Any #forge:concrete"
+				type: "item"
+			}]
+			title: "iConcrete"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"For this step, you're gonna have to channel your inner pyromaniac. "
+				""
+				"For the sane people, you could try just simply digging a few blocks deep, placing your wood, logs, or planks down, and then setting them aflame with a Flint and Steel.  "
+				""
+				"After a period of time, Ash will be on the ground which you can recover, and then throw that in a smelter to get Ash Brick."
+				""
+				"&4For the true maniacs, why not try your hand at burning down a whole forest, and ruining an entire ecosystem? The wildlife probably won't mind... Maybe dont do this. It might be pretty laggy!&r"
+			]
+			id: "515F7A7F7C53D791"
+			subtitle: "Smokey would be ashamed..."
+			tasks: [
+				{
+					id: "483C77977856415A"
+					item: "supplementaries:ash_brick"
+					type: "item"
+				}
+				{
+					id: "03F31087AC95883E"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"Just locate some clay in the world, break it open, and watch it turn into little balls of clay."
+				""
+				"&oClay is not edible.&r"
+			]
+			id: "3AFD7FCCCC43E5EC"
+			tasks: [{
+				id: "19CC3B5E23EBEF7D"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3AFD7FCCCC43E5EC"
+				"116360F62F2EB226"
+				"515F7A7F7C53D791"
+			]
+			description: [
+				"After you've crafted the 27 Coke Bricks -- you're going to want to craft the Engineer's Hammer, which is on the Tools tab for this age. "
+				""
+				"With the Engineer's Hammer in hand, you can walk up to your 3x3 Coke Brick Tower, whack it in the center block, and watch it transform into the Coke Oven!"
+			]
+			id: "46A8082BAFA451ED"
+			tasks: [{
+				count: 27L
+				id: "17482C2D44B9C936"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"46A8082BAFA451ED"
+				"1A6E4C045828DEDE"
+			]
+			id: "1673C2D215EA54FD"
+			tasks: [{
+				id: "16FEFD33D231E894"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1673C2D215EA54FD"]
+			description: ["It's probably been quite the journey to get to this point. However, look at yourself!! You did it.  New storage is on the horizon.  Your body will thank you as you unload your items into your precious new containers, that will hopefully not get blown up by Creepers. "]
+			id: "7010308F4F836BAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22A3543BEDC3AF2B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6C2B72E5EB3F747A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:treated_wood"
+					}
+				}
+				title: "Any #forge:treated_wood"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7010308F4F836BAD"]
+			description: ["With this section completed you are now able to start making some better storage systems. Check out the Storage tab to see what opened up!"]
+			id: "63A14E63FE8DFE20"
+			shape: "circle"
+			tasks: [{
+				id: "6781FC6C96CDCE71"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Check Out The Storage Tab!"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: [
+				"This path will get you going with some Silent Gear things. "
+				""
+				"Other quests for this will be in the Tools/Weapons/Armor tabs."
+			]
+			id: "3F2C3738590350D3"
+			tasks: [{
+				id: "285B30B1F43B161E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Shh.. Be Silent."
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F2C3738590350D3"]
+			description: [
+				"The first order of business is to craft an item that you normally get for free. Lucky you!"
+				""
+				"After that we'll craft a basic Iron set for the quest."
+				""
+				"Once the quests are completed, you'll be free to craft whatever you have the materials for. As you get new materials, you'll gain access to stronger traits, more damage, better defenses, and better tools!"
+			]
+			id: "1F14D3B1AEC7C529"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "436AC636FFFE8EBB"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Remember: You can click U over a Blueprint to see how to make certain items."
+			tasks: [{
+				id: "7B6ECE66D47F0BB9"
+				item: {
+					Count: 1b
+					id: "silentgear:blueprint_package"
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "silentgear:starter_blueprints"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"When opening a Blueprint Package, you receive 1 of a few different types of weapons.  "
+				""
+				"For whatever weapon you got, hover over it and press U. This will show you how to craft the item."
+				""
+				"You shouldn't need more than 5 Iron Ingots for whatever weapon you do get. Up to 3 to make a blade or spear tip, and 2 for the hilt. "
+				""
+				"&l&eFor the quest credit, it must be made fully of Iron Ingots.&r&r"
+			]
+			id: "4D7BCB819636280C"
+			tasks: [{
+				id: "0F6996D041F2F70B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Weapon"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AF24552F4A82665"]
+			description: [
+				"This will get you the basic set of armor. "
+				""
+				"If you look over there at the Lining quest line, you can make Lining for your armor. "
+				""
+				"&l&eFor the quest credit, it must be made fully of Iron Ingots.&r&r"
+			]
+			id: "1F7670AA1DAE582B"
+			tasks: [
+				{
+					id: "4BABFE6B6F0556C8"
+					item: {
+						Count: 1b
+						id: "silentgear:helmet_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [{
+								Count: 5b
+								ID: "silentgear:iron"
+								Item: {
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DED1E07742CFC85"
+					item: {
+						Count: 1b
+						id: "silentgear:chestplate_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [{
+								Count: 8b
+								ID: "silentgear:iron"
+								Item: {
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ABD7CCBC0B66434"
+					item: {
+						Count: 1b
+						id: "silentgear:legging_plates"
+						tag: {
+							Damage: 0
+							Materials: [{
+								ID: "silentgear:example"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25307B4A5C1C4764"
+					item: {
+						Count: 1b
+						id: "silentgear:boot_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [{
+								Count: 4b
+								ID: "silentgear:iron"
+								Item: {
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armor"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"Craft these two items together and you got yourself an Iron Pickaxe!"
+				""
+				"You'll need 3 Iron Ingots for the Pickaxe Head, and 2 Sticks for the hilt."
+				""
+				"&l&eFor the quest credit, the head must be made of only Iron Ingots, and the hilt must be made of Sticks.&r&r"
+			]
+			id: "0BB117053557ED97"
+			tasks: [
+				{
+					id: "16736A4A019B73F5"
+					item: {
+						Count: 1b
+						id: "silentgear:pickaxe_head"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [{
+								Count: 3b
+								ID: "silentgear:iron"
+								Item: {
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0940A0D824984681"
+					item: "silentgear:rough_rod"
+					type: "item"
+				}
+			]
+			title: "Tool"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: ["Not everything in life is free. I wish it was. I apologize for contributing to captalism by making you craft these. "]
+			id: "6AF24552F4A82665"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D0BCF40918C24FB"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "\"But I wanted free armor templates\""
+			tasks: [
+				{
+					id: "44BEA7A886D286D2"
+					item: "silentgear:helmet_blueprint"
+					type: "item"
+				}
+				{
+					id: "3ED7339683ABE377"
+					item: "silentgear:chestplate_blueprint"
+					type: "item"
+				}
+				{
+					id: "6CB5261064D0D8C1"
+					item: "silentgear:leggings_blueprint"
+					type: "item"
+				}
+				{
+					id: "4BBFCC4DF6ACD235"
+					item: "silentgear:boots_blueprint"
+					type: "item"
+				}
+			]
+			title: "Gettin Ready To Gear Up!"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AF24552F4A82665"]
+			id: "40562A0DA7BD8849"
+			shape: "circle"
+			tasks: [{
+				id: "538AAFE37AD29156"
+				item: "silentgear:lining_blueprint"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"We'll be coming back to this section before the end of this age to craf a Material Grader. However, right now we don't quite have the capability to do so, so that's the end of the Silent line for now. "
+				""
+				"Sorry, there was pretty much no Tech to any of what you've done in the Silent line, so far."
+			]
+			id: "5F1E6260DCA478B7"
+			tasks: [{
+				id: "75623A081521855F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "That's all for now. "
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F1E6260DCA478B7"]
+			description: [
+				"The Material Grader is how you can make more powerful Silent Gear. "
+				""
+				"You put your material in the grader along with one of the 3 catalysts: "
+				""
+				"- &eGlowing Dust&r "
+				"- &cBlazing Dust&r "
+				"- Glittery Dust"
+				""
+				"After receiving a grade, if you aren't happy with it, you can put it back through the grader to receive another random grade. "
+				""
+				"Hopefully a better grade, but it could be a worse grade. It might be a worse grade. "
+				""
+				"Lets face it, it was a worse grade, so you just put it back through again until it's a better grade."
+			]
+			id: "31C0D70E20FECEBB"
+			rewards: [
+				{
+					count: 10
+					id: "2FF759C7B253D0C5"
+					item: "silentgear:glittery_dust"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "473CF40CD00DE0FB"
+					item: "silentgear:blazing_dust"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "176C6CCC8A543882"
+					item: "silentgear:glowing_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "746A80AD752D7E75"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Grade, then grade, then grade again.."
+			tasks: [{
+				id: "2249FC3E2CF1754E"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: ["This portion will be dedicated to setting up your first (or maybe your 400th) Waterwheel. "]
+			id: "21F3FFBB06EDC577"
+			subtitle: "Water Power is flowing through my veins!"
+			tasks: [{
+				id: "6AEB6886B5C525B8"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Harnessing The Power of Hydro"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21F3FFBB06EDC577"]
+			id: "2AC8DB8B877FCA6C"
+			tasks: [{
+				id: "680CB7FDB649647B"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "The Wheels on the Cog Go Round and Round"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21F3FFBB06EDC577"]
+			id: "528B58F7CC7CEA81"
+			tasks: [{
+				id: "1CE04652334E2CDA"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "It's Firm."
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2AC8DB8B877FCA6C"
+				"528B58F7CC7CEA81"
+			]
+			description: [
+				"These Waterwheels act a bit differently than past versions. "
+				""
+				"Waterwheels will always operate at their highest potential. Waterflow only needs to go one direction to achieve this. "
+				""
+				"- Normal Water Wheels will give you 256su"
+				""
+				"- Large Water Wheels will give you 512su"
+				""
+				"Since this is a new model, it's definitely suggested that you Ponder this by holding \"w\" over the Water Wheel / Large Water Wheel in JEI."
+				""
+				"An added bonus in this version, you can take some planks and right click them over your Water Wheel which will change the Water Wheel to the texture of that plank!"
+			]
+			id: "174F9BBEC3872691"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15AC09AC56AD8047"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Create 5.0.1 Waterwheels!"
+			tasks: [{
+				id: "3B5472D344CB1704"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheel"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["174F9BBEC3872691"]
+			id: "03FAA14F839BF3FE"
+			shape: "circle"
+			tasks: [{
+				id: "357A7BDF11CE088F"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Large Water Wheel"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7010308F4F836BAD"
+				"769D6C69637F65E2"
+			]
+			description: [
+				"If you haven't already started the Magic section for this age, you'll need to do that now."
+				""
+				"Once you have some Otherstone, you can make Infused Nether Stone!"
+				""
+				"- First you will need to get 12-16 Jelly Babies, these Jelly Babies contain the blood, and mashed up body parts of your enemies.... "
+				""
+				"- Crush up Gold Ingots to get Gold Dust"
+				""
+				"- Take your Otherstone, and throw it into the Spiritfire. This will give you Nether Stone"
+				""
+				"- Now, take 12-16 Jelly Babies, Gold Dust, Nether Stone, and finally some Lava.  "
+				""
+				"All of this will be placed inside a non heated Create Mixer to create Infused Nether Stone. The Infused Nether Stone is the block you need to construct the Nether portal. "
+			]
+			icon: "kubejs:infused_nether_stone"
+			id: "3E0F7B994C1A95BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A21BB9EF1046B8B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2231757C13115E2A"
+				item: "kubejs:infused_nether_stone"
+				type: "item"
+			}]
+			title: "Infused Nether Stone"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46A8082BAFA451ED"]
+			description: [
+				"While Coal can smelt 8 items, Coal Coke can smelt 18 items!"
+				""
+				"In most cases you can turn Coal/Coal Coke/etc into a Block and burn the block which improves the fuel efficiency. "
+			]
+			id: "1A898D8DF984ECFA"
+			shape: "circle"
+			tasks: [{
+				id: "643A10EC597DF1AB"
+				item: "thermal:coal_coke"
+				type: "item"
+			}]
+			title: "50% Better Than Coal"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40562A0DA7BD8849"]
+			id: "47CC3FB12D74FD4C"
+			rewards: [{
+				id: "3550DD49E3524900"
+				item: {
+					Count: 1b
+					id: "silentgear:chestplate_plates"
+					tag: {
+						CraftedCount: 1
+						Damage: 0
+						Materials: [{
+							Count: 8b
+							ID: "silentgear:iron"
+							Item: {
+								Count: 1b
+								id: "minecraft:iron_ingot"
+							}
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "47AAD696A6698436"
+				item: {
+					Count: 1b
+					id: "silentgear:lining"
+					tag: {
+						CraftedCount: 1
+						Materials: [{
+							ID: "silentgear:leather"
+							Item: {
+								Count: 1b
+								id: "minecraft:leather"
+							}
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E0F7B994C1A95BC"]
+			description: ["Cinnabar can first be found in the Nether."]
+			id: "55868D112FDA7017"
+			tasks: [{
+				id: "06F6C1317A1F7F45"
+				item: "emendatusenigmatica:cinnabar_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E0F7B994C1A95BC"]
+			description: ["Nether Quartz can be found in the Nether. "]
+			id: "0A5AD933D56B927A"
+			tasks: [{
+				id: "5826A1743CF739ED"
+				item: "emendatusenigmatica:quartz_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C43A90AB79EE944"]
+			description: [
+				"Life is great with Cheap Plastic! It's cheap, and well, it just opened the door for more storage options.  "
+				""
+				"Not to mention, you're going to try to build a rocket with some of it.  Will you make it to the Moon, or will Plastic do what Plastic does, and just melt? "
+			]
+			id: "41B42F2569AC3752"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F960A7F8E4C9795"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Made In Your Own Backyard"
+			tasks: [{
+				id: "6C86CF9148EE351F"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "Cheap Plastic"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7010308F4F836BAD"]
+			id: "78F24740AFF5CE8F"
+			shape: "circle"
+			subtitle: "Crafting Table Upgrade!"
+			tasks: [{
+				id: "47E0F3C3239AA003"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BB117053557ED97"]
+			description: [
+				"Mob Grinding Utils has been nerfed a bit for early age to encourage later utilization of Hostile Neural Networks.  "
+				""
+				"Several upgrades have been removed, and the Mob Fan and upgrades will be available in Age 6. "
+				""
+				"This means that you'll need to build a smaller farm to get the XP fluid as the mobs will need to walk over your mob grinder(s)."
+				""
+				"This process will go over getting a small, basic mob farm set up."
+				""
+				"In order to open up a portal to the Nether, we're going to need to slaughter a massive amount of mobs, as we will need to fuse their pureed body parts into Nether Stone to be able to activate a portal to the underworld. "
+				""
+				"&c&oWith this smaller, and nerfed set up that we're making for the quest -- some mobs may get stuck. Keep in mind while building it, that you will need to manually clear out some mobs sometimes.&r&r"
+			]
+			id: "769D6C69637F65E2"
+			subtitle: "What? No Fans?!"
+			tasks: [{
+				id: "1D3BE35A02C28EF5"
+				title: "Grinding Up Mobs"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			description: ["While XP will drop from these, Liquid XP does not, so we'll need to upgrade this to a Mob Masher."]
+			id: "7C7E77A248D1A28F"
+			tasks: [{
+				id: "638410FD6DB456AF"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "77EB055040E87492"
+			tasks: [{
+				id: "51DD5A174FC7CF11"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "0A61817E86B06EAA"
+			subtitle: "Dreadful Dirt"
+			tasks: [
+				{
+					id: "6364391DA1F9ECA9"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+				{
+					id: "24B5C65AFB4243F9"
+					item: "mob_grinding_utils:rotten_egg"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "2945D7D26482F2F6"
+			subtitle: "Delightful Dirt"
+			tasks: [
+				{
+					id: "2849C623749A2A91"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "0E4CF5EB911CBC0C"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "320F53EFCF24A76B"
+			tasks: [
+				{
+					id: "7E44BB334C9D3B40"
+					item: "mob_grinding_utils:xpsolidifier"
+					type: "item"
+				}
+				{
+					id: "45162D48B1FAFC50"
+					item: "mob_grinding_utils:solid_xp_mould_baby"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C7E77A248D1A28F"]
+			description: [
+				"Activated via Redstone signal. "
+				""
+				"Try a Lever!"
+			]
+			id: "2E0DB2805D654494"
+			tasks: [{
+				id: "10E59FDD4CFE5D76"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "3E1D194868B2A6DB"
+			shape: "circle"
+			tasks: [{
+				id: "5178A30E88660C45"
+				item: "mob_grinding_utils:xp_tap"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			description: [
+				"Without conveyor belts, and fans the mob farm might get a little jammed up. "
+				""
+				"You may want to look into making a door way to get in and out so you can clear out excess mobs. "
+				""
+				"If your farm is using Dreadful Dirt, that means when it's dark in the chamber, mobs will spawn. If you add a light, and a lever -- you can turn on, and off the light which will effectively disable the mob spawning from occuring. "
+				""
+				"If you are using Delightful Dirt, passive mobs will spawn while the light is on. "
+			]
+			id: "2CAD42E71EADA112"
+			shape: "circle"
+			subtitle: "Save the server!!"
+			tasks: [
+				{
+					id: "26CD24865C2E6D7C"
+					item: "minecraft:redstone_lamp"
+					type: "item"
+				}
+				{
+					id: "1E22C49DF5A35B33"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			description: ["Tinted Glass blocks light, so if you want a cool viewing room you can set up some Tinted Glass for your Mob Mashin' room."]
+			id: "3F26F923E27E3BB5"
+			shape: "circle"
+			tasks: [{
+				id: "51424690668468DF"
+				item: "mob_grinding_utils:tinted_glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F26F923E27E3BB5"]
+			description: ["With Tinted Ethereal Glass you, as a player are able to walk through it like a door. However, it acts as a wall for mobs. "]
+			id: "54BC1A279375DB03"
+			shape: "circle"
+			subtitle: "Available in Age 3"
+			tasks: [
+				{
+					id: "458852DA4380047C"
+					item: "glassential:glass_dark_ethereal"
+					type: "item"
+				}
+				{
+					id: "1B2186794D512533"
+					item: "glassential:glass_dark_ethereal_reverse"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0A5AD933D56B927A"
+				"55868D112FDA7017"
+			]
+			description: ["With dusts of both Nether Quartz and Cinnabar, you can put that in a Create Mixer to make Tiny Dry Rubber."]
+			id: "2B19664C9255178E"
+			tasks: [{
+				id: "47C9B0E4911A41F6"
+				item: "industrialforegoing:tinydryrubber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B19664C9255178E"]
+			description: ["Combining the 9 Tiny Dry Rubber will create 1 Dry Rubber, which you can press into Cheap Plastic!"]
+			id: "7C43A90AB79EE944"
+			tasks: [{
+				id: "1DF15091C1037460"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+	]
+	title: "Tech"
+}

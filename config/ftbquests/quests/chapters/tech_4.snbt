@@ -1,0 +1,1125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_4"
+	group: "160159E361DC62EF"
+	icon: "pneumaticcraft:printed_circuit_board"
+	id: "06E369EDF8EAA7B5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "34B6EA6F438DBAED"
+			subtitle: "This one will keep you busy for awhile."
+			tasks: [{
+				id: "13E94549441F1B80"
+				title: "The Fourth Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"Not a whole lot going on here.  Now that you have some better plastic, you are to construct your Tier 2 Rocket. "
+				""
+				"We're going to the Red Planet."
+			]
+			id: "53332FF908BC952E"
+			tasks: [{
+				id: "4642F2AD8B75D14B"
+				title: "Team Rocket is Blasting Off Again"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53332FF908BC952E"]
+			description: ["From here you'll want to Navigate over to the Mars tab. "]
+			id: "281EE59C33F78909"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19320157BE37FB18"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5C174E112EE99D37"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"Here we're going to be setting up a Pneumatic Craft Refinery.  "
+				""
+				"Once the Refinery is filled with Oil, and can reach a Temp of at least 100 degrees, it will refine into 4 fluids:"
+				""
+				"&cDiesel&r"
+				"&3Kerosene&r"
+				"&6Gasoline&r "
+				"&eLPG&r"
+				""
+				"Like other setups, Automation of this will be largely up to you. "
+				""
+				"At the very least, I suggest Security Cards wherever you can to avoid explosions."
+			]
+			id: "358BA5BE11EDDF4D"
+			rewards: [{
+				count: 2
+				id: "3647CE1750A0AD5E"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			subtitle: "PNC: Part 1"
+			tasks: [{
+				id: "41FBE3E9A7901FC0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "You're So Refine You Blow My Mind"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			description: [
+				"Since we're being brutes in order to pressurize the Refinery, we're going to need 3 Air Compressors.  "
+				""
+				"With the previous quest reward, you'll probably want to make two more Air Compressors w/ Security Upgrades to get this off the ground."
+				""
+				"{image:kubejs:textures/pneumaticcraft/pnematic_refinery_sample.png width:125 height:125 align:1}"
+			]
+			id: "3DCA2CCC13D97EFC"
+			tasks: [
+				{
+					id: "220604312A89E50F"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					id: "766CCCE2AA28C150"
+					item: "pneumaticcraft:small_tank"
+					type: "item"
+				}
+				{
+					id: "45ED230306B9DA9F"
+					item: "pneumaticcraft:dispenser_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			description: ["Attach pressure to this, and one side will output Heat, the other side will be Cold."]
+			id: "4BCA344784A9C3CC"
+			tasks: [{
+				id: "108C7F9C6D96627B"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			description: [
+				"Placing a Regulator Tube module into a Pressure Tube will give you Redstone control over the pipe network. "
+				""
+				"You will be able to stop some/all pressure from going past the Regulator Tube. "
+				""
+				"Just place this into a Pressure Tube, and place a Lever next to it.  "
+			]
+			id: "19BB155306AF9C61"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3B49A758933D6DB8"
+					item: "pneumaticcraft:regulator_tube_module"
+					type: "item"
+				}
+				{
+					id: "3EC8D22E47D95B46"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DCA2CCC13D97EFC"]
+			id: "08C3C24020A7C73B"
+			shape: "circle"
+			subtitle: "He's Mr Bucket!"
+			tasks: [
+				{
+					id: "4294A6D63D176220"
+					item: "pneumaticcraft:diesel_bucket"
+					type: "item"
+				}
+				{
+					id: "69E1447B8D64CBDD"
+					item: "pneumaticcraft:kerosene_bucket"
+					type: "item"
+				}
+				{
+					id: "18DEDB86368E7593"
+					item: "pneumaticcraft:gasoline_bucket"
+					type: "item"
+				}
+				{
+					id: "1FEAAFF755EFF4B6"
+					item: "pneumaticcraft:lpg_bucket"
+					type: "item"
+				}
+			]
+			title: "Buckets of Fun"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			id: "6FD77502EDFB5C92"
+			tasks: [
+				{
+					count: 4L
+					id: "7D2CE60DF64B065A"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "622F3FC7B295F6AF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:trapdoors"
+						}
+					}
+					title: "Any #minecraft:trapdoors"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: ["No. You have to go through an elaborate process to get Molten Plastic. "]
+			id: "64A26585B7F65D37"
+			subtitle: "PNC: Part 2"
+			tasks: [{
+				id: "01030CC910191123"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Can't I Just Melt It In a Furnace?"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "511EE9DE3CB4F74A"
+			tasks: [{
+				id: "410CEB0530F8C5A3"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "64E0DCA2B826610E"
+			tasks: [{
+				id: "31FED2A47417FF8E"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "2D51B77280D234E2"
+			tasks: [{
+				id: "63A5FE24B2E3E0AF"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "67562986AD40806D"
+			tasks: [{
+				id: "1478FF3DA5530A4E"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			description: ["{image:kubejs:textures/pneumaticcraft/pneumatic_thermopneumatic_processing_sample.png width:125 height:125 align:1}"]
+			id: "3F978FBFABBAC51C"
+			tasks: [
+				{
+					id: "7BF5BC3B463DA245"
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
+					type: "item"
+				}
+				{
+					id: "4CADCD8711C2F5D2"
+					item: "pneumaticcraft:small_tank"
+					type: "item"
+				}
+				{
+					id: "242F6059F8FC1EA5"
+					item: "pneumaticcraft:dispenser_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F978FBFABBAC51C"]
+			id: "332A9FEAE32BBFD3"
+			shape: "circle"
+			tasks: [{
+				id: "3D30576518AD234D"
+				item: "pneumaticcraft:plastic_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			id: "1097CB60C1600356"
+			tasks: [{
+				count: 2L
+				id: "32143F4A2CF82FDA"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"Just remember, these set ups are NOT an end all / be all."
+				""
+				"It's on you to automate, and upgrade your setups.   "
+				""
+				"Getting PCBs will allow you to progress further with the pack, as well as progressing further into Pneumatic Craft. "
+				""
+				"&eIf you want to learn more about this cool mod, Duncan Webb on YouTube has a great series on Pneumatic Craft. &r"
+			]
+			id: "043ADB4D1CEE73C6"
+			subtitle: "PNC: Part 3"
+			tasks: [{
+				id: "35F6345089BACE42"
+				title: "A Tanning Bed For Your PCBs"
+				type: "checkmark"
+			}]
+			title: "PCB Tanning Bed"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59AE13AF70687556"]
+			description: [
+				"After this is filled with Etching Acid, you can put the Empty PCB in. "
+				""
+				"After some time, the Empty PCB will turn into another \"Empty PCB\" but with a full charge."
+				""
+				""
+				"{image:kubejs:textures/pneumaticcraft/pneumatic_uv_sample.png width:125 height:125 align:1}"
+			]
+			id: "7FC2073903E11EAF"
+			tasks: [{
+				id: "09CC10C06F9F740E"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59AE13AF70687556"]
+			description: [
+				"After this is filled with Etching Acid, you can put the charged Empty PCB in. "
+				""
+				"After some time, it will either turn into an Unassembled PCB, or a Failed PCB."
+			]
+			id: "6FC92C323C8EE144"
+			tasks: [{
+				id: "0D3C8398CBBB0606"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["043ADB4D1CEE73C6"]
+			description: [
+				"Click on the Etching Acid Bucket, check the recipe for the Pressure Chamber. "
+				""
+				"You'll need to add those items to your Pressure Chamber to get a bucket of Etching Acid.  "
+				""
+				"With your bucket of Etching Acid, you'll need to put it in the Etching Tank. "
+			]
+			id: "59AE13AF70687556"
+			subtitle: "Throw it in the Instant Pot."
+			tasks: [{
+				id: "744228BD35EB3958"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6FC92C323C8EE144"
+				"7FC2073903E11EAF"
+			]
+			id: "5BC3C965E32561AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F86CC04A5BFDD07"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "107A7D8492D0AFCD"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"Each of the following machines to the right will require you to right click with an Engineer's Hammer when you are finished building.  "
+				""
+				"Generally the Engineer's Manual in the Akashic Tome will tell you the block that you need to click on to finish the structure."
+			]
+			id: "5E46D02E8E6D542A"
+			subtitle: "Power up top, Machines to the right"
+			tasks: [{
+				id: "291E94F6C7F09955"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "It's Immersive"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["The Crude Blast Furnace will allow you to begin Steel production!"]
+			id: "4596F14140B7AE67"
+			subtitle: "#1"
+			tasks: [{
+				count: 27L
+				id: "3B4C18F4BA15D2DD"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "Crude Blast Furnace"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"Better Alloying. "
+				""
+				"A bit of an upgrade to the Crude Alloyer."
+			]
+			id: "49661D794D571EE6"
+			subtitle: "#2"
+			tasks: [{
+				count: 8L
+				id: "5ED362766C35B87D"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			title: "Alloy Kiln"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "4C1816CFCA8A5D47"
+			subtitle: "#4"
+			tasks: [
+				{
+					count: 2L
+					id: "3639EAA4D35FD89F"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "38844B8DF9C15D34"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "1BA3F8C71DAA89D1"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "704F98C8E1C6C767"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "09C0721F1E73F768"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F687B00179616A6"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60CF0AFFF651C0AB"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+			]
+			title: "Industrial Squeezer"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["You'll need this workbench to craft a few materials coming up."]
+			id: "3E511A31199739F8"
+			subtitle: "#3"
+			tasks: [
+				{
+					id: "74464211F52ED2EC"
+					item: "emendatusenigmatica:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3A9408D8656B2D8F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:treated_wood_slab"
+						}
+					}
+					title: "Any #forge:treated_wood_slab"
+					type: "item"
+				}
+				{
+					id: "513C4B6002D25E11"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					id: "142EC88932E133DB"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+				{
+					id: "0703F336DAE9135E"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "7DE11AEC3F4D7104"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+			]
+			title: "Engineer's Workbench"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["With an Arc Furnace, you can start processing Aluminum, which will let you make some Aluminum Wire, which in turn will let you fully assemble your Printed Circuit Boards!"]
+			id: "403157E58C976611"
+			subtitle: "#5"
+			tasks: [
+				{
+					count: 8L
+					id: "6E09EA74CCCC5257"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "42390289374545D9"
+					item: "emendatusenigmatica:steel_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "47940C69F74C92C4"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "445E1819D89C7553"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7A6D129E2731984A"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "597A08B380E2CA4D"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "79095434334F9B7D"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6D1C1314E329B200"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "082EDA4FA9AD6B84"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "Arc Furnace"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "422B990ADEC51790"
+			subtitle: "#6"
+			tasks: [
+				{
+					id: "6488602040E4BA3C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "5FA5D3E42391116D"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "48355ACBE7BD8E3C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "333E6C41A54377E8"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FC5E15912557C46"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "Metal Press"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["422B990ADEC51790"]
+			id: "09A8F4E340FB7D21"
+			tasks: [{
+				id: "37F82F29A75CF3BD"
+				item: "immersiveengineering:wire_aluminum"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5BC3C965E32561AF"
+				"09A8F4E340FB7D21"
+			]
+			description: [
+				"With a Printed Circuit Board, you're ready  for more progression! "
+				""
+				"PCBs will be used often throughout the remainder of the pack.  It's definitely suggested to set up an Assembled Controller to speed up the process of PCBs. "
+				""
+				"This pack will not focus on that setup, and will leave you to your own devices on how you want to plan, and automate that.  "
+				" "
+				"The current set up is slow, but it does work."
+				""
+				"If you would like to get going with the Assembly Controller and you aren't sure how, check out: "
+			]
+			id: "2E18138D211E9206"
+			rewards: [
+				{
+					id: "02A2A36550BD7A7C"
+					item: {
+						Count: 1b
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42F175C570CDC0CF"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Rub em on the carpet, no problem. They will stiill work."
+			tasks: [{
+				id: "4A1B4FDC5107E146"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			title: "Sweet Circuit Boards"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"Simply put Lava on one side, Water on the other. That will generate power! "
+				""
+				"That probably won't be enough power. "
+				""
+				"You may want to add a few more Thermoelectric Generators to the setup, for now.  "
+				""
+				"Now, you could probably continue using sheep if you really want, bah-t... do you REALLY want to?? "
+				""
+				""
+				"&oYes I hate myself for what I just did there.&r"
+			]
+			id: "35F9B1C965E96E2C"
+			rewards: [
+				{
+					id: "086DA0EBF96423E8"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "28978722DC44B500"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "7C57D443829375B1"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35F9B1C965E96E2C"]
+			id: "469CC2D6334AB824"
+			shape: "circle"
+			tasks: [
+				{
+					id: "256E52E8D680F947"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "57D80F944FD434D2"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					type: "item"
+				}
+				{
+					id: "7F49D9E6AE3274D8"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					id: "19A8BBE62651A961"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					type: "item"
+				}
+				{
+					id: "70376082FA5EB9CB"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35F9B1C965E96E2C"]
+			description: ["These connectors will connect Machines, Generators, and Capacitors to Wires, and have the abilit to input and output energy. "]
+			id: "2BB10B34413A1537"
+			shape: "circle"
+			tasks: [
+				{
+					id: "207426A4FC494035"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "728B40E07B5272E8"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					id: "23FD6A646AC663AA"
+					item: "immersiveengineering:connector_hv"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35F9B1C965E96E2C"]
+			description: [
+				"Relays allow for multiple wires to be connected into them. You can connect several Connectors together with 1 relay, then send the power out from the relay. "
+				""
+				""
+				"This is 4 Connectors feeding to 1 Relay, powering 1 Device."
+				"{image:kubejs:textures/immersiveengineering/immersive_relay_sample.png width:150 height:100 align:1}"
+			]
+			id: "0353F668EED9C5DB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F0C698D84A52528"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+				{
+					id: "1859C427D6462B05"
+					item: "immersiveengineering:connector_mv_relay"
+					type: "item"
+				}
+				{
+					id: "64A8609A9AE4DEB3"
+					item: "immersiveengineering:connector_hv_relay"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			description: [
+				"Since you're going to be needing a lot of Printed Circuit Boards for the forseeable future  -- you may want to set up a better process to create them.  "
+				""
+				"Using the Pneumaticcraft Assembly you can greatly speed up the process of creating the Unassembled PCB. "
+			]
+			id: "19B5FFF3FB393174"
+			shape: "circle"
+			tasks: [{
+				id: "0695E6A805E26FC3"
+				title: "OK"
+				type: "checkmark"
+			}]
+			title: "Assemblerers: Unassemabled"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["332A9FEAE32BBFD3"]
+			description: [
+				"You can also let a Tank fill up with Molten plastic, then use another tank like a Bucket, then put the Molten Plastic Tank inside a Barrel that has a Heat Frame attached to it, and it should turn the items inside the tank into Plastic."
+				""
+				""
+				"A setup like this should get you going:"
+				"{image:kubejs:textures/pneumaticcraft/pneumatic_heat_frame_sample.png width:175 height:125 align:1} "
+			]
+			id: "65347C6676E31024"
+			shape: "circle"
+			tasks: [
+				{
+					id: "49E6FE495EA34E8D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "pneumaticcraft:fluid_tanks"
+						}
+					}
+					title: "Any #pneumaticcraft:fluid_tanks"
+					type: "item"
+				}
+				{
+					id: "256B760434061B89"
+					item: "pneumaticcraft:heat_frame"
+					type: "item"
+				}
+				{
+					id: "08D6402ACC505F83"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19B5FFF3FB393174"]
+			id: "6C9495C43764A397"
+			shape: "circle"
+			tasks: [{
+				id: "6FFEFD7215C5F0F7"
+				item: "pneumaticcraft:assembly_program_laser"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19B5FFF3FB393174"]
+			description: [
+				"This is what a simple setup might look like: "
+				""
+				"{image:kubejs:textures/pneumaticcraft/pneumatic_laser_assembly_sample.png width:175 height:125 align:1}"
+				""
+				"Barrels are optional, you should be able to use any storage. "
+			]
+			id: "5742B7B8C9A7667A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4B414CFBB9173DBA"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "15C2048EC82F3597"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "55E769263CC3877C"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "1E4197A9AB4722B1"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "62844CA848EC81C4"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5742B7B8C9A7667A"
+				"6C9495C43764A397"
+			]
+			id: "312585081B7A3CDD"
+			shape: "circle"
+			tasks: [{
+				id: "68FE48998D9D1941"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "568FFB1C8BA282CC"
+			rewards: [{
+				id: "65664BCB4ECF7F42"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "225CBC099D6BE89B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Thermal Paste Eye Recovery"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "5A4DCF7D2F0282B6"
+			shape: "circle"
+			tasks: [{
+				id: "7E7E626B3C8B345D"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["294D6DE9D415823B"]
+			id: "1BEB924ACBB44CA4"
+			shape: "circle"
+			subtitle: "Excavator #1"
+			tasks: [
+				{
+					count: 16L
+					id: "4C9E6189F3464194"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "148185E1F30512CE"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1A32966793BF76CE"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "22BE0C580B815D04"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6C758AFB814DC822"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "69F44F9447828C7A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "Excavator"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BEB924ACBB44CA4"]
+			dependency_requirement: "one_started"
+			id: "00E8652076713E91"
+			shape: "circle"
+			subtitle: "Excavator #2"
+			tasks: [
+				{
+					count: 9L
+					id: "28BADD2A658278E3"
+					item: "emendatusenigmatica:steel_block"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "48D9BDFBA0BE04A3"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "Bucket Wheel"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"A major benefit to the Excavator is that it uses a specialized system to find and mine underground ores. "
+				""
+				"This means ores that normally don't exist in the Overworld, or other dimensions can be mined with the excavator!   "
+				""
+				"Using the Core Sample Drill, power it, spin it up, and tap it with a pick axe.  It should yield an item letting you know how many ores, and what type of mineral are in the chunk below you. "
+				""
+				"You can look at the Engineers Manual and type in, or click on \"Mineral Deposit\". "
+				""
+				"On Page 8 you can see the various deposits, what their yield can be, and what dimension you would need to setup your Excavator in. "
+				""
+				"&oLater you will gain access to the Mekanism Digital Miner, and the RF Tools Quarry which will mine the physical ores in the world. &r"
+			]
+			id: "294D6DE9D415823B"
+			shape: "circle"
+			tasks: [{
+				id: "7F296D0EFA444A8E"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Tech"
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexmobs:farseer",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_creeper",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_enderman",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_snow_golem",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_zombie",
+      "required": false
+    }
+  ]
+}

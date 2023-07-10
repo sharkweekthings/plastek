@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_4"
+	group: "160159E361DC62EF"
+	icon: {
+		Count: 1b
+		id: "redstone_arsenal:flux_sword"
+		tag: { }
+	}
+	id: "269CEE88BF341312"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "7A77498751662ADB"
+			shape: "circle"
+			subtitle: "Upgraded and enchanted, this is probably the strongest weapons for awhile."
+			tasks: [{
+				id: "72208A2913E5C3CA"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "1708B6EB937FFA6B"
+			shape: "circle"
+			tasks: [{
+				id: "387A5F3EDABFE8E8"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_trident"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "377DBDA2EE861395"
+			shape: "circle"
+			tasks: [{
+				id: "4C30D1EF7C01F632"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "6B41E944667B4E09"
+			shape: "circle"
+			tasks: [{
+				id: "4098D9C18837C768"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "7542351ECE0DDB69"
+			shape: "circle"
+			tasks: [{
+				id: "18034965C9C8B0A1"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "23FCD6F09791E66D"
+			shape: "circle"
+			tasks: [{
+				id: "7DB435F4F0612DF2"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "14A1291BDA338142"
+			shape: "circle"
+			tasks: [{
+				id: "4AE9F2DB0D8ED638"
+				item: {
+					Count: 1b
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0933440E7DFA2B10"]
+			description: [
+				"You might be thinking of a way to find Thor, cut off his hand, and see if you can't wield the power that way? Well, that's not gonna work at all...."
+				""
+				"However, Thor's Ring is a great way to trick the hammer into thinking you're worthy.  In order to obtain this artifact, you'll need to defeat the Gaia Guardian 2. You may also get lucky if you clear the Twilight Forest, and accept the final reward.  "
+				""
+				"Once defeated, the Gaia Guardian should drop a Dice of Fate. The Dice of Fate should hold one of several different powerful artifacts, the Ring of Thor being one of them. "
+				""
+				"The Dice of Fate is farmable from Gaia Guardian 2, and drops a few powerful artifacts."
+			]
+			id: "06197C0F2D5E3808"
+			shape: "circle"
+			subtitle: "What did Gorr tell Thor?"
+			tasks: [{
+				id: "70DB7033234FA8EC"
+				item: {
+					Count: 1b
+					id: "mythicbotany:mjoellnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "Weapons"
+}

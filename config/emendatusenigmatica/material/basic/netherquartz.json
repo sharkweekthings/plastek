@@ -1,0 +1,16 @@
+{
+	"id": "quartz",
+	"source": "vanilla",
+	"localizedName": "Nether Quartz",
+	"processedTypes": [
+	"dust",
+    "crystal"
+	],
+	"properties": {
+		"materialType": "gem",
+		"harvestLevel": 2
+	},
+	"colors": {
+		"materialColor": "E5E5E5"
+	}
+}

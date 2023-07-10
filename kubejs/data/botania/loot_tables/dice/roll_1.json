@@ -1,0 +1,42 @@
+{
+  "type": "gift",
+  "pools": [
+    {
+      "name": "life_essence",
+      "rolls": 1,
+      "entries": [{
+        "type": "item",
+        "name": "botania:life_essence",
+        "functions": [
+          {
+            "function": "set_count",
+            "count": { "min": 2, "max": 4 }
+          }
+        ]
+      }]
+    },
+    {
+      "name": "black_lotuses",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "botania:gaia_guardian/lotuses"
+        }
+      ]
+    },
+    {
+      "name": "thor_ring",
+      "rolls": 1,
+      "entries": [{
+        "type": "item",
+        "name": "botania:thor_ring",
+        "functions": [
+          {
+            "function": "set_count", "count": 1
+          }
+        ]
+      }]
+    }
+  ]
+}

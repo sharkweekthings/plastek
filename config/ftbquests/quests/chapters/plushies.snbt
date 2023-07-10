@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "plushies"
+	group: "6274245AF897553D"
+	icon: "plushies:snow_golem"
+	id: "734BA52F7AF420A4"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5323371224876970"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A3865B642B4DAD0"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "565A135436A5D944"
+				item: "plushies:snow_golem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "0AA1C3C617327E00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F03D1C75F840321"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "111952CA5F0065CF"
+				item: "plushies:axolotl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "063BA3A1206D0D4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B0C6F259B843C34"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "38FDA7BFD9C3AE40"
+				item: "plushies:bee"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "012028EBCFCFE380"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76CB4A7E96FA0908"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "450A62DA500183DB"
+				item: "plushies:cat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "670C61EF342E2D55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04CCA0A2095A66D2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0F82A7A8E95E5CF0"
+				item: "plushies:cow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "30ED39ADCC9F0D3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "344AB632C50C7B90"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "38616E4F41E5DE0A"
+				item: "plushies:dolphin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "06785B90CD899BD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "725016D7AB0EAEA3"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "056EC42F5E4DC901"
+				item: "plushies:dragon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "471074D502B65FDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "705D06E82C8302E4"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6BDE09B529743437"
+				item: "plushies:enderman"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "45A633B42A0D8D8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CA52F67C4F6D009"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5DC5512D996266B6"
+				item: "plushies:frog"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "50391E6E6A41A838"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15E050BCF6AE80B3"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1388CC2E42DE3765"
+				item: "plushies:goat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "72987C33050C0EE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F3DA1379B54725C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "12B669963B45002F"
+				item: "plushies:llama"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "5E7F526E14972AFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB5D8C333E1A640"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "00D5B04AC5776295"
+				item: "plushies:slime"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "00EAD83C2F209047"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43E89EEEABF47C35"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "73E4C8D1B2F3F93A"
+				item: "plushies:magma_cube"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "0138857070A33822"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54B40314361D47B9"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "68876E029A0D78E1"
+				item: "plushies:mooshroom"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "46313520C020E10B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36B252CAF3EDF4C2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2C0A55CFBA5615FB"
+				item: "plushies:panda"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "1E4FA11F1CC4FAB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C9AA99B692B724A"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3864A0A95B7FCA3B"
+				item: "plushies:parrot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "2B7D976777C7A10F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "401B4D54774DA4CA"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0629A4DDEA7D2096"
+				item: "plushies:red_fox"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "34AAB56D1D7142E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39839ED6FA3733B1"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "44BAF5D35121D377"
+				item: "plushies:white_fox"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "544A539440994D89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "164E426569DB6A7D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "25CF2880BE41162F"
+				item: "plushies:warden"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "199CD397651FB68B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4676C5C3A352AD61"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "40A56D77C3E8FDF9"
+				item: "plushies:sheep"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "3707445D62CC4C75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60BE9D13C6C4F3FB"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6C675E41644A6B52"
+				item: "plushies:turtle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+	]
+	title: "Plushies"
+}

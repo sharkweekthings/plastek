@@ -1,0 +1,332 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": 
+      [
+        {"type":"minecraft:item","weight":3,"name":"statues:endermite_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:witch_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:salmon_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_hb"},
+        {"type":"minecraft:item","weight":3,"name":"statues:statue_core"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:digging_claws"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_bs_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:steadfast_spikes"},
+        {"type":"minecraft:item","weight":1,"name":"relics:reflection_necklace"},
+        {"type":"minecraft:item","weight":1,"name":"relics:hunter_belt"},
+        {"type":"minecraft:item","weight":3,"name":"statues:husk_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:bumbo_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_shaven_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:snow_golem"},
+        {"type":"minecraft:item","weight":3,"name":"statues:ghast_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:endermite_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:campfire_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:helium_flamingo"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_lime"},
+        {"type":"minecraft:item","weight":3,"name":"statues:angry_bee_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:flood_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_jellie_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_normal_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_white_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:spider_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:trans_bee_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:frog"},
+        {"type":"minecraft:item","weight":3,"name":"statues:chicken_jockey_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:display_stand"},
+        {"type":"minecraft:item","weight":3,"name":"statues:elder_guardian_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:player_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:bee"},
+        {"type":"minecraft:item","weight":3,"name":"statues:evoker_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_br_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:enderman_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:plastic_drinking_hat"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:magma_cube"},
+        {"type":"minecraft:item","weight":3,"name":"statues:ghast_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sombrero"},
+        {"type":"minecraft:item","weight":3,"name":"statues:eagle_ray"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:frog"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:running_shoes"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_red"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_weak_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:eternal_steak"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:cat"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:axolotl"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_playful_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_jellie_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:shulker_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_gray"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cod_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:blazing_flask"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_brown_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_green"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_sb"},
+        {"type":"minecraft:item","weight":3,"name":"statues:statue_core"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:warden"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_green"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_pink"},
+        {"type":"minecraft:item","weight":3,"name":"statues:baby_zombie_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:holy_locket"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_es"},
+        {"type":"minecraft:item","weight":3,"name":"statues:totem_of_undying_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_red"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_go_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:everlasting_beef"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_shaven_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_ss"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:slime"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:scarf_of_invisibility"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_yellow"},
+        {"type":"minecraft:item","weight":1,"name":"relics:spore_sack"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:goat"},
+        {"type":"minecraft:item","weight":3,"name":"statues:pig_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_bw_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:creeper_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_sd"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_bw_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_ragdoll_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:turtle"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_brown_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:goat"},
+        {"type":"minecraft:item","weight":1,"name":"relics:aqua_walker"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:red_fox"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_bms"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_e"},
+        {"type":"minecraft:item","weight":3,"name":"statues:detective_platypus_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:snorkel"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:axolotl"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_ragdoll_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:azzaro"},
+        {"type":"minecraft:item","weight":3,"name":"statues:turtle_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:universal_attractor"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:umbrella"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_british_shorthair_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:night_vision_goggles"},
+        {"type":"minecraft:item","weight":3,"name":"statues:magma_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:bee_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_bb"},
+        {"type":"minecraft:item","weight":3,"name":"statues:vindicator_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_light_gray"},
+        {"type":"minecraft:item","weight":3,"name":"statues:villager_wh_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:spatial_sign"},
+        {"type":"minecraft:item","weight":3,"name":"statues:witch_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:pillager_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:llama"},
+        {"type":"minecraft:item","weight":1,"name":"relics:drowned_belt"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_lime"},
+        {"type":"minecraft:item","weight":3,"name":"statues:wasteland_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:enderman"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_purple"},
+        {"type": "minecraft:empty","weight": 98},
+        {"type": "minecraft:empty","weight": 98},
+        {"type": "minecraft:empty","weight": 98},
+        {"type": "minecraft:empty","weight": 98}
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 10.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "name": "minecraft:book",
+          "type": "minecraft:item",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:paper",
+          "type": "minecraft:item",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:book",
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "name": "minecraft:map",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:compass",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:lodestone",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:respawn_anchor",
+          "type": "minecraft:item",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 25
+        },
+        {
+          "name": "minecraft:map",
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "repurposed_structures:explorer_maps/ruins_nether",
+              "decoration": "banner_black",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Nether Ruins Map"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 25
+        },
+        {
+          "name": "minecraft:map",
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "repurposed_structures:explorer_maps/bastion_remnant",
+              "decoration": "banner_black",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Bastion Remnant Map"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 26
+        },
+        {
+          "name": "minecraft:map",
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "repurposed_structures:explorer_maps/city_nether",
+              "decoration": "banner_gray",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Nether City Map"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "repurposed_structures:chests/lucky_pool"
+        }
+      ]
+    },
+    {
+      "rolls": 0,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 130
+        },
+        {
+          "name": "minecraft:red_banner",
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{BlockEntityTag:{Patterns:[{Pattern:bl,Color:15},{Pattern:tr,Color:15},{Pattern:bri,Color:15},{Pattern:bri,Color:14},{Pattern:gru,Color:14},{Pattern:bo,Color:15},{Pattern:tts,Color:15},{Pattern:bts,Color:15},{Pattern:cs,Color:15},{Pattern:mr,Color:15},{Pattern:mc,Color:14},{Pattern:mc,Color:15}]}}"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:ender_eye",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "name": "minecraft:book",
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

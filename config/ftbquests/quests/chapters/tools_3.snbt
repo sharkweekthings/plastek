@@ -1,0 +1,1326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_3"
+	group: "7F2FC2E4E4C51B36"
+	icon: {
+		Count: 1b
+		id: "pneumaticcraft:pneumatic_wrench"
+		tag: {
+			"pneumaticcraft:air": 30000
+		}
+	}
+	id: "2CD1E91A2D89A241"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			description: ["While an uncharged Pneumatic Wrench will let you rotate some blocks, it won't have the added effect of being able to sneak+click to break a Pneumatic Craft block instantly."]
+			id: "2BE0BC05C87D64B7"
+			shape: "circle"
+			tasks: [{
+				id: "0191DBE079A029CD"
+				item: "pneumaticcraft:pneumatic_wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "56D43817FDFFFB2E"
+			shape: "circle"
+			tasks: [{
+				id: "454F9778B75C423D"
+				item: "pneumaticcraft:volume_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "5686C79FF2EF9755"
+			shape: "circle"
+			tasks: [{
+				id: "0C0386A89283066D"
+				item: "pneumaticcraft:dispenser_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "08595C5A017776B7"
+			shape: "circle"
+			tasks: [{
+				id: "34691D534E519A8C"
+				item: "pneumaticcraft:item_life_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "529E51C3FE200076"
+			shape: "circle"
+			tasks: [{
+				id: "637154AEF26ABC72"
+				item: "pneumaticcraft:entity_tracker_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "1B3CFDC9CC3F5C0F"
+			shape: "circle"
+			tasks: [{
+				id: "54E932DF9365C76B"
+				item: "pneumaticcraft:block_tracker_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "0D6E01C4063C6E29"
+			shape: "circle"
+			tasks: [{
+				id: "3BDC6BBE1DCE8ACE"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "78EC5353B57944F6"
+			shape: "circle"
+			tasks: [{
+				id: "221AF04DCF3CC9C6"
+				item: "pneumaticcraft:search_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "416F6C9BC62D9F24"
+			shape: "circle"
+			tasks: [{
+				id: "1DA67A02C4606BDD"
+				item: "pneumaticcraft:coordinate_tracker_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "5354C826A93DAD91"
+			shape: "circle"
+			tasks: [{
+				id: "55F40DB759E4AA4D"
+				item: "pneumaticcraft:range_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "70A90D20BF41A9DD"
+			shape: "circle"
+			tasks: [{
+				id: "5431326806654607"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "04DFDAF5129467E9"
+			shape: "circle"
+			tasks: [{
+				id: "2C83A84E4F2A6D81"
+				item: "pneumaticcraft:magnet_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "45FA11280693C7D5"
+			shape: "circle"
+			tasks: [{
+				id: "3C0457EFA6961EC2"
+				item: "pneumaticcraft:charging_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "57BFD69BC2CEF891"
+			shape: "circle"
+			tasks: [{
+				id: "024ABD2E7FEF65DB"
+				item: "pneumaticcraft:armor_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "1AA7EBB181BF59B4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "79BF99DE63910C82"
+					item: "pneumaticcraft:jet_boots_upgrade_1"
+					type: "item"
+				}
+				{
+					id: "7BBC9E19A091EE8A"
+					item: "pneumaticcraft:jet_boots_upgrade_2"
+					type: "item"
+				}
+				{
+					id: "476352134A8F0CA2"
+					item: "pneumaticcraft:jet_boots_upgrade_3"
+					type: "item"
+				}
+				{
+					id: "3F4CFBFE7A1E73CD"
+					item: "pneumaticcraft:jet_boots_upgrade_4"
+					type: "item"
+				}
+				{
+					id: "5BE31BB9570A2F6E"
+					item: "pneumaticcraft:jet_boots_upgrade_5"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "1EB4D470F536B716"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3EE062E9ECCA5C96"
+					item: "pneumaticcraft:jumping_upgrade_1"
+					type: "item"
+				}
+				{
+					id: "04A93DF33159A612"
+					item: "pneumaticcraft:jumping_upgrade_2"
+					type: "item"
+				}
+				{
+					id: "14048A114C1B6D9F"
+					item: "pneumaticcraft:jumping_upgrade_3"
+					type: "item"
+				}
+				{
+					id: "2E522399F24FA835"
+					item: "pneumaticcraft:jumping_upgrade_4"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "494CB18FE1813E37"
+			shape: "circle"
+			tasks: [{
+				id: "308BA088978EC67B"
+				item: "pneumaticcraft:night_vision_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "347AAE4F0EFAE89E"
+			shape: "circle"
+			tasks: [{
+				id: "4574F76593B6E3B4"
+				item: "pneumaticcraft:scuba_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "13361D3754D18F55"
+			shape: "circle"
+			tasks: [{
+				id: "3B3D3DE2BEF4B106"
+				item: "pneumaticcraft:inventory_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "3CD25C66B7C07985"
+			shape: "circle"
+			tasks: [{
+				id: "732432BBAFACE283"
+				item: "pneumaticcraft:standby_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "7F344FD025E09B36"
+			shape: "circle"
+			tasks: [{
+				id: "6F1899DF30A073D5"
+				item: "pneumaticcraft:minigun_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "0D307DC2F336C3FC"
+			shape: "circle"
+			tasks: [{
+				id: "7325870D6D40BA19"
+				item: "pneumaticcraft:radiation_shielding_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "799A2D6D3D782AEE"
+			shape: "circle"
+			tasks: [{
+				id: "64845598C99D2090"
+				item: "pneumaticcraft:gilded_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "3441CEA5F49CA5C3"
+			shape: "circle"
+			tasks: [{
+				id: "32AA67DAB441C803"
+				item: "pneumaticcraft:ender_visor_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "4ECB327B34EE6294"
+			shape: "circle"
+			tasks: [{
+				id: "4E926876C13B78C7"
+				item: "pneumaticcraft:stomp_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "26FD88B480D11BF8"
+			shape: "circle"
+			tasks: [{
+				id: "57B5C304E66F2AFA"
+				item: "pneumaticcraft:elytra_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			id: "6F3234C6C5D9765F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6BE54229F6514E0F"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					id: "19325A20A909516E"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+				{
+					id: "4996704345C63C60"
+					item: "pneumaticcraft:advanced_pressure_tube"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			id: "235CE4849A428579"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2CD104FA61840E92"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+				{
+					id: "0EC2E4F165F6D52F"
+					item: "pneumaticcraft:advanced_air_compressor"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			id: "0E8FEF540E694639"
+			shape: "circle"
+			tasks: [
+				{
+					id: "367E06237A25F4EC"
+					item: "pneumaticcraft:liquid_compressor"
+					type: "item"
+				}
+				{
+					id: "3FA2FE8480179B7A"
+					item: "pneumaticcraft:advanced_liquid_compressor"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "0A65BBAB760C80C3"
+			shape: "circle"
+			tasks: [{
+				id: "5C305E308B629E6B"
+				item: "pneumaticcraft:liquid_hopper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			description: ["Charge up gadgets that require Compressed Air."]
+			id: "2D29E707D6153F7D"
+			shape: "circle"
+			tasks: [{
+				id: "3F05D2DAA65BE68F"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			description: [
+				"Pretty Pipes offers a multitude of item piping options, and even a storage system. "
+				""
+				"Later on we'll get access to different types of pipes, but this is our option right now to increase our automation potential. "
+			]
+			id: "391E3152825EBD9B"
+			shape: "circle"
+			tasks: [{
+				id: "2F4F809BB5EED657"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "5494554387056B62"
+			shape: "circle"
+			tasks: [{
+				id: "02A7BFE2A9998DBF"
+				item: "prettypipes:wrench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "21C5E130A70DB956"
+			shape: "circle"
+			tasks: [{
+				id: "5C7D29031801452F"
+				item: "prettypipes:stack_size_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "642854866A228993"
+			shape: "circle"
+			tasks: [{
+				id: "6F4DC0B839DC56D0"
+				item: "prettypipes:redstone_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "75B510C2F5937BF5"
+			shape: "circle"
+			tasks: [{
+				id: "64D40F2DDB45A9C7"
+				item: "prettypipes:filter_increase_modifier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "1025D45545DB637A"
+			shape: "circle"
+			tasks: [{
+				id: "7B3ACD3DAF2D3357"
+				item: "prettypipes:damage_filter_modifier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "66176A1C308B040C"
+			shape: "circle"
+			tasks: [{
+				id: "28DE02020851F6B0"
+				item: "prettypipes:nbt_filter_modifier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "45888F517EEEE2B3"
+			shape: "circle"
+			tasks: [{
+				id: "7976DB09C92A898B"
+				item: "prettypipes:mod_filter_modifier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "6D73852EE0488AF2"
+			shape: "circle"
+			tasks: [{
+				id: "68D718BD067C2FB7"
+				item: "prettypipes:tag_filter_modifier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "15F7CA0E5460F2C1"
+			shape: "circle"
+			tasks: [{
+				id: "7ACC629CB21233D4"
+				item: "prettypipes:round_robin_sorting_modifier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "563FB6DCCCA3EBF9"
+			shape: "circle"
+			tasks: [{
+				id: "33DC7E3EC2BF4A06"
+				item: "prettypipes:random_sorting_modifier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5494554387056B62"
+				"391E3152825EBD9B"
+			]
+			description: ["{@pagebreak}"]
+			id: "2BD7B76439F06979"
+			shape: "circle"
+			tasks: [{
+				id: "326CD8549EA0BAD5"
+				item: "prettypipes:blank_module"
+				type: "item"
+			}]
+			title: "Pipe Module"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "6E6023A837B545A2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "59DD482A22F28041"
+					item: "prettypipes:low_extraction_module"
+					type: "item"
+				}
+				{
+					id: "39196EB535195F99"
+					item: "prettypipes:medium_extraction_module"
+					type: "item"
+				}
+				{
+					id: "78B0E3FCD77B3295"
+					item: "prettypipes:high_extraction_module"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "3861A222DDBD3DEA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "39BA848DA75A19DE"
+					item: "prettypipes:low_filter_module"
+					type: "item"
+				}
+				{
+					id: "1694FFF92C739181"
+					item: "prettypipes:medium_filter_module"
+					type: "item"
+				}
+				{
+					id: "6F2BD3744CBDEEEE"
+					item: "prettypipes:high_filter_module"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "4B26EB23F1ED8489"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4D6DA87FB4FD4064"
+					item: "prettypipes:low_speed_module"
+					type: "item"
+				}
+				{
+					id: "27D47954739A13DA"
+					item: "prettypipes:medium_speed_module"
+					type: "item"
+				}
+				{
+					id: "5EB7999B444F0380"
+					item: "prettypipes:high_speed_module"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			hide: false
+			id: "60605315B1E5DC38"
+			shape: "circle"
+			tasks: [
+				{
+					id: "48BE8FAF4219356A"
+					item: "prettypipes:low_low_priority_module"
+					type: "item"
+				}
+				{
+					id: "4E8A6C8CCDC3563F"
+					item: "prettypipes:medium_low_priority_module"
+					type: "item"
+				}
+				{
+					id: "3761533C99E232DD"
+					item: "prettypipes:high_low_priority_module"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "4CF723F3889887CD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3C1117FE16DA3BB3"
+					item: "prettypipes:low_high_priority_module"
+					type: "item"
+				}
+				{
+					id: "45E53C05FB429AF0"
+					item: "prettypipes:medium_high_priority_module"
+					type: "item"
+				}
+				{
+					id: "60FDF73F1F0DE767"
+					item: "prettypipes:high_high_priority_module"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "33467679CB67B4A4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "51863952F3A694DB"
+					item: "prettypipes:low_retrieval_module"
+					type: "item"
+				}
+				{
+					id: "4DCD8F79123893DB"
+					item: "prettypipes:medium_retrieval_module"
+					type: "item"
+				}
+				{
+					id: "55B678FA48FEFDA3"
+					item: "prettypipes:high_retrieval_module"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "3ACF9D460F7B00C7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "007B0F6924B2038A"
+					item: "prettypipes:low_crafting_module"
+					type: "item"
+				}
+				{
+					id: "371CD6867675927B"
+					item: "prettypipes:medium_crafting_module"
+					type: "item"
+				}
+				{
+					id: "421469262635FA40"
+					item: "prettypipes:high_crafting_module"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD7B76439F06979"]
+			id: "2D5A0DB1125BBC4D"
+			shape: "circle"
+			tasks: [{
+				id: "39D4A3963B19AF2F"
+				item: "prettypipes:pressurizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "4E7327FA48D18FC5"
+			shape: "circle"
+			tasks: [{
+				id: "351DC55320CB639C"
+				item: "pneumaticcraft:camo_applicator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "18767B4EA37C9EDB"
+			shape: "circle"
+			tasks: [{
+				id: "3C3C26803AF406BD"
+				item: "pneumaticcraft:jackhammer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18767B4EA37C9EDB"]
+			id: "52C1471C959CEE76"
+			shape: "circle"
+			tasks: [
+				{
+					id: "174B376EEC55CB3E"
+					item: "pneumaticcraft:drill_bit_iron"
+					type: "item"
+				}
+				{
+					id: "06F9E371C3F2AD1F"
+					item: "pneumaticcraft:drill_bit_compressed_iron"
+					type: "item"
+				}
+				{
+					id: "01C27C96DBECEAFC"
+					item: "pneumaticcraft:drill_bit_diamond"
+					type: "item"
+				}
+				{
+					id: "30ACCC4077BCCC7C"
+					item: "pneumaticcraft:drill_bit_netherite"
+					type: "item"
+				}
+			]
+			title: "Drill Bits"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			description: [
+				"This sensor should locate underground lake resevoirs of oil. "
+				""
+				"However, in my experience, I have not had any luck. Perhaps you will? "
+				""
+				"The oil on the surface is much easier to see, and pretty common in Desert biomes. "
+				""
+				"It only locates oil under you, so if you try to click on an actual oil resevoir -- it will say nothing is there. If you place a block over that resevoir, then try again, it should register and tell you how much oil is there."
+			]
+			id: "54F12B3788B6A6A9"
+			shape: "circle"
+			tasks: [{
+				id: "069699E889BF6DDE"
+				item: "pneumaticcraft:seismic_sensor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D29E707D6153F7D"]
+			description: ["Hold \"Shift\" over any of the Drones to see their functionality."]
+			id: "38A0EFFAC7DA1C53"
+			shape: "circle"
+			tasks: [
+				{
+					id: "374721CBD6846E3C"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+				{
+					id: "32171CF026832D07"
+					item: "pneumaticcraft:logistics_drone"
+					type: "item"
+				}
+				{
+					id: "77D5BC6EA3E2A9CE"
+					item: "pneumaticcraft:harvesting_drone"
+					type: "item"
+				}
+				{
+					id: "002E63A12D8CA440"
+					item: "pneumaticcraft:guard_drone"
+					type: "item"
+				}
+				{
+					id: "399F8AC274778D2F"
+					item: "pneumaticcraft:collector_drone"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			description: [
+				"This is the best Reforging Table you can make.  "
+				""
+				"This will allow you to reforge up to &6Mythic&r level."
+			]
+			id: "6EC9BEA0BDF60354"
+			shape: "circle"
+			subtitle: "Better reforging!"
+			tasks: [{
+				id: "2BBC674D3C4A8062"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C1E83D3986A642A"]
+			description: [
+				"While Compact Machines can definitely be considered a \"High Tech\" mod intended for late game, I have always seen it as a way to help control Overworld performance (and a cool tech mod)"
+				""
+				"If you've never used Compact Machines before:"
+				""
+				"For each room that you build &oex: Compact Machine (Large)&r you will be able to enter the room with the Personal Shrinking Device (from Compact Machines, not Shrink) by placing the block, and then right clicking it with the remote. "
+				""
+				"This will teleport you to the Compact Machine dimension, and provide you with a room that you can build machines in. "
+				""
+				"While these rooms can be a great tool to save TPS in the Overworld, they can be used to build whatever they can fit. "
+				""
+				"While each block will teleport you to the Compact Machine dimension, each room that's created is unique!"
+			]
+			id: "681EB3DE8A4AFD0C"
+			shape: "circle"
+			subtitle: "It's bigger on the inside."
+			tasks: [{
+				id: "5C8933F6E48697D9"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["681EB3DE8A4AFD0C"]
+			id: "64BD82EC0A4D7A0E"
+			shape: "circle"
+			tasks: [{
+				id: "561BDD82C7D299EB"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["681EB3DE8A4AFD0C"]
+			id: "2B7B10F23B8827CA"
+			shape: "circle"
+			tasks: [{
+				id: "06711206BAB22B2E"
+				item: "compactmachines:machine_tiny"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["681EB3DE8A4AFD0C"]
+			id: "38B5F130C9D13718"
+			shape: "circle"
+			tasks: [{
+				id: "5DA03DF378C59748"
+				item: "compactmachines:machine_small"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["681EB3DE8A4AFD0C"]
+			id: "448D669888DABD6E"
+			shape: "circle"
+			tasks: [{
+				id: "75A6023048F4F96C"
+				item: "compactmachines:machine_large"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["681EB3DE8A4AFD0C"]
+			id: "2241886055AE439A"
+			shape: "circle"
+			tasks: [{
+				id: "13005274183FC294"
+				item: "compactmachines:machine_maximum"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["681EB3DE8A4AFD0C"]
+			id: "57CCDD46AE69928F"
+			shape: "circle"
+			tasks: [{
+				id: "2FAD7E3E2222C174"
+				item: "compactmachines:machine_giant"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DB43F74D53D9EEE"]
+			id: "628C38FBD0F6F7FF"
+			shape: "circle"
+			tasks: [{
+				id: "170081F2C3D353C2"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "14262CA0239E9FB8"
+			shape: "circle"
+			tasks: [{
+				id: "3FF3B746F91822E2"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "4919C0563591FD86"
+			shape: "circle"
+			tasks: [{
+				id: "2BA322DF34E71BBB"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "17E89F4BA141D8C1"
+			shape: "circle"
+			tasks: [{
+				id: "30536EA7FEB93C4B"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "66F5574E062E506B"
+			shape: "circle"
+			tasks: [{
+				id: "38F217A600A84463"
+				item: "productivebees:upgrade_not_babee"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "3545718388C95400"
+			shape: "circle"
+			tasks: [{
+				id: "6A51378DB0E1DCDF"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "6815299FED7341FA"
+			shape: "circle"
+			tasks: [{
+				id: "57D7EAF0C05D8E7D"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "6E9D11AEFCDD1D70"
+			shape: "circle"
+			tasks: [{
+				id: "2B92A08FA1304C87"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "00AACBDF33A1A527"
+			shape: "circle"
+			tasks: [{
+				id: "22C18C040C8FCF23"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "3E065B8A93298176"
+			shape: "circle"
+			tasks: [{
+				id: "2F7FF093C8A54D5D"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["628C38FBD0F6F7FF"]
+			id: "1332CA9BFCC30D48"
+			shape: "circle"
+			tasks: [{
+				id: "7C716E8F405DB127"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "18D58DDE8B004C9A"
+			shape: "circle"
+			tasks: [{
+				id: "6F928D14283A30FF"
+				item: "ad_astra_giselle_addon:pneumatic_gravity_normalizing_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "0CF4CD722AA2BF80"
+			shape: "circle"
+			tasks: [{
+				id: "1CFDD15800945C48"
+				item: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "7F6AC75D046D823B"
+			shape: "circle"
+			tasks: [{
+				id: "0A2B555898F9D53A"
+				item: "ad_astra_giselle_addon:pneumatic_acid_rain_proof_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F3A305DB84B1A1E"]
+			id: "3C6CF419C9D53C58"
+			shape: "circle"
+			tasks: [{
+				id: "232333D2FA3496A1"
+				item: "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			description: [
+				"By now, maybe you have found some Relics in the world, but aren't sure what to do with them. "
+				""
+				"In order to research them, you'll need this handy research table.  "
+				""
+				"From here you can learn what the Relic does, and start leveling it up!"
+			]
+			id: "40DA79C0B8871D2D"
+			shape: "circle"
+			tasks: [{
+				id: "3220DF022FBDDF41"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			description: [
+				"These wands will change your life when it comes to building large, or even small structures.  "
+				""
+				"They will let you place down many blocks at one time, and fill in large areas in one click."
+			]
+			id: "128E41C3098863D1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "47B0CC7AEEE235E0"
+					item: {
+						Count: 1b
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00542E04FFB02C5A"
+					item: {
+						Count: 1b
+						id: "constructionwand:iron_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4889EF5A9645D2DF"
+					item: {
+						Count: 1b
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Construction Wands"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7FE6C2524B72462E"]
+			description: ["A little extra Oxygen for a worst case scenario."]
+			id: "1A1F19EEC8C29775"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3B0CFA76D9BE6A20"
+					item: {
+						Count: 1b
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6059184D656B2AB7"
+					item: {
+						Count: 1b
+						id: "ad_astra_giselle_addon:netherite_oxygen_can"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C1E83D3986A642A"]
+			description: [
+				"The Market Block has lots of good deals. "
+				""
+				"Spawn eggs, seeds/saplings, uncraftable blocks, runes, and plenty more.  "
+				""
+				"Later you will be required to trade with the Market in order to progress, so you may as well get this set up!"
+			]
+			id: "1DEC2874DEC28A2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59697DB9F3E4E602"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "31E37050A68D59B3"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Utility"
+}

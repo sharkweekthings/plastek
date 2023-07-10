@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chocobos"
+	group: "6274245AF897553D"
+	icon: "chococraft:gysahl_green"
+	id: "41A246769AE410A9"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Found in the wild"]
+			icon: "chococraft:yellow_chocobo_spawn_egg"
+			id: "4A7D93C376414B8D"
+			shape: "circle"
+			subtitle: "In the wild"
+			tasks: [{
+				id: "575D11619129C02B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Yellow Chocobo"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["Yellow + Yellow"]
+			icon: "chococraft:green_chocobo_spawn_egg"
+			id: "0DEDFCD21C03158D"
+			shape: "circle"
+			subtitle: "Breeding"
+			tasks: [{
+				id: "0F9326FE9863674B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Green Chocobo"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: ["Yellow + Yellow"]
+			icon: "chococraft:blue_chocobo_spawn_egg"
+			id: "16486BDC18F2221C"
+			shape: "circle"
+			subtitle: "Breeding"
+			tasks: [{
+				id: "15591CBE60E96ACD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Blue Chocobo"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["Green + Blue"]
+			icon: "chococraft:white_chocobo_spawn_egg"
+			id: "4EAF5F36C4ADCC44"
+			shape: "circle"
+			subtitle: "Breeding"
+			tasks: [{
+				id: "0AD54D60D2658D2E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "White Chocobo"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["White + Yellow"]
+			icon: "chococraft:black_chocobo_spawn_egg"
+			id: "7A36733A42BA09D2"
+			shape: "circle"
+			subtitle: "Breeding"
+			tasks: [{
+				id: "41CA303C5C780FAD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Black Chocobo"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"White + Black"
+				""
+				"or"
+				""
+				"Gold + Gold w/ Golden Gysahl"
+			]
+			icon: "chococraft:gold_chocobo_spawn_egg"
+			id: "31E8E05133F4B629"
+			shape: "circle"
+			subtitle: "Breeding"
+			tasks: [{
+				id: "00E21894C3570A6A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Golden Chocobo"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["Feed Gold Chocobos Pink Gysahls."]
+			icon: "chococraft:pink_chocobo_spawn_egg"
+			id: "7018F07D5C4B566F"
+			shape: "circle"
+			subtitle: "Feeding"
+			tasks: [{
+				id: "4C0E0AE52AEF8BCD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Pink Chocobo"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Feed Gold Chocobs Red Gysals."]
+			icon: "chococraft:red_chocobo_spawn_egg"
+			id: "4E5170DD70F593FC"
+			shape: "circle"
+			subtitle: "Feeding"
+			tasks: [{
+				id: "187B189CD05F1297"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Red Chocobo"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Rarely found in the Nether."]
+			icon: "chococraft:flame_chocobo_spawn_egg"
+			id: "41E86F5AF9DC3C2B"
+			shape: "circle"
+			subtitle: "Rare Find"
+			tasks: [{
+				id: "0BBFB8D6AE1FF133"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Flame Chocobo"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Check out the Akashic Tome and read the Chocopedia for more information on Chococraft, and how to get going with Breeding!"
+				""
+				"Like the Bees, I couldn't figure out a good way to track completion of this.  "
+				""
+				"Use this collection tab as a general checklist for your accomplishments. "
+			]
+			icon: "chococraft:chocobo_drumstick_cooked"
+			id: "2A952D0F002085BF"
+			rewards: [{
+				count: 2
+				id: "612D6EE9AA270343"
+				item: "chococraft:chocobo_drumstick_cooked"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Kweh, Kweh.. Kweh!!"
+			tasks: [{
+				id: "490DA16EE9350491"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Kweh!"
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "Chocobos"
+}

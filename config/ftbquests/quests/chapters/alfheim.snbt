@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alfheim"
+	group: "6864EC96E852A08D"
+	icon: "mythicbotany:kvasir_mead"
+	id: "7AC12135387F8341"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "6934CC633FD25CC2"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "7D319764A1B0471D"
+				type: "dimension"
+			}]
+			title: "Alfheim is a Place"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6934CC633FD25CC2"]
+			id: "0CC78D789648D7F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72FD71A6A96E05B5"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6554760E2856BAC7"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CC78D789648D7F5"]
+			icon: "supplementaries:globe"
+			id: "548E98A50241A7BB"
+			rewards: [{
+				id: "0545B1CDF9F5C9BD"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "02C07E81FBB859DA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Alfheim Globe"
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+	title: "Alfheim"
+}

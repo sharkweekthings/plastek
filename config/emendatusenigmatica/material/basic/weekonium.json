@@ -1,0 +1,30 @@
+{
+  "id": "weekonium",
+  "source": "modded",
+  "localizedName": "Weekonium",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "nugget",
+    "raw",
+    "dust",
+    "plate",
+    "ore",
+    "clump",
+    "crystal",
+    "shard",
+    "dirty_dust",
+    "slurry",
+    "crushed_ore",
+    "plate" 
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 4
+  },
+  "colors": {
+    "fluidColor": "3128E0",
+    "materialColor": "3128E0",
+    "gasColor": "3128E0"
+  }
+}

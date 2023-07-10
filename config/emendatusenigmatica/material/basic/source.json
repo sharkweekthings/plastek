@@ -1,0 +1,15 @@
+{
+    "id": "source",
+    "source": "modded",
+    "localizedName": "Source",
+    "processedTypes": [
+      "ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 3
+    },
+    "colors": {
+      "materialColor": "B045E5"
+    }
+}

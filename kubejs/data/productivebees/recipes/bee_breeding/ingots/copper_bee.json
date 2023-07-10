@@ -1,0 +1,8 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:digger_bee",
+    "parent2": "productivebees:ashy_mining_bee",
+    "offspring": [
+        "productivebees:copper"
+    ]
+}

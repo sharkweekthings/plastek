@@ -1,0 +1,1422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_6"
+	group: "16ADE1AEEBEEE736"
+	icon: "mekanism:ultimate_smelting_factory"
+	id: "2A867107AD65BE44"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			description: [
+				"This age focuses on Mekanism and Powah. "
+				""
+				"We'll be setting up the final machines, and cranking up the power. "
+			]
+			id: "331771D570C7CDA6"
+			tasks: [{
+				id: "179539687EDE5C5D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Sixth Age"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["331771D570C7CDA6"]
+			id: "6AB3CD334148DB52"
+			tasks: [{
+				id: "002044C94C9F0E7E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Mekanism"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["331771D570C7CDA6"]
+			id: "53FC9AD3F4DD2B2B"
+			tasks: [{
+				id: "336E191555E8207A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Powah"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3789119EC3E9E65F"]
+			description: ["This is a multi chamber smelting machine.  With the right upgrades, this can process a ton of materials, really fast!"]
+			id: "52FC4C703744EB18"
+			shape: "circle"
+			tasks: [{
+				id: "02AD1A49445734D4"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3789119EC3E9E65F"]
+			description: ["Crushing of future"]
+			id: "76B3E3D074EA6D1D"
+			shape: "circle"
+			tasks: [{
+				id: "0F3C09E746713048"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3789119EC3E9E65F"]
+			description: [
+				"To start you should get a setup for at least 3 Metallurgic Infusers. "
+				""
+				"You'll need to fill them with:"
+				""
+				"- &cRedstone&r"
+				"&o* Putting an Iron Ingot in this will give you Infused Alloy &r "
+				""
+				"&o* Putting an Osmium Ingot in this will give you a Basic Control Circuit.&r"
+				""
+				"- &bDiamond&r"
+				"&o* Putting Obsidian Dust in this will give you Refined Obsidian Dust&r"
+				""
+				"&o* Putting the Infused Alloy in this will give you a Reinforced Alloy&r"
+				""
+				"- &5Refined Obsidian&r"
+				"&o* Putting Reinforced Alloy in this will give you an Atomic Alloy&r"
+			]
+			id: "4BD9421A41706CA1"
+			tasks: [{
+				id: "258673B60E657D9F"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Metallurgic Infuser x3"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3789119EC3E9E65F"]
+			description: ["Filling an Osmium Compresser with Osmium, and dropping in Glowstone Dust, and Refined Obsidian Dust will net you the Refined Glowstone, and Obsidian Ingots."]
+			id: "091A1861A0BC9E18"
+			tasks: [{
+				id: "7BFFA7D8DA9F29F2"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			description: [
+				"This whole chain is dedicated to the machines that you need in order to do Ore Multiplication w/ Mekanism. "
+				""
+				"You'll notice a few Buckets over there. This usually means that you'll need several machines to get the fluid that you need.  "
+				""
+				"&cClick on the Bucket quests and it should have guidance on what you need to do with the machines.&r"
+				""
+				"&cYou will need 1 bucket of each fluid to finish this age.&r"
+			]
+			id: "380F35F18A82D30C"
+			subtitle: "Read the buckets for more info!"
+			tasks: [{
+				id: "3CCC99FE07092864"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "2 + 3 = This Many"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["380F35F18A82D30C"]
+			id: "07D4EBE8C300917B"
+			tasks: [{
+				id: "1888F0E5D925F035"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07D4EBE8C300917B"]
+			id: "0864F6A749897598"
+			tasks: [{
+				id: "31CD5E163994A6EE"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0864F6A749897598"]
+			id: "61E3EBB6CE9858C8"
+			tasks: [{
+				id: "55CA5E31799AC242"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61E3EBB6CE9858C8"]
+			id: "6A0517AD64CD1636"
+			tasks: [{
+				id: "2E28BE075518E7EB"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A0517AD64CD1636"]
+			id: "740857C1B486737C"
+			shape: "circle"
+			tasks: [{
+				id: "5FDDEB4AD42E5FCC"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["740857C1B486737C"]
+			id: "3F28DB0CD0C2DD16"
+			shape: "circle"
+			tasks: [{
+				id: "30C043E350167333"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F28DB0CD0C2DD16"]
+			id: "2528033D9646B362"
+			shape: "circle"
+			tasks: [{
+				id: "6FB21EF4E487C47F"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2528033D9646B362"]
+			id: "6601DCF4AF9DFCA1"
+			shape: "circle"
+			tasks: [{
+				id: "6C3CDF4F4C917DFE"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["740857C1B486737C"]
+			description: [
+				"This one is easy. "
+				""
+				"Either send some excess Oxygen to the machine, or setup another Electrolytic Separator and use the Oxygen from that. "
+			]
+			id: "5DE3F45D28CE409D"
+			shape: "circle"
+			subtitle: "This is a help guide. Bucket optional!"
+			tasks: [{
+				id: "2BC7A628615371FF"
+				item: "mekanism:oxygen_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["380F35F18A82D30C"]
+			id: "633A082D84F02D6B"
+			tasks: [{
+				id: "57B602E3383B364B"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["380F35F18A82D30C"]
+			id: "616ED7D07DABB259"
+			tasks: [{
+				id: "051E9591552F9657"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["380F35F18A82D30C"]
+			id: "09494D09BE320501"
+			tasks: [{
+				id: "7D094FCAEFC68EBA"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["380F35F18A82D30C"]
+			id: "40E5435D59544776"
+			tasks: [{
+				id: "4B308E5EA54644E7"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["380F35F18A82D30C"]
+			id: "33DCF754E46DD153"
+			tasks: [{
+				id: "2FFB3BAEA7A4A57D"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"07D4EBE8C300917B"
+				"33DCF754E46DD153"
+				"40E5435D59544776"
+				"633A082D84F02D6B"
+				"616ED7D07DABB259"
+				"09494D09BE320501"
+			]
+			description: [
+				"This is just a quick run down on roughly what to do with the machines below, to produce Sulfuric Acid. "
+				""
+				"#1 Electrolytic Separator - Pumping water into this will produce Hydrogen and Oxygen"
+				""
+				"#2 Rotary Condensentrator - Pumping water into this will produce Water Vapor"
+				""
+				"#3 Chemical Oxidizer - Placing Sulfur Dust into this machine will result in Sulfur Dioxide"
+				""
+				"#4 Chemical Infuser - On one side, pump the Oxygen from a Electrolytic Separator, on the other side pump in the Sulfur Dioxide from your Chemical Oxidizer to produce Sulfur Trioxide."
+				""
+				"#5 Chemical Infuser - On one side, pump the Water Vapor from a Rotary Condensentrator, on the other side pump in the Sulfur Trioxide from the last Chemical Infuser. "
+				""
+				"This should net you some Sulfuric Acid! "
+			]
+			id: "4983238CD46034AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7240873C01269684"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "65AD35D21E1834A4"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			title: "Sulfuric Acid"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61E3EBB6CE9858C8"]
+			id: "62EC0677C0D1EC12"
+			tasks: [
+				{
+					count: 33L
+					id: "4A15F78BA574EBE4"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B72DC10E7158460"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "522EC8006A2BAE04"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Plant"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62EC0677C0D1EC12"]
+			id: "34125294940AC282"
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "378EDBE3937C9CF6"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			title: "A Better Thermal Evaporation Plant"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61E3EBB6CE9858C8"]
+			id: "3F4B380A467992A6"
+			tasks: [{
+				id: "07458C21B540156A"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "Electrolytic Separator -HC"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61E3EBB6CE9858C8"]
+			id: "2F5CAE4EA6129D80"
+			tasks: [{
+				id: "2DF32316D2ED4709"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "Electrolytic Separator HC2"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61E3EBB6CE9858C8"]
+			id: "47BD454F22576A51"
+			tasks: [{
+				id: "05A28D8F0E728FA1"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"62EC0677C0D1EC12"
+				"3F4B380A467992A6"
+				"2F5CAE4EA6129D80"
+				"47BD454F22576A51"
+				"6A0517AD64CD1636"
+			]
+			description: [
+				"This is just a quick run down on roughly what to do with the machines below, to produce Hydrogen Chloride. "
+				""
+				"#1 Electrolytic Separator - Pumping water into this will produce Hydrogen and Oxygen"
+				""
+				"#1 Thermal Evaporation Plant - Sending water to the Thermal Evaporation Plant will create Brine.  Adding 4 Solar Generators to your Plant will significantly increase the production speed."
+				""
+				"#2 Electrolytic Separator - Send Brine to a Electrolytic Separator and that will create Sodium and Chlorine"
+				""
+				"#3 Electrolytic Separator - Sending Water to another Separator will create Hydrogen and Oxygen"
+				""
+				"#4 Chemical Infuser - Send Chlorine from one of the Electrolytic Separators, and Hydrogen from the other.  "
+				""
+				"This should net you some Hydrogen Chloride!"
+			]
+			id: "04474CB3A0B69012"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E02641E91F49A4C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7B7374B47237361B"
+				item: "mekanism:hydrogen_chloride_bucket"
+				type: "item"
+			}]
+			title: "Hydrogen Chloride"
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["331771D570C7CDA6"]
+			description: [
+				"This rocket will be able to take us to Mercury and Venus. "
+				""
+				"&c&oYou will need HDPE Sheets to continue&r&r"
+			]
+			id: "3D0853BBA9221785"
+			subtitle: "Back to space!!"
+			tasks: [{
+				id: "2F0475E31D049DC1"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Jack, We Need To Go Back"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D0853BBA9221785"]
+			description: [
+				"There is a rumor that the Market person found a downed alien ship and may have what you need in order to get to Venus and Mercury. "
+				""
+				"Considering the Market person has no use for these items, they are supposedly willing to trade them away for quite a steal!"
+				""
+				"You will need to buy the Damaged Crystal Housing Unit, as well as the Goa'uld Crystal for the cheap price of a bucket of Sulfuric Acid, and Hydrogen Chloride. "
+				""
+				"With these items, and a few others you'll be able to make a Crystal Housing Unit through Sequenced Assembly."
+			]
+			id: "6A337CED7C4DE0ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34CC9783020223D4"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "008BD6D088BD0D77"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			description: [
+				"#1 You'll need to turn Phytogro into Bio Fuel by sending it through an Enrichment Chamber"
+				""
+				"#2 Put Water in a Electrolytic Separator to create Hydrogen and Oxygen."
+				""
+				"#3 Send Water, Hydrogen, and the Bio Fuel into a Pressurized Reaction Chamber which will create Substrate and Ethylene."
+				""
+				"#4 Send Ethylene, Oxygen, and Substrate to another Pressurized Reaction Chamber and this should create the HDPE Pellet."
+				""
+				"#5 Now you'll need to use another Enrichment Chamber to turn the Pellets into sheets."
+			]
+			id: "3130DA8C7FFD798C"
+			tasks: [{
+				id: "1B1A47FCDD3D9AE1"
+				title: "More Plastic!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3130DA8C7FFD798C"]
+			id: "11B23A36E3CB7CAA"
+			tasks: [{
+				id: "31B6FEF8F64777C5"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3130DA8C7FFD798C"]
+			id: "08068CFB78188533"
+			tasks: [{
+				id: "0D6F51CCA2A826A6"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3130DA8C7FFD798C"]
+			id: "3CFC699455E48E78"
+			tasks: [{
+				id: "7A7423EC6846A017"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3130DA8C7FFD798C"]
+			description: [
+				"You will need to put 2 HDPE Pellets, 1 Cheap Plastic, and 1 Plastic into a Pressure Chamber. "
+				""
+				"This will create your HDPE Sheet."
+			]
+			id: "5BEE3233A277F52E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE0191E74381123"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3BE3CAF9D17AF2B4"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["53FC9AD3F4DD2B2B"]
+			description: [
+				"Each Reactor will require 36 blocks to construct.  "
+				""
+				"The structure itself will auto construct, given that all the Reactor Blocks are in your hand when you place the first block."
+			]
+			id: "331C109ECCC53EFA"
+			tasks: [{
+				id: "02167ABAA077B152"
+				title: "Powah Overwhelming"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["331C109ECCC53EFA"]
+			id: "767DE5E9115682D3"
+			tasks: [{
+				id: "1B99F6ADDA38A0A3"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EDCBADA14989465"]
+			id: "0422EDAB49877CEA"
+			tasks: [{
+				id: "37082E7A94CB17D0"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52F3DBD70678F35F"]
+			id: "6B2D8F7067DB469A"
+			tasks: [{
+				id: "5681250627F06942"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15D6C9DA2DABF952"]
+			id: "029B722F91BFA54E"
+			tasks: [{
+				id: "6D198705BD7D70E5"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07058389A485CBF5"]
+			id: "772AF3DC81E0E465"
+			tasks: [{
+				id: "6F0C75DDAF6E622D"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E12D78DE66C5254"]
+			id: "1D9B83DE4E8D1DC3"
+			shape: "circle"
+			tasks: [{
+				id: "74B7CC54DD8EC888"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["331C109ECCC53EFA"]
+			id: "67A8D9262945B3A5"
+			tasks: [
+				{
+					id: "0B210E25D5DAE9D3"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "7CEF5C264753EE93"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+				{
+					id: "4C12332336D84367"
+					item: "powah:capacitor_basic_tiny"
+					type: "item"
+				}
+			]
+			title: "Starter Parts"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5892322BD60199FB"]
+			id: "040D4AE110344788"
+			tasks: [{
+				id: "4DC420F485F6A3A4"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5892322BD60199FB"]
+			id: "4987689EE6C7590B"
+			tasks: [
+				{
+					id: "0357F7CA485FB6B9"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "7AF724824CD3067F"
+					item: "powah:reactor_starter"
+					type: "item"
+				}
+				{
+					id: "40299FE92A80EE6F"
+					item: "powah:capacitor_basic_large"
+					type: "item"
+				}
+			]
+			title: "Basic Parts"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EDCBADA14989465"]
+			id: "217050723F1F8C1E"
+			tasks: [
+				{
+					id: "3BA7F70DEF00F8E3"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "1AA1157AC2D5D432"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+				{
+					id: "0999796E2FBA9E38"
+					item: "powah:capacitor_hardened"
+					type: "item"
+				}
+			]
+			title: "Hardened Parts"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F3DBD70678F35F"]
+			id: "66D029C0334B0D15"
+			tasks: [
+				{
+					id: "6CE087F973B88C6E"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "4DBE2C22ABC007C8"
+					item: "powah:reactor_hardened"
+					type: "item"
+				}
+				{
+					id: "51111AE643F76671"
+					item: "powah:capacitor_blazing"
+					type: "item"
+				}
+			]
+			title: "Blazing Parts"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15D6C9DA2DABF952"]
+			id: "51276A0189526DF6"
+			tasks: [
+				{
+					id: "1558400FB0588FB9"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "597A3FF89B743E47"
+					item: "powah:reactor_blazing"
+					type: "item"
+				}
+				{
+					id: "3CD03BB3CFD32884"
+					item: "powah:capacitor_niotic"
+					type: "item"
+				}
+			]
+			title: "Niotic Parts"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07058389A485CBF5"]
+			id: "16E5FD2A736C4463"
+			tasks: [
+				{
+					id: "23B31B76EF61A0BE"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "5D20FBFE17B9CE15"
+					item: "powah:reactor_niotic"
+					type: "item"
+				}
+				{
+					id: "080516C65D1A6389"
+					item: "powah:capacitor_spirited"
+					type: "item"
+				}
+			]
+			title: "Spirited Parts"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E12D78DE66C5254"]
+			id: "6881F23A6A70CFF6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "56D68D3DBF725147"
+					item: "powah:uraninite"
+					type: "item"
+				}
+				{
+					id: "593CAA9E77223D6D"
+					item: "powah:reactor_spirited"
+					type: "item"
+				}
+				{
+					id: "6E9450DE0F2166EA"
+					item: "powah:capacitor_nitro"
+					type: "item"
+				}
+			]
+			title: "Nitro Parts"
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67844B4151B2D4F2"]
+			id: "5EC9F993C969FDCB"
+			shape: "circle"
+			subtitle: "This will transfer power from your reactors to whatever machines it's attached to"
+			tasks: [
+				{
+					id: "042547D8A1426E76"
+					item: "powah:ender_gate_starter"
+					type: "item"
+				}
+				{
+					id: "258C3551C6434B21"
+					item: "powah:ender_gate_basic"
+					type: "item"
+				}
+				{
+					id: "41509E9D5BA9488D"
+					item: "powah:ender_gate_hardened"
+					type: "item"
+				}
+				{
+					id: "583F26775DADF282"
+					item: "powah:ender_gate_blazing"
+					type: "item"
+				}
+				{
+					id: "4BC242043CA70731"
+					item: "powah:ender_gate_niotic"
+					type: "item"
+				}
+				{
+					id: "26BCA9E42E7D7997"
+					item: "powah:ender_gate_spirited"
+					type: "item"
+				}
+				{
+					id: "47AD6205DB52CBDC"
+					item: "powah:ender_gate_nitro"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67844B4151B2D4F2"]
+			id: "799C5A7B071C96CC"
+			shape: "circle"
+			subtitle: "Wireless power for your person! Charge everything from your Inventory/Hotbar."
+			tasks: [
+				{
+					id: "4061B8A4D5F69CEA"
+					item: "powah:player_transmitter_starter"
+					type: "item"
+				}
+				{
+					id: "0160C1005D1180BA"
+					item: "powah:player_transmitter_basic"
+					type: "item"
+				}
+				{
+					id: "13A619E5F67D9B89"
+					item: "powah:player_transmitter_hardened"
+					type: "item"
+				}
+				{
+					id: "3FB33626070383FA"
+					item: "powah:player_transmitter_blazing"
+					type: "item"
+				}
+				{
+					id: "38FB63E001154716"
+					item: "powah:player_transmitter_niotic"
+					type: "item"
+				}
+				{
+					id: "5667686058E639D4"
+					item: "powah:player_transmitter_spirited"
+					type: "item"
+				}
+				{
+					id: "6144C287C147C81B"
+					item: "powah:player_transmitter_nitro"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67844B4151B2D4F2"]
+			id: "72559E533C291607"
+			shape: "circle"
+			subtitle: "Put things into the Energizing Orb and zap them with the Energizing Rod"
+			tasks: [
+				{
+					id: "1512D2AA855B04F5"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+				{
+					id: "570049A1026EE6E1"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+				{
+					id: "4A230B970F9DDFC7"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+				{
+					id: "7C851CB06BB6064A"
+					item: "powah:energizing_rod_blazing"
+					type: "item"
+				}
+				{
+					id: "011A24386B892A8E"
+					item: "powah:energizing_rod_niotic"
+					type: "item"
+				}
+				{
+					id: "45FD4A53D43EB991"
+					item: "powah:energizing_rod_spirited"
+					type: "item"
+				}
+				{
+					id: "72E2DB989FBE2FD9"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67844B4151B2D4F2"]
+			id: "139F6B8B767A1279"
+			shape: "circle"
+			subtitle: "For moving Energy"
+			tasks: [
+				{
+					id: "2350169834F6BD5C"
+					item: "powah:energy_cable_starter"
+					type: "item"
+				}
+				{
+					id: "624DB89276CF25CB"
+					item: "powah:energy_cable_basic"
+					type: "item"
+				}
+				{
+					id: "48FF3E786CE64314"
+					item: "powah:energy_cable_hardened"
+					type: "item"
+				}
+				{
+					id: "5969E922156B0EF8"
+					item: "powah:energy_cable_blazing"
+					type: "item"
+				}
+				{
+					id: "3124A2BF1C263A38"
+					item: "powah:energy_cable_niotic"
+					type: "item"
+				}
+				{
+					id: "6EDB21A79C2917E1"
+					item: "powah:energy_cable_spirited"
+					type: "item"
+				}
+				{
+					id: "61D5B6DCF3099EED"
+					item: "powah:energy_cable_nitro"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67844B4151B2D4F2"]
+			id: "3119700AF859D7EA"
+			shape: "circle"
+			subtitle: "Holds items to be zapped"
+			tasks: [{
+				id: "54A39123AD58C0E0"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["040D4AE110344788"]
+			hide_dependency_lines: true
+			id: "6477D7ABD5D11941"
+			tasks: [{
+				id: "77A3AA51815B3259"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0422EDAB49877CEA"]
+			hide_dependency_lines: true
+			id: "609E76ADEE3D1D63"
+			tasks: [{
+				id: "7FA96BA55EF97637"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B2D8F7067DB469A"]
+			hide_dependency_lines: true
+			id: "7D039E89BD0D7A60"
+			tasks: [{
+				id: "039153E78C6ABDAB"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["029B722F91BFA54E"]
+			hide_dependency_lines: true
+			id: "7D6EBC73A32BFA92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CA538026ED58D03"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6F41A5EA62605797"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["772AF3DC81E0E465"]
+			hide_dependency_lines: true
+			id: "75B016316EC60D51"
+			shape: "circle"
+			tasks: [{
+				id: "0948A6E6EAA3CFCA"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"767DE5E9115682D3"
+				"67A8D9262945B3A5"
+			]
+			id: "5892322BD60199FB"
+			tasks: [{
+				id: "7DEE04125B7FA8CE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Starter Reactor Built"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"040D4AE110344788"
+				"4987689EE6C7590B"
+			]
+			id: "2EDCBADA14989465"
+			tasks: [{
+				id: "13E700F308FB02BE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Basic Reactor Built"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0422EDAB49877CEA"
+				"217050723F1F8C1E"
+			]
+			id: "52F3DBD70678F35F"
+			tasks: [{
+				id: "3FE80A4D498772EC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Hardened Reactor Built"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6B2D8F7067DB469A"
+				"66D029C0334B0D15"
+			]
+			id: "15D6C9DA2DABF952"
+			tasks: [{
+				id: "5FD263B4E8D1F908"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Blazing Reactor Built"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"51276A0189526DF6"
+				"029B722F91BFA54E"
+			]
+			id: "07058389A485CBF5"
+			tasks: [{
+				id: "7AE0A597C6A4A277"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Niotic Reactor Built"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"772AF3DC81E0E465"
+				"16E5FD2A736C4463"
+			]
+			id: "1E12D78DE66C5254"
+			tasks: [{
+				id: "2271F8B468907B2A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Spirited Reactor Built"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1D9B83DE4E8D1DC3"
+				"6881F23A6A70CFF6"
+			]
+			id: "1D743581DC19CEAC"
+			shape: "circle"
+			tasks: [{
+				id: "364AE82ACA4AB4C2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Nitro Reactor Built"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["53FC9AD3F4DD2B2B"]
+			id: "67844B4151B2D4F2"
+			shape: "circle"
+			tasks: [{
+				id: "147E0BEDBC1DAE24"
+				title: "Powah Utility"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "3789119EC3E9E65F"
+			tasks: [{
+				id: "1D3F4802E9017202"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Basic Machines"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3789119EC3E9E65F"]
+			description: [
+				"While the Enrichment Chamber has many uses, putting some of the material that needs to go into a Metallurgic Infuser through an Enrichment Chamber may have some benefits."
+				""
+				"Try some Redstone or Diamond for example."
+			]
+			id: "61D75A737F84975D"
+			shape: "circle"
+			tasks: [{
+				id: "5FA91130E5D52C44"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6601DCF4AF9DFCA1"]
+			description: ["With all these machines setup, hooked up, and running in conjunction with one another, Mekanism Ore Multiplication is complete!"]
+			id: "242AB385D921C1F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D5C24012EF3F126"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5A3844A8DB3D1267"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Wow"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4983238CD46034AB"]
+			description: ["Trading with the Market person will get you a Gouald Crystal."]
+			id: "24C8EF6A53F6D7A8"
+			subtitle: "Have I got a deal for you!"
+			tasks: [{
+				id: "4858ED950788BDB4"
+				item: "kubejs:gouald_crystal"
+				type: "item"
+			}]
+			title: "Market Trade Sulfuric Acid"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["04474CB3A0B69012"]
+			description: [
+				"Trading with the Market person will give you a Damaged Crystal Housing Unit. "
+				""
+				"You'll need to run this, the Gouald Crystal, and a few other items through Sequenced Assembly. "
+			]
+			id: "00EDF41A0FC87A7F"
+			subtitle: "Time is Hydrogen Chloride, friend! "
+			tasks: [{
+				id: "2B76F6DC273C20CF"
+				item: "kubejs:damaged_crystal_housing_unit"
+				type: "item"
+			}]
+			title: "Market Trade Hydrogen Chloride"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"00EDF41A0FC87A7F"
+				"24C8EF6A53F6D7A8"
+			]
+			description: ["With this component, you should have all you need for your Tier 3 Rocket. "]
+			id: "1288C1609FEA3F39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F3F52A78FE095C2"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "663FAF06A4EFE7E0"
+				item: "kubejs:crystal_housing_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A337CED7C4DE0ED"]
+			description: [
+				"In order to get the ZPM you're going to need to get enough Unidentified Alien Pieces, and for the Housing Unit you'll need Unidentified Alien Parts. "
+				""
+				"You can find the pieces on Venus, and the parts on Mercury. "
+				""
+				"Once you have 1 stack each, you can make a few deals with the Market person to obtain these extremely rare treasures.  "
+				""
+				"&oTo this day nobody really knows why the Market person overcharges for most things, but then under charges for these Technology defying artifacts. "
+				"&r"
+			]
+			id: "2BC345F3C5804940"
+			tasks: [
+				{
+					count: 64L
+					id: "131C6E589E17B81C"
+					item: "emendatusenigmatica:alien_gear"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3CF4533A4223C369"
+					item: "emendatusenigmatica:alien_rod"
+					type: "item"
+				}
+			]
+			title: "UAPs"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4A117A32B18470FE"]
+			description: ["Like the Crystal Housing Unit that you made earlier, the process for this is the same except you'll be Deploying the ZPM into the Damaged Unit."]
+			id: "26CFA7E3DAE92864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ED3ACCAEAEEF2D1"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6F71AD33D7A85982"
+				item: "kubejs:zpm_housing_unit"
+				type: "item"
+			}]
+			title: "ZPM Housing Unit"
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6A337CED7C4DE0ED"]
+			id: "0464A5D19D1AC159"
+			subtitle: "We had to use it somewhere!"
+			tasks: [{
+				count: 25L
+				id: "4D0F39CC3735299F"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2BC345F3C5804940"
+				"0464A5D19D1AC159"
+			]
+			description: [
+				"This item is one of two items where you will need the Mechanical Crafter to progress. "
+				""
+				"When you enter the next age you will be able to make the Extended Crafting table to finish out the Age 7 recipes, which will also be created with the Mechanical Crafter."
+			]
+			id: "4A117A32B18470FE"
+			tasks: [{
+				id: "670A9A0E87D8E02E"
+				item: "kubejs:repaired_zpm_housing_unit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+	]
+	title: "Tech"
+}

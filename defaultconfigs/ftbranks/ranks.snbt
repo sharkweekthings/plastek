@@ -1,0 +1,59 @@
+{
+	member: {
+        name: "Member"
+        power: 1
+        condition: "always_active"
+        ftbranks.name_format: "&f<&bCaveman {name}&f>&r"
+        ftbchunks.max_claimed: 0
+        ftbchunks.max_force_loaded: 0
+	}
+	age_1: {
+		name: "Age1"
+        power: 2
+        ftbranks.name_format: "&f<&bAge 1 {name}&f>&r"
+        ftbchunks.max_claimed: 10
+        ftbchunks.max_force_loaded: 0
+	}
+	age_2: {
+		name: "Age2"
+        power: 3
+        ftbranks.name_format: "&f<&bAge 2 {name}&f>&r"
+        ftbchunks.max_claimed: 100
+        ftbchunks.max_force_loaded: 10
+	}
+	age_3: {
+		name: "Age3"
+        power: 4
+        ftbranks.name_format: "&f<&bAge 3 {name}&f>&r"
+        ftbchunks.max_claimed: 500
+        ftbchunks.max_force_loaded: 20
+	}
+	age_4: {
+		name: "Age4"
+        power: 5
+        ftbranks.name_format: "&f<&bAge 4 {name}&f>&r"
+        ftbchunks.max_claimed: 1000
+        ftbchunks.max_force_loaded: 40
+	}
+	age_5: {
+		name: "Age5"
+        power: 6
+        ftbranks.name_format: "&f<&bAge 5 {name}&f>&r"
+        ftbchunks.max_claimed: 1500
+        ftbchunks.max_force_loaded: 50
+	}
+	age_6: {
+		name: "Age6"
+        power: 7
+        ftbranks.name_format: "&f<&bAge 6 {name}&f>&r"
+        ftbchunks.max_claimed: 2000
+        ftbchunks.max_force_loaded: 100
+	}
+	age_7: {
+		name: "Age7"
+        power: 8
+        ftbranks.name_format: "&f<&bAge 7 {name}&f>&r"
+        ftbchunks.max_claimed: 2500
+        ftbchunks.max_force_loaded: 200
+	}
+}

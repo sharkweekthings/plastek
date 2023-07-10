@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_4"
+	group: "160159E361DC62EF"
+	icon: "botania:natura_pylon"
+	id: "7BE2C0FDA46F98AA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"Here we will be wrapping things up progression things for Botania, and Occultism."
+				""
+				"Both mods will still offer their own content going forward that may aide in progression, but it won't be a main focus. "
+				""
+				"If you're struggling with the Gaia Guardian boss, and you've enchanted your gear through normal means -- you may want to try building an Enchantment Library."
+				""
+				"Not only will this Library store all of your enchant books, it will also let you combine the books in the library to make super powerful enchants, but it is not cheap.  "
+			]
+			id: "4B4788A9A077FA41"
+			tasks: [{
+				id: "6778FB07C439E0E8"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Wrapping Up w/ Botania and Occultism"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"This ritual will let you summon a Demon that's capable of mining ore, and depositing it for you.  Come by every so often to see what the Demon brings you."
+				""
+				"Lets get to the ritual, shall we?"
+			]
+			id: "7370F0819950059B"
+			shape: "circle"
+			subtitle: "Ritual: Summon Foliot Miner"
+			tasks: [{
+				id: "24BD2AAF4FE9FA93"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Demon Mining"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43AC23BA6F042C2C"]
+			description: [
+				"Have you ever wondered what kind of lands lie beyond the great green portal?, Who is the individual that throws random stuff through the portal, when you throw things through? How did I fly to the Moon in a plastic rocketship, powered by sheep wool?, or even -- why did I bother reading all of this? "
+				""
+				"Well, one of those questions will be answered by the end of this chain. "
+			]
+			id: "545BCD238889A9AF"
+			tasks: [{
+				id: "5EF0EB0FFCE648C9"
+				title: "Wormhole Extreme"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"This fight can be pretty tough.  "
+				""
+				"If you havent been following up with your gear, and you've been a greedy bum with your materials, now is the time to upgrade. "
+				""
+				"It's suggested to wear an enchanted set of &dElementium armor&r, with a &aTerra Blade&r, and variety of brews, and trinkets.  "
+				""
+				"&7Pneumatic Craft Armor&r, &cRedstone Arsenal (Flux)&r, or enchanted &9Silent Gear/Apotheosis&r gear with the right materials will also easily do the trick, and be just as powerful, if not stronger than Elementium. "
+				""
+				"Side Note: The more players present at the fight, the harder the fight will be.  The rewards are supposed to be better as well. "
+				""
+				"That said, to achieve Advancement credit (not Quest credit), you may need to fight the bosses multiple times in order to get everyone on your team proper credit."
+			]
+			id: "43AC23BA6F042C2C"
+			subtitle: "You may want to gear up!"
+			tasks: [{
+				id: "4AFC28E3499285ED"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Gaia Guardian - Part 1"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545BCD238889A9AF"]
+			description: [
+				"With the above materials in place. You'll want to head over to your Instant Po.... Pressure Chamber, and drop them in there. "
+				""
+				"After a few moments all the materials, except the Mason Jar should vaporize, and combine together at the atomic level, and somehow form the blood of Kvasir. "
+			]
+			id: "50C38CBD42331813"
+			tasks: [
+				{
+					id: "7F1162CC31DCFD0F"
+					item: "mythicbotany:raw_elementium"
+					type: "item"
+				}
+				{
+					id: "0F923C54116D28F6"
+					item: "mythicbotany:alfheim_rune"
+					type: "item"
+				}
+				{
+					id: "0AFC5D5D9EEC4525"
+					item: "rootsclassic:growth_powder"
+					type: "item"
+				}
+				{
+					id: "0FC7E88E49A377AC"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					id: "734AC2DE7D071F0C"
+					item: "kubejs:mason_jar"
+					type: "item"
+				}
+			]
+			title: "Getting Thirsty"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50C38CBD42331813"]
+			description: [
+				"As you take a whiff of the blood, you notice that it smells like ...... an extremely old, but brand new pair of shoes? "
+				""
+				"....but why? "
+				""
+				"You should probably mix this with some Honey at a crafting table before drinking it."
+			]
+			id: "50E223D6CA37794C"
+			tasks: [
+				{
+					id: "12F6099F17759686"
+					item: "mythicbotany:kvasir_blood"
+					type: "item"
+				}
+				{
+					id: "7BCC2BD03E311DF5"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50E223D6CA37794C"]
+			description: [
+				"Now you can go ahead and travel to Alfheim through the portal you made!"
+				""
+				"Alfheim will be host to the rare material Dragonstone, which you will need for the future."
+			]
+			id: "0933440E7DFA2B10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D9B3759E25A41CD"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Bottoms up!"
+			tasks: [{
+				id: "320F3DE6280ACBA2"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43AC23BA6F042C2C"]
+			description: [
+				"If you look at the Lexica Botania in your Akashic Tome and navigate to the Ritual of Gaia -- you can project the Summoning Ritual design into the world."
+				""
+				"Despite the projection showing that you need Iron Blocks, you don't actually need the Iron Blocks.  However, the structure may continue to say \"Incomplete\" if you don't use Iron Blocks, so you'll have extra text on your screen whenever you're in the area of your arena."
+				""
+				"If for some reason you cant find it in your Lexica Botania, here is a birds eye view of the whole arena:"
+				""
+				""
+				"{image:kubejs:textures/botania/botania_ritual_ftb_sample.png width:125 height:125 align:1}"
+				""
+				"&e&oImage pulled from: https://ftb.fandom.com/wiki/Ritual_of_Gaia&r&r"
+			]
+			id: "1AA726DA3A51CAC5"
+			tasks: [
+				{
+					id: "0FB5DAA326C3811F"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "79B963992EFD0898"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			title: "The Arena"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1AA726DA3A51CAC5"]
+			description: [
+				"If you're playing as a team, everbody needs the Advancement to progress with Botania.  "
+				""
+				"You may need to do the fight a few times to make sure everyone has the advancement."
+			]
+			id: "48D65877C05F1D79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19CC8A481D5E0B55"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "botania:main/gaia_guardian_kill"
+				criterion: ""
+				id: "2FDF1CD11F2DFD31"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F896FEF828D86E1"]
+			description: [
+				"After drinking from a Gjallarhorn -- you should be ready to fight the 2nd iteration of the Gaia Guardian."
+				""
+				"Using a Gaia Ingot, instead of a Terrasteel Ingot, you can summon the new Guardian. "
+				""
+				"This Guardian drop significantly better rewards. "
+			]
+			id: "637459C5F511748D"
+			shape: "circle"
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				id: "2F56AC4042212375"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48D65877C05F1D79"]
+			description: [
+				"If you want, you can challenge the Gaia Guardian 2. "
+				""
+				"Before you do that, you'll want to make sure you drink from a Gjallarhorn."
+				""
+				"- Construct both a Horn of the Wild and a Branch of Yggdrasil. "
+				" "
+				"- Take the Horn of the Wild and toss it into a Mana Pool. If you had enough mana, it should convert into a Gjallarhorn!"
+				""
+				"- Now, take your Branch of Yggdrasil, place it down, attach Gjallarhorn to it"
+				""
+				"- Now you will need to move mana into the Branch/Gjallarhorn. "
+				""
+				"After some time the horn will fill up, and you will be able to drink from it."
+				""
+				"&c&lDo not attempt the Gaia Guardian 2 fight without drinking from the horn.  Without drinking from the horn, you will not gain what you need to perform Rune Rituals.&r&r"
+			]
+			id: "7F896FEF828D86E1"
+			shape: "circle"
+			subtitle: "Challenging Gaia Guardian #2"
+			tasks: [
+				{
+					id: "161F86D8214435FB"
+					item: "mythicbotany:yggdrasil_branch"
+					type: "item"
+				}
+				{
+					id: "0B684219E4D2CF04"
+					item: "botania:horn_grass"
+					type: "item"
+				}
+			]
+			title: "Drinking from Yggdrasil"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["637459C5F511748D"]
+			description: [
+				"If you got a Rune Tablet of Fimbultyr from the Gaia Guardian 2 fight, you're ready for a Rune Ritual. "
+				""
+				"Currently, there are 2 Rune Rituals &6Mjölnir&r (&o&2see recipe by typing Mj into JEI&r&r). This is an extremely powerful weapon, and with Apotheosis gemming/enchanting, has potential to be one of the deadliest weapons in the pack."
+				""
+				"The Gaia Guardian 2 can drop \"Dice of Fate\" which can contain several powerful artifacts."
+				""
+				"That means you may want to do the fight more than once."
+				""
+				"You can always check out: &b&nhttps://botaniamod.net/lexicon.html&r&r for more information about the items in Botania!"
+				""
+				""
+				""
+				"&osorry if you tried to click that...&r"
+			]
+			id: "792BF8CA3F9F297F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7671D465CB02BE80"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Optional Rune Ritual!"
+			tasks: [{
+				id: "1EAF6EFAD4CBADA7"
+				item: "mythicbotany:fimbultyr_tablet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7370F0819950059B"]
+			description: ["In addition, you'll need Golden, and White Chalk."]
+			id: "6CD12F2F9CAA0FD6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D1C3600269B81F2"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "63BC3AB48C4AA63D"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "768A2D281100F63C"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000231D4E9169F4C"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "The Basic Stuff"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CD12F2F9CAA0FD6"]
+			description: [
+				"Put these materials down onto the sacrifical bowls, place the book in the middle and wait to see if the demons are happy with the deal."
+				""
+				"If successful, you should get a golden Miner Lamp."
+			]
+			id: "2EA3894CC2A995DD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3E1F773EFA7BB852"
+					item: {
+						Count: 1b
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59308900E674FE20"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "2BB03A45CEBB4107"
+					item: "occultism:magic_lamp_empty"
+					type: "item"
+				}
+				{
+					id: "433565709C9C4638"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "7F7ED24A7862B3EB"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "3FF7505D49AC7902"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+			]
+			title: "The Ritual Items"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C1F5DFD44351484"]
+			description: [
+				"Place the Dimensional Mineshaft wherever you want.  "
+				""
+				"Once it's placed, you can put the golden Miner Lamp inside and it will automatically start collecting Ore for you!"
+				""
+				"Going forward there will be less of a focus on Occultism. "
+				""
+				"There are still plenty of cool features that this mod offers though, and I definitely encourage you to play around with other rituals. "
+			]
+			id: "14C39386B2B629F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "454CA7EFA8D2B1F8"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "48E349380CF5DAD8"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2EA3894CC2A995DD"]
+			description: ["Using the same ritual site, but adding 2 more Sacrifical Bowls will let you create the Dimensional Mineshaft."]
+			id: "5C1F5DFD44351484"
+			shape: "circle"
+			tasks: [
+				{
+					id: "55E4B4ED451BD970"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "59515A3AF488C791"
+					item: "botania:dragonstone_block"
+					type: "item"
+				}
+				{
+					id: "4C879FE957EB55A6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3B2DD3E3F1BDD2C4"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "2C27793BDE76C368"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "204E9D69228D7001"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D8A72A5FB6532B6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "Just a Few More Items"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43AC23BA6F042C2C"]
+			description: [
+				"For the next step, you'll need to craft a Beacon, which means you're going to need a Nether Star. "
+				""
+				"If you havent already summoned, and killed a Wither, now is the time.  If you already have a Nether Star, you should be able to continue on."
+			]
+			id: "73A71DD8262DE678"
+			rewards: [{
+				count: 2
+				id: "209AEA638FD78B53"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			subtitle: "Kill a Wither, get a Nether Star"
+			tasks: [
+				{
+					advancement: "minecraft:nether/summon_wither"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:wither"
+							}
+						}
+					}
+					id: "26996D423942211A"
+					type: "advancement"
+				}
+				{
+					id: "4093659F6E197FB9"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48ABF1D3186757AE"]
+			id: "042725CCA6DEBC5B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "297FB385057E992B"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "5822F3EDBA77F769"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+				{
+					id: "12155A1DDEC54CBE"
+					item: "waystones:sandy_waystone"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0933440E7DFA2B10"]
+			id: "48ABF1D3186757AE"
+			rewards: [
+				{
+					id: "5E0F0E6DFC73EDE0"
+					item: {
+						Count: 1b
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D1D5F98943116B"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2B0B3758FD25B9EB"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48ABF1D3186757AE"]
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E288181791420B1"
+			rewards: [{
+				id: "5ECF96108D3409AF"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "7A0C5E4CC6EE20D8"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dragon Eye Recovery"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"Depending on your current setup, if any -- you may want to upgrade a bit!"
+				""
+				"If you can get your system to be at least 22.50 Arcana and 30% Quanta you will be able to make Infused Hellshelfs. These are a key component in making the fist Library block which can make extremely powerful enchant books."
+				""
+				"This setup should get you 22.50 Arcana, and plenty of Quanta to start making your Hellshelf."
+				""
+				"&n&aTips&r:&r"
+				" "
+				"- To obtain the fully grown &dAmethyst Cluster&r you will need a tool with &eSilk Touch&r."
+				""
+				"- You only need to place 1 candle on each block that needs a candle, multiple candles are for aesthetic only."
+				""
+				"{image:kubejs:textures/apotheosis/enchanting_table_sample.png width:150 height:100 align:1}"
+				""
+				"&o&eDesign created by Reddit User: thelegendofnobody, from post&r&r: &b&nhttps://www.reddit.com/user/thelegendofnobody/comments/ww2lor&r&r"
+			]
+			id: "07AA7CD137477301"
+			shape: "circle"
+			tasks: [
+				{
+					count: 16L
+					id: "23AD3EE1351ED9AB"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7C1B552F63C5DF82"
+					item: "minecraft:amethyst_cluster"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "19AD2393F42E7633"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5AD3FD988D33C005"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "Better Enchanting"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07AA7CD137477301"]
+			id: "606B521DAD8461F5"
+			shape: "circle"
+			tasks: [{
+				id: "2F2E38BA062C6E81"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"76225F87D4493795"
+				"606B521DAD8461F5"
+				"53F4711DAA68C96F"
+			]
+			id: "681F7D7C8F26B46F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2414BD8A79A4F77F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1F937071D7AE5FED"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07AA7CD137477301"]
+			description: [
+				"The materials for the Library are extremely expensive as the Library itself is an extremely powerful tool. "
+				""
+				"With the Library you are able to deposit Enchantment books, as well as stack Enchantments into new books. "
+				""
+				"Lets hope that your rudimentary Mob Grinder is still operational so you can soak up some Experience Points."
+			]
+			id: "76225F87D4493795"
+			shape: "circle"
+			subtitle: "Can you afford me?"
+			tasks: [{
+				id: "044F9748E6F64519"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07AA7CD137477301"]
+			id: "53F4711DAA68C96F"
+			shape: "circle"
+			tasks: [{
+				id: "6A7304F8EF1C0027"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	title: "Magic"
+}

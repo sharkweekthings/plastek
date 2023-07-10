@@ -1,0 +1,598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools"
+	group: "5F8EFC9EDBDA235C"
+	icon: {
+		Count: 1b
+		id: "natprog:bone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "362ED70CFB4421E6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5928D99A2F786286"]
+			description: [
+				"Long past is the days of punching trees. Our feeble fists can no longer endurse the powerful new types of wood that come in this pack. "
+				""
+				"To get going, you'll need to start collecting some Pebbles and Sticks from the ground. They should be all around you! After you have enough pebbles, you're going to need to smash them together to get some Flint."
+				""
+				"You can do this by putting one stack of pebbles on your hotbar, and the other stack in your offhand.  Just hold down right click, and hope for some Flint!"
+			]
+			id: "712DE592F4F3D0CC"
+			rewards: [
+				{
+					id: "5C7D7723C224BB3F"
+					item: "pamhc2crops:okraitem"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7811F304FD8EE49E"
+					item: "pamhc2foodcore:chocolatecupcakeitem"
+					type: "item"
+				}
+			]
+			subtitle: "Sticks and Stones"
+			tasks: [
+				{
+					count: 20L
+					id: "75512BDAB1333B65"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pebbles"
+						}
+					}
+					title: "Any #forge:pebbles"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "31AD78AC5B864A4D"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "The First Age"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["712DE592F4F3D0CC"]
+			description: ["Okay, Hulk.  You did it. You got yourself some Flint.  Now you'll have to craft your first set of tools!"]
+			id: "1B3BC43E6B7EDE82"
+			tasks: [{
+				count: 10L
+				id: "705907B1A2256B4C"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "Hulk.. Smash!"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3BC43E6B7EDE82"]
+			description: [
+				"With a Flint Hatchet you will need to strip the log before chopping it down by right clicking the tree. "
+				""
+				"After you've chopped the Stripped Log down, you can cut it into 1 Plank using the Flint Hatchet through Crafting."
+				""
+				"&o&cNote: This process works on most trees. There are a few trees in the world where the Flint Hatchet will not be able to turn the Stripped Log into a Plank. &r&r "
+				""
+				"&o&cTry sticking to Vanilla or Biomes o Plenty trees for this step.&r&r "
+			]
+			id: "6C04ACB8F1639713"
+			rewards: [
+				{
+					id: "5C1AA0D03107272D"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "4E7C2C06AD4F5097"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "3D0CDF56D9D3E1A2"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45DE169F9C50D4E5"
+				item: {
+					Count: 1b
+					id: "natprog:flint_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3BC43E6B7EDE82"]
+			description: [
+				"Use a Farmers Delight Knife on Grass and you should get some brown looking straw, and various seeds, including Hemp!"
+				""
+				"Everybodies favorite straw!"
+				""
+				""
+				"&oYou can get the seeds barehand if you want, but the Farmer's Delight Straw only drops with a Farmer's Delight knife.&r"
+			]
+			id: "38B7F4C768357451"
+			tasks: [{
+				id: "6337E2697BBFF287"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B3BC43E6B7EDE82"]
+			description: [
+				"A Flint Saw is so much better than a Flint Hatchet.  Instead of getting 1 Plank, you'll get 4. "
+				""
+				"This is optional though, so if you want you can just power through it with a Hatchet, like a caveman. "
+			]
+			id: "0ADCEDA0DE534C90"
+			shape: "circle"
+			subtitle: "Flint Upgrade!"
+			tasks: [{
+				id: "2438B8D5428CB397"
+				item: {
+					Count: 1b
+					id: "natprog:flint_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6C04ACB8F1639713"
+				"38B7F4C768357451"
+			]
+			description: [
+				"You might be wondering when you're gonna get a sweet Stone Pickaxe, but you aren't going to get one. Instead you're gonna make a Bone Pickaxe. "
+				""
+				"To get going here, I suggest taking one of those Flint Tools that you made, finding some animals, and... well.. you know what to do.. Put them out of their happy existence, and collect pieces of them."
+				""
+				"After you have a couple Bones -- put Flint in your offhand, and Bones on your Hotbar.  Right click them together and hope for some Bone Shards. "
+			]
+			id: "67808FB71FA8E8F6"
+			tasks: [{
+				id: "704A63C56405A04F"
+				item: {
+					Count: 1b
+					id: "natprog:bone_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "No Stoney Bologna"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67808FB71FA8E8F6"]
+			description: ["With this, you should be able to start getting Copper!"]
+			id: "01849E75E7A04443"
+			tasks: [{
+				id: "7D61C13D609F2E3C"
+				item: {
+					Count: 1b
+					id: "natprog:bone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "I've Got a Bone To Pick With You"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67808FB71FA8E8F6"]
+			description: ["A small boost to damage from the other Knife."]
+			id: "60B972150AF5F7C3"
+			tasks: [{
+				id: "7A6C117380898A22"
+				item: {
+					Count: 1b
+					id: "natprog:bone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"01849E75E7A04443"
+				"29ABB78197853F7B"
+			]
+			description: ["This one is a bit faster, and more durable."]
+			id: "301EFB21689EDC51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47EE9B13A87BC895"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4C4ACCDC9F1A0E6E"
+				item: {
+					Count: 1b
+					id: "natprog:copper_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["301EFB21689EDC51"]
+			id: "378EB7B1D0917EEF"
+			tasks: [{
+				id: "07AD17DB38EF8A46"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Hoe"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301EFB21689EDC51"]
+			id: "74EA353F28795796"
+			tasks: [{
+				id: "688F20324F7E5AC1"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Pickaxe"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301EFB21689EDC51"]
+			id: "1B85900C76F33C8B"
+			tasks: [{
+				id: "4531870DB0BC277C"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Shovel"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60B972150AF5F7C3"]
+			description: [
+				"This knife lets you collect Bark. You can collect Bark by right clicking a tree  with the knife out. "
+				""
+				"This kicks off the Age 1 Magic series. "
+			]
+			id: "3C8930D4F3A220C5"
+			tasks: [{
+				id: "704866EF4E8885E6"
+				item: {
+					Count: 1b
+					id: "rootsclassic:bark_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C8930D4F3A220C5"]
+			id: "40615B96DC29316A"
+			subtitle: "Best friends with Mortar"
+			tasks: [{
+				id: "0EE6C680C7613632"
+				item: "rootsclassic:pestle"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C8930D4F3A220C5"]
+			description: ["After crafting this item, you should be able to access the quest \"I Didnt Even Take Woodshop\" in the Magic tab."]
+			id: "0FEB97C69E0EE49C"
+			tasks: [{
+				id: "64EE38833C55DCDE"
+				item: {
+					Count: 1b
+					id: "totemic:totem_whittling_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FEB97C69E0EE49C"]
+			description: ["Clicking on the base of the Totem with this staff will give you more informationa bout the totem."]
+			id: "0F9BC217E79FD2C8"
+			shape: "circle"
+			tasks: [{
+				id: "629EC262F4ABFAF1"
+				item: "totemic:totemic_staff"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FEB97C69E0EE49C"]
+			id: "6180A50DF17BF66A"
+			shape: "circle"
+			subtitle: "For Ceremonies"
+			tasks: [
+				{
+					id: "03A6A9783F19BDA4"
+					item: "totemic:flute"
+					type: "item"
+				}
+				{
+					id: "76C31FA1271A8395"
+					item: "totemic:rattle"
+					type: "item"
+				}
+				{
+					id: "077A135C81826054"
+					item: "totemic:eagle_bone_whistle"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6180A50DF17BF66A"]
+			id: "139D5EE6CF3B6E59"
+			shape: "circle"
+			subtitle: "For Ceremonies"
+			tasks: [
+				{
+					id: "176C57233CF9068A"
+					item: "totemic:wind_chime"
+					type: "item"
+				}
+				{
+					id: "3ACA456FA506159C"
+					item: "totemic:drum"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FEB97C69E0EE49C"]
+			description: [
+				"You can use this as decoration, or to sleep through the night!  "
+				""
+				"There are limitations on where you can place it."
+			]
+			id: "50488031886F8B55"
+			shape: "circle"
+			tasks: [{
+				id: "5EBF83343C86BA65"
+				item: "totemic:tipi"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EAC1C918A0B2E6D"]
+			id: "4CB4012E79F09338"
+			tasks: [{
+				id: "3C143F9E6601705B"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EAC1C918A0B2E6D"]
+			icon: {
+				Count: 1b
+				id: "emendatusenigmatica:sterling_silver_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5615497CF7549469"
+			subtitle: "Wow, a new shovel... amaaaazing."
+			tasks: [{
+				id: "740CCE85FA3D71E0"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FFCDB35F97F22CC"]
+			id: "1F3B8B8C21120800"
+			subtitle: "These don't look gold to me..."
+			tasks: [{
+				id: "16B286B09F95D51E"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["027BF7618F0E0D5C"]
+			description: [
+				"Your best friend when you want to find a specific biome.  "
+				""
+				"A useless paperweight, otherwise. "
+			]
+			id: "7CBA951B498ED321"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54F0B18CD91BE9E1"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2919E745081B9E39"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["027BF7618F0E0D5C"]
+			description: [
+				"This thing is about as heavy as a bunch of compressed rocks, because that's what it is. I don't even know why it works.  Speedforce? Barry, are you out there?"
+				""
+				"This will let you find specific structures throughout the world!"
+			]
+			id: "59366F5573EC5ACF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17041D10BEB1AA7B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "How are you even holding all this stuff in your pocket?"
+			tasks: [{
+				id: "337E9985C8338937"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["712DE592F4F3D0CC"]
+			id: "55B7B244684F57A9"
+			shape: "circle"
+			tasks: [{
+				id: "3760C62EFA7DBF09"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F9BC217E79FD2C8"]
+			description: [
+				"Crafting a Medicine Bag will allow you to store a Totem effect by sneak+clicking the Totem head you want the effect of. "
+				""
+				"To recharge the bag, you'll need to stand by your Totem."
+			]
+			id: "66B8A67FB83ABD56"
+			shape: "circle"
+			tasks: [{
+				id: "40575EB2BC86FDAC"
+				item: "totemic:medicine_bag"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+	]
+	title: "Utility"
+}

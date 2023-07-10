@@ -1,0 +1,15 @@
+{
+    "id": "charged_certus_quartz",
+    "source": "modded",
+    "localizedName": "Charged Certus Quartz",
+    "processedTypes": [
+      "ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 3
+    },
+    "colors": {
+      "materialColor": "AFCFF2"
+    }
+}

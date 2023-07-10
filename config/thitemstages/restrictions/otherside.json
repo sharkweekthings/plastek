@@ -1,0 +1,11 @@
+{
+  "Restriction Data": {
+    "stage": "otherside",
+    "dimensionList": [
+      {
+        "dimension": "deeperdarker:otherside",
+        "message": "You do not meet the requirements to enter!"
+      }
+    ]
+  }
+}

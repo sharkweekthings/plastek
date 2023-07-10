@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "emendatusenigmatica:weekonium_crystal"},
+	{"item": "emendatusenigmatica:weekonium_crystal"},
+	{"item": "emendatusenigmatica:weekonium_crystal"},
+	{"item": "mekanism:hdpe_sheet"},
+	{"item": "pneumaticcraft:plastic"},
+	{"item": "industrialforegoing:plastic"}
+  ],
+  "energy": 40000000,
+  "result": {
+	"item": "emendatusenigmatica:raw_weekonium",
+	"count": 1
+  }
+}

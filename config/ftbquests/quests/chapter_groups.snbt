@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "7B921CB93186BAA4", title: "Welcome" }
+		{ id: "6864EC96E852A08D", title: "The World" }
+		{ id: "2C080FE404DC830F", title: "Optional" }
+		{ id: "5F8EFC9EDBDA235C", title: "Age 1" }
+		{ id: "04DB2BB1A10D6373", title: "Age 2" }
+		{ id: "7F2FC2E4E4C51B36", title: "Age 3" }
+		{ id: "160159E361DC62EF", title: "Age 4" }
+		{ id: "7259EF239C15BF6E", title: "Age 5" }
+		{ id: "16ADE1AEEBEEE736", title: "Age 6" }
+		{ id: "69403B2D49AA6748", title: "Age 7" }
+		{ id: "6274245AF897553D", title: "Collections" }
+	]
+}

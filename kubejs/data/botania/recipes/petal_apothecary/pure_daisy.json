@@ -1,0 +1,23 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "rootsclassic:growth_powder"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "item": "rootsclassic:growth_powder"
+    },
+    {
+      "tag": "botania:petals/white"
+    }
+  ],
+  "output": {
+    "item": "botania:pure_daisy"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

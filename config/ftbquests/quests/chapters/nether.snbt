@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "6864EC96E852A08D"
+	icon: "minecraft:netherrack"
+	id: "40DCEDEFA1450827"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E0F7B994C1A95BC"]
+			description: [
+				"Over time, as Plastic breaks down, it somehow winds up in the Nether. Go figure. All of our plastic waste winds up in Hell. "
+				""
+				"The inhabitants there, not the smartest beings -- consume this material, and well, you know what happens after that.  It's gotta come out, and so it does.  It comes out in the form of Nether Quartz, Iesnium and Cinnabar, and you'll be mining it. "
+				""
+				"Once we get it back to the overworld, it'l be time to pollute the world some more! "
+				""
+				"&oThe story of Plastic is non canon, don't believe my ramblings.&r"
+				""
+				"&eCorners are irrelevant, but the portal must be built with this shape: &r"
+				""
+				"{image:kubejs:textures/minecraft/nether_portal_sample.png width:150 height:150 align:1}"
+			]
+			id: "5947EE7F3AE8F2A7"
+			rewards: [
+				{
+					auto: "disabled"
+					icon: "supplementaries:sign_post_oak"
+					id: "04220A1E480F1E47"
+					title: "Nether Access"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D0046B06B6231F"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Infused Nether Stone can only be broken by a Diamond Paxel or higher."
+			tasks: [
+				{
+					count: 12L
+					id: "291B04E32450E1A3"
+					item: "kubejs:infused_nether_stone"
+					type: "item"
+				}
+				{
+					id: "11A8AE8BA273FEC1"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Nether Portal"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "584799D517F06558"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37D9DCB43CEBC46A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "545B1C858E1460B6"
+				item: "emendatusenigmatica:cinnabar_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "003B6CD4B1E87F13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0467A521A42C89"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1441301348C9F8F4"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			description: ["Without Otherworld Goggles or Demon's Dream Fruit, you won't be able to see the ore for this block. "]
+			id: "240DB2C0983125C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3068FAAF7AF49381"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "You'll need Otherworld Goggles to see this."
+			tasks: [{
+				id: "0D023673E537DB3F"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5947EE7F3AE8F2A7"]
+			description: [
+				"The Nether is host to a variety of materials. We're currently only after a few for the main progression. "
+				""
+				"Outside of main progression, remember to breathe a bit -- work on some side things if you want, or just go out and about, and explore the various dimensions you currently have access to. "
+			]
+			id: "3D0D5EBE3D2B9597"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2E8680DC9DC4704D"
+				type: "dimension"
+			}]
+			title: "Welcome To Hell"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "238F7C1D7662F652"
+			rewards: [
+				{
+					id: "71EA988F133A9DB9"
+					item: {
+						Count: 1b
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12C772F53633098D"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "56D3A92A977AA573"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "79EFFA987CEA4F72"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "46B0AA001D58435A"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "382FCAEE33416985"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "477C215D41F9E2EF"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "55DB15F555D64F2A"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "2C216D6585CDFB55"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "6783537DE9B402B9"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "5CEF1AEDAD85C2AC"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			description: [
+				"Complete the achievement for this, and you're well on your way to getting Netherite.  "
+				""
+				"That's a reward in and of itself. "
+			]
+			id: "0C40C4089C918112"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B4FF852439520B9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "3CCC8A2B513B651D"
+				type: "advancement"
+			}]
+			title: "Netherite!"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "5449CC2EF0B73E9F"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "092F0864D9968E87"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0D5EBE3D2B9597"]
+			id: "5EA9BB7EBDE972EE"
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "03BF84EF09D0CD3B"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["238F7C1D7662F652"]
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "770B0A0527E63FBD"
+			rewards: [{
+				id: "11FACB57763DA5B9"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "05647155AC354F4E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Nether Eye Recovery"
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "Nether"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "emendatusenigmatica",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/sharkinite"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "emendatusenigmatica:sharkinite_block"
+  }
+}

@@ -1,0 +1,1269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_6"
+	group: "16ADE1AEEBEEE736"
+	icon: "tempad:he_who_remains_tempad"
+	id: "4C6CF5005885248D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			description: ["You are now Ant Man. You can shrink, or grow.  You can also make other things shrink and grow!"]
+			id: "25E211372C93DF2B"
+			shape: "circle"
+			tasks: [{
+				id: "5051426CC8C96C4E"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53FC9AD3F4DD2B2B"]
+			description: ["&cWarning: Don't break the universe with this. &r"]
+			id: "1BE880D815802A9F"
+			shape: "circle"
+			subtitle: "Whats this button do?"
+			tasks: [{
+				id: "50890136C753E74A"
+				item: "tempad:he_who_remains_tempad"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "355DBAC93FD0625D"
+			shape: "circle"
+			tasks: [{
+				id: "26F43D45BAAC6A31"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "5E2814FF41730362"
+			shape: "circle"
+			tasks: [{
+				id: "0F6834E5A2407632"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "73FF472845394823"
+			shape: "circle"
+			tasks: [{
+				id: "34F5D61A3AB85A57"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "32E056111038A4F1"
+			shape: "circle"
+			tasks: [{
+				id: "51898C72EB33E4FB"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "1A320E8E94175DED"
+			shape: "circle"
+			tasks: [{
+				id: "5F38253AFF3F9543"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "3B6CBB8826A59CFF"
+			shape: "circle"
+			tasks: [{
+				id: "602705F59C30FACB"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "5E36C92999F43268"
+			shape: "circle"
+			tasks: [{
+				id: "4087E6E6AF70EC9D"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "56C0516F9B997A84"
+			shape: "circle"
+			tasks: [{
+				id: "4E0C694621BC6569"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "2DE678F026C6CA46"
+			shape: "circle"
+			tasks: [{
+				id: "0C4F6B7AB2D01F50"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "5292F71828399C2D"
+			shape: "circle"
+			tasks: [{
+				id: "26A8F5DF2BECA694"
+				item: "mekanism:upgrade_anchor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "75F07619196E1564"
+			shape: "circle"
+			tasks: [{
+				id: "5A673764FF5E890B"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "73B694AEF9AEA8FF"
+			shape: "circle"
+			tasks: [{
+				id: "24FFC41A943E98DE"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "0D5E79960631C774"
+			shape: "circle"
+			tasks: [{
+				id: "4C6984133AA68CAB"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "5DCFB038BDA9AE41"
+			shape: "circle"
+			tasks: [{
+				id: "3174B01BAEA9E8A7"
+				item: "mekanism:network_reader"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "06CF8C1A7EBBD153"
+			shape: "circle"
+			tasks: [{
+				id: "4EDFB1C0D18461AD"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "3977B307B6B43085"
+			shape: "circle"
+			subtitle: "Technically also a weapon!"
+			tasks: [{
+				id: "3E778351CF1CA0E9"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "7057B75F8A3E88B1"
+			shape: "circle"
+			tasks: [{
+				id: "38D4039B996E67D0"
+				item: "mekanism:scuba_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "23EF17CEFF261C07"
+			shape: "circle"
+			tasks: [{
+				id: "19C258273BA59A52"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "1B61B94940D2E765"
+			shape: "circle"
+			tasks: [{
+				id: "76D8414CD47C5945"
+				item: "mekanism:module_energy_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "60CF8CBB82305686"
+			shape: "circle"
+			tasks: [{
+				id: "5220958853740061"
+				item: "mekanism:module_color_modulation_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "4942B1C8339F7DBB"
+			shape: "circle"
+			tasks: [{
+				id: "621302D3AF7B5C58"
+				item: "mekanism:module_laser_dissipation_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "6E94B814D6DD0C34"
+			shape: "circle"
+			tasks: [{
+				id: "5644D8499343013F"
+				item: "mekanism:module_radiation_shielding_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "5F4F8019307AA0E3"
+			shape: "circle"
+			tasks: [{
+				id: "16FFAE37443228A0"
+				item: "mekanism:module_excavation_escalation_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "446CB525459C1F08"
+			shape: "circle"
+			tasks: [{
+				id: "6B9279D1A4BD214F"
+				item: "mekanism:module_attack_amplification_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "2E3144661C16D90E"
+			shape: "circle"
+			tasks: [{
+				id: "32853A4C78F1B0C6"
+				item: "mekanism:module_farming_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "4E17CDB62679F44A"
+			shape: "circle"
+			tasks: [{
+				id: "53B5CFE813923385"
+				item: "mekanism:module_shearing_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "01A60067ECB4F575"
+			shape: "circle"
+			tasks: [{
+				id: "050ED4BDE6CA6C96"
+				item: "mekanism:module_silk_touch_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "52E3E1B0A87C67BC"
+			shape: "circle"
+			tasks: [{
+				id: "3F062AC7DEACE814"
+				item: "mekanism:module_fortune_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "26C23B590A6A37C7"
+			shape: "circle"
+			tasks: [{
+				id: "4DCD7BCB2C33DD8A"
+				item: "mekanism:module_blasting_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "0BE2E13B74E7DBB2"
+			shape: "circle"
+			tasks: [{
+				id: "637A61D09896CA22"
+				item: "mekanism:module_vein_mining_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "55D237842ED1BCA9"
+			shape: "circle"
+			tasks: [{
+				id: "226D56F4D20EDB4D"
+				item: "mekanism:module_teleportation_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "587A2679DB53CF4B"
+			shape: "circle"
+			tasks: [{
+				id: "2697B8586E0AAE78"
+				item: "mekanism:module_inhalation_purification_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "108EF8F05B4F36E0"
+			shape: "circle"
+			tasks: [{
+				id: "213A071639109752"
+				item: "mekanism:module_vision_enhancement_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "63E479A0AFDD127C"
+			shape: "circle"
+			tasks: [{
+				id: "5B7BD82C3F80673B"
+				item: "mekanism:module_nutritional_injection_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "7769241E5AE896A2"
+			shape: "circle"
+			tasks: [{
+				id: "4B7F00A98354EA14"
+				item: "mekanism:module_dosimeter_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "1E8AC21CDFB607C1"
+			shape: "circle"
+			tasks: [{
+				id: "3BCE5E5DE0AAC0ED"
+				item: "mekanism:module_geiger_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "4B40C024C70E2576"
+			shape: "circle"
+			tasks: [{
+				id: "62DF60F7A103896E"
+				item: "mekanism:module_jetpack_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "33A8882B2295F44A"
+			shape: "circle"
+			tasks: [{
+				id: "4267CB88ADD040E8"
+				item: "mekanism:module_charge_distribution_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "3C8D159CADA71125"
+			shape: "circle"
+			tasks: [{
+				id: "60EE10B0C5880847"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "6AA1F1EBBFCE7E88"
+			shape: "circle"
+			tasks: [{
+				id: "416604C742BFECC2"
+				item: "mekanism:module_elytra_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "425FF777D6B06ADD"
+			shape: "circle"
+			tasks: [{
+				id: "253B80C6BE16E360"
+				item: "mekanism:module_gyroscopic_stabilization_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "277F25988E73E598"
+			shape: "circle"
+			tasks: [{
+				id: "4B774C977409BB3A"
+				item: "mekanism:module_hydrostatic_repulsor_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "0B3361446740FC6E"
+			shape: "circle"
+			tasks: [{
+				id: "4008C195362EB9BA"
+				item: "mekanism:module_locomotive_boosting_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "024084D277CE0EB5"
+			shape: "circle"
+			tasks: [{
+				id: "7C62DC560ACC5A24"
+				item: "mekanism:module_motorized_servo_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "7F12EA3DDB9E3562"
+			shape: "circle"
+			tasks: [{
+				id: "15B08377E01FE777"
+				item: "mekanism:module_motorized_servo_unit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "7A52A4A6401A5529"
+			shape: "circle"
+			tasks: [{
+				id: "472767EAFAB65208"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "0997E4222BB6A14F"
+			shape: "circle"
+			tasks: [{
+				id: "513EAD749AED1086"
+				item: "mekanism:module_magnetic_attraction_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "67DF957DC6350D13"
+			shape: "circle"
+			tasks: [{
+				id: "0D5537F5976F6980"
+				item: "mekanism:module_frost_walker_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "33A00A66183DFEFB"
+			shape: "circle"
+			tasks: [{
+				id: "7C921DD7D3A1AE57"
+				item: "mekanism:module_electrolytic_breathing_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "5719AA7C8BEF0409"
+			shape: "circle"
+			tasks: [{
+				id: "327F19863F7E42BD"
+				item: "ad_astra_giselle_addon:module_space_breathing_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "61F6E63938FF86BE"
+			shape: "circle"
+			tasks: [{
+				id: "07943EA01229C3C1"
+				item: "ad_astra_giselle_addon:module_space_fire_proof_unit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "59AFCBB9F5ED6275"
+			shape: "circle"
+			tasks: [{
+				id: "2D2A0CBFA0D6B8CE"
+				item: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23EF17CEFF261C07"]
+			hide_dependency_lines: true
+			id: "6361FFAAFC2C0477"
+			shape: "circle"
+			tasks: [{
+				id: "51D974752F2F988B"
+				item: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "775496C594BFADC4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "569385E4257EAA51"
+					item: "mysticalagriculture:absorption_i_augment"
+					type: "item"
+				}
+				{
+					id: "653DA3A1ACACD2EF"
+					item: "mysticalagriculture:absorption_ii_augment"
+					type: "item"
+				}
+				{
+					id: "1A96B10207A7C37C"
+					item: "mysticalagriculture:absorption_iii_augment"
+					type: "item"
+				}
+				{
+					id: "4087997924A5CC9D"
+					item: "mysticalagriculture:absorption_iv_augment"
+					type: "item"
+				}
+				{
+					id: "60AC5863D771A536"
+					item: "mysticalagriculture:absorption_v_augment"
+					type: "item"
+				}
+			]
+			title: "Absorption Augment"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "645233AF611093A2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0DBA8F3B736F937E"
+					item: "mysticalagriculture:health_boost_i_augment"
+					type: "item"
+				}
+				{
+					id: "41CAD7133BF24504"
+					item: "mysticalagriculture:health_boost_ii_augment"
+					type: "item"
+				}
+				{
+					id: "5D85604A43E8EACF"
+					item: "mysticalagriculture:health_boost_iii_augment"
+					type: "item"
+				}
+				{
+					id: "104C99331F94BEA6"
+					item: "mysticalagriculture:health_boost_iv_augment"
+					type: "item"
+				}
+				{
+					id: "1A35104D873AF3BE"
+					item: "mysticalagriculture:health_boost_v_augment"
+					type: "item"
+				}
+			]
+			title: "Health Boost Augment"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "5159ACCDEF6BC8FB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7743D21CE6762FEB"
+					item: "mysticalagriculture:pathing_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "7B3DD84278A8BBD0"
+					item: "mysticalagriculture:pathing_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "1E94E52D56F915E9"
+					item: "mysticalagriculture:pathing_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "7612B457EDE0BC6F"
+					item: "mysticalagriculture:pathing_aoe_iv_augment"
+					type: "item"
+				}
+			]
+			title: "Pathing AOE Augment"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "022DA1DC3A535C35"
+			shape: "circle"
+			tasks: [{
+				id: "1B14C64223A75848"
+				item: "mysticalagriculture:night_vision_augment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "4AC7C2FBD3350101"
+			shape: "circle"
+			tasks: [{
+				id: "3A82E336ABDBDBAF"
+				item: "mysticalagriculture:water_breathing_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "404F2733FA854A4E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7C9651BE216351F6"
+					item: "mysticalagriculture:jump_boost_i_augment"
+					type: "item"
+				}
+				{
+					id: "588A24F63BECA4B0"
+					item: "mysticalagriculture:jump_boost_ii_augment"
+					type: "item"
+				}
+				{
+					id: "2A4B48B073470453"
+					item: "mysticalagriculture:jump_boost_iii_augment"
+					type: "item"
+				}
+			]
+			title: "Jump Boost Augment"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "1DB0B94809D64205"
+			shape: "circle"
+			tasks: [
+				{
+					id: "10F09A99334AC6C3"
+					item: "mysticalagriculture:speed_i_augment"
+					type: "item"
+				}
+				{
+					id: "64BEE25C3E2F00A7"
+					item: "mysticalagriculture:speed_ii_augment"
+					type: "item"
+				}
+				{
+					id: "001FA421CBC433E0"
+					item: "mysticalagriculture:speed_iii_augment"
+					type: "item"
+				}
+			]
+			title: "Speed Augment"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "5377A2962BCFC300"
+			shape: "circle"
+			tasks: [
+				{
+					id: "52EC30E09D07FDC9"
+					item: "mysticalagriculture:mining_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "3287A658262D0C86"
+					item: "mysticalagriculture:mining_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "208957069C003083"
+					item: "mysticalagriculture:mining_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "15BB9838648BFC5D"
+					item: "mysticalagriculture:mining_aoe_iv_augment"
+					type: "item"
+				}
+			]
+			title: "Mining AOE Augment"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "08061CEE1CF23E01"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7BA7AA145BF149D3"
+					item: "mysticalagriculture:tilling_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "4905226F086FAB35"
+					item: "mysticalagriculture:tilling_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "270F07CAAF2894DA"
+					item: "mysticalagriculture:tilling_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "32BB1C519844E759"
+					item: "mysticalagriculture:tilling_aoe_iv_augment"
+					type: "item"
+				}
+			]
+			title: "Tilling AOE Augment"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "61C440533D3FFBAC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7AFB97D39DD9EFBB"
+					item: "mysticalagriculture:pathing_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "5F204AA6D9229C14"
+					item: "mysticalagriculture:pathing_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "00130626F98A1BB4"
+					item: "mysticalagriculture:pathing_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "4567B85A924F3DAD"
+					item: "mysticalagriculture:pathing_aoe_iv_augment"
+					type: "item"
+				}
+			]
+			title: "Pathing AOE Augment"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "3303B5F153EBD8E8"
+			shape: "circle"
+			tasks: [{
+				id: "6EA3684968205734"
+				item: "mysticalagriculture:fire_resistance_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "0468790C0ECFEF63"
+			shape: "circle"
+			tasks: [{
+				id: "2747F7C4E094D568"
+				item: "mysticalagriculture:step_assist_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "2AECC3FD1EB88658"
+			shape: "circle"
+			tasks: [
+				{
+					id: "293A7ADBD0898BFC"
+					item: "mysticalagriculture:strength_i_augment"
+					type: "item"
+				}
+				{
+					id: "1E12CE5049FFF74F"
+					item: "mysticalagriculture:strength_ii_augment"
+					type: "item"
+				}
+				{
+					id: "2D55BECC165A0163"
+					item: "mysticalagriculture:strength_iii_augment"
+					type: "item"
+				}
+			]
+			title: "Strength Augment"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "73B8652AA5B8A9F5"
+			shape: "circle"
+			tasks: [{
+				id: "2CBB2650696EE741"
+				item: "mysticalagriculture:no_fall_damage_augment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "57FAA4B9EB33E4AC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0F910F73577B186F"
+					item: "mysticalagriculture:attack_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "72739C2A1F560574"
+					item: "mysticalagriculture:attack_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "5847733F58AC86A1"
+					item: "mysticalagriculture:attack_aoe_iii_augment"
+					type: "item"
+				}
+			]
+			title: "Attack AOE Augment"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "40BB888AC1E8D2F9"
+			shape: "circle"
+			tasks: [{
+				id: "430469F7243B54B2"
+				item: "mysticalagriculture:poison_resistance_augment"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "42DCBEA4E45917D6"
+			shape: "circle"
+			tasks: [{
+				id: "31BFE8A111EE050F"
+				item: "mysticalagriculture:mining_fatigue_resistance_augment"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "1303AD095E5B5EA9"
+			shape: "circle"
+			tasks: [{
+				id: "5DD2230533B8E836"
+				item: "mysticalagriculture:wither_resistance_augment"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "328458C2234EFAEA"
+			shape: "circle"
+			tasks: [{
+				id: "70FA393EF9D8EF54"
+				item: "mysticalagriculture:flight_augment"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6477D7ABD5D11941"]
+			description: [
+				"With a little bit of power, this block will allow you to pump fluids from across dimensions. "
+				""
+				"Just make sure to keep both ends chunk loaded!"
+			]
+			id: "428D166721476BB5"
+			shape: "circle"
+			tasks: [{
+				id: "7791C1B01E73D7B6"
+				item: "rangedpumps:pump"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "3F077C07F1E69E31"
+			shape: "circle"
+			tasks: [{
+				id: "42FAA052C065A71C"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "3BAAC3E7F9538711"
+			shape: "circle"
+			tasks: [{
+				id: "044082D0E4350DDD"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "78537BB9E0CD630C"
+			shape: "circle"
+			tasks: [{
+				id: "703BA082628CDC69"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "30329ADFB9414231"
+			shape: "circle"
+			tasks: [{
+				id: "4561F055A6AD1E30"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "64543D821F29CDC3"
+			shape: "circle"
+			tasks: [{
+				id: "69AE60B51EF17D3E"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "04A474B27D51C6D2"
+			shape: "circle"
+			tasks: [{
+				id: "34D15DC9E525514F"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "04004E0081DBDDB1"
+			shape: "circle"
+			tasks: [{
+				id: "3FA0AD37CA36ADA3"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "35948ADED67E2339"
+			shape: "circle"
+			tasks: [{
+				id: "402BA6FE413E1278"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "4A34343527E4D359"
+			shape: "circle"
+			tasks: [{
+				id: "708FDD4495D7EB76"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "5AEC1BE1E3FF055F"
+			shape: "circle"
+			tasks: [{
+				id: "51A5825FCD95BA38"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A86D1454D7A0BF2"]
+			description: [
+				"This library is much like your other library, except that it can hold significantly more points per Enchantment. "
+				""
+				"While the Library can hold 32,768 points, the Library of Alexandria can hold up to 1.07 billion. "
+			]
+			id: "456062AF7BBCFC4A"
+			shape: "circle"
+			subtitle: "This Library is freakin' sweet!"
+			tasks: [{
+				id: "5836DBAA86B47324"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+	]
+	title: "Utility"
+}

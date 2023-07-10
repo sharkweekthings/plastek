@@ -1,0 +1,588 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "general_information"
+	group: "7B921CB93186BAA4"
+	icon: {
+		Count: 1b
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "deeperdarker:wanderers_notebook"
+		}
+	}
+	id: "3FC11E23B1D5E8AD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C6E2935C28151BD"]
+			description: [
+				"These are generally used to to let you know about your major accomplishments, access to new materials, or key elements to unlocking the next age."
+				""
+				"It also usually means that a Bag of Tears is the reward. "
+				""
+				"The Bag of Tears is a pouch that can contain really powerful items.  However, you'll probably end up getting food, or a block or something."
+				""
+				"Most of these powerful items can be found in the world in various chests, but there are a few exceptions. . . "
+			]
+			id: "3C1E3A1924870689"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A3F2034F259EE3B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "This shape represents a Major Advancement."
+			tasks: [{
+				id: "22535D44B92AC9A1"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Major Advancement"
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C6E2935C28151BD"]
+			description: [
+				"The bulk of the main quests will be required to complete the age."
+				""
+				"&oThere may be some main quests that end up being skippable. This is probably unintentional, or unavoidable.&r"
+			]
+			id: "6CB3D260BB211CE4"
+			subtitle: "This shape represents a Main Quest."
+			tasks: [{
+				id: "6E64B9F7B7403BC0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Main Quest"
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C6E2935C28151BD"]
+			description: [
+				"These quests are completely optional, and sometimes lead to pretty good things. Other times they are just for fun, to kill some time, optional goals, various armors, tools, weapons, upgrades etc.   "
+				""
+				"In many cases a Side Quest will start in one age, but won't be able to be fully completed until a later age.  This was to ensure that some of the mod items stayed grouped together."
+			]
+			id: "719877B9E2F2DB25"
+			shape: "circle"
+			subtitle: "This shape represents a Side Quest."
+			tasks: [{
+				id: "3BC22B428F1B4605"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Side Quest"
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5587B9934B863EB4"]
+			description: [
+				"Shapeception."
+				""
+				"I'm pretty sure the only time this shape is used is for this quest right here, but I could be wrong...."
+			]
+			hide_dependency_lines: true
+			id: "7C6E2935C28151BD"
+			shape: "rsquare"
+			subtitle: "This shape represents the shape used to represent the other shapes! "
+			tasks: [{
+				id: "756912F49C346E2F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Quest Shapes"
+			x: -10.0d
+			y: -10.5d
+		}
+		{
+			description: [
+				"First -- Thanks for checking out the pack.  I hope you enjoy it!"
+				""
+				"If you have any questions feel free to join the Discord: "
+				""
+				"&bhttps://discord.gg/Tt8sGvQRH4&r"
+				""
+				"This pack has significant changes to recipes to increase their difficulty, as well as a forced progression. "
+				""
+				"Sometimes that progression is linear, and sometiems you're given choices. "
+				""
+				"The quests in the pack generally don't focus on setting up automation, and instead aim to get you a general working product (slow as it may be). "
+				""
+				"It's up to you, and your creativity to automate the things and make life easier on yourself. "
+				""
+				"You can click \"L\" which will open up the \"Advancements\" menu. Many mods of the pack offer some extra progression that you can follow, not included in Main Quests or Side Quests."
+			]
+			icon: "minecraft:oak_sign"
+			id: "65FA1B632359CE14"
+			subtitle: "Thank you!"
+			tasks: [{
+				id: "389C9A3768EA6A7E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Welcome!"
+			x: -17.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["65FA1B632359CE14"]
+			description: [
+				"You see that right. &cYour HP is lower&r. "
+				""
+				"While there are some mods in the pack that will grant some extra HP to your armor, weapons,  &aSpice of Life: Carrot&r is in the pack as well. "
+				""
+				"By eating unique foods you will be able to significantly increase your HP through the life of the pack.  "
+				""
+				"There is a total of &a20 Hearts&r attainable through this method, spanned over the course of 1,240 foods.  The \"Food Book\" shows slightly more food than this. The number has been modified to account for inacessible/uncraftable foods. "
+				""
+				"&aPam's&r and &aFarmer's Delight&r are both in the pack so there are plenty of various foods to craft, and eat!"
+				""
+				"&aDiet&r is also in the pack to encourage eating a balanced set of foods, rather than just slamming potatos.  By not eating a balanced diet you will gain no, or negative benefits. However, if you eat a balanced diet you can increase your characters HP, Power, Attack Speed, and more."
+				""
+				"This pack also makes use of &cHarder Natural Healing&r, which means that your HP regeneration is slowed down.  "
+				""
+				"Healing spells/potions/wands will be accessible throughout the pack to aide in healing, in addition to the extra HP you'll get. "
+			]
+			icon: "artifacts:crystal_heart"
+			id: "47A6293F3DEEF2D2"
+			rewards: [
+				{
+					id: "01F4FC1FDBD3AF8C"
+					item: "pamhc2foodextended:deluxecheeseburgeritem"
+					type: "item"
+				}
+				{
+					id: "76AF02C30F724DD8"
+					item: "pamhc2foodextended:mochiitem"
+					type: "item"
+				}
+				{
+					id: "5BDACE204F8CE4F2"
+					item: "pamhc2foodextended:mushroomsteakitem"
+					type: "item"
+				}
+			]
+			subtitle: "DONT ACCEPT THE QUEST REWARDS JUST YET. "
+			tasks: [{
+				id: "3FF5369FAEC575FE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Health"
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["494426C085EE7AAC"]
+			description: [
+				"As you advance through the ages, the mobs will also increase in power. Each new age you should notice a slight increase in Mob HP/Damage/Armor."
+				" "
+				"Upon entering a new age your difficulty will increase slightly, and over the course of several Minecraft days gradually increase until it reaches the cap for that age. "
+				""
+				"&n&aDifficulty Scaling:&r&r"
+				""
+				"- Age 1: Starts at 15 "
+				"- Age 2: Starts at 20, caps at 30"
+				"- Age 3: Starts at 35, caps at 50"
+				"- Age 4: Starts at 55, caps at 80"
+				"- Age 5: Starts at 85, caps at 100"
+				"- Age 6: Starts at 105, caps at 200"
+				"- Age 7: Starts at 225, caps at 250"
+				""
+				"&n&aQuick Reference:&r&r"
+				""
+				"- A Zombie in Age 1 has 25 HP"
+				"- A Zombie starting in Age 4 has 37 HP, and caps at 44 HP"
+				"- A Zombie starting in Age 6 has 52 HP, and caps at 84 HP"
+				"- A Zombie starting in Age 7 has 92 HP, and caps at 100 HP"
+				""
+				"Improved Mobs scales the difficulty per each individual player/team within a 256 block radius around the individual."
+				""
+				"If you're playing on a Multiplayer server, it's suggested you build a significant distance away from your friends so you can both progress at your own pace without affecting one anothers difficulty."
+				""
+				"That said, if you and your friends that arent on the same FTB Teams want to go out and adventure together -- and there is a difference in Age progression, thats okay!  Mob difficulty will balance out somewhere in the middle of each individuals Age. "
+			]
+			icon: "statues:zombie_statue"
+			id: "6B02707642A07450"
+			tasks: [{
+				id: "7CC668E7E9CD7114"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Mobs"
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6B02707642A07450"]
+			description: [
+				"Ore generation is mostly fully customized for this pack. "
+				""
+				"That means that most every single ore that is able to spawn was removed from world generation, and given a custom Y level to spawn at, for every dimension in the pack. "
+				""
+				"You can view the tab \"Ore Generation\" to find out the Y level, and Dimension of every available ore. "
+				""
+				"The only exception to this if I recall (at the time of writing) is Sculk Ore from the Otherside.  All Sculk Ore is default Y level locations. "
+			]
+			icon: "minecraft:iron_ore"
+			id: "39009BD303B688BA"
+			tasks: [{
+				id: "0B3976B892C5DAFC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ore Generation"
+			x: -10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["39009BD303B688BA"]
+			description: [
+				"Progression is gated behind Quests, Items, and Totally Harmonious Item Stages. "
+				""
+				"There will be times that you need items from multiple mods in order to achieve one goal. "
+				""
+				"Items that are gated by stage cannot be interacted with. If you do manage to get them in your inventory, odds are they will fall to the ground. "
+				""
+				"While many things are gated, not EVERYTHING is gated."
+				""
+				"&a&oRemember:&r&r"
+				""
+				"&a&oAdventuring is also part of progression.  By adventuring you may find structures in the world that contain useful resources to help you out. Some structures may be built out of fully crafted items that you may need.&r&r"
+			]
+			icon: "minecraft:map"
+			id: "35334801DA66A2DD"
+			tasks: [{
+				id: "12E44DBBA1AAADE6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Progression"
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["35334801DA66A2DD"]
+			description: [
+				"Resource generation for this pack will be done through Mob Grinding Utils, Productive Bees, Hostile Neural Networks, and Mystical Agriculture. "
+				""
+				"Each mod has been roughly balanced out to provide necessity to the other.  "
+				""
+				"I.E - Many Bees and Seeds are removed so that if you want to get all resources automated, you'll need to work on both mods. "
+				""
+				"There are required quests for each mod that gets you going with each resource generator, spread out through the ages."
+			]
+			icon: "statues:tropibee"
+			id: "6EEC169744BF97ED"
+			tasks: [{
+				id: "5A94704AD9A0A855"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Resource Generation"
+			x: -6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6EEC169744BF97ED"]
+			description: [
+				"Dimensions usually hold the key to progression through a specific material located there. "
+				""
+				"While many dimensions don't have a whole lot going on with them, their real purpose is for a change of scenery while hunting resources. "
+				""
+				"Twilight Forest, and The Bumblezone have quite a bit more to do adventure wise."
+				""
+				"- Twilight Forest is a great adventure mod in the pack, with some required progression. "
+				""
+				"- The Bumblezone also has a few quests associated with it that let you adventure a little more than the others. "
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "22A3A38B9AA5A831"
+			tasks: [{
+				id: "2B89ACED669204CE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dimensions"
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["22A3A38B9AA5A831"]
+			description: [
+				"If you look under the \"Optional\" tab of the Quest Journal you will find"
+				""
+				"&bSuper Side Quests&r - Quests that may aide in progression, but don't fit into Main Quests, and had no good branching points for Side Quests. These start in Age 1."
+				""
+				"&bTop Chef&r - Repeatable Cooking challenges to give you some kind of reward for all that time in the kitchen. "
+				""
+				"An alternate way to get Emeralds that doesn't require you to goto the Moon."
+				""
+				"&bFor Fun&r - Various repeatable challenges "
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5587B9934B863EB4"
+			tasks: [{
+				id: "0363065E83E9C725"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Optional Quests"
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["47A6293F3DEEF2D2"]
+			description: [
+				"Sleep Tight is a mod that makes significant changes to the sleeping system:"
+				""
+				"&bHome Bed&r: After you sleep 8 times in the same bed, the bed will be marked as your \"Home Bed\".  After your bed becomes a Home Bed you will gain the Invigorated buff upon waking up. "
+				""
+				"Invigorated increases XP Drop from ores, and mobs for a significant amount of time. "
+				""
+				"Your home bed can level up to 100, and the status can be found in an icon in the sleep screen. "
+				""
+				"If you break your bed, or your bed becomes infested by Bedbugs it will reset your Home bed status.  "
+				" "
+				"&cBedbugs&r - Your bed can, and probably will be infested by Bedbugs.  If your bed gets infested, you will need to craft a Potion of Harming and use it on the bed, or throw your bed away and make a new bed."
+				""
+				"&cHunger&r - You won't be able to sleep if you're hungry. Make sure you have a full stomach!"
+				""
+				"&cNightmares&r - The more consecutive nights in a row that you sleep, the more likely you are to have a nightmares."
+				""
+				"If you have a nightmare, you may be woken up in the middle of the night and be afflicted with a sleep cooldown. "
+				""
+				"Eventually you will be able to make &aDreamer Essence&r in order to counteract Nightmares, however Phantoms are drawn to this block, so you may want to place it strategically."
+				""
+				"&aNight Bags&r (Sleeping Bags) - can be crafted later when you have access to Echo Shards. These are beds that do not set your spawn point."
+				""
+				"&aHammocks&r - Allows you to rest during the day, and lets you swing!  Must be attached to 2 fences with 2 blocks between, or in a 3 block space against 2 blocks. "
+			]
+			icon: "minecraft:light_blue_bed"
+			id: "494426C085EE7AAC"
+			tasks: [{
+				id: "429C12A06A02287F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Sleep"
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7C6E2935C28151BD"]
+			description: [
+				"These quests only need to be completed if you lost an important quest item like your Akashic Tome, or an Eye from End Remastered."
+				""
+				"They have no objectives, and are a simple repeatable quest to obtain the item you lost. "
+			]
+			id: "5267B2BD410ACD3C"
+			shape: "heart"
+			subtitle: "This shape represents a quest to recover certain special items if lost."
+			tasks: [{
+				id: "152DFCD36AEE1543"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Special Item Recovery"
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5587B9934B863EB4"]
+			description: [
+				"With &a&nMore Overlays&r&r: "
+				""
+				"If you Click F7 it will enable the Light Level / Mob Spawns overlay. "
+				""
+				"A &eYellow X&r indicates a mob can spawn at night"
+				""
+				"A &cRed X&r indicates a mob can always spawn"
+				""
+				"If you click F9 it will enable the Chunk Boundaries Overlay. You can cycle between 1 of 3 modes:"
+				""
+				"&bMode 1&r: Red lines in corners, and a yellow line in the middle of the chunk"
+				""
+				"&bMode 2&r: Shows a green grid on the edges of a chunk."
+				""
+				"&bMode 3&r: Green grid outlines an entire Minecraft region and displays the corresponding region file in the top left corner."
+				""
+				"With &a&nFindMe&r&r: "
+				""
+				"You can search for an item in JEI and click \"y\" over the item. This will then show a smoke looking effect in nearby chests where that item might exist. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "rftoolsutility:computer_module"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57DEDF5E15413216"
+			tasks: [{
+				id: "20DDEA0122C03B5E"
+				title: "Fancy Features"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5587B9934B863EB4"]
+			description: [
+				"If you play in Multiplayer and your HP reaches 0, you will be left in a \"Downed\" state. While in this state a friend can revive you by holding right click. If you choose to \"Accept Your Fate\" you will die and return to your spawn / bed location, and your items will be sent to a Gravestone."
+				""
+				"Corrail Tombstone is the gravestone mod. "
+				""
+				"Upon death you will have a Ghostly Shape that will allow slow fall, and nothing to aggro you as long as you don't break any blocks (for up to 2 minutes), also you will be given a key that can help you get back to your body.  "
+				""
+				"If you use that key and craft it together with an Ender Pearl, you can have instant teleportation to your body. "
+				""
+				"When recovering your items, everything should equip back into their original slots. This includes Curio."
+				""
+				"Be sure to access the Knowledge of Death menu (default K). There are ways to gain experience through dying, praying with an ankh, and others -- to get experience toward this skill tree.ee"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tombstone:decorative_grave_normal"
+				tag: {
+					model_texture: 1
+				}
+			}
+			id: "62923E04727E678E"
+			tasks: [{
+				id: "73E3EA10B4438F92"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Death"
+			x: -11.0d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"62923E04727E678E"
+				"57DEDF5E15413216"
+				"3C1E3A1924870689"
+				"719877B9E2F2DB25"
+				"6CB3D260BB211CE4"
+				"5267B2BD410ACD3C"
+				"5CD877720D8C9BC5"
+				"0600A4AE799F6824"
+			]
+			description: [
+				"You won't be able to get to The End using the Vanilla method. We are using \"End Remastered\""
+				""
+				"Throughout the pack, you'll receive special \"Eye\" items as quest rewards. There are 12 Eyes in total, which will be one for each piece of the End Portal Frame."
+				""
+				"When you have the final Eye you can either craft the Ancient Portal Frame, or locate the End Portal Frame in a Stronghold."
+				""
+				"If you have an idea of trying to get to the End early by reseting one Eye quest, you will not be able to do this. The End Portal will require 12 unique Eyes."
+				""
+				""
+				"&l&aTo proceed from here, click on \"Main Progression\" and accept the quest reward for Age 1&r&r"
+				""
+				"&a&lAfter accepting the reward for \"Start Age 1\" you can claim your quest rewards without them falling to the ground.&r&r"
+			]
+			hide_dependency_lines: true
+			icon: "endrem:ancient_portal_frame"
+			id: "3AC0056DB7C1C822"
+			tasks: [{
+				id: "416BF236CA332CAF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The End"
+			x: -10.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7C6E2935C28151BD"]
+			description: ["This shape is is just used for the Main Progression quests."]
+			id: "6405AEE611931D1A"
+			shape: "hexagon"
+			subtitle: "This shape is only used in the Main Progression Quest Journal tab."
+			tasks: [{
+				id: "69557B54D45CB7FE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Main Progression"
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5587B9934B863EB4"]
+			description: [
+				"Serene Seasons in this pack will affect various Seeds and Saplings.  Most of these can only be grown in the proper season, however there are a few year round crops."
+				""
+				"One season lasts about 10 Minecraft days.  "
+				""
+				"If you look under the \"Super Side Quests\" > \"Age 4\" there is quest for Greenhouse Glass.  If you click this quest, it will show you the various glass that will work as Greenhouse Glass.   "
+				""
+				"It starts with Minecraft Green Stained Glass, which can then be Chipped for different designs."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:wheat_seeds"
+			id: "0600A4AE799F6824"
+			tasks: [{
+				id: "64DD6E0C3E32E222"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Crops"
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5587B9934B863EB4"]
+			description: [
+				"To take advantage Chunk Claims and Chunk Loading, you'll need to set up an FTB Teams. "
+				""
+				"You can do this by simply opening your inventory (default: e), then clicking on the icon in the upper left hand corner of your screen (&9Blue&r/&aGreen&r/&cRed&r people)."
+				""
+				"If you're not already on a team you will have the choice of creating your team on this page, as well as selecting a team color."
+				""
+				"To invite others to your party you will need to type '&b/ftbteams party invite playername&r'. "
+				""
+				"Your Quests and Teams are tied together, so you will be able to progress together with your friends, or progress seprately on your own or with a smaller group on the server. "
+				""
+				"As you progress through the ages you will unlock the ability to claim and forceload more chunks. "
+				""
+				"- Age 1: 10 claims | 0 force load"
+				"- Age 2: 100 claims | 10 force load"
+				"- Age 3: 500 claims | 20 force load"
+				"- Age 4: 1000 claims | 40 force load"
+				"- Age 5: 1500 claims | 50 force load"
+				"- Age 6: 2000 claims | 100 force load"
+				"- Age 7: 2500 claims | 200 force load"
+			]
+			hide_dependency_lines: true
+			icon: "ftbquests:book"
+			id: "5CD877720D8C9BC5"
+			tasks: [{
+				id: "3A16E39B32E0C82F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "FTB Teams"
+			x: -10.0d
+			y: -16.5d
+		}
+	]
+	title: "Read Me!"
+}

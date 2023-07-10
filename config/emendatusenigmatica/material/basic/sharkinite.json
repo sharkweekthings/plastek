@@ -1,0 +1,30 @@
+{
+  "id": "sharkinite",
+  "source": "modded",
+  "localizedName": "Sharkinite",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "nugget",
+    "raw",
+    "dust",
+    "plate",
+    "ore",
+    "clump",
+    "crystal",
+    "shard",
+    "dirty_dust",
+    "slurry",
+    "crushed_ore",
+    "plate" 
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 4
+  },
+  "colors": {
+    "fluidColor": "4692E2",
+    "materialColor": "4692E2",
+    "gasColor": "4692E2"
+  }
+}

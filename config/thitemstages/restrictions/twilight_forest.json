@@ -1,0 +1,11 @@
+{
+  "Restriction Data": {
+    "stage": "twilight_forest",
+    "dimensionList": [
+      {
+        "dimension": "twilightforest:twilight_forest",
+        "message": "You do not meet the requirements to enter!"
+      }
+    ]
+  }
+}

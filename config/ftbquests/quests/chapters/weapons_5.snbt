@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_5"
+	group: "7259EF239C15BF6E"
+	icon: {
+		Count: 1b
+		id: "ars_nouveau:enchanters_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "357151B441057119"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "64E755D9341A3A9E"
+			shape: "circle"
+			tasks: [{
+				id: "742FC5EFE02E7603"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "7B3080C6BBCDD92A"
+			shape: "circle"
+			tasks: [{
+				id: "7EB5D61E5DDB9A7C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_launcher"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Plunger: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "638097F1AF9723C8"
+			shape: "circle"
+			subtitle: "RIP"
+			tasks: [{
+				id: "45AB644C3A28E4F5"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42B1DFB8143ECB26"]
+			id: "79C355F70143F126"
+			shape: "circle"
+			tasks: [{
+				id: "69494141EF73FD3E"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42B1DFB8143ECB26"]
+			id: "5E06ECCFD381F848"
+			shape: "circle"
+			tasks: [{
+				id: "2A4DACAC2FC0DC73"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42B1DFB8143ECB26"]
+			id: "5F3C9CE2660CAB21"
+			shape: "circle"
+			tasks: [{
+				id: "24D6E46C5DCB6878"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "Weapons"
+}

@@ -1,0 +1,611 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_2"
+	group: "04DB2BB1A10D6373"
+	icon: {
+		Count: 1b
+		id: "occultism:divination_rod"
+		tag: { }
+	}
+	id: "00A0164751CF042F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46A8082BAFA451ED"]
+			description: ["Required to construct Immersive Engineering Multi Blocks."]
+			id: "1A6E4C045828DEDE"
+			tasks: [{
+				id: "26363961B182E98A"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"From here on, most of your Tools, Weapons, and Armors will be made through Silent Gear, or Apotheosis, or Both!"
+				""
+				"There may be the ocassional exceptions though where certain armors will be better to use. "
+			]
+			id: "3780A1B40F84103A"
+			tasks: [{
+				id: "0B52CCAFCD10ED48"
+				item: {
+					Count: 1b
+					id: "silentgear:pickaxe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:pickaxe_head"
+										Item: {
+											Count: 1b
+											id: "silentgear:pickaxe_head"
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													Count: 3b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												Materials: [{
+													ID: "silentgear:wood/rough"
+													Item: {
+														Count: 1b
+														id: "minecraft:air"
+														tag: {
+															Charged: 0b
+														}
+													}
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -2.8f
+									"silentgear:charging_value": 0.6999999f
+									"silentgear:durability": 249.99998f
+									"silentgear:enchantment_value": 13.999999f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 3.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:crude"
+									}
+									{
+										Level: 5b
+										Name: "silentgear:bending"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							1450365213
+							1385909329
+							-1807623527
+							815855940
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Silent Tools"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["186B4AE054D01469"]
+			description: [
+				"With this handy dandy flower pouch, you can just jam all your flowers into it. I swear, the flowers won't even get damaged.  The pouch is magical, and in reality, you're sending your flowers to Alfheim. "
+				""
+				"Could you imagine the horrors on the Alfheim's denizens faces as they see a giant, blocky hand coming from the sky as you stick your hand into the pouch to recover a flower? "
+			]
+			id: "27193A29AB0DDAF8"
+			shape: "circle"
+			subtitle: "Write my name in the sand... "
+			tasks: [{
+				id: "3AC3465D38905880"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			title: "I Can Buy Myself Flowers"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B2BE8EF4B077ABF"]
+			description: ["This tool has many uses such as finding out information about certain Botania blocks, as well as activating the Alfheim Portal."]
+			id: "7510B8270AB11333"
+			tasks: [{
+				id: "115E52EA16B406D9"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["791E405B6085CCE2"]
+			description: [
+				"Oh, wait, no.. they actually DO something... "
+				""
+				"These are a much better version of the Demon's Dream Fruit. Instead of having to consume poison, and make yourself hallucinate, you can simply wear some goggles! "
+				""
+				"This will make your trip in the Nether much easier as you will be able to see Iesnium ore.  Iesnium will be an integral part of getting to space!"
+			]
+			id: "076EB307BC758853"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "626DB73237808792"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "The Goggles Do Nothing!"
+			tasks: [{
+				id: "4A038C1160F52D57"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["076EB307BC758853"]
+			description: [
+				"Don't use the Infused Lens' intended for your goggles. You'll need 2 Infused Lenses. One for the goggles, and the other for the rod. "
+				""
+				"The Divination Rod can be attuned to a block by Sneak + Clicking the block. You will see a message in chat confirming the attunment.  You can also reset the block to a new one whenever you want."
+				""
+				"Once attuned to a block, hold down right click and let the Divination Rod charge up. A small pink particle effect should come out, making it much easier to locate what you're looking for, if you're within a 129 block radius of the block you seek."
+				""
+				"&a&oNote: This is intended to help you locate hard to find ore blocks!&r&r"
+			]
+			id: "6C5537A36A16C0D4"
+			shape: "circle"
+			subtitle: "Make sure you have enough for two sets of Infused Lens (Goggles, and Rod)"
+			tasks: [{
+				id: "7B038BBA795D53AB"
+				item: {
+					Count: 1b
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4064F6ACEBE392CA"]
+			id: "2D85572657188C68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47109646E242EB35"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "20A949A600AD8980"
+				item: {
+					Count: 1b
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Azakarcryne"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			id: "264AC1C8E63D24F0"
+			subtitle: "Note: This requires a Treated Stick to craft!"
+			tasks: [{
+				id: "4A7B4A6F9DFEACB6"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: [
+				"You make Candle. "
+				""
+				"Candles require Tallow, and you get Tallow by killing Cows, Pigs, or Sheep with this here Butcher Axe."
+				""
+				"You should have plenty of cows by now. "
+			]
+			id: "177B92FA9A0F514E"
+			subtitle: "You no take candle!"
+			tasks: [{
+				id: "11B556CA48CFEBB8"
+				item: {
+					Count: 1b
+					id: "occultism:butcher_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FB82F0B7BA3BD4B"]
+			description: ["Lets you see the working mana range of certain objects. "]
+			id: "0D706F84B07098AD"
+			tasks: [{
+				id: "0EB64201BA35A2DC"
+				item: "botania:monocle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"Outside of Silent Gear, and Vanilla -- you also have access to Apotheosis style Tools."
+				""
+				"With Apotheosis you can extract powerful gems from Weapons/Tools/Armor that you find in the world, or you can find the Gems in chests across the world. "
+				""
+				"You can then socket your gear with the gems.  "
+				""
+				"Optionally, you can also use the items that you find in the world as some may be extremely powerful, especially items that drop from Named Apotheosis bosses."
+				""
+				"&cNote: Most Apotheosis gear can be converted into Silent Gear by crafting the item by itself.  &lTHE PROCESS IS NOT REVERSIBLE&r.&r"
+				""
+				"&l&eSilent Gear can be given Apotheosis enchants, sockets, etc if you put it in the Reforging Table.  Mixing the two can result in some extremely powerful items.&r&r"
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					facets: 6
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "ancient"
+					uuids: [[I;
+						-631996236
+						175786103
+						-1971532747
+						1592531039
+					]]
+				}
+			}
+			id: "32741B1B4BE2FACE"
+			shape: "circle"
+			tasks: [{
+				id: "418AC74AB13747CA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Apotheosis"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: ["The Reforging Station, when paired with Gem Dust, and the material you get from breaking down gear -- will let you change the properties of your equipment."]
+			id: "433AD1D8D4B477BD"
+			shape: "circle"
+			tasks: [{
+				id: "5F2BABED814C9BB1"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: ["This table will net you Gem Dust. Just put in Gems you don't need, and collect the dust."]
+			id: "35D707568E4514F4"
+			rewards: [{
+				id: "49B056FBDD5F7821"
+				item: "apotheosis:gem_dust"
+				random_bonus: 14
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1E3F1B67838C4469"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: [
+				"You've probably come across some Apotheosis gear in chests, or mob drops by now. "
+				""
+				"You can put stuff you arent using in this, and salvage it.  You'll get some important materials back:"
+				""
+				"&8Mysterious Scrap Metal&r"
+				"&aTimeworn Fabric&r"
+				"&dArcane Sands&r"
+				"&6Godforged Pearl&r"
+			]
+			id: "42159537E354482C"
+			rewards: [
+				{
+					id: "6A16E30C01CC9B8C"
+					item: "apotheosis:common_material"
+					random_bonus: 19
+					type: "item"
+				}
+				{
+					id: "452AB714E6E954E7"
+					item: "apotheosis:uncommon_material"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					id: "6739FC6910BA6729"
+					item: "apotheosis:epic_material"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "0354E1A6A9F9341B"
+					item: "apotheosis:mythic_material"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "1CB045108B143FC7"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: ["While this isn't an Apotheosis item, you will need a Smithing Table if you want to put gems into the Empty Sockets of your gear."]
+			id: "6A0F00354FADEA15"
+			shape: "circle"
+			tasks: [{
+				id: "1A5917E3E3A77324"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "1FCAB4A7D0AC7A5D"
+			shape: "circle"
+			tasks: [{
+				id: "1295455514B8FC3C"
+				item: "mob_grinding_utils:absorption_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "5EE591E1AEC588D2"
+			shape: "circle"
+			tasks: [{
+				id: "42BB36A18D3C686D"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "383B59A3A604DC17"
+			shape: "circle"
+			tasks: [{
+				id: "6C32C0F90B914F2C"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "41A8AF881250D90C"
+			shape: "circle"
+			tasks: [{
+				id: "60B09F40B017A5E2"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "392339EE4457581B"
+			shape: "circle"
+			tasks: [{
+				id: "0EBC0D7FEA9E22F9"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "520C627477EAFE8B"
+			shape: "circle"
+			tasks: [{
+				id: "4B48919B395BE43F"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "34ADACADF0A18EC8"
+			shape: "circle"
+			tasks: [{
+				id: "782A99D7EFD5FD1A"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "419BAF82DE5C43E0"
+			shape: "circle"
+			tasks: [{
+				id: "4F0DBF0E959026FA"
+				item: "mob_grinding_utils:xp_solidifier_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "7FB438059382C276"
+			shape: "circle"
+			tasks: [{
+				id: "3AF5CE967237DA2E"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "636DDC00B2073B05"
+			shape: "circle"
+			tasks: [{
+				id: "787BC54F812CD335"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "6CF8F489E74023B3"
+			shape: "circle"
+			tasks: [{
+				id: "0FC068D7F52E0534"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			description: ["While this is unlocked in the quest book, you won't be able to craft it until Age 6"]
+			id: "7712DE08D8BE78BA"
+			shape: "circle"
+			tasks: [{
+				id: "126B18D77FFF6A2D"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+	]
+	title: "Utility"
+}

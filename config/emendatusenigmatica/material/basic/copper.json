@@ -1,0 +1,52 @@
+{
+  "id": "copper",
+  "source": "vanilla",
+  "localizedName": "Copper",
+  "disableDefaultOre": false,
+  "processedTypes": [
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+    "crushed_ore",
+    "nugget",
+    "clump",
+    "crystal",
+    "shard",
+    "dirty_dust",
+    "slurry",
+    "helmet",
+    "chestplate",
+    "leggings",
+    "pickaxe",
+    "hoe",
+    "shovel",
+    "sword",
+    "boots"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 1
+  },
+  "tools": {
+    "level": 1,
+    "attackDamage": 2,
+    "enchantability": 14,
+    "efficiency": 4.0,
+    "sword": { "damage": 1, "speed":  -2.4, "durability": 230 },
+    "pickaxe": { "damage": 2.5, "speed":  -1.3, "durability": 230 },
+    "axe": { "damage": 3, "speed":  -2.2, "durability": 230 },
+    "shovel": { "damage": 3, "speed":  -2.1, "durability": 230 },
+    "hoe": { "damage": 1, "speed":  -1.2, "durability": 230 }
+  },
+  "armor": {
+    "helmet": { "protection": 1, "durability": 165 },
+    "chestplate": { "protection": 4, "durability": 240 },
+    "leggings": { "protection": 3, "durability": 225 },
+    "boots": { "protection": 1, "durability": 195 }
+  },
+  "colors": {
+    "materialColor": "C86841",
+    "fluidColor": "C86841"
+  }
+}

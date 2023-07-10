@@ -1,0 +1,15 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "mekanism:hdpe_sheet"},
+	{"item": "silentcompat:plasteel_ingot"},
+	{"item": "pneumaticcraft:plastic"},
+	{"item": "industrialforegoing:plastic"},
+	{"item": "emendatusenigmatica:plastim_dust"}
+  ],
+  "energy": 60000000,
+  "result": {
+	"item": "emendatusenigmatica:plastim_ingot",
+	"count": 1
+  }
+}

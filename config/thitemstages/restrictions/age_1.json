@@ -1,0 +1,60 @@
+{
+  "Restriction Data": {
+    "stage": "age_1",
+    "itemList": [],
+    "modList": [
+      "apotheosis",
+      "artifacts",
+      "cfm",
+      "chipped",
+      "chococraft",
+      "compressium",
+      "connectedglass",
+      "emendatusenigmatica",
+      "explorerscompass",
+      "farmersdelight",
+      "instrumentalmobs",
+      "inventorypets",
+      "minecraft",
+      "natprog",
+      "naturescompass",
+      "pamhc2crops",
+      "pamhc2foodcore",
+      "pamhc2foodextended",
+      "pamhc2trees",
+      "quark",
+      "rechiseled",
+      "supplementaries",
+      "the_bumblezone",
+      "totemic",
+      "twilightforest",
+      "rootsclassic",
+      "woodenhopper",
+      "relics",
+      "botanypots"
+    ],
+    "tagList": [
+      "kubejs:age_1_item"
+    ],
+    "exceptionList": [
+      {
+        "tag": "kubejs:age_1_exception"
+      }
+    ],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "values": [
+    "#forge:ingots/steel",
+    "#forge:ingots/sterling_silver",
+    "#forge:ingots/aluminum",
+    "#forge:ingots/lumium",
+    "#forge:ingots/signalum",
+    "#forge:ingots/enderium",
+    "#forge:ingots/tin",
+    "#forge:ingots/invar",
+    "#forge:ingots/zinc",
+    "#forge:ingots/hop_graphite",
+    "#forge:ingots/nickel",
+    "#forge:ingots/electrum",
+    "#forge:ingots/sharkinite",
+    "#forge:ingots/osmium",
+    "#forge:ingots/brass",
+    "#forge:ingots/weekonium",
+    "#forge:ingots/constantan",
+    "#forge:ingots/lead",
+    "#forge:ingots/bronze",
+    "#forge:ingots/plastim",
+    "#forge:ingots/silver",
+    "#forge:ingots/uranium"
+  ]
+}

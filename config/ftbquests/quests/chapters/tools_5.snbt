@@ -1,0 +1,1900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_5"
+	group: "7259EF239C15BF6E"
+	icon: "thermal:wrench"
+	id: "080D44EE3661C98B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28D8765551DC8165"]
+			description: ["Detects budding Amethysts, and magical creatures."]
+			id: "7608C5113863497A"
+			shape: "circle"
+			tasks: [{
+				id: "4AE132AB2C5C5763"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "2B161857B5AB3A51"
+			shape: "circle"
+			subtitle: "Itsa Meee!"
+			tasks: [
+				{
+					id: "3A25EA035419A352"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					id: "570BBE59FA8BAA8E"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "58B400DFF3CA409C"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "6931E0F38243DD41"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			title: "Basic Pipes"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "5D4C9677BF556500"
+			shape: "circle"
+			tasks: [{
+				id: "49FB66223D174F72"
+				item: "ars_nouveau:glyph_invisibility"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1854B79176FEC625"
+			shape: "circle"
+			tasks: [{
+				id: "2C31FFCE77910E91"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "14BFEF3B944CCD7D"
+			shape: "circle"
+			tasks: [{
+				id: "2F17D025DE3E72F2"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			description: ["This tool is used to link your Source Jars to Relays, and other magical machinery through Ars Nouveau."]
+			id: "46E991DB1E4FB524"
+			shape: "circle"
+			tasks: [{
+				id: "599523B51B517EB3"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "41D0F954E58E84F5"
+			shape: "circle"
+			tasks: [{
+				id: "48E30C6623C39FE5"
+				item: "ars_nouveau:dull_trinket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "77C63A00B1A272FC"
+			shape: "circle"
+			tasks: [{
+				id: "4C69A40F64B17C4A"
+				item: "ars_nouveau:ring_of_potential"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "471C1823A823AB01"
+			shape: "circle"
+			tasks: [{
+				id: "353454B97A3D7665"
+				item: "ars_nouveau:mundane_belt"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77C63A00B1A272FC"]
+			id: "29F64012FFF6359F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "12B79A9843FE8F0F"
+					item: "ars_nouveau:ring_of_lesser_discount"
+					type: "item"
+				}
+				{
+					id: "4CB7A5A82AAEA1F2"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41D0F954E58E84F5"]
+			id: "2B579423224F588B"
+			shape: "circle"
+			tasks: [{
+				id: "2A960A4C256246C8"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["471C1823A823AB01"]
+			description: ["Hold \"sneak\" while you're falling."]
+			id: "5449371070EB64D3"
+			shape: "circle"
+			tasks: [{
+				id: "378502CFD161E67C"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["471C1823A823AB01"]
+			description: ["Gives you a random positive spell effect every so often.  "]
+			id: "73D268473CACE3CF"
+			shape: "circle"
+			tasks: [{
+				id: "12C28B677EDF0433"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41D0F954E58E84F5"]
+			id: "39774D6BE47C4141"
+			shape: "circle"
+			tasks: [{
+				id: "1577268FC7D529D5"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29F64012FFF6359F"]
+			id: "0E9A6FD6FBBE1997"
+			shape: "circle"
+			tasks: [{
+				id: "21F116CE9A22DBD7"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			description: ["When active acts as a light source."]
+			id: "504840D9F0FFD877"
+			shape: "circle"
+			tasks: [{
+				id: "7D34066E84C3A0A1"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			description: ["When active will void anything you harvest/mine/collect, will give back a small bit of mana."]
+			id: "00CC7772F50255F1"
+			shape: "circle"
+			tasks: [{
+				id: "4FF66F6F72707AFD"
+				item: "ars_nouveau:void_jar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1F0C98C9BA87DE4C"
+			shape: "circle"
+			tasks: [{
+				id: "520446E767FF7909"
+				item: "ars_nouveau:glyph_phantom_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "62377F6CE351631D"
+			shape: "circle"
+			tasks: [{
+				id: "60FB68DD0E819D02"
+				item: "ars_nouveau:glyph_fortune"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "55EDF95BA1811D0B"
+			shape: "circle"
+			tasks: [{
+				id: "7680357E75369B92"
+				item: "ars_nouveau:glyph_wither"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "75C6CD13EE79F456"
+			shape: "circle"
+			tasks: [{
+				id: "6D2E9ACDD8B11407"
+				item: "ars_nouveau:glyph_toss"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "04DABF3D7DB741D7"
+			shape: "circle"
+			tasks: [{
+				id: "4EA2A5B290EC9E4C"
+				item: "ars_nouveau:glyph_cut"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "48A9E952B8B983B5"
+			shape: "circle"
+			tasks: [{
+				id: "3202C9AF7D56C1EA"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "2A76E1157465ADD3"
+			shape: "circle"
+			tasks: [{
+				id: "6D721E22D5CB5CD4"
+				item: "ars_nouveau:glyph_summon_wolves"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "36375719C925C14D"
+			shape: "circle"
+			tasks: [{
+				id: "154B7C21A7F609AC"
+				item: "ars_nouveau:glyph_name"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "27D51091C1BA26C2"
+			shape: "circle"
+			tasks: [{
+				id: "190829064EA36435"
+				item: "ars_nouveau:glyph_dampen"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "748D9C957E5A8372"
+			shape: "circle"
+			tasks: [{
+				id: "400BED4BA56BF411"
+				item: "ars_nouveau:glyph_gravity"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "5519D930C8188FA0"
+			shape: "circle"
+			tasks: [{
+				id: "1A44545243EFCB9A"
+				item: "ars_nouveau:glyph_firework"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "31E09C63725351AA"
+			shape: "circle"
+			tasks: [{
+				id: "1192B2B371685BB7"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "207EE1838DAFE3F6"
+			shape: "circle"
+			tasks: [{
+				id: "286EAE0D0AD331C9"
+				item: "ars_nouveau:glyph_snare"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "058BF3EF8285C220"
+			shape: "circle"
+			tasks: [{
+				id: "07D8511253D24CDC"
+				item: "ars_nouveau:glyph_split"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "49670C1B6C5B03B0"
+			shape: "circle"
+			tasks: [{
+				id: "56FD922D790B46AC"
+				item: "ars_nouveau:glyph_evaporate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "17A117B25AF5F7D6"
+			shape: "circle"
+			tasks: [{
+				id: "079582E594B8BA89"
+				item: "ars_nouveau:glyph_touch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1BCAA9E7F60468B4"
+			shape: "circle"
+			tasks: [{
+				id: "0F8DBBB7C72F34C9"
+				item: "ars_nouveau:glyph_conjure_water"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "23CE7642414EAFFC"
+			shape: "circle"
+			tasks: [{
+				id: "19A72215B453E242"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "3AB5967E69FC4FE7"
+			shape: "circle"
+			tasks: [{
+				id: "66C6588FB78F6939"
+				item: "ars_nouveau:glyph_pickup"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "203B1D46C129276E"
+			shape: "circle"
+			tasks: [{
+				id: "07B71703813B0C32"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "0CC449438D25856D"
+			shape: "circle"
+			tasks: [{
+				id: "425872B534ED91B9"
+				item: "ars_nouveau:glyph_smelt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "41D9282957C25DDF"
+			shape: "circle"
+			tasks: [{
+				id: "781B9C9E3A7874E1"
+				item: "ars_nouveau:glyph_rotate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "2E23B43288F482D0"
+			shape: "circle"
+			tasks: [{
+				id: "0A5ED30446D7369C"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "380B72DFF040D807"
+			shape: "circle"
+			tasks: [{
+				id: "46B28C8A5E22658D"
+				item: "ars_nouveau:glyph_animate_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "03C8C37FE74340AA"
+			shape: "circle"
+			tasks: [{
+				id: "78E8828A958D6C25"
+				item: "ars_nouveau:glyph_ignite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "7FC2472A35144841"
+			shape: "circle"
+			tasks: [{
+				id: "4905F531A8E38A2D"
+				item: "ars_nouveau:glyph_harm"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "47667BFB004E7E37"
+			shape: "circle"
+			tasks: [{
+				id: "114F01C4E0658933"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "7F3821B27F96A91A"
+			shape: "circle"
+			tasks: [{
+				id: "4407ACEBE6FE295B"
+				item: "ars_nouveau:glyph_bounce"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "49A3F339A81CAD1B"
+			shape: "circle"
+			tasks: [{
+				id: "5E20FFDAE5D822CD"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "4F297F71FBF3FFA1"
+			shape: "circle"
+			tasks: [{
+				id: "131C505B57F14161"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "33E93772E6AC33FB"
+			shape: "circle"
+			tasks: [{
+				id: "7B0D0420B56716BD"
+				item: "ars_nouveau:glyph_glide"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "0B034569AA49C2F4"
+			shape: "circle"
+			tasks: [{
+				id: "173F95272E50CA2E"
+				item: "ars_nouveau:glyph_fangs"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "0D33DF7E477E83CE"
+			shape: "circle"
+			tasks: [{
+				id: "769F774A1280697C"
+				item: "ars_nouveau:glyph_exchange"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "3914615B1F33DC34"
+			shape: "circle"
+			tasks: [{
+				id: "3707B09907423A69"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "54A5905FA14046E8"
+			shape: "circle"
+			tasks: [{
+				id: "47F75E79378B8B71"
+				item: "ars_nouveau:glyph_sensitive"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1F11495A76E3667E"
+			shape: "circle"
+			tasks: [{
+				id: "700F600409457AA5"
+				item: "ars_nouveau:glyph_redstone_signal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "5717F9AD89B012FA"
+			shape: "circle"
+			tasks: [{
+				id: "3418FED567239F50"
+				item: "ars_nouveau:glyph_duration_down"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "0063C658AE13A67B"
+			shape: "circle"
+			tasks: [{
+				id: "0ACB4BADCD3B723D"
+				item: "ars_nouveau:glyph_intangible"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "3A65AA549E8835B8"
+			shape: "circle"
+			tasks: [{
+				id: "2CEE64FB5D69BD27"
+				item: "ars_nouveau:glyph_ender_inventory"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "25B7F8C5C7A8889F"
+			shape: "circle"
+			tasks: [{
+				id: "4E8955E8D50192F4"
+				item: "ars_nouveau:glyph_interact"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "10D270D542462F3E"
+			shape: "circle"
+			tasks: [{
+				id: "33256C0D90AF4224"
+				item: "ars_nouveau:glyph_place_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "62894C0CC6774EAD"
+			shape: "circle"
+			tasks: [{
+				id: "588FFA422C1A6D8F"
+				item: "ars_nouveau:glyph_harvest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "2AB2699B2F781DAE"
+			shape: "circle"
+			tasks: [{
+				id: "01959ECD67EF1C26"
+				item: "ars_nouveau:glyph_gust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "76F5A5EAE89892CE"
+			shape: "circle"
+			tasks: [{
+				id: "65B75D2BA48655CB"
+				item: "ars_nouveau:glyph_freeze"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "35532BCF0BC89788"
+			shape: "circle"
+			tasks: [{
+				id: "224D4CC392A230D8"
+				item: "ars_nouveau:glyph_wall"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "3D2A413FD33E66F8"
+			shape: "circle"
+			tasks: [{
+				id: "74EBB48B61D4096F"
+				item: "ars_nouveau:glyph_summon_steed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "351F3C44C6F57BF0"
+			shape: "circle"
+			tasks: [{
+				id: "0616510AFBEAEBF1"
+				item: "ars_nouveau:glyph_summon_vex"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1B6A2492EFBCFB2D"
+			shape: "circle"
+			tasks: [{
+				id: "1C95963A3EDC748B"
+				item: "ars_nouveau:glyph_self"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "5B6D0BCD6E8934DC"
+			shape: "circle"
+			tasks: [{
+				id: "3FD40E5E6E910906"
+				item: "ars_nouveau:burst"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "2A918A778E4ACE85"
+			shape: "circle"
+			tasks: [{
+				id: "4C1B2BDA766035C9"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "35290CC1C2D694CD"
+			shape: "circle"
+			tasks: [{
+				id: "30A6E07BF7951A56"
+				item: "ars_nouveau:glyph_decelerate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "5BCBC2B751379CDB"
+			shape: "circle"
+			tasks: [{
+				id: "60732D75397A7C43"
+				item: "ars_nouveau:glyph_extend_time"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "26BC27569B6AB21D"
+			shape: "circle"
+			tasks: [{
+				id: "61EBFDD1B154CFD3"
+				item: "ars_nouveau:glyph_orbit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "19242AFBD0CB6CDF"
+			shape: "circle"
+			tasks: [{
+				id: "75E91EF2FE2AC833"
+				item: "ars_nouveau:glyph_accelerate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "796D19130537EB55"
+			shape: "circle"
+			tasks: [{
+				id: "287CC037A0C6AECC"
+				item: "ars_nouveau:glyph_break"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1DA69D985E2B8F66"
+			shape: "circle"
+			tasks: [{
+				id: "75BE47B8ECAB2B4A"
+				item: "ars_nouveau:glyph_summon_undead"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "3148D9AC8EFBB2C2"
+			shape: "circle"
+			tasks: [{
+				id: "2CAD903CDB979AF7"
+				item: "ars_nouveau:glyph_rune"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "6CF79BD3D1D2D692"
+			shape: "circle"
+			tasks: [{
+				id: "6D0C9C3BDF9522F8"
+				item: "ars_nouveau:glyph_flare"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "17802E2E944EAEB1"
+			shape: "circle"
+			tasks: [{
+				id: "513E69248C1E3532"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "23744E888A740CB0"
+			shape: "circle"
+			tasks: [{
+				id: "49D4CA30B98779A5"
+				item: "ars_nouveau:glyph_craft"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "274D3A02925E99EE"
+			shape: "circle"
+			tasks: [{
+				id: "5F69A4F07C518F98"
+				item: "ars_nouveau:glyph_wind_shear"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "0C17C844B14A02D9"
+			shape: "circle"
+			tasks: [{
+				id: "6DFC6DE16FCB7046"
+				item: "ars_nouveau:glyph_sense_magic"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "33B044CCED762ECF"
+			shape: "circle"
+			tasks: [{
+				id: "1CDCC4AABECC8708"
+				item: "ars_nouveau:glyph_pull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "3E979483398AB3CE"
+			shape: "circle"
+			tasks: [{
+				id: "7400BD48F32769F6"
+				item: "ars_nouveau:glyph_pierce"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "045741140D5EC11D"
+			shape: "circle"
+			tasks: [{
+				id: "101705C4159D9116"
+				item: "ars_nouveau:glyph_slowfall"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "4C7204A87DFDD252"
+			shape: "circle"
+			tasks: [{
+				id: "26D3F38411AD8995"
+				item: "ars_nouveau:glyph_extract"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "0B590E9C0E0673A9"
+			shape: "circle"
+			tasks: [{
+				id: "0E58DD26CA7B5AD7"
+				item: "ars_nouveau:glyph_delay"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "210BD08F42683A69"
+			shape: "circle"
+			tasks: [{
+				id: "18F4773171F0ADAA"
+				item: "ars_nouveau:glyph_cold_snap"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "1B21E2885E4BBD42"
+			shape: "circle"
+			tasks: [{
+				id: "54ED1C91DAA21400"
+				item: "ars_nouveau:glyph_summon_decoy"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "14784FD3FB4F87CD"
+			shape: "circle"
+			tasks: [{
+				id: "0B8ACCF2377E21BF"
+				item: "ars_nouveau:glyph_projectile"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "6487D42A59A968B6"
+			shape: "circle"
+			tasks: [{
+				id: "73318F2AFE2B1384"
+				item: "ars_nouveau:glyph_infuse"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "054412AAFA75D4F2"
+			shape: "circle"
+			tasks: [{
+				id: "081B7645A28264B2"
+				item: "ars_nouveau:glyph_hex"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "545FB1B78A77B56C"
+			shape: "circle"
+			tasks: [{
+				id: "4C165615E8E7A3ED"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["28D8765551DC8165"]
+			id: "25DD203D86AFE6B0"
+			shape: "circle"
+			tasks: [{
+				id: "671BC520DB3510D8"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "6974F6E849C269EA"
+			rewards: [{
+				id: "07074636107207FE"
+				item: {
+					Count: 1b
+					id: "mekanism:configurator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "78DE06FCA7696D4F"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			description: ["From almost no range at all, to an unnecessary amount of range. "]
+			id: "7F0FCE92A0A7D7C9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "117A7F80B65D6378"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon0"
+						tag: {
+							TitaniumAugment: {
+								Range: 0.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30504B61F6C9E9B3"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon1"
+						tag: {
+							TitaniumAugment: {
+								Range: 1.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "523A76DEC47D7493"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon2"
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E0EAC9CAD058126"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon3"
+						tag: {
+							TitaniumAugment: {
+								Range: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "281397E3D282C762"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon4"
+						tag: {
+							TitaniumAugment: {
+								Range: 4.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46B56AC05AD068C1"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon5"
+						tag: {
+							TitaniumAugment: {
+								Range: 5.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222DB8A8317F182D"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon6"
+						tag: {
+							TitaniumAugment: {
+								Range: 6.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DFFD84678BC4952"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon7"
+						tag: {
+							TitaniumAugment: {
+								Range: 7.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51CFD192C220ADD1"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon8"
+						tag: {
+							TitaniumAugment: {
+								Range: 8.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9A6642D565D716"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon9"
+						tag: {
+							TitaniumAugment: {
+								Range: 9.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "182E82429D529F90"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon10"
+						tag: {
+							TitaniumAugment: {
+								Range: 10.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B0995CC992E3C7"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon11"
+						tag: {
+							TitaniumAugment: {
+								Range: 11.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon: Range"
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			description: ["Your machines may be slow to Barry Allen, but at least they will be fast to you."]
+			id: "0BBE1BFB07ABBFBA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3148A9CF8373FB29"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Speed: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AA0B4A2A3C6BDE7"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon: Speed"
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			description: [
+				"Easier on your power.  "
+				""
+				"The machine will now use less power while operating."
+			]
+			id: "5207F4EDF97D9650"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2F58862F2E009065"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.9f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40371C98CE0D8368"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon: Efficiency"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			description: ["Increases the amount of operations done, when a machine does an operation."]
+			id: "0D5211611F6571FD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "632CFA94CC1F2C5E"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Processing: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EFDE34D979E7AD4"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon: Processing"
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "377F3EE30512E4D7"
+			shape: "circle"
+			subtitle: "For those seeking to be the very best"
+			tasks: [{
+				id: "261B19BE7D730A57"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "03A2FC51DF0DF03E"
+			shape: "circle"
+			tasks: [{
+				id: "7998A0C465134286"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "2C7B76C3EF17EE83"
+			shape: "circle"
+			tasks: [{
+				id: "6769830B9ADC45C6"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "21BB0A13E11A2921"
+			shape: "circle"
+			tasks: [{
+				id: "1369531EF13FF4C1"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: [
+				"Install one of these into your Thermal Machines and it improves it all around. "
+				""
+				"These don't stack, and you can't have one of each."
+			]
+			id: "382CE0FEB0CD8750"
+			shape: "circle"
+			tasks: [
+				{
+					id: "229EAB4B3F48E86B"
+					item: "thermal:upgrade_augment_1"
+					type: "item"
+				}
+				{
+					id: "5C1CE08E4BB37A21"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+				{
+					id: "300FB0757FE83FC8"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+			]
+			title: "Integral Components"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "6EF34688461437C4"
+			shape: "circle"
+			tasks: [{
+				id: "19639B6560448D8B"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "6DEB7A8701AC7709"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5F984A6604C2835A"
+					item: "thermal:rf_coil_augment"
+					type: "item"
+				}
+				{
+					id: "4C65C65EF501D46A"
+					item: "thermal:rf_coil_storage_augment"
+					type: "item"
+				}
+				{
+					id: "2D2E8F4D61DE99E9"
+					item: "thermal:rf_coil_xfer_augment"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "10DEDE6C232C72F4"
+			shape: "circle"
+			tasks: [{
+				id: "208A65DE8BB85C8C"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "1102F17D375CCA5B"
+			shape: "circle"
+			tasks: [{
+				id: "01C2811E2DFBD642"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "4A85C7E355BF0D64"
+			shape: "circle"
+			tasks: [{
+				id: "69DF48694DD64377"
+				item: "thermal:fluid_filter_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "5223FAB0C47365EC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0B30EB6CD23E63FF"
+					item: "thermal:machine_speed_augment"
+					type: "item"
+				}
+				{
+					id: "7A165D52EA5C7564"
+					item: "thermal:machine_efficiency_augment"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "3F2DBEC7627D70B3"
+			shape: "circle"
+			tasks: [{
+				id: "31EE728FADF92397"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "24EC2DFDFD2A7A95"
+			shape: "circle"
+			tasks: [{
+				id: "351D52DD7C7D6124"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "27275F4A02D240ED"
+			shape: "circle"
+			tasks: [{
+				id: "6B1C985033781E07"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "5C6E913B17C0E7F3"
+			shape: "circle"
+			tasks: [{
+				id: "5A525F7FA8401042"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "5A840791A1E3D5DC"
+			shape: "circle"
+			tasks: [{
+				id: "7161147FDAF3C768"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "3767EA4C69CE0AC0"
+			shape: "circle"
+			tasks: [{
+				id: "091444B80233F1FD"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "4A50168E1C9AE92A"
+			shape: "circle"
+			tasks: [{
+				id: "258D0B0C0C4ED2DE"
+				item: "thermal:area_radius_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "7CB172C5D70C026D"
+			shape: "circle"
+			tasks: [{
+				id: "2096379B2E8D9B1D"
+				item: "thermal:wrench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "4B508EECB44BD1C8"
+			shape: "circle"
+			subtitle: "Capable of charging up to 9 items at once!"
+			tasks: [{
+				id: "626A1875FA1F64DD"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "13238D8D6EC5E8EC"
+			shape: "circle"
+			tasks: [{
+				id: "484F1525F5CAA550"
+				item: {
+					Count: 1b
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "6B95040AAA9B542E"
+			shape: "circle"
+			tasks: [{
+				id: "35EF39ED5EF8758D"
+				item: {
+					Count: 1b
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "470677ED76E756C5"
+			shape: "circle"
+			tasks: [{
+				id: "6F5E8880941FB1CE"
+				item: {
+					Count: 1b
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "0071CC2A0ABA4543"
+			shape: "circle"
+			tasks: [{
+				id: "2E2545289ECB545A"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "1B895C25B861040F"
+			shape: "circle"
+			tasks: [{
+				id: "0832D4388EB8DC90"
+				item: {
+					Count: 1b
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "0BF21E9685923802"
+			shape: "circle"
+			tasks: [{
+				id: "5564B73D2943CE7E"
+				item: {
+					Count: 1b
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "1B80AFD8B867DC10"
+			shape: "circle"
+			tasks: [{
+				id: "2F8EDB1D098412F5"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "3C10321B1F7B5968"
+			shape: "circle"
+			tasks: [{
+				id: "2F1731C0167D86CC"
+				item: {
+					Count: 1b
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Utility"
+}

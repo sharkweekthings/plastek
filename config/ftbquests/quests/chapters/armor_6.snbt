@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_6"
+	group: "16ADE1AEEBEEE736"
+	icon: "mekanism:mekasuit_bodyarmor"
+	id: "4B49D49C7602BE39"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "0D81E3961B568F3D"
+			shape: "circle"
+			tasks: [{
+				id: "3350246033DBF432"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "0637379094C97702"
+			shape: "circle"
+			tasks: [{
+				id: "14985C20992D023D"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "37EC764FEE003158"
+			shape: "circle"
+			tasks: [{
+				id: "62E01804090DB195"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "2744A0DDC2BA8525"
+			shape: "circle"
+			tasks: [{
+				id: "4533BFB0BE6AA17E"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "4BECA6A078FF1A99"
+			shape: "circle"
+			tasks: [{
+				id: "3D6823F52E8F4276"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:supremium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "2A596E05BA1FCA6E"
+			shape: "circle"
+			tasks: [{
+				id: "0AF208FB6D7FBA1E"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:supremium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "0D592AD53F30071F"
+			shape: "circle"
+			tasks: [{
+				id: "6E4E66FC51F2BB9D"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:supremium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "0374DA1B650508A9"
+			shape: "circle"
+			tasks: [{
+				id: "732E9FAE009E3736"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:supremium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "7014228BB96E8E42"
+			shape: "circle"
+			tasks: [{
+				id: "4EFC03E19C9A80A4"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:awakened_supremium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "3DEC7D4461EC8A12"
+			shape: "circle"
+			tasks: [{
+				id: "00FE160A97842262"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:awakened_supremium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "1DE31556D4F2EBE6"
+			shape: "circle"
+			tasks: [{
+				id: "5DB9C61A877FE313"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:awakened_supremium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "3FCA055245AB77AC"
+			shape: "circle"
+			tasks: [{
+				id: "6DC0C5E08D481D63"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:awakened_supremium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "7EDB4371265CF742"
+			shape: "circle"
+			tasks: [{
+				id: "3F6CD50E59ABFB52"
+				item: "mekanism:mekasuit_helmet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "4E1DD8445360B73F"
+			shape: "circle"
+			tasks: [{
+				id: "255DE978615FDEBE"
+				item: "mekanism:mekasuit_bodyarmor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "68E2DC319983CDD7"
+			shape: "circle"
+			tasks: [{
+				id: "7324BF5A6E71D023"
+				item: "mekanism:mekasuit_pants"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "22C91D163B4B6F88"
+			shape: "circle"
+			tasks: [{
+				id: "304F1F7F0FC00ED2"
+				item: "mekanism:mekasuit_boots"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "115CB943EE1021B0"
+			tasks: [{
+				id: "4ED374A5E8C4C3FD"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "58582C8DF0D92ACF"
+			tasks: [{
+				id: "3D90D6684D78FE2A"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "211B2F86EFCEB273"
+			tasks: [{
+				id: "1589E5C568DF6ED6"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "6731D99588DF5C7A"
+			tasks: [{
+				id: "5A1279E792BAF8B5"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+	]
+	title: "Armor"
+}

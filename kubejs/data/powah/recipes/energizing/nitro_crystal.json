@@ -1,0 +1,15 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "powah:blazing_crystal_block"},
+	{"item": "minecraft:redstone_block"},
+	{"item": "powah:crystal_spirited"},
+	{"item": "minecraft:redstone_block"},
+	{"item": "powah:blazing_crystal_block"}
+  ],
+  "energy": 20000000,
+  "result": {
+	"item": "powah:crystal_nitro",
+	"count": 16
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": 
+      [
+        {"type":"minecraft:item","weight":3,"name":"plushies:dragon"},
+        {"type":"minecraft:item","weight":3,"name":"statues:display_stand"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:superstitious_hat"},
+        {"type":"minecraft:item","weight":3,"name":"statues:pufferfish_medium_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:bumbo_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:villager_br_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:rage_glove"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_persian_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:enderman_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:pig_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:llama"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_tabby_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:villager_wh_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:guardian_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:villager_gr_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:blaze_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:snow_golem_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_go_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:husk_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:enders_hand"},
+        {"type":"minecraft:item","weight":3,"name":"statues:angry_bee_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_br_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:flame_pendant"},
+        {"type":"minecraft:item","weight":3,"name":"statues:ravager_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_ss"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_blue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_light_blue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:obsidian_skull"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_tabby_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:villager_br_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:dolphin"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_sd"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:panda"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_gray"},
+        {"type":"minecraft:item","weight":3,"name":"statues:chicken_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:pufferfish_medium_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:rabbit_wh_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:whoopee_cushion"},
+        {"type":"minecraft:item","weight":3,"name":"statues:villager_gr_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:golden_hook"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:pocket_piston"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:white_fox"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:cross_necklace"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:snow_golem"},
+        {"type":"minecraft:item","weight":3,"name":"statues:slabfish"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:bunny_hoppers"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_angry_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:slime_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_bms"},
+        {"type":"minecraft:item","weight":3,"name":"statues:flood_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:info_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_yellow"},
+        {"type":"minecraft:item","weight":3,"name":"statues:magma_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_siamese_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:magma_cube"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_brown"},
+        {"type":"minecraft:item","weight":3,"name":"statues:pillager_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:wool_mitten"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_magenta"},
+        {"type":"minecraft:item","weight":3,"name":"statues:slabfish"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_blue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:cat"},
+        {"type":"minecraft:item","weight":3,"name":"statues:zombie_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_magenta"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_bb"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_hb"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_black"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_purple"},
+        {"type":"minecraft:item","weight":3,"name":"statues:totem_of_undying_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:jellyfish_necklace"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_bmb"},
+        {"type":"minecraft:item","weight":1,"name":"relics:arrow_quiver"},
+        {"type":"minecraft:item","weight":3,"name":"statues:ravager_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_red_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_black_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_white"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:goat"},
+        {"type":"minecraft:item","weight":1,"name":"relics:horse_flute"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cod_statue"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:kitty_slippers"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:sheep"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:power_glove"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:cow"},
+        {"type":"minecraft:item","weight":3,"name":"statues:drowned_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_bm"},
+        {"type":"minecraft:item","weight":3,"name":"statues:guardian_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:azzaro"},
+        {"type":"minecraft:item","weight":1,"name":"relics:magma_walker"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:charm_of_sinking"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_white_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:squid_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:tropical_fish_e"},
+        {"type":"minecraft:item","weight":3,"name":"statues:fox_snow_statue"},
+        {"type":"minecraft:item","weight":1,"name":"relics:shadow_glaive"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_cyan"},
+        {"type":"minecraft:item","weight":3,"name":"statues:cat_black_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:salmon_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:slime_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:turtle"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:feral_claws"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_light_gray"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_brown"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:dragon"},
+        {"type":"minecraft:item","weight":3,"name":"statues:panda_weak_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_white"},
+        {"type":"minecraft:item","weight":3,"name":"statues:vindicator_statue"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:parrot"},
+        {"type":"minecraft:item","weight":3,"name":"plushies:dragon"},
+        {"type":"minecraft:item","weight":1,"name":"relics:chorus_inhibitor"},
+        {"type":"minecraft:item","weight":3,"name":"statues:dolphin_statue"},
+        {"type":"minecraft:item","weight":3,"name":"statues:sheep_statue_orange"},
+        {"type":"minecraft:item","weight":1,"name":"artifacts:crystal_heart"},
+        {"type": "minecraft:empty","weight": 98},
+        {"type": "minecraft:empty","weight": 98},
+        {"type": "minecraft:empty","weight": 98},
+        {"type": "minecraft:empty","weight": 98}
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "name": "minecraft:enchanted_golden_apple",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:experience_bottle",
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:golden_apple",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "minecraft:lapis_block",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:note_block",
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:iron_pickaxe",
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "name": "minecraft:sponge",
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:lapis_lazuli",
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:amethyst_block",
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:amethyst_shard",
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:redstone",
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "name": "minecraft:sponge",
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:powder_snow_bucket",
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:cookie",
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:clay",
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:cobweb",
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:rotten_flesh",
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:string",
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:bone",
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "repurposed_structures:chests/lucky_pool"
+        }
+      ]
+    },
+    {
+      "rolls": 0,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 130
+        },
+        {
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{BlockEntityTag:{Patterns:[{Pattern:gru,Color:9},{Pattern:bri,Color:15},{Pattern:bri,Color:15},{Pattern:bri,Color:15},{Pattern:ss,Color:15},{Pattern:ss,Color:15},{Pattern:ss,Color:15},{Pattern:cs,Color:7},{Pattern:cs,Color:8},{Pattern:ms,Color:7},{Pattern:ms,Color:8},{Pattern:sc,Color:15}]}}"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:lapis_lazuli",
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

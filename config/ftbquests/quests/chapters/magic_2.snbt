@@ -1,0 +1,946 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_2"
+	group: "04DB2BB1A10D6373"
+	icon: "occultism:spirit_attuned_gem"
+	id: "0B3343D6E82C471C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: [
+				"For this age we will be focusing a bit on early Botania and Occultism. "
+				""
+				"Mostly we're here because we need access to &4the Nether&r, but along the way we will get some basics set up for both of these mods. "
+			]
+			id: "29F8D907AB824D1A"
+			tasks: [{
+				id: "581DDBDE5C4F5EE6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dark and Light"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29F8D907AB824D1A"]
+			description: ["Botania is a mod about gaining mana through nature, and using it to do stuff!"]
+			id: "7B2BE8EF4B077ABF"
+			tasks: [{
+				id: "601736E62448BC4F"
+				title: "Botania"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29F8D907AB824D1A"]
+			id: "71ED2D46C99CBB28"
+			tasks: [{
+				id: "537D772C429417A4"
+				title: "Occultism"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B2BE8EF4B077ABF"]
+			description: [
+				"It's time to go flower picking.  "
+				""
+				"Strap on your flower picking shoes and get ready for an Adventure. We're just going to collect 64 Botania specific Mystical Flowers. "
+				""
+				"&l&eFor the quest credit you will need to find Mystical Flowers specifically. Tall Mystical, and Shimmering Mushrooms won't count.&r&r"
+			]
+			id: "186B4AE054D01469"
+			subtitle: "Well,  that's alright... He can call me a flower if he wants too.."
+			tasks: [{
+				count: 64L
+				id: "1FB4CBD989CBAEC0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "Pretty. Pretty Flower!"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["186B4AE054D01469"]
+			description: ["This is what we'll need to make the Petal Apothecary"]
+			id: "435CB16C37162E92"
+			tasks: [
+				{
+					count: 3L
+					id: "757C336AEC6F585F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:treated_wood_slab"
+						}
+					}
+					title: "Any #forge:treated_wood_slab"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C024BE8B929E022"
+					item: "compressium:stone_2"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44FE9C6ADF174397"
+					item: "minecraft:stone_slab"
+					type: "item"
+				}
+				{
+					id: "56E8F064F5FE9D66"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "Any #botania:mystical_flowers"
+					type: "item"
+				}
+			]
+			title: "The Bare Necessities"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["435CB16C37162E92"]
+			id: "44771EA3F9FB18AC"
+			tasks: [{
+				id: "68C24B02CEDCBF50"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44771EA3F9FB18AC"]
+			id: "3DB80C4A440EA525"
+			tasks: [{
+				id: "03318B00215C0FB3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals/white"
+					}
+				}
+				title: "Any #botania:petals/white"
+				type: "item"
+			}]
+			title: "White Petals"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DB80C4A440EA525"]
+			id: "3B8648E3B849223C"
+			tasks: [{
+				id: "2A18281AC8813FCC"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B8648E3B849223C"]
+			id: "167D3CEDB408CD26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25E10C4AA28A4F50"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "273F4D211CBC5D92"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B8648E3B849223C"]
+			description: ["Any log can become Livingwood!"]
+			id: "2804F7B885EFB68A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31EF01DC527F564D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2587736122002BC0"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71ED2D46C99CBB28"]
+			description: ["You probably already have some of these. However, if you've destroyed them -- you can always get more by breaking some grass."]
+			id: "13AB8BDA84931E48"
+			tasks: [{
+				id: "42DA113E15217BA5"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13AB8BDA84931E48"]
+			description: [
+				"Consuming this item will make you see stuff, man. "
+				""
+				"You can eat it for fun, but due to the changes in this mod, we're able to skip ahead a little bit. "
+			]
+			id: "60872FDFB4F6537C"
+			subtitle: "Someone said it taste like Roast Beef??"
+			tasks: [{
+				id: "5DDF64A51535B754"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60872FDFB4F6537C"]
+			description: [
+				"Think of Spiritfire like a crafting station of sorts. Throw some items in, get some items back. "
+				""
+				"It's really easy to make, too! All you need to do is drop some Demon's Dream Fruit on the block that you to be your Spiritfire, then set the fruit on fire. "
+				""
+				"You can use a Flint and Steel to set it ablaze. "
+				""
+				"This powerful purple flame shouldn't extinguish, but if it ever does, you can just make a new one. "
+				""
+				"Below are all of the exchanges you can make with the Spirit Fire. "
+				""
+				"It's worth doing all of them at least once, some may need many exchanges."
+			]
+			id: "596C93F25C178797"
+			rewards: [{
+				id: "559FC84885CE7156"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sorry, we don't."
+			tasks: [{
+				id: "5B18A8A601731DAC"
+				item: "occultism:spirit_fire"
+				type: "item"
+			}]
+			title: "When Do We Meet Ichigo?"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			id: "0DA3413941B5A016"
+			tasks: [{
+				id: "3B435BB299B79470"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			title: "Burning Livingrock"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			id: "24ECE35F8D2FDECA"
+			tasks: [{
+				id: "2C1FB5D8B85591A6"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "Burning Oak Sapling"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: ["White and Gold Chalk are what we'll be using in this age. "]
+			id: "11D62B219B08EABD"
+			tasks: [
+				{
+					id: "4523BFA7DD710CF3"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "1C01AA35FB6DDC48"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+			]
+			title: "Burning Chalk"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			id: "2E21803563455EB2"
+			tasks: [{
+				id: "542454284052821C"
+				item: "occultism:otherworld_log"
+				type: "item"
+			}]
+			title: "Burning Otherworld Wood"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			id: "27DFCCB828D26438"
+			tasks: [{
+				id: "29C60FFAB50063CE"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			title: "Burning Black Dye"
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			id: "48E3563FC3DDE6F4"
+			tasks: [{
+				id: "256ADCF414C67DF8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Burning Diamonds"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["48E3563FC3DDE6F4"]
+			id: "336F5CA37F41FE6D"
+			tasks: [{
+				id: "1859A47BEEF70AC2"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27DFCCB828D26438"]
+			id: "316EDD912AD35CCD"
+			tasks: [{
+				id: "3C8E9015E7D2114B"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2E21803563455EB2"]
+			id: "5F01CB0586414B59"
+			tasks: [{
+				id: "397C6AED3EC0AE66"
+				item: "occultism:otherworld_ashes"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0DA3413941B5A016"]
+			id: "3B463909368B9B82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69DE68AD3D917712"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "379E5D71131D3A37"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["24ECE35F8D2FDECA"]
+			id: "5DBFA3B100204C17"
+			tasks: [{
+				id: "3A9916B1FB6BBEE7"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_sapling_natural"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["11D62B219B08EABD"]
+			dependency_requirement: "one_started"
+			id: "1221668E91BC92C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "653F3CCC78A885A5"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "471506A9A3BE666E"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D05857347804A19"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "White and Gold Chalk"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D493F772D05CEF3"]
+			description: ["For this ritual, we will need 4 Sacrifical Bowls, and a Golden Sacrifical Bowl"]
+			id: "75FA3748A1C72D7B"
+			tasks: [{
+				count: 4L
+				id: "6648997980A79B3E"
+				item: "occultism:sacrificial_bowl"
+				type: "item"
+			}]
+			title: "The Sacrifical Bowls"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D493F772D05CEF3"]
+			description: ["If you haven't already made the White and Gold chalk, now is the time to head over to your Spiritfire and make them."]
+			id: "408E1ABF56B9A054"
+			tasks: [{
+				id: "514AF13BF50624AD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "White and Gold Chalk"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"316582047A5AADF5"
+				"75FA3748A1C72D7B"
+				"408E1ABF56B9A054"
+				"32B774F6B73787DC"
+				"7D732C48642E26B0"
+			]
+			description: [
+				"Using your Akashic Tome -- You can open the \"Dictionary of Spirits\".  If you open this up, and navigate to: "
+				""
+				"Pentacles (top left) > Eziveus' Spectral Compulsion > you can click the little icon under the spinning image to show the Multiblock preview in the world."
+				""
+				"With the Multiblock preview in the world, you can see exactly how it must be constructed.  The Sacrifical Bowls can be placed in any of the empty slots around the Golden Sacrifical Bowl."
+			]
+			id: "791E405B6085CCE2"
+			tasks: [
+				{
+					id: "5F6C21F01EC1281C"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6BC16C2FBF2149F0"
+					item: "emendatusenigmatica:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "274B57864FEEC7D1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "07A7D964C511F54F"
+					item: "occultism:lenses"
+					type: "item"
+				}
+			]
+			title: "Infused Lens Materials"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: ["The two ritual quests here clearly have over lapping items. The idea for the separation is to make it an easy checklist for each individual Ritual."]
+			id: "1D493F772D05CEF3"
+			subtitle: "Ritual: Craft Infused Lenses"
+			tasks: [{
+				id: "7576162341242F0F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ritual For Infused Lens"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11D62B219B08EABD"]
+			id: "1F89F550878E9C30"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3CDD6E0C544434E7"
+					item: "occultism:chalk_purple_impure"
+					type: "item"
+				}
+				{
+					id: "0F043DF5FB310065"
+					item: "occultism:chalk_red_impure"
+					type: "item"
+				}
+			]
+			title: "Burning More Chalk"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F89F550878E9C30"]
+			id: "265738B243F1B0B2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "43006ADFB316A0B4"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48888F01939BFF75"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D493F772D05CEF3"]
+			id: "32B774F6B73787DC"
+			subtitle: "Note: This MUST be Occultism's White Candle!"
+			tasks: [{
+				count: 2L
+				id: "797AF1C6DF9B7B0F"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			title: "White Candles"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D493F772D05CEF3"]
+			id: "7D732C48642E26B0"
+			tasks: [{
+				id: "0AF838BE9855E14A"
+				item: "occultism:spirit_attuned_crystal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: ["The two ritual quests here have overlapping items (that will happen a lot in this pack). The idea for the separation is to make it an easy checklist for each individual Ritual/Recipe."]
+			id: "4A398C58C276342C"
+			subtitle: "Ritual: Craft Infused Pickaxe"
+			tasks: [{
+				id: "28E77D8FEE00B03E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ritual For Infused Pickaxe"
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A398C58C276342C"]
+			id: "1C9B9055BF47D003"
+			tasks: [{
+				id: "3CA0CFF99322BA1D"
+				item: "occultism:spirit_attuned_crystal"
+				type: "item"
+			}]
+			title: "Spirit Attuned Crystal"
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4A398C58C276342C"]
+			id: "52573BD3D3430B7E"
+			tasks: [{
+				count: 5L
+				id: "494E1D2786336107"
+				item: "occultism:sacrificial_bowl"
+				type: "item"
+			}]
+			title: "Sacrificial Bowl"
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4A398C58C276342C"]
+			id: "22F70561FF04D9E0"
+			tasks: [{
+				id: "2C6F8135E86B887C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "White Chalk"
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4A398C58C276342C"]
+			id: "4E6AF249B76F44DA"
+			subtitle: "Note: This MUST be Occultism's White Candle!"
+			tasks: [{
+				id: "0445F1D85F50DD98"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			title: "White Candle"
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"054C3AD2AEA40512"
+				"22F70561FF04D9E0"
+				"52573BD3D3430B7E"
+				"4E6AF249B76F44DA"
+				"1C9B9055BF47D003"
+			]
+			description: [
+				"Using your Akashic Tome -- You can open the \"Dictionary of Spirits\".  If you open this up, and navigate to: "
+				""
+				"Pentacles (top left) > Striegor's Higher Binding > you can click the little icon under the spinning image to show the Multiblock preview in the world."
+				""
+				"With the Multiblock preview in the world, you can see exactly how it must be constructed.  The Sacrifical Bowls can be placed in any of the empty slots around the Golden Sacrifical Bowl."
+			]
+			id: "4064F6ACEBE392CA"
+			tasks: [
+				{
+					id: "411F06AB74A40837"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0B53F4DD296292DF"
+					item: "emendatusenigmatica:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6430775E814845D3"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "085292B776E43CBE"
+					item: "occultism:spirit_attuned_pickaxe_head"
+					type: "item"
+				}
+			]
+			title: "Infused Pickaxe Materials"
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4A398C58C276342C"]
+			id: "054C3AD2AEA40512"
+			tasks: [{
+				id: "3791C4EE974420E3"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			title: "Golden Sacrificial Bowl"
+			x: -14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D493F772D05CEF3"]
+			id: "316582047A5AADF5"
+			tasks: [{
+				id: "4E7BC5ADD00014D4"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B463909368B9B82"]
+			description: [
+				"Take this Nether Stone over to your Mixer with some Gold Dust, Jelly Babies, and Lava -- you'll get yourself Infused Nether Stone. "
+				""
+				"This is how we get into the Nether."
+				""
+				"Even though we have access, if you haven't made an Infused Pickaxe, or Otherworld Goggles yet, you should.  "
+				""
+				"You need them to see, and mine Iesnium ore in the Nether."
+			]
+			id: "07173D7B18BD62C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2585120EE8A3614C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4BB197B82C2F4F12"
+				item: "kubejs:nether_stone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3CCD15A6B9B3F4F9"]
+			id: "27F6EFBA3EA43965"
+			tasks: [
+				{
+					id: "0CC4A71FE165A794"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "069C0B819EB6CF6B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "63F31E4C0645FAD1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wooden_pressure_plates"
+						}
+					}
+					title: "Any #minecraft:wooden_pressure_plates"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CCD15A6B9B3F4F9"]
+			id: "042624081DE3C3B1"
+			tasks: [{
+				id: "063238D89C86E68C"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3CCD15A6B9B3F4F9"]
+			id: "4675A7F3D88B29A4"
+			tasks: [
+				{
+					id: "0EBDD99BE694CB65"
+					item: "botania:open_crate"
+					type: "item"
+				}
+				{
+					id: "22427D055FCD4DAE"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3CCD15A6B9B3F4F9"]
+			id: "0B766B34D55CBF6B"
+			tasks: [{
+				id: "7FFFFE3890576E50"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3CCD15A6B9B3F4F9"]
+			id: "723F9793CB5E7F24"
+			rewards: [{
+				id: "0DE2E84B7FB08CC0"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "33B54B95ACAA9E9D"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2804F7B885EFB68A"
+				"167D3CEDB408CD26"
+			]
+			description: [
+				"This set up won't net you mana very fast, but it'l be fine for now. We can start building up some mana for when we need it."
+				""
+				"Hopefully the image below helps you construct it."
+				""
+				"Once built, just load the Hopper up with Coal and let that mana pour in slowly!"
+				" "
+				"{image:kubejs:textures/botania/botania_starter_mana_sample.png width:150 height:150 align:1}"
+				""
+				"&o&eThis design came from RagePlaysGames on YouTube. (Surviving With Botania 1.16 :: E01) &r&r"
+			]
+			id: "3CCD15A6B9B3F4F9"
+			tasks: [{
+				id: "5F0690D6878600ED"
+				title: "Super Basic Mana Generation"
+				type: "checkmark"
+			}]
+			title: "Super Basic Mana Generation"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"723F9793CB5E7F24"
+				"27F6EFBA3EA43965"
+				"0B766B34D55CBF6B"
+				"042624081DE3C3B1"
+				"4675A7F3D88B29A4"
+			]
+			description: ["With some Mana generated in your Mana Pool, go ahead and throw a few Iron Ingots in. It should convert to Manasteel, if you have enough mana in there."]
+			id: "6FB82F0B7BA3BD4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "768D145DFF2A7C61"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "02685B6F605B5B56"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["596C93F25C178797"]
+			icon: {
+				Count: 1b
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C66627D10B7CA80"
+			rewards: [{
+				id: "63BF70E8B21A5C9C"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "0671D25985051408"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Spirit Eye Recovery"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Magic"
+}

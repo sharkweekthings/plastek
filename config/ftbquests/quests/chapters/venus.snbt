@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "venus"
+	group: "6864EC96E852A08D"
+	icon: "ad_astra:venus_sandstone"
+	id: "4095E8572820AD71"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["061CE1BEF9113532"]
+			icon: "ad_astra:venus_globe"
+			id: "30E96F2A742A18D8"
+			rewards: [{
+				id: "341C6BB8EB6C0E7D"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6B81D2FED8270F94"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Venus Globe"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A337CED7C4DE0ED"]
+			id: "6680220D255B8081"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "25C0D8AF5EE0B504"
+				type: "dimension"
+			}]
+			title: "To Venus!"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "061CE1BEF9113532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AA613A706B40FCD"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0A71CA6FAD03DC7B"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+	]
+	title: "Venus"
+}

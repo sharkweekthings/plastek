@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "5F8EFC9EDBDA235C"
+	icon: "minecraft:barrel"
+	id: "0D0217B39F8350ED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5928D99A2F786286"]
+			description: [
+				"It's a bit of a road to Vanilla chests and barrels."
+				""
+				"Keep an eye out for Bamboo. If you see some, you'll need a decent amount. We will probably be making quite a few baskets."
+				""
+				"Straw can be obtained by using a Farmer's Delight knife on grass."
+			]
+			id: "0CFD614E1E0EB45C"
+			rewards: [{
+				count: 3
+				id: "2D2CF8C7E84ECA45"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			subtitle: "or both."
+			tasks: [{
+				id: "290156B447629C82"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			title: "Hate Me Now or Later"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4438CC470515A45C"
+				"27FBC19A999E7499"
+			]
+			id: "3B573F268F450246"
+			subtitle: "At least you can make a backpack... eventually."
+			tasks: [{
+				id: "75CD0C02517EF98E"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							397797894
+							-928101449
+							-1991771581
+							-762927079
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Storage"
+}

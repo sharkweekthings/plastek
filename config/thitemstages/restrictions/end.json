@@ -1,0 +1,11 @@
+{
+  "Restriction Data": {
+    "stage": "end",
+    "dimensionList": [
+      {
+        "dimension": "minecraft:the_end",
+        "message": "You do not meet the requirements to enter!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: "6864EC96E852A08D"
+	icon: "minecraft:honeycomb"
+	id: "24EC70817972C564"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26278A3780FF8495"]
+			description: [
+				"Get some solvent ready, cause things are about to get sticky as you wade through endless amounts of honey. "
+				""
+				"You're gonna wake up in the middle of the night to find that night hasn't passed because 50% of the people on the server didn't sleep, and honey will still be pouring out your nostrils!"
+			]
+			icon: "statues:bee_statue"
+			id: "51A7E3255990C9B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "513B01F9E0ACF879"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:honeycomb"
+				id: "18B64AA3BB15D6E0"
+				type: "dimension"
+			}]
+			title: "Buzz Off! "
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"38EF3CCF0F3F50B5"
+				"1983EA84BECBA310"
+				"37B06249C0750803"
+				"6E3DE70C0CE05D06"
+				"4BBE70BF5C3367FD"
+			]
+			description: [
+				"Did you know that Bees love gold? Well, they don't in real life, but luckily we're not in real life. "
+				""
+				"These Bees love gold, and the Bumblezone is one of the best places in the game to find it."
+				""
+				"&lTo get in&r, you'll need to craft a Crude Ender Pearl, use a real Ender Pearl, or setup a Piston system that pushes you into the Beehive."
+			]
+			icon: "kubejs:crude_ender_pearl"
+			id: "26278A3780FF8495"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560DF4F4CD591F7B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1126106D99E0EB07"
+				item: "kubejs:crude_ender_pearl"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51A7E3255990C9B4"]
+			description: [
+				"This series of side quests was created for the jerk in you. "
+				""
+				""
+				"Come, slay these cute little BEEings.  "
+			]
+			icon: {
+				Count: 1b
+				id: "the_bumblezone:stingless_bee_helmet_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3927DFCDA46DE835"
+			rewards: [{
+				id: "06581D4131C06ED0"
+				item: "minecraft:gold_ingot"
+				random_bonus: 29
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Note: The circular shape. This is a series of side quests."
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "7E1F08000B54BDAB"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Bees Are Friends"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3927DFCDA46DE835"]
+			icon: {
+				Count: 1b
+				id: "the_bumblezone:stingless_bee_helmet_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4438AD6BDDCE13EA"
+			rewards: [{
+				id: "19FB1B99B5D9E330"
+				item: "minecraft:gold_block"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Or was it fish??"
+			tasks: [{
+				entity: "the_bumblezone:beehemoth"
+				id: "51635BFA2D4EECE7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Not Food"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4438AD6BDDCE13EA"]
+			icon: {
+				Count: 1b
+				id: "the_bumblezone:stingless_bee_helmet_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "778ADA8C36071154"
+			rewards: [{
+				id: "7F80D1BB8892E37B"
+				item: "minecraft:gold_block"
+				random_bonus: 14
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "The Queen has fallen..."
+			tasks: [{
+				entity: "the_bumblezone:bee_queen"
+				id: "299AF1E0D51CAC09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "You are unBEElievable...."
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51A7E3255990C9B4"]
+			description: [
+				"Much like taming any other creature, you can tame a Beehemoth with buckets of honey. "
+				""
+				"After it's tamed you can put a saddle on it and use it as a flying mount! "
+				""
+				"Many mods offer their own progression in conjunction with the packs forced progression. You can click L to open up Advancements. "
+				""
+				"Beehemoth's for instance have progression as you bee friend them. "
+				""
+				"Quests won't focus a whole lot on ALL of the Advancements each mod has to offer, so if you're needing a change of pace, bee sure to open up the Advancements tab and work on some side progression! "
+			]
+			id: "4A36B262D528C104"
+			shape: "circle"
+			subtitle: "Read me! This one is important, but the quest is optional."
+			tasks: [{
+				advancement: "the_bumblezone:the_bumblezone/beehemoth/tamed_beehemoth"
+				criterion: ""
+				id: "67EEEF6D119A3665"
+				type: "advancement"
+			}]
+			title: "Bee Mine"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["642A00812BDDF93D"]
+			id: "6BD722F27115E8BB"
+			shape: "circle"
+			tasks: [{
+				id: "54859880A1F06A04"
+				item: "the_bumblezone:glistering_honey_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31976D22E7B9092F"]
+			id: "642A00812BDDF93D"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5E1D060EC3E38D28"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51A7E3255990C9B4"]
+			description: [
+				"By getting 4 Honey Crystal Shards, you can make a Glistering Honey Block. Put this Crystalline Flower on the block and feed it items (pretty much any items!). "
+				""
+				"After you feed it enough items, you can put a book in it and make some Enchanting Books. "
+			]
+			id: "31976D22E7B9092F"
+			shape: "circle"
+			subtitle: "Take me home!"
+			tasks: [{
+				id: "383583FBC7AC22F7"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51A7E3255990C9B4"]
+			description: [
+				"If you happen to come across a Throne Pillar biome, keep mental note where it is. You'll need to travel there for the next step of main progression."
+				""
+				"The blocks? Oh, well, they are cubed. Except for the Honeycombs.  Those are uh.. honeycomb shape... "
+				""
+				"Are they getting heavy?"
+			]
+			id: "1901A75ACB7C0A0C"
+			subtitle: "You gotta look around for gold, so you may as well collect some blocks, too."
+			tasks: [{
+				count: 256L
+				id: "1B56E215B477D6E9"
+				item: "minecraft:honeycomb_block"
+				type: "item"
+			}]
+			title: "Let's just explore a bit, first."
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1901A75ACB7C0A0C"]
+			description: [
+				"Throughout your travels you will find 12 special eyes. These will have a very important role to play later. "
+				""
+				"Don't lose them."
+				" "
+				"The only way to replace them if you do lose them is to have an Op/Admin give it to you."
+			]
+			id: "41416CFE6766963D"
+			rewards: [
+				{
+					id: "78EB8056DD2A22D5"
+					item: {
+						Count: 1b
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49F7155E8A6D563B"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Required to beat the pack, but not the Age."
+			tasks: [{
+				advancement: "the_bumblezone:the_bumblezone/the_queens_desire/the_beginning"
+				criterion: ""
+				id: "4D9947DBF8F2E16D"
+				type: "advancement"
+			}]
+			title: "Trade w/ a Queen Bee"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1901A75ACB7C0A0C"]
+			dependency_requirement: "one_started"
+			id: "44FF4C41A1B3F751"
+			rewards: [{
+				count: 3
+				id: "5BB8062311607C36"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Note: These are side quests. You can skip to the main quest, if you want."
+			tasks: [{
+				count: 64L
+				id: "2A86D282372D90C6"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1901A75ACB7C0A0C"]
+			dependency_requirement: "one_started"
+			id: "123D374FA0E1CC20"
+			rewards: [{
+				count: 15
+				id: "03DCA427B4AFBB34"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "This is more gold than the Alabama Leprachaun had."
+			tasks: [{
+				count: 128L
+				id: "7C2827ACCAE148A4"
+				item: "the_bumblezone:porous_honeycomb_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41416CFE6766963D"]
+			icon: {
+				Count: 1b
+				id: "the_bumblezone:bumble_bee_chestplate_trans_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BD294E3FEB8DACD"
+			rewards: [
+				{
+					count: 5
+					id: "5D89887762A6A1C3"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "5D0DCCFFFA5CF23A"
+					item: "immersiveengineering:shader_bag_epic"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "164663701C13969C"
+				item: "minecraft:honeycomb_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26278A3780FF8495"]
+			description: [
+				"You can push yourself into the Bumblezone via Piston if you prefer."
+				""
+				"{image:kubejs:textures/the_bumblezone/bumblezone_entrance_alt_sample.png width:100 height:100 align:1}"
+			]
+			id: "430A87670C5B2692"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0A5B91DC04F245AD"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "296D729A78933242"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:buttons"
+						}
+					}
+					title: "Any #minecraft:buttons"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41416CFE6766963D"]
+			icon: {
+				Count: 1b
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39216512D04BB53F"
+			rewards: [{
+				id: "724918BB30BC6F22"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "382E637926E6E68E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Honey Eye Recovery"
+			x: 7.5d
+			y: 0.5d
+		}
+	]
+	title: "The Bumblezone"
+}

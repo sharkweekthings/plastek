@@ -1,0 +1,1901 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "statues"
+	group: "6274245AF897553D"
+	icon: "statues:display_stand"
+	id: "03841D79C1A18906"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "349A10DB43429F2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D3EC6288FB7BD8B"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Be sure to read the Statues book about the functionality for Statues, and how to use them to increase your power!"
+			tasks: [{
+				id: "2256C274E1FE1E3B"
+				item: "statues:statue_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "459E6DF52B91130D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71AA75FC8519A47A"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "521A781A5D03DDA1"
+				item: "statues:angry_bee_statue"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "1C6CE9C87637A258"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04761A9B0FD6926F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1DE79CF7C56FBDB5"
+				item: "statues:baby_zombie_statue"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "058C1D3F7BD5ADE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01AA6DA7EF2FEA31"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7D5AF28F95E28C40"
+				item: "statues:bee_statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "34E42B2DBCC9C264"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A5BBFA2EE03202F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "508F2D7A919A946F"
+				item: "statues:trans_bee_statue"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "7DDA48AE0EC1C0D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "559445A3DC45FEB5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "05627C166A2F0B12"
+				item: "statues:blaze_statue"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "35DD04C18BAABBA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "251D83697B63B962"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1E8EED513A5E6140"
+				item: "statues:brown_mooshroom_statue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "5650AE9CA2EB3249"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6121F52DEFA2B5D5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5F7EFAE43F06B96D"
+				item: "statues:campfire_statue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "0459D920DE5A9D92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DDBE981333FB167"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "29CE98F0533D5CDF"
+				item: "statues:cat_black_statue"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "6060158BEDF2230A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11BAA83A15A03817"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "11AE5C809EEDC35F"
+				item: "statues:cat_british_shorthair_statue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "76972F4FA5E9D502"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2195C732247A807C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "638482E6247A1CFC"
+				item: "statues:cat_calico_statue"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "5902612E27494479"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "251E00F4907576CE"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5998A052A343262C"
+				item: "statues:cat_jellie_statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "389085625056952F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F02CF88D781A79E"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3DB92479D8AFC100"
+				item: "statues:cat_persian_statue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "2235561C3552924B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0029A769E35D0CEB"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "58D501E83715D6E1"
+				item: "statues:cat_ragdoll_statue"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			id: "6C5A203CFC83A30D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ED72A62685F8976"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "28579DF8698693F3"
+				item: "statues:cat_red_statue"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "6A836D9D042CBEE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DD40826AE488129"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4D1444F86175D48B"
+				item: "statues:cat_siamese_statue"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "1A15BEB9B9AC70CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BAECB9E41274CD2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "67AB57FE0AAC22FC"
+				item: "statues:cat_tabby_statue"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "32C853C5DC218049"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "616BEFB1F4623E3F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "155EA942C52FAAD4"
+				item: "statues:cat_tuxedo_statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "0E393FA42D71A008"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33CC1EAA342DAB3C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1AF00B5DCD1EFCC0"
+				item: "statues:cat_white_statue"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "53E6383A34766C7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "099C89DF76061180"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0100166E39698793"
+				item: "statues:chicken_jockey_statue"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0DC8BC410CDE2133"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F5CB15A9023AE2A"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "39359EF89D36DBF3"
+				item: "statues:chicken_statue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "51824EC97305EAB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52D1DAC1336C279F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1337C17858910138"
+				item: "statues:cod_statue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "49A3242BD7E23EFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B662DA7C4A8C22D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1B3549FDAFEDF65F"
+				item: "statues:cow_statue"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "6FD183C2BCC75D0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "106A3E610C4CFB59"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "187FAE440F1C819E"
+				item: "statues:creeper_statue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "21AFE8E2BD9819FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BCEA57F94B09883"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4E29F889857D7188"
+				item: "statues:detective_platypus_statue"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "7E5EF656F7DBEEBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26A14F1669D8C43D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "047A25D39E331FBB"
+				item: "statues:dolphin_statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "5900EBD596747E03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0211F9C90F963B06"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "14A94A38584CA322"
+				item: "statues:drowned_statue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "18197573EA242F78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FE770840BA59648"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "60F3324DCB43D6E5"
+				item: "statues:elder_guardian_statue"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "52D700365C911B9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1E3E0C1B6DC726"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B3359CB06705622"
+				item: "statues:enderman_statue"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "5059ADE864035ABA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "609104D62BACC98D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2AC35F29AEE8C0CD"
+				item: "statues:endermite_statue"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "0079366FF42C43B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7782C2C7FDC686A5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7BEB63A62B5EE910"
+				item: "statues:evoker_statue"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "41B9E679BCD87ED6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "790841F6888C4966"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "498CB2DD88A446A2"
+				item: "statues:flood_statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "1C62B032776CEB11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3705A91B14986D23"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7C143DB2C3F51838"
+				item: "statues:fox_snow_statue"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "29BA5A0A37C2B174"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34BEB80D557365F6"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "02484500EBBE0A8F"
+				item: "statues:fox_statue"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "5A3B3DD683D3DC5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BB5B680FE6740B2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5AE9F114704C1E07"
+				item: "statues:ghast_statue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "6EE6F7ED9ECA204E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "662ACB8829452264"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "51CE6B8F5CD61498"
+				item: "statues:guardian_statue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "7C9C2886659905BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "214E288B80ADB41C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0896D1CFB88B91A7"
+				item: "statues:husk_statue"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "1E970218BD47A204"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A0F1A337BC3D2A4"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1B06C6834EF38E87"
+				item: "statues:info_statue"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "14DD4547FCFE83FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B85557AAE1B86DC"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "21013D156B96AE56"
+				item: "statues:king_cluck_statue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "4A967B9AF0AF4432"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E61B6226451B93F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3EDB93D3B2727F62"
+				item: "statues:magma_statue"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "5C840E32C65C1BC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67C7106DCE899682"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "45139A538B05E42D"
+				item: "statues:mooshroom_statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "322CD2EB3AA61E61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EC7FD71E765CC55"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "35A974C1992A56F2"
+				item: "statues:panda_angry_statue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "43C295D56F4FCFC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B30A675F3FB814F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "16BA70C4E479892F"
+				item: "statues:panda_brown_statue"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "1D94719FDBFA6CAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F2DCCE6CD7315A5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3BD71682AE75ADDE"
+				item: "statues:panda_lazy_statue"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "43421995E97926AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5463F304A1955EF5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4B7093DA77F936D6"
+				item: "statues:panda_normal_statue"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "4B89B117CCBE274F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "402F3E2B7E57720E"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "025DC3E6AC2C9945"
+				item: "statues:panda_playful_statue"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "1C593156B048DFF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "188C1BFC6A114089"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "21F239A6EE6A5F1E"
+				item: "statues:panda_weak_statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "12954E81B7DCAF1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4233536E73AF77BD"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5AF05507CF2423A9"
+				item: "statues:panda_worried_statue"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "24563C7E15D3171A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F694292E9BA4FB2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "796DA30B78F62A2F"
+				item: "statues:pig_statue"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "4A013B310649C861"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "470A28BFE9BA8916"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "79D8FFB6DEBBB2A3"
+				item: "statues:pillager_statue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "2CB175517301B8B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "733A6FC7F6123400"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4BC894509BA71C0A"
+				item: "statues:pufferfish_medium_statue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "4E19C08FBBAC1CA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7043AC49F8325CCB"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "36F53A7A2D1C5FFD"
+				item: "statues:pufferfish_small_statue"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "0AC1485755FEEA06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B49A148931B178"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2598F0DE1602D93B"
+				item: "statues:pufferfish_statue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "0C1C6A2AA8F0947B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DF3038E6B93C939"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "41EE82B3681F5AFD"
+				item: "statues:rabbit_br_statue"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "012D39F6A8B84CBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74972C383E0246EB"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B088D29ED3A45A5"
+				item: "statues:rabbit_bs_statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "2C5B6E17D74FB2DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32E316BB5830121D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "68AD07F79B4EA5AA"
+				item: "statues:rabbit_bw_statue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "1417DE0BEDC58D58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67CD6AFDF79C2485"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2E50F76F47497FBC"
+				item: "statues:rabbit_go_statue"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "7B03A918958A1FF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56374ED11A011869"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6E42C5D3CBB5B1A4"
+				item: "statues:rabbit_wh_statue"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "7942BC8FDB975D53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C6D6355A73CCB94"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B54412AAF5F977B"
+				item: "statues:rabbit_ws_statue"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "0205AED9EBAC3649"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1684D85B4DEBFB2C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4D4073964F432A68"
+				item: "statues:ravager_statue"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "3690CC19925541BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B879DD2A1B8940C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3796664E7F775645"
+				item: "statues:salmon_statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "3FAC289EF3A8EC8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61C3F21DC1B78753"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "08CB24DF9EA4D1C5"
+				item: "statues:sheep_shaven_statue"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "3E74051F2D73E388"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75747A6C5C0DF6B5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "420DAD81F7DD3B17"
+				item: "statues:sheep_statue_black"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "19D21F4A680606FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E8675CB54E188BD"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1446F99DA197E404"
+				item: "statues:sheep_statue_blue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "56909A006D5087F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C54BFC78B14EA28"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7AFA2D04333615C0"
+				item: "statues:sheep_statue_brown"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "67655893A628BE55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "566FA63A355BBDB6"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6CC033101A734028"
+				item: "statues:sheep_statue_cyan"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "553505591E5F4A72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60995EFD9D6BC60A"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "70F1B099CBA38AB5"
+				item: "statues:sheep_statue_gray"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "6B7F803CF4755BFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59FD80694F0958FF"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "185CE64BA6A298B6"
+				item: "statues:sheep_statue_green"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "105AFDBBACC37F05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17442BA521262FEC"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4AB9DFA402CC539D"
+				item: "statues:sheep_statue_light_blue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "58E241A09F3FF1F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AD976BE93CB4141"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1E2EDFBEA7310E2A"
+				item: "statues:sheep_statue_light_gray"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "77EB10E9CC596879"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC4B5B64174FB81"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "509420B5811F3D10"
+				item: "statues:sheep_statue_lime"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "7420DC65720ACD8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "574FB7DD184CD655"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "79CA27BBE8166710"
+				item: "statues:sheep_statue_magenta"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "13DBD77414588F28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7149A6EBFDD68EC0"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "04BEF07031770C09"
+				item: "statues:sheep_statue_orange"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "2FC269A1E2E9B4AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B2C5BB9364650FA"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "04471F7B0F63DF83"
+				item: "statues:sheep_statue_pink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "2D1AFD96BEAAC6CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A72D966E44B698F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "15E48EFAD10D3217"
+				item: "statues:sheep_statue_purple"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "41AC590EE948ED4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "449A1E83AC2156D7"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "26CBB24D86B96BFC"
+				item: "statues:sheep_statue_red"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "1D71AAB67422BC9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "511351C78E2F9023"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3691439403F2F7DA"
+				item: "statues:sheep_statue_white"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "37A35CCC4BD31A4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "421AAEBE57C41A41"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "28AB8C1F93A42441"
+				item: "statues:sheep_statue_yellow"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "503AE47AF11B1936"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24B3AF5FAD0AEA10"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "28977B31D977D4B2"
+				item: "statues:shulker_statue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "4438139C3AA569DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EDC4DAAAC2BF75C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1B3A6A8C14B93C7D"
+				item: "statues:slime_statue"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "3F534ED67200002D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1286AD23089C8E1E"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "69715FA071C7D44C"
+				item: "statues:snow_golem_statue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "460BA243A5DCABF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "630F9F54A7B67E14"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "681A27C966D11E43"
+				item: "statues:spider_statue"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "1F92CF871DE0057C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "425B924A6408C193"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "41759790043697E5"
+				item: "statues:squid_statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "551B90695211881B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EEA21D9DC822B67"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7692964F11E59510"
+				item: "statues:totem_of_undying_statue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "1230875C0ABFB134"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7080EE18AF25A634"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "09E1673CE0FB9458"
+				item: "statues:tropical_fish_bb"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "0EED9958CD110A37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "763066FAB5128F8C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0A9E8B8131DD4CB7"
+				item: "statues:tropical_fish_b"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "10992D3A59FA77A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "026EBAA3CF86CF8D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B1006F8FAEE312F"
+				item: "statues:tropical_fish_be"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "5224EDC15DAF7F3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FB936AD6B5C6BDA"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "471679E4618C9B60"
+				item: "statues:tropical_fish_bm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "4BBAF3ED7FC659BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D3110EA0119C683"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5A34F14D0A8EE299"
+				item: "statues:tropical_fish_bmb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			id: "05D844490809B1F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ADB358DAE5A2A73"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4CD37F772717AEFA"
+				item: "statues:tropical_fish_bms"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "44A462A9724CC4DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "316E38CB26458AA4"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7863FA77593D7B70"
+				item: "statues:tropical_fish_e"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "2C42E45C55DECEB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F54EFA041F378A8"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6009F0712AB4841A"
+				item: "statues:tropical_fish_es"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "0EC1E6FCAA937ACC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C8F8B0E28AE6EF1"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "62F44FB44FF4C5D5"
+				item: "statues:tropical_fish_hb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "4E600AF454FE3D1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D4738A7DC4F0FB5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7301B55E0F7395A1"
+				item: "statues:tropical_fish_sb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "6585DB13864D7272"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62E591AFDB3AEBCA"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "50BDACC4C3476E55"
+				item: "statues:tropical_fish_sd"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "102621216E8F3406"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04403824A3473F48"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "14B4BC7263821ED4"
+				item: "statues:tropical_fish_ss"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "6EA3FE73CED01317"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "244AA434DE9F6789"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "17370DCEA0C6CAC0"
+				item: "statues:turtle_statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "66DF7E7EECC435B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14C8141FC4C4A07C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "19DA9FCBE8D5FD2D"
+				item: "statues:villager_br_statue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "0417246E2E0D4476"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18E822FD28100350"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6B3D63CE5273AA5E"
+				item: "statues:villager_gr_statue"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			id: "09E6ADF7389987BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07EF61C5A5D409F5"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6D7A94964E8920E2"
+				item: "statues:villager_pu_statue"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "05C7B0F16BDB8443"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73465EAAA85D21A4"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "759563A588F1CB7A"
+				item: "statues:villager_wh_statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "49916C28F22FAB29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C7ACDFBCEDAA99"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4CEA47B650E89CE1"
+				item: "statues:vindicator_statue"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			id: "3B98FDD86284738A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FEB555AE44E2B8E"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1740FA0B853D9FD9"
+				item: "statues:wasteland_statue"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "4CBD6AB454AD505B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49450543C77BE789"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "39C882EA6727458A"
+				item: "statues:witch_statue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "4BCBA6BDF14033B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "389CE6E8952849C1"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "54E4E2A162EB7DC2"
+				item: "statues:zombie_statue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "45A20A640B849B20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BF00F14C97400FE"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7309A16553AF44DF"
+				item: "statues:bumbo_statue"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "1A51CA12663A0BFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28896EE81BE92E2F"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4C47E4C7BC6B906D"
+				item: "statues:tropibee"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			id: "3B9FF69BF3CC7647"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A9805493CC6186C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "68C048292DD27EB1"
+				item: "statues:eagle_ray"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			id: "345B1B9138AA11F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26034CBEC7AEF38D"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "528557B6F0CF8C52"
+				item: "statues:slabfish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			id: "12FD6DC74DD540C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37958C72573A4DA1"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6281007D92D446A0"
+				item: "statues:azzaro"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			id: "1BDFAE44C0B2B648"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "027062DE1673D52A"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3A88D81C4B4CE52E"
+				item: "statues:display_stand"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "Statues"
+}

@@ -1,0 +1,469 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "top_chef"
+	group: "2C080FE404DC830F"
+	icon: "cookingforblockheads:cooking_table"
+	id: "5BF6CCD1AAFD22A8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "792343B539FB1C92"
+			rewards: [{
+				id: "48700387B4D68A59"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 500L
+				id: "234FB05E364B8F6C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_smoothie"
+					}
+				}
+				title: "Any #kubejs:plastek_smoothie"
+				type: "item"
+			}]
+			title: "Making Smoothies"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1CEDA4FE1F34B50C"
+			rewards: [{
+				id: "787668A9E3B25415"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "No wheezing the juice!"
+			tasks: [{
+				count: 500L
+				id: "324C761AF1B4B9C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_juice"
+					}
+				}
+				title: "Any #kubejs:plastek_juice"
+				type: "item"
+			}]
+			title: "Making Juice"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "3735863132B3220F"
+			rewards: [{
+				id: "1D048D4C64AD5772"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 500L
+				id: "58C550F17A744AF1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_jelly"
+					}
+				}
+				title: "Any #kubejs:plastek_jelly"
+				type: "item"
+			}]
+			title: "Making Jelly"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4FE8968DD9011E54"
+			rewards: [{
+				id: "7574200306994CC9"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Sweet cherry"
+			tasks: [{
+				count: 500L
+				id: "2B0B82869734964D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_pie"
+					}
+				}
+				title: "Any #kubejs:plastek_pie"
+				type: "item"
+			}]
+			title: "Making Pies"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "56D5549FB6D53176"
+			rewards: [{
+				id: "317FA63C1ACE0C60"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "I loaf this sandwich"
+			tasks: [{
+				count: 300L
+				id: "3E26A88A96183975"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_sandwich"
+					}
+				}
+				title: "Any #kubejs:plastek_sandwich"
+				type: "item"
+			}]
+			title: "Making Sandwiches"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "08BA318D7D4F3678"
+			rewards: [{
+				id: "04342DC26193E9BB"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "You're toast!"
+			tasks: [{
+				count: 500L
+				id: "4323B3DB6E0A772B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_toast"
+					}
+				}
+				title: "Any #kubejs:plastek_toast"
+				type: "item"
+			}]
+			title: "Making Toast"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["Plain Yogurt doesn't count for this!"]
+			id: "0325483182650407"
+			rewards: [{
+				id: "6CA8E9AD12588213"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Anyone else like Noosa?"
+			tasks: [{
+				count: 500L
+				id: "2601051B8BF97461"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_yogurt"
+					}
+				}
+				title: "Any #kubejs:plastek_yogurt"
+				type: "item"
+			}]
+			title: "Making Flavored Yogurt"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"But your raw chicken, and overcooked lima beans have cost you everything. "
+				""
+				"You hang your head in shame, and head back into the kitchen to train like you've never trained before."
+			]
+			id: "44F22860D7E4A921"
+			rewards: [{
+				id: "18ECA55B2FF3ED7E"
+				item: "minecraft:emerald"
+				random_bonus: 14
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "You've seen the show, now you're on the show! "
+			tasks: [{
+				count: 200L
+				id: "0FAFAA7CFD19D26C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_iron_chef"
+					}
+				}
+				title: "Any #kubejs:plastek_iron_chef"
+				type: "item"
+			}]
+			title: "Iron Chef"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "0088085ED5001FC2"
+			rewards: [{
+				id: "686B73CC77B7790C"
+				item: "minecraft:emerald"
+				random_bonus: 19
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "You still can't cook for nothing. It's raw!!"
+			tasks: [{
+				count: 200L
+				id: "2A786751B62DAE3B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_diamond_chef"
+					}
+				}
+				title: "Any #kubejs:plastek_diamond_chef"
+				type: "item"
+			}]
+			title: "Diamond Chef"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "0A13F7C69B1D4B70"
+			rewards: [{
+				id: "03823952F88F7DBC"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Chicken Noodle for the soul"
+			tasks: [{
+				count: 500L
+				id: "3053309108EB6E35"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_soup"
+					}
+				}
+				title: "Any #kubejs:plastek_soup"
+				type: "item"
+			}]
+			title: "Making Soup"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "3756D9F0830DA4AE"
+			rewards: [{
+				id: "0959551244584090"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "RIP Josta"
+			tasks: [{
+				count: 300L
+				id: "7AF91425A8CC387F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_soda"
+					}
+				}
+				title: "Any #kubejs:plastek_soda"
+				type: "item"
+			}]
+			title: "Making Soda"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "32F52FFF507D38B1"
+			rewards: [{
+				id: "17627494696EE077"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Colder than a Blizz on a hot Summer day!"
+			tasks: [{
+				count: 300L
+				id: "7A4B3A8CC9963EAE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_ice_cream"
+					}
+				}
+				title: "Any #kubejs:plastek_ice_cream"
+				type: "item"
+			}]
+			title: "Making Ice Cream"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "31E259FBF1E41CF7"
+			rewards: [{
+				id: "3D8814BCC07B8316"
+				item: "minecraft:emerald"
+				random_bonus: 14
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "That's a whole lot of cake."
+			tasks: [{
+				count: 300L
+				id: "29EA81E8C317E6E3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_cake"
+					}
+				}
+				title: "Any #kubejs:plastek_cake"
+				type: "item"
+			}]
+			title: "Making Cake"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: ["Why not both?"]
+			id: "1973E05B9AFEC3D7"
+			rewards: [{
+				id: "3CE163870BE2A7D1"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Do you prefer Pancakes or Waffles?"
+			tasks: [{
+				id: "40157648FCC1455D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_iron_chef"
+					}
+				}
+				title: "Any #kubejs:plastek_iron_chef"
+				type: "item"
+			}]
+			title: "Making Pancakes"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "32DCA97AC14CD234"
+			rewards: [{
+				id: "3464EB56EEE8EDF5"
+				item: "minecraft:emerald"
+				random_bonus: 24
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "So Gordon Ramsay finally gave you a positive comment on your TikTok, congrats!"
+			tasks: [{
+				count: 200L
+				id: "4F606D5623D8B661"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:plastek_netherite_chef"
+					}
+				}
+				title: "Any #kubejs:plastek_netherite_chef"
+				type: "item"
+			}]
+			title: "Netherite Chef"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"If you're unsure of any of the items to make that are accepted into any of the quests below, you can search in JEI for the following: "
+				""
+				"- $plastek_netherite_chef"
+				"- $plastek_diamond_chef "
+				"- $plastek_iron_chef "
+				"- $plastek_smoothie"
+				"- $plastek_jelly"
+				"- $plastek_juice "
+				"- $plastek_pie"
+				"- $plastek_sandwich"
+				"- $plastek_toast"
+				"- $plastek_yogurt"
+				"- $plastek_soup "
+				"- $plastek_ice_cream "
+				"- $plastek_cake "
+				"- $plastek_pancake"
+				""
+				"This will show you each item available to be crafted for each category. "
+			]
+			icon: "pamhc2foodcore:skilletitem"
+			id: "642115724F6FD13A"
+			shape: "circle"
+			subtitle: "Read Me! "
+			tasks: [{
+				id: "19C28ADF88B37410"
+				title: "Chef's Note"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	title: "Top Chef"
+}

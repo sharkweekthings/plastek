@@ -1,0 +1,39 @@
+{
+  "Restriction Data": {
+    "stage": "age_5",
+    "itemList": [],
+    "modList": [
+      "ae2",
+      "ars_nouveau",
+      "deeperdarker",
+      "hostilenetworks",
+      "industrialforegoing",
+      "megacells",
+      "thermal",
+      "unusualend"
+    ],
+    "tagList": [
+      "kubejs:age_5_item"
+    ],
+    "exceptionList": [
+      {
+        "tag": "kubejs:age_5_exception"
+      }
+    ],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

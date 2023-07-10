@@ -1,0 +1,16 @@
+{
+  "id": "alien",
+  "source": "modded",
+  "localizedName": "Alien",
+  "processedTypes": [
+    "gear",
+    "rod"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 4
+  },
+  "colors": {
+    "materialColor": "d8bfd8"
+  }
+}

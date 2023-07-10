@@ -1,0 +1,11 @@
+{
+  "Restriction Data": {
+    "stage": "nether",
+    "dimensionList": [
+      {
+        "dimension": "minecraft:the_nether",
+        "message": "You do not meet the requirements to enter!"
+      }
+    ]
+  }
+}

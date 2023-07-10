@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_6"
+	group: "16ADE1AEEBEEE736"
+	icon: "mysticalagriculture:awakened_supremium_sword"
+	id: "0C1830A376457D2C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "428ACACBBB630DC4"
+			shape: "circle"
+			tasks: [{
+				id: "54531FB1F08ADD0D"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "5B8AB4D6E86F38FA"
+			shape: "circle"
+			tasks: [{
+				id: "1FD46449EFA76A29"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "708CAAF77B200A37"
+			shape: "circle"
+			tasks: [{
+				id: "204301547A637F8B"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:imperium_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "74835906549042ED"
+			shape: "circle"
+			tasks: [{
+				id: "3BA5E60258309445"
+				item: "mysticalagriculture:supremium_sword"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "1712D4AE2A8D5D35"
+			shape: "circle"
+			tasks: [{
+				id: "1E30250224DBFAAA"
+				item: "mysticalagriculture:supremium_bow"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			id: "4F4F30D9793C7FE1"
+			shape: "circle"
+			tasks: [{
+				id: "3704A3E8CA7AF607"
+				item: "mysticalagriculture:supremium_crossbow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "5FF692E69145EB9D"
+			shape: "circle"
+			tasks: [{
+				id: "7E4EF804240B02D7"
+				item: "mysticalagriculture:awakened_supremium_sword"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "6D00C42F4B4AC8BC"
+			shape: "circle"
+			tasks: [{
+				id: "757CF3377AC6F729"
+				item: "mysticalagriculture:awakened_supremium_bow"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "17654EBF79FC4F4F"
+			shape: "circle"
+			tasks: [{
+				id: "3B9078A8972AF7CC"
+				item: "mekanism:electric_bow"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AB3CD334148DB52"]
+			id: "201AC980FCB47F44"
+			shape: "circle"
+			tasks: [{
+				id: "579815767872E8F5"
+				item: "mekanism:flamethrower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2839B98FEEEB68EB"]
+			description: ["This has minimal usage as most of the mobs are disabled from Mystical Agriculture to promote utilization of the Mob Grinder/Hostile Neural Networks."]
+			id: "2E67DBD6097A9855"
+			shape: "circle"
+			tasks: [{
+				id: "4C295EE3138D058A"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:soulium_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E5D4DB2625E06E0"]
+			id: "1400FD10BB4D3DDC"
+			shape: "circle"
+			tasks: [{
+				id: "04AD51E8FC64239A"
+				item: "mysticalagriculture:awakened_supremium_crossbow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+	title: "Weapons"
+}

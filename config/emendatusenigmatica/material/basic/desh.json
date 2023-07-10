@@ -1,0 +1,16 @@
+{
+  "id": "desh",
+  "source": "modded",
+  "localizedName": "Desh",
+  "processedTypes": [
+      "dust"
+  ],
+  "properties": {
+    "materialType": "metal",
+      "harvestLevel": 2
+},
+    "colors": {
+      "materialColor": "C77142"
+    }
+
+}

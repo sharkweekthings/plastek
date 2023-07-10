@@ -1,0 +1,41 @@
+{
+  "Restriction Data": {
+    "stage": "age_4",
+    "itemList": [],
+    "modList": [
+      "buildinggadgets",
+      "enderstorage",
+      "immersiveengineering",
+      "mythicbotany",
+      "pneumaticcraft",
+      "redstone_arsenal",
+      "reliquary",
+      "scannable",
+      "sliceanddice",
+      "waystones"
+    ],
+    "tagList": [
+      "kubejs:age_4_item"
+    ],
+    "exceptionList": [
+      {
+        "tag": "kubejs:age_4_exception"
+      }
+    ],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": true
+  }
+}

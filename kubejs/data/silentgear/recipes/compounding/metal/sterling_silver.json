@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:compounding/metal",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "emendatusenigmatica:sterling_silver_ingot"
+  }
+}

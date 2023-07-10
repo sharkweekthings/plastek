@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons"
+	group: "5F8EFC9EDBDA235C"
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "280BB929CE0C41E9"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29ABB78197853F7B"]
+			id: "4BBE70BF5C3367FD"
+			shape: "circle"
+			tasks: [{
+				id: "588584D9BFE6BF49"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:copper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Sword"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A7E3255990C9B4"]
+			id: "09489C50AC1715D4"
+			shape: "circle"
+			tasks: [{
+				id: "3F2534B5FFC9C092"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EAC1C918A0B2E6D"]
+			id: "274B8CC904231AE9"
+			shape: "circle"
+			tasks: [{
+				id: "5B8B1B443670DF87"
+				item: {
+					Count: 1b
+					id: "emendatusenigmatica:sterling_silver_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Weapons"
+}

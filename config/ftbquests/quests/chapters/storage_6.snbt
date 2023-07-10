@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_6"
+	group: "160159E361DC62EF"
+	icon: "enderstorage:ender_chest"
+	id: "71DF7A76CE4C6CE3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"All Ender Chests are linked together by their 3 color pattern. "
+				""
+				"Heres an example of the default craft:"
+				""
+				"Ender Chest White/White/White"
+				""
+				"If you make 2 Ender Chests that are White/White/White, any item that you put inside will be accessible from the other point.  "
+				""
+				"You can further customize this by using Dye to add colors. Any of the same color pattern will be able to access one another. "
+			]
+			id: "5838DF4B268E998D"
+			shape: "circle"
+			tasks: [{
+				id: "7EFFE386576770DF"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"All Ender Tanks are linked together by their 3 color pattern. "
+				""
+				"Heres an example:"
+				""
+				"Ender Tank dyed with Green/Red/Blue"
+				""
+				"If you make 2 Ender Tanks that are Green/Red/Blue, any fluid that you put inside will be accessible from the other point.   "
+			]
+			id: "45A060883D4F21FB"
+			shape: "circle"
+			tasks: [{
+				id: "6BCE37E2B616AE5D"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"All Ender Pouch are linked together by their 3 color pattern. "
+				""
+				"Heres an example:"
+				""
+				"Ender Pouch dyed with Red/Red/Blue"
+				""
+				"If you make 2 Ender Pouches that are Red/Red/Blue, any item that you put inside will be accessible from the other point.  "
+			]
+			id: "31AB01F3FDFF5E3F"
+			shape: "circle"
+			tasks: [{
+				id: "79D4EC9C9B5D37E7"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Storage"
+}

@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_7"
+	group: "69403B2D49AA6748"
+	icon: "create:creative_motor"
+	id: "7320D4B7C95E3046"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "30CD995ABD42AA09"
+			shape: "circle"
+			tasks: [{
+				id: "166EF8BC97D68069"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "1D084DFDA1E21F68"
+			shape: "circle"
+			tasks: [{
+				id: "2220FD71CF4EFB19"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "18F0B3498C6106EE"
+			shape: "circle"
+			tasks: [{
+				id: "196B4F03AA6B4DAE"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "352BD73859F9E2EA"
+			shape: "circle"
+			tasks: [{
+				id: "71BF7FB683496793"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "6644AC2219D1F36E"
+			shape: "circle"
+			tasks: [{
+				id: "5CAF52E5AC2C5D63"
+				item: "pneumaticcraft:creative_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			description: ["{@pagebreak}"]
+			hide_dependency_lines: true
+			id: "76EA543CF771808F"
+			shape: "circle"
+			tasks: [{
+				id: "7FAE462284DB785F"
+				item: "pneumaticcraft:creative_compressor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "2D772B55FF9572A7"
+			shape: "circle"
+			tasks: [{
+				id: "2BC28F98CE99B8BC"
+				item: "thermal:rf_coil_creative_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "0BB2400341ECDB10"
+			shape: "circle"
+			tasks: [{
+				id: "6A0A8AB1E2E315BD"
+				item: "thermal:fluid_tank_creative_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "221A3D7B8C76B864"
+			shape: "circle"
+			tasks: [{
+				id: "271321FBCEF918A3"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "099E9B46035533DD"
+			shape: "circle"
+			tasks: [{
+				id: "0B5E3F808F332BC0"
+				item: "thermal:machine_catalyst_creative_augment"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "6B618208B8BCF027"
+			shape: "circle"
+			tasks: [{
+				id: "025348DD4CF6177E"
+				item: {
+					Count: 1b
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "161425322AABFBED"
+			shape: "circle"
+			tasks: [{
+				id: "50AA144F0995AB50"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "0F40041626CD0CBB"
+			shape: "circle"
+			tasks: [{
+				id: "5D01D1D376978A98"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "41CDD68812B0EF97"
+			shape: "circle"
+			tasks: [{
+				id: "7A2582F8DC230458"
+				item: "create:creative_crate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "7DFD8A4FD1BB9E8D"
+			shape: "circle"
+			tasks: [{
+				id: "7645BD33D6BC8BBD"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "6981F33216C172CF"
+			shape: "circle"
+			tasks: [{
+				id: "2CBBA3CF753F1A27"
+				item: "create:handheld_worldshaper"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "0A298462977A633B"
+			shape: "circle"
+			tasks: [{
+				id: "456FB550BA9DE1D9"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "553C169425A590A9"
+			shape: "circle"
+			tasks: [{
+				id: "0890AE7C0C7EF0C6"
+				item: "appmek:creative_chemical_cell"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "6CC548A88B883F00"
+			shape: "circle"
+			tasks: [{
+				id: "094A9F9A87DF7A6A"
+				item: "rftoolsutility:creative_screen"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34269CBE4A60EE1A"]
+			id: "733685689F4BC517"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15A1D3655546BDAB"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "396389733B0AE44A"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7AB6777B9471D4AD"]
+			description: [
+				"Welcome to the Creative age. "
+				""
+				"After constructing your Tier 4 Rocket you will be able to travel to Glacio. "
+				""
+				"Glacio will allow you to get the last resource you need to start creating Plastim, which is the final ingot you need in your journey. "
+				""
+				"Plastim will be used to make all of the Creative items of this age."
+			]
+			id: "46302C4C64C7C6E2"
+			shape: "circle"
+			tasks: [{
+				id: "3181319DA3318FA5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Seventh Age"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			description: ["To make any Creative Items you will need the Advanced Crafting Table.  "]
+			id: "34269CBE4A60EE1A"
+			shape: "circle"
+			tasks: [{
+				id: "32D77ECB57D76743"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["733685689F4BC517"]
+			id: "01011EAF7AC1ECF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B8A176C2F294FEF"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6733B1D30113E68D"
+				item: "emendatusenigmatica:plastim_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: true
+			id: "5BC23FFF0CC462B6"
+			shape: "circle"
+			tasks: [{
+				id: "67B07FD9CCF53E90"
+				item: "pipez:infinity_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			id: "77C6034732EC7F88"
+			shape: "circle"
+			tasks: [{
+				id: "531DDE8CAD0046B9"
+				item: "mekanism:creative_bin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+	]
+	title: "Tech"
+}

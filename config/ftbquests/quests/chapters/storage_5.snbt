@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_5"
+	group: "16ADE1AEEBEEE736"
+	icon: "ae2:redstone_p2p_tunnel"
+	id: "7E6F8C031B896388"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			description: [
+				"Applied Energistics 2 offers some more advanced features with P2P Tunneling. Here are the available Tunnels: "
+				""
+				"ME"
+				"Redstone"
+				"Item"
+				"Fluid"
+				"FE"
+				"Light"
+				""
+				"Using a P2P Tunnel you can transfer -- for instance, Light through your AE2 Network from the Input side to the Output side.  For the Light example, you can actually see the Light being transferred as well, as it lights up the pipe line. "
+				""
+				"Another example would be to transfer a Redstone signal.  Say that you want to activate Redstone somewhere and didn't want to draw the Redstone line on the ground.  Instead, you can use a P2P Tunnel to transfer the Redstone signal from the Input side to the Output side. "
+				""
+				"If you would like to know more about the basics of P2P Tunneling, "
+				""
+				"&e&oI suggest checking out this short 6 1/2 minute video from Lunarcubed:"
+				""
+				"&e&oApplied Energistics 2: A Beginner's Guide! -- P2P Tunnels Tutorial&r&r"
+				"&r&r&b&nhttps://www.youtube.com/watch?v=y2a5QRg0hTE&r&r"
+			]
+			id: "75D7160BC3D45506"
+			shape: "circle"
+			tasks: [{
+				id: "420239CC754474B0"
+				title: "P2P"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "4D6C6BE7E153AEED"
+			shape: "circle"
+			tasks: [{
+				id: "382BD7129162F16A"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "73782B7FE6DA089E"
+			shape: "circle"
+			tasks: [{
+				id: "6B7E194FAFC352C0"
+				item: "ae2:redstone_p2p_tunnel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "0822D73CE8BF1BF8"
+			shape: "circle"
+			tasks: [{
+				id: "7BC8E157261981D0"
+				item: "ae2:item_p2p_tunnel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "5164A6ADDB9469FB"
+			shape: "circle"
+			tasks: [{
+				id: "21DB0B72BA14A0F0"
+				item: "ae2:fluid_p2p_tunnel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "1361FDD4DB0B467B"
+			shape: "circle"
+			tasks: [{
+				id: "3390D0D9E7F49C23"
+				item: "ae2:fe_p2p_tunnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "59BD9BA5CE0F2A1F"
+			shape: "circle"
+			tasks: [{
+				id: "3F47D40EE312475B"
+				item: "ae2:light_p2p_tunnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75D7160BC3D45506"]
+			id: "538C85C10A77F251"
+			shape: "circle"
+			tasks: [{
+				id: "59F5C1141CB55F48"
+				item: "appmek:chemical_p2p_tunnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "795FF3B4F30D2B1C"
+			shape: "circle"
+			subtitle: "Access storage from anywhere in the Overworld!"
+			tasks: [{
+				id: "1F352ABDE14B59BD"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "184CAA20D70D5EC3"
+			shape: "circle"
+			subtitle: "Access storage from anywhere!"
+			tasks: [{
+				id: "7E4D0E5744B1B957"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C00F063FD2700AD"]
+			id: "529C71D68EEE5E5F"
+			shape: "circle"
+			subtitle: "Keeps fluids and items in stock, in your ME Network."
+			tasks: [
+				{
+					id: "3EF7537F953AD5BC"
+					item: "merequester:requester"
+					type: "item"
+				}
+				{
+					id: "31882F854264ED63"
+					item: "merequester:requester_terminal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Storage"
+}

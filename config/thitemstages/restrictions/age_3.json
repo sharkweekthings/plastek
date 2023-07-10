@@ -1,0 +1,46 @@
+{
+  "Restriction Data": {
+    "stage": "age_3",
+    "itemList": [],
+    "modList": [
+      "immersive_armors",
+      "glassential",
+      "wstweaks",
+      "ad_astra",
+      "ad_astra_giselle_addon",
+      "botania",
+      "compactmachines",
+      "constructionwand",
+      "cookingforblockheads",
+      "create",
+      "elevatorid",
+      "energeticsheep",
+      "farmingforblockheads",
+      "prettypipes",
+      "productivebees"
+    ],
+    "tagList": [
+      "kubejs:age_3_item"
+    ],
+    "exceptionList": [
+      {
+        "tag": "kubejs:age_3_exception"
+      }
+    ],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

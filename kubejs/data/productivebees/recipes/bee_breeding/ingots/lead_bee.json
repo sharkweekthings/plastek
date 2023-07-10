@@ -1,0 +1,8 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:ashy_mining_bee",
+    "parent2": "productivebees:blue_banded_bee",
+    "offspring": [
+        "productivebees:lead"
+    ]
+}

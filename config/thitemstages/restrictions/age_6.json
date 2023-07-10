@@ -1,0 +1,48 @@
+{
+  "Restriction Data": {
+    "stage": "age_6",
+    "itemList": [],
+    "modList": [
+      "aeinfinitybooster",
+      "angelring",
+      "appmek",
+      "mekanism",
+      "mekanismadditions",
+      "mekanismgenerators",
+      "mekanismtools",
+      "merequester",
+      "mysticalagradditions",
+      "mysticalagriculture",
+      "pipez",
+      "powah",
+      "rangedpumps",
+      "rftoolsbase",
+      "rftoolsutility",
+      "shrink",
+      "tempad"
+    ],
+    "tagList": [
+      "kubejs:age_6_item"
+    ],
+    "exceptionList": [
+      {
+        "tag": "kubejs:age_6_exception"
+      }
+    ],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

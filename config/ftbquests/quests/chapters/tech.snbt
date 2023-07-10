@@ -1,0 +1,824 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech"
+	group: "5F8EFC9EDBDA235C"
+	icon: "create:gearbox"
+	id: "57FCD88C8F2E3A1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C04ACB8F1639713"]
+			description: ["After just 1 log you think you're a professional Lumberjack."]
+			icon: "minecraft:oak_wood"
+			id: "7FAD2D111A51760D"
+			rewards: [
+				{
+					id: "5EE3EC9212267126"
+					item: "pamhc2foodcore:carrotbreaditem"
+					type: "item"
+				}
+				{
+					id: "7934DA86DC24D2B4"
+					item: "pamhc2foodextended:gingersodaitem"
+					type: "item"
+				}
+				{
+					id: "1B42C4987081F2A7"
+					item: "pamhc2foodextended:gravyitem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "483BAB6F13EE5D85"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Dexter Wood Be Proud"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FAD2D111A51760D"]
+			icon: "minecraft:oak_planks"
+			id: "046A6ECDB66B91A2"
+			tasks: [{
+				id: "5240C38F999FEBF6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "Planks A Lot"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			description: [
+				"One of the most powerful metals in the world. Copper. Copper..... "
+				""
+				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll be using Copper for a little bit. "
+			]
+			id: "29ABB78197853F7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76CE7AB9D811193D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "708FA8DB9D272073"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			description: [
+				"You can capture another cow and breed them, or find other animals to breed. "
+				""
+				"Cows are a good source of Leather Scrap though!"
+			]
+			icon: "plushies:cow"
+			id: "615BA127ABFF419F"
+			rewards: [{
+				id: "4715C4AC927D975E"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "<3"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				icon: "artifacts:crystal_heart"
+				id: "28AEEE589D04F106"
+				type: "advancement"
+			}]
+			title: "1 + 1 = 2"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			id: "744FE5C3E16276EB"
+			rewards: [{
+				count: 3
+				id: "4AAC767F98FD9EBB"
+				item: "statues:marshmallow"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "I bet you wish you could roast these right now."
+			tasks: [{
+				id: "083EBA25543276FF"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Anyone Got a Scary Story?"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7FAD2D111A51760D"
+				"046A6ECDB66B91A2"
+			]
+			description: [
+				"Every good Engineer has to start somewhere. In this case, you're starting off making an animal pen, and a little farm."
+				""
+				"This will help us get situated with some early game food, as well as prepping up for the Leather we'll need."
+			]
+			icon: "itemfilters:not"
+			id: "6F712354DFDC89C5"
+			rewards: [
+				{
+					id: "21A899B4D3B52630"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7D6DC60B475A3F75"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "1D7361E0F5CE2AF6"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1FEA0F46CC920612"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "6B72BEB41C7CE1B8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fences"
+						}
+					}
+					title: "Any #forge:fences"
+					type: "item"
+				}
+				{
+					id: "0675A41246286F10"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fence_gates"
+						}
+					}
+					title: "Any #forge:fence_gates"
+					type: "item"
+				}
+			]
+			title: "Wait, This Isn't Tech!"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["744FE5C3E16276EB"]
+			description: [
+				"Step 1: Put potato in oven"
+				"Step 2: Wait..."
+				"Step 3: Collect potato"
+				"Step 4: Cry because you don't have salt, pepper, sour cream, bacon, or anything to make this a good potato"
+				"Step 5: Throw potato away."
+			]
+			id: "09473F5555348878"
+			shape: "circle"
+			subtitle: "EZ Bake Oven"
+			tasks: [{
+				count: 32L
+				id: "3ED3B0D7A61F2415"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			title: "Potato Blood Is In My Veins"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["615BA127ABFF419F"]
+			description: [
+				"Yup. There is a bit of a Leather process in this pack. Don't worry though, as you progress there will be more ways to create Leather. "
+				""
+				"This will also net you some Bamboo as a reward, just incase you haven't found any yet. "
+				""
+				"You should be able to start making Baskets with Bamboo and a little Hemp fiber."
+			]
+			id: "0F168A15566009C5"
+			rewards: [{
+				count: 5
+				id: "5EE36929EEA80B92"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			tasks: [{
+				count: 17L
+				id: "164A8B08288F0841"
+				item: "silentgear:leather_scrap"
+				type: "item"
+			}]
+			title: "Leather Scrap"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F168A15566009C5"]
+			dependency_requirement: "one_started"
+			id: "7DFA570BE3948D39"
+			tasks: [{
+				id: "0D6D99F9378BA67C"
+				item: "kubejs:rawhide"
+				type: "item"
+			}]
+			title: "Rawhide"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DFA570BE3948D39"]
+			description: [
+				"From here you're going to want to start progressing toward making those 3 Create machines over there to the right.  "
+				""
+				"The Mixer, The Press, and the Millstone. "
+			]
+			id: "089813896648386D"
+			subtitle: "Mixer Required! "
+			tasks: [{
+				id: "5859378BFFE8E791"
+				item: "kubejs:mallable_hide"
+				type: "item"
+			}]
+			title: "Mallable Hide"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24CAB28F70C0D5C1"]
+			id: "0492055978020330"
+			rewards: [
+				{
+					id: "5CF5BF5C4761BFED"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+				{
+					id: "2898AD1DFB65D872"
+					item: "rootsclassic:rooty_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A50208F73BC5F70"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01849E75E7A04443"]
+			id: "24CAB28F70C0D5C1"
+			tasks: [
+				{
+					id: "6FA661FDE66603F8"
+					item: "compressium:cobblestone_2"
+					type: "item"
+				}
+				{
+					id: "582F77CF470F8FC9"
+					item: "compressium:coal_2"
+					type: "item"
+				}
+			]
+			title: "Smoosh Em Together"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FFCDB35F97F22CC"
+				"29ABB78197853F7B"
+			]
+			description: ["Just make a new one. The Crude Alloyer isn't a replacement for any furnace, and has very limited usages."]
+			icon: "compressium:andesite_2"
+			id: "5F9650322884CAF2"
+			subtitle: "Don't use your current furnace!"
+			tasks: [
+				{
+					count: 7L
+					id: "51268A40044BB088"
+					item: "compressium:andesite_2"
+					type: "item"
+				}
+				{
+					id: "51370AFEA95BA2D6"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "1CBB12CB29C83994"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "0ABA23134274C5EA"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "43B7958126948680"
+					item: "totemic:buffalo_hide"
+					type: "item"
+				}
+				{
+					id: "6B74C1E8478757EB"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			title: "This Stuff Is So Heavy"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F9650322884CAF2"]
+			id: "275A35DE022B722D"
+			tasks: [{
+				id: "062BC1DDDDF4B155"
+				item: "silentgear:metal_alloyer"
+				type: "item"
+			}]
+			title: "Crude Alloyer"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["275A35DE022B722D"]
+			id: "6FCBB48C6F9A8E03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E91C866CDE9ED34"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1DE85B6BBDCD58B6"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["76C3C56FD74F358E"]
+			id: "33A4EA9F2AEA54F6"
+			tasks: [{
+				id: "340D7F38502C8818"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["273EEA63B0E4BC1C"]
+			id: "76C3C56FD74F358E"
+			tasks: [{
+				id: "719E315345A0678A"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6FCBB48C6F9A8E03"]
+			description: [
+				"For manual hand cranking!!!"
+				""
+				"To power these next 3 devices, you'll need to do so by hand. Turning, and turning, and turning....  Soon you'll get hungry, and then you'll have to turn some more."
+				""
+				"Don't worry. It's only going to last until you're able to harness the power of Hydro. "
+				""
+				"Oh yes, we're going to make the biggest, the baddest, the meanest looking Hydro Generator this side of the of those blocky mountains that you passed a little while ago."
+				""
+				"&oIt's just a Waterwheel, and that's coming in the next age.&r"
+			]
+			id: "273EEA63B0E4BC1C"
+			rewards: [
+				{
+					count: 2
+					id: "3C84F002B124776C"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4578A309A60E27B8"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7CE927DDBA035D90"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "I hope you're hungry"
+			tasks: [{
+				id: "4E51191D261889C9"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["273EEA63B0E4BC1C"]
+			id: "39DB7E14FD80D8F2"
+			tasks: [{
+				id: "4B51E4DB48966AE1"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["39DB7E14FD80D8F2"]
+			description: ["Technically you don't need this, but it does make life a little bit easier. "]
+			id: "1E6707ED1F4AC625"
+			shape: "circle"
+			tasks: [{
+				id: "0FCD4F4C7FD576F7"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["089813896648386D"]
+			id: "4438CC470515A45C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75E618516991D6C8"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "32012548A028D748"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"486E2F2D84E0E664"
+				"6FCBB48C6F9A8E03"
+			]
+			id: "141BB1A7D5C7030B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CD230809BD16D82"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3774877C4ADCA3BB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79A637B4D90D9903"]
+			id: "55052EAA5C32C89B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "300226E5B93447EB"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "55AA3CEA4E3734D4"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["141BB1A7D5C7030B"]
+			id: "79A637B4D90D9903"
+			tasks: [{
+				id: "6A3C35DFBAB948F3"
+				item: "emendatusenigmatica:iron_rod"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["141BB1A7D5C7030B"]
+			id: "218D5B0CBA945D35"
+			tasks: [{
+				id: "071C8680B6899578"
+				item: "emendatusenigmatica:iron_plate"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7DFA570BE3948D39"]
+			dependency_requirement: "one_started"
+			description: ["Adding a little bark can strengthen the Rawhide."]
+			id: "203755653C86E4EE"
+			tasks: [{
+				id: "12D02C13A2C60C29"
+				item: "kubejs:durable_rawhide"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["203755653C86E4EE"]
+			id: "446B1D45A06E5991"
+			tasks: [{
+				id: "3225E60017EF5ED9"
+				item: "kubejs:durable_mallable_hide"
+				type: "item"
+			}]
+			title: "Durable Mallable Hide"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["446B1D45A06E5991"]
+			description: [
+				"Durable Leather is actually Totemic's Buffalo Hide. It's just renamed for this pack. "
+				""
+				"Anything that Totemic may require a specific Buffalo Hide for, the Durable Leather will be able to take it's place."
+			]
+			id: "27FBC19A999E7499"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01658B55E0BCC84C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Buffalo Hide = Durable Leather = Buffalo Hide Leather Buffalo Buffalo"
+			tasks: [{
+				id: "6982265269E09FC3"
+				item: "totemic:buffalo_hide"
+				type: "item"
+			}]
+			title: "Durable Leather"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["275A35DE022B722D"]
+			description: [
+				"With the Crude Alloyer you can make Sterling Silver ingots. "
+				""
+				"With Sterling Silver ingots, you can make some new armor and tools!"
+			]
+			id: "0EAC1C918A0B2E6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F0BFDC2F838515"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "275D2192DBF0DC47"
+				item: "emendatusenigmatica:sterling_silver_ingot"
+				type: "item"
+			}]
+			title: "Sterling Silver"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			description: [
+				"So here you are. You've dug around. You probably noticed a lack of Gold and other resources in the Overworld. Don't worry, they are out there, and you're about to find out exactly where you need to bee. "
+				""
+				"Go ahead and take a look at \"The Bumblezone\" quest line. You currently just need Gold Ingots to progress, but before finishing Age 1 -- You'll need to do some exploration in the Bumblezone and successfully trade a Queen Bee. "
+			]
+			id: "4FFCDB35F97F22CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1201E5A3876D9322"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "373F2514F4E561A3"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["273EEA63B0E4BC1C"]
+			id: "027BF7618F0E0D5C"
+			tasks: [{
+				id: "18560DCBE1965DE7"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			description: [
+				"Just incase you ever need some Rabbit Hide. Maybe you will, maybe you won't.  As of writing this, nope. "
+				""
+				"Will I ever change this? Who knows!"
+			]
+			id: "0EBA787C93CDAE25"
+			rewards: [{
+				id: "618B17A226430D2B"
+				item: "statues:rabbit_bw_statue"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "May need to wait til a later age to complete this side quest!"
+			tasks: [{
+				id: "4DB2DBFC3909B3CB"
+				item: "minecraft:rabbit_hide"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			id: "691ECBD83694FFBC"
+			shape: "circle"
+			subtitle: "May need to wait til a later age to complete this side quest!"
+			tasks: [{
+				id: "40AA2E2CD7A34475"
+				item: "silentcompat:outback_leather"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			id: "6A9C5598B323C1B5"
+			shape: "circle"
+			subtitle: "May need to wait til a later age to complete this side quest!"
+			tasks: [{
+				id: "01369FEBEC742D44"
+				item: "immersiveengineering:ersatz_leather"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			description: ["By constructing a Bellows, placing it behind a Furnace, and activating it with a Lever, you can speed up the time it takes to smelt items!"]
+			id: "06F684BEEA458789"
+			rewards: [{
+				count: 5
+				id: "375723EF330E3FDF"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "56AB19AA3BDD0447"
+					item: "supplementaries:bellows"
+					type: "item"
+				}
+				{
+					id: "66CE41BCDCBC8B55"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			description: [
+				"You'll first want to start out by finding, or crafting Organic Compost. "
+				""
+				"Once you have some Organic Compost, you can pop it down on the ground near some water and it will eventually turn into Rich Soil Farmland. "
+				""
+				"You can add some various activators in a 3x3 area which will speed this process up: "
+				""
+				"- Red/Brown Mushrooms"
+				"- Podzol"
+				"- Mycelium"
+				"- Rich Soil"
+				""
+				"Rich Soil Farmland has an added bonus of having crops immune to trample, as well as faster growth. "
+			]
+			icon: "farmersdelight:rich_soil_farmland"
+			id: "14EFAC1D0DBEF019"
+			shape: "circle"
+			tasks: [{
+				id: "358449A8E2AB8B83"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Rich Soil Farmland"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FAD2D111A51760D"]
+			description: [
+				"Lumberjack Tim approves of your demolition of the forest. "
+				""
+				"In exchange, he's providing you with his most precious of treasures."
+				""
+				"It isn't really his most precious of treasures, but it's all he's willing to give &oYOU&r."
+			]
+			id: "6525CE0ABD298652"
+			rewards: [{
+				id: "16F2B4BBB0BD70FC"
+				item: "inventorypets:nugget_diamond"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Biceps of pure muscle"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "657942031F30D46C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "The Brawny Man"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Tech"
+}

@@ -1,0 +1,190 @@
+{
+  "type": "mythicbotany:rune_ritual",
+  "center": {
+    "item": "mythicbotany:fimbultyr_tablet"
+  },
+  "group": "rune_rituals",
+  "inputs": [
+    {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    },
+    {
+      "item": "botania:spark"
+    },
+    {
+      "item": "botania:tiny_planet"
+    }
+  ],
+  "mana": 500000,
+  "outputs": [],
+  "runes": [
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_wrath"
+      },
+      "x": -5,
+      "z": 0
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_wrath"
+      },
+      "x": 5,
+      "z": 0
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_wrath"
+      },
+      "x": 0,
+      "z": -5
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_wrath"
+      },
+      "x": 0,
+      "z": 5
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_pride"
+      },
+      "x": -4,
+      "z": -4
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_pride"
+      },
+      "x": -4,
+      "z": 4
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_pride"
+      },
+      "x": 4,
+      "z": -4
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_pride"
+      },
+      "x": 4,
+      "z": 4
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_air"
+      },
+      "x": -3,
+      "z": 2
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_air"
+      },
+      "x": 3,
+      "z": 2
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_air"
+      },
+      "x": -2,
+      "z": 3
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_air"
+      },
+      "x": 2,
+      "z": 3
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_earth"
+      },
+      "x": -3,
+      "z": -2
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_earth"
+      },
+      "x": 3,
+      "z": -2
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_earth"
+      },
+      "x": -2,
+      "z": -3
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "botania:rune_earth"
+      },
+      "x": 2,
+      "z": -3
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "mythicbotany:nidavellir_rune"
+      },
+      "x": -2,
+      "z": 0
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "mythicbotany:nidavellir_rune"
+      },
+      "x": 2,
+      "z": 0
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "mythicbotany:asgard_rune"
+      },
+      "x": 0,
+      "z": 2
+    },
+    {
+      "consume": true,
+      "rune": {
+        "item": "mythicbotany:joetunheim_rune"
+      },
+      "x": 0,
+      "z": -2
+    }
+  ],
+  "special_output": "mythicbotany:mjoellnir",
+  "ticks": 200
+}

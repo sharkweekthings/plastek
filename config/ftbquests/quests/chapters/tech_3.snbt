@@ -1,0 +1,1295 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_3"
+	group: "7F2FC2E4E4C51B36"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "775EED1867EC7F94"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "434CB01AA70F4D9B"
+			tasks: [{
+				id: "548F9794BE49EF9A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Third Age"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["434CB01AA70F4D9B"]
+			description: [
+				"The Steam Engine is totally optional. "
+				""
+				"If you prefer, you can use a whole bunch of Water Wheels to accomplish what you need. "
+				""
+				"&oIf you were holding out for Windmills, those are disabled in this pack.&r"
+				""
+				"The next set of quests will instruct you on the most basic setup for a Steam Engine.  "
+				""
+				"It will be up to you if you want to beef up your system. "
+			]
+			id: "586DF94B6EBC5027"
+			shape: "circle"
+			tasks: [{
+				id: "24E8F286B2D1747F"
+				title: "Full Steam Ahead!"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["495614D702F691B3"]
+			description: [
+				"With a Blaze captured, you can finally make some Brass!  "
+				""
+				"Brass will be an integral part of the next few Create machines that we'll need for the pack."
+				""
+				"You'll need to put the Blaze Burner under a Mixer from Create.  Once everything is placed, you can feed the Blaze Burner Wood, Logs, Coal, or most any other burnable fuel source. "
+			]
+			id: "280C23FA611548B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "602963345C54AA93"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "41D191CECD176A79"
+				item: "emendatusenigmatica:brass_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["434CB01AA70F4D9B"]
+			description: [
+				"If you don't already have a Blaze Burner, it may be time to head back into the Nether, or anywhere else you may have seen a Blaze. "
+				""
+				"Simply click a Blaze with the Empty Blaze Burner item. "
+				""
+				"This will capture the blaze for all eternity. Even after you pass, the Blaze will live on, caged away not being fed. "
+				""
+				"You can put this under a Mixer, Steam Engine, and other things that require heating.  This one you will probably want to use for the Mixer to start making Brass."
+			]
+			id: "495614D702F691B3"
+			rewards: [{
+				id: "1BEBFAABB7A15C25"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2963A6E918D601C2"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["586DF94B6EBC5027"]
+			description: [
+				"To build the Steam Engine it's probably best to visualize it by holding down 'W' over the Steam Engine in JEI. "
+				""
+				"- Carve out 4 blocks in a square, and put down your Lava. (Don't do this around Wood/Logs/Planks/Etc. Fire Bad.)"
+				"- With Lava covering all 4 blocks you can now place down the 4 Fluid Tanks. "
+				"- Connect the Steam Engine to the side of the Fluid Tank"
+				"- Connect a Shaft to the Steam Engine (this should transform the Engine if it worked)"
+				"- Now you just need to set up the Mechanical Pump, and pump water into the Fluid Tank. "
+				"- If everything is right with the Water Wheel, Speed Controller, and this -- the Steam Engine should start working and provide you with &l&b2048su&r&r"
+				""
+				""
+				"&oIf you want to make the fluid tank larger, Create will automatically place 4 Fluid Tank blocks down if you have them in your inventory, after the structure has been built.&r"
+			]
+			id: "5B8D1C9C65B8069E"
+			shape: "circle"
+			subtitle: "So steamy! ;)"
+			tasks: [
+				{
+					id: "2F768B97C0214AC5"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "59D881AB2E5E5B3A"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["586DF94B6EBC5027"]
+			id: "6DBE23824C342A2A"
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "64FCE9FE0DB4AE8D"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["586DF94B6EBC5027"]
+			description: ["You'll need at least 1 Fluid Pipe, but craft as many as you need for your system."]
+			id: "3D7E4C603140E8D5"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4F8F02235689CD1A"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "7A25974F4A8D6F19"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6DBE23824C342A2A"
+				"5B8D1C9C65B8069E"
+				"3D7E4C603140E8D5"
+			]
+			description: [
+				"You will need to use a Water Wheel (or figure out another way to self sustain the Steam Engine)."
+				""
+				"For this basic system you will want to use a Water Wheel set up with 4 wheels, and Soul Sand. This should net you a Water Wheel with an su of 320."
+				""
+				"Connect the Rotation Speed Controller to the Water Wheel, place a Large Cog on top of it, then finish connecting the shafts to your Mechanical Pump."
+				""
+				"You will need to adjust your Rotation Speed Controller to at least 48 in order to kick everything off. "
+			]
+			id: "183791C103E334D4"
+			rewards: [{
+				id: "224574583A94B3B6"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "567221CD880A4B74"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Dedicated Water Wheel"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["434CB01AA70F4D9B"]
+			description: [
+				"Pressure Chambers can be constructed in 3x3x3, 4x4x4, or 5x5x5.  "
+				""
+				"For the quest, we'll just be building a 3x3x3.  "
+				""
+				"&c&lI would suggest building a 4x4x4 though as it will be required to finish this age, and make better plastic.&r&r"
+			]
+			id: "4C3B6C4F42399736"
+			tasks: [{
+				id: "3160440B83AB0718"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Under Pressure"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			description: ["The Pressure Chamber can be constructed out of Pressure Chamber Wall, or Pressure Chamber Glass, or a mix of both. "]
+			id: "7D8EA91D5709D5E3"
+			tasks: [
+				{
+					id: "7AB54582C56B28AA"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "38C8F56C13925FF3"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			id: "5C111E8F70FAA411"
+			tasks: [{
+				count: 2L
+				id: "10D8EBDD6A23D604"
+				item: "pneumaticcraft:pressure_chamber_interface"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			id: "73EFE5A0852A3EC2"
+			tasks: [{
+				id: "7C5E8AA45C99140E"
+				item: "pneumaticcraft:pressure_chamber_valve"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			description: ["If 2 doesn't cut it, you can always add a 3rd!"]
+			id: "445F56FAE352EC14"
+			tasks: [{
+				count: 2L
+				id: "3B4EEF229B09E444"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			id: "70651958530DD60B"
+			tasks: [{
+				id: "2A360597A55CF051"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7D8EA91D5709D5E3"
+				"5C111E8F70FAA411"
+				"73EFE5A0852A3EC2"
+				"70651958530DD60B"
+				"445F56FAE352EC14"
+			]
+			description: [
+				"As an example, you can use a Hopper to put items into the Pressure Chamber by attaching it to the Input side of one of the Pressure Chamber Interfaces."
+				""
+				"Input is colorless if the Multiblock is built, &1blue&r if it hasn't been constructed yet."
+				""
+				"Connecting a Drawer to the Output of the Pressure Chamber Interface -- items will automatically be Output into the drawer. "
+				""
+				"Output is &eyellow&r whether the Multiblock is constructed or not."
+			]
+			id: "420F4920C8B2367B"
+			rewards: [{
+				id: "702DD5066C668FEF"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C8C0B5CADF7F1A5"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "1EB37526A4773E89"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+					title: "Any #functionalstorage:drawer"
+					type: "item"
+				}
+			]
+			title: "The Hopper and the Drawer"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["420F4920C8B2367B"]
+			description: [
+				"With your Pressure Chamber built, the Hopper and Drawer attached to each of the Input/Output Interfaces, and some Iron Ingots thrown into the Pressure Chamber  -- you should be able to make Compressed Iron Ingots!"
+				""
+				"This will be an important metal for this age. "
+				""
+				""
+				"&l&cNote: Pressure Chambers are not safe, and may cause explosions without the proper upgrades.&r&r  "
+				""
+				"&l&cDon't leave your system running unattended if you dont have Security Upgrades in it.&r&r  "
+				""
+				"&l&cIt's highly advisable to set a Redstone mode and disable the system while it's not in use.   If you leave the system running, you may come back to find your machine destroyed, and items missing.&r&r"
+				""
+				"&l&eCheck the Tools section for a few Pneumatic Craft upgrades, tubes, etc.&r&r"
+			]
+			id: "3F3A305DB84B1A1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CA7C0A6690589C0"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Pressing down on the Iron Ingot"
+			tasks: [{
+				id: "48C5ECBC59A694F0"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "Pressure pushing down on me"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C3B6C4F42399736"]
+			description: [
+				"For this upgrade you're going to need a lot more walls or glass. It's up to you how you want to finish it off. "
+				""
+				"You'll need 53 Pressure Chamber Walls, Glass or any mix of it to construct the 4x4x4 structure. Then you'll need to add 2 Pressure Chamber Interfaces, and 1 Pressure Chamber Valve."
+			]
+			id: "0918F2E9F5D62F3F"
+			rewards: [{
+				count: 15
+				id: "29591E383F75581B"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			subtitle: "Sometimes it pays to read ahead (probably only this time)"
+			tasks: [{
+				id: "3D8ADB29A80348F3"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Moar Bigger Pressure"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["434CB01AA70F4D9B"]
+			description: [
+				"This chain will focus on creating a few different simple setups for Create's Sequenced Assembly."
+				""
+				"There won't be any hidden Sequenced Assemblies later on, so you're free to design your base around the few that we set up here."
+				""
+				"&l&cEven though items will share a similar Sequence setup (using the same machines/processing steps) each of them have unique recipes. If you want full automation, or if you just want to keep things separated -- you'll need to make more than the minimum required set of machines.&r&r"
+			]
+			id: "34696C1BC236CA44"
+			tasks: [{
+				id: "2C6BF5CFEAAF570F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Assembly Lines, Assemble!!"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34696C1BC236CA44"]
+			description: [
+				"This will cover: "
+				""
+				"- Precision Mechanism"
+				"- Electron Tube"
+			]
+			id: "6A8AAE5A214F5848"
+			subtitle: "Deployer > Deployer > Deployer"
+			tasks: [{
+				id: "60B2155BCD09593D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "3 Deployers"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34696C1BC236CA44"]
+			description: [
+				"This will cover: "
+				""
+				"- Train Track"
+				"- Hardened Integral Components"
+				"- Reinforced Integral Components"
+				"- Resonant Integral Components"
+			]
+			id: "57B39307C919E080"
+			subtitle: "Deployer > Deployer > Deployer > Pressing"
+			tasks: [{
+				id: "10C5D6D2BFB272C4"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "3 Deployers, 1 Press"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["34696C1BC236CA44"]
+			description: [
+				"This will cover: "
+				""
+				"- Light Engineering Block"
+				"- Redstone Engineering Block"
+				"- Heavy Engineering Block "
+				"- Hazmat Fabric"
+				"- Elevator"
+				"- Pity Machine Frame"
+				"- Crystal Housing Unit"
+				"- ZPM Housing Unit"
+			]
+			id: "24EDD34485EC3CB6"
+			subtitle: "Deployer > Deployer > Spout > Pressing"
+			tasks: [{
+				id: "45B7FA0E55DCDA45"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "3 Deployers, 1 Spout, 1 Press"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A8AAE5A214F5848"]
+			id: "0B1AAF40ACCABEB6"
+			tasks: [{
+				count: 3L
+				id: "58FE9CAA6FD1EF89"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "3 Deployers"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57B39307C919E080"]
+			id: "0689979F96386365"
+			tasks: [
+				{
+					count: 3L
+					id: "439798B0D83CFF56"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "0424DFD17517AD17"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "3x Deployers, and 1x Press"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24EDD34485EC3CB6"]
+			id: "1DA1FFF3D67E556C"
+			tasks: [
+				{
+					count: 3L
+					id: "69A9C04B7D253A82"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "1C09C67CEFD3A0AC"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "7A6A12127A66809B"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "3x Deployers, 1x Spout, and 1x Press"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"34696C1BC236CA44"
+				"280C23FA611548B8"
+			]
+			description: ["Or maybe you would. Who am I to judge?"]
+			id: "21DAE0C3CFD8AD70"
+			subtitle: "You wouldn't want to be slapped with this."
+			tasks: [{
+				id: "503E9E456453A601"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B1AAF40ACCABEB6"]
+			id: "564AA140606FC4F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30B2EDABA6B58C90"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1F919047F40BF6AD"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3F3A305DB84B1A1E"
+				"564AA140606FC4F4"
+			]
+			id: "5C177330670C0A81"
+			tasks: [{
+				id: "27A2C79008B4EDB3"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Moon Landing"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C177330670C0A81"]
+			id: "7FE6C2524B72462E"
+			tasks: [{
+				id: "398CAC1FE955CD49"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5C177330670C0A81"]
+			description: [
+				"You're probably wondering how you're going to get to the moon if you havent even generated any RF yet. "
+				""
+				"Well, that's okay, we're going to harnass the power of sheep.  "
+				""
+				"You may have noticed out in the world sheep that look like they would shock you if you touched them. Shearing these special sheep net a special, electricfying wool. "
+				""
+				"With this Electric Wool in hand, you can deposit this into any machine that requires RF to power it up. "
+				""
+				"It's an extremely crude way to power machines that require RF until we get more options in the next age. "
+				""
+				"&l&cNote: I've found that some colors simply don't work and won't load into machines:&r&r"
+				""
+				"&dPink&r, White, &eYellow&r, or &6Orange&r"
+				""
+				"&oThere may be other colors that don't work.&r"
+			]
+			id: "4C2CF4A136A1CFD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "432AD6904B648112"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Sheep Power"
+			tasks: [{
+				id: "2BDF4A2DE3F54019"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "energeticsheep:wool_energetic"
+					}
+				}
+				title: "Any #energeticsheep:wool_energetic"
+				type: "item"
+			}]
+			title: "Bah."
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C2CF4A136A1CFD6"]
+			id: "41FF7ECF419E6A49"
+			tasks: [{
+				id: "0C20ECB58EB4FDED"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C2CF4A136A1CFD6"]
+			id: "17D374CF3021FCC2"
+			tasks: [{
+				id: "36E0575E30FEE1B1"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7FE6C2524B72462E"]
+			description: [
+				"To get to the Moon -- while in orbit, click \"Earth\" > \"Moon\"."
+				""
+				"Make sure that you hold down 'Space Bar' when approaching a planet in your Rocket.  Holding space will control your speed (you should see numbers going down).  "
+				""
+				"You will know you're at the safe speed for landing when the numbers aren't going down anymore."
+				""
+				"&cWarning: Parts required for the optional Space Station won't unlock until Age 5. It's not advised to click \"Space Station\" while in orbit. You may not survive, and could lose your rocket, or items.&r "
+			]
+			id: "6BDAA8260D1272B1"
+			rewards: [
+				{
+					id: "124581D7F8E4BA97"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220A930FC482E238"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "From here, it's time to navigate over to the Moon tab!"
+			tasks: [{
+				id: "1D8CE754CBCCF1BD"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41FF7ECF419E6A49"]
+			description: [
+				"Until you decide to automate this setup, it's gonna be bucket city! "
+				""
+				"To obtain a bucket of Refined Fuel you're going to have to venture out to an ocean biome. Once out there, look for oil that spouts up. You'll need to collect this oil, bring it back to base, and place your bucket on the left side of the Fuel Refinery GUI.  If powered, the machine will process the oil into Refined Fuel and place it on the right side of the GUI. "
+				""
+				"Add your empty Bucket to the right side, and it will fill up. "
+				""
+				"You can then add the Refined Fuel to your rocket."
+			]
+			id: "4017A295832F1CB8"
+			subtitle: "Buckets of fun!"
+			tasks: [{
+				id: "7DA17A1F122B0A99"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["17D374CF3021FCC2"]
+			description: [
+				"You will need to find a way to pump water into the Oxygen Loader in order to create Oxygen. "
+				""
+				"With water flowing into the Oxygen Loader, as well as power -- it should start generating Oxygen. "
+				""
+				"Similar to the Refined Fuel, the Water will be input on the left, and Oxygen output on the right.  "
+				""
+				"Place your Space Suit (chest piece) on the right side of the GUI to fill it up. "
+				""
+				"&l&cFill it all the way up to get quest credit.&r&r"
+			]
+			id: "2EC8458193D1EFA4"
+			tasks: [{
+				id: "4CDA698EA021F86B"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_suit"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 1000L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chargin Up The Space Suit"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BDAA8260D1272B1"]
+			id: "609E5760F5FB5102"
+			tasks: [{
+				id: "4AEDA71C3E54407E"
+				item: "emendatusenigmatica:apatite_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6BDAA8260D1272B1"]
+			id: "1272ED98D4CBD571"
+			tasks: [{
+				id: "2BEBB471CED6A23C"
+				item: "emendatusenigmatica:desh_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0918F2E9F5D62F3F"
+				"1272ED98D4CBD571"
+				"609E5760F5FB5102"
+				"2D3BDA6C01C2195E"
+			]
+			description: [
+				"With some Cheap Plastic, Desh Dust, and Apatite Dust -- we can make stronger plastic.  "
+				""
+				"Just throw everything into your Pressure Chamber and wait a moment."
+				"{@pagebreak}"
+			]
+			id: "6C1E83D3986A642A"
+			rewards: [
+				{
+					id: "62212883C17386D7"
+					item: {
+						Count: 1b
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D8BBE680404E3EE"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "361315B2D8D85B3F"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["564AA140606FC4F4"]
+			description: [
+				"Productive Bees is the first accessible resource generation of this pack. "
+				""
+				"In order to progress we're going to get the basics of Productive Bees setup.   Doing more with the mod will be up to you, and which resources you want to have bees produce for you. "
+				""
+				"&c&oIn this pack there are specific bees disabled to encourage the later usage of Mob Grinding Utils, Hostile Neural Networks, and Mystical Agriculture.&r&r"
+			]
+			id: "55EC3F65486851B2"
+			rewards: [{
+				id: "57110ABDB937B03A"
+				item: {
+					Count: 1b
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15CF9B07847E0E7A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Not The Bees!!"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55EC3F65486851B2"]
+			description: [
+				"To get things started -- you're going to want to craft a Campfire, Shears, and a few Glass Bottles. "
+				""
+				"Then you can set out on your journey to locate a Vanilla Minecraft Beehive/Nest. "
+				""
+				"- Once you've found a Vanilla Minecraft Hive/Nest, and confirmed that there are bees living in it -- place down your Campfire directly under the Nest so that the smoke from the fire goes up, and through the Nest. "
+				""
+				"- Now you'll just have to wait for the Bees to make 5 rotations in and out of the hive for them to deposit their Honey. "
+				""
+				"- Once you can see that the sides of the Nest are filled with Honey, you can take either your Shears (to get Honeycomb), or Glass Bottle (to get Honey)"
+				""
+				"&o&eYou can also get Honeycomb inside of the Bumblezone!&r&r"
+			]
+			id: "4D67244E5F626F1C"
+			subtitle: "Says only you can prevent forest fires"
+			tasks: [
+				{
+					id: "7D46AE0594C599B6"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "2C52F74842367F3D"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EC133E24D044AE7"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			title: "Smokey the Beear"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55EC3F65486851B2"]
+			description: [
+				"With enough materials gathered, you can now make an Advanced Bee Hive. "
+				""
+				"This hive will allow you to keep 3 bees inside, and has a slot where you can place Glass Bottles to collect Honey, automatically.   You will need to come by every so often to pick up your Honeycomb, and Honey bottles. "
+				""
+				"The Advanced Hive has an added bonus of no longer needing to be smoked with a Campfire. "
+				""
+				"In addition to the hive, you can also make an Expansion Box.  The Expansion Box will let you hold up to 5 bees, and gives you access to several upgrades available in Productive Bees. "
+			]
+			id: "3968D5F58A7DB2C8"
+			tasks: [
+				{
+					id: "1BF6A58CB2110BBB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:advanced_beehives"
+						}
+					}
+					title: "Any Advanced Beehive"
+					type: "item"
+				}
+				{
+					id: "43437228BC62180B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:expansion_boxes"
+						}
+					}
+					title: "Any Expansion Box"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55EC3F65486851B2"]
+			description: [
+				"The Bee Cage will allow you to capture, and release bees!"
+				""
+				"To do so, simply find a bee that you want, right click it, and it will contain it inside the Bee Cage. "
+				""
+				"If you sneak + right click the filled cage onto your Advanced Beehive, the released bee will automatically assign it's home to that hive."
+				""
+				"&o&cBee Cages can, and will break!&r&r"
+			]
+			id: "07F5B940549D2BF9"
+			subtitle: "Actual prop from Wicker Man"
+			tasks: [{
+				id: "7E78625BA6F637DB"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4D67244E5F626F1C"
+				"3968D5F58A7DB2C8"
+				"07F5B940549D2BF9"
+			]
+			description: [
+				"Maybe you've noticed them by now, maybe not -- but in various biomes of the world, there are unique Nests specific to that biome type. These nests are home to Solitary Bees and they should stay contained in their own nest. "
+				""
+				"An example of a Nest in the world is the Sand Nest. You may find this one in a Desert type biome.   You can also craft your own Nests, place them in the correct Biome and lure bees that way. "
+				""
+				"&e&oTo Lure a Bee, make sure to put Honey Treats inside the nest, more treats means the faster they will show up!&r.&r"
+				""
+				"Right clicking a nest in the JEI Menu, and then navigating to the \"Bee Spawns\" tab will show you which bees can spawn from that Nest, granted that it's placed in the correct Biome, and is loaded up with Honey Treats. "
+				""
+				"&o&cThe bees that live in these Nests do not produce any Honeycombs, and are intended to be for Breeding bees into other Bees.&r&r"
+			]
+			id: "542299F859CE7CF8"
+			rewards: [{
+				count: 5
+				id: "2AD2FF66261658CF"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			subtitle: "And bees dumb jokes..."
+			tasks: [{
+				id: "782380F199DE97DC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Hive Had Enough Of The Bees!"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["542299F859CE7CF8"]
+			description: [
+				"In this case though, you're finding their honey.   "
+				""
+				"You alone will be the cause of hundreds of millions of bees not finding their mate, because you wanted to steal them from their home, or lure them in with candy......."
+				""
+				"In order to process any Honeycombs into resources, honey, and other fluids -- you're going to need at least a Basic Centrifuge."
+			]
+			id: "2DB43F74D53D9EEE"
+			rewards: [{
+				id: "4D5A80BD17D159FD"
+				item: {
+					Count: 1b
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "When they've found their honey!"
+			tasks: [{
+				id: "2944288FA658C72E"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			title: "When do bees get married?"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DB43F74D53D9EEE"]
+			description: [
+				"Not really."
+				""
+				"Once you get access to some power, and circuit boards you can use a Powered Centrifuge.  "
+				""
+				"This Centrifuge will process much faster than the other Centrifuge. "
+			]
+			id: "1CD8DDDA0176323E"
+			shape: "circle"
+			subtitle: "Powered by tiny little bees running on hamster wheels, with tiny little legs!"
+			tasks: [{
+				id: "2DC233476DCF159B"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CD8DDDA0176323E"]
+			description: ["This Centrifuge also requires power, and will produce your Honeycomb "]
+			id: "526BDEB84751A617"
+			shape: "circle"
+			subtitle: "Even faster!"
+			tasks: [{
+				id: "4C97BBEA64650ACB"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DB43F74D53D9EEE"]
+			description: [
+				"The Plastic Comb is our goal to progress. "
+				""
+				"To obtain this bee you will have to do a few things:"
+				""
+				"&3- Create a Lumber Bee by breeding a Yellow Carpenter Bee, and a Green Carpenter Bee.&r"
+				""
+				"* Yellow Carpenter Bee can be found in Jungle, Spruce, Birch, Dark Oak, or Oak Nests"
+				"* Green Carpenter Bee can be found in Jungle, Birch, Dark Oak, or Oak Nests"
+				""
+				"&3- Get a Resin Bee&r"
+				""
+				"* Resin Bee can be found in Spruce Nests"
+				""
+				"&3- Breed the Lumber and Resin Bee to get a Plastic Bee&r"
+				""
+				"&c&oThe unprocessed Plastic Comb is a key component in strengthening Plastic, and making Molten Plastic. We'll need quite a bit of Plastic Combs going forward.&r&r"
+			]
+			id: "6A3EF71F50C465DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F7327C45EF18625"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Lets make a Plastic Comb!"
+			tasks: [{
+				id: "7F4F42205C2DA750"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:plastic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Makin' Babees"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A3EF71F50C465DD"]
+			hide_dependency_lines: true
+			id: "2D3BDA6C01C2195E"
+			tasks: [{
+				id: "044B522D4FCCC4EB"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:plastic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["07F5B940549D2BF9"]
+			description: [
+				"The Sturdy Bee Cage won't break on you, however they cannot be crafted.  "
+				""
+				"You can obtain them by finding them in loot chests, or through trading a Bee Keeper Villager. "
+				""
+				"To make a Bee Keeper Villager you will need to either place an Advanced Bee Hive near a Villager, kidnap your own Villager and place them next to the Advanced Bee Hive, or buy a Villager Spawn Egg from the Market person and place it next to the Advanced Bee Hive.."
+				""
+				"The Bee Jar will let you decoratively display your Bees.  Read the tool tip for the Bee Jar to learn how!"
+			]
+			id: "49CE6A491850E06C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "622125DF31A06FE8"
+					item: "productivebees:sturdy_bee_cage"
+					type: "item"
+				}
+				{
+					id: "6D634FF5C872AC4E"
+					item: "productivebees:jar_oak"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4017A295832F1CB8"]
+			id: "07C95F2BD72BAC71"
+			shape: "circle"
+			tasks: [{
+				id: "57F33C7CB50E6CE8"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["07C95F2BD72BAC71"]
+			id: "12611406DFCEB1F4"
+			shape: "circle"
+			tasks: [{
+				id: "0C061724B0BA33B7"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7FE6C2524B72462E"]
+			description: ["I honestly didn't test this one out, but if you want to try it out it's optional!"]
+			id: "3B08A21ACEF7B08B"
+			shape: "circle"
+			tasks: [{
+				id: "77FBB2DBC8A8121E"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C1E83D3986A642A"]
+			icon: {
+				Count: 1b
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BE476C4437B1E09"
+			rewards: [{
+				id: "5FFD67B86EA8CCAC"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "012D4D3D7317F69D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Lost Plastic Eye"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34696C1BC236CA44"]
+			description: [
+				"This will cover:"
+				""
+				"- Cogwheel"
+				"- Large Cogwheel"
+			]
+			id: "79973E27E924FC2E"
+			subtitle: "Saw > Deployer > Press"
+			tasks: [{
+				id: "3E2784EEBCA9705F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "1 Saw, 1 Deployer, and 1 Press"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["79973E27E924FC2E"]
+			id: "74F679EA55E58EA9"
+			tasks: [
+				{
+					id: "78608C1D42E120B0"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "16F2046C98DCDC81"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "4D21BD09442A32B9"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "1 Saw, 1 Deployer, and 1 Press"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34696C1BC236CA44"]
+			description: [
+				"This will cover:"
+				""
+				"- Sturdy Sheet"
+			]
+			id: "4F8C16BA9CFB3610"
+			subtitle: "Spout > Press > Press"
+			tasks: [{
+				id: "7CAA14EC8BC15E9A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "1 Spout, and 2 Press"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4F8C16BA9CFB3610"]
+			id: "54752DB4B41302DE"
+			tasks: [
+				{
+					id: "45DD44A087807EB1"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1D6164B6BA94F6E6"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "1 Spout, and 2 Presses"
+			x: 1.0d
+			y: -5.5d
+		}
+	]
+	title: "Tech"
+}

@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "for_fun"
+	group: "2C080FE404DC830F"
+	icon: "minecraft:bell"
+	id: "2B787D995796D6C6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "1911F551B6AA8179"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B250EB923C5219E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Jump jump!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E7695CC483157D9"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 100000
+			}]
+			title: "Jump 100,000 times"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4815FAB2FA3ED3C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "432262FFAB0D65DE"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "238A2E41D2095924"
+				stat: "minecraft:open_chest"
+				title: "Open 500 Chests"
+				type: "stat"
+				value: 500
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			hide: false
+			id: "5C899D066568B671"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2930717FC637A526"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:barrel"
+				id: "433B649623B2004B"
+				stat: "minecraft:open_barrel"
+				title: "Open 500 Barrels"
+				type: "stat"
+				value: 500
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "2B183DD23ECACF2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50C78B9C3DA28368"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "You can ring my bell, ring my bell"
+			tasks: [{
+				icon: "minecraft:bell"
+				id: "2E193209FA738A70"
+				stat: "minecraft:bell_ring"
+				title: "Ring 100 Bells"
+				type: "stat"
+				value: 10000
+			}]
+			title: "Ring 10000 Bells"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "22ADF51A60B34E3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4060FFB230F62C0E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "artifacts:villager_hat"
+				id: "7D4B5993D9E8AE76"
+				stat: "minecraft:talked_to_villager"
+				title: "Talk To 200 Villagers"
+				type: "stat"
+				value: 200
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "21F10D4407703500"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DDB33EBB00A32F2"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "statues:pufferfish_statue"
+				id: "367AFE86DBB9E4FE"
+				stat: "minecraft:fish_caught"
+				title: "Catch 500 Fish"
+				type: "stat"
+				value: 500
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "6EE9D9A011BE89E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "194C49351198C11C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "artifacts:crystal_heart"
+				id: "72497082462B7D75"
+				stat: "minecraft:animals_bred"
+				title: "Breed 1000 Animals"
+				type: "stat"
+				value: 1000
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "19D7C6D09CCAABA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "672A211D0EE16322"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "statues:spider_statue"
+				id: "7F4994167ADACA3D"
+				stat: "twilightforest:bugs_squished"
+				title: "Squish 500 Bugs"
+				type: "stat"
+				value: 500
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "577A63ABDB76FAC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "406A9C67D15F8BC0"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:oak_planks"
+				id: "439E0D6DE88B9754"
+				stat: "constructionwand:use_wand"
+				title: "Place 10,000 Blocks Using a Wand"
+				type: "stat"
+				value: 10000
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "1A9E054FACEA6E81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C2115DE1A70F034"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "statues:pillager_statue"
+				id: "76BD3F5028E0CC83"
+				stat: "minecraft:raid_win"
+				title: "Win 20 Raids"
+				type: "stat"
+				value: 20
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	title: "For Fun"
+}

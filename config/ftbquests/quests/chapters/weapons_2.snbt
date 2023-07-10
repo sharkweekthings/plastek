@@ -1,0 +1,681 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_2"
+	group: "04DB2BB1A10D6373"
+	icon: {
+		Count: 1b
+		id: "minecraft:netherite_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "21C53CA07CEC5291"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			id: "50FF1B6FEC5582F4"
+			shape: "circle"
+			tasks: [{
+				id: "0E290130C378972B"
+				item: {
+					Count: 1b
+					id: "silentgear:katana"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:katana_blade"
+										Item: {
+											Count: 1b
+											id: "silentgear:katana_blade"
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													Count: 3b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												CraftedCount: 4
+												Materials: [{
+													Count: 2b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -2.6f
+									"silentgear:charging_value": 0.6999999f
+									"silentgear:durability": 281.24997f
+									"silentgear:enchantment_value": 12.599999f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 6.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							403793056
+							520307064
+							-1415195179
+							457991781
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			id: "0DB35F97C830C22D"
+			shape: "circle"
+			tasks: [{
+				id: "748EA6EE9260324E"
+				item: {
+					Count: 1b
+					id: "silentgear:sword"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:sword_blade"
+										Item: {
+											Count: 1b
+											id: "silentgear:sword_blade"
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													Count: 2b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												CraftedCount: 4
+												Materials: [{
+													Count: 2b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -2.4f
+									"silentgear:charging_value": 0.6999999f
+									"silentgear:durability": 249.99998f
+									"silentgear:enchantment_value": 13.999999f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 5.9999995f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 5.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							2079165961
+							115688194
+							-1989243785
+							-1210395802
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			id: "3C0ECADBFA51E41D"
+			shape: "circle"
+			tasks: [{
+				id: "162CFE7C076BD86A"
+				item: {
+					Count: 1b
+					id: "silentgear:machete"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:machete_blade"
+										Item: {
+											Count: 1b
+											id: "silentgear:machete_blade"
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													Count: 3b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												CraftedCount: 4
+												Materials: [{
+													Count: 2b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -2.2f
+									"silentgear:charging_value": 0.6999999f
+									"silentgear:durability": 249.99998f
+									"silentgear:enchantment_value": 13.999999f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 4.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							879977061
+							-785626151
+							-1563821784
+							-1870666182
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			id: "08329867B32C9013"
+			shape: "circle"
+			tasks: [{
+				id: "521FB1CB5E08CCF4"
+				item: {
+					Count: 1b
+					id: "silentgear:knife"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:knife_blade"
+										Item: {
+											Count: 1b
+											id: "silentgear:knife_blade"
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												CraftedCount: 4
+												Materials: [{
+													Count: 2b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -1.6f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 312.5f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 2.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 2.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							-1883244798
+							-1465565145
+							-1661861842
+							-279362697
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			id: "7186B4C4A3F34E70"
+			shape: "circle"
+			tasks: [{
+				id: "22E4910370C638D3"
+				item: {
+					Count: 1b
+					id: "silentgear:spear"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:spear_tip"
+										Item: {
+											Count: 1b
+											id: "silentgear:spear_tip"
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												CraftedCount: 4
+												Materials: [{
+													Count: 2b
+													ID: "silentgear:iron"
+													Item: {
+														Count: 1b
+														id: "minecraft:iron_ingot"
+													}
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:attack_reach": 4.0f
+									"silentgear:attack_speed": -2.7f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 200.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 5.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.25f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							171194172
+							95177772
+							-1119528723
+							-632264301
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"Outside of Silent Gear, and Vanilla -- you also have access to Apotheosis style Weapons."
+				""
+				"With Apotheosis you can extract powerful gems from Weapons/Tools/Armor that you find in the world, or you can find the Gems in chests across the world. "
+				""
+				"You can then socket your gear with the gems.  "
+				""
+				"Optionally, you can also use the items that you find in the world as some may be extremely powerful, especially items that drop from Named Apotheosis bosses."
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					facets: 6
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "ancient"
+					uuids: [[I;
+						-631996236
+						175786103
+						-1971532747
+						1592531039
+					]]
+				}
+			}
+			id: "2C638FD18C668A58"
+			shape: "circle"
+			tasks: [{
+				id: "7496E14026BB441C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Apotheosis"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "794BAAD3F88E9149"
+			shape: "circle"
+			tasks: [{
+				id: "4969F13B5412BEFF"
+				item: {
+					Count: 1b
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "3B3E399B1A631DAA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "33E0ABD1A065040D"
+					item: {
+						Count: 1b
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5440FDB7941199FC"
+					item: {
+						Count: 1b
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bows"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "50C597FF29F016FC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7DBCFBCE9BB93962"
+					item: {
+						Count: 1b
+						id: "twilightforest:twilight_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43C9680885E6A2FC"
+					item: {
+						Count: 1b
+						id: "twilightforest:lifedrain_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11F2EBA2D52F1B18"
+					item: {
+						Count: 1b
+						id: "twilightforest:zombie_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E7FBD84CA188CFC"
+					item: {
+						Count: 1b
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scepters"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "5125B7C9D5977322"
+			shape: "circle"
+			tasks: [{
+				id: "52704E311A684AD7"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Weapons"
+}

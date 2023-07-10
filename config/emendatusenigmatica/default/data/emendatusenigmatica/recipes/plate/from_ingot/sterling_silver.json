@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "emendatusenigmatica",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/sterling_silver"
+    },
+    {
+      "item": "emendatusenigmatica:enigmatic_hammer"
+    }
+  ],
+  "result": {
+    "item": "emendatusenigmatica:sterling_silver_plate"
+  }
+}

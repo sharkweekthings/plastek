@@ -1,0 +1,1222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_5"
+	group: "7259EF239C15BF6E"
+	icon: "industrialforegoing:machine_frame_supreme"
+	id: "609B03BD4386E363"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"Probably one of the easiest forms of power right now, and pretty convenient.  "
+				""
+				"Just power it up with Coal or Coal Coke."
+			]
+			id: "739C33D959E17736"
+			shape: "circle"
+			tasks: [{
+				id: "5885EC3B95570B97"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			description: [
+				"Getting some Refined Fuel is a bit of a process. "
+				""
+				"We'll need some of the byproduct from the setup, so it may be worth going down this path."
+			]
+			id: "64679E7FA0EE3FC7"
+			shape: "circle"
+			tasks: [{
+				id: "74C41DF90D051F2F"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"This one is more for fun, or a bit of a challenge.  "
+				""
+				"Some foods can be really strong for the Gourmand Dynamo, or maybe you have a Potato farm and you want to have dozens of Dynamos with a metric butt ton of potatos powering things up."
+			]
+			id: "2E04F7BC6B10C967"
+			shape: "circle"
+			tasks: [{
+				id: "7A9CD47E3B25799F"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["060D5244CBD4660D"]
+			id: "5FCBAAD5BBD07EC0"
+			subtitle: "Welcome to By-Product City!"
+			tasks: [{
+				id: "2177EE9CE89EC77B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Fifth Age"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"To start, you're going to have to find more oil in the world. Either Bituminous Sand, or flowing oil."
+				""
+				"Now you need to decide if you want to move the oil to another location, or setup shop right there."
+				""
+				"Mekanism Pipes are available this age, so you'll now have the ability to automatically push/pull items, fluids, gasses, etc. "
+			]
+			id: "1AD0B3F87B1CBECC"
+			shape: "square"
+			subtitle: "Probably shouldn't have used it all on that wrestling match...."
+			tasks: [{
+				id: "100F026FD980372C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Back For More Oil"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AD0B3F87B1CBECC"]
+			id: "45216AA2FD4ED89F"
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "5A221F95E638A86E"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			description: [
+				"Bitumen doesn't have much of a use at all, so we can either get rid of it, or recycle it. "
+				""
+				"Putting Bitumen in the Pyrolyzer will turn it into Coke/Tar/Heavy Oil, all of which will be beneficial some way or another."
+			]
+			id: "2C823AA36886D512"
+			shape: "circle"
+			subtitle: "Bye bye by-product"
+			tasks: [{
+				id: "6AC3116388D87D5D"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: [
+				"This route will give you a few more power options that are currently available to you. "
+				""
+				"While a Compression Dynamo is completely optional, we will need some of the by-product of making Refined Fuel, so it may not be a bad idea to use one of these."
+				""
+				"There is always the sheep, or converting your IE power."
+			]
+			id: "4FE0F5D998E80566"
+			shape: "square"
+			tasks: [{
+				id: "5CA276C00C192C58"
+				title: "More Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D2E9803B599134A"]
+			description: ["Connecting this to a Log will strip it, and produce Latex."]
+			id: "3C7EC7EF220BF3DB"
+			tasks: [{
+				id: "45261099E770F560"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C7EC7EF220BF3DB"]
+			description: [
+				"You should only need 4 Dissolution Chambers with different fluids to finish up the pack."
+				""
+				"Fluid Cells make a great way to store, push, and pull fluids. They can even be enchanted with various enchants to increase their holding.  There are also a variety of different fluid tanks, and a barrel or two to hold liquid.   "
+				""
+				"You may need a Magma Crucible to melt down certain items into fluids, as well."
+				""
+				"If you really want though, the ole Bucket method is tried and true, and will strengthen your resilience."
+				""
+				"Some of the side objectives may require you to get Ether Gas or Pink Slime."
+			]
+			id: "0EA3983877DAE009"
+			tasks: [{
+				id: "60C54A618B6B6356"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dissolution"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "153362F00BFC2154"
+			subtitle: "Latex"
+			tasks: [{
+				id: "1E32E7A1929F5826"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "Latex Dissolution Chamber"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "5BEA0D7195BF43F8"
+			subtitle: "Plastic"
+			tasks: [{
+				id: "434D296406AE77E4"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "Plastic Dissolution Chamber"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "65659F644269267B"
+			subtitle: "Destabalized Redstone"
+			tasks: [{
+				id: "4A307BF8E5335B39"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "Destabalized Redstone Dissolution Chamber"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "57046DF3FB29F0BB"
+			subtitle: "Resonant Ender"
+			tasks: [{
+				id: "66EA29857325A0BB"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "Resonant Ender Dissolution Chamber"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "5D2E9803B599134A"
+			tasks: [{
+				id: "58BC92D0EE4DD805"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Using Some Fluids"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "2615ADAD48E20CA7"
+			tasks: [{
+				id: "7BDB0ABAC9814FE2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Rosin Is The Color of Your Energy"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2615ADAD48E20CA7"]
+			description: [
+				"To get some Rosin, you're going to need to use the Arboreal Extractor on Spruce, Acacia, or Oak. "
+				""
+				"This will get you some Resin."
+				""
+				"Resin needs to be input into a Fractionating Still which will give you Rosin and some Tree Oil. "
+				""
+				"We won't be doing anything with the Tree Oil. You can send it to a Compression Dynamo, or destroy it, if you prefer. "
+			]
+			id: "524E2259BDC91C47"
+			tasks: [{
+				id: "1F4072254CAE4421"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["524E2259BDC91C47"]
+			id: "43A8642669459BA6"
+			tasks: [{
+				id: "08F3C427DBA9B36C"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43A8642669459BA6"]
+			id: "7B749887BE3281AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DB1A00F26E0BE42"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "41A3B9E58A55D1FC"
+				item: "thermal:rosin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			id: "4FDC720E33809535"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F2B4E12A9BB9DBD"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "62034EC3D9CD8116"
+				item: "emendatusenigmatica:sulfur_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			id: "5D84AA2C3504353F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "376A70536CB763CD"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0076F3AA1F04D0B8"
+				item: "thermal:tar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			id: "744E233DCABACCE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40ACE3092D6E600A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7F6A81997BF3A0F6"
+				item: "thermal:bitumen"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["57046DF3FB29F0BB"]
+			description: [
+				"After you've made your Heart of the Deep -- you'll need to head back down to the Ancient City and light the big portal in the middle of the room."
+				""
+				"To do this, you'll need to shear off the sculk vines growing around the portal frame. Once all sides of all blocks are cleared, you can right click anywhere inside the frame with the Heart of the Deep to light the portal. "
+				""
+				""
+				"{image:kubejs:textures/deeperdarker/deeperdarker_portal_frame.png width:200 height:100 align:1}"
+			]
+			id: "2D895377F6FE3960"
+			rewards: [
+				{
+					id: "5029AEF44ED533B6"
+					item: {
+						Count: 1b
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25F4571FCD147DD9"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7F3043FF920DE66B"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BEA0D7195BF43F8"]
+			id: "2EF59BA4F088E6C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FFEB3711C182F6E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A9716049C6EEA5F"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["153362F00BFC2154"]
+			id: "7E14196C07D3C339"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BF4AF94CAD93157"
+					table_id: 5825749635945163331L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "554478F4436F7F3E"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "555BD69295E454C5"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65659F644269267B"]
+			id: "5CF860D2AB0DF518"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022E3F8FF243AC7E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "56020F2F197E2896"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: [
+				"There are many better ways to attain resources in this age. "
+				""
+				"With Industrial Foregoing here are a few machines you can set up for really powerful farms, and to start prepping for Mystical Agriculture which will be available next age. "
+				""
+				"With Mekanism's Digital Miner, you will be able to mine up ores in the world. While technically an upgrade to the Excavator, they both function differently in how they mine.  It's definitely worth it to have both set up, if your power grid can afford it!"
+			]
+			id: "43F168BD03BFE53B"
+			shape: "circle"
+			tasks: [{
+				id: "36C105496861D09C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Smarter Resources"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "3804AE715D3856E1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1C761DB6742B0EB6"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "0503C221B705FBFD"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+				{
+					id: "32A0140327DEB2B0"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "72EB1DD905E2A604"
+			shape: "circle"
+			tasks: [
+				{
+					id: "73908EAFA0293BF5"
+					item: "industrialforegoing:animal_rancher"
+					type: "item"
+				}
+				{
+					id: "3580ABCFF4280687"
+					item: "industrialforegoing:animal_feeder"
+					type: "item"
+				}
+				{
+					id: "0641BD5539915D4F"
+					item: "industrialforegoing:animal_baby_separator"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "75F8A8B511CC5026"
+			shape: "circle"
+			tasks: [{
+				id: "1D70D0A7B67B7CF0"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: ["After completing the below objectives, you can finish out the rest of Applied Energistics 2 under the \"Storage\" of Age 5"]
+			id: "1AE7A2562C1774E2"
+			shape: "square"
+			tasks: [{
+				id: "310838FBDDB27F9F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics 2"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["790ECA9942A6B96B"]
+			id: "4E92D7C91599B826"
+			tasks: [{
+				id: "68CBF4D12D80752C"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1AE7A2562C1774E2"
+				"790ECA9942A6B96B"
+			]
+			description: ["The Dissolution Chamber recipe is the only one that will create these Presses."]
+			id: "64159F99BA4E8F75"
+			tasks: [
+				{
+					id: "3ECA058E1792BA60"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "7E67FC80005D5176"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "614B0EB212288734"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "314472A71DD96D1F"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1AE7A2562C1774E2"
+				"790ECA9942A6B96B"
+			]
+			id: "4B41A7FE7246D2B0"
+			tasks: [{
+				id: "4130C34CF50E405E"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			description: ["To get all of the Presses you will need to make use of one of each of the Dissolution Chambers, one to make your Inscriber, and one for the Charger."]
+			id: "790ECA9942A6B96B"
+			tasks: [{
+				count: 6L
+				id: "42B512FE1332D231"
+				item: "prettypipes:blank_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E92D7C91599B826"]
+			id: "0693CFEFD31E22BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08FCABBFBE49DBE9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6131C4A230ED2D15"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E92D7C91599B826"]
+			id: "708BFEBB515846F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D20B4E4607BFA3D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "392471B640057BF8"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E92D7C91599B826"]
+			id: "5F142340459B3909"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "580B27D1218DBDC9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "10F5BC4CA8CF5CE0"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "2D2B2F94FFCC2203"
+			tasks: [{
+				id: "5C86C2D8DF88B903"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D2B2F94FFCC2203"]
+			id: "01DB3F04006ACC71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE05941771ED689"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "529AB16CF9FE6C2F"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D2B2F94FFCC2203"]
+			description: ["But you'll need a bunch for the Creative items, so you may as well start preparing!"]
+			id: "1EFFAB72539A1FA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "008C58CB64BA3BF9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "These won't be used until Age 7"
+			tasks: [{
+				id: "34BC1F1F96C0C4E6"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "508769E3B70EC7F4"
+			shape: "circle"
+			tasks: [{
+				id: "035C0C8AB1C6B396"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D895377F6FE3960"]
+			description: [
+				"The dependency line on this is hidden. "
+				""
+				"This quest requires you to get a Heart of the Deep before progressing. "
+				""
+				"If you aren't sure on how to do that, you'll need to find a Deep Dark Biome or Ancient City.   Once there, make enough noise to alert a Warden.  "
+				""
+				"Kill the Warden, take it's Empty Heart, and head back to base. You'll see the recipe you need by looking at the Dissolution Chamber recipe for &dHeart of the Deep&r."
+			]
+			hide_dependency_lines: true
+			id: "4B536820E1AEE72B"
+			subtitle: "Requires: Heart of the Deep"
+			tasks: [{
+				id: "727BD13902FF54D8"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Onwards"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B536820E1AEE72B"]
+			description: [
+				"And with this, the last eye that you need in order to get into The End."
+				""
+				"You will need to either locate an End Portal, or Construct an Ancient Portal Frame where you will need 12 frame blocks. "
+				""
+				"Here you will do battle with the End Dragon. "
+				""
+				"This pack utilizes mod \"Savage Ender Dragon\" and as such, the fight should be much harder, with some different mechanics thrown at you.  "
+				""
+				"It's suggested that you come well equipped with any healing items you may need, potions, trinkets, etc."
+				""
+				"What are the mechanics you ask? "
+				""
+				"&e&oGood luck! That's the mechanic!!&r&r "
+				""
+				""
+				"&o&aIf you were able to defeat Botania's Gaia Guardian 2, you should be pretty well equipped to handle the fight.&r&r"
+			]
+			id: "0B70779A64DC22A8"
+			rewards: [
+				{
+					id: "1F5A3A1D42733846"
+					item: {
+						Count: 1b
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74E731A1D8F66502"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Savage"
+			tasks: [{
+				id: "27E38AE8A266DE2D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The End"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["268D87327288B46D"]
+			id: "4DDA8AE4B4591392"
+			tasks: [{
+				id: "21BA9A7EAE4395C2"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "268D87327288B46D"
+			tasks: [{
+				id: "0B6947A51943B93B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Last Few Thermal Machines"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["268D87327288B46D"]
+			description: ["The Multiservo Press is your new best friend in making Plates, Rods, Gears, Wires and more!"]
+			id: "0035FF9DD09AE418"
+			tasks: [{
+				id: "349409005A9CA084"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "463F55548864F0FE"
+			tasks: [{
+				id: "50381FF8D1CF403D"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["463F55548864F0FE"]
+			id: "723C121516417858"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48446ED6E879054D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5683FCAC6E061E9C"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["463F55548864F0FE"]
+			id: "3D2360638752DEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2237F1DE11632878"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "67F5DAC9D75B122E"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "1C9AB136EC000AEF"
+			shape: "circle"
+			tasks: [{
+				id: "4902E93FBCD532A9"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AD0B3F87B1CBECC"]
+			description: ["If you find Bituminous Sand in the world you can process it with a Centrifugal Processor. "]
+			id: "0EFCC15EA6867FCB"
+			shape: "circle"
+			tasks: [{
+				id: "239D251793EE74DB"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DDA8AE4B4591392"]
+			id: "342F53F8AED7FC27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03F2C673912F21BF"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2BC5D8E9871D5EA6"
+				item: "silentcompat:plasteel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0035FF9DD09AE418"]
+			id: "3136349B668FB4FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14915B2391003573"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7F82D90888ACB45D"
+					item: "emendatusenigmatica:plasteel_gear"
+					type: "item"
+				}
+				{
+					id: "654272DB715919C5"
+					item: "emendatusenigmatica:plasteel_plate"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4DDA8AE4B4591392"]
+			id: "597D94CDF152FC02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CA38CBABEE9F841"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "735E81E551147D74"
+				item: "silentcompat:voidmetal_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			description: ["To get through this age, you're going to need at least 2 Enderman Predictions in order to fill the Heart of the Deep.   "]
+			id: "3AA57C1952A2FAC6"
+			rewards: [{
+				id: "7D265500B8C0E4FE"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			subtitle: "Hostile Neural Networks"
+			tasks: [{
+				id: "61DA52F71AA4EABE"
+				title: "Fabrication"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"The Simulation Chamber requires a Prediction Matrix, and a Data Model to operate. "
+				""
+				"You can make a whole bunch of Prediction Matrix's and place them in a storage container to pipe into the Simulation Chamber.  This will keep your process going as long as Prediction Matrix's are provided. "
+				""
+				"The Simulation Chamber will produce Generalized Predictions, as well as Predictions. "
+				""
+				"Predictions can be moved into a Loot Fabricator."
+				""
+				"Generalized Predictions can be used as a crafting component for various items."
+			]
+			id: "48965869D95AD825"
+			tasks: [{
+				id: "3A15D6EDC5867907"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"With the Loot Fabricator being loaded with a Prediction, you can select an item that you wish for the Fabricator to generate.  This can be changed at anytime, don't worry! "
+				""
+				"Once the Prediction is in it will start generating items, so make sure you set the item that you are looking for.  "
+				""
+				"You wouldn't want to forget about it and generate a whole bunch of stuff you don't need, &owould you&r...? "
+			]
+			id: "4DD4FCB6DD755884"
+			tasks: [{
+				id: "5E291A06F1EC7304"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"To use a Model Framework, all you need to do is right click the mob you want with the Framework."
+				""
+				"Once you've done that, you can place the Model inside of your Deep Learner. "
+				""
+				"If you look at your Deep Learner you will see in the bottom that the tier is \"Faulty\", which has an extremely low chance at success.  It's advised to at least go to Basic, which is only a small handful of kills.    You can continue killing more mobs to advance the Tier of the Data Model. "
+				""
+				"When you are happy with the Tier -- go back to base and place the Data Model inside the Simulation Chamber."
+			]
+			id: "0E18B3314D1A89AB"
+			tasks: [{
+				id: "69D5556201F504EE"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"You'll need a steady supply of these. "
+				""
+				"These will be loaded into the Simulation Chamber to create either a Generalized Prediction, or a Prediction. "
+			]
+			id: "19AC3E3A260AEA05"
+			tasks: [{
+				id: "7D559EC748BDEF87"
+				item: "hostilenetworks:empty_prediction"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"479450C7005487E5"
+				"59D3363EBA2DD136"
+				"41701B1E09B1F776"
+				"308211C27148B5C7"
+				"48965869D95AD825"
+				"4DD4FCB6DD755884"
+			]
+			description: [
+				"This is another component to filling the Heart of Darkness. "
+				""
+				"In order to create the Infused Eye of Ender you will need to infuse it with the elements of Earth, Wind, Air, and Fire using Ars Nouveau Essences. "
+				""
+				"You will also need 2 Enderman Predictions from Hostile Neural Networks, and 2 Applied Energistics 2 Matter Balls per Infused Eye of Ender. "
+				""
+				"Once you have all of these"
+				""
+				"This is another component in filling the Heart of Darkness. "
+				""
+				"In order to create an Infused Eye of Ender you will need to infuse it with the following: "
+				""
+				"- 2 Enderman Predictions"
+				"- 2 Matter Balls"
+				"- 1 Earth Essence"
+				"- 1 Wind Essence"
+				"- 1 Air Essence"
+				"- 1 Fire essence"
+				"- 1 Ender Eye"
+				""
+				"With all of these items, you should be able to use your Ars Nouveau Enchanter to infuse all the materials, and make the 2 Infused Eye of Ender that you will need. "
+			]
+			id: "7FBA1DE28DC570C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2551DCE8A5CCC3FE"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "237F023B25DBC0CE"
+				item: "kubejs:infused_eye_of_ender"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D895377F6FE3960"]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2364541C3EEA8052"
+			rewards: [{
+				id: "5DAB81804FF4DBEE"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "28DCDB33D5B56384"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Cursed Eye Recovery"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B70779A64DC22A8"]
+			icon: {
+				Count: 1b
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00F2D10D62E14B0D"
+			rewards: [{
+				id: "64E03D867742550B"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "056BA3E944704548"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Pure Eye Recovery"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			description: [
+				"I decided to place the Digital Miner in Age 5, and the RF Tools Quarry/Builder in Age 6."
+				""
+				"While the Digital Miner is probably the more refined piece of equipment that's a bit easier to use, the RF Tools Quarry/Builder can be extremely fast, but very costly in power."
+			]
+			id: "68B52B7CBB24C891"
+			shape: "circle"
+			tasks: [{
+				id: "41067DD9D31F8098"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Smarter Mining"
+			x: 6.0d
+			y: 5.5d
+		}
+	]
+	title: "Tech"
+}

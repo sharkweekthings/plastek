@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "angelring:diamond_ring"},
+	{"item": "minecraft:nether_star"},
+	{"item": "powah:crystal_nitro"},
+	{"item": "ars_nouveau:air_essence"},
+	{"item": "minecraft:feather"},
+	{"item": "minecraft:feather"}
+  ],
+  "energy": 60000000,
+  "result": {
+	"item": "angelring:angel_ring",
+	"count": 1
+  }
+}

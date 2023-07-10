@@ -1,0 +1,13 @@
+{
+  "values": [
+    "emendatusenigmatica:source_basalt_ore",
+    "emendatusenigmatica:source_blackstone_ore",
+    "emendatusenigmatica:source_deepslate_ore",
+    "emendatusenigmatica:source_glacio_stone_ore",
+    "emendatusenigmatica:source_mars_stone_ore",
+    "emendatusenigmatica:source_mercury_stone_ore",
+    "emendatusenigmatica:source_moon_stone_ore",
+    "emendatusenigmatica:source_stone_ore",
+    "emendatusenigmatica:source_venus_stone_ore"
+  ]
+}

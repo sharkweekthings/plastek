@@ -1,0 +1,15 @@
+{
+    "id": "certus_quartz",
+    "source": "modded",
+    "localizedName": "Certus Quartz",
+    "processedTypes": [
+      "ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 4
+    },
+    "colors": {
+      "materialColor": "AFCFF2"
+    }
+}

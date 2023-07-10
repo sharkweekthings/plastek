@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glacio"
+	group: "6864EC96E852A08D"
+	icon: "ad_astra:glacio_stone"
+	id: "4F3360B533876F87"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["469F09BB3EF56AFE"]
+			icon: "ad_astra:glacio_globe"
+			id: "2600082B8EEE5B25"
+			rewards: [{
+				id: "43D16DC426E6B044"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "68D12AF0F250AC8C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Glacio Globe"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["733685689F4BC517"]
+			description: [
+				"Your journey for better plastics leads you to Glacio. "
+				""
+				"Without having any knowledge of artifacts, space, or any science what so ever, the Merchant person seems to think that his artifacts he traded you for originated from a planet not of this system, called Glacio. "
+				""
+				"He proclaimed that Glacio has breathable air, but a little cold if you fall into the snow.  The planet is also ripe with resources as it's been uninhabitated."
+				""
+				"&oWhy do you believe this individual?&r"
+			]
+			id: "12E3A82BAA311379"
+			subtitle: "The air smells so clean"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "7EF335D5902DF52C"
+				title: "To Glacio!"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12E3A82BAA311379"]
+			id: "469F09BB3EF56AFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FDAA4AA2DF3A3F5"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "052D4C38D12D0114"
+				item: "emendatusenigmatica:raw_sharkinite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: "Glacio"
+}

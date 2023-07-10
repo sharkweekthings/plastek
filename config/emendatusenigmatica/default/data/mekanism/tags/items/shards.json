@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#mekanism:shards/arcmetal",
+    "#mekanism:shards/voidmetal",
+    "#mekanism:shards/aluminum",
+    "#mekanism:shards/gold",
+    "#mekanism:shards/tin",
+    "#mekanism:shards/sulfur",
+    "#mekanism:shards/copper",
+    "#mekanism:shards/zinc",
+    "#mekanism:shards/nickel",
+    "#mekanism:shards/sharkinite",
+    "#mekanism:shards/osmium",
+    "#mekanism:shards/weekonium",
+    "#mekanism:shards/lead",
+    "#mekanism:shards/plasteel",
+    "#mekanism:shards/iron",
+    "#mekanism:shards/silver",
+    "#mekanism:shards/uranium"
+  ]
+}

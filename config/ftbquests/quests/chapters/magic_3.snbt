@@ -1,0 +1,610 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_3"
+	group: "7F2FC2E4E4C51B36"
+	icon: "botania:mana_diamond"
+	id: "66A77C969A944C07"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "597D7BAE219529C7"
+			tasks: [{
+				id: "1F6E37F836ED5816"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Light and Dark"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["597D7BAE219529C7"]
+			id: "4E8702770B8B8257"
+			tasks: [{
+				id: "58307F64889DE546"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Terrestrial Agglormeration Plate"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["597D7BAE219529C7"]
+			description: [
+				"This portion of Occultism shouldn't be too bad. "
+				""
+				"We're going to be working on the Crusher Spirit. We'll be able double up our Ore or Raw Ore."
+				""
+				"If you already forgot, you can use the Akashic Tome (Dictionary of Spirits) to project the Multiblock structure in the world. Once in the world, it's much easier to construct."
+			]
+			id: "2E85CBE551B7CC1B"
+			subtitle: "The Dark Side"
+			tasks: [{
+				id: "7A5D3B48C07CA87C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "More w/ Occultism"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E85CBE551B7CC1B"]
+			id: "7A6D9760CF30F2A6"
+			subtitle: "Summon: Foliot Crusher"
+			tasks: [
+				{
+					count: 4L
+					id: "7DD8D501F49E1563"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "32813596AD30BB85"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "01B9923D4671BD56"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3181944B5255CAAF"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "Prep Another Ritual"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "05792EDF5201B90B"
+			tasks: [{
+				id: "6B6F5316EC2458CF"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "6CDA611206DE38FB"
+			tasks: [{
+				id: "08F15730BB6B1F61"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "5B856FC75E770814"
+			tasks: [{
+				id: "1CA4D5EC7284F6DB"
+				item: "emendatusenigmatica:cinnabar_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "742ADDFDBA75B0F5"
+			tasks: [{
+				id: "70BCE3E867D7DF7A"
+				item: "emendatusenigmatica:quartz_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "6178CB9D4E3969C4"
+			tasks: [{
+				id: "1386EA10379F658F"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"742ADDFDBA75B0F5"
+				"5B856FC75E770814"
+				"6CDA611206DE38FB"
+				"6178CB9D4E3969C4"
+				"05792EDF5201B90B"
+			]
+			description: [
+				"With your ritual complete, you're able to toss your new Demon buddy some Ore/Raw Ore and you'll get 2 times the Dust in return."
+				""
+				"Not all Ore/Raw Ore can be multiplied, though."
+			]
+			id: "54AABC9979DE2531"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75AB406C2B1762C1"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "A double pleasure from Double Mint gum!"
+			tasks: [{
+				id: "0FE483D6FC31EB04"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Double Pleasures Waitin For You"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: ["&a&lTerrasteel Ingot's are required to move forward.&r&r"]
+			id: "4635A730A019A8A1"
+			subtitle: "Chevron 10... Locked"
+			tasks: [{
+				id: "3932C5A751B42BF5"
+				title: "Even More w/ Botania"
+				type: "checkmark"
+			}]
+			title: "A 10th Chevron"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			id: "74638600DEAA6B03"
+			tasks: [{
+				id: "157562AB629E0C47"
+				item: "botania:livingwood"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			id: "6B7CA54AD2A590B8"
+			tasks: [{
+				id: "67BC7B88466029A7"
+				item: "botania:glimmering_livingwood"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			description: [
+				"With all of the pieces of the Alfheim Portal in place, you should get to building it. Outside of the "
+				""
+				"The portal should be constructed of 3 Glimmeringwood Logs,  8 Livingwood, and the Elven Gateway Core.   Without an 11x11x11 range of that, you will need to put two Mana Pools down, and place Natura Pylons on top of them."
+				""
+				"Once the Mana Pools are filled up, you should be able to right click the Elven Gateway Core with a &2Wand of the Forest&r, and that should activate the portal, and let you begin trading with Alfheim."
+				""
+				"If you need more assistance on this check out: &n&bhttps://botaniamod.net/lexicon.html&r&r"
+			]
+			id: "0F2AB9FBA1B60CFE"
+			tasks: [
+				{
+					id: "66D7700A9D98944E"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "35B449142C41E27E"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5CF010C1A856C192"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: ["Before placing down the Agglomeration Plate -- the pattern should look like this:"]
+			id: "001F3A1A3713FEEC"
+			rewards: [
+				{
+					id: "1644132F13B18FA3"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "71660603DFF999D6"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "743DBACFCE66D8FC"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					id: "22DFD7930ABEF73A"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "1C53FDF81E19736F"
+					item: "botania:rune_air"
+					type: "item"
+				}
+			]
+			subtitle: "What Rune Crafting?"
+			tasks: [
+				{
+					count: 4L
+					id: "77E4BD95D3EAB351"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0881AF7D6C5E6295"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "Blocks of Living Rock and Lapis Lazuli"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: [
+				"The base should look like this: "
+				""
+				"{image:kubejs:textures/botania/botania_terrestrial_sample.png width:100 height:100 align:1}"
+				""
+				"You'll put that Terrestrial Agglomeration Plate in the center. "
+			]
+			id: "64C32E705C1B68A1"
+			tasks: [{
+				id: "0D36C4B9ACA02D9A"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: ["One Spark goes in your Mana Pool, the other Spark goes on the Terrestrial Agglomeration Plate"]
+			id: "28718EEC53DC6BDA"
+			tasks: [{
+				count: 2L
+				id: "059939369E2CE8F4"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"001F3A1A3713FEEC"
+				"64C32E705C1B68A1"
+				"28718EEC53DC6BDA"
+			]
+			description: ["We'll need just a little bit of Terresteel right now, for progression to construct the Alfheim Portal."]
+			id: "3497470BDCF8A2F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A960D2576EB648A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4D6D6CF5D1FF7918"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			description: ["If you have extra TNT you can always make another setup to double up your mana pool."]
+			id: "771AE6F3C0909CD0"
+			rewards: [{
+				id: "33149FC538DCCFA1"
+				item: "botania:floating_entropinnyum"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "While optional, you're probably gonna want faster mana regen..."
+			tasks: [{
+				id: "0B2BCE454D715274"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "More Mana"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F2AB9FBA1B60CFE"]
+			id: "6118F7D4117D0F5F"
+			rewards: [
+				{
+					id: "5FD7E741B24BED3A"
+					item: {
+						Count: 1b
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E29DC44D4F7F62"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "65F5B71E9783BF00"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0F2AB9FBA1B60CFE"]
+			id: "063D7CEC1B7AEE2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27BBDCB48D6FD57A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3488B783E183BDA4"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "3910F4006CC0907D"
+			shape: "circle"
+			tasks: [{
+				id: "5980793412A588F9"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "63A999CC7EB8D5B0"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0C558CE5CFF4E558"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					id: "3F97DE19D7A4064F"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+			]
+			title: "Redstone Comparator, and Repeater"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "4E31126F16CF0BAC"
+			shape: "circle"
+			tasks: [{
+				count: 5L
+				id: "2141A7F63E571901"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "4257F88C7663F3F0"
+			shape: "circle"
+			tasks: [{
+				id: "20974996E24A2369"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "Mana Pools"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			description: [
+				"If you want to make more of these -- start with a \"Floating 'Colored' Flower\". Add the Endoflame to that in a crafting table and it should become a Floating variant."
+				""
+				"Example -- start with a \"Floating Light Gray Flower\""
+			]
+			id: "41245DA5FDB9A281"
+			shape: "circle"
+			tasks: [{
+				id: "5F2B462E2FE1F037"
+				item: "botania:floating_entropinnyum"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "3B828AFD999F8A9F"
+			shape: "circle"
+			tasks: [{
+				id: "1C03105E390700A1"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			description: [
+				"If you have gotten this far and havent built a Farming for Blockheads Market yet -- now is the time.  The Market has all kinds of good trades. The Vendor actually came from Alfheim, so they sell Runes, and other goodies."
+				""
+				"You'll need: "
+				""
+				"- Rune of Fire for the Potency Lens"
+				"- Rune of Air for the Velocity Lens"
+				"- Green Slime Ball to craft them all together"
+				""
+				"If Diamonds / Crude Ender Pearls / Ender Pearls are too hard for you to part with right now, you can always try your hand at Botania's Runic Crafting."
+			]
+			id: "446E6946F9A7F1A7"
+			shape: "circle"
+			tasks: [{
+				id: "16402F6589B75AA4"
+				item: {
+					Count: 1b
+					id: "botania:lens_power"
+					tag: {
+						compositeLens: {
+							Count: 1b
+							id: "botania:lens_speed"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4E31126F16CF0BAC"
+				"3910F4006CC0907D"
+				"63A999CC7EB8D5B0"
+				"41245DA5FDB9A281"
+				"4257F88C7663F3F0"
+				"446E6946F9A7F1A7"
+				"3B828AFD999F8A9F"
+			]
+			description: [
+				"It would be too hard to type up directions on how to build this.  Hopefully the picture helps."
+				""
+				"Make sure that the Dispenser is pointed at the ground. You can do this by placing the dispenser against another block while you're lower in the ground."
+				""
+				""
+				"{image:kubejs:textures/botania/botania_advanced_mana_sample.png width:125 height:125 align:1}"
+				""
+				"&o&eThis design came from RagePlaysGames on YouTube. (Surviving With Botania 1.16 :: E06) &r&r"
+			]
+			id: "158BD02D8D4A1BCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34EB7EADD92A0A6D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "18741BBA2A941BA0"
+				title: "Self Contained Explosions"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6118F7D4117D0F5F"]
+			icon: {
+				Count: 1b
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11FFEF4621B630E0"
+			rewards: [{
+				id: "5DAE2D2788B38021"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "58F015AA1ABB4F33"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Alf Eye Recovery"
+			x: -7.0d
+			y: 7.0d
+		}
+	]
+	title: "Magic"
+}

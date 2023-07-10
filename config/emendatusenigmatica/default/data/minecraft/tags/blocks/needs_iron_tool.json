@@ -1,0 +1,30 @@
+{
+  "values": [
+    "emendatusenigmatica:sterling_silver_block",
+    "emendatusenigmatica:cinnabar_block",
+    "emendatusenigmatica:apatite_block",
+    "emendatusenigmatica:apatite_basalt_ore",
+    "emendatusenigmatica:apatite_blackstone_ore",
+    "emendatusenigmatica:apatite_deepslate_ore",
+    "emendatusenigmatica:apatite_glacio_stone_ore",
+    "emendatusenigmatica:apatite_mars_stone_ore",
+    "emendatusenigmatica:apatite_mercury_stone_ore",
+    "emendatusenigmatica:apatite_moon_stone_ore",
+    "emendatusenigmatica:apatite_stone_ore",
+    "emendatusenigmatica:apatite_venus_stone_ore",
+    "emendatusenigmatica:sulfur_block",
+    "emendatusenigmatica:fluorite_block",
+    "emendatusenigmatica:invar_block",
+    "emendatusenigmatica:nickel_block",
+    "emendatusenigmatica:raw_nickel_block",
+    "emendatusenigmatica:electrum_block",
+    "emendatusenigmatica:brass_block",
+    "emendatusenigmatica:constantan_block",
+    "emendatusenigmatica:lead_block",
+    "emendatusenigmatica:raw_lead_block",
+    "emendatusenigmatica:silver_block",
+    "emendatusenigmatica:raw_silver_block",
+    "emendatusenigmatica:uranium_block",
+    "emendatusenigmatica:raw_uranium_block"
+  ]
+}

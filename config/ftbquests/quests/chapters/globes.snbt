@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "globes"
+	group: "6274245AF897553D"
+	icon: "supplementaries:globe"
+	id: "6DEEC26E42F82593"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02336F7378DFE77D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33EC24E6B51CC6FB"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "48F07429DAB0B123"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "199730687BD506C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CDB58CD891F015E"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7363A5605173781D"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "00CBC47A46A3A3FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EF58597A66F5D51"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3E761ABBA13116AC"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "7C8884B818659706"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04EBB2993F14C688"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5FD4EC28C7F26D91"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "388E79C4B263DFB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60184D44F2D7181B"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "542D81070DF7D347"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "1FA81E274A618884"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B4C393706D347D4"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6216C5CF6B8E8509"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "20B7A846E9780AB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EE0B7F0D6C1EBAD"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "698BCD69AAC862D2"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "2DD2010181903A94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D83FC5EB5C91EC0"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1A8A4F436FEF7BB2"
+				item: "supplementaries:globe_sepia"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "Globes"
+}

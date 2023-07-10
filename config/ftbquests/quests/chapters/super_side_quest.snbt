@@ -1,0 +1,689 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "super_side_quest"
+	group: "2C080FE404DC830F"
+	icon: "ftbquests:book"
+	id: "41B98F2A3B3E44E3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"These quests may offer some functionality to help aide in progression, but don't necessarily fit into main progression, and had no good branching points in the main quest series."
+				""
+				"These quests are branched in the age that they are available in."
+			]
+			id: "61B802AF5864AA4B"
+			shape: "circle"
+			subtitle: "Additional ways to aide you in your journey"
+			tasks: [{
+				id: "4680CD666DA9F69E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Super Side Quests"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"0240FDF5F774DEEE"
+			]
+			id: "30274D02D16C7089"
+			shape: "circle"
+			tasks: [{
+				id: "650CDA3DE8A57178"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 2 - Side Quests"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"481CC7DD0387169C"
+			]
+			id: "026849755FFDC818"
+			shape: "circle"
+			tasks: [{
+				id: "1E1EA15611557C1C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 4 - Side Quests"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5928D99A2F786286"
+				"61B802AF5864AA4B"
+			]
+			id: "268262DFB73CF55A"
+			shape: "circle"
+			tasks: [{
+				id: "7313533EBB79D542"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 1 - Side Quests"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"Chocobos make great companions, and are better than horses! "
+				""
+				"With the right breeding,  and training -- you could get a Golden Chocobo which will allow you to fly."
+				""
+				"Other chocobos have unique abilities as well.  "
+				""
+				"Be sure to look at your Akashic Tome for the Chocopedia for more information. "
+				""
+				"The \"Collections\" tab of the Quest Journal also contains information on how to obtain each Chocobo."
+			]
+			icon: "chococraft:gold_chocobo_spawn_egg"
+			id: "1CE73094AB1A4965"
+			rewards: [{
+				id: "1AC4BCB591F3258A"
+				item: "chococraft:chocobo_drumstick_cooked"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5B249DC5F8D255DD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Chocobos"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"Getting going with the basics of Corrail Tombstone! "
+				""
+				"First, make sure that the \"Knowledge of Death\" keybind is set. (Default: k?)"
+				""
+				"When you die you may gain some XP for this menu.  You can also craft an Ankh of Pray, and a Decorative Grave. Every so often you will be able to use the Ankh of Pray to gain more XP toward the Knowledge of Death Tree."
+				""
+				"The tree offers plenty of useful benefits for your character.  "
+				""
+				"Be sure to choose wisely! "
+			]
+			id: "2878C7A690B81DC5"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5EFF0DD7282A0595"
+					item: {
+						Count: 1b
+						id: "tombstone:ankh_of_pray"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38092562F2E84412"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					title: "Any #tombstone:decorative_graves"
+					type: "item"
+				}
+			]
+			title: "Corrail Tombstone"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: ["If you look up @beautify in JEI you will find several nice blocks for decor."]
+			icon: "beautify:botanist_workbench"
+			id: "74511EC087BF84F1"
+			shape: "circle"
+			tasks: [{
+				id: "168A7B0DBCE29CE4"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Beautify"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: ["Sneak + Clicking on an Armor Stand with a Stick will open up an options menu that will allow you to set your stand into various positions!"]
+			id: "0EA1450412E74054"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0208A9B2094DD9EC"
+					item: "minecraft:armor_stand"
+					type: "item"
+				}
+				{
+					id: "77E3154F27AE44F1"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Armor Statues"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"With this Chisel you can carve many blocks into other designs of the same block. "
+				""
+				"This lets you greatly improve the designs of your builds!"
+			]
+			id: "21CBE7EEB761D2F9"
+			shape: "circle"
+			tasks: [{
+				id: "191F8AD1C8FEAE13"
+				item: {
+					Count: 1b
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Rechiseled"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"With these paintings you can find images online, paste the URL in and have your own custom images for paintings!"
+				""
+				"You can even leave paintings for your friends, and they will see it when you get on"
+			]
+			id: "7744A349BB33E8D5"
+			rewards: [{
+				count: 3
+				id: "04E7494C70B06231"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "The colors, Duke! The colors! "
+			tasks: [
+				{
+					id: "55E82317AF81D89E"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+				{
+					id: "150C043EB8122B2D"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+			]
+			title: "Immersive Paintings"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: ["The Slicer is a Create utility like the Mechanical Press, however it automates anything that can be done on the Farmers Delight Cutting Board."]
+			id: "2A3D28AC170EB5B6"
+			shape: "circle"
+			tasks: [{
+				id: "5EE541FC37469CDA"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			title: "Slice and Dice"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: ["Limited functionality, but will salvage some items back into resources."]
+			id: "32E23C16CB548B1F"
+			shape: "circle"
+			tasks: [{
+				id: "425CE7C708151CB1"
+				item: "silentgear:salvager"
+				type: "item"
+			}]
+			title: "Salvager"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"6C00F063FD2700AD"
+			]
+			description: ["This definitely isn't all RF Tools has to offer, so feel free to explore the rest of the mod on your own."]
+			id: "24084771586151A7"
+			shape: "circle"
+			tasks: [{
+				id: "0655E32A68E58EEF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 6 - Side Quests"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: ["Don't leave home without your Auto Crafter! "]
+			id: "4DA7A92984B7D06D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "51CD4DCE3FCF235B"
+					item: "rftoolsutility:crafter1"
+					type: "item"
+				}
+				{
+					id: "15B1B1BD366191C1"
+					item: "rftoolsutility:crafter2"
+					type: "item"
+				}
+				{
+					id: "436A4A7D914C3F99"
+					item: "rftoolsutility:crafter3"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: ["See Screen Modules in JEI for various things you can do with a Screen."]
+			id: "4A13483BEEC8A6E4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "20E15F65E80CC52E"
+					item: "rftoolsutility:screen_controller"
+					type: "item"
+				}
+				{
+					id: "5BA61B5FF702C63F"
+					item: "rftoolsutility:screen"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.4000000000000004d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: ["Improves other RF Tools machines"]
+			id: "0BA76A0CC323E3BC"
+			shape: "circle"
+			tasks: [{
+				id: "168F22BEAAEFB5A4"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"The Sprinkler will let you pipe 4 different fluids to flow out on the blocks below it. "
+				""
+				"- Lava - Applies fire damage to the entities below"
+				""
+				"- Water - Keeps the area wet"
+				""
+				"- Potions - Applies the potion affect to the entities below"
+				""
+				"- Liquid Fertilizer - Applies a Bonemeal affect "
+			]
+			id: "481E430051D7FED1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "48CEA3B7AE6FFEAF"
+					item: "sliceanddice:sprinkler"
+					type: "item"
+				}
+				{
+					id: "20CE6E4008492F6E"
+					item: "sliceanddice:fertilizer_bucket"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"With Greenhouse Glass you will be able to grow crops in all seasons!  Just make sure you have Any Green Stained Glass above the crop you're wanting to benefit. "
+				""
+				"You can use Chipped to fancy up the glass if you want, or just use the regular Minecraft Green Stained Glass."
+			]
+			id: "795374A3305D4394"
+			shape: "circle"
+			tasks: [{
+				id: "1AAB3B7F588C9B5E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "chipped:green_stained_glass"
+					}
+				}
+				title: "Greenhouse Glass"
+				type: "item"
+			}]
+			title: "Greenhouse Glass"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"Chipped is in the same ballpark as Re-Chiseled.  Instead of using the Chisel tool though, you will need to utilize one of the several work benches. "
+				""
+				"Each bench has it's own huge catalogue of block appearances to select from. "
+			]
+			id: "2130F91538C98D4E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "39C30FD0F13EEB84"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "11DCCF10ED68DCD6"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1FCC6F457304E45B"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "41C204755CEA5FE5"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "41108122DAA87343"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "4F011BB6FDF162AF"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "3B401BF2A3DEEC8C"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"79705DCA6ADC0148"
+			]
+			id: "2B9D2297649DF1DF"
+			shape: "circle"
+			tasks: [{
+				id: "18AF989417E488D0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Age 3 - Side Quests"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B9D2297649DF1DF"]
+			id: "474FF2524F214852"
+			shape: "circle"
+			tasks: [{
+				id: "6ED8C2AE0262FCCE"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B49D3097C155AA9"]
+			id: "0A1056301AE5FCAD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D014C405CAF2860"
+					item: "pamhc2foodcore:bakewareitem"
+					type: "item"
+				}
+				{
+					id: "7040A6AC8662DA4F"
+					item: "pamhc2foodcore:cuttingboarditem"
+					type: "item"
+				}
+				{
+					id: "49D28DE526A8E5F3"
+					item: "pamhc2foodcore:juiceritem"
+					type: "item"
+				}
+				{
+					id: "3B21A17E7BE1B553"
+					item: "pamhc2foodcore:grinderitem"
+					type: "item"
+				}
+				{
+					id: "1FBEDEE92F3E9431"
+					item: "pamhc2foodcore:potitem"
+					type: "item"
+				}
+				{
+					id: "0F2653C9782971B7"
+					item: "pamhc2foodcore:rolleritem"
+					type: "item"
+				}
+				{
+					id: "1B3FD3484FF95A81"
+					item: "pamhc2foodcore:saucepanitem"
+					type: "item"
+				}
+				{
+					id: "203167E757188758"
+					item: "pamhc2foodcore:skilletitem"
+					type: "item"
+				}
+				{
+					id: "215DCCF2F2D7E3CC"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "47A7206121639438"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+			]
+			title: "Chef's Tools"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B49D3097C155AA9"]
+			id: "27023B37C377B8CB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "074E63BF7816ADB2"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "5F76ACC669FBF3F1"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "09327F87237022DD"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "2D3AA2FB4254B86D"
+					item: "cookingforblockheads:cow_jar"
+					type: "item"
+				}
+			]
+			title: "For The Kitchen!"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["474FF2524F214852"]
+			id: "1B49D3097C155AA9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "57F7C5CA95BB64BA"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+				{
+					id: "520876B0A6C7269C"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					id: "1B694183D840332A"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+				{
+					id: "706E3A84A44026CF"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "7F702D782B0CFAA6"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "5014E8AE51988F40"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "26EFC8C6B10B4BCA"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					id: "79F2750D031B57D0"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+			]
+			title: "More Kitchen"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"Statues is a mod that adds placeable statues in the world as decoration. For additional information, you can check out the in game book: \"Statues\""
+				""
+				"These statues also offer some cool progression, and functionality! "
+				""
+				"- You'll need some Statue Cores which you can obtain by killing Statue Bats, which can be found anywhere vanilla Bats can be found."
+				""
+				"- You will also need a S.T.A.T.U.E, and a Statue! "
+				""
+				"- Place the Statue Core and a Statue in the S.T.A.T.U.E"
+				""
+				"- If everything is correct, you should have the ability to \"Chisel\" the statue which will unlock it. "
+				""
+				"- After your statue is unlocked you will need to go out and kill some mobs of that statue type. (I.E, Zombie Statue needs Zombie Kills)"
+				""
+				"- When you've satisfied the kills (10 I believe to upgrade to Level 1), you will need to look at JEI for which upgrade you want. You can see the various upgrades by left clicking the Statue in JEI. "
+				""
+				"- Once you've determined the upgrade you want, gather those materials, place everything in the S.T.A.T.U.E, and click \"Chisel\".  This should add the chosen upgrade to your Statue. "
+				""
+				"&o&eFor \"Looting\" upgrade, you can click the statue every 10 seconds at Level 1&r&r"
+			]
+			icon: "statues:statue_table"
+			id: "5A72ACE2E09964AF"
+			shape: "circle"
+			subtitle: "Useful Decoration"
+			tasks: [{
+				id: "0AA6C3E5A2BDB0CC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Statues"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: ["Honestly I could have fit this into Age 6, the only reason it's here is because of symmetry. "]
+			id: "33D286A313579A89"
+			shape: "circle"
+			subtitle: "Creative Flight!"
+			tasks: [{
+				id: "18703B98AC65F2ED"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			title: "Fly Away Creatively"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			id: "06824B465C2709D9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5BB86BBAC6514037"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "77190AA3749492DA"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Super Side Quests"
+}

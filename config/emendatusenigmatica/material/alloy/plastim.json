@@ -1,0 +1,19 @@
+{
+  "id": "plastim",
+  "source": "modded",
+  "localizedName": "Plastim",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "dust",
+    "plate"
+
+  ],
+  "properties": {
+    "materialType": "alloy",
+    "harvestLevel": 4
+  },
+  "colors": {
+    "materialColor": "b4d9ef"
+  }
+}

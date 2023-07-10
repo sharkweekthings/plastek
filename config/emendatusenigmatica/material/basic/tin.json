@@ -1,0 +1,36 @@
+{
+  "id": "tin",
+  "source": "modded",
+  "localizedName": "Tin",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "nugget",
+    "raw",
+    "dust",
+    "gear",
+    "slurry",
+    "crystal",
+    "shard",
+    "clump",
+    "dirty_dust",
+	"crushed_ore"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 1,
+    "isBurnable": false,
+    "isEmissive": false,
+    "hasOxidization": false
+  },
+    "oreDrop": {
+    "drop": "emendatusenigmatica:raw_tin",
+    "min": 1,
+    "max": 3
+  },
+  "colors": {
+    "fluidColor": "919191",
+    "materialColor": "919191",
+	"gasColor": "919191"
+  }
+}

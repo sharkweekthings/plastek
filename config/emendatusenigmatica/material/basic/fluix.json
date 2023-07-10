@@ -1,0 +1,16 @@
+{
+    "id": "fluix",
+    "source": "modded",
+    "localizedName": "Fluix",
+    "processedTypes": [
+      "ore",
+      "clump"
+    ],
+    "properties": {
+      "materialType": "gem",
+      "harvestLevel": 3
+    },
+    "colors": {
+      "materialColor": "915DCD"
+    }
+}

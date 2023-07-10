@@ -1,0 +1,21 @@
+{
+    "id": "voidmetal",
+    "source": "modded",
+    "localizedName": "Voidmetal",
+    "processedTypes": [
+      "dust",
+      "crystal",
+      "shard",
+      "clump",
+      "crushed_ore",
+      "gear",
+      "plate"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 3
+    },
+    "colors": {
+      "materialColor": "734CA9"
+    }
+}

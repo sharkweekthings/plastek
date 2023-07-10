@@ -1,0 +1,20 @@
+{
+  "id": "arcmetal",
+  "source": "modded",
+  "localizedName": "Arcmetal",
+  "processedTypes": [
+      "dust",
+      "crystal",
+      "shard",
+      "clump",
+      "crushed_ore"
+  ],
+  "properties": {
+    "materialType": "metal",
+      "harvestLevel": 3
+},
+    "colors": {
+      "materialColor": "89C7DD"
+    }
+
+}

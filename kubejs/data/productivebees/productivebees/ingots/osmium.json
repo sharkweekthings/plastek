@@ -1,0 +1,11 @@
+{
+    "primaryColor": "#4c9db6",
+    "secondaryColor": "#804f40",
+    "flowerTag": "forge:storage_blocks/osmium",
+    "conditions": [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "sharkweekisntamod"
+        }
+    ]
+}

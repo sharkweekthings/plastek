@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "6864EC96E852A08D"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "03216811425CF6FF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51A7E3255990C9B4"]
+			description: [
+				"We'll be making the Twilight Forest portal pretty early on.  Instead of using a Diamond, you'll have to use a Green Powder. "
+				""
+				"Everything else is the same. Just surround a 2x2 pool of water with some flowers, and throw the Green Powder in."
+				""
+				"I know that everyone has done Twilight Forest a million times, but it's a great mod with some cool blocks.  That being said, don't worry. "
+				""
+				"The majority of this mod will be optional. We'll only need to do a couple things to progess this pack. Most of which can be done later, when your character is stronger."
+			]
+			id: "17BBEB74C75FB49C"
+			rewards: [
+				{
+					auto: "disabled"
+					icon: "supplementaries:sign_post_oak"
+					id: "2DC687F7A36459AF"
+					title: "Twilight Forest Access"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E61FD199D73C069"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "But not really."
+			tasks: [{
+				id: "5642429F4B7ACE88"
+				item: "rootsclassic:growth_powder"
+				type: "item"
+			}]
+			title: "Just Like Old Times"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17BBEB74C75FB49C"]
+			description: ["This dimension is going to be the first major source for Iron Ore, and thats our current main objective. To get some Iron Ore!"]
+			id: "486E2F2D84E0E664"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "0A2DD3CC8F6426CC"
+				type: "dimension"
+			}]
+			title: "Into The Forest"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			icon: "twilightforest:naga_trophy"
+			id: "4E0786DCD077D23B"
+			rewards: [
+				{
+					id: "3FA6691A4B22C8EF"
+					item: {
+						Count: 1b
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26F35A5D197F5415"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					biome: "#twilightforest:valid_naga_courtyard_biomes"
+					id: "49A9FD537F0D90AB"
+					type: "biome"
+				}
+				{
+					id: "17E94950593D38BD"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
+			title: "The Courtyard"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E0786DCD077D23B"]
+			icon: "twilightforest:lich_trophy"
+			id: "6FB274D0F7A58F14"
+			shape: "square"
+			tasks: [
+				{
+					biome: "#twilightforest:valid_lich_tower_biomes"
+					id: "53189E448402EF48"
+					type: "biome"
+				}
+				{
+					id: "70C228944687A22D"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
+			title: "Lich Tower"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FB274D0F7A58F14"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "37652577E3F46CD1"
+			shape: "square"
+			tasks: [
+				{
+					biome: "twilightforest:swamp"
+					id: "77EDC41D4E13662B"
+					type: "biome"
+				}
+				{
+					id: "2BFACD1E6758E670"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			]
+			title: "Swamp"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37652577E3F46CD1"]
+			icon: "twilightforest:hydra_trophy"
+			id: "4AED70D7A0F79C8A"
+			shape: "square"
+			tasks: [
+				{
+					biome: "twilightforest:fire_swamp"
+					id: "1F09BFB7980A5173"
+					type: "biome"
+				}
+				{
+					id: "3F3F8A90DF6A34E6"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+			]
+			title: "Firey Swamp"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AED70D7A0F79C8A"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "246A906D5668FA30"
+			rewards: [
+				{
+					id: "27759D1836A9307F"
+					item: {
+						Count: 1b
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F4CD9F76A6F7119"
+					item: {
+						Count: 1b
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AD4D68850409563"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					biome: "twilightforest:dark_forest"
+					id: "05D4CE7D567DE331"
+					type: "biome"
+				}
+				{
+					id: "3533AB525D9452BD"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					id: "18CB5380CCB2090B"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+			]
+			title: "Dark Forest"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CD3D4391247FBF2"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "0A2B1D63B5FE2D05"
+			shape: "circle"
+			tasks: [
+				{
+					biome: "twilightforest:glacier"
+					id: "0DCC8F02A735E706"
+					type: "biome"
+				}
+				{
+					id: "41AB7B63AA3D6682"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+			]
+			title: "Glacier"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["246A906D5668FA30"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "1CD3D4391247FBF2"
+			shape: "circle"
+			tasks: [
+				{
+					biome: "twilightforest:snowy_forest"
+					id: "51978F17CEFFFF35"
+					type: "biome"
+				}
+				{
+					id: "6FBC70DBD4836815"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+			]
+			title: "Snowy Forest"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A2B1D63B5FE2D05"]
+			icon: {
+				Count: 1b
+				id: "twilightforest:lamp_of_cinders"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "006E8DC2CEF04C19"
+			shape: "circle"
+			tasks: [
+				{
+					biome: "biomesoplenty:highland"
+					id: "64DF3DA20C1589AA"
+					type: "biome"
+				}
+				{
+					id: "02C2DE50496F6DE5"
+					item: "twilightforest:magic_beans"
+					type: "item"
+				}
+				{
+					id: "73B3D7B87B73E9F2"
+					item: "twilightforest:uberous_soil"
+					type: "item"
+				}
+				{
+					id: "7B06191F79CA9987"
+					item: {
+						Count: 1b
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACE15419B418B35"
+					item: {
+						Count: 1b
+						id: "twilightforest:lamp_of_cinders"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Highland"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["006E8DC2CEF04C19"]
+			id: "072A1A7C05ACD139"
+			shape: "circle"
+			tasks: [{
+				biome: "twilightforest:thornlands"
+				id: "14F7325AC4C9C91E"
+				type: "biome"
+			}]
+			title: "Thornlands"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["072A1A7C05ACD139"]
+			description: [
+				"This is where you would fight the last boss of Twilight Forest. "
+				""
+				"Unfortunately, that boss is on vacation and won't be here anytime soon. "
+				""
+				"For now, you can fight the Kobold at the end of the Dimension, and reap the quest rewards!"
+			]
+			icon: "twilightforest:final_boss_boss_spawner"
+			id: "03198A2AE825EFF0"
+			rewards: [
+				{
+					id: "59EBC4E96E49D3F6"
+					item: "botania:dice"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2FDEB3F14057B3CB"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					biome: "#twilightforest:valid_final_castle_biomes"
+					id: "4BE2FB9FC93584E2"
+					type: "biome"
+				}
+				{
+					entity: "twilightforest:kobold"
+					id: "65A89402D05253D2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Final Plateau"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4E0786DCD077D23B"]
+			icon: {
+				Count: 1b
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B7470CE447F2CD0"
+			rewards: [{
+				id: "3D6986B347AACFA9"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "234662A75BE6C881"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Naga Eye Recovery"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["246A906D5668FA30"]
+			icon: {
+				Count: 1b
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "28284945D80FE451"
+			rewards: [{
+				id: "65B4A34FC03992E6"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "3C1655DBE5C0980C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Knight Phantom Eye Recovery"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["246A906D5668FA30"]
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23B9F8CA9D964ED4"
+			rewards: [{
+				id: "7F53DDBCC4817F2C"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "7D8E2573F498A531"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ur-Ghast Eye Recovery"
+			x: 9.5d
+			y: -1.5d
+		}
+	]
+	title: "Twilight Forest"
+}

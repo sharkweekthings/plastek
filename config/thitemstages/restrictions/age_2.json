@@ -1,0 +1,42 @@
+{
+  "Restriction Data": {
+    "stage": "age_2",
+    "itemList": [],
+    "modList": [
+      "functionalstorage",
+      "infernalexp",
+      "metalbarrels",
+      "mob_grinding_utils",
+      "occultism",
+      "silentgear",
+      "silentcompat",
+      "sophisticatedbackpacks",
+      "storagenetwork"
+    ],
+    "tagList": [
+      "quark:revertable_chests",
+      "quark:revertable_trapped_chests",
+      "kubejs:age_2_item"
+    ],
+    "exceptionList": [
+      {
+        "tag": "kubejs:age_2_exception"
+      }
+    ],
+    "containerList": [],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

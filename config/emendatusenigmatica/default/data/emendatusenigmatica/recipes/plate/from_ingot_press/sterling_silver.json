@@ -1,0 +1,12 @@
+{
+  "type": "thermal:press",
+  "group": "emendatusenigmatica:compat_recipe",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/sterling_silver"
+    }
+  ],
+  "results": {
+    "item": "emendatusenigmatica:sterling_silver_plate"
+  }
+}

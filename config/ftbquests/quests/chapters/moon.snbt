@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moon"
+	group: "6864EC96E852A08D"
+	icon: {
+		Count: 1b
+		id: "fairylights:moon_light"
+		tag: {
+			color: 16383998
+		}
+	}
+	id: "06CD8139B4CA09F6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5C177330670C0A81"]
+			description: [
+				"The Moon is loaded with new materials. We definitely won't be using everything yet, but at least we can start gathering some juicy new materials."
+				""
+				"As far as the moon goes, there isn't much going on here, it's a moon.  You may run into an Lunarian village, or uncover a few other secrets of the Moon."
+			]
+			id: "4C10F51470F58A61"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "4BAC9AD9E5FD663F"
+				type: "dimension"
+			}]
+			title: "To The Moon!"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "757CC8894F6F1AE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3900CFF7861AF6C5"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6B594623B61D9A3F"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "3AC637985771A62E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F2D4174C3C45FD8"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "01AB97A33A239B47"
+				item: "emendatusenigmatica:apatite_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"757CC8894F6F1AE7"
+				"3AC637985771A62E"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "6BAC477CABB20D05"
+			rewards: [{
+				id: "1CD98889D3E9035E"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "197E1E8C6B604A76"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Moon Globe"
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "Moon"
+}

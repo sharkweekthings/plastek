@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_4"
+	group: "160159E361DC62EF"
+	icon: {
+		Count: 1b
+		id: "pneumaticcraft:pneumatic_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "042AFCD6A60BD5D3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "59FE1A4BC105B58A"
+			shape: "circle"
+			subtitle: "Upgraded and enchanted, this is probably the strongest armor sets for awhile."
+			tasks: [{
+				id: "473F652389AD6FCF"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_helmet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "6F00B26442B115BC"
+			shape: "circle"
+			subtitle: "Upgraded and enchanted, this is probably the strongest armor sets for awhile."
+			tasks: [{
+				id: "73240C2AD6372E43"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "03862F00D7A16C91"
+			shape: "circle"
+			subtitle: "Upgraded and enchanted, this is probably the strongest armor sets for awhile."
+			tasks: [{
+				id: "2BC21F12F071E319"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_leggings"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "76F5E22CC8F9B11C"
+			shape: "circle"
+			subtitle: "Upgraded and enchanted, this is probably the strongest armor sets for awhile."
+			tasks: [{
+				id: "1E9364495302F9DD"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "010B8F2574DAE323"
+			shape: "circle"
+			tasks: [{
+				id: "705250F48FE8FA09"
+				item: {
+					Count: 1b
+					id: "botania:elementium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "5DDB9E65107092DC"
+			shape: "circle"
+			tasks: [{
+				id: "21602EAE206BF30C"
+				item: {
+					Count: 1b
+					id: "botania:elementium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "2DAD078EFBAFC126"
+			shape: "circle"
+			tasks: [{
+				id: "03489788E9536063"
+				item: {
+					Count: 1b
+					id: "botania:elementium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "7CA58E678123DAD8"
+			shape: "circle"
+			tasks: [{
+				id: "48637E878D05C738"
+				item: {
+					Count: 1b
+					id: "botania:elementium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			id: "5F40408D831D4BC2"
+			shape: "circle"
+			subtitle: "This can be upgraded to be used in Space!"
+			tasks: [{
+				id: "35FF3938EC16737A"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:pneumatic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			id: "77A54D13770F73BE"
+			shape: "circle"
+			subtitle: "This can be upgraded to be used in Space!"
+			tasks: [{
+				id: "0BAA169605D47D8F"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:pneumatic_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			id: "33763F62CE105763"
+			shape: "circle"
+			subtitle: "This can be upgraded to be used in Space!"
+			tasks: [{
+				id: "6450C74DB68C6A73"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:pneumatic_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			id: "04062536ED4B29CD"
+			shape: "circle"
+			subtitle: "This can be upgraded to be used in Space!"
+			tasks: [{
+				id: "1469EA71563DE3BB"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:pneumatic_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+	title: "Armor"
+}

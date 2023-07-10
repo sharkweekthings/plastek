@@ -1,0 +1,863 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "6864EC96E852A08D"
+	icon: "minecraft:grass_block"
+	id: "677093A955730EF6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6D3D41A060D07214"
+				"01287877700B30F4"
+				"199707F163FBE125"
+				"2026C227CFEF03D5"
+				"4D1055623B30F769"
+				"0E1F4463E97D98D1"
+				"4DFCDF202A84ADFC"
+				"38EFC36A7BA33CFB"
+				"455017CF1C8FBB95"
+				"0EB3919A2B56B8C8"
+				"7DE0470B6445A058"
+				"035903AFAA5B0E20"
+				"3F97E2979B480AC1"
+				"6862A5F72A7CA9F5"
+				"187B530643390D0F"
+				"1FBCECC197D401E5"
+				"330D74C18EBD9943"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "6057784F9D12612C"
+			rewards: [{
+				id: "6032F428F359F294"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2DB84D9F7C4D77DA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Earth Globe"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "6D3D41A060D07214"
+			shape: "circle"
+			subtitle: "Thornborn Towers"
+			tasks: [{
+				advancement: "dungeons_arise:find_thornborn_towers"
+				criterion: ""
+				id: "34524356E90DB111"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "01287877700B30F4"
+			shape: "circle"
+			subtitle: "Foundry"
+			tasks: [{
+				advancement: "dungeons_arise:find_foundry"
+				criterion: ""
+				id: "581C0B7257B46DC6"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "199707F163FBE125"
+			shape: "circle"
+			subtitle: "Heavenly Challenger"
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_challenger"
+				criterion: ""
+				id: "689A46B73B6E5858"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "2026C227CFEF03D5"
+			shape: "circle"
+			subtitle: "Shiraz Palace"
+			tasks: [{
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "56009E3507CD2374"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "4D1055623B30F769"
+			shape: "circle"
+			subtitle: "Keep Kayra"
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "58DFB0BBBABED885"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "0E1F4463E97D98D1"
+			shape: "circle"
+			subtitle: "Illager Windmill"
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_windmill"
+				criterion: ""
+				id: "6469055BFA690099"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "4DFCDF202A84ADFC"
+			shape: "circle"
+			subtitle: "Plague Asylum"
+			tasks: [{
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+				id: "7ECC93925085A514"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "38EFC36A7BA33CFB"
+			shape: "circle"
+			subtitle: "Heavenly Conqueror"
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_conqueror"
+				criterion: ""
+				id: "3C700BA0E985E798"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Ocean"
+				"- Nether"
+				"- End"
+			]
+			id: "65AA1BA100DF3489"
+			shape: "circle"
+			subtitle: "Ancient Cities"
+			tasks: [{
+				advancement: "repurposed_structures:ancient_cities"
+				criterion: ""
+				id: "79FBFFC784554043"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "6FDD150C056EF8CF"
+			shape: "circle"
+			subtitle: "Underground Bastion"
+			tasks: [{
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+				id: "328632FD8B1655A6"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "7BFE3B2420A73799"
+			shape: "circle"
+			subtitle: "Nether City"
+			tasks: [{
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+				id: "3849C3CE6B41FEBC"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "20C81D1FEA2CC9C4"
+			shape: "circle"
+			subtitle: "Overworld City"
+			tasks: [{
+				advancement: "repurposed_structures:city_overworld"
+				criterion: ""
+				id: "4D4D8F0D806C4947"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Grassy"
+				"- Mangrove"
+				"- Mushroom"
+				"- Stone"
+			]
+			id: "069049B72FAE64C8"
+			shape: "circle"
+			subtitle: "\"Igloos\""
+			tasks: [{
+				advancement: "repurposed_structures:igloos"
+				criterion: ""
+				id: "5C9CB7199FED25F1"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Birch"
+				"- Desert"
+				"- Jungle"
+				"- Mangrove"
+				"- Oak"
+				"- Savanna"
+				"- Snowy"
+				"- Taiga"
+			]
+			id: "53886DD982421127"
+			shape: "circle"
+			subtitle: "Mansions"
+			tasks: [{
+				advancement: "repurposed_structures:mansions"
+				criterion: ""
+				id: "31B1D75AAE9E6255"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Birch"
+				"- Crimson"
+				"- Dark Forest"
+				"- Desert"
+				"- End"
+				"- Icy"
+				"- Jungle"
+				"- Nether"
+				"- Ocean"
+				"- Savanna"
+				"- Stone"
+				"- Swamp"
+				"- Taiga"
+				"- Warped"
+			]
+			id: "7C700DFFAABA8741"
+			shape: "circle"
+			subtitle: "Mines"
+			tasks: [{
+				advancement: "repurposed_structures:mineshafts"
+				criterion: ""
+				id: "0F416687A0FC30ED"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Jungle"
+				"- Icy"
+				"- Nether"
+				"- Desert"
+			]
+			id: "7875A7B956D47976"
+			shape: "circle"
+			subtitle: "Monuments"
+			tasks: [{
+				advancement: "repurposed_structures:monuments"
+				criterion: ""
+				id: "5AFF3C3C5221852B"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Badlands"
+				"- Birch"
+				"- Crimson"
+				"- Desert"
+				"- End"
+				"- Giant Tree Taiga"
+				"- Icy"
+				"- Birch"
+				"- Jungle"
+				"- Mangrove"
+				"- Nether Brick"
+				"- Oak"
+				"- Snowy"
+				"- Taiga"
+				"- Warped"
+			]
+			id: "32A5C9EF8EAFA784"
+			shape: "circle"
+			subtitle: "Outposts"
+			tasks: [{
+				advancement: "repurposed_structures:outposts"
+				criterion: ""
+				id: "53CD1BA7B5DD7178"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Variations: "
+				""
+				"- Badlands"
+				"- End"
+				"- Flower Forest"
+				"- Giant Tree Taiga"
+				"- Icy"
+				"- Jungle"
+				"- Mushroom"
+				"- Nether"
+				"- Ocean"
+				"- Snowy"
+				"- Dark Forest"
+			]
+			id: "67B5657E83578C1E"
+			shape: "circle"
+			subtitle: "Pyramids"
+			tasks: [{
+				advancement: "repurposed_structures:pyramids"
+				criterion: ""
+				id: "159F7739E8C64EA0"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "6BCF0FBB96205406"
+			shape: "circle"
+			subtitle: "Ruined Portal"
+			tasks: [{
+				advancement: "repurposed_structures:ruined_portal_end"
+				criterion: ""
+				id: "26B62F1E0150C55D"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Variations"
+				""
+				"- Hot"
+				"- Warm"
+				"- Cold"
+				"- Icy"
+				"- Nether"
+			]
+			id: "588ADA0741F7475E"
+			shape: "circle"
+			subtitle: "Ruins"
+			tasks: [{
+				advancement: "repurposed_structures:ruins"
+				criterion: ""
+				id: "3083E8401B6E284B"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "05B8F27D406639D2"
+			shape: "circle"
+			subtitle: "Shipwrecks"
+			tasks: [{
+				advancement: "repurposed_structures:shipwrecks"
+				criterion: ""
+				id: "0E11D95FE9FA49D3"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Nether"
+				"- End"
+			]
+			id: "7818AFF3D698CF37"
+			shape: "circle"
+			subtitle: "Strongholds"
+			tasks: [{
+				advancement: "repurposed_structures:strongholds"
+				criterion: ""
+				id: "0F025A7AC5E49AF5"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Nether Basalt"
+				"- Nether Crimson"
+				"- Nether Soul"
+				"- Warped"
+				"- Nether Wasteland"
+				"- Taiga"
+				"- Ocean"
+			]
+			id: "49874334D5EF8457"
+			shape: "circle"
+			subtitle: "Temples"
+			tasks: [{
+				advancement: "repurposed_structures:temples"
+				criterion: ""
+				id: "781ED7F137DE5FDF"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Variations: "
+				""
+				"- Badlands"
+				"- Birch"
+				"- Crimson"
+				"- Dark Forest"
+				"- Giant Taiga"
+				"- Jungle"
+				"- Mountains"
+				"- Mushroom"
+				"- Oak"
+				"- Ocean"
+				"- Swamp"
+				"- Warped"
+			]
+			id: "17D96389F4B28B4D"
+			shape: "circle"
+			subtitle: "Villages"
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "6DB62FA128CF99BD"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Variations:"
+				""
+				"- Birch"
+				"- Dark Forest"
+				"- Giant Tree Taiga"
+				"- Mangrove"
+				"- Oak"
+				"- Taiga"
+			]
+			id: "4D8A86A42BE8EBA9"
+			shape: "circle"
+			subtitle: "Witch Huts"
+			tasks: [{
+				advancement: "repurposed_structures:witch_huts"
+				criterion: ""
+				id: "449BFD7A207BD9B9"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "455017CF1C8FBB95"
+			shape: "circle"
+			subtitle: "Abandoned Temple"
+			tasks: [{
+				advancement: "dungeons_arise:find_abandoned_temple"
+				criterion: ""
+				id: "6112C531C319E321"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "0EB3919A2B56B8C8"
+			shape: "circle"
+			subtitle: "Bandit Towers"
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+				id: "744060423AB69A83"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "7DE0470B6445A058"
+			shape: "circle"
+			subtitle: "Heavenly Rider"
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_rider"
+				criterion: ""
+				id: "2CE5B12AF13CE66A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "035903AFAA5B0E20"
+			shape: "circle"
+			subtitle: "Infested Temple"
+			tasks: [{
+				advancement: "dungeons_arise:find_infested_temple"
+				criterion: ""
+				id: "0A1B07828B88D284"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "3F97E2979B480AC1"
+			shape: "circle"
+			subtitle: "Undead Pirate Ship"
+			tasks: [{
+				advancement: "dungeons_arise:find_undead_pirate_ship"
+				criterion: ""
+				id: "59F12063949CEB44"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "6862A5F72A7CA9F5"
+			shape: "circle"
+			subtitle: "Lighthouse"
+			tasks: [{
+				advancement: "dungeons_arise:find_lighthouse"
+				criterion: ""
+				id: "3842C5B4396A5036"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "187B530643390D0F"
+			shape: "circle"
+			subtitle: "Illager Corsair or Illager Galley"
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+				criterion: ""
+				id: "637C15D6F46EA128"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "1FBCECC197D401E5"
+			shape: "circle"
+			subtitle: "Fishing Hut"
+			tasks: [{
+				advancement: "dungeons_arise:find_fishing_hut"
+				criterion: ""
+				id: "4CEF52B8B97B1074"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "330D74C18EBD9943"
+			shape: "circle"
+			subtitle: "Monastery"
+			tasks: [{
+				advancement: "dungeons_arise:find_monasteries"
+				criterion: ""
+				id: "305752F18147B79D"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "4B15947BEBD13BC5"
+			shape: "circle"
+			subtitle: "Jungle Fortress"
+			tasks: [{
+				advancement: "repurposed_structures:fortress_jungle"
+				criterion: ""
+				id: "2B6BDCAC38CB18E7"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			hide: false
+			id: "4EEB71396249006A"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:ancient_mines"
+				criterion: ""
+				id: "059867843F66FC68"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "46E6CA164820EE2B"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+				id: "4855DCD7C0C60520"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "17A148F7CD6D9DA3"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:bearclaw_inn"
+				criterion: ""
+				id: "5140F17F0A388D05"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "42C33582296C4B05"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:castle"
+				criterion: ""
+				id: "4AEAFCFF5AA37386"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "2AE78F298098E801"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:enchantingtower"
+				criterion: ""
+				id: "3F9DDFBC69D89EDE"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "10ACFCA1AD2FD668"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+				id: "5500AD386A9AED7F"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			hide: false
+			id: "612B3D75D280E1C1"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:hunters_cabin"
+				criterion: ""
+				id: "4EF0A75CC6D50495"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "188768D94F0149B7"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:labyrinth"
+				criterion: ""
+				id: "04A6D92F9363428F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4ED5AA3DEF8B1236"
+			shape: "circle"
+			subtitle: "WARNING: Trying this on the Explorer's Compass may cause the server to hang/crash."
+			tasks: [{
+				advancement: "idas:necromancers_spire"
+				criterion: ""
+				id: "1CBF053679CE72D6"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "3138B9CBBA73F0FF"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:nexus"
+				criterion: ""
+				id: "5FF2AD2B9026E511"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "56A892C0F1F2919C"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:pillager_fortress"
+				criterion: ""
+				id: "39E018483BCFF30A"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "13834EE3D21EEBCB"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:redhorn_guild"
+				criterion: ""
+				id: "536976880085C9EC"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "0BE449EA5131D4B1"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:ruins_of_the_deep"
+				criterion: ""
+				id: "5B0204C2BE99C12A"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "68B904C1BE6AB747"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:sunken_ship"
+				criterion: ""
+				id: "006707CEFE3311F2"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "388D4FF2BFFEDFD3"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:tinkers_workshop"
+				criterion: ""
+				id: "3CDEF2100C08F465"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "0A695BB14B31BC06"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:winter_wagon"
+				criterion: ""
+				id: "659109270125D2E9"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "09015FBD607ACE33"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:witches_treestump"
+				criterion: ""
+				id: "0BCAEEE4776645F6"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "209CFD7F0D3B64CC"
+			shape: "circle"
+			tasks: [{
+				advancement: "idas:wizardtower"
+				criterion: ""
+				id: "6B7D7CFE2F76F50F"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+	title: "Overworld"
+}

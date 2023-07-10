@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_3"
+	group: "7F2FC2E4E4C51B36"
+	icon: "storagenetwork:inventory_remote"
+	id: "32CE7CEA258BA7E0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["0918F2E9F5D62F3F"]
+		description: [
+			"This age, a simple remote to make your life a little easier for withdrawl and depositing. "
+			""
+			"Unfortunately, this remote isn't capable of crafting, and Simple Storage for this pack doesnt have any remote that will let you craft."
+			""
+			"Pretty Pipes, available this age -- has it's own storage system if you prefer that style, but there isn't a quest created for it."
+		]
+		id: "4A18F27CE021405C"
+		shape: "circle"
+		tasks: [{
+			id: "10A52B51D21B52E9"
+			item: "storagenetwork:inventory_remote"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Storage"
+}

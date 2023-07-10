@@ -1,0 +1,46 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_end"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_nether"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_ocean"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "kubejs:venus_gen"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "kubejs:mars_gen_1"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "kubejs:mars_gen_2"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "kubejs:moon_gen"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "kubejs:mercury_gen"
+      }
+    ]
+  ]
+}

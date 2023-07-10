@@ -1,0 +1,811 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_3"
+	group: "7F2FC2E4E4C51B36"
+	icon: {
+		Count: 1b
+		id: "ad_astra:space_suit"
+		tag: {
+			BotariumData: { }
+			Damage: 0
+		}
+	}
+	id: "6F7C07A9490ACF0B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5C177330670C0A81"]
+			id: "226CC81E7B2A42C3"
+			tasks: [{
+				id: "783F17203222EC89"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C177330670C0A81"]
+			id: "215D529BB1A0C34F"
+			subtitle: "Note: You need to charge this up with Oxygen!"
+			tasks: [{
+				id: "151F22A638AD5D64"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C177330670C0A81"]
+			id: "7AF857462F65C2BA"
+			tasks: [{
+				id: "490B5E49F30876D4"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C177330670C0A81"]
+			id: "685589BD19E1FE36"
+			tasks: [{
+				id: "6EAA687F4C1A6EA4"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "13AF2130752D2D7A"
+			shape: "circle"
+			tasks: [{
+				id: "0ED56738BAF0BB7B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wither_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "6950B225B4C9B718"
+			shape: "circle"
+			tasks: [{
+				id: "203DD372878C1DFC"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wither_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "4B083EBFF1643DED"
+			shape: "circle"
+			tasks: [{
+				id: "5415C91A5C554202"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wither_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "7B179D0B76A613F8"
+			shape: "circle"
+			tasks: [{
+				id: "27FEA5702C652437"
+				item: {
+					Count: 1b
+					id: "immersive_armors:wither_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "4041B97D14AA9E35"
+			shape: "circle"
+			tasks: [{
+				id: "194C434905A33CE0"
+				item: {
+					Count: 1b
+					id: "immersive_armors:warrior_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "6B13BA93A783B0C6"
+			shape: "circle"
+			tasks: [{
+				id: "086DF9500DC867F3"
+				item: {
+					Count: 1b
+					id: "immersive_armors:warrior_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "4A38FAA360219B78"
+			shape: "circle"
+			tasks: [{
+				id: "3ACEA655581FC243"
+				item: {
+					Count: 1b
+					id: "immersive_armors:warrior_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "1E896EB5AF08D7A3"
+			shape: "circle"
+			tasks: [{
+				id: "1A5889FB2F19124D"
+				item: {
+					Count: 1b
+					id: "immersive_armors:warrior_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "47C69573802F0F8E"
+			shape: "circle"
+			tasks: [{
+				id: "480E5EA702ABFFB1"
+				item: {
+					Count: 1b
+					id: "immersive_armors:heavy_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "4EAC7AEAED7B3BDF"
+			shape: "circle"
+			tasks: [{
+				id: "44074541701D5A1B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:heavy_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "1A55BD4C16F88B47"
+			shape: "circle"
+			tasks: [{
+				id: "775378FBAC0A173D"
+				item: {
+					Count: 1b
+					id: "immersive_armors:heavy_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "31B4AAAF52886C82"
+			shape: "circle"
+			tasks: [{
+				id: "28DF921316065B6E"
+				item: {
+					Count: 1b
+					id: "immersive_armors:heavy_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "610B7F4AB68508D9"
+			shape: "circle"
+			tasks: [{
+				id: "686EFC16B6997491"
+				item: {
+					Count: 1b
+					id: "immersive_armors:robe_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "73D46FFBA745E939"
+			shape: "circle"
+			tasks: [{
+				id: "4FEE5E27F28C6D93"
+				item: {
+					Count: 1b
+					id: "immersive_armors:robe_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "2DB317D2F67771CC"
+			shape: "circle"
+			tasks: [{
+				id: "732108FDC457BB46"
+				item: {
+					Count: 1b
+					id: "immersive_armors:robe_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "0D7AB0113EBFE765"
+			shape: "circle"
+			tasks: [{
+				id: "5D4AF425DD071658"
+				item: {
+					Count: 1b
+					id: "immersive_armors:robe_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "4DA359916AFECF01"
+			shape: "circle"
+			tasks: [{
+				id: "1A0ADA2A397C3C1C"
+				item: {
+					Count: 1b
+					id: "immersive_armors:slime_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "33567EF876FA6322"
+			shape: "circle"
+			tasks: [{
+				id: "38221D597DF2EEDE"
+				item: {
+					Count: 1b
+					id: "immersive_armors:slime_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "537D1370F89627ED"
+			shape: "circle"
+			tasks: [{
+				id: "3487455D9FBECD5B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:slime_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "2546F251CD1352CD"
+			shape: "circle"
+			tasks: [{
+				id: "5721F0506F90BBB8"
+				item: {
+					Count: 1b
+					id: "immersive_armors:slime_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "23F8EE0E6DAAE29A"
+			shape: "circle"
+			tasks: [{
+				id: "63923E734F925E8B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:divine_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "7FB24520D785F5D7"
+			shape: "circle"
+			tasks: [{
+				id: "2358C9C35FE7774B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:divine_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "5EA06195558B9FE4"
+			shape: "circle"
+			tasks: [{
+				id: "477A4C7332BF2842"
+				item: {
+					Count: 1b
+					id: "immersive_armors:divine_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "14ABD365FB65D6CE"
+			shape: "circle"
+			tasks: [{
+				id: "13CA9036647C5FDA"
+				item: {
+					Count: 1b
+					id: "immersive_armors:divine_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "39D10ACCD2BD137A"
+			shape: "circle"
+			tasks: [{
+				id: "6C216A3E4E86B42B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:prismarine_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "3BAE17E9387658F7"
+			shape: "circle"
+			tasks: [{
+				id: "0CAF9EABC664ED79"
+				item: {
+					Count: 1b
+					id: "immersive_armors:prismarine_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "6497AF413CAF4C33"
+			shape: "circle"
+			tasks: [{
+				id: "515412B865B27B73"
+				item: {
+					Count: 1b
+					id: "immersive_armors:prismarine_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "03979F2FDFF492CF"
+			shape: "circle"
+			tasks: [{
+				id: "08C06A4DFFBD6E2B"
+				item: {
+					Count: 1b
+					id: "immersive_armors:prismarine_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "642BEDE9D07F2F4A"
+			shape: "circle"
+			tasks: [{
+				id: "0B5B7F4529396326"
+				item: {
+					Count: 1b
+					id: "immersive_armors:steampunk_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "286905B309DCA21F"
+			shape: "circle"
+			tasks: [{
+				id: "35AD53F390C4FDDB"
+				item: {
+					Count: 1b
+					id: "immersive_armors:steampunk_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "5F72485DE10748E8"
+			shape: "circle"
+			tasks: [{
+				id: "701BB4308A515FC3"
+				item: {
+					Count: 1b
+					id: "immersive_armors:steampunk_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECAFC8C2DF441D0"]
+			id: "45FCD5E56326C362"
+			shape: "circle"
+			tasks: [{
+				id: "002A75179563AE49"
+				item: {
+					Count: 1b
+					id: "immersive_armors:steampunk_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			description: [
+				"While you may find some use out of the armors here -- you should probably be using some form of Silent Gear / Apotheosis combination. "
+				""
+				"These armors all look really cool though and would look cool on you in a cosmetic slot."
+			]
+			id: "2ECAFC8C2DF441D0"
+			shape: "circle"
+			subtitle: "These are mostly for cosmetics"
+			tasks: [{
+				id: "3EDEDF44B0F83724"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Immersive Armors"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "7B9F28C471F18ED9"
+			shape: "circle"
+			tasks: [{
+				id: "318B9EEA93CB0261"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:compressed_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "7C4ED01DEBAE77C3"
+			shape: "circle"
+			tasks: [{
+				id: "5AF208BBB2D16F05"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:compressed_iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "4DA12B795CD13659"
+			shape: "circle"
+			tasks: [{
+				id: "4AA38E94613EE7BC"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:compressed_iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "7B26DC1A20769440"
+			shape: "circle"
+			tasks: [{
+				id: "016B9FAA17B50220"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:compressed_iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "2539ED2C54214692"
+			shape: "circle"
+			tasks: [{
+				id: "74368A7232F2BD4F"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "1D7829A2A595AEDF"
+			shape: "circle"
+			tasks: [{
+				id: "18C268C02CF6B527"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "7FC8B8B76F344C15"
+			shape: "circle"
+			tasks: [{
+				id: "402B4F96B5595DEC"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "Armor"
+}

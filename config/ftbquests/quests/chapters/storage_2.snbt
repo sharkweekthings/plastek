@@ -1,0 +1,988 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_2"
+	group: "04DB2BB1A10D6373"
+	icon: "storagenetwork:request"
+	id: "08782B0C86D8802F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7010308F4F836BAD"]
+			description: ["You can finally make a Vanilla chest!"]
+			id: "67EE744F1273EBE8"
+			shape: "circle"
+			subtitle: "You did it!"
+			tasks: [{
+				id: "7BF1015AB9BBD1BD"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7010308F4F836BAD"]
+			description: ["You can finally make a vanilla barrel!"]
+			id: "5E6D7F48FAFC4D72"
+			shape: "circle"
+			subtitle: "You did it!"
+			tasks: [{
+				id: "6C036FBBDC6D5FF8"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67EE744F1273EBE8"]
+			id: "08E1D15DDD34A311"
+			shape: "circle"
+			tasks: [{
+				id: "734D863FCACACE81"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			title: "Any Functional Drawer - Drawer"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "203BF72B55A7B2CF"
+			shape: "circle"
+			tasks: [{
+				id: "1BF38B39A4C08B6F"
+				item: "metalbarrels:copper_barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["203BF72B55A7B2CF"]
+			id: "12D356E7529F090B"
+			shape: "circle"
+			tasks: [{
+				id: "0EEBB3C1E4CF1E68"
+				item: "metalbarrels:iron_barrel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12D356E7529F090B"]
+			id: "11AD2456B93CE959"
+			shape: "circle"
+			tasks: [{
+				id: "58FD87A0AC0CA0BA"
+				item: "metalbarrels:silver_barrel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11AD2456B93CE959"]
+			id: "0C9D686840C0C895"
+			shape: "circle"
+			tasks: [{
+				id: "6C6186206C8A470F"
+				item: "metalbarrels:gold_barrel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C9D686840C0C895"]
+			id: "3A1DE06DCB535503"
+			shape: "circle"
+			tasks: [{
+				id: "2F30DA84ED769C67"
+				item: "metalbarrels:diamond_barrel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A1DE06DCB535503"]
+			id: "7D368F30D23753D5"
+			shape: "circle"
+			tasks: [{
+				id: "28DFB2E797BB59FA"
+				item: "metalbarrels:obsidian_barrel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D368F30D23753D5"]
+			id: "239F00617997C20B"
+			shape: "circle"
+			subtitle: "How could one tiny little box hold so much stuff?"
+			tasks: [{
+				id: "2D2F7AC2E9455C4F"
+				item: "metalbarrels:netherite_barrel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "31222B3AEC6F7F09"
+			shape: "circle"
+			tasks: [{
+				id: "39D121FB1D89065F"
+				item: "metalbarrels:wood_to_copper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "625DE7BE1C0CA75A"
+			shape: "circle"
+			tasks: [{
+				id: "334D0E306067DD44"
+				item: "metalbarrels:copper_to_iron"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "517DFE46320F4A3B"
+			shape: "circle"
+			tasks: [{
+				id: "47134CC757C1B35D"
+				item: "metalbarrels:iron_to_silver"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "536E8184F6B24A34"
+			shape: "circle"
+			tasks: [{
+				id: "474B8D2695333157"
+				item: "metalbarrels:silver_to_gold"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "10247C0105788C18"
+			shape: "circle"
+			tasks: [{
+				id: "15F46AFC8007256C"
+				item: "metalbarrels:gold_to_diamond"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "04A5E9FE5061D243"
+			shape: "circle"
+			tasks: [{
+				id: "46AF71ECA60A4E3C"
+				item: "metalbarrels:diamond_to_obsidian"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6D7F48FAFC4D72"]
+			id: "4AAED526ECB6C101"
+			shape: "circle"
+			tasks: [{
+				id: "7B841886A087FE71"
+				item: "metalbarrels:obsidian_to_netherite"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67EE744F1273EBE8"]
+			id: "6C45A7BB020583BC"
+			shape: "circle"
+			tasks: [{
+				id: "7F85836CCE4E3B96"
+				item: "minecraft:trapped_chest"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67EE744F1273EBE8"]
+			id: "7F88877D71215040"
+			shape: "circle"
+			tasks: [{
+				id: "22B838D9D685348A"
+				item: "ars_nouveau:archwood_chest"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08E1D15DDD34A311"]
+			description: [
+				"While individual drawers don't neeed a Storage Controller, a large network of drawers does.   "
+				""
+				"With this, you'll be able to use the Linking Tool to link drawers to the controller to create a large network up to a 12 block radius."
+			]
+			id: "1F26723000FD1E75"
+			shape: "circle"
+			tasks: [{
+				id: "3EB0514EF2E49FAE"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F26723000FD1E75"]
+			description: [
+				"To add drawers to the Network, make sure that the Linking Tool is set to \"Add\" -- then click on the controller (if it's not already registered), then click on the drawers you're adding to the network.  "
+				""
+				"Each drawer that was successfully added should have a white outline."
+			]
+			id: "6E80F6A062F57562"
+			shape: "circle"
+			subtitle: "Hover over the item to learn how to use it"
+			tasks: [{
+				id: "19FC8C8C7FE3AA3A"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F26723000FD1E75"]
+			id: "62034DD98B740F7B"
+			shape: "circle"
+			subtitle: "Hover over the item to learn how to use it"
+			tasks: [{
+				id: "5786A702AB1F025A"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41B42F2569AC3752"]
+			description: [
+				"Now that you know how to handle the power of Cheap Plastic -- you can set up a Storage Network, if you want. "
+				""
+				"This is completely optional, but definitely will help your sanity!"
+				""
+				"If Minecolonies is installed, this mod makes a great mod for your Warehouse later on, once Applied Energistics 2 opens up, and you've moved your storage over. "
+			]
+			icon: "storagenetwork:master"
+			id: "28699AB195F74472"
+			shape: "circle"
+			tasks: [{
+				id: "7B0E69806C942CB3"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Simple Storage"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28699AB195F74472"]
+			description: [
+				"Each Network will need 1 Root and 1 Request Table, as well as at least 1 inventory connected to it. "
+				""
+				"{image:kubejs:textures/storagenetwork/simplestorage_sample.png width:150 height:100 align:1}"
+				""
+				"You can connect multiple inventories to multiple link cables to increase your Storage Network.   "
+				""
+				"Be warned though! Connecting too much can definitely start to cause problems on your server. You will eventually wan't to upgrade to AE2, so keep that in mind with your set up."
+			]
+			icon: "storagenetwork:request"
+			id: "7136977AC53B5A72"
+			shape: "circle"
+			tasks: [
+				{
+					id: "002B553A8FC85609"
+					item: "storagenetwork:master"
+					type: "item"
+				}
+				{
+					id: "599D3FBD7477EADB"
+					item: "storagenetwork:request"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28699AB195F74472"]
+			description: [
+				"The Inventory Cable will connect to the Network Root.  "
+				""
+				"From there you can connect Link Cables to your Drawer Network, Chests, Barrels, and most any other storage.  "
+				""
+				"Connect Inventory Cable from the Network Root, and attach it to the Link Cables attached to your storage."
+			]
+			id: "532637D20AB7C970"
+			shape: "circle"
+			tasks: [{
+				id: "2001777A783B17E1"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["532637D20AB7C970"]
+			description: [
+				"Link Cables should be connected to the Inventory you want to connect to storage."
+				""
+				"Filtered Link Cables give you some filtering options, and allow for priority."
+			]
+			id: "09F26B8CD19D4572"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1AD7A8B2C05A9C4F"
+					item: "storagenetwork:storage_kabel"
+					type: "item"
+				}
+				{
+					id: "130BC3671F1AB08E"
+					item: "storagenetwork:filter_kabel"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["532637D20AB7C970"]
+			description: ["Imports items from outside inventories and puts them into the network."]
+			id: "5C17A21312B56385"
+			shape: "circle"
+			tasks: [
+				{
+					id: "72DA77B7823704A5"
+					item: "storagenetwork:import_kabel"
+					type: "item"
+				}
+				{
+					id: "7EADAB9B8F183087"
+					item: "storagenetwork:import_filter_kabel"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["532637D20AB7C970"]
+			description: ["Exports items from the network to outside inventories."]
+			id: "53806C85C24E256E"
+			shape: "circle"
+			tasks: [{
+				id: "22F98EBF1C5AA3FD"
+				item: "storagenetwork:export_kabel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1F26723000FD1E75"
+				"244AC6C84AF6FA65"
+			]
+			description: [
+				"One of the most useful upgrades. "
+				""
+				"You should have one of these on just about every drawer. "
+				""
+				"This upgrade will void excess items which in turn will help with the performance of your server by not having a backup of items stuck, internally in a machine."
+			]
+			id: "7F46EC5725F83B8B"
+			shape: "circle"
+			tasks: [{
+				id: "0D74F953921997B3"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F26723000FD1E75"
+				"244AC6C84AF6FA65"
+			]
+			id: "27A1B23A76E6F21A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7B7FA4F6F5C2270E"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "698831E3B0034439"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "33DAEECD8B37F931"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "577AF6C4BE720DCA"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+			]
+			title: "Functional Storage Upgrades"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F26723000FD1E75"
+				"244AC6C84AF6FA65"
+			]
+			id: "3643D6FE70336736"
+			shape: "circle"
+			tasks: [{
+				id: "482DE122F86EC766"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F26723000FD1E75"
+				"244AC6C84AF6FA65"
+			]
+			id: "2DAB25F5E3C27523"
+			shape: "circle"
+			tasks: [
+				{
+					id: "12CBF53DDF7510B5"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "061BE4020FDB61F1"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F26723000FD1E75"
+				"244AC6C84AF6FA65"
+			]
+			id: "7079874BBE37F401"
+			shape: "circle"
+			tasks: [{
+				id: "084B7B36F9327C6D"
+				item: {
+					Count: 1b
+					id: "functionalstorage:collector_upgrade"
+					tag: {
+						Direction: "down"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B573F268F450246"]
+			id: "4A6F8BD9AFB461D0"
+			shape: "circle"
+			tasks: [{
+				id: "0E16645CF19AA5A1"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1354751503
+							126567288
+							-1823969375
+							-1508175292
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A6F8BD9AFB461D0"]
+			id: "56DC84BD2AAF37ED"
+			shape: "circle"
+			tasks: [{
+				id: "24AE19398A3346A9"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1595262450
+							-1724235666
+							-1358745510
+							1063554600
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56DC84BD2AAF37ED"]
+			id: "027EBB7B6BB8F475"
+			shape: "circle"
+			tasks: [{
+				id: "394E55BFFBBB1607"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							1995656543
+							-940227791
+							-1488223653
+							-1320066444
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["027EBB7B6BB8F475"]
+			id: "7090A30BA7014434"
+			shape: "circle"
+			tasks: [{
+				id: "5BDA587090AF64D5"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						contentsUuid: [I;
+							662724525
+							-1740159483
+							-1634667029
+							-796940053
+						]
+						inventorySlots: 120
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "7446C04E2692DD48"
+			shape: "circle"
+			tasks: [
+				{
+					id: "435845410EB74075"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "7CD20AA041F2C98F"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "1281961F85198922"
+			shape: "circle"
+			tasks: [
+				{
+					id: "42323A3FEAE26BD1"
+					item: "sophisticatedbackpacks:filter_upgrade"
+					type: "item"
+				}
+				{
+					id: "29854F8BD50F323E"
+					item: "sophisticatedbackpacks:advanced_filter_upgrade"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "79EEDF9AA242D452"
+			shape: "circle"
+			tasks: [
+				{
+					id: "323F7F93B01F3D2D"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "70D5E51ADB0D7446"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "21B573E92E6F29DC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "364F391E017C8E56"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "5CBE9EEF15AF39D0"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8.600000000000001d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "63D5EA9EA0583C77"
+			shape: "circle"
+			tasks: [
+				{
+					id: "494E7501F591041D"
+					item: "sophisticatedbackpacks:void_upgrade"
+					type: "item"
+				}
+				{
+					id: "28C99576F6449E5D"
+					item: "sophisticatedbackpacks:advanced_void_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "1822C1341501AFC0"
+			shape: "circle"
+			tasks: [
+				{
+					id: "450F306D83E3C371"
+					item: "sophisticatedbackpacks:restock_upgrade"
+					type: "item"
+				}
+				{
+					id: "0009A86C9127F0C4"
+					item: "sophisticatedbackpacks:advanced_restock_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "1AEF29AB12101087"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4FF52E5D2B7C1B55"
+					item: "sophisticatedbackpacks:deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "6CEDEB33141B10CE"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "0B3DE77F02E79B21"
+			shape: "circle"
+			tasks: [
+				{
+					id: "54573180D53C7ADB"
+					item: "sophisticatedbackpacks:refill_upgrade"
+					type: "item"
+				}
+				{
+					id: "5CAF4B028A88EA15"
+					item: "sophisticatedbackpacks:advanced_refill_upgrade"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "778E3630D45FD4FC"
+			shape: "circle"
+			tasks: [{
+				id: "5C6FDB9896E4B14B"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "6247C1024408FF34"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3EE7142234FFBEB6"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "71B89C6A412271B8"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "7199D51406E6E889"
+			shape: "circle"
+			tasks: [
+				{
+					id: "53BF7C2537A66085"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "2ADBCFAE2DD54614"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "05795882150051CD"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "73F00A0368F1543C"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "3E3B3E587FE83297"
+			shape: "circle"
+			tasks: [{
+				id: "539575F8ADE4F66B"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "03950BE5AE7BCFC3"
+			shape: "circle"
+			tasks: [
+				{
+					id: "32683A0586FC689F"
+					item: "sophisticatedbackpacks:tool_swapper_upgrade"
+					type: "item"
+				}
+				{
+					id: "29271EBACD3C4A93"
+					item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "33FAACC85D2CD41F"
+			shape: "circle"
+			tasks: [{
+				id: "3135F1A5AEC80162"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "2FE500E99FAC48A7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "73FE780BE812B236"
+					item: "sophisticatedbackpacks:pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "6FE2B314DA473A91"
+					item: "sophisticatedbackpacks:advanced_pump_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["244AC6C84AF6FA65"]
+			id: "36C8F87CA172AFBC"
+			shape: "circle"
+			tasks: [{
+				id: "1BF5D786A73D34E9"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B573F268F450246"]
+			id: "244AC6C84AF6FA65"
+			shape: "circle"
+			tasks: [{
+				id: "654B1BC085B44198"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F26723000FD1E75"]
+			id: "0D5A94A9F57A68D3"
+			shape: "circle"
+			tasks: [{
+				id: "58B3A67A4428A89E"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F26723000FD1E75"]
+			id: "37FD5E6FFAF08CC2"
+			shape: "circle"
+			tasks: [{
+				id: "1540F337CBEE23E7"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+	]
+	title: "Storage"
+}

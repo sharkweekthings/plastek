@@ -1,0 +1,972 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_2"
+	group: "04DB2BB1A10D6373"
+	icon: {
+		Count: 1b
+		id: "minecraft:netherite_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5814C74EE4B37773"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "4C087A182A204212"
+			subtitle: "This set is required to progress!"
+			tasks: [{
+				id: "6BEE317AB60FA3FC"
+				item: {
+					Count: 1b
+					id: "silentgear:helmet"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [{
+									ID: "silentgear:helmet_plates"
+									Item: {
+										Count: 1b
+										id: "silentgear:helmet_plates"
+										tag: {
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:iron"
+											}]
+										}
+									}
+								}]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:armor": 2.0f
+									"silentgear:armor_durability": 15.0f
+									"silentgear:armor_toughness": 0.0f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 250.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:magic_armor": 1.5f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:projectile_speed": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							656535599
+							-1768275308
+							-1908164815
+							-1656456390
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Silent Gear - Iron Helmet"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "031ABE2873108E7F"
+			subtitle: "This set is required to progress!"
+			tasks: [{
+				id: "1181401995939A7C"
+				item: {
+					Count: 1b
+					id: "silentgear:chestplate"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [{
+									ID: "silentgear:chestplate_plates"
+									Item: {
+										Count: 1b
+										id: "silentgear:chestplate_plates"
+										tag: {
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:iron"
+											}]
+										}
+									}
+								}]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:armor": 6.0f
+									"silentgear:armor_durability": 15.0f
+									"silentgear:armor_toughness": 0.0f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 250.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:magic_armor": 1.5f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:projectile_speed": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							-690671121
+							1736854177
+							-1427363042
+							-1967101650
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Silent Gear - Iron Chestplate"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "4AF3147FF1707118"
+			subtitle: "This set is required to progress!"
+			tasks: [{
+				id: "1E997EC102E5ED8D"
+				item: {
+					Count: 1b
+					id: "silentgear:leggings"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [{
+									ID: "silentgear:legging_plates"
+									Item: {
+										Count: 1b
+										id: "silentgear:legging_plates"
+										tag: {
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:iron"
+											}]
+										}
+									}
+								}]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:armor": 5.0f
+									"silentgear:armor_durability": 15.0f
+									"silentgear:armor_toughness": 0.0f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 250.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:magic_armor": 1.5f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:projectile_speed": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							154529050
+							1272400702
+							-1339053296
+							-775969013
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Silent Gear - Iron Leggings"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "7F24D2182FD0F70F"
+			subtitle: "This set is required to progress!"
+			tasks: [{
+				id: "5831540DFFDE8FC6"
+				item: {
+					Count: 1b
+					id: "silentgear:boots"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [{
+									ID: "silentgear:boot_plates"
+									Item: {
+										Count: 1b
+										id: "silentgear:boot_plates"
+										tag: {
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:iron"
+											}]
+										}
+									}
+								}]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.2.2"
+								Stats: {
+									"silentgear:armor": 2.0f
+									"silentgear:armor_durability": 15.0f
+									"silentgear:armor_toughness": 0.0f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 250.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:magic_armor": 1.5f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:projectile_speed": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							1064161213
+							-1725478572
+							-2023550923
+							-1964833066
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Silent Gear - Iron Boots"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "386B9A0252DBDA94"
+			shape: "circle"
+			tasks: [{
+				id: "06A1FC78D67C3CB9"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "1220C471D6E6972C"
+			shape: "circle"
+			tasks: [{
+				id: "14C47929C3904D4A"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "0B8C59814FFC03F1"
+			shape: "circle"
+			tasks: [{
+				id: "0BD93705E0324C55"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "7014464A880C81F4"
+			shape: "circle"
+			tasks: [{
+				id: "5E3DD24E3A86E724"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C40C4089C918112"]
+			id: "304AD86093C8A7E5"
+			shape: "circle"
+			tasks: [{
+				id: "7EF4B7A04630EDAD"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C40C4089C918112"]
+			id: "3CBB0D1344136341"
+			shape: "circle"
+			tasks: [{
+				id: "77DA55B039C47617"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C40C4089C918112"]
+			id: "6AC9AB861A7AB4F5"
+			shape: "circle"
+			tasks: [{
+				id: "46FE378798FCD353"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C40C4089C918112"]
+			id: "7F267800D1F66BD8"
+			shape: "circle"
+			tasks: [{
+				id: "07A04D7E82132D59"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FB82F0B7BA3BD4B"]
+			id: "2F00220F9907725D"
+			shape: "circle"
+			tasks: [{
+				id: "5EC50FED3F8AF910"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FB82F0B7BA3BD4B"]
+			id: "33F56F143ECE4260"
+			shape: "circle"
+			tasks: [{
+				id: "5B9A48806C779350"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FB82F0B7BA3BD4B"]
+			id: "59C0A4003A2E9F22"
+			shape: "circle"
+			tasks: [{
+				id: "1BE82DBD03079FD8"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FB82F0B7BA3BD4B"]
+			id: "2EF9991291B105E1"
+			shape: "circle"
+			tasks: [{
+				id: "2612A7C8D926B827"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"Outside of Silent Gear, and Vanilla -- you also have access to Apotheosis style Armor."
+				""
+				"With Apotheosis you can extract powerful gems from Weapons/Tools/Armor that you find in the world, or you can find the Gems in chests across the world. "
+				""
+				"You can then socket your gear with the gems.  "
+				""
+				"Optionally, you can also use the items that you find in the world as some may be extremely powerful, especially items that drop from Named Apotheosis bosses."
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					facets: 6
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "ancient"
+					uuids: [[I;
+						-631996236
+						175786103
+						-1971532747
+						1592531039
+					]]
+				}
+			}
+			id: "291CEE5812B58E67"
+			shape: "circle"
+			tasks: [{
+				id: "1A1E59FD96E91E89"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Apotheosis"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "5D88E61379E50176"
+			shape: "circle"
+			tasks: [{
+				id: "2594C8FA27E85CEF"
+				item: {
+					Count: 1b
+					id: "chococraft:choco_disguise_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "4C91AC48AAE0BD08"
+			shape: "circle"
+			tasks: [{
+				id: "399F2646DA5B68FE"
+				item: {
+					Count: 1b
+					id: "chococraft:choco_disguise_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "0A4838C3F93F3BA7"
+			shape: "circle"
+			tasks: [{
+				id: "19ADB8B2A13F0ADB"
+				item: {
+					Count: 1b
+					id: "chococraft:choco_disguise_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "1DC02BA879D0C090"
+			shape: "circle"
+			tasks: [{
+				id: "782B85405200D3FE"
+				item: {
+					Count: 1b
+					id: "chococraft:choco_disguise_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "149B85332278A5C6"
+			shape: "circle"
+			tasks: [{
+				id: "3759D6B185C73FD0"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "7185DC3E02DFFBA2"
+			shape: "circle"
+			tasks: [{
+				id: "38696AFBB2898721"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "6976048723DD7F6F"
+			shape: "circle"
+			tasks: [{
+				id: "1E917B543750AFDA"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "76FB9FA766A39F07"
+			shape: "circle"
+			tasks: [{
+				id: "0A7F08FD74842CE6"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "6D24C0B478541096"
+			shape: "circle"
+			tasks: [{
+				id: "3AE5C68CF6A6A1B2"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "0E4EF958F8019D72"
+			shape: "circle"
+			tasks: [{
+				id: "55B1F2BC34E97EC1"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "1AA1A6B983A38EC2"
+			shape: "circle"
+			tasks: [{
+				id: "34BAB5B5C8E9778E"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "43AAB44193BEB866"
+			shape: "circle"
+			tasks: [{
+				id: "2DD8B9B4595DC35B"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "27175805FD36C9D3"
+			shape: "circle"
+			tasks: [{
+				id: "4F6F553493AF1B43"
+				item: {
+					Count: 1b
+					id: "twilightforest:naga_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["486E2F2D84E0E664"]
+			id: "63938D24B228B99B"
+			shape: "circle"
+			tasks: [{
+				id: "4BD58D5C364FC689"
+				item: {
+					Count: 1b
+					id: "twilightforest:naga_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "07CD7743A29747B7"
+			shape: "circle"
+			tasks: [{
+				id: "796CEF3D5D59F25D"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "70FE0D640C240593"
+			shape: "circle"
+			tasks: [{
+				id: "104DB09A172ED2B4"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "33E0259854371519"
+			shape: "circle"
+			tasks: [{
+				id: "67048D7DB0BA378D"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "1B8240023287A94B"
+			shape: "circle"
+			tasks: [{
+				id: "1B446A98A36B193A"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "1017DB2A2A0DD0DE"
+			shape: "circle"
+			tasks: [{
+				id: "0859A9434002CBCE"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "18F64E746BB8D5CC"
+			shape: "circle"
+			tasks: [{
+				id: "00ABC5E1B9FF64A7"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "3C4C7A318F35C348"
+			shape: "circle"
+			tasks: [{
+				id: "407FF1BEE8CE8656"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+	title: "Armor"
+}

@@ -1,0 +1,2858 @@
+{
+  "customCategories": {
+    "saplings": {
+      "name": "Saplings",
+      "icon": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "seeds": {
+      "name": "Seeds",
+      "icon": {
+        "item": "minecraft:wheat_seeds"
+      }
+    },
+    "eggs": {
+      "name": "Eggs",
+      "icon": {
+        "item": "minecraft:chicken_spawn_egg"
+      }
+    },
+    "flowers": {
+      "name": "Flowers",
+      "icon": {
+        "item": "minecraft:rose_bush"
+      }
+    },
+    "shopping": {
+      "name": "Shopping",
+      "icon": {
+        "item": "minecraft:oak_sign"
+      }
+    },
+    "quests": {
+      "name": "Quests",
+      "icon": {
+        "item": "ftbquests:book"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "biomesoplenty:rose",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:violet",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:lavender",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:wildflower",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:orange_cosmos",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_daffodil",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_hibiscus",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:glowflower",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:wilted_lily",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:burning_blossom",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:blue_hydrangea",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:goldenrod",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:dandelion",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:poppy",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:blue_orchid",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:allium",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:azure_bluet",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:red_tulip",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:orange_tulip",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:white_tulip",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:pink_tulip",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:cornflower",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "minecraft:lily_of_the_valley",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "flowers"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:origin_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:flowering_oak_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:yellow_autumn_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:orange_autumn_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:maple_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:fir_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:redwood_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:white_cherry_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_cherry_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:mahogany_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:jacaranda_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:palm_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:willow_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:dead_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:magic_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:umbran_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:hellbark_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:apple_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:avocado_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:candlenut_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:cherry_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:chestnut_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:gooseberry_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:lemon_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:nutmeg_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:orange_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:peach_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pear_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:plum_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:walnut_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:spiderweb_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:hazelnut_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pawpaw_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:soursop_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:almond_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:apricot_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:banana_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:cashew_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:cinnamon_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:coconut_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:date_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:dragonfruit_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:durian_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:fig_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:grapefruit_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:lime_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:mango_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:olive_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:papaya_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:paperbark_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pecan_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:peppercorn_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:persimmon_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pistachio_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pomegranate_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:starfruit_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:vanillabean_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:breadfruit_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:guava_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:jackfruit_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:lychee_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:passionfruit_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:rambutan_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:tamarind_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:maple_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pinenut_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:oak_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:spruce_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:birch_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:jungle_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:acacia_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:dark_oak_sapling",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cabbage_seeds",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:rice",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:tomato_seeds",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:agaveseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:amaranthseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:arrowrootseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:artichokeseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:asparagusseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:barleyseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:beanseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:bellpepperseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:blackberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:blueberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:broccoliseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:brusselsproutseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cabbageseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cactusfruitseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:candleberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cantaloupeseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cassavaseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cauliflowerseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:celeryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:chickpeaseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:chilipepperseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:coffeebeanseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cornseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cottonseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cranberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:cucumberseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:eggplantseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:elderberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:flaxseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:garlicseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:gingerseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:grapeseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:greengrapeseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:huckleberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:jicamaseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:juniperberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:juteseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:kaleseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:kenafseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:kiwiseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:kohlrabiseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:leekseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:lentilseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:lettuceseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:milletseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:mulberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:mustardseedsseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:oatsseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:okraseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:onionseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:parsnipseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:peanutseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:peasseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:pineappleseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:quinoaseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:radishseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:raspberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:rhubarbseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:riceseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:rutabagaseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:ryeseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:scallionseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:sesameseedsseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:sisalseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:soybeanseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:spiceleafseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:spinachseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:strawberryseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:sweetpotatoseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:taroseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:tealeafseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:tomatilloseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:tomatoseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:turnipseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:waterchestnutseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:whitemushroomseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:wintersquashseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "pamhc2crops:zucchiniseeditem",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:melon_seeds",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:pumpkin_seeds",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:beetroot_seeds",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:potato",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:carrot",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": {
+        "item": "minecraft:cow_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:salmon_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:llama_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:parrot_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:mule_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:villager_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:panda_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:horse_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },   
+    {
+      "output": {
+        "item": "minecraft:pig_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:frog_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:rabbit_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:bee_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:tadpole_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:cat_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },
+    {
+      "output": {
+        "item": "minecraft:polar_bear_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:sheep_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:cod_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:fox_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:goat_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:turtle_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },  
+    {
+      "output": {
+        "item": "minecraft:donkey_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:tropical_fish_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:ocelot_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "minecraft:chicken_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "quark:shiba_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },    
+    {
+      "output": {
+        "item": "energeticsheep:energetic_sheep_spawn_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "eggs"
+    },
+    {
+      "output": {
+        "item": "minecraft:cobblestone",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "minecraft:dirt",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "minecraft:grass_block",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "minecraft:podzol",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "minecraft:stone",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mob_grinding_utils:dark_oak_stone",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "minecraft:bone_meal",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "create:tree_fertilizer",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      "category": "shopping"
+    },     
+    {
+      "output": {
+        "item": "minecraft:name_tag",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      "category": "shopping"
+    },     
+    {
+      "output": {
+        "item": "minecraft:stone_sword",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },     
+    {
+      "output": {
+        "item": "minecraft:stone_shovel",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "minecraft:stone_pickaxe",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "minecraft:stone_axe",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "minecraft:stone_hoe",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },     
+    {
+      "output": {
+        "item": "minecraft:wooden_shovel",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "minecraft:wooden_pickaxe",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "minecraft:wooden_axe",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "minecraft:wooden_hoe",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },       
+    {
+      "output": {
+        "item": "botania:rune_autumn",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_gluttony",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_air",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },       
+    {
+      "output": {
+        "item": "botania:rune_sloth",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_water",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_lust",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_pride",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_winter",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_envy",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_wrath",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_greed",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_fire",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_summer",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_spring",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_earth",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "botania:rune_mana",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_diamond",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:muspelheim_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:vanaheim_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:nidavellir_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:joetunheim_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:asgard_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:alfheim_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:niflheim_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:midgard_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "mythicbotany:helheim_rune",
+        "count": 1
+      },
+      "payment": {
+        "item": "botania:mana_pearl",
+        "count": 10
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "kubejs:zpm",
+        "count": 1
+      },
+      "payment": {
+        "item": "emendatusenigmatica:alien_gear",
+        "count": 64
+      },
+      "category": "quests"
+    },     
+    {
+      "output": {
+        "item": "kubejs:damaged_zpm_housing_unit",
+        "count": 1
+      },
+      "payment": {
+        "item": "emendatusenigmatica:alien_rod",
+        "count": 64
+      },
+      "category": "quests"
+    },     
+    {
+      "output": {
+        "item": "kubejs:gouald_crystal",
+        "count": 1
+      },
+      "payment": {
+        "item": "mekanism:sulfuric_acid_bucket",
+        "count": 1
+      },
+      "category": "quests"
+    },    
+    {
+      "output": {
+        "item": "kubejs:damaged_crystal_housing_unit",
+        "count": 1
+      },
+      "payment": {
+        "item": "mekanism:hydrogen_chloride_bucket",
+        "count": 1
+      },
+      "category": "quests"
+    }
+  ]
+}

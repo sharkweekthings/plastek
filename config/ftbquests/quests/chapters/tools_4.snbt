@@ -1,0 +1,477 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_4"
+	group: "160159E361DC62EF"
+	icon: {
+		Count: 1b
+		id: "botania:flight_tiara"
+		tag: {
+			variant: 0
+		}
+	}
+	id: "62876C69BE753427"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "415383B325A51B3D"
+			shape: "circle"
+			subtitle: "Snip snip"
+			tasks: [{
+				id: "7C6758AEBFB7FFA9"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"Amadrone Technology at it's best. "
+				""
+				"All Drones are ready to ship out your product in moments.  Just make your request, and wait for your items!"
+			]
+			id: "68D6A04710DEFEA7"
+			shape: "circle"
+			tasks: [{
+				id: "5F8598D42179C217"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "44478378FCD85925"
+			shape: "circle"
+			tasks: [{
+				id: "08DA778E207FCECA"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_pickaxe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "168C2E4D55A69799"
+			shape: "circle"
+			tasks: [{
+				id: "3D40946C8A7CCA0F"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "791E812372C8DE46"
+			shape: "circle"
+			tasks: [{
+				id: "6A3A543CE1EFE4B5"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "0641F5EDE4AB8E73"
+			shape: "circle"
+			tasks: [{
+				id: "2FD5429B0FA5BDC6"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_sickle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "6FB53B03CAE247E5"
+			shape: "circle"
+			tasks: [{
+				id: "2D95956058EE2D6B"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_excavator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "7705E731A9052961"
+			shape: "circle"
+			tasks: [{
+				id: "189F68303DBE6CBB"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_fishing_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48D65877C05F1D79"]
+			description: [
+				"This Tiara will grant you limited flight capabilities at the expense of Mana. "
+				""
+				"There are several different designs you can pick from, and if you don't like the ones you picked, they should be re-craftable using the current Tiara + whatever extra material is required."
+				""
+				"To see more either look in JEI for \"Tiara\"."
+			]
+			id: "0AF42A3D59A25B9F"
+			shape: "circle"
+			tasks: [{
+				id: "672A891E8A953AA1"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"This here is your current means to power up some of your handheld devices that require RF. "
+				""
+				"Later you will gain access to the Energetic Infuser which will power up to 9 items at once."
+			]
+			id: "4E0E259C41AD91F1"
+			shape: "circle"
+			tasks: [{
+				id: "76D2530D26707A72"
+				item: "immersiveengineering:charging_station"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "479C46B1E2B96468"
+			shape: "circle"
+			tasks: [{
+				id: "640DB17A6198209F"
+				item: {
+					Count: 1b
+					id: "botania:elementium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "033D76EF8763888F"
+			shape: "circle"
+			tasks: [{
+				id: "400E6F7BC47B369B"
+				item: {
+					Count: 1b
+					id: "botania:elementium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "5B5F187C389BFC50"
+			shape: "circle"
+			tasks: [{
+				id: "5A32AF71363C2A38"
+				item: {
+					Count: 1b
+					id: "botania:elementium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "6F34BEDBD94E3FBA"
+			shape: "circle"
+			tasks: [{
+				id: "4B664064198353F1"
+				item: {
+					Count: 1b
+					id: "botania:elementium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "785BC0D5C56B2BE2"
+			shape: "circle"
+			tasks: [{
+				id: "03ECF2B55E995EA3"
+				item: {
+					Count: 1b
+					id: "botania:elementium_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0933440E7DFA2B10"]
+			id: "7FC237C65C5DF0AB"
+			shape: "circle"
+			tasks: [{
+				id: "7D18190E8C430790"
+				item: {
+					Count: 1b
+					id: "mythicbotany:andwari_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"Trying to find something specific, or hard to get? Well this should help aide you in that. "
+				""
+				"With plenty of various modules."
+			]
+			id: "0BD2C38D1B9252E6"
+			shape: "circle"
+			tasks: [{
+				id: "2D28FB24D3C52AB8"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BD2C38D1B9252E6"]
+			id: "6E3A16FF7ECFEC58"
+			shape: "circle"
+			tasks: [{
+				id: "7283C5A94612AA40"
+				item: "scannable:blank_module"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E3A16FF7ECFEC58"]
+			description: [
+				"Tip: "
+				""
+				"If you're searching for Ore you'll want to use a BLOCK Module.  This will be able to locate any blocks, so Blocks of Ore, blocks of Dirt, blocks of Obsidian, etc. "
+			]
+			id: "6404625EAF7754F2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1C78E65F94643E7A"
+					item: "scannable:range_module"
+					type: "item"
+				}
+				{
+					id: "4599FBB9FC2F8F56"
+					item: "scannable:entity_module"
+					type: "item"
+				}
+				{
+					id: "466F4CE133BDAEB3"
+					item: "scannable:friendly_entity_module"
+					type: "item"
+				}
+				{
+					id: "4BB2ECE2C98A5113"
+					item: "scannable:hostile_entity_module"
+					type: "item"
+				}
+				{
+					id: "2E052BD7CB31F435"
+					item: "scannable:block_module"
+					type: "item"
+				}
+				{
+					id: "3798BAFAA43B2816"
+					item: "scannable:common_ores_module"
+					type: "item"
+				}
+				{
+					id: "5A3BEE1AB60668E6"
+					item: "scannable:rare_ores_module"
+					type: "item"
+				}
+				{
+					id: "086F252FB1E031E2"
+					item: "scannable:fluid_module"
+					type: "item"
+				}
+			]
+			title: "Scanner Modules"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			description: ["Like the Construction Wand, but runs on RF -- and has variable modes. "]
+			id: "57F8B99A7FBC28C4"
+			shape: "circle"
+			tasks: [{
+				id: "79E204A3390F2F3B"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			description: ["Exchanges blocks for other blocks.  Don't like that Oak wall? replace it with Dark Oak!"]
+			id: "4E34EA4417E85E10"
+			shape: "circle"
+			tasks: [{
+				id: "0E33E908D2FD1C1C"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			description: [
+				"Ctrl + C  "
+				"Ctrl + V"
+			]
+			id: "7599679EEDAD8980"
+			shape: "circle"
+			tasks: [{
+				id: "5B9D85396D70DFCC"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_copy_paste"
+					tag: {
+						mode: 0b
+						template_id: [I;
+							1713310111
+							175131026
+							-1465618518
+							248958603
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: ["This will prevent Nightmares, but it will attract Phantoms."]
+			id: "07CA29E6F3D4D5A0"
+			shape: "circle"
+			subtitle: "Nightmares be gone"
+			tasks: [{
+				id: "4441A58CF059702C"
+				item: "sleep_tight:dreamer_essence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+	]
+	title: "Utility"
+}

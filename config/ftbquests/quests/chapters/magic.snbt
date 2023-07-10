@@ -1,0 +1,546 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "5F8EFC9EDBDA235C"
+	icon: "rootsclassic:growth_powder"
+	id: "45082D84A5613237"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C8930D4F3A220C5"]
+			description: ["Use the Bark Knife on trees, get bark, profit. "]
+			id: "7EF2C043E30919EA"
+			subtitle: "Does bark bark?"
+			tasks: [{
+				id: "0A0313E6FAEE011B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rootsclassic:barks"
+					}
+				}
+				title: "Any #rootsclassic:barks"
+				type: "item"
+			}]
+			title: "Bark, Bark... Bark! "
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			id: "60CC82452ABD2862"
+			tasks: [{
+				id: "5DBE816C3CB474BD"
+				item: "rootsclassic:mortar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			id: "330EA3734E76C695"
+			subtitle: "This tool is not consumed during usage."
+			tasks: [{
+				id: "031330DBCA60FF77"
+				item: "rootsclassic:pestle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"60CC82452ABD2862"
+				"330EA3734E76C695"
+			]
+			id: "39030471A0763051"
+			tasks: [{
+				id: "5AE69108585A6941"
+				item: "rootsclassic:imbuer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			description: ["You can obtain Old Root by breaking Grass or Tall Grass."]
+			id: "68D95514090BFBF0"
+			subtitle: "Lurking in the depths of the grass"
+			tasks: [{
+				id: "6AE3D3E456AF4E3A"
+				item: "rootsclassic:old_root"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			description: [
+				"To get some Verdant Sprigs you'll need to harvest fully grown (seemingly Vanilla only) crops. "
+				""
+				"Alternatively, many of these sprigs have fallen into the dirt blocks.  "
+				""
+				"Perhaps you can try shoveling some dirt?"
+			]
+			id: "0F782E09F52C1CEC"
+			tasks: [{
+				id: "51BBA2D380E71555"
+				item: "rootsclassic:verdant_sprig"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			description: ["Redcurrants and a few other berries come from breaking the leaves on trees."]
+			id: "44DC8D765999F8FB"
+			subtitle: "Shh, what was that? Just the wind.."
+			tasks: [{
+				id: "3C3C775F27EAAD8F"
+				item: "rootsclassic:redcurrant"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44DC8D765999F8FB"]
+			id: "46FB4D2541FF8A07"
+			shape: "circle"
+			subtitle: "fRoots"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6EF1408000CFA184"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7AA18DF6C95016AB"
+					item: "rootsclassic:blackcurrant"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "67C2CE540969E77F"
+					item: "rootsclassic:elderberry"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "02F67B127E09CF76"
+					item: "rootsclassic:nightshade"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "35EBB20536EDE7C0"
+					item: "rootsclassic:redcurrant"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"68D95514090BFBF0"
+				"0F782E09F52C1CEC"
+				"44DC8D765999F8FB"
+				"1F3B8B8C21120800"
+			]
+			description: [
+				"This fine &2&lGreen Powder&r&r will be pretty important  Eventually we'll need a healthy supply. "
+				""
+				"You'll probably need some Shears to shear the grass."
+			]
+			id: "2F5CEEB974A828E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70F8449FDFA4451F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Not just a Growth Powder"
+			tasks: [{
+				id: "681F575A82073405"
+				item: "rootsclassic:growth_powder"
+				type: "item"
+			}]
+			title: "Green Powder"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F5CEEB974A828E0"]
+			id: "2A19102FB0C16ADE"
+			rewards: [{
+				count: 3
+				id: "4B6DA8D05575AEE9"
+				item: "rootsclassic:healing_poultice"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2F3ABCB4BB5B7F5E"
+				item: "rootsclassic:healing_poultice"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"39030471A0763051"
+				"2F5CEEB974A828E0"
+			]
+			description: [
+				"Step 1: Add Peony, Melon, Red Dye, Nightshade, and the Old Root to your Mortar, then use your Pestle.  You will receive a Dust like item. "
+				""
+				"Step 2: Add a Stick, and the Dust item to the Imbuer. "
+				""
+				"Step 3: Watch the pretty effects, and collect your item!"
+			]
+			id: "18780440BF0EC94C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7F5158D325796875"
+					item: "minecraft:peony"
+					type: "item"
+				}
+				{
+					id: "4BCF87CC66E8FF30"
+					item: "minecraft:melon"
+					type: "item"
+				}
+				{
+					id: "35D9CF657B83BD9D"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "10CE7431D706ED32"
+					item: "rootsclassic:nightshade"
+					type: "item"
+				}
+				{
+					id: "534AC5BE159249E0"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+				{
+					id: "3CCB14A0B9E5D77F"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "The Great Peony Hunt!"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18780440BF0EC94C"]
+			description: [
+				"This staff with 0 potency is pretty useless.  You can probably just throw it in the trash. "
+				""
+				"Do you even have a trash can? I heard it burns well in Lava."
+				""
+				"When you make a staff with more Potency on it, it will definitely be more useful!"
+			]
+			id: "53F3A90A3B098706"
+			shape: "circle"
+			tasks: [{
+				id: "6E7A5A17C75B3B69"
+				item: {
+					Count: 1b
+					id: "rootsclassic:staff"
+					tag: {
+						maxUses: 15
+						"rootsclassic:effect": "rootsclassic:peony"
+						"rootsclassic:efficiency": 1
+						"rootsclassic:potency": 0
+						"rootsclassic:size": 0
+						uses: 15
+					}
+				}
+				title: "Staff of Regeneration"
+				type: "item"
+			}]
+			title: "Staff of Regeneration"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2F5CEEB974A828E0"
+				"141BB1A7D5C7030B"
+			]
+			description: ["There is no trackable way for these next steps so you will just need to follow along with the quest."]
+			icon: "minecraft:totem_of_undying"
+			id: "406FE18343CA43AD"
+			shape: "square"
+			tasks: [{
+				id: "27D23FBE4A37E0D7"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "I Didn't Even Take Wood Shop!"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["406FE18343CA43AD"]
+			description: [
+				"With your trusty Totem Whittling Knife, you're going to need to Sneak + Right Click until you have it set to \"Totem Base\".  "
+				""
+				"&oBy default, it starts as Totem Base.&r"
+				""
+				"Right click the bottom Log, or Wood (works on almost all Logs/Wood, but may convert some to Oak)."
+				""
+				"Congrats, you now have a Totem Base!"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "58E14308220B97A7"
+			shape: "square"
+			tasks: [{
+				id: "59750AE9FE742D36"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Looks Like a Strong Base!"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58E14308220B97A7"]
+			description: [
+				"Now go ahead and open up your Eccentric Tome and swap it over to \"Totempedia\"."
+				""
+				"Under Totemic Basics > Totem Effects you'll see several options that you can carve into the next Totem layer.  You can mix and match for various buffs, or you can stack to make a single buff stronger! "
+				""
+				"Totems can be up to 6 blocks tall, and have a range of about 7 blocks.  "
+				""
+				"If you craft a Medicine Bag item later on, you can store a Totem effect in the bag and travel around with it."
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "6EC27A452F584752"
+			shape: "square"
+			tasks: [{
+				id: "6F4CE2411C9DDF47"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "How Intricate"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EC27A452F584752"]
+			description: [
+				"There may be more progression for Totemic in the later ages. However, if you'd like to take a break from the main progression of the pack, feel free to check out the Totempedia in the Akashic Tome.  "
+				""
+				"You can perform some ceremonies by playing specific instruments, which will grant you and the others around you some nice buffs!"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "6D28D5894B4A7B24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428A17BB08E597D8"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "03F49A720767307B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Music, and Dance"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18780440BF0EC94C"]
+			dependency_requirement: "one_started"
+			description: [
+				"Okay, this time we'll add a modifier. "
+				""
+				"Step 1: Add Dandelion, String, Feather, Whitecurrant, Redstone, and a Verdant Sprig to your Mortar, then use your Pestle."
+				""
+				"Step 2: Add the Stick and Dust to the Imbuer, and collect your Staff of Dandelion Winds!"
+			]
+			id: "6ACD3E8E25E1AC9B"
+			shape: "circle"
+			subtitle: "Oh, wait. That isn't the right kind of lion.."
+			tasks: [
+				{
+					id: "4865BEE92BC84E12"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "38383CDD7BBBF374"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "3A4DA2A1C47D3062"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "1ECD5BFDC4F4685C"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					id: "6DE24A12DAF53195"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "27A5AE51F7B91961"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+				{
+					id: "62F2B32E6EE3C743"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Simba..."
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ACD3E8E25E1AC9B"]
+			description: [
+				"This time we're making a staff, but with a modifier.  "
+				""
+				"When using an Old Root we're limited on modifiers. However, we can use Verdant Sprigs, and some other items (check the Runic Tablet in the Eccentric Tome for more info)  to allow the usage of modifiers."
+				""
+				"The 3 different items are:"
+				"&4Redstone:&r +1 to Efficiency (Improve Casting Cost)"
+				"&eGlowstone Dust&r: +1 to Potency (Improve Strength)"
+				"&7Gunpowder:&r +1 to (Improve Area Effect)"
+			]
+			id: "6D06741D36DBD24A"
+			shape: "circle"
+			subtitle: "The materials must be exact!"
+			tasks: [{
+				id: "51D5CAF94E756FA8"
+				item: {
+					Count: 1b
+					id: "rootsclassic:staff"
+					tag: {
+						maxUses: 30
+						"rootsclassic:effect": "rootsclassic:dandelion"
+						"rootsclassic:efficiency": 1
+						"rootsclassic:potency": 0
+						"rootsclassic:size": 0
+						uses: 30
+					}
+				}
+				title: "Staff of Dandelion Winds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			id: "1A561C5F80866151"
+			rewards: [{
+				id: "35F75DE54DABC7D1"
+				item: "pamhc2foodextended:bibimbapitem"
+				random_bonus: 24
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Hungry enough?"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "325AD4C51B6C3932"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rootsclassic:barks"
+					}
+				}
+				title: "Any Bark"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68D95514090BFBF0"]
+			description: [
+				"If you lose this &2&lSlimeball&r&r before turning it into a &l&6Crude Ender Pearl&r&r, and going into The Bumblezone -- you will need to do one of the following:"
+				""
+				"1) Hunt down Slimes deep underground, or in Swampy biomes."
+				""
+				"2) Find a real Ender Pearl."
+				""
+				"3) Somehow get access to a Piston and Piston yourself into the Beehive."
+			]
+			id: "5BD7351D0D67FD79"
+			rewards: [{
+				id: "7BD266BDC25C919D"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "You might want to do this one. It's an easy Slimeball."
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "6BC91B3E150A4374"
+				item: "rootsclassic:old_root"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F5CEEB974A828E0"]
+			description: ["When unlocked in Age 6 -- Mystical Agriculture will not work with Botany Pots, so you will need to find alternative ways to farm those seeds."]
+			id: "4CD0E6121CD44ABE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "34C76F685777888E"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "7D8583A0C7F28815"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			title: "Botany Pots"
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+	title: "Magic"
+}

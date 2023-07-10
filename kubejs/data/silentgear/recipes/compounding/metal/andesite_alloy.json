@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:compounding/metal",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "result": {
+    "item": "create:andesite_alloy"
+  }
+}

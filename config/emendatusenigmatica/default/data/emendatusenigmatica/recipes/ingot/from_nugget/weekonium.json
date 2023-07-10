@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "emendatusenigmatica",
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/weekonium"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "emendatusenigmatica:weekonium_ingot"
+  }
+}

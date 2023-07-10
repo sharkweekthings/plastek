@@ -1,0 +1,109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_7"
+	group: "69403B2D49AA6748"
+	icon: "botania:corporea_spark_creative"
+	id: "3DEACDFEEE319086"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4091966F3BE79F43"]
+			id: "7641C470C43DF85F"
+			shape: "circle"
+			tasks: [{
+				id: "757D33C6AAECFFDA"
+				item: "totemic:ceremony_cheat"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4091966F3BE79F43"]
+			id: "4A579F9DE2AAE831"
+			shape: "circle"
+			tasks: [{
+				id: "546CAC9A7D53E6FD"
+				item: "botania:corporea_spark_creative"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4091966F3BE79F43"]
+			id: "58569DF969BF3D0B"
+			shape: "circle"
+			tasks: [{
+				id: "6FE2B9DEF84E9B06"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4091966F3BE79F43"]
+			id: "4C7DCB83410100CA"
+			shape: "circle"
+			tasks: [{
+				id: "09988D9545957A39"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34269CBE4A60EE1A"]
+			id: "4091966F3BE79F43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5042C7038FD08301"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "19CEF7791BDD7DBC"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4091966F3BE79F43"]
+			id: "6EAE9C7F4AA67883"
+			shape: "circle"
+			tasks: [{
+				id: "095AA56F960E560B"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4091966F3BE79F43"]
+			id: "468DDF3204DE04A6"
+			shape: "circle"
+			tasks: [{
+				id: "783F1EBDE362CEBC"
+				item: "mysticalagriculture:creative_soulium_dagger"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+	title: "Magic"
+}

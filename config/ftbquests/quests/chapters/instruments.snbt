@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "instruments"
+	group: "6274245AF897553D"
+	icon: {
+		Count: 1b
+		id: "instrumentalmobs:french_horn"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3513761B567E7A7E"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2A537060C599165C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05F4FC01E6CB768C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "28EF8328EC79EE07"
+				item: {
+					Count: 1b
+					id: "instrumentalmobs:drum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "371918CF14E17D1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C60AC3CDFCBA8EA"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "6D231C5787E062E0"
+				item: {
+					Count: 1b
+					id: "instrumentalmobs:cymbals"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "1F8B4350B9E3BE6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BC32082D4DDF4D2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "59C985FA71515FD1"
+				item: {
+					Count: 1b
+					id: "instrumentalmobs:french_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "3DE9A450CEA9DB93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "408686F937731078"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "4DC0B816DFFEAA6F"
+				item: {
+					Count: 1b
+					id: "instrumentalmobs:maracas"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "1B4231D8784BBD36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58D91C2D8D24905C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "5C8864CBA972C00D"
+				item: {
+					Count: 1b
+					id: "instrumentalmobs:microphone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "4D4235C15C5B94CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7C9B78E293B8B2"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "50603EBD27A21A4F"
+				item: "instrumentalmobs:tuba"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "479B614267D9AAC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD978D141D9B245"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Instrumental Mobs"
+			tasks: [{
+				id: "07CDDDA8486F74D4"
+				item: {
+					Count: 1b
+					id: "instrumentalmobs:xylophone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+	title: "Instruments"
+}
