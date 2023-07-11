@@ -1,7 +1,7 @@
 ##
 ## Tips
 
-1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)!
+1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
 
 2) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
 
@@ -15,14 +15,14 @@
  - Change Line 5 (Enable difficulty scaling) and Line 27 (Difficulty
    toggle) to = false
    
-**Option 2** - Adjust difficulty scaling
+**Option 2** - *Adjust difficulty scaling*
  - Open your "config" folder
  - Open the "improvedmobs" folder
  - Open the "common.toml" file
  - Line 14 (Difficulty Increase)
 	 - **Age 0** - "0-0.01", "10-0" - (difficulty goes up at a rate of .01 until
 	   it hits 10, then stops)
-	 - **Age 1** - "15" - (difficulty set to 15 in agereward.js / see below)
+	 - **Age 1** - "15" - (difficulty set to 15 in agereward.js / difficulty for Age 1 is a flat value of 15)
 	 - **Age 2** - "20" - "20-0.05", "30-0" (difficulty set to 20 in
 	   agereward.js / goes up at a rate of .05 until it hits 30, then stops)
 	 - **Age 3** - "35" - "35-0.05", "50-0" (difficulty set to 35 in
