@@ -6,7 +6,7 @@
 FTBQuestsEvents.customReward('75C204049F7833F5', event => {
   event.server.runCommandSilent(`thitemstages add ${event.player.username} age_1`)
   event.server.runCommandSilent(`ftbranks add ${event.player.username} age_1`)
-  event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.username} set 15`) // Automatically set 15 to Age 1
+  event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.username} set 15`) // Start Age 1 at 15
   event.server.runCommandSilent(`tell @a Welcome to Age 1!`)
 })
 
