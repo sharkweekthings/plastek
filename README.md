@@ -6,7 +6,7 @@ Here are a few tips / FAQs (WIP):
 
 1 - The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP. 
 
-1 - Is the game too hard? You have a few options!
+2 - Is the game too hard? You have a few options!
     Option 1 - Disable difficulty change entirely:
     * Open your "config" folder
     * Open the "improvedmobs" folder
@@ -41,5 +41,5 @@ Here are a few tips / FAQs (WIP):
             * On each line you can change the number "set ##" to your chosen difficulty scaling.
 
 
-Known Issues
+Known Issues:
 Textures are missing for several Nat Prog pebbles. Reported to Dev.
