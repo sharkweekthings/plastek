@@ -18,6 +18,8 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:diamond_horse_armor", "inventorypets:nugget_diamond");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("silentgear:blaze_gold_ingot", "3x inventorypets:nugget_diamond");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:netherite_backpack", "minecraft:diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:spruce_sapling", "inventorypets:nugget_diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:diamond_block", "inventorypets:nugget_diamond");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:emerald", "inventorypets:nugget_emerald");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:gun_ammo_incendiary", "inventorypets:nugget_emerald");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:raw_zinc", "inventorypets:nugget_emerald");
@@ -25,7 +27,6 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:ender_pearl", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:copper_ingot", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:ingot_iron_compressed", "inventorypets:nugget_ender");
-    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:spruce_sapling", "inventorypets:nugget_diamond");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:writable_book", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:quartz", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("ars_nouveau:source_gem", "ars_nouveau:nugget_ender");
@@ -84,6 +85,7 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:crushed_raw_iron", "emendatusenigmatica:iron_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:crushed_raw_tin", "emendatusenigmatica:iron_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:crushed_raw_silver", "emendatusenigmatica:iron_crystal");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:pumpkin_seeds", "emendatusenigmatica:iron_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:painting", "immersive_paintings:painting");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:pneumatic_cylinder", "immersive_paintings:painting");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:iron_backpack", "botanypots:terracotta_botany_pot");
