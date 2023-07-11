@@ -452,6 +452,7 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'create:crafting_blueprint',
   'create:copper_diving_helmet',
   'create:copper_backtank',
   'create:copper_diving_boots',
@@ -735,6 +736,7 @@ event.add('kubejs:age_3_item',
 
 event.add('kubejs:age_3_exception', 
   [
+  'create:crafting_blueprint',
   'ad_astra:oxygen_sensor',
   'ad_astra:oxygen_distributor',
   'ad_astra:water_pump',
@@ -992,6 +994,7 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'mekanism:cardboard_box',
   'sleep_tight:dreamer_essence',
   'thermal:hazmat_boots',
   'thermal:hazmat_leggings',
@@ -1299,6 +1302,7 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mekanism:cardboard_box',
   'mekanism:digital_miner',
   'mekanism:hazmat_mask',
   'mekanism:hazmat_pants',

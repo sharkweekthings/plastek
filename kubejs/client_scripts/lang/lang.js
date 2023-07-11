@@ -82,6 +82,7 @@
   	rename('mekanism:hazmat_gown', "Hazmat Chest Lining")
   	rename('mekanism:hazmat_pants', "Hazmat Pants Lining")
   	rename('mekanism:hazmat_boots', "Hazmat Boots Lining")
+  	rename('mekanism:cardboard_box', "High Tech Cardboard Box")
 	
 // FRUITS AND VEGGIES
   	rename('farmersdelight:cabbage_seeds', "Savoy Cabbage Seeds")

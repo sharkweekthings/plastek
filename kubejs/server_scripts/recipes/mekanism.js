@@ -85,6 +85,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mekanism:hazmat_pants'})
   event.remove({id: 'mekanism:hazmat_boots'})
   event.remove({id: 'mekanism:digital_miner'})
+  event.remove({id: 'mekanism:cardboard_box'})
   event.remove({output: 'mekanism:bio_fuel'})
 
 //
@@ -97,6 +98,13 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Cardboard Box
+  event.shaped('mekanism:cardboard_box',
+    ['121','131','111'], {
+  1: '#forge:sawdust',
+  2: 'create:super_glue',
+	3: 'pneumaticcraft:printed_circuit_board'})
 
 // Metallurgic Infuser
   event.shaped('mekanism:metallurgic_infuser',

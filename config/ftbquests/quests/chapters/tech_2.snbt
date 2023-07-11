@@ -284,6 +284,7 @@
 				type: "random"
 			}]
 			shape: "gear"
+			subtitle: "New storage options open up after getting Treated Wood!"
 			tasks: [{
 				id: "6C2B72E5EB3F747A"
 				item: {
@@ -297,20 +298,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7010308F4F836BAD"]
-			description: ["With this section completed you are now able to start making some better storage systems. Check out the Storage tab to see what opened up!"]
-			id: "63A14E63FE8DFE20"
-			shape: "circle"
-			tasks: [{
-				id: "6781FC6C96CDCE71"
-				title: "Ok"
-				type: "checkmark"
-			}]
-			title: "Check Out The Storage Tab!"
-			x: 6.0d
 			y: 6.5d
 		}
 		{
@@ -1108,6 +1095,25 @@
 			}]
 			x: 9.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["78F24740AFF5CE8F"]
+			description: [
+				"With this here Crafting Blueprint, you can place it on a wall, assign it a recipe, then -- with the materials for that recipe in your inventory, you can click on the Crafting Blueprint to produce your items. "
+				""
+				"&oExample: &r"
+				"Lets say you want to turn Iron Fragments into Raw Iron. You just need to assign the Blueprint to be Raw Iron. If you have at least 9 Iron Fragments in your inventory, and you click on the Blueprint, it will return Raw Iron."
+			]
+			id: "1ABEF27B5C3F766C"
+			shape: "circle"
+			subtitle: "Auto Crafting v1"
+			tasks: [{
+				id: "0C530650A531D670"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
 		}
 	]
 	title: "Tech"

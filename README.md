@@ -1,7 +1,7 @@
 ##
 ## Tips
 
-1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
+1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)!
 
 2) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
 

@@ -368,15 +368,17 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["026849755FFDC818"]
 			description: [
-				"With Greenhouse Glass you will be able to grow crops in all seasons!  Just make sure you have Any Green Stained Glass above the crop you're wanting to benefit. "
+				"With Greenhouse Glass you will be able to grow crops in all seasons!  Just make sure you have Any &aGreen Stained Glass&r above the crop you're wanting to benefit. "
 				""
 				"You can use Chipped to fancy up the glass if you want, or just use the regular Minecraft Green Stained Glass."
+				""
+				"If you're not sure whether or not a Green Stained Glass will work, you can hold CTRL down over the item in JEI and look for a tag that specifies \"&asereneseasons:greenhouse_glass&r\""
 			]
 			id: "795374A3305D4394"
 			shape: "circle"
@@ -393,7 +395,7 @@
 				type: "item"
 			}]
 			title: "Greenhouse Glass"
-			x: -2.5d
+			x: -3.0d
 			y: 5.0d
 		}
 		{
@@ -683,6 +685,23 @@
 			]
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"With this handy dandy High Tech Cardboard Box you can pack up a spawner, and relocate it to anywhere you want.   "
+				""
+				"Maybe a mob farm of some sort? "
+			]
+			id: "6EA4D563D61BDB4C"
+			shape: "circle"
+			tasks: [{
+				id: "386C3078458095E6"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
 		}
 	]
 	title: "Super Side Quests"

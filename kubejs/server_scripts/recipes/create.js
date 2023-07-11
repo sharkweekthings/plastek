@@ -64,6 +64,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:crafting/logistics/andesite_tunnel'})
   event.remove({id: 'create:crafting/logistics/brass_tunnel'})
   event.remove({id: 'create:crafting/kinetics/mechanical_roller'})
+  event.remove({id: 'create:crafting/appliances/crafting_blueprint'})
 
 //
 })
@@ -75,6 +76,13 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Crafting Blueprint
+  event.shaped('create:crafting_blueprint', 
+    ['111','121','131'], {
+    1: 'silentgear:blueprint_paper',
+    2: 'immersiveengineering:craftingtable',
+    3: 'create:precision_mechanism'})
 
 // Mechanical Roller
   event.shaped('create:mechanical_roller', 
