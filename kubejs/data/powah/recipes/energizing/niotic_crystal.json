@@ -1,9 +1,12 @@
 {
   "type": "powah:energizing",
   "ingredients": [
+	{"item": "botania:manasteel_ingot"},
 	{"item": "minecraft:diamond"},
   {"item": "powah:crystal_blazing"},
-  {"item": "minecraft:diamond"}
+  {"item": "powah:crystal_blazing"},
+  {"item": "minecraft:diamond"},
+  {"item": "botania:manasteel_ingot"}
   ],
   "energy": 300000,
   "result": {

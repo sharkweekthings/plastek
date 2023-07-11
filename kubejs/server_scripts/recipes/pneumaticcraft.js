@@ -263,11 +263,12 @@ ServerEvents.recipes(event => {
       "inputs": [
         {"item": "pneumaticcraft:plastic",},
         {"item": "rootsclassic:growth_powder",},
-        {"item": "create:precision_mechanism",}],
+        {"item": "create:precision_mechanism",},
+        {"item": "emendatusenigmatica:brass_plate",}],
           "pressure": 2.0, 
           "results": [
             {"item": "pneumaticcraft:empty_pcb",
-              "count": 3},]
+              "count": 2},]
   })
 
 // Diamond Ring

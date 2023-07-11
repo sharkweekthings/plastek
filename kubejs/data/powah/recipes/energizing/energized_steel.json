@@ -5,12 +5,15 @@
 	  "item": "emendatusenigmatica:steel_ingot"
 	},
 	{
+	  "item": "create:brass_ingot"
+	},
+	{
 	  "item": "silentcompat:plasteel_ingot"
 	}
   ],
   "energy": 10000,
   "result": {
 	"item": "powah:steel_energized",
-	"count": 2
+	"count": 1
   }
 }

@@ -2,7 +2,8 @@
   "type": "powah:energizing",
   "ingredients": [
 	{"item": "minecraft:blaze_rod"},
-  {"item": "powah:steel_energized"}
+  {"item": "powah:steel_energized"},
+	{"item": "create:brass_ingot"}
   ],
   "energy": 90000,
   "result": {

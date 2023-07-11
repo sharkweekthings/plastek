@@ -1,9 +1,12 @@
 {
   "type": "powah:energizing",
   "ingredients": [
+	{"item": "botania:terrasteel_ingot"},
 	{"item": "minecraft:emerald"},
   {"item": "powah:crystal_niotic"},
-  {"item": "minecraft:emerald"}
+  {"item": "powah:crystal_niotic"},
+  {"item": "minecraft:emerald"},
+	{"item": "botania:terrasteel_ingot"}
   ],
   "energy": 1000000,
   "result": {

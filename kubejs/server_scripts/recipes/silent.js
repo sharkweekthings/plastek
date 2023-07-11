@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'silentgear:compounding/metal/tyrian_steel_ingot'})
   event.remove({id: 'silentgear:salvager'})
   event.remove({output: 'silentcompat:solarmetal_ingot'})
+  event.remove({id: 'silentgear:bronze_ingot'})
 
 //
 })

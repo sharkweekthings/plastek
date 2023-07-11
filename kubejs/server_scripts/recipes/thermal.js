@@ -48,6 +48,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:machines/press/packing2x2/press_rubber_packing'})
   event.remove({ output: "thermal:rubber"})
   event.remove({id: 'thermal:hazmat_fabric'})
+  event.remove({id: 'thermal:fire_charge/invar_ingot_3'})
+  event.remove({id: 'thermal:fire_charge/electrum_ingot_2'})
 
 //
 })
@@ -360,7 +362,45 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "mythicbotany:alfsteel_ingot",
+      "chance": 0.4,
+      "count": 1
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot",
+      "chance": 0.2,
+      "count": 1
+    }
+  ],
+  "energy": 12000
+})
+
+// Terrasteel Ingot
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "botania:mana_diamond",
+      "count": 1
+    },
+    {
+      "item": "botania:mana_pearl",
+      "count": 1
+    },
+    {
+      "item": "botania:manasteel_ingot",
       "count": 2
+    }
+  ],
+  "result": [
+    {
+      "item": "botania:terrasteel_ingot",
+      "chance": 0.6,
+      "count": 1
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "chance": 0.3,
+      "count": 1
     }
   ],
   "energy": 12000

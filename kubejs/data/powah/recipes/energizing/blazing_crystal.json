@@ -4,11 +4,13 @@
 	{"item": "minecraft:blaze_powder"},
 	{"item": "minecraft:blaze_powder"},
 	{"item": "powah:steel_energized"},
+	{"item": "create:brass_ingot"},
 	{"item": "minecraft:blaze_powder"},
 	{"item": "minecraft:blaze_powder"}
   ],
   "energy": 120000,
   "result": {
-	"item": "powah:crystal_blazing"
+	"item": "powah:crystal_blazing",
+	"count": 2
   }
 }
