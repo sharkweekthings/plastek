@@ -8,8 +8,6 @@
 ##
 ## Difficulty Adjustment
 
-2) Is the game too hard? You have a few options!
-
 **Option 1** - *Disable difficulty change entirely*:
  - Open your "config" folder
  - Open the "improvedmobs" folder
