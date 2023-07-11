@@ -382,6 +382,14 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'quark:encased_pipe',
+  'supplementaries:tater_in_a_jar',
+  'quark:magnetized_block',
+  'quark:magnet',
+  'quark:pipe',
+  'quark:tiny_potato',
+  'quark:bonded_ravager_hide',
+  'quark:crate',
   'chococraft:chocopedia',
   'minecraft:book',
   'rootsclassic:runic_tablet',
@@ -1156,6 +1164,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'unusualend:music_disc_endstone_golem_theme',
   'thermal:cured_rubber',
   'thermal:saw_blade',
   'thermal:hazmat_boots',
