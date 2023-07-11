@@ -1,12 +1,12 @@
-Welcome to Plastek!
+##
+## Tips
 
-If you have any questions you are welcome to join us on Discord: https://discord.gg/Tt8sGvQRH4
+1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
 
-Here are a few tips / FAQs (WIP):
+2) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
 
-**Tips**
-
-1) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
+##
+## Difficulty Adjustment
 
 2) Is the game too hard? You have a few options!
 
@@ -58,8 +58,7 @@ Here are a few tips / FAQs (WIP):
  - On each line you can change the number "set ##" to your chosen
    difficulty scaling.
 
-  
-  
+##
+## Known Issues
 
-**Known Issues**:
  - Textures are missing for several Nat Prog pebbles. Reported to Dev.
