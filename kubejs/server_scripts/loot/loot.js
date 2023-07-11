@@ -19,6 +19,7 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("silentgear:blaze_gold_ingot", "3x inventorypets:nugget_diamond");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:netherite_backpack", "minecraft:diamond");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:emerald", "inventorypets:nugget_emerald");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:gun_ammo_incendiary", "inventorypets:nugget_emerald");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:raw_zinc", "inventorypets:nugget_emerald");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("silentgear:crimson_iron_ingot", "3x inventorypets:nugget_emerald");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:ender_pearl", "inventorypets:nugget_ender");

@@ -98,6 +98,11 @@
 				item: "immersiveengineering:raw_aluminum"
 				type: "item"
 			}
+			{
+				id: "130EB2455080F934"
+				item: "mysticalagriculture:awakened_supremium_sword"
+				type: "item"
+			}
 		]
 		tasks: [
 			{
