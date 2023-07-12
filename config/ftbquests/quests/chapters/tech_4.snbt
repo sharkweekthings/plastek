@@ -864,12 +864,12 @@
 			description: [
 				"Since you're going to be needing a lot of Printed Circuit Boards for the forseeable future -- you may want to set up a better process to create them.  "
 				""
-				"Using the Pneumaticcraft Assembly you can greatly speed up the process of creating the Unassembled PCB. "
+				"Using the Pneumaticcraft Assembly you can greatly speed up the process of creating the Unassembled PCB."
 				""
-				"Using other Assembly programs you will be able to make more advanced Pressure Tubes, and some other parts more efficiently. "
+				"&b&oWhile the Laser Assembly is not required to complete Age 4, it is required to make several machines in Age 5.&r&r"
 			]
 			id: "19B5FFF3FB393174"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "0695E6A805E26FC3"
 				title: "OK"
@@ -919,8 +919,25 @@
 		}
 		{
 			dependencies: ["19B5FFF3FB393174"]
+			description: [
+				"The Laser Program has many capabilities for this pack:"
+				""
+				"- Advanced Pressure Tube"
+				"- Compression Dynamo"
+				"- Gourmand Dynamo"
+				"- Pneumatic Dynamo"
+				"- Stirling Dynamo"
+				"- Empty PCB"
+				"- Dissolution Chamber"
+				"- Fluid Cell"
+				"- Loot Fabricator"
+				"- Simulation Chamber"
+				"- Pressure Chamber Valve"
+				""
+				"There is also a Drill Program that will let you make a Netherite Drill Bit. "
+			]
 			id: "6C9495C43764A397"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "6FFEFD7215C5F0F7"
 				item: "pneumaticcraft:assembly_program_laser"
@@ -939,7 +956,7 @@
 				"Barrels are optional, you should be able to use any storage. "
 			]
 			id: "5742B7B8C9A7667A"
-			shape: "circle"
+			shape: "square"
 			tasks: [
 				{
 					id: "4B414CFBB9173DBA"

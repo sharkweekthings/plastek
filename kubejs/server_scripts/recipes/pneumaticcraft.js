@@ -37,6 +37,12 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:security_upgrade'})
   event.remove({id: 'pneumaticcraft:smart_chest'})
   event.remove({id: 'pneumaticcraft:pneumatic_dynamo'})
+  event.remove({id: 'pneumaticcraft:assembly_platform'})
+  event.remove({id: 'pneumaticcraft:assembly_io_unit_import'})
+  event.remove({id: 'pneumaticcraft:assembly_io_unit_export'})
+  event.remove({id: 'pneumaticcraft:assembly_drill'})
+  event.remove({id: 'pneumaticcraft:assembly_laser'})
+  event.remove({id: 'pneumaticcraft:assembly_controller'})
 
 //
 })
@@ -48,6 +54,59 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+    
+// Assembly Platform
+  event.shaped('pneumaticcraft:assembly_platform', 
+    ['111','222','343'], {
+    1: 'pneumaticcraft:pneumatic_cylinder',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:printed_circuit_board'})
+    
+// Assembly IO Import
+  event.shaped('pneumaticcraft:assembly_io_unit_import', 
+    ['511',' 21','343'], {
+    1: 'pneumaticcraft:pneumatic_cylinder',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: 'minecraft:hopper'})
+    
+// Assembly IO Export
+  event.shaped('pneumaticcraft:assembly_io_unit_export', 
+    ['115','12 ','343'], {
+    1: 'pneumaticcraft:pneumatic_cylinder',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: 'minecraft:hopper'})
+    
+// Assembly Controller
+  event.shaped('pneumaticcraft:assembly_controller', 
+    ['545','242','313'], {
+    1: 'pneumaticcraft:pneumatic_cylinder',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: '#forge:glass'})
+    
+// Assembly Drill
+  event.shaped('pneumaticcraft:assembly_drill', 
+    ['511',' 21','343'], {
+    1: 'pneumaticcraft:pneumatic_cylinder',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: 'minecraft:diamond_block'})
+    
+// Assembly Laser
+  event.shaped('pneumaticcraft:assembly_laser', 
+    ['511',' 21','343'], {
+    1: 'pneumaticcraft:pneumatic_cylinder',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: 'industrialforegoing:laser_lens14'})
     
 // Pressure Chamber Valve  
   event.shaped('pneumaticcraft:pressure_chamber_valve', 
