@@ -93,16 +93,6 @@
 				table_id: 3325230720908722317L
 				type: "choice"
 			}
-			{
-				id: "1D0B6A320990A77F"
-				item: "immersiveengineering:raw_aluminum"
-				type: "item"
-			}
-			{
-				id: "130EB2455080F934"
-				item: "mysticalagriculture:awakened_supremium_sword"
-				type: "item"
-			}
 		]
 		tasks: [
 			{

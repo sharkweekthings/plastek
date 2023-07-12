@@ -11,9 +11,9 @@
 		{
 			dependencies: ["4FE0F5D998E80566"]
 			description: [
-				"Probably one of the easiest forms of power right now, and pretty convenient.  "
+				"Power through Coal/Coal Coke. "
 				""
-				"Just power it up with Coal or Coal Coke."
+				"Easy, and great for jump starting things."
 			]
 			id: "739C33D959E17736"
 			shape: "circle"
@@ -33,7 +33,7 @@
 				"We'll need some of the byproduct from the setup, so it may be worth going down this path."
 			]
 			id: "64679E7FA0EE3FC7"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "74C41DF90D051F2F"
 				item: "thermal:dynamo_compression"
@@ -126,13 +126,7 @@
 		}
 		{
 			dependencies: ["5FCBAAD5BBD07EC0"]
-			description: [
-				"This route will give you a few more power options that are currently available to you. "
-				""
-				"While a Compression Dynamo is completely optional, we will need some of the by-product of making Refined Fuel, so it may not be a bad idea to use one of these."
-				""
-				"There is always the sheep, or converting your IE power."
-			]
+			description: ["This route will give you a few more power options that are currently available to you. "]
 			id: "4FE0F5D998E80566"
 			shape: "square"
 			tasks: [{
@@ -1219,6 +1213,7 @@
 		}
 		{
 			dependencies: ["4FE0F5D998E80566"]
+			description: ["Power through compressed air.  If you need to generate heat for anything, this will also help generate heat. "]
 			id: "77539F61CA763734"
 			shape: "circle"
 			tasks: [{

@@ -994,6 +994,13 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'kubejs:advanced_pressure_tube_parts',
+  'kubejs:incomplete_green_board',
+  'kubejs:green_board',
+  'kubejs:empty_pcb_parts',
+  'kubejs:netherite_drill_bit_parts',
+  'kubejs:pressure_chamber_valve_parts',
+  'kubejs:empty_parts_box',
   'mekanism:cardboard_box',
   'sleep_tight:dreamer_essence',
   'thermal:hazmat_boots',
@@ -1048,6 +1055,7 @@ event.add('kubejs:age_4_item',
 
 event.add('kubejs:age_4_exception', 
   [
+  'immersiveengineering:dust_wood',
   'pneumaticcraft:compressed_iron_helmet',
   'pneumaticcraft:compressed_iron_chestplate',
   'pneumaticcraft:compressed_iron_leggings',
@@ -1125,6 +1133,14 @@ event.add('kubejs:age_4_exception',
 
 event.add('kubejs:age_5_item', 
   [
+  'kubejs:compression_dynamo_parts',
+  'kubejs:dissolution_chamber_parts',
+  'kubejs:stirling_dynamo_parts',
+  'kubejs:simulation_chamber_parts',
+  'kubejs:pneumatic_dynamo_parts',
+  'kubejs:loot_fabricator_parts',
+  'kubejs:gourmand_dynamo_parts',
+  'kubejs:fluid_cell_parts',
   'ad_astra:oxygen_sensor',
   'ad_astra:oxygen_distributor',
   'ad_astra:water_pump',
@@ -1167,6 +1183,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'thermal:sawdust',
   'unusualend:music_disc_endstone_golem_theme',
   'thermal:cured_rubber',
   'thermal:saw_blade',
@@ -1263,6 +1280,9 @@ event.add('kubejs:age_5_exception',
 
 event.add('kubejs:age_6_item', 
   [
+  'kubejs:repaired_zpm_housing_unit',
+  'kubejs:damaged_zpm_housing_unit',
+  'kubejs:zpm_housing_unit',
   'ad_astra:netherite_space_helmet',
   'ad_astra:netherite_space_suit',
   'ad_astra:netherite_space_pants',
@@ -1302,6 +1322,7 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mekanism:sawdust',
   'mekanism:cardboard_box',
   'mekanism:digital_miner',
   'mekanism:hazmat_mask',
