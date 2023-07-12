@@ -23,7 +23,7 @@
 	 - **Age 0** - "0-0.01", "10-0" - (difficulty goes up at a rate of .01 until
 	   it hits 10, then stops)
 	 - **Age 1** - "15" - (difficulty set to 15 in agereward.js / difficulty for Age 1 is a flat value of 15)
-	 - **Age 2** - "20" - "20-0.05", "30-0" (difficulty set to 20 in
+	 - **Age 2** - "25" - "25-0.05", "30-0" (difficulty set to 20 in
 	   agereward.js / goes up at a rate of .05 until it hits 30, then stops)
 	 - **Age 3** - "35" - "35-0.05", "50-0" (difficulty set to 35 in
 	   agereward.js / goes up at a rate of .05 until it hits 50, then stops)

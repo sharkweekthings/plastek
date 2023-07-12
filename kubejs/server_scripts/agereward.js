@@ -13,7 +13,7 @@ FTBQuestsEvents.customReward('75C204049F7833F5', event => {
 FTBQuestsEvents.customReward('2E87419E472B2A55', event => {
   event.server.runCommandSilent(`thitemstages add ${event.player.username} age_2`)
   event.server.runCommandSilent(`ftbranks add ${event.player.username} age_2`)
-  event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.username} set 20`) // 20 - 30
+  event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.username} set 25`) // 20 - 30
   event.server.runCommandSilent(`tell @a Welcome to Age 2!`)
 })
 
