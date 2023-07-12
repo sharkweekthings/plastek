@@ -33,6 +33,14 @@ StartupEvents.registry('item', e => {
   e.create('empty_pcb_parts')
   e.create('netherite_drill_bit_parts')
   e.create('pressure_chamber_valve_parts')
+  e.create('compression_dynamo_parts')
+  e.create('dissolution_chamber_parts')
+  e.create('fluid_cell_parts')
+  e.create('gourmand_dynamo_parts')
+  e.create('loot_fabricator_parts')
+  e.create('pneumatic_dynamo_parts')
+  e.create('simulation_chamber_parts')
+  e.create('stirling_dynamo_parts')
 })
 
 StartupEvents.registry('block', e => {

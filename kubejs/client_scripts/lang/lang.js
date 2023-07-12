@@ -59,6 +59,14 @@
   	rename('kubejs:green_board', "Green Board")
   	rename('kubejs:incomplete_green_board', "Incomplete Green Board")
   	rename('kubejs:empty_parts_box', "Empty Parts Box")
+  	rename('kubejs:compression_dynamo_parts', "Compression Dynamo Parts")
+  	rename('kubejs:dissolution_chamber_parts', "Dissolution Chamber Parts")
+  	rename('kubejs:fluid_cell_parts', "Fluid Cell Parts")
+  	rename('kubejs:gourmand_dynamo_parts', "Gourmand Dynamo Parts")
+  	rename('kubejs:loot_fabricator_parts', "Loot Fabricator Parts")
+  	rename('kubejs:pneumatic_dynamo_parts', "Pneumatic Dynamo Parts")
+  	rename('kubejs:simulation_chamber_parts', "Simulation Chamber Parts")
+  	rename('kubejs:stirling_dynamo_parts', "Stirling Dynamo Parts")
 
 // COMPACT MACHINES
   	rename('compactmachines:personal_shrinking_device', "Personal Compacting Device")

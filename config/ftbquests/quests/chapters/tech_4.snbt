@@ -695,9 +695,11 @@
 			description: [
 				"With a Printed Circuit Board, you're ready  for more progression! "
 				""
-				"PCBs will be used often throughout the remainder of the pack.  The current set up is slow, but it does work. "
+				"PCBs will be used often throughout the remainder of the pack.  "
 				""
-				"It's definitely suggested to set up an Assembled Controller to speed up the process of PCBs, as well as the ability to start making more advanced Tubes, and Compressors!"
+				"The current set up is slow, but it does work. "
+				""
+				"It's definitely suggested to set up an Assembly production to speed up the process of PCBs, as well as the ability to start making more advanced Tubes, Compressors, and more."
 				" "
 			]
 			id: "2E18138D211E9206"
@@ -860,9 +862,11 @@
 		{
 			dependencies: ["2E18138D211E9206"]
 			description: [
-				"Since you're going to be needing a lot of Printed Circuit Boards for the forseeable future  -- you may want to set up a better process to create them.  "
+				"Since you're going to be needing a lot of Printed Circuit Boards for the forseeable future -- you may want to set up a better process to create them.  "
 				""
 				"Using the Pneumaticcraft Assembly you can greatly speed up the process of creating the Unassembled PCB. "
+				""
+				"Using other Assembly programs you will be able to make more advanced Pressure Tubes, and some other parts more efficiently. "
 			]
 			id: "19B5FFF3FB393174"
 			shape: "circle"
@@ -878,8 +882,7 @@
 		{
 			dependencies: ["332A9FEAE32BBFD3"]
 			description: [
-				"You can also let a Tank fill up with Molten plastic, then use another tank like a Bucket, then put the Molten Plastic Tank inside a Barrel that has a Heat Frame attached to it, and it should turn the items inside the tank into Plastic."
-				""
+				"You can also let a Tank fill up with Molten plastic, then use another tank like a Bucket, put the Molten Plastic Tank that you collected inside a Barrel that has a Heat Frame attached to it, and it should turn the items inside the tank into Plastic Sheets. "
 				""
 				"A setup like this should get you going:"
 				"{image:kubejs:textures/pneumaticcraft/pneumatic_heat_frame_sample.png width:175 height:125 align:1} "
@@ -910,6 +913,7 @@
 					type: "item"
 				}
 			]
+			title: "Molten Plastic to Plastic Sheets"
 			x: -1.5d
 			y: 8.5d
 		}
@@ -972,12 +976,19 @@
 				"6C9495C43764A397"
 			]
 			id: "312585081B7A3CDD"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C105F4304644FBD"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "68FE48998D9D1941"
 				item: "pneumaticcraft:unassembled_pcb"
 				type: "item"
 			}]
+			title: "Unassembled From Assembly"
 			x: 9.0d
 			y: 8.5d
 		}
@@ -1118,6 +1129,36 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3F978FBFABBAC51C"]
+			id: "06FDA3A0ABB7D61E"
+			shape: "circle"
+			tasks: [{
+				id: "3103145DF9088C55"
+				item: "pneumaticcraft:reinforced_pressure_tube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65347C6676E31024"]
+			id: "70B420DBF0D5F0F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D32F03103AC15F2"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4FCBC4E417CF5CAF"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
 		}
 	]
 	title: "Tech"

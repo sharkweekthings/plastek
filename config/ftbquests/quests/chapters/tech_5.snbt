@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["45216AA2FD4ED89F"]
@@ -1216,6 +1216,18 @@
 			title: "Smarter Mining"
 			x: 6.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			id: "77539F61CA763734"
+			shape: "circle"
+			tasks: [{
+				id: "45C1B12E9BB3C707"
+				item: "pneumaticcraft:pneumatic_dynamo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
 		}
 	]
 	title: "Tech"
