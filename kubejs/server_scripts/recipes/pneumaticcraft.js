@@ -257,26 +257,13 @@ ServerEvents.recipes(event => {
           "results": [{"item": "silentcompat:solarmetal_ingot"}]
   })
 
-// Empty PCB
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber", 
-      "inputs": [
-        {"item": "pneumaticcraft:plastic",},
-        {"item": "rootsclassic:growth_powder",},
-        {"item": "create:precision_mechanism",},
-        {"item": "emendatusenigmatica:brass_plate",}],
-          "pressure": 2.0, 
-          "results": [
-            {"item": "pneumaticcraft:empty_pcb",
-              "count": 2},]
-  })
-
 // Diamond Ring
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
         {"item": "compressium:diamond_3",},
         {"item": "compressium:diamond_3",},
+        {"item": "powah:crystal_spirited",},
         {"item": "powah:crystal_spirited",},
         {"item": "mekanism:enriched_diamond",},
         {"item": "mekanism:enriched_diamond",}],

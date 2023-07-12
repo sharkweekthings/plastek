@@ -204,7 +204,7 @@
 				""
 				"For the quest, we'll just be building a 3x3x3.  "
 				""
-				"&c&lI would suggest building a 4x4x4 though as it will be required to finish this age, and make better plastic.&r&r"
+				"Each Pressure Chamber can hold up to 27 stacks of items. "
 			]
 			id: "4C3B6C4F42399736"
 			tasks: [{
@@ -363,30 +363,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4C3B6C4F42399736"]
-			description: [
-				"For this upgrade you're going to need a lot more walls or glass. It's up to you how you want to finish it off. "
-				""
-				"You'll need 53 Pressure Chamber Walls, Glass or any mix of it to construct the 4x4x4 structure. Then you'll need to add 2 Pressure Chamber Interfaces, and 1 Pressure Chamber Valve."
-			]
-			id: "0918F2E9F5D62F3F"
-			rewards: [{
-				count: 15
-				id: "29591E383F75581B"
-				item: "pneumaticcraft:pressure_chamber_wall"
-				type: "item"
-			}]
-			subtitle: "Sometimes it pays to read ahead (probably only this time)"
-			tasks: [{
-				id: "3D8ADB29A80348F3"
-				title: "Ok"
-				type: "checkmark"
-			}]
-			title: "Moar Bigger Pressure"
-			x: -6.5d
-			y: 5.5d
-		}
-		{
 			dependencies: ["434CB01AA70F4D9B"]
 			description: [
 				"This chain will focus on creating a few different simple setups for Create's Sequenced Assembly."
@@ -430,6 +406,8 @@
 				"This will cover: "
 				""
 				"- Train Track"
+				"- Green Board"
+				"- Empty PCB"
 				"- Hardened Integral Components"
 				"- Reinforced Integral Components"
 				"- Resonant Integral Components"
@@ -775,10 +753,10 @@
 		}
 		{
 			dependencies: [
-				"0918F2E9F5D62F3F"
 				"1272ED98D4CBD571"
 				"609E5760F5FB5102"
 				"2D3BDA6C01C2195E"
+				"420F4920C8B2367B"
 			]
 			description: [
 				"With some Cheap Plastic, Desh Dust, and Apatite Dust -- we can make stronger plastic.  "
@@ -1161,8 +1139,8 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7FE6C2524B72462E"]

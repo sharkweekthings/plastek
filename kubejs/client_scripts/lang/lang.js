@@ -56,6 +56,8 @@
   	rename('kubejs:zpm_housing_unit', "ZPM Housing Unit")
   	rename('kubejs:damaged_zpm_housing_unit', "Damaged ZPM Housing Unit")
   	rename('kubejs:repaired_zpm_housing_unit', "Repaired ZPM Housing Unit")
+  	rename('kubejs:green_board', "Green Board")
+  	rename('kubejs:incomplete_green_board', "Incomplete Green Board")
 
 // COMPACT MACHINES
   	rename('compactmachines:personal_shrinking_device', "Personal Compacting Device")

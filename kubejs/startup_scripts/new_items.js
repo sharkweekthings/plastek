@@ -26,6 +26,8 @@ StartupEvents.registry('item', e => {
   e.create('zpm_housing_unit')
   e.create('damaged_zpm_housing_unit')
   e.create('repaired_zpm_housing_unit')
+  e.create('incomplete_green_board')
+  e.create('green_board')
 })
 
 StartupEvents.registry('block', e => {
