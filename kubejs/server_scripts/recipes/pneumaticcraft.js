@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
   //REMOVE
   event.remove({id: 'pneumaticcraft:pressure_chamber/coal_to_diamond'})
   event.remove({id: 'pneumaticcraft:explosion_crafting/compressed_iron_ingot'})
+  event.remove({id: 'pneumaticcraft:explosion_crafting/compressed_iron_block'})
   event.remove({id: 'pneumaticcraft:pressure_chamber_valve_x4'})
   event.remove({id: 'pneumaticcraft:pressure_chamber_valve_x1'})
   event.remove({id: 'pneumaticcraft:pressure_chamber_valve'})
@@ -177,6 +178,22 @@ ServerEvents.recipes(event => {
     3: 'pneumaticcraft:reinforced_chest',
     4: 'minecraft:ender_chest',
     5: 'pneumaticcraft:omnidirectional_hopper'})
+    
+// Capacitor
+  event.shaped('pneumaticcraft:capacitor', 
+    ['131','343','222'], {
+    1: 'pneumaticcraft:plastic',
+    2: 'immersiveengineering:wire_electrum',
+    3: 'emendatusenigmatica:apatite_dust',
+    4: 'minecraft:iron_nugget'})
+    
+// Transistor
+  event.shaped('pneumaticcraft:transistor', 
+    ['131','343','222'], {
+    1: 'pneumaticcraft:plastic',
+    2: 'immersiveengineering:wire_electrum',
+    3: 'immersiveengineering:dust_hop_graphite',
+    4: 'emendatusenigmatica:copper_nugget'})
 
 // Pneumatic Craft - Plastic
   event.custom({
@@ -195,19 +212,6 @@ ServerEvents.recipes(event => {
           "results": [{"item": "pneumaticcraft:plastic"}]
 })
 
-// Transistor
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber", 
-      "inputs": [
-        {"item": "pneumaticcraft:plastic",},
-        {"item": "immersiveengineering:wire_electrum",},
-        {"item": "immersiveengineering:wire_electrum",},
-        {"item": "immersiveengineering:dust_hop_graphite",},
-        {"item": "minecraft:iron_nugget",}],
-          "pressure": 2.0, 
-          "results": [{"item": "pneumaticcraft:transistor"}]
-  })
-
 // Plastim Dust
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
@@ -217,19 +221,6 @@ ServerEvents.recipes(event => {
         {"item": "powah:crystal_spirited",},],
           "pressure": 2.0, 
           "results": [{"item": "emendatusenigmatica:plastim_dust"}]
-  })
-
-// Capacitor
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber", 
-      "inputs": [
-        {"item": "pneumaticcraft:plastic",},
-        {"item": "immersiveengineering:wire_electrum",},
-        {"item": "immersiveengineering:wire_electrum",},
-        {"item": "emendatusenigmatica:apatite_dust",},
-        {"item": "minecraft:iron_nugget",}],
-          "pressure": 2.0, 
-          "results": [{"item": "pneumaticcraft:capacitor"}]
   })
 
 // Blood of Kvasir
