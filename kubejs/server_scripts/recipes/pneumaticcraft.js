@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:thermopneumatic_processing_plant'})
   event.remove({id: 'pneumaticcraft:security_upgrade'})
   event.remove({id: 'pneumaticcraft:smart_chest'})
+  event.remove({id: 'pneumaticcraft:pneumatic_dynamo'})
 
 //
 })

@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:simulation_chamber_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "hostilenetworks:sim_chamber"
+  }
+}

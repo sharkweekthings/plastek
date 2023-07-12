@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:fluid_cell_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "thermal:fluid_cell"
+  }
+}

@@ -54,15 +54,6 @@ ServerEvents.recipes(event => {
 	4: 'immersiveengineering:fluid_pump',
 	5: 'pneumaticcraft:plastic'})
 
-// Dissolution Chamber
-  event.shaped('industrialforegoing:dissolution_chamber',
-    ['545','232','212'], {
-    1: 'pneumaticcraft:printed_circuit_board',
-    2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_pity',
-	4: 'minecraft:bucket',
-	5: 'pneumaticcraft:plastic'})
-
 // Plant Gatherer
   event.shaped('industrialforegoing:plant_gatherer',
     ['545','232','212'], {

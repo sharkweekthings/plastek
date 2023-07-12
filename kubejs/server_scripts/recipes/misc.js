@@ -336,24 +336,6 @@ ServerEvents.recipes(event => {
     4: 'emendatusenigmatica:iron_rod',
     5: '#minecraft:planks'})
 
-// Sim Chamber
-  event.shaped('hostilenetworks:sim_chamber',
-    ['353','414','323'], {
-    1: 'industrialforegoing:machine_frame_advanced',
-    2: 'pneumaticcraft:printed_circuit_board',
-    3: 'pneumaticcraft:plastic',
-    4: 'minecraft:goat_spawn_egg',
-    5: 'minecraft:black_dye'})
-
-// Loot Fabricator
-  event.shaped('hostilenetworks:loot_fabricator',
-    ['353','414','323'], {
-    1: 'industrialforegoing:machine_frame_advanced',
-    2: 'pneumaticcraft:printed_circuit_board',
-    3: 'pneumaticcraft:plastic',
-    4: 'minecraft:donkey_spawn_egg',
-    5: 'minecraft:black_dye'})
-
 // Lapis Lazuli
   event.shaped('minecraft:lapis_lazuli',
     ['111','111','111'], {
@@ -755,6 +737,85 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'pneumaticcraft:plastic',
     3: 'pneumaticcraft:reinforced_pressure_tube',
     4: 'emendatusenigmatica:steel_plate'})
+
+// Stirling Dynamo Parts
+  event.shaped('kubejs:stirling_dynamo_parts',
+    ['545','232','216'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:machine_frame_simple',
+    4: 'thermal:coal_coke_block',
+    5: 'pneumaticcraft:plastic',
+    6: 'kubejs:empty_parts_box'})
+
+// Gourmand Dynamo Parts
+  event.shaped('kubejs:gourmand_dynamo_parts',
+    ['545','232','216'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:machine_frame_simple',
+    4: 'thermal:potato_block',
+    5: 'pneumaticcraft:plastic',
+    6: 'kubejs:empty_parts_box'})
+
+// Pneumatic Dynamo Parts
+  event.shaped('kubejs:pneumatic_dynamo_parts',
+    ['545','232','216'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:machine_frame_simple',
+    4: 'pneumaticcraft:advanced_pressure_tube',
+    5: 'pneumaticcraft:plastic',
+    6: 'kubejs:empty_parts_box'})
+
+// Compression Dynamo Parts
+  event.shaped('kubejs:compression_dynamo_parts',
+    ['545','232','216'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:machine_frame_simple',
+    4: 'ad_astra:fuel_bucket',
+    5: 'pneumaticcraft:plastic',
+    6: 'kubejs:empty_parts_box'})
+
+// Dissolution Chamber Parts
+  event.shaped('kubejs:dissolution_chamber_parts',
+    ['545','232','216'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:machine_frame_pity',
+    4: 'minecraft:bucket',
+    5: 'pneumaticcraft:plastic',
+    6: 'kubejs:empty_parts_box'})
+
+// Fluid Cell Parts
+  event.shaped('kubejs:fluid_cell_parts',
+    ['343','212','345'], {
+    1: 'thermal:fluid_cell_frame',
+    2: 'thermal:redstone_servo',
+    3: 'emendatusenigmatica:iron_plate',
+    4: 'pneumaticcraft:plastic',
+    5: 'kubejs:empty_parts_box'})
+
+// Simulation Chamber Parts
+  event.shaped('kubejs:simulation_chamber_parts',
+    ['353','414','326'], {
+    1: 'industrialforegoing:machine_frame_advanced',
+    2: 'pneumaticcraft:printed_circuit_board',
+    3: 'pneumaticcraft:plastic',
+    4: 'minecraft:goat_spawn_egg',
+    5: 'minecraft:black_dye',
+    6: 'kubejs:empty_parts_box'})
+
+// Loot Fabricator Parts
+  event.shaped('kubejs:loot_fabricator_parts',
+    ['353','414','326'], {
+    1: 'industrialforegoing:machine_frame_advanced',
+    2: 'pneumaticcraft:printed_circuit_board',
+    3: 'pneumaticcraft:plastic',
+    4: 'minecraft:donkey_spawn_egg',
+    5: 'minecraft:black_dye',
+    6: 'kubejs:empty_parts_box'})
 
 
 // Hopper Botany Pot

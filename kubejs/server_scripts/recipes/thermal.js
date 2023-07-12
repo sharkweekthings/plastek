@@ -50,6 +50,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:hazmat_fabric'})
   event.remove({id: 'thermal:fire_charge/invar_ingot_3'})
   event.remove({id: 'thermal:fire_charge/electrum_ingot_2'})
+  event.remove({id: 'thermal:fluid_cell'})
+  event.remove({id: 'thermal:fluid_cell_frame'})
 
 //
 })
@@ -132,33 +134,6 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'thermal:rf_coil',
-	5: 'pneumaticcraft:plastic'})
-
-// Stirling Dynamo
-  event.shaped('thermal:dynamo_stirling',
-    ['545','232','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
-	4: 'thermal:coal_coke_block',
-	5: 'pneumaticcraft:plastic'})
-
-// Gourmand Dynamo
-  event.shaped('thermal:dynamo_gourmand',
-    ['545','232','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
-	4: 'thermal:potato_block',
-	5: 'pneumaticcraft:plastic'})
-
-// Compression Dynamo
-  event.shaped('thermal:dynamo_compression',
-    ['545','232','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
-	4: 'ad_astra:fuel_bucket',
 	5: 'pneumaticcraft:plastic'})
 
 // Energetic Infuser

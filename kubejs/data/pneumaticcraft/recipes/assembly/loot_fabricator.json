@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:loot_fabricator_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "hostilenetworks:loot_fabricator"
+  }
+}

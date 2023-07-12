@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:dissolution_chamber_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "industrialforegoing:dissolution_chamber"
+  }
+}

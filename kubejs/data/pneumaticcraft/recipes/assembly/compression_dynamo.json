@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:compression_dynamo_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "thermal:dynamo_compression"
+  }
+}
