@@ -201,10 +201,17 @@
 			dependencies: ["434CB01AA70F4D9B"]
 			description: [
 				"Pressure Chambers can be constructed in 3x3x3, 4x4x4, or 5x5x5.  "
-				""
-				"For the quest, we'll just be building a 3x3x3.  "
-				""
 				"Each Pressure Chamber can hold up to 27 stacks of items. "
+				""
+				"{image:kubejs:textures/pneumaticcraft/pressure_chamber_sample.png width:125 height:125 align:1}"
+				""
+				"This 3x3x3 sample is using 3 Pressure Chamber Interfaces, and 1 Pressure Chamber Valve. "
+				""
+				"On the left and right are Inputs using Hoppers, Barrels, and Chests (most container inventory should work here), and on the right we are outputting to a Drawer. "
+				""
+				"The sample is to show that you can use multiple Interfaces, and various types of containers to achieve partial automation on the Pressure Chamber.  "
+				""
+				"For the quest, we'll just be building a 3x3x3 -- with 2 Interfaces, and 1 Valve. "
 			]
 			id: "4C3B6C4F42399736"
 			tasks: [{
@@ -237,6 +244,11 @@
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
+			description: [
+				"Depending on how large your setup is, you can use multiple Interfaces to insert items. This is especially beneficial on a 4x4x4 or 5x5x5 setup, if the recipe is a more than 2-3 item types  "
+				""
+				"The more items you push into the Pressure Chamber though, the more pressure you will need for the Chamber to accept the items. "
+			]
 			id: "5C111E8F70FAA411"
 			tasks: [{
 				count: 2L
@@ -249,6 +261,7 @@
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
+			description: ["You will need to connect Pressure Tubes to the Valve, which will then be connected to your Compressor setups. "]
 			id: "73EFE5A0852A3EC2"
 			tasks: [{
 				id: "7C5E8AA45C99140E"
@@ -260,8 +273,9 @@
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
-			description: ["If 2 doesn't cut it, you can always add a 3rd!"]
+			description: ["If you get any Errors about not having enough Pressure, you may either need to just wait for the chamber to build up in pressure, or you can add more Air Compressors to expedite things."]
 			id: "445F56FAE352EC14"
+			subtitle: "You can always make more"
 			tasks: [{
 				count: 2L
 				id: "3B4EEF229B09E444"

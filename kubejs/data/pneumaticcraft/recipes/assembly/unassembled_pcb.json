@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:empty_pcb_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "pneumaticcraft:unassembled_pcb"
+  }
+}

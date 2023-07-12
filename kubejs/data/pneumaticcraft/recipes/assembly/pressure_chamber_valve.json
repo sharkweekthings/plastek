@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "input": {
+    "item": "kubejs:pressure_chamber_valve_parts"
+  },
+  "program": "drill",
+  "result": {
+    "count": 2,
+    "item": "pneumaticcraft:pressure_chamber_valve"
+  }
+}

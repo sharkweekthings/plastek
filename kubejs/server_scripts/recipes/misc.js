@@ -720,6 +720,43 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'chococraft:chocobo_drumstick_raw',
     3: 'chococraft:chocobo_feather'})
 
+// Empty Parts Box
+  event.shaped('kubejs:empty_parts_box', 
+    ['111','121','111'], {
+    1: '#forge:sawdust',
+    2: 'minecraft:chest'})
+
+// Advanced Pressure Tube Parts
+  event.shaped('kubejs:advanced_pressure_tube_parts', 
+    ['323','212','323'], {
+    1: 'kubejs:empty_parts_box',
+    2: 'pneumaticcraft:reinforced_pressure_tube',
+    3: 'minecraft:diamond'})
+
+// Empty PCB Parts
+  event.shaped('kubejs:empty_pcb_parts', 
+    ['323','212','343'], {
+    1: 'kubejs:empty_parts_box',
+    2: 'emendatusenigmatica:electrum_plate',
+    3: 'emendatusenigmatica:aluminum_plate',
+    4: 'pneumaticcraft:empty_pcb'})
+
+// Netherite Drill Parts
+  event.shaped('kubejs:netherite_drill_bit_parts', 
+    ['333','212','333'], {
+    1: 'kubejs:empty_parts_box',
+    2: 'pneumaticcraft:unassembled_netherite_drill_bit',
+    3: 'thermal:netherite_nugget'})
+
+// Pressure Chamber Valve Parts
+  event.shaped('kubejs:pressure_chamber_valve_parts', 
+    ['424','212','434'], {
+    1: 'kubejs:empty_parts_box',
+    2: 'pneumaticcraft:plastic',
+    3: 'pneumaticcraft:reinforced_pressure_tube',
+    4: 'emendatusenigmatica:steel_plate'})
+
+
 // Hopper Botany Pot
   event.shapeless(Item.of('botanypots:terracotta_hopper_botany_pot'), ['botanypots:terracotta_botany_pot', 'minecraft:hopper'])
 
@@ -727,7 +764,8 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   event.shapeless(Item.of('supplementaries:planter'), ['minecraft:flower_pot', 'minecraft:dirt'])
 
 // Rich Soil Planter
-  event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil']) 
+  event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil'])
+
 
 //    
 })

@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:advanced_pressure_tube_parts"
+  },
+  "program": "laser",
+  "result": {
+    "count": 4,
+    "item": "pneumaticcraft:advanced_pressure_tube"
+  }
+}

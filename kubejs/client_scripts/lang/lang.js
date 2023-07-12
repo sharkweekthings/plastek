@@ -58,9 +58,16 @@
   	rename('kubejs:repaired_zpm_housing_unit', "Repaired ZPM Housing Unit")
   	rename('kubejs:green_board', "Green Board")
   	rename('kubejs:incomplete_green_board', "Incomplete Green Board")
+  	rename('kubejs:empty_parts_box', "Empty Parts Box")
 
 // COMPACT MACHINES
   	rename('compactmachines:personal_shrinking_device', "Personal Compacting Device")
+
+// PNEUMATIC CRAFT
+  	rename('kubejs:advanced_pressure_tube_parts', "Advanced Pressure Tube Parts")
+  	rename('kubejs:empty_pcb_parts', "Empty PCB Parts")
+  	rename('kubejs:netherite_drill_bit_parts', "Netherite Drill Bit Parts")
+  	rename('kubejs:pressure_chamber_valve_parts', "Pressure Chamber Valve Parts")
 
 // SUPPLEMENTARIES
   	rename('supplementaries:globe', "Alfheim Globe")

@@ -28,6 +28,11 @@ StartupEvents.registry('item', e => {
   e.create('repaired_zpm_housing_unit')
   e.create('incomplete_green_board')
   e.create('green_board')
+  e.create('advanced_pressure_tube_parts')
+  e.create('empty_parts_box')
+  e.create('empty_pcb_parts')
+  e.create('netherite_drill_bit_parts')
+  e.create('pressure_chamber_valve_parts')
 })
 
 StartupEvents.registry('block', e => {

@@ -101,6 +101,8 @@
 				""
 				"With the previous quest reward, you'll probably want to make two more Air Compressors w/ Security Upgrades to get this off the ground."
 				""
+				"Here is a basic setup: "
+				""
 				"{image:kubejs:textures/pneumaticcraft/pnematic_refinery_sample.png width:125 height:125 align:1}"
 			]
 			id: "3DCA2CCC13D97EFC"
@@ -693,11 +695,10 @@
 			description: [
 				"With a Printed Circuit Board, you're ready  for more progression! "
 				""
-				"PCBs will be used often throughout the remainder of the pack.  It's definitely suggested to set up an Assembled Controller to speed up the process of PCBs. "
+				"PCBs will be used often throughout the remainder of the pack.  The current set up is slow, but it does work. "
 				""
-				"This pack will not focus on that setup, and will leave you to your own devices on how you want to plan, and automate that.  "
+				"It's definitely suggested to set up an Assembled Controller to speed up the process of PCBs, as well as the ability to start making more advanced Tubes, and Compressors!"
 				" "
-				"The current set up is slow, but it does work."
 			]
 			id: "2E18138D211E9206"
 			rewards: [

@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "input": {
+    "item": "kubejs:netherite_drill_bit_parts"
+  },
+  "program": "drill",
+  "result": {
+    "item": "pneumaticcraft:drill_bit_netherite"
+  }
+}
