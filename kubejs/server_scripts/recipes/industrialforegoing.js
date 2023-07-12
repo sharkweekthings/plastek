@@ -287,6 +287,43 @@ ServerEvents.recipes(event => {
 		"type": "industrialforegoing:dissolution_chamber"
 	})
 
+// Bandage
+	event.custom({
+		"input": [
+			{
+				"item": "immersiveengineering:hemp_fabric"
+			},
+			{
+				"item": "pneumaticcraft:glycerol"
+			},
+			{
+				"item": "immersiveengineering:hemp_fabric"
+			},
+			{
+				"item": "pneumaticcraft:glycerol"
+			},
+			{
+				"item": "pneumaticcraft:glycerol"
+			},
+			{
+				"item": "immersiveengineering:hemp_fabric"
+			},
+			{
+				"item": "pneumaticcraft:glycerol"
+			},
+			{
+				"item": "immersiveengineering:hemp_fabric"
+			}
+		],
+		"processingTime": 300,
+		"output": {
+			"item": "pneumaticcraft:bandage",
+			"count": 2
+		},
+		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:500}",
+		"type": "industrialforegoing:dissolution_chamber"
+	})
+
 // Supreme Machine Frame
 	event.custom({
 		"input": [

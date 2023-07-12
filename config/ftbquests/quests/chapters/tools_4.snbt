@@ -472,6 +472,24 @@
 			x: -2.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"If you're looking to add a little more healing, look no further. "
+				""
+				"The Glycerol by-product can be used to make Bandages which will heal 3 full hearts per Bandage!"
+			]
+			id: "70BA38E12EF94C6E"
+			shape: "circle"
+			subtitle: "Need More Healing"
+			tasks: [{
+				id: "3AA3ACF573A5DA10"
+				item: "pneumaticcraft:bandage"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
 	]
 	title: "Utility"
 }

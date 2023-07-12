@@ -43,6 +43,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:assembly_drill'})
   event.remove({id: 'pneumaticcraft:assembly_laser'})
   event.remove({id: 'pneumaticcraft:assembly_controller'})
+  event.remove({id: 'pneumaticcraft:bandage'})
 
 //
 })

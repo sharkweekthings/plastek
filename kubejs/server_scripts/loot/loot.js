@@ -27,6 +27,8 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:ender_pearl", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:copper_ingot", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:ingot_iron_compressed", "inventorypets:nugget_ender");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:logistics_core", "inventorypets:nugget_ender");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:micromissiles", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:writable_book", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:quartz", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("ars_nouveau:source_gem", "ars_nouveau:nugget_ender");
