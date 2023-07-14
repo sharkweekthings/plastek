@@ -41,6 +41,13 @@ StartupEvents.registry('item', e => {
   e.create('pneumatic_dynamo_parts')
   e.create('simulation_chamber_parts')
   e.create('stirling_dynamo_parts')
+  e.create('digital_miner_parts')
+  e.create('empty_prediction_parts')
+  e.create('energy_cable_starter_parts')
+  e.create('energizing_rod_starter_parts')
+  e.create('energizing_orb_parts')
+  e.create('ender_gate_starter_parts')
+  e.create('player_transmitter_starter_parts')
 })
 
 StartupEvents.registry('block', e => {

@@ -877,6 +877,8 @@
 		{
 			dependencies: ["0BB117053557ED97"]
 			description: [
+				"In order to open up a portal to the Nether, we're going to need to slaughter a massive amount of mobs, as we will need to fuse their pureed body parts into Nether Stone to be able to activate a portal to the underworld. "
+				""
 				"Mob Grinding Utils has been nerfed a bit for early age to encourage later utilization of Hostile Neural Networks.  "
 				""
 				"Several upgrades have been removed, and the Mob Fan and upgrades will be available in Age 6. "
@@ -885,9 +887,7 @@
 				""
 				"This process will go over getting a small, basic mob farm set up."
 				""
-				"In order to open up a portal to the Nether, we're going to need to slaughter a massive amount of mobs, as we will need to fuse their pureed body parts into Nether Stone to be able to activate a portal to the underworld. "
-				""
-				"&c&oWith this smaller, and nerfed set up that we're making for the quest -- some mobs may get stuck. Keep in mind while building it, that you will need to manually clear out some mobs sometimes.&r&r"
+				"&c&oWith this smaller, and nerfed set up that we're making for the quest -- some mobs may get stuck. Keep in mind while building it, that you may need to manually clear out some mobs sometimes.&r&r"
 			]
 			id: "769D6C69637F65E2"
 			subtitle: "What? No Fans?!"

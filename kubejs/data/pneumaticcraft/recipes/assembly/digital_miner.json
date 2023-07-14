@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:digital_miner_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "mekanism:digital_miner"
+  }
+}

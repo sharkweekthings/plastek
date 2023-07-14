@@ -373,6 +373,7 @@
 		}
 		{
 			dependencies: ["62EC0677C0D1EC12"]
+			description: ["Adding Solar Panels to your Evaporation Plant will greatly speed up the process."]
 			id: "34125294940AC282"
 			shape: "circle"
 			tasks: [{

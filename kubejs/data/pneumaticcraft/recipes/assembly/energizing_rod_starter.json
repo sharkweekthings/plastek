@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:energizing_rod_starter_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "powah:energizing_rod_starter"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:ender_gate_starter_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "powah:ender_gate_starter"
+  }
+}

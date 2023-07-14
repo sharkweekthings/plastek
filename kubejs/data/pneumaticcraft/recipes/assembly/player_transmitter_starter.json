@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:player_transmitter_starter_parts"
+  },
+  "program": "laser",
+  "result": {
+    "item": "powah:player_transmitter_starter"
+  }
+}

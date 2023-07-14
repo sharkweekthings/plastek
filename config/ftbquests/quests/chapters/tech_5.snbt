@@ -1196,9 +1196,9 @@
 		{
 			dependencies: ["43F168BD03BFE53B"]
 			description: [
-				"I decided to place the Digital Miner in Age 5, and the RF Tools Quarry/Builder in Age 6."
+				"The Digital Miner is available in Age 5, and the RF Tools Quarry/Builder in Age 6."
 				""
-				"While the Digital Miner is probably the more refined piece of equipment that's a bit easier to use, the RF Tools Quarry/Builder can be extremely fast, but very costly in power."
+				"While the Digital Miner is probably the more refined piece of equipment that's a bit easier to use, the RF Tools Quarry/Builder can be much faster than the Digital Miner, but very costly in power. "
 			]
 			id: "68B52B7CBB24C891"
 			shape: "circle"

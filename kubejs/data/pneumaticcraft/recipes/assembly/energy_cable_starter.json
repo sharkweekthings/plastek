@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:energy_cable_starter_parts"
+  },
+  "program": "laser",
+  "result": {
+    "count": 3,
+    "item": "powah:energy_cable_starter"
+  }
+}

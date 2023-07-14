@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'hostilenetworks:living_matter/extraterrestrial/nether_star'})
   event.remove({ mod: 'inventorypets' })
   event.remove({id: 'mythicbotany:mythicbotany_rune_rituals/kvasir_blood'})
-  event.remove({id: 'mythicbotany:mythicbotany_infusion/alfsteel_ingot'})
+  // event.remove({id: 'mythicbotany:mythicbotany_infusion/alfsteel_ingot'})
   event.remove({id: 'mythicbotany:alfsteel_helmet_smithing'})
   event.remove({id: 'mythicbotany:alfsteel_chestplate_smithing'})
   event.remove({id: 'mythicbotany:alfsteel_leggings_smithing'})
@@ -169,6 +169,13 @@ ServerEvents.recipes(event => {
   event.remove({id: 'twilightforest:uncrafting_table'})
   event.remove({id: 'totemic:medicine_bag'})
   event.remove({ output: "supplementaries:planter_rich"})
+  event.remove({id: 'hostilenetworks:empty_prediction'})
+  event.remove({id: 'powah:crafting/cable_starter'})
+  event.remove({id: 'powah:crafting/energizing_rod_starter'})
+  event.remove({id: 'powah:crafting/energizing_orb'})
+  event.remove({id: 'powah:crafting/player_tranmitter_starter'})
+  event.remove({id: 'powah:crafting/ender_gate_starter'})
+  event.remove({id: 'hostilenetworks:matrix'})
 
 //
 })
@@ -816,6 +823,67 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     4: 'minecraft:donkey_spawn_egg',
     5: 'minecraft:black_dye',
     6: 'kubejs:empty_parts_box'})
+
+// Digital Miner Parts
+  event.shaped('kubejs:digital_miner_parts',
+    ['333','212','445'], {
+  1: 'pneumaticcraft:printed_circuit_board',
+  2: 'thermal:lead_plate',
+  3: 'thermal:netherite_plate',
+  4: 'pneumaticcraft:plastic',
+  5: 'kubejs:empty_parts_box'})
+
+// Prediction Matrix Parts
+  event.shaped('kubejs:empty_prediction_parts',
+    ['434','212','435'], {
+  1: 'thermal:enderium_glass',
+  2: 'emendatusenigmatica:brass_plate',
+  3: 'emendatusenigmatica:steel_plate',
+  4: 'pneumaticcraft:plastic',
+  5: 'kubejs:empty_parts_box'})
+
+// Energy Cable Starter Parts
+  event.shaped('kubejs:energy_cable_starter_parts',
+    ['111','232','114'], {
+  1: 'powah:dielectric_rod_horizontal',
+  2: 'emendatusenigmatica:steel_rod',
+  3: 'powah:capacitor_basic_tiny',
+  4: 'kubejs:empty_parts_box'})
+
+// Energizing Rod Starter Parts
+  event.shaped('kubejs:energizing_rod_starter_parts',
+    ['242','232','215'], {
+  1: 'powah:dielectric_rod',
+  2: 'powah:capacitor_basic_tiny',
+  3: 'powah:dielectric_casing',
+  4: 'ae2:charged_certus_quartz_crystal',
+  5: 'kubejs:empty_parts_box'})
+
+// Energizing Orb Parts
+  event.shaped('kubejs:energizing_orb_parts',
+    ['333','313','224'], {
+  1: 'powah:dielectric_casing',
+  2: 'powah:dielectric_rod_horizontal',
+  3: 'ae2:charged_certus_quartz_crystal',
+  4: 'kubejs:empty_parts_box'})
+
+// Ender Gate Starter Parts
+  event.shaped('kubejs:ender_gate_starter_parts',
+    ['414','121','435'], {
+  1: 'powah:energy_cable_starter',
+  2: 'powah:ender_core',
+  3: 'emendatusenigmatica:plasteel_gear',
+  4: 'emendatusenigmatica:plasteel_plate',
+  5: 'kubejs:empty_parts_box'})
+
+// Player Transmitter Starter Parts
+  event.shaped('kubejs:player_transmitter_starter_parts',
+    [' 1 ','232','435'], {
+  1: 'powah:player_aerial_pearl',
+  2: 'powah:capacitor_basic_tiny',
+  3: 'powah:dielectric_casing',
+  4: 'powah:dielectric_rod',
+  5: 'kubejs:empty_parts_box'})
 
 
 // Hopper Botany Pot

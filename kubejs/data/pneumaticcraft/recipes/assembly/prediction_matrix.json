@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:empty_prediction_parts"
+  },
+  "program": "laser",
+  "result": {
+    "count": 6,
+    "item": "hostilenetworks:empty_prediction"
+  }
+}

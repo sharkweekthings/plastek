@@ -436,14 +436,6 @@ ServerEvents.recipes(event => {
   3: 'minecraft:orange_dye',
   4: 'totemic:buffalo_hide'})
 
-// Digital Miner
-  event.shaped('mekanism:digital_miner',
-    ['434','212','434'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'thermal:lead_plate',
-  3: 'minecraft:orange_dye',
-  4: 'totemic:buffalo_hide'})
-
 // Bio Fuel Hand
   event.shapeless(Item.of('mekanism:bio_fuel'), ['thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro'])
 
