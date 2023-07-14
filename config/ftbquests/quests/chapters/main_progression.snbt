@@ -452,7 +452,7 @@
 			dependencies: ["5928D99A2F786286"]
 			description: [
 				"No problem. This is a repeatable quest.  "
-				"Just accept the reward, and it should refresh. If you lose the Akashic Tome again, you'll be able to recover it, here."
+				"Just accept the reward, and it should refresh. If you lose the Eccentric Tome again, you'll be able to recover it, here."
 			]
 			id: "2F67465EF0102715"
 			rewards: [{
@@ -625,7 +625,7 @@
 				type: "item"
 			}]
 			shape: "heart"
-			subtitle: "Only accept this if you need a new Akashic Tome."
+			subtitle: "Only accept this if you need a new Eccentric Tome."
 			tasks: [{
 				id: "17FBA8C4AF120FA4"
 				title: "Ok"
