@@ -1,7 +1,7 @@
 ##
 ## Tips
 
-1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)!
+1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
 
 2) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
 
@@ -23,7 +23,7 @@
 	 - **Age 0** - "0-0.01", "10-0" - (difficulty goes up at a rate of .01 until
 	   it hits 10, then stops)
 	 - **Age 1** - "15" - (difficulty set to 15 in agereward.js / difficulty for Age 1 is a flat value of 15)
-	 - **Age 2** - "25" - "25-0.05", "30-0" (difficulty set to 20 in
+	 - **Age 2** - "20" - "20-0.05", "30-0" (difficulty set to 20 in
 	   agereward.js / goes up at a rate of .05 until it hits 30, then stops)
 	 - **Age 3** - "35" - "35-0.05", "50-0" (difficulty set to 35 in
 	   agereward.js / goes up at a rate of .05 until it hits 50, then stops)
@@ -55,8 +55,15 @@
 	 - **Age 7** - Line 51 (set 105)
  - On each line you can change the number "set ##" to your chosen
    difficulty scaling.
+   
+**AtomicStryker's Infernal Mobs**:
+ - Navigate to your config folder
+ - Open "infernalmobs.cfg"
+	 - Under "modsEnabled" you can change any modifiers you dont want showing up in your world to "false"
+	 - Under "permittedEntities" you can change any mobs you don't wish to have a modifier to "false"
 
 ##
 ## Known Issues
 
  - Textures are missing for several Nat Prog pebbles. Reported to Dev.
+ - While you are flying at high speeds (sprinting) -- you may encounter a rare-ish issue where server a single tick takes 40 seconds. This has been reported to several mod devs. This issue doesnt tend to occur when you are running on the ground.

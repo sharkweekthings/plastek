@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
   event.remove({output: 'supplementaries:bellows'})
   event.remove({id: 'supplementaries:soap/globe'})
   event.remove({id: 'supplementaries:globe_sepia'})
-  event.remove({id: 'tempad:tempad'})
+  // event.remove({id: 'tempad:tempad'})
   event.remove({output: 'totemic:totem_whittling_knife'})
   event.remove({id: 'totemic:tipi_from_wool'})
   event.remove({id: 'totemic:leather_from_hide'})
