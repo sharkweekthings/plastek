@@ -1,0 +1,3 @@
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/plasteel"}},
+{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:gears/plasteel"}}],"energy":2400,"input":{"base_ingredient":
+{"tag":"forge:ingots/plasteel"},"count":4},"mold":"immersiveengineering:mold_gear","result":{"tag":"forge:gears/plasteel"}}

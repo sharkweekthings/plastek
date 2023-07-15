@@ -1,0 +1,15 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "silentgear:azure_electrum_block"},
+	{"item": "powah:crystal_spirited"},
+	{"item": "kubejs:depleted_zpm_housing_unit"},
+	{"item": "powah:crystal_spirited"},
+	{"item": "emendatusenigmatica:electrum_block"}
+  ],
+  "energy": 40000000,
+  "result": {
+	"item": "kubejs:charged_zpm_housing_unit",
+	"count": 1
+  }
+}

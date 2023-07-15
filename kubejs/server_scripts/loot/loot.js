@@ -27,6 +27,8 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:ender_pearl", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:copper_ingot", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:ingot_iron_compressed", "inventorypets:nugget_ender");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:gun_ammo_weighted", "inventorypets:nugget_ender");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:birch_sapling", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:logistics_core", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:micromissiles", "inventorypets:nugget_ender");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:writable_book", "inventorypets:nugget_ender");
@@ -60,6 +62,7 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gilded_blackstone", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("botania:lexicon", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:spawner_agitator", "emendatusenigmatica:gold_crystal");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:nuke_virus", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:large_cogwheel", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:cogwheel", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:crushed_raw_gold", "emendatusenigmatica:gold_crystal");

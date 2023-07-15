@@ -428,7 +428,7 @@
 				"- Create a Spirited Crystal"
 				"- Create a Master Infusion Crystal"
 				"- Make a Crystal Housing Unit"
-				"- Make a ZPM Housing Unit"
+				"- Make a Charged ZPM Housing Unit"
 			]
 			id: "7AB6777B9471D4AD"
 			rewards: [{
@@ -634,6 +634,68 @@
 			title: "I Lost My Akashic Tome!"
 			x: -19.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7AB6777B9471D4AD"]
+			description: [
+				"Thanks for making it this far! "
+				""
+				"From here you'll need to finish up your rocket, get to Glacio, and find what you need to make Plastim, then you can go crazy making some Creative Mode items."
+			]
+			id: "6BEB0462E77988BB"
+			rewards: [
+				{
+					id: "3D0B6B71C0A507F4"
+					item: "ae2:singularity"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "053329237FD697D2"
+					item: "pneumaticcraft:printed_circuit_board"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2577BBA879F46465"
+					item: "mysticalagradditions:creative_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3967F92B3E9EE46A"
+					item: "emendatusenigmatica:plasteel_gear"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "553402F22E0820AA"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27060181CB14E4DC"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5350102FAA6287"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "7F40E99231B0042C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Wrapping Up"
+			x: -9.0d
+			y: -0.5d
 		}
 	]
 	title: "Main Progression"

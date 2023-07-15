@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "kubejs:damaged_crystal_housing_unit",},[{ // incomplete item
-      item: "kubejs:gouald_crystal",},],], // item to deploy
+      item: "kubejs:goauld_crystal",},],], // item to deploy
      results: [{
       item: "kubejs:damaged_crystal_housing_unit",},],
 },

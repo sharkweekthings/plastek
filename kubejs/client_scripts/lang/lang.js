@@ -56,6 +56,8 @@
   	rename('kubejs:zpm_housing_unit', "ZPM Housing Unit")
   	rename('kubejs:damaged_zpm_housing_unit', "Damaged ZPM Housing Unit")
   	rename('kubejs:repaired_zpm_housing_unit', "Repaired ZPM Housing Unit")
+  	rename('kubejs:charged_zpm_housing_unit', "Charged ZPM Housing Unit")
+  	rename('kubejs:depleted_zpm_housing_unit', "Depleted ZPM Housing Unit")
   	rename('kubejs:green_board', "Green Board")
   	rename('kubejs:incomplete_green_board', "Incomplete Green Board")
   	rename('kubejs:empty_parts_box', "Empty Parts Box")
@@ -74,6 +76,7 @@
   	rename('kubejs:energizing_orb_parts', "Energizing Orb Parts")
   	rename('kubejs:ender_gate_starter_parts', "Ender Gate Starter Parts")
   	rename('kubejs:player_transmitter_starter_parts', "Player Transmitter Starter Parts")
+  	rename('kubejs:goauld_crystal', "Goa'uld Crystal")
 
 // COMPACT MACHINES
   	rename('compactmachines:personal_shrinking_device', "Personal Compacting Device")

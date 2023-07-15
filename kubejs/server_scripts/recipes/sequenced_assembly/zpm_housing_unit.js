@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
      ingredient: {
       item: "kubejs:repaired_zpm_housing_unit",},
      results: [{
-      item: "kubejs:zpm_housing_unit",
+      item: "kubejs:depleted_zpm_housing_unit",
       count: 1,},],
       loops: 1,
      sequence: [
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
      ingredients: [{
       item: "kubejs:damaged_zpm_housing_unit",},{
       fluid: "pneumaticcraft:plastic",
-      amount: 600,},],
+      amount: 5000,},],
      results: [{
       item: "kubejs:damaged_zpm_housing_unit",},],
 },

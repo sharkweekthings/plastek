@@ -3,5 +3,5 @@
 //// renik
 // Author: LadyLexxie
 
-// ServerEvents.loaded(e => e.server.runCommandSilent('reload')) 
+ServerEvents.loaded(e => e.server.runCommandSilent('reload')) 
 

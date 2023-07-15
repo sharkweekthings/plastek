@@ -85,7 +85,7 @@
 			rewards: [{
 				id: "06581D4131C06ED0"
 				item: "minecraft:gold_ingot"
-				random_bonus: 29
+				random_bonus: 14
 				type: "item"
 			}]
 			shape: "circle"
@@ -113,7 +113,7 @@
 			rewards: [{
 				id: "19FB1B99B5D9E330"
 				item: "minecraft:gold_block"
-				random_bonus: 9
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -141,7 +141,7 @@
 			rewards: [{
 				id: "7F80D1BB8892E37B"
 				item: "minecraft:gold_block"
-				random_bonus: 14
+				random_bonus: 9
 				type: "item"
 			}]
 			shape: "circle"

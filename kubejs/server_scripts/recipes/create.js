@@ -485,6 +485,16 @@ event.custom({
   "results": [{"item": "industrialforegoing:plastic"}]
   })
 
+event.custom({
+  "type": "create:pressing", "ingredients": [{"item": "silentcompat:plasteel_ingot","count": 1}],
+  "results": [{"item": "emendatusenigmatica:plasteel_plate"}]
+  })
+
+event.custom({
+  "type": "create:pressing", "ingredients": [{"item": "silentcompat:voidmetal_ingot","count": 1}],
+  "results": [{"item": "emendatusenigmatica:voidmetal_plate"}]
+  })
+
 //    
 })
 //

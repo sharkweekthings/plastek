@@ -1288,7 +1288,7 @@
 			subtitle: "Have I got a deal for you!"
 			tasks: [{
 				id: "4858ED950788BDB4"
-				item: "kubejs:gouald_crystal"
+				item: "kubejs:goauld_crystal"
 				type: "item"
 			}]
 			title: "Market Trade Sulfuric Acid"
@@ -1367,7 +1367,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["4A117A32B18470FE"]
+			dependencies: ["6C83889A2AB0A579"]
 			description: ["Like the Crystal Housing Unit that you made earlier, the process for this is the same except you'll be Deploying the ZPM into the Damaged Unit."]
 			id: "26CFA7E3DAE92864"
 			rewards: [{
@@ -1379,11 +1379,11 @@
 			shape: "gear"
 			tasks: [{
 				id: "6F71AD33D7A85982"
-				item: "kubejs:zpm_housing_unit"
+				item: "kubejs:charged_zpm_housing_unit"
 				type: "item"
 			}]
-			title: "ZPM Housing Unit"
-			x: -6.0d
+			title: "Charged ZPM Housing Unit"
+			x: -4.5d
 			y: 8.5d
 		}
 		{
@@ -1417,6 +1417,17 @@
 			}]
 			x: -6.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["4A117A32B18470FE"]
+			id: "6C83889A2AB0A579"
+			tasks: [{
+				id: "70036C357E733789"
+				item: "kubejs:depleted_zpm_housing_unit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
 		}
 	]
 	title: "Tech"

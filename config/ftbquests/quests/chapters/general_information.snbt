@@ -387,6 +387,8 @@
 				"These quests only need to be completed if you lost an important quest item like your Eccentric Tome, or an Eye from End Remastered."
 				""
 				"They have no objectives, and are a simple repeatable quest to obtain the item you lost. "
+				""
+				"This shape is also used at the end of Main Progression, and is not a Recovery Item quest."
 			]
 			id: "5267B2BD410ACD3C"
 			shape: "heart"
