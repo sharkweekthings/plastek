@@ -19,19 +19,13 @@
 			description: [
 				"These are generally used to to let you know about your major accomplishments, access to new materials, or key elements to unlocking the next age."
 				""
-				"It also usually means that a Bag of Tears is the reward. "
+				"It also means that a Bag of Tears is the reward!"
 				""
 				"The Bag of Tears is a pouch that can contain really powerful items.  However, you'll probably end up getting food, or a block or something."
 				""
 				"Most of these powerful items can be found in the world in various chests, but there are a few exceptions. . . "
 			]
 			id: "3C1E3A1924870689"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A3F2034F259EE3B"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
 			shape: "gear"
 			subtitle: "This shape represents a Major Advancement."
 			tasks: [{
@@ -151,24 +145,6 @@
 			]
 			icon: "artifacts:crystal_heart"
 			id: "47A6293F3DEEF2D2"
-			rewards: [
-				{
-					id: "01F4FC1FDBD3AF8C"
-					item: "pamhc2foodextended:deluxecheeseburgeritem"
-					type: "item"
-				}
-				{
-					id: "76AF02C30F724DD8"
-					item: "pamhc2foodextended:mochiitem"
-					type: "item"
-				}
-				{
-					id: "5BDACE204F8CE4F2"
-					item: "pamhc2foodextended:mushroomsteakitem"
-					type: "item"
-				}
-			]
-			subtitle: "DONT ACCEPT THE QUEST REWARDS JUST YET. "
 			tasks: [{
 				id: "3FF5369FAEC575FE"
 				title: "Ok"
@@ -496,8 +472,6 @@
 				"If you have an idea of trying to get to the End early by reseting one Eye quest, you will not be able to do this. The End Portal will require 12 unique Eyes."
 				""
 				"&l&aTo proceed from here, click on \"Main Progression\" and accept the quest reward for Age 1&r&r"
-				""
-				"&a&lAfter accepting the reward for \"Start Age 1\" you can claim your quest rewards without them falling to the ground.&r&r"
 			]
 			hide_dependency_lines: true
 			icon: "endrem:ancient_portal_frame"

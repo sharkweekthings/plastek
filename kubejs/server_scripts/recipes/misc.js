@@ -176,6 +176,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/player_tranmitter_starter'})
   event.remove({id: 'powah:crafting/ender_gate_starter'})
   event.remove({id: 'hostilenetworks:matrix'})
+  event.remove({id: 'rootsclassic:growth_powder'})
 
 //
 })
@@ -443,10 +444,6 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'natprog:bone_knife',
     3: 'minecraft:stick',
     4: 'minecraft:green_dye'})
-
-
-// Healing Poultice
-  event.shapeless(Item.of('rootsclassic:healing_poultice'), ['rootsclassic:growth_powder', 'rootsclassic:verdant_sprig', 'rootsclassic:redcurrant', 'minecraft:gold_ingot'])
 
 // Mortar
   event.shaped('rootsclassic:mortar',
@@ -886,6 +883,25 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   4: 'powah:dielectric_rod',
   5: 'kubejs:empty_parts_box'})
 
+// Green Powder (Growth Powder)
+  event.shaped('rootsclassic:growth_powder',
+    ['212','373','456'], {
+  1: 'rootsclassic:old_root',
+  2: '#rootsclassic:barks',
+  3: 'rootsclassic:verdant_sprig',
+  4: 'minecraft:wheat_seeds',
+  5: 'minecraft:grass',
+  6: 'rootsclassic:pestle',
+  7: '#rootsclassic:berries'})
+
+  // Healing Poultice
+  event.shaped('rootsclassic:healing_poultice',
+    ['434','212','525'], {
+  1: 'minecraft:paper',
+  2: 'rootsclassic:growth_powder',
+  3: 'rootsclassic:verdant_sprig',
+  4: '#rootsclassic:berries',
+  5: 'emendatusenigmatica:gold_plate'})
 
 // Hopper Botany Pot
   event.shapeless(Item.of('botanypots:terracotta_hopper_botany_pot'), ['botanypots:terracotta_botany_pot', 'minecraft:hopper'])
@@ -895,7 +911,6 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Rich Soil Planter
   event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil'])
-
 
 //    
 })

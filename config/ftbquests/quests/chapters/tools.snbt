@@ -28,12 +28,31 @@
 				{
 					id: "5C7D7723C224BB3F"
 					item: "pamhc2crops:okraitem"
+					random_bonus: 4
 					type: "item"
 				}
 				{
-					count: 10
 					id: "7811F304FD8EE49E"
 					item: "pamhc2foodcore:chocolatecupcakeitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3983C384EEAE1C04"
+					item: "pamhc2foodextended:deluxecheeseburgeritem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2920EC8D47BD16C2"
+					item: "pamhc2foodextended:mochiitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5C6B54E793DADD23"
+					item: "pamhc2foodextended:mushroomsteakitem"
+					random_bonus: 4
 					type: "item"
 				}
 			]
