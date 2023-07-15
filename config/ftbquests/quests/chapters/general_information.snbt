@@ -226,9 +226,9 @@
 				""
 				"That means that most every single ore that is able to spawn was removed from world generation, and given a custom Y level to spawn at, for every dimension in the pack. "
 				""
-				"You can view the tab \"Ore Generation\" to find out the Y level, and Dimension of every available ore. "
+				"You can view the tab \"Ore Generation\" to find out the new Y level, and Dimension of every available ore. "
 				""
-				"The only exception to this if I recall (at the time of writing) is Sculk Ore from the Otherside.  All Sculk Ore is default Y level locations. "
+				"The only exception to this is Sculk Ore from the Otherside. All Sculk Ore is at default Y level locations. "
 			]
 			icon: "minecraft:iron_ore"
 			id: "39009BD303B688BA"
@@ -500,6 +500,7 @@
 			hide_dependency_lines: true
 			icon: "endrem:ancient_portal_frame"
 			id: "3AC0056DB7C1C822"
+			subtitle: "Also the end of the read me."
 			tasks: [{
 				id: "416BF236CA332CAF"
 				title: "Ok"

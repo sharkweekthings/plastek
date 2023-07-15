@@ -797,12 +797,13 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Fluid Cell Parts
   event.shaped('kubejs:fluid_cell_parts',
-    ['343','212','345'], {
+    ['343','212','645'], {
     1: 'thermal:fluid_cell_frame',
     2: 'thermal:redstone_servo',
     3: 'emendatusenigmatica:iron_plate',
     4: 'pneumaticcraft:plastic',
-    5: 'kubejs:empty_parts_box'})
+    5: 'kubejs:empty_parts_box',
+    6: 'pneumaticcraft:printed_circuit_board'})
 
 // Simulation Chamber Parts
   event.shaped('kubejs:simulation_chamber_parts',
