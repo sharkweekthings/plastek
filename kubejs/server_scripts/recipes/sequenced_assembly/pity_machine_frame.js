@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "industrialforegoing:machine_frame_pity",
       count: 1,},],
-      loops: 1,
+      loops: 2,
      sequence: [
 {
     type: "create:deploying",

@@ -200,6 +200,19 @@ ServerEvents.recipes(event => {
   ]
 })
 
+// Rose Quartz
+  event.custom({
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {"fluid": "thermal:redstone",
+      "amount": 500},
+    {"item": "thermal:rosin"},
+    {"item": "minecraft:redstone_block"}],
+  "result": [
+    {"item": "create:rose_quartz"}
+  ]
+})
+
 // Apatite Crystal
   event.custom({
   "type": "thermal:crystallizer",

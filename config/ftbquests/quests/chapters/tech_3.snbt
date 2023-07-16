@@ -538,6 +538,11 @@
 		}
 		{
 			dependencies: ["0B1AAF40ACCABEB6"]
+			description: [
+				"If you're looking for Rose Quartz Shards, you can find them in the Nether at the Crystalline Chasm biome. "
+				""
+				"You will need to find, and break Rose Quartz Clusters. This will give you Rose Quartz Shards!"
+			]
 			id: "564AA140606FC4F4"
 			rewards: [{
 				exclude_from_claim_all: true

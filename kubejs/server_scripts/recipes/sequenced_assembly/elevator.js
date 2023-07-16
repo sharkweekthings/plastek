@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "elevatorid:elevator_white",
       count: 1,},],
-      loops: 1,
+      loops: 3,
      sequence: [
 {
     type: "create:deploying",

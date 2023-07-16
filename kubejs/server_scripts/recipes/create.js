@@ -65,6 +65,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:crafting/logistics/brass_tunnel'})
   event.remove({id: 'create:crafting/kinetics/mechanical_roller'})
   event.remove({id: 'create:crafting/appliances/crafting_blueprint'})
+  event.remove({id: 'create:crafting/materials/rose_quartz'})
 
 //
 })
@@ -310,6 +311,13 @@ ServerEvents.recipes(event => {
     1: 'create:andesite_casing', 
     2: 'thermal:drill_head',
     3: '#forge:treated_wood'})
+
+// Rose Quartz
+  event.shaped('create:rose_quartz', 
+    ['323','212','323'], {
+    1: 'emendatusenigmatica:quartz_dust', 
+    2: 'minecraft:redstone',
+    3: 'biomesoplenty:rose_quartz_shard'})
     
 
 // Andesite Alloy Kiln

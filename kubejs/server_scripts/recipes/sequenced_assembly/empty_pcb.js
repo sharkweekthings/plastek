@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "pneumaticcraft:empty_pcb",
       count: 1,},],
-      loops: 1,
+      loops: 2,
      sequence: [
 {
     type: "create:deploying",

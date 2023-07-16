@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "thermal:hazmat_fabric",
       count: 1,},],
-      loops: 1,
+      loops: 2,
      sequence: [
 {
     type: "create:deploying",

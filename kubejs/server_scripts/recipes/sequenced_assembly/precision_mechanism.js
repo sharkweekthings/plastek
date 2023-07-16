@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "create:precision_mechanism",
       count: 2,},],
-      loops: 2,
+      loops: 3,
      sequence: [
 {
     type: "create:deploying",
