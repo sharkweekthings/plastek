@@ -30,6 +30,14 @@
       1225,
       -1.8
     ],
+    "alexsmobs:skelewag_sword": [
+      1226,
+      -1.808
+    ],
+    "alexsmobs:tendon_whip": [
+      1225,
+      -1.8
+    ],
     "ars_nouveau:enchanters_sword": [
       602,
       3.184
@@ -99,8 +107,8 @@
       5.056
     ],
     "emendatusenigmatica:copper_sword": [
-      1293,
-      -2.344
+      1303,
+      -2.424
     ],
     "emendatusenigmatica:steel_axe": [
       976,
@@ -111,8 +119,8 @@
       -0.176
     ],
     "emendatusenigmatica:sterling_silver_sword": [
-      1231,
-      -1.848
+      1269,
+      -2.152
     ],
     "immersiveengineering:axe_steel": [
       943,
@@ -702,6 +710,14 @@
       622,
       3.024
     ],
+    "alexsmobs:flying_fish_boots": [
+      1298,
+      -2.384
+    ],
+    "alexsmobs:roadrunner_boots": [
+      737,
+      2.104
+    ],
     "ars_nouveau:apprentice_boots": [
       607,
       3.144
@@ -988,6 +1004,14 @@
       622,
       3.024
     ],
+    "alexsmobs:centipede_leggings": [
+      1,
+      13.328
+    ],
+    "alexsmobs:emu_leggings": [
+      520,
+      3.84
+    ],
     "ars_nouveau:apprentice_leggings": [
       607,
       3.144
@@ -1265,6 +1289,22 @@
     "ad_astra:space_suit": [
       622,
       3.024
+    ],
+    "alexsmobs:crocodile_chestplate": [
+      194,
+      6.448
+    ],
+    "alexsmobs:rocky_chestplate": [
+      256,
+      5.952
+    ],
+    "alexsmobs:tarantula_hawk_elytra": [
+      897,
+      0.824
+    ],
+    "alexsmobs:unsettling_kimono": [
+      900,
+      0.8
     ],
     "ars_nouveau:apprentice_robes": [
       607,
@@ -1579,6 +1619,34 @@
     "ad_astra:space_helmet": [
       622,
       3.024
+    ],
+    "alexsmobs:fedora": [
+      1099,
+      -0.792
+    ],
+    "alexsmobs:frontier_cap": [
+      657,
+      2.744
+    ],
+    "alexsmobs:froststalker_helmet": [
+      880,
+      0.96
+    ],
+    "alexsmobs:moose_headgear": [
+      716,
+      2.272
+    ],
+    "alexsmobs:novelty_hat": [
+      1103,
+      -0.824
+    ],
+    "alexsmobs:sombrero": [
+      1036,
+      -0.288
+    ],
+    "alexsmobs:spiked_turtle_shell": [
+      443,
+      4.456
     ],
     "ars_nouveau:apprentice_hood": [
       607,

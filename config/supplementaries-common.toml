@@ -76,10 +76,6 @@
 	fodder = true
 	hourglass = true
 
-	[functional.present]
-		enabled = true
-		trapped_present = true
-
 	[functional.rope]
 		enabled = true
 		#Allows ropes to be supported & attached to solid block sides
@@ -180,6 +176,10 @@
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 100
 			attempts_per_patch = 35
+
+	[functional.present]
+		enabled = true
+		trapped_present = true
 
 [building]
 	daub = true
@@ -434,6 +434,10 @@
 		#Enables shooting ender pearls with dispensers
 		shoot_ender_pearls = true
 
+	[tweaks.dye_blocks]
+		#Allows using dyes on blocks just like soap
+		enabled = false
+
 	[tweaks.cake_tweaks]
 		#Allows you to place a cake on top of another
 		double_cake = true
@@ -544,8 +548,4 @@
 		rideable_underwater = true
 		#Convert a zombie horse back by feeding it a golden carrot
 		zombie_horse_inverse_conversion = true
-
-	[tweaks.dye_blocks]
-		#Allows using dyes on blocks just like soap
-		enabled = false
 

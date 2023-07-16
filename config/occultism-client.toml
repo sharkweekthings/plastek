@@ -20,5 +20,5 @@
 	divinationRodHighlightAllResults = false
 	#The scan range in blocks for the divination rod. Too high might cause lags
 	#Range: > 1
-	divinationRodScanRange = 300
+	divinationRodScanRange = 129
 
