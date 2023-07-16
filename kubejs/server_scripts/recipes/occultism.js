@@ -104,16 +104,6 @@ ServerEvents.recipes(event => {
     4: 'minecraft:diamond',
     5: 'occultism:infused_lenses'})
 
-
-
-// Divination Rod
-  event.shaped('occultism:divination_rod',
-    ['313','323',' 3 '], {
-    1: 'occultism:spirit_attuned_gem',
-    2: 'occultism:infused_lenses',
-    3: 'immersiveengineering:stick_treated',
-    4: 'theurgy:divination_rod_t3'})
-
 // Impure Golden Chalk
   event.shapeless(Item.of('occultism:chalk_gold_impure'), ['occultism:chalk_white_impure', 'emendatusenigmatica:gold_dust', 'emendatusenigmatica:gold_dust'])
 
