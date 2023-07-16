@@ -289,7 +289,7 @@ ServerEvents.blockLootTables(event => {
 // Dirt and Grass
   	event.modifyBlock(/^minecraft:.*dirt/, table => {
 		table.addPool(pool => {
-		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.03)})
+		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.02)})
 		})
 
   	event.modifyBlock(/^minecraft:.*leaves/, table => {
@@ -309,12 +309,12 @@ ServerEvents.blockLootTables(event => {
 
   	event.modifyBlock('ad_astra:mercury_stone', table => {
 		table.addPool(pool => {
-		pool.addItem('emendatusenigmatica:alien_gear').randomChance(0.05)})
+		pool.addItem('emendatusenigmatica:alien_gear').randomChance(0.03)})
 		})
 
   	event.modifyBlock('ad_astra:venus_stone', table => {
 		table.addPool(pool => {
-		pool.addItem('emendatusenigmatica:alien_rod').randomChance(0.05)})
+		pool.addItem('emendatusenigmatica:alien_rod').randomChance(0.03)})
 		})
 })
 
@@ -345,8 +345,6 @@ ServerEvents.blockLootTables(event => {
 
 // // Put Dust into Smelter
 // // Yields: Ingot
-
-
 
 // // Chemical Dissolution Chamber (w/  100mb Sulfuric Acid) +  Raw Ore
 
