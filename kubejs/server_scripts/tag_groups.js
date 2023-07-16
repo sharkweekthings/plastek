@@ -176,6 +176,7 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'theurgy:divination_rod_t1',
   'create:andesite_alloy_block',
   'create:sweet_roll',
   'energeticsheep:gray_energetic_wool',
@@ -381,7 +382,7 @@ event.add('kubejs:age_1_item',
   ])
 
 event.add('kubejs:age_1_exception', 
-  [
+  [  
   'quark:encased_pipe',
   'supplementaries:tater_in_a_jar',
   'quark:magnetized_block',
@@ -406,8 +407,10 @@ event.add('kubejs:age_1_exception',
   'minecraft:deepslate_diamond_ore',
   'minecraft:deepslate_iron_ore',
   'minecraft:emerald_ore',
-  'apotheosis:infused_hellshelf',
   'apotheosis:hellshelf',
+  'apotheosis:seashelf',
+  'apotheosis:dormant_deepshelf',
+  'apotheosis:endshelf',
   'apotheosis:library',
   'emendatusenigmatica:apatite_moon_stone_ore',
   'emendatusenigmatica:apatite_glacio_stone_ore',
@@ -452,6 +455,8 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'theurgy:divination_rod_t2',
+  'theurgy:divination_rod_t3',
   'create:crafting_blueprint',
   'create:copper_diving_helmet',
   'create:copper_backtank',
@@ -671,7 +676,9 @@ event.add('kubejs:age_2_exception',
   ])
 
 event.add('kubejs:age_3_item', 
-  [
+  [  
+  'apotheosis:seashelf',
+  'apotheosis:hellshelf',
   'thermal:cured_rubber',
   'pneumaticcraft:compressed_iron_helmet',
   'pneumaticcraft:compressed_iron_chestplate',
@@ -1014,8 +1021,6 @@ event.add('kubejs:age_4_item',
   'mekanism:hazmat_pants',
   'mekanism:hazmat_boots',
   'mekanism:hazmat_gown',
-  'apotheosis:infused_hellshelf',
-  'apotheosis:hellshelf',
   'apotheosis:library',
   'silentgear:deepslate_bort_ore',
   'thermal:deepslate_cinnabar_ore',
@@ -1135,6 +1140,9 @@ event.add('kubejs:age_4_exception',
 
 event.add('kubejs:age_5_item', 
   [
+  'apotheosis:dormant_deepshelf',
+  'kubejs:empty_prediction_parts',
+  'kubejs:digital_miner_parts',
   'kubejs:compression_dynamo_parts',
   'kubejs:dissolution_chamber_parts',
   'kubejs:stirling_dynamo_parts',
@@ -1282,6 +1290,12 @@ event.add('kubejs:age_5_exception',
 
 event.add('kubejs:age_6_item', 
   [
+  'apotheosis:endshelf',
+  'kubejs:player_transmitter_starter_parts',
+  'kubejs:ender_gate_starter_parts',
+  'kubejs:energizing_orb_parts',
+  'kubejs:energizing_rod_starter_parts',
+  'kubejs:energy_cable_starter_parts',
   'kubejs:repaired_zpm_housing_unit',
   'kubejs:damaged_zpm_housing_unit',
   'kubejs:depleted_zpm_housing_unit',

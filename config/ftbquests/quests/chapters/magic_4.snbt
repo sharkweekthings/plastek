@@ -615,80 +615,7 @@
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
-			description: [
-				"Depending on your current setup, if any -- you may want to upgrade a bit!"
-				""
-				"If you can get your system to be at least 22.50 Arcana and 30% Quanta you will be able to make Infused Hellshelfs. These are a key component in making the fist Library block which can make extremely powerful enchant books."
-				""
-				"This setup should get you 22.50 Arcana, and plenty of Quanta to start making your Hellshelf."
-				""
-				"&n&aTips&r:&r"
-				" "
-				"- To obtain the fully grown &dAmethyst Cluster&r you will need a tool with &eSilk Touch&r."
-				""
-				"- You only need to place 1 candle on each block that needs a candle, multiple candles are for aesthetic only."
-				""
-				"{image:kubejs:textures/apotheosis/enchanting_table_sample.png width:150 height:100 align:1}"
-				""
-				"&o&eDesign created by Reddit User: thelegendofnobody, from post&r&r: &b&nhttps://www.reddit.com/user/thelegendofnobody/comments/ww2lor&r&r"
-			]
-			id: "07AA7CD137477301"
-			shape: "circle"
-			tasks: [
-				{
-					count: 16L
-					id: "23AD3EE1351ED9AB"
-					item: "apotheosis:hellshelf"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "7C1B552F63C5DF82"
-					item: "minecraft:amethyst_cluster"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "19AD2393F42E7633"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:candles"
-						}
-					}
-					title: "Any #minecraft:candles"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "5AD3FD988D33C005"
-					item: "minecraft:skeleton_skull"
-					type: "item"
-				}
-			]
-			title: "Better Enchanting"
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["07AA7CD137477301"]
-			id: "606B521DAD8461F5"
-			shape: "circle"
-			tasks: [{
-				id: "2F2E38BA062C6E81"
-				item: "minecraft:enchanting_table"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"76225F87D4493795"
-				"606B521DAD8461F5"
-				"53F4711DAA68C96F"
-			]
+			description: ["The Enchantment Library is an extremely powerful tool that will allow you to store enchantments, and combine them into a single book."]
 			id: "681F7D7C8F26B46F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -702,39 +629,8 @@
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["07AA7CD137477301"]
-			description: [
-				"The materials for the Library are extremely expensive as the Library itself is an extremely powerful tool. "
-				""
-				"With the Library you are able to deposit Enchantment books, as well as stack Enchantments into new books. "
-				""
-				"Lets hope that your rudimentary Mob Grinder is still operational so you can soak up some Experience Points."
-			]
-			id: "76225F87D4493795"
-			shape: "circle"
-			subtitle: "Can you afford me?"
-			tasks: [{
-				id: "044F9748E6F64519"
-				item: "apotheosis:infused_hellshelf"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["07AA7CD137477301"]
-			id: "53F4711DAA68C96F"
-			shape: "circle"
-			tasks: [{
-				id: "6A7304F8EF1C0027"
-				item: "minecraft:ender_chest"
-				type: "item"
-			}]
-			x: -2.0d
+			title: "Storing Knowledge"
+			x: 0.0d
 			y: -3.0d
 		}
 	]

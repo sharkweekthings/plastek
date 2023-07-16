@@ -248,6 +248,9 @@ JEIEvents.hideItems(event => {
 	event.hide('botania:apothecary_mossy')
 	event.hide('botania:apothecary_deepslate')
 
+// OCCULTISM
+	event.hide('theurgy:divination_rod_t4')
+
 // SIMPLE STORAGE
 	event.hide('storagenetwork:inventory')
 	event.hide('storagenetwork:exchange')

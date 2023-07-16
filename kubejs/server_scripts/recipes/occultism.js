@@ -17,6 +17,10 @@ ServerEvents.recipes(event => {
   event.remove({id: 'occultism:crafting/book_of_binding_bound_djinni'})
   event.remove({output: 'occultism:book_of_binding_djinni'})
   event.remove({id: 'occultism:crafting/chalk_gold_impure'})
+  event.remove({id: 'theurgy:crafting/shaped/divination_rod_t1'})
+  event.remove({id: 'theurgy:crafting/shaped/divination_rod_t2'})
+  event.remove({id: 'theurgy:crafting/shaped/divination_rod_t3'})
+  event.remove({id: 'theurgy:crafting/shaped/divination_rod_t4'})
 
 //
 })
@@ -43,13 +47,6 @@ ServerEvents.recipes(event => {
     2: 'occultism:otherstone_slab',
     3: 'emendatusenigmatica:silver_plate'})
 
-// Divination Rod
-  event.shaped('occultism:divination_rod',
-    ['313','323',' 3 '], {
-    1: 'occultism:spirit_attuned_gem',
-    2: 'occultism:infused_lenses',
-    3: 'immersiveengineering:stick_treated'})
-
 // Occultism Rod
   event.shaped('occultism:butcher_knife',
     ['213','23 ','3  '], {
@@ -72,6 +69,50 @@ ServerEvents.recipes(event => {
     2: 'minecraft:green_dye',
     3: 'minecraft:writable_book',
     4: 'botania:dragonstone'})
+
+// T1 Divination Rod
+  event.shaped('theurgy:divination_rod_t1',
+    ['243',' 31','3 2'], {
+    1: '#forge:glass',
+    2: 'minecraft:stick',
+    3: 'emendatusenigmatica:copper_rod',
+    4: 'minecraft:lapis_lazuli'})
+
+// T2 Divination Rod
+  event.shaped('theurgy:divination_rod_t2',
+    ['215',' 41','3 2'], {
+    1: '#forge:glass',
+    2: 'immersiveengineering:stick_treated',
+    3: 'theurgy:divination_rod_t1',
+    4: 'minecraft:amethyst_shard',
+    5: 'emendatusenigmatica:gold_plate'})
+
+// T3 Divination Rod
+  event.shaped('theurgy:divination_rod_t3',
+    ['214',' 41','3 2'], {
+    1: '#forge:glass',
+    2: 'immersiveengineering:stick_treated',
+    3: 'theurgy:divination_rod_t2',
+    4: 'minecraft:diamond'})
+
+// Occultism Divination Rod
+  event.shaped('occultism:divination_rod',
+    ['215',' 41','3 2'], {
+    1: '#forge:glass',
+    2: 'immersiveengineering:stick_treated',
+    3: 'theurgy:divination_rod_t3',
+    4: 'minecraft:diamond',
+    5: 'occultism:infused_lenses'})
+
+
+
+// Divination Rod
+  event.shaped('occultism:divination_rod',
+    ['313','323',' 3 '], {
+    1: 'occultism:spirit_attuned_gem',
+    2: 'occultism:infused_lenses',
+    3: 'immersiveengineering:stick_treated',
+    4: 'theurgy:divination_rod_t3'})
 
 // Impure Golden Chalk
   event.shapeless(Item.of('occultism:chalk_gold_impure'), ['occultism:chalk_white_impure', 'emendatusenigmatica:gold_dust', 'emendatusenigmatica:gold_dust'])

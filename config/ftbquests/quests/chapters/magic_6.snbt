@@ -27,6 +27,7 @@
 				title: "Mystical Agriculture"
 				type: "checkmark"
 			}]
+			title: "Plants That Smell Funny, and More!"
 			x: 0.5d
 			y: -0.5d
 		}
@@ -147,6 +148,63 @@
 			}]
 			x: -4.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["389CAFB268087EF8"]
+			id: "2879325DD3463E18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F11F426BCDF06FB"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "16A8767FBF4E4E50"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2879325DD3463E18"]
+			id: "2261796DD3005D8B"
+			shape: "circle"
+			tasks: [{
+				id: "2AC230B918D207E4"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2261796DD3005D8B"]
+			id: "5A3EA1DB430806D7"
+			shape: "circle"
+			tasks: [{
+				id: "31812E3B1484C734"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A86D1454D7A0BF2"]
+			description: ["And a fitting end for the Endshelves to be at the end. "]
+			id: "389CAFB268087EF8"
+			shape: "circle"
+			subtitle: "Level 80 to 100"
+			tasks: [{
+				id: "37B3FF4E6F1A0C08"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "End of Your Knowledge"
+			x: 0.5d
+			y: -2.0d
 		}
 	]
 	title: "Magic"

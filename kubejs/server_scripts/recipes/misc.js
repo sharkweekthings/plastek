@@ -143,8 +143,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'waystones:warp_plate'})
   event.remove({id: 'waystones:portstone'})
   event.remove({output: 'waystones:attuned_shard'})
-  event.remove({id: 'apotheosis:library'})
-  event.remove({output: 'apotheosis:library'})
+  // event.remove({id: 'apotheosis:library'})
+  // event.remove({output: 'apotheosis:library'})
   event.remove({id: 'apotheosis:enchanting/ender_library'})
   event.remove({id: 'apotheosis:simple_reforging_table'})
   event.remove({id: 'apotheosis:reforging_table'})
@@ -177,6 +177,14 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/ender_gate_starter'})
   event.remove({id: 'hostilenetworks:matrix'})
   event.remove({id: 'rootsclassic:growth_powder'})
+  // event.remove({id: 'apotheosis:seashelf'})
+  // event.remove({ output: "apotheosis:seashelf"})
+  // event.remove({id: 'apotheosis:hellshelf'})
+  // event.remove({ output: "apotheosis:hellshelf"})
+  // event.remove({id: 'apotheosis:dormant_deepshelf'})
+  // event.remove({ output: "apotheosis:dormant_deepshelf"})
+  // event.remove({id: 'apotheosis:endshelf'})
+  // event.remove({ output: "apotheosis:endshelf"})
 
 //
 })
@@ -902,6 +910,35 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   3: 'rootsclassic:verdant_sprig',
   4: '#rootsclassic:berries',
   5: 'emendatusenigmatica:gold_plate'})
+
+  // Sea Shelf
+  event.shaped('apotheosis:seashelf',
+    ['313','121','313'], {
+  1: 'minecraft:prismarine_bricks',
+  2: '#forge:bookshelves',
+  3: 'botania:terrasteel_ingot'}).id('apotheosis:seashelf')
+
+  // Hell Shelf
+  event.shaped('apotheosis:hellshelf',
+    ['313','121','313'], {
+  1: 'minecraft:nether_bricks',
+  2: '#forge:bookshelves',
+  3: 'botania:terrasteel_ingot'}).id('apotheosis:hellshelf')
+
+  // Dormant Deepshelf
+  event.shaped('apotheosis:dormant_deepshelf',
+    ['313','121','313'], {
+  1: 'minecraft:cracked_deepslate_tiles',
+  2: '#forge:bookshelves',
+  3: 'ars_nouveau:conjuration_essence'}).id('apotheosis:dormant_deepshelf')
+
+  // End Shelf
+  event.shaped('apotheosis:endshelf',
+    ['313','121','313'], {
+  1: 'minecraft:end_stone_bricks',
+  2: '#forge:bookshelves',
+  3: 'mysticalagriculture:end_essence'}).id('apotheosis:endshelf')
+
 
 // Hopper Botany Pot
   event.shapeless(Item.of('botanypots:terracotta_hopper_botany_pot'), ['botanypots:terracotta_botany_pot', 'minecraft:hopper'])

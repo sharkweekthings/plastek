@@ -11,8 +11,7 @@
 		{
 			dependencies: ["060D5244CBD4660D"]
 			description: [
-				"This section is fully focused on Ars Nouveau and getting set up with your first Glyphs, machines, and a few of the extras that you'll need if you want to do more with Ars Nouveau."
-				""
+				"This section is mostly focused on Ars Nouveau and getting set up with your first Glyphs, machines, and a few of the extras that you'll need if you want to do more with Ars Nouveau."
 				""
 				"The \"Tools\" tab contains the rest of the tracking for this mod.  "
 			]
@@ -22,8 +21,9 @@
 				title: "Ars Nouveau"
 				type: "checkmark"
 			}]
+			title: "The Magical Journey"
 			x: 0.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B52E0D0ABA63E2A"]
@@ -185,7 +185,7 @@
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -205,7 +205,7 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -218,7 +218,7 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 2.5d
 		}
 		{
@@ -237,7 +237,7 @@
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -250,7 +250,7 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.5d
 		}
 		{
@@ -269,7 +269,7 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -297,7 +297,7 @@
 				}
 			]
 			title: "Enchanting Apparatus"
-			x: 1.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -398,8 +398,8 @@
 				type: "checkmark"
 			}]
 			title: "Fantastic Beasts and How To Trade Them"
-			x: 0.0d
-			y: -2.5d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3EBBFB49CDE811B5"]
@@ -410,8 +410,8 @@
 				item: "ars_nouveau:whirlisprig_shards"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3EBBFB49CDE811B5"]
@@ -422,8 +422,8 @@
 				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3EBBFB49CDE811B5"]
@@ -434,8 +434,8 @@
 				item: "ars_nouveau:drygmy_shard"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3EBBFB49CDE811B5"]
@@ -446,8 +446,8 @@
 				item: "ars_nouveau:wixie_shards"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7AC83CDC6A5DBAA8"]
@@ -482,8 +482,101 @@
 				}
 			]
 			title: "Moving Source"
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7CB58F1B8874C893"]
+			id: "676B4709135EC102"
+			shape: "circle"
+			tasks: [{
+				id: "4AA64BC50E37DDF8"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73FA7CB233D08080"]
+			id: "33923234FCEABCB4"
+			shape: "circle"
+			tasks: [{
+				id: "53455317D2558E16"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57BE4C82384F67EA"]
+			id: "7CB58F1B8874C893"
+			shape: "circle"
+			tasks: [{
+				id: "0C31C851CA2E8576"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B52E0D0ABA63E2A"]
+			description: ["Starting with Deepshelves, and up to Sculkshelves will be the way to hit level 80."]
+			id: "73FA7CB233D08080"
+			shape: "circle"
+			subtitle: "Level 60 to 80"
+			tasks: [{
+				id: "068CA4065FB7A412"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Deeper Knowledge"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33923234FCEABCB4"]
+			id: "57BE4C82384F67EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FA41AD2528492FC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3A30D9FE96F23E4A"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BCDD84A92444C6B"]
+			id: "3D6CBABA6684D9D6"
+			shape: "circle"
+			tasks: [{
+				id: "5B677DA8FB49B1C3"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["57BE4C82384F67EA"]
+			id: "7BCDD84A92444C6B"
+			shape: "circle"
+			tasks: [{
+				id: "7ECC1841CA669341"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
 		}
 	]
 	title: "Magic"

@@ -612,6 +612,39 @@
 			x: 5.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			description: [
+				"The Divination Rod can be attuned to a block by Sneak + Clicking the block. You will see a message in chat confirming the attunment.  You can also reset the block to a new one whenever you want."
+				""
+				"Once attuned to a block, hold down right click and let the Divination Rod charge up. A small pink particle effect should come out, making it much easier to locate what you're looking for, if you're within a 129 block radius of the block you seek."
+				""
+				"&a&oNote: This is intended to help you locate hard to find ore blocks!&r&r"
+			]
+			id: "424014FE8CD9F5BC"
+			shape: "circle"
+			subtitle: "Block Finder"
+			tasks: [{
+				id: "1A25A15ACC69B102"
+				item: {
+					Count: 1b
+					id: "theurgy:divination_rod_t1"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 3
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
 	]
 	title: "Utility"
 }

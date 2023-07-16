@@ -212,16 +212,11 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["076EB307BC758853"]
-			description: [
-				"Don't use the Infused Lens' intended for your goggles. You'll need 2 Infused Lenses. One for the goggles, and the other for the rod. "
-				""
-				"The Divination Rod can be attuned to a block by Sneak + Clicking the block. You will see a message in chat confirming the attunment.  You can also reset the block to a new one whenever you want."
-				""
-				"Once attuned to a block, hold down right click and let the Divination Rod charge up. A small pink particle effect should come out, making it much easier to locate what you're looking for, if you're within a 129 block radius of the block you seek."
-				""
-				"&a&oNote: This is intended to help you locate hard to find ore blocks!&r&r"
+			dependencies: [
+				"38DAC7D1ECEB4AC6"
+				"791E405B6085CCE2"
 			]
+			description: ["This rod will allow you to track Iesnium Ore by attuning it to Netherrack. "]
 			id: "6C5537A36A16C0D4"
 			shape: "circle"
 			subtitle: "Make sure you have enough for two sets of Infused Lens (Goggles, and Rod)"
@@ -235,7 +230,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4064F6ACEBE392CA"]
@@ -605,6 +600,56 @@
 			}]
 			x: 1.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "0AA4BD76433811D1"
+			shape: "circle"
+			tasks: [{
+				id: "4F44B64E318EE3DA"
+				item: {
+					Count: 1b
+					id: "theurgy:divination_rod_t2"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 6
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:iron"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AA4BD76433811D1"]
+			id: "38DAC7D1ECEB4AC6"
+			shape: "circle"
+			tasks: [{
+				id: "47CC6C498830944D"
+				item: {
+					Count: 1b
+					id: "theurgy:divination_rod_t3"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 9
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:diamond"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
 		}
 	]
 	title: "Utility"

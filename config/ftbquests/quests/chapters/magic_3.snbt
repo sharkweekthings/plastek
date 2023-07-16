@@ -605,6 +605,167 @@
 			x: -7.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["597D7BAE219529C7"]
+			description: ["You will be able to reach Level 60 through an assortment of Hellshelves, Seashelves, Sightshelves, and Rectifiers. "]
+			id: "0FFBFD0600D23353"
+			shape: "circle"
+			subtitle: "Level 30 to 60"
+			tasks: [{
+				id: "01DCC220954A1AA5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Knowledge of the Ocean and Underworld"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FFBFD0600D23353"]
+			id: "713A2AC9EDBE32C8"
+			shape: "circle"
+			tasks: [{
+				id: "5FA0139DDCD23304"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FFBFD0600D23353"]
+			id: "19DF3FE63867AC4A"
+			shape: "circle"
+			tasks: [{
+				id: "41248F8B6AC74C6F"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19DF3FE63867AC4A"]
+			id: "1DB22DE4BEA5AF7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "510DC894C7692189"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1C59073D9F2B0D01"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["713A2AC9EDBE32C8"]
+			id: "11A3ED44CC6D4CC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29EFDF6998ECB50A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "65B2413A67E0E054"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11A3ED44CC6D4CC9"]
+			id: "1052995F27C86916"
+			shape: "circle"
+			tasks: [{
+				id: "10FCA5B6B12743B4"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1052995F27C86916"]
+			id: "2AB65153EF519D87"
+			shape: "circle"
+			tasks: [{
+				id: "52DCEA55DAA97AD5"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DB22DE4BEA5AF7E"]
+			id: "654482F195357902"
+			shape: "circle"
+			tasks: [{
+				id: "7BC0BAFDF4D63B09"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["654482F195357902"]
+			id: "4F7E6A23D61390E1"
+			shape: "circle"
+			tasks: [{
+				id: "2A01C80AAA477CFB"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11A3ED44CC6D4CC9"]
+			id: "17831A69A71A4957"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6FC89FDEE26E8613"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "3E1E993168D00D07"
+					item: "apotheosis:glowing_hellshelf"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DB22DE4BEA5AF7E"]
+			id: "54CD8BC32AD3D315"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7277D571B3559711"
+					item: "apotheosis:crystal_seashelf"
+					type: "item"
+				}
+				{
+					id: "6C6EC73940C6DB09"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
 	]
 	title: "Magic"
 }
