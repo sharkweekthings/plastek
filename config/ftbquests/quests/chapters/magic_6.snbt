@@ -95,7 +95,13 @@
 		{
 			dependencies: ["714B87A0999F252A"]
 			id: "0F530646337BBF9B"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62514273793EAD16"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "7B01F93FEB350F83"
 				item: "mysticalagriculture:cognizant_dust"

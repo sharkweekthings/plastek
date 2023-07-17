@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
     1: 'mysticalagriculture:infusion_altar',
     2: 'mysticalagriculture:soulstone',
     3: 'compressium:redsand_3',
-    4: 'emendatusenigmatica:copper_plate'})
+    4: 'emendatusenigmatica:signalum_plate'})
 
 // Infusion Pedestal
   event.shaped('mysticalagriculture:awakening_pedestal',
@@ -131,14 +131,14 @@ ServerEvents.recipes(event => {
     1: 'mysticalagriculture:infusion_pedestal',
     2: 'mysticalagriculture:soulstone',
     3: 'compressium:redsand_3',
-    4: 'emendatusenigmatica:copper_plate'})
+    4: 'emendatusenigmatica:signalum_plate'})
 
 // Essence Vessel
   event.shaped('mysticalagriculture:essence_vessel',
     ['343',' 1 ','222'], {
     1: 'pneumaticcraft:large_tank',
     2: 'mysticalagriculture:soulstone',
-    3: 'emendatusenigmatica:gold_plate',
+    3: 'emendatusenigmatica:electrum_plate',
     4: '#forge:glass'})
 
 // Inferium Helmet
