@@ -498,7 +498,7 @@ event.custom({
 
 // Tiny Dry Rubber
 event.custom({
-  "type": "create:mixing", "ingredients": [{"item": "emendatusenigmatica:quartz_dust","count": 1}, {"item": "emendatusenigmatica:cinnabar_dust","count": 1},
+  "type": "create:mixing", "ingredients": [{"item": "thermal:quartz_dust","count": 1}, {"item": "emendatusenigmatica:cinnabar_dust","count": 1},
   {"fluidTag": "minecraft:water","amount": 200}],
   "results": [{"item": "industrialforegoing:tinydryrubber"}],
   "heatRequirement": "none"

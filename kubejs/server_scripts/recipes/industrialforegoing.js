@@ -772,13 +772,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "megacells:cell_component_1m"
@@ -809,13 +809,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "megacells:cell_component_4m"
@@ -846,13 +846,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "megacells:cell_component_16m"
@@ -883,13 +883,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "emendatusenigmatica:ender_pearl_dust"
+				"item": "ae2:ender_dust"
 			},
 			{
 				"item": "megacells:cell_component_64m"
