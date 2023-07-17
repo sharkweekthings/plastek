@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-22T21:18:27.1870294	EE Mekanism Addon Recipes
+// 1.19.2	2023-07-16T20:33:48.9988538	EE Mekanism Addon Recipes
 5752b1ddedea299787d9ef9148f91b9180ed72a1 data/emendatusenigmatica/recipes/clump/from_ore/fluix.json
 c36ab4de61becff5bdb1f54d5c477b0a7e521955 data/emendatusenigmatica/recipes/clump/from_ore/sharkinite.json
 b216a9e4d018b0591336f6e0b8a5aeb56f77227c data/emendatusenigmatica/recipes/clump/from_ore/weekonium.json
@@ -23,7 +23,6 @@ f057b9fc1e6e88ac26e1353c64fbd82d61b7f4f3 data/emendatusenigmatica/recipes/clump/
 e9203ae952f079565a24556d49126652a93b462b data/emendatusenigmatica/recipes/clump/from_raw_block/weekonium.json
 eb768d5f848ac489ccadae3e6408eb565a81c042 data/emendatusenigmatica/recipes/clump/from_raw_block/zinc.json
 a2ed8ddc0a31e4272284951b0f9c4b962b4d38cb data/emendatusenigmatica/recipes/clump/from_shard/aluminum.json
-cbe76318cff5a4ad50fdb07fab42044d0c9062f4 data/emendatusenigmatica/recipes/clump/from_shard/arcmetal.json
 9d906c05f6e80877e7fb6c114e318b2a7c34c3be data/emendatusenigmatica/recipes/clump/from_shard/copper.json
 c06546f8fca760877b9a72f3ffbb29e8a5f59f39 data/emendatusenigmatica/recipes/clump/from_shard/gold.json
 70ddb9febacc22fe926eaed24ce3f87930717a07 data/emendatusenigmatica/recipes/clump/from_shard/iron.json
@@ -35,7 +34,6 @@ d348a54d20d2e8eb58fdf46d39d4b280411e70d2 data/emendatusenigmatica/recipes/clump/
 cb9109097a21f6670652faaa30c9da1eb4fdc25c data/emendatusenigmatica/recipes/clump/from_shard/silver.json
 f2c949a8062feb093a13595bf9a955dc24fad525 data/emendatusenigmatica/recipes/clump/from_shard/tin.json
 83bf557024adff118ba67ecef6302d73cd3a8f3f data/emendatusenigmatica/recipes/clump/from_shard/uranium.json
-3fd843a21f8f563090901a07b0be5da887159849 data/emendatusenigmatica/recipes/clump/from_shard/voidmetal.json
 3e860cd09b7fb98560cebdfba2d490612caad7a0 data/emendatusenigmatica/recipes/clump/from_shard/weekonium.json
 0124679cc32c0cd0bec5aea759be39104f5cbda4 data/emendatusenigmatica/recipes/clump/from_shard/zinc.json
 b78e5f2923912ec447a5b7b98ee01ad2b762cd62 data/emendatusenigmatica/recipes/crystal/from_slurry/aluminum.json
@@ -78,7 +76,6 @@ d35d41579b27ffc5e368db6be4b9ce93d868586e data/emendatusenigmatica/recipes/dust/f
 a6b6680147770f899815c64da89bba18bc5a8229 data/emendatusenigmatica/recipes/dust/from_dirty_dust/weekonium.json
 760b93db1457769878afb33dde067eeec6aa4b43 data/emendatusenigmatica/recipes/dust/from_dirty_dust/zinc.json
 82f2b8ac929eaed929f5355fa652472dc3c6bf89 data/emendatusenigmatica/recipes/shard/from_crystal/aluminum.json
-d3d096e3f86bf52a68b901fec897c6720ff05d2d data/emendatusenigmatica/recipes/shard/from_crystal/arcmetal.json
 424626b9b3cd7d72006ae9de0ec8f99f93399c94 data/emendatusenigmatica/recipes/shard/from_crystal/copper.json
 418cb209a3f6d67f3b9e50ca74cad9ab2edecfa6 data/emendatusenigmatica/recipes/shard/from_crystal/gold.json
 2f741b1e4e9d1b065869b1e90d01ff2b8d58e0b7 data/emendatusenigmatica/recipes/shard/from_crystal/iron.json
@@ -89,7 +86,6 @@ aa7a82bca8c51d34f34ca8c601446a7f2c507525 data/emendatusenigmatica/recipes/shard/
 b4714dddbc64c2fb23a7f9c9e5557c5d3715634c data/emendatusenigmatica/recipes/shard/from_crystal/silver.json
 06313d047b478e77c913553e529c589d3f4d1f41 data/emendatusenigmatica/recipes/shard/from_crystal/tin.json
 3f4525d8931f2b56d1a25aa751b39a9a454e4e57 data/emendatusenigmatica/recipes/shard/from_crystal/uranium.json
-c19860ce1aed1055ef3465105fef49116f97d1e1 data/emendatusenigmatica/recipes/shard/from_crystal/voidmetal.json
 f26513e904efaadc52ec8ec7ef95272961302dcf data/emendatusenigmatica/recipes/shard/from_crystal/weekonium.json
 65c57fd55f213dc7a65d0c86a8bcea2c8adce82c data/emendatusenigmatica/recipes/shard/from_crystal/zinc.json
 901a921ef92b002da7609ebe4c74db1dc29fe3de data/emendatusenigmatica/recipes/shard/from_ore/sharkinite.json

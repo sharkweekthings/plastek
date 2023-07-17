@@ -1,7 +1,6 @@
-// 1.19.2	2023-06-22T21:18:27.1751252	EE Mekanism Addon Item Tags
-f9517b894849c17c082e94b298b744492fcd935e data/mekanism/tags/items/clumps.json
+// 1.19.2	2023-07-16T20:33:48.9849657	EE Mekanism Addon Item Tags
+f7824ea2c5add4001a5fa7e282ccebe71cf011d1 data/mekanism/tags/items/clumps.json
 adb79092887285113e9ef0be6a78b079702e50b9 data/mekanism/tags/items/clumps/aluminum.json
-5ef625632eff1a7268de23483783db4adb5df697 data/mekanism/tags/items/clumps/arcmetal.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 a2fd2bc27017aebe8b3f3745f3729109e1ed5e04 data/mekanism/tags/items/clumps/fluix.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
@@ -14,7 +13,6 @@ fd2d7f2c3ae4936b39dde961e2d5052bb9c8dd87 data/mekanism/tags/items/clumps/sharkin
 ed45b4492e1d71cec00f9b5d5738cc9b52c8c512 data/mekanism/tags/items/clumps/silver.json
 4585f07ed22eec6684c56a53cb51bb5c141602ef data/mekanism/tags/items/clumps/tin.json
 897a0bc85c3ba8a1e3ffe467f38a8e8f9217340a data/mekanism/tags/items/clumps/uranium.json
-602e19b5b7edc8151d139a44e58a54fb02dc534e data/mekanism/tags/items/clumps/voidmetal.json
 c7dd36ca135309379514688520462a9bfb12d082 data/mekanism/tags/items/clumps/weekonium.json
 63fd03700df53d2cff621d4365430dcf2a08fb26 data/mekanism/tags/items/clumps/zinc.json
 3f5fd72dc7b1535de6f1e945a06ecffff525d60c data/mekanism/tags/items/crystals.json
@@ -49,9 +47,8 @@ d59d72b74e719ccf9cdb8ef31618da5c1d241eb1 data/mekanism/tags/items/dirty_dusts/si
 7e45bb867ee9e40fe0fb0a1d86e639f381ce429c data/mekanism/tags/items/dirty_dusts/uranium.json
 623566eb834a520876fc36ff68eb21b6293d697f data/mekanism/tags/items/dirty_dusts/weekonium.json
 1b5d85756eff4c61f7123893072d6afed2f9fb7d data/mekanism/tags/items/dirty_dusts/zinc.json
-83fb738f653a36caecf7d04b8a4b449168ac8470 data/mekanism/tags/items/shards.json
+5322df6fdc338add814c7b847e8849976a904d8f data/mekanism/tags/items/shards.json
 305e1a09254e7d7d74ec12efb2eed90aec8d733a data/mekanism/tags/items/shards/aluminum.json
-bdce0720e7e1130535fd407c2f480995629beb26 data/mekanism/tags/items/shards/arcmetal.json
 9a9ca4ee6be77dcbb089ce1bc6155f6cd02e220f data/mekanism/tags/items/shards/copper.json
 f593ece874b87777b2557b375afe2d43a77a6897 data/mekanism/tags/items/shards/gold.json
 db7677d149aa199bea0e59f15ad35c27110bf087 data/mekanism/tags/items/shards/iron.json
@@ -64,6 +61,5 @@ f72aa8cddbef95e6b89be84634b8d608f02cc364 data/mekanism/tags/items/shards/osmium.
 0c6ee7f5997bb1cede84556499c37f5084292c67 data/mekanism/tags/items/shards/sulfur.json
 deeebf536e38d9ca6ef6fdb94602e8cd3d903099 data/mekanism/tags/items/shards/tin.json
 d18a6d92b80cb8443a85fa1643414a86fa059301 data/mekanism/tags/items/shards/uranium.json
-2a720fe68bfba3e030d7783b3a294234930dd56a data/mekanism/tags/items/shards/voidmetal.json
 afac4f0b5d3fdd9b7761ebe86694d0e90eae33b5 data/mekanism/tags/items/shards/weekonium.json
 1898295d7b4a7fd7c7425635ac3350a72ecab1ca data/mekanism/tags/items/shards/zinc.json

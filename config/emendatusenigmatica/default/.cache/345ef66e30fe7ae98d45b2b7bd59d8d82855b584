@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-16T18:41:01.9189229	Emendatus Enigmatica Item Tags
+// 1.19.2	2023-07-16T20:33:48.9889337	Emendatus Enigmatica Item Tags
 baca836dcb6ee7c51ceebfb1e6924c38e0b3f0d2 data/forge/tags/items/armors/boots.json
 1666aec7e4a2366628e29456b86fa4dc7c145e82 data/forge/tags/items/armors/boots/copper.json
 fa90ab6cf8117ba5fc880b604b1ef8e38ad6b388 data/forge/tags/items/armors/boots/sterling_silver.json
@@ -11,7 +11,7 @@ bc8f5a0d2e7c8fa607244dd37a9408240c104081 data/forge/tags/items/armors/helmets/st
 cb2bf5ecbf95f2f2834e066050af8f775dea0c31 data/forge/tags/items/armors/leggings.json
 5faabdc941c83f7e9daa3893db59cdd073692438 data/forge/tags/items/armors/leggings/copper.json
 f9158fddabde6b70ebb172396e7c050843e29c05 data/forge/tags/items/armors/leggings/sterling_silver.json
-50845963e9eb4d053a19fc0dc5198211d9fc486b data/forge/tags/items/dusts.json
+aa1046bc325b55d360d7bf0f4743e527acfade52 data/forge/tags/items/dusts.json
 c0d8627ab34423905e9a8ab98c45e0de2b285400 data/forge/tags/items/dusts/aluminum.json
 6ea735693aadc818027ec6eb81ea220fcf7d2c32 data/forge/tags/items/dusts/apatite.json
 4a2116ab54fb41fd66658b9cf0024385679db679 data/forge/tags/items/dusts/brass.json
@@ -43,10 +43,9 @@ da836b31df3e2b52eecd39da8ec6e09ca935f92f data/forge/tags/items/dusts/sharkinite.
 c27ffdbf7cfb6df2211ea774fcbd9ef1bbe1c595 data/forge/tags/items/dusts/sulfur.json
 df1d3911da836f17fd66b41d32e8b6fc2ade83ef data/forge/tags/items/dusts/tin.json
 f373f87718d37289915d11ef88c20f7b0c1360f4 data/forge/tags/items/dusts/uranium.json
-6f97ce058718f4f9521bb1cdaabc2d0ad05c6d89 data/forge/tags/items/dusts/voidmetal.json
 85291ebc7aa06fc0f562b8b8a38c2b207b4b718d data/forge/tags/items/dusts/weekonium.json
 7e4d71ad636eb99f30ce736400186c578c25d32a data/forge/tags/items/dusts/zinc.json
-614124ea50891c895cff7d1e82b3144c27f447d8 data/forge/tags/items/gears.json
+ba860d657783524a43c4db240f85630f5b549cd7 data/forge/tags/items/gears.json
 6594b98ca0fb4fdd125b0edf1c4671be70df0f27 data/forge/tags/items/gears/alien.json
 0e21f6b0e0681abeeed813db196720ba2ac25a21 data/forge/tags/items/gears/bronze.json
 f7124f55f3a458fdf2d6ed2bf46f64e15cc46662 data/forge/tags/items/gears/constantan.json
@@ -64,7 +63,6 @@ a9c20379d6954cf193bd7b2f0001dca623149449 data/forge/tags/items/gears/signalum.js
 dee1760cd4778fd52306249fd2e1299da2158286 data/forge/tags/items/gears/silver.json
 c421a7b06def1603e09981eef6ac49b425409120 data/forge/tags/items/gears/steel.json
 80a8e9314ef3b1ea6f324c53c299ebda965c5d16 data/forge/tags/items/gears/tin.json
-ac7ba7cf33292c4bc3f5aad9bd52ac9d409ac185 data/forge/tags/items/gears/voidmetal.json
 2e6bbfdff63e5f65ee3adfb4d8f87c937c1bbf16 data/forge/tags/items/gems.json
 1bf2fabcb8536918e940707abe66551babcaa173 data/forge/tags/items/gems/apatite.json
 2cbf9b70ce75c553b8cf0c4173bd24b6a353e191 data/forge/tags/items/gems/cinnabar.json

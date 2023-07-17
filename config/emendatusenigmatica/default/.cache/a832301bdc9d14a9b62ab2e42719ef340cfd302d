@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-16T18:41:01.9268594	Emendatus Enigmatica Item Models
+// 1.19.2	2023-07-16T20:33:48.9929015	Emendatus Enigmatica Item Models
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/alien_gear.json
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/alien_rod.json
 e787d08cc53f9e63f47b913e1a4348a5b05a1de7 assets/emendatusenigmatica/models/item/aluminum_block.json
@@ -239,8 +239,6 @@ d83c2b4e7a705b211347beb25f2f063ace87556f assets/emendatusenigmatica/models/item/
 058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/uranium_ingot.json
 0f6a3a31fb83ac58f708d7163411b351dc38cb8b assets/emendatusenigmatica/models/item/uranium_nugget.json
 57851f40a9ad9c10ed7005f6ca42b1bff8dc59a3 assets/emendatusenigmatica/models/item/uranium_plate.json
-90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/voidmetal_dust.json
-80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/voidmetal_gear.json
 57851f40a9ad9c10ed7005f6ca42b1bff8dc59a3 assets/emendatusenigmatica/models/item/voidmetal_plate.json
 ff9f7999ee201059d23ac1c021f8207cf149f290 assets/emendatusenigmatica/models/item/weekonium_basalt_ore.json
 a527f603d9296041a734ec7d6c1ecae340ef3d8b assets/emendatusenigmatica/models/item/weekonium_blackstone_ore.json
