@@ -246,7 +246,7 @@ ServerEvents.recipes(event => {
     1: 'pneumaticcraft:plastic',
     2: 'immersiveengineering:wire_electrum',
     3: 'emendatusenigmatica:apatite_dust',
-    4: 'minecraft:iron_nugget'})
+    4: 'silentcompat:arcmetal_nugget'})
     
 // Transistor
   event.shaped('pneumaticcraft:transistor', 
@@ -254,7 +254,7 @@ ServerEvents.recipes(event => {
     1: 'pneumaticcraft:plastic',
     2: 'immersiveengineering:wire_electrum',
     3: 'immersiveengineering:dust_hop_graphite',
-    4: 'emendatusenigmatica:copper_nugget'})
+    4: 'silentcompat:arcmetal_nugget'})
 
 // Pneumatic Craft - Plastic
   event.custom({

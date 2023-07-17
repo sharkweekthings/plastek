@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'silentgear:compounding/metal/tyrian_steel_ingot'})
   event.remove({id: 'silentgear:salvager'})
   event.remove({output: 'silentcompat:solarmetal_ingot'})
+  event.remove({output: 'silentcompat:arcmetal_ingot'})
   event.remove({id: 'silentgear:bronze_ingot'})
 
 //
@@ -104,7 +105,14 @@ ServerEvents.recipes(event => {
   {"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/crimson_steel"}}],
   "input0":{"base_ingredient":{"item":"silentgear:tyrian_steel_ingot"},"count":2},
   "input1":{"tag":"forge:ingots/crimson_steel"},
-  "result":{"base_ingredient":{"item":"silentgear:tyrian_steel_ingot"},"count":1},"time":200})
+  "result":{"base_ingredient":{"item":"silentgear:tyrian_steel_ingot"},"count":1},"time":300})
+
+// Arcmetal Ingot
+  event.custom({"type":"immersiveengineering:arc_furnace",
+"additives":[{"item":"emendatusenigmatica:electrum_ingot"}],
+"energy":51200,
+"input":{"item":"silentcompat:raw_arcmetal"},
+"results":[{"base_ingredient":{"item":"silentcompat:arcmetal_ingot"},"count":1}],"time":300})
 
 // Sculk Alloy
 	event.custom({
