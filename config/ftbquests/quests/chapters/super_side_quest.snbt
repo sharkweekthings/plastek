@@ -701,7 +701,7 @@
 		{
 			dependencies: ["026849755FFDC818"]
 			description: [
-				"With this handy dandy High Tech Cardboard Box you can pack up a spawner, and relocate it to anywhere you want.   "
+				"With this handy dandy High Tech Cardboard Box you can pack up a spawner or other blocks, and relocate to anywhere you want.   "
 				""
 				"Maybe a mob farm of some sort? "
 			]
