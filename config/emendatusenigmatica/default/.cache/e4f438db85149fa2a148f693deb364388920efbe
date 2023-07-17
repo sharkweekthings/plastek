@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-16T18:41:01.9352918	Emendatus Enigmatica Recipes
+// 1.19.2	2023-07-17T13:00:31.0386621	Emendatus Enigmatica Recipes
 5b85d4dd1c669034e1b26b34344305969c00738d data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/axe/from_ingot/steel.json
 e48ceac53c24ce0d4eaf01dbb5a0cba26a345d0b data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/block/from_gem/apatite.json
 f3c5348e8faee15a0636aac3da073f9da91fd080 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/block/from_gem/cinnabar.json
@@ -214,7 +214,6 @@ a399f3d6aec21a0ff433dccadaae04979d93c698 data/emendatusenigmatica/advancements/r
 6fee0505aba0a6fe3cdb38784725d728e91cb65c data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/gold.json
 c150e7b7b28df5c0fbafac5bd84fb1fac72f047e data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/invar.json
 3349f5220ab89ede069c65587d24611c3d2dde7c data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/iron.json
-248fb92e39c4f334f82218b3cc83a1ea1d28285d data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/lead.json
 c97781f91e8fef3cee1724fa6b74295d4c0d629e data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/lumium.json
 30f859ac76c422340156387848d7fce4ab5613e1 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/nickel.json
 3878f239adc64d771fd33b12c95aa8dbc1d36632 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/plate/from_ingot/osmium.json
@@ -487,7 +486,6 @@ d9f4d3285f727d1d9b4c430c1e968bc9b7a61055 data/emendatusenigmatica/recipes/plate/
 2d8b680e07330f67030e3746b1bb3e1989c7e10a data/emendatusenigmatica/recipes/plate/from_ingot/gold.json
 6691c8400aa375dadb060d58906fa8b62bd797b7 data/emendatusenigmatica/recipes/plate/from_ingot/invar.json
 c12010fa1b14b134e09061fd2c14d450ea10ebd6 data/emendatusenigmatica/recipes/plate/from_ingot/iron.json
-90875382cc5c24fe81ccf39406e34d7b75d57f79 data/emendatusenigmatica/recipes/plate/from_ingot/lead.json
 d19002b2d194f00c109f3ba301670d46b23c3a60 data/emendatusenigmatica/recipes/plate/from_ingot/lumium.json
 c4a29e16b8d6f866e477c663ffe2d8e2d8d31d2b data/emendatusenigmatica/recipes/plate/from_ingot/nickel.json
 11b0e6cec8fb15d1f3c6e537deb6d3ee4e88058f data/emendatusenigmatica/recipes/plate/from_ingot/osmium.json

@@ -1004,6 +1004,7 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'thermal:lead_plate',
   'kubejs:advanced_pressure_tube_parts',
   'kubejs:incomplete_green_board',
   'kubejs:green_board',
@@ -1195,6 +1196,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'thermal:lead_plate',
   'ae2:ender_dust',
   'thermal:quartz_dust',
   'thermal:sawdust',

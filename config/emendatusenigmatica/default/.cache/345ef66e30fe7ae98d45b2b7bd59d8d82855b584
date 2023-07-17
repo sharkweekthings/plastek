@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-16T20:33:48.9889337	Emendatus Enigmatica Item Tags
+// 1.19.2	2023-07-17T13:00:31.045607	Emendatus Enigmatica Item Tags
 baca836dcb6ee7c51ceebfb1e6924c38e0b3f0d2 data/forge/tags/items/armors/boots.json
 1666aec7e4a2366628e29456b86fa4dc7c145e82 data/forge/tags/items/armors/boots/copper.json
 fa90ab6cf8117ba5fc880b604b1ef8e38ad6b388 data/forge/tags/items/armors/boots/sterling_silver.json
@@ -130,7 +130,7 @@ fb919b60c0bc2be4961777da2c93b177da586e85 data/forge/tags/items/ores_in_ground/me
 99bbf530a79513852a507af63ba3a473ea5a0efe data/forge/tags/items/ores_in_ground/moon_stone.json
 ff8b877e090e02929af9d5f147c330ff20c54a70 data/forge/tags/items/ores_in_ground/stone.json
 11cb7dc915458ba870161ee07a7f5db53ab01336 data/forge/tags/items/ores_in_ground/venus_stone.json
-60011f7da0f05ef485f3e4d11cf4ab4dbcc4d858 data/forge/tags/items/plates.json
+ca0edbb4a533d8b7cbd66f19b063ed194b2be3c1 data/forge/tags/items/plates.json
 e8a2c5b8f09ce5aa47aedbdcb7b29b3404e1daa9 data/forge/tags/items/plates/aluminum.json
 3385ca54c8c3d1cbde65701ffcb0cb3dd56a882d data/forge/tags/items/plates/brass.json
 d027bad2569dcbba3531ea2c38f8cab1174df514 data/forge/tags/items/plates/bronze.json
@@ -140,7 +140,6 @@ a2697f123c9bd8d19a97fca9c6ee9b2b1d567070 data/forge/tags/items/plates/electrum.j
 2e6d994e7bae2dab3a1b486c6fd4d0f7ed303cdc data/forge/tags/items/plates/gold.json
 e34f47eb19c7ce26e295df74274213bd61491a00 data/forge/tags/items/plates/invar.json
 c3da009ca19ed2ef6b354bb402696cefc782d721 data/forge/tags/items/plates/iron.json
-f8a2df6eb996ed83e9d95ad3322d10cc22431ab2 data/forge/tags/items/plates/lead.json
 183703109beea7731039bc456dd19b739cf5ac5a data/forge/tags/items/plates/lumium.json
 44352517ceae300c395f35daa81ad497ea0a5c81 data/forge/tags/items/plates/nickel.json
 f6853d33651d9d819ad8aa1bea01b6937998fcbb data/forge/tags/items/plates/osmium.json

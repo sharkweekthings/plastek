@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-21T17:32:14.4888932	Emendatus Enigmatica Thermal Recipes
+// 1.19.2	2023-07-17T13:00:31.034694	Emendatus Enigmatica Thermal Recipes
 19bb88706451eae0f04b3a8ffa371c07a2f0e1d3 data/emendatusenigmatica/recipes/dust/from_gem_pulverizer/apatite.json
 3a7c148362909f0ab8c386848bcec07d142b48ec data/emendatusenigmatica/recipes/dust/from_gem_pulverizer/cinnabar.json
 03524fdeddbc4bdfcf94fee93b6a9dbbd9b66d97 data/emendatusenigmatica/recipes/dust/from_gem_pulverizer/fluorite.json
@@ -76,7 +76,6 @@ b249da709aba8cb5072f942ef290b57208cb0a42 data/emendatusenigmatica/recipes/nugget
 26b038e0397b07c2c8c2d0c0cef10e51da45e545 data/emendatusenigmatica/recipes/nugget/from_ingot_press/zinc.json
 5db5b3dd9c6bde170125d0c0a5d07fe64419993a data/emendatusenigmatica/recipes/plate/from_ingot_press/aluminum.json
 ce59286b549d027805d6a2c1cf1e98ec984fc8ac data/emendatusenigmatica/recipes/plate/from_ingot_press/constantan.json
-b847f57066ff984e31d4f0b7bf8c66e0d7fc605b data/emendatusenigmatica/recipes/plate/from_ingot_press/lead.json
 b4ea2636ea3d1fc36443fe7885f0e73a86dbc455 data/emendatusenigmatica/recipes/plate/from_ingot_press/nickel.json
 fe59bf9bf77e809f75d1cb41a003ca9b3e153422 data/emendatusenigmatica/recipes/plate/from_ingot_press/osmium.json
 5f6e094f288caaa1a404ee3ee31fd0fd918b7d68 data/emendatusenigmatica/recipes/plate/from_ingot_press/plastim.json
