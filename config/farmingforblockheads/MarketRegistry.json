@@ -2339,6 +2339,17 @@
     },
     {
       "output": {
+        "item": "cookingforblockheads:crafting_book",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 25
+      },
+      "category": "shopping"
+    }, 
+    {
+      "output": {
         "item": "minecraft:cobblestone",
         "count": 1
       },

@@ -118,7 +118,13 @@
 				"Be sure to choose wisely! "
 			]
 			id: "2878C7A690B81DC5"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79FD9EB2476B8D0A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "5EFF0DD7282A0595"
@@ -253,20 +259,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["026849755FFDC818"]
-			description: ["Limited functionality, but will salvage some items back into resources."]
-			id: "32E23C16CB548B1F"
-			shape: "circle"
-			tasks: [{
-				id: "425CE7C708151CB1"
-				item: "silentgear:salvager"
-				type: "item"
-			}]
-			title: "Salvager"
-			x: -1.0d
-			y: 4.0d
-		}
-		{
 			dependencies: [
 				"61B802AF5864AA4B"
 				"6C00F063FD2700AD"
@@ -369,7 +361,7 @@
 				}
 			]
 			x: -1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["026849755FFDC818"]
@@ -381,7 +373,13 @@
 				"If you're not sure whether or not a Green Stained Glass will work, you can hold CTRL down over the item in JEI and look for a tag that specifies \"&asereneseasons:greenhouse_glass&r\""
 			]
 			id: "795374A3305D4394"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E2E9A3E4A57F0E8"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "1AAB3B7F588C9B5E"
 				item: {
@@ -395,7 +393,7 @@
 				type: "item"
 			}]
 			title: "Greenhouse Glass"
-			x: -3.0d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -406,7 +404,13 @@
 				"Each bench has it's own huge catalogue of block appearances to select from. "
 			]
 			id: "2130F91538C98D4E"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E62C94961EA4BD4"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "39C30FD0F13EEB84"
@@ -468,6 +472,7 @@
 			dependencies: ["2B9D2297649DF1DF"]
 			id: "474FF2524F214852"
 			shape: "circle"
+			subtitle: "The book is available from the Market person"
 			tasks: [{
 				id: "6ED8C2AE0262FCCE"
 				item: "cookingforblockheads:cooking_table"
@@ -569,13 +574,14 @@
 		{
 			dependencies: ["474FF2524F214852"]
 			id: "1B49D3097C155AA9"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42BAC5BEDBFF4948"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			tasks: [
-				{
-					id: "57F7C5CA95BB64BA"
-					item: "cookingforblockheads:cooking_table"
-					type: "item"
-				}
 				{
 					id: "520876B0A6C7269C"
 					item: "cookingforblockheads:oven"
@@ -656,7 +662,13 @@
 			dependencies: ["24084771586151A7"]
 			description: ["Honestly I could have fit this into Age 6, the only reason it's here is because of symmetry. "]
 			id: "33D286A313579A89"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C239E53D516228F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			subtitle: "Creative Flight!"
 			tasks: [{
 				id: "18703B98AC65F2ED"
@@ -700,7 +712,7 @@
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 5.0d
 		}
 	]

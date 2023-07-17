@@ -177,14 +177,15 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/ender_gate_starter'})
   event.remove({id: 'hostilenetworks:matrix'})
   event.remove({id: 'rootsclassic:growth_powder'})
-  // event.remove({id: 'apotheosis:seashelf'})
-  // event.remove({ output: "apotheosis:seashelf"})
-  // event.remove({id: 'apotheosis:hellshelf'})
-  // event.remove({ output: "apotheosis:hellshelf"})
-  // event.remove({id: 'apotheosis:dormant_deepshelf'})
-  // event.remove({ output: "apotheosis:dormant_deepshelf"})
-  // event.remove({id: 'apotheosis:endshelf'})
-  // event.remove({ output: "apotheosis:endshelf"})
+  event.remove({id: 'cookingforblockheads:cooking_table'})
+  event.remove({id: 'cookingforblockheads:oven'})
+  event.remove({id: 'cookingforblockheads:fridge'})
+  event.remove({id: 'cookingforblockheads:sink'})
+  event.remove({id: 'cookingforblockheads:kitchen_counter'})
+  event.remove({id: 'cookingforblockheads:kitchen_cabinet'})
+  event.remove({id: 'cookingforblockheads:kitchen_corner'})
+  event.remove({id: 'cookingforblockheads:hanging_corner'})
+
 
 //
 })
@@ -196,6 +197,63 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Cooking Table
+  event.shaped('cookingforblockheads:cooking_table',
+    ['111','343','222'], {
+    1: 'tombstone:white_marble_slab',
+    2: 'minecraft:terracotta',
+    3: 'industrialforegoing:plastic',
+    4: 'cookingforblockheads:crafting_book'})
+
+// Oven
+  event.shaped('cookingforblockheads:oven',
+    ['121','242','333'], {
+    1: 'tombstone:white_marble_slab',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:plastic',
+    4: 'minecraft:furnace'})
+
+// Fridge
+  event.shaped('cookingforblockheads:fridge',
+    ['323','242','313'], {
+    1: 'minecraft:iron_door',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:plastic',
+    4: 'minecraft:chest'})
+
+// Sink
+  event.shaped('cookingforblockheads:sink',
+    ['222','343','111'], {
+    1: 'minecraft:terracotta',
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'industrialforegoing:plastic',
+    4: 'minecraft:bucket'})
+
+// Counter
+  event.shaped('cookingforblockheads:counter',
+    ['111','333','424'], {
+    1: 'minecraft:smooth_stone_slab',
+    2: 'minecraft:chest',
+    3: 'industrialforegoing:plastic',
+    4: '#forge:treated_wood'})
+
+// Cabinet
+  event.shaped('cookingforblockheads:cabinet',
+    ['222','222','212'], {
+    1: 'minecraft:chest',
+    2: '#forge:treated_wood'})
+
+// Corner
+  event.shaped('cookingforblockheads:corner',
+    ['111','222','222'], {
+    1: 'minecraft:smooth_stone_slab',
+    2: '#forge:treated_wood'})
+
+// Hanging Corner
+  event.shaped('cookingforblockheads:hanging_corner',
+    ['111','111','1 1'], {
+    1: '#forge:treated_wood'})
 
 // Medicine Bag
   event.shaped('totemic:medicine_bag',
