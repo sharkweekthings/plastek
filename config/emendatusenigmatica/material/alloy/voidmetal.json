@@ -3,12 +3,7 @@
     "source": "modded",
     "localizedName": "Voidmetal",
     "processedTypes": [
-      "dust",
       "crystal",
-      "shard",
-      "clump",
-      "crushed_ore",
-      "gear",
       "plate"
     ],
     "properties": {

@@ -14,8 +14,7 @@
     "crystal",
     "shard",
     "clump",
-    "dirty_dust",
-	"crushed_ore"
+    "dirty_dust"
   ],
   "properties": {
     "materialType": "metal",
