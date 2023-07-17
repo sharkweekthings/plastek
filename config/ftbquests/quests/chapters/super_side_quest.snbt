@@ -573,6 +573,11 @@
 		}
 		{
 			dependencies: ["474FF2524F214852"]
+			description: [
+				"The sink in this pack does NOT have unlimited water innately. "
+				""
+				"You will need to find a way to pump water into the block in order to supply it with infinite water."
+			]
 			id: "1B49D3097C155AA9"
 			rewards: [{
 				exclude_from_claim_all: true
