@@ -455,6 +455,8 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'ae2:ender_dust',
+  'thermal:quartz_dust',
   'theurgy:divination_rod_t2',
   'theurgy:divination_rod_t3',
   'create:crafting_blueprint',
@@ -1193,6 +1195,8 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'ae2:ender_dust',
+  'thermal:quartz_dust',
   'thermal:sawdust',
   'unusualend:music_disc_endstone_golem_theme',
   'thermal:cured_rubber',

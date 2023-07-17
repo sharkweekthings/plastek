@@ -3,7 +3,6 @@
 	"source": "vanilla",
 	"localizedName": "Nether Quartz",
 	"processedTypes": [
-	"dust",
     "crystal"
 	],
 	"properties": {

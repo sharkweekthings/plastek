@@ -1,7 +1,6 @@
 {
   "values": [
     "#forge:dusts/steel",
-    "#forge:dusts/arcmetal",
     "#forge:dusts/voidmetal",
     "#forge:dusts/cinnabar",
     "#forge:dusts/aluminum",
@@ -11,7 +10,6 @@
     "#forge:dusts/signalum",
     "#forge:dusts/enderium",
     "#forge:dusts/tin",
-    "#forge:dusts/ender_pearl",
     "#forge:dusts/sulfur",
     "#forge:dusts/fluorite",
     "#forge:dusts/copper",
@@ -22,7 +20,6 @@
     "#forge:dusts/electrum",
     "#forge:dusts/sharkinite",
     "#forge:dusts/osmium",
-    "#forge:dusts/quartz",
     "#forge:dusts/brass",
     "#forge:dusts/weekonium",
     "#forge:dusts/constantan",

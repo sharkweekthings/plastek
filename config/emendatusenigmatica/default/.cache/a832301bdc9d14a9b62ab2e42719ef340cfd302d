@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-08T09:37:43.3696382	Emendatus Enigmatica Item Models
+// 1.19.2	2023-07-16T18:41:01.9268594	Emendatus Enigmatica Item Models
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/alien_gear.json
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/alien_rod.json
 e787d08cc53f9e63f47b913e1a4348a5b05a1de7 assets/emendatusenigmatica/models/item/aluminum_block.json
@@ -19,7 +19,6 @@ d41befa7230df3b2fd0cc725ae3b4acd0d973d86 assets/emendatusenigmatica/models/item/
 4bc748203ff7faaff6b5ca0218fc148c1e6a8758 assets/emendatusenigmatica/models/item/apatite_moon_stone_ore.json
 3b895c7d507d86f8a9533dbbb561780b45f4669a assets/emendatusenigmatica/models/item/apatite_stone_ore.json
 f5d5dcddca103c323d3e8a7f4b8df0f94ec251e7 assets/emendatusenigmatica/models/item/apatite_venus_stone_ore.json
-90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/arcmetal_dust.json
 a61f3d2c263e9c6306174dc77ff7f1a61926dfb9 assets/emendatusenigmatica/models/item/brass_block.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/brass_dust.json
 058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/brass_ingot.json
@@ -86,7 +85,6 @@ d83c2b4e7a705b211347beb25f2f063ace87556f assets/emendatusenigmatica/models/item/
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/enderium_dust.json
 058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/enderium_ingot.json
 0f6a3a31fb83ac58f708d7163411b351dc38cb8b assets/emendatusenigmatica/models/item/enderium_nugget.json
-90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/ender_pearl_dust.json
 4ff1603eae1ce0cb3c8141a88edab84b3081af47 assets/emendatusenigmatica/models/item/fluix_basalt_ore.json
 91d613a7b6088ebc2a7c078910e16c22e982f8b1 assets/emendatusenigmatica/models/item/fluix_blackstone_ore.json
 792f85337751d0c7081fb3f08f3eb9ae43fcabdc assets/emendatusenigmatica/models/item/fluix_deepslate_ore.json
@@ -148,7 +146,6 @@ a5222c649cae44bc7da2b5a19ac195fc2f67c225 assets/emendatusenigmatica/models/item/
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/plastim_dust.json
 058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/plastim_ingot.json
 57851f40a9ad9c10ed7005f6ca42b1bff8dc59a3 assets/emendatusenigmatica/models/item/plastim_plate.json
-90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/quartz_dust.json
 5be5bb98c21cbfa05c7bcfb619949c2a6b1d3da6 assets/emendatusenigmatica/models/item/raw_aluminum.json
 2ef0c4eb70a78fad25566ed68d74fe73174bdc84 assets/emendatusenigmatica/models/item/raw_aluminum_block.json
 5be5bb98c21cbfa05c7bcfb619949c2a6b1d3da6 assets/emendatusenigmatica/models/item/raw_lead.json

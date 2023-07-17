@@ -55,6 +55,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:signalum_dust_4'})
   event.remove({id: 'thermal:lumium_dust_4'})
   event.remove({id: 'thermal:invar_dust_4'})
+  event.remove({id: 'thermal:invar_dust_3'})
+  event.remove({id: 'thermal:machines/pulverizer/pulverizer_ender_pearl'})
 
 //
 })

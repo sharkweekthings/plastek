@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-21T17:32:14.4928608	Emendatus Enigmatica Recipes
+// 1.19.2	2023-07-16T18:41:01.9352918	Emendatus Enigmatica Recipes
 5b85d4dd1c669034e1b26b34344305969c00738d data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/axe/from_ingot/steel.json
 e48ceac53c24ce0d4eaf01dbb5a0cba26a345d0b data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/block/from_gem/apatite.json
 f3c5348e8faee15a0636aac3da073f9da91fd080 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/block/from_gem/cinnabar.json
@@ -35,7 +35,6 @@ d4949117e886f80896e2497448507a599d0f0f51 data/emendatusenigmatica/advancements/r
 e2490855b1b397adf304f900c92e64368fa90471 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_ore/diamond.json
 d10e58e5035823c31402516f62e0eafe0e72c04d data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_ore/gold.json
 b568965d732f01745266ffca3bcf9b938549a7d3 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_ore/iron.json
-848526b37efbf60ee0c7d98b238c351d46699706 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_ore/quartz.json
 e978268cfd93d2cfc2f76820a85dddfe44c71416 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_ore/sharkinite.json
 2d5990c4d6309be01345f4665dab60e3d114485b data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_ore/weekonium.json
 f6ed1933312142f95402742df6e8dff3b31621fd data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/dust/from_raw/aluminum.json
@@ -303,7 +302,6 @@ f060aa84dddf7d9aab95b82a161e498e0c1842b5 data/emendatusenigmatica/recipes/dust/f
 33cf07ffd148373a146330d1723d2cfdf3037c9d data/emendatusenigmatica/recipes/dust/from_ore/diamond.json
 5ac3de9a8cfb20c103dbf441cd6ae6e3baebf06e data/emendatusenigmatica/recipes/dust/from_ore/gold.json
 da9e650a1f64052949a22eb35b8b6fc14f021c25 data/emendatusenigmatica/recipes/dust/from_ore/iron.json
-aa0bc6a1e70e63e681407ff67161eeefa86d4ea6 data/emendatusenigmatica/recipes/dust/from_ore/quartz.json
 716301cacb522644bf470b0b60ff518db78e7b33 data/emendatusenigmatica/recipes/dust/from_ore/sharkinite.json
 1cfaa047b966b6f0c8c9862d13b55244166c4f01 data/emendatusenigmatica/recipes/dust/from_ore/weekonium.json
 7d22a4a2d790a2467762e8ec0264fb2eb85d9223 data/emendatusenigmatica/recipes/dust/from_raw/aluminum.json

@@ -319,21 +319,21 @@ ServerEvents.recipes(event => {
   event.shaped('enderstorage:ender_chest',
     ['232','313','232'], {
     1: 'pneumaticcraft:smart_chest',
-    2: 'emendatusenigmatica:ender_pearl_dust',
+    2: 'ae2:ender_dust',
     3: 'emendatusenigmatica:enderium_ingot'})
 
 // Ender Tank
   event.shaped('enderstorage:ender_tank',
     ['232','313','232'], {
     1: 'pneumaticcraft:huge_tank',
-    2: 'emendatusenigmatica:ender_pearl_dust',
+    2: 'ae2:ender_dust',
     3: 'emendatusenigmatica:enderium_ingot'})
 
 // Ender Pouch
   event.shaped('enderstorage:ender_pouch',
     ['232','313','232'], {
     1: 'sophisticatedbackpacks:netherite_backpack',
-    2: 'emendatusenigmatica:ender_pearl_dust',
+    2: 'ae2:ender_dust',
     3: 'emendatusenigmatica:enderium_ingot'})
 
 // Slightly Evil Basket
@@ -367,6 +367,12 @@ event.replaceInput({}, 'silentgear:emerald_shard', 'inventorypets:nugget_emerald
 
 // Diamond Shard Gets Replaced w/ Diamond Nugget
 event.replaceInput({}, 'silentgear:diamond_shard', 'inventorypets:nugget_diamond')
+
+// AE2 Ender Dust override
+event.replaceOutput({}, 'thermal:ender_pearl_dust', 'ae2:ender_dust')
+
+// Diamond Shard Gets Replaced w/ Diamond Nugget
+event.replaceInput({}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
 
 // Crude Ender Pearl
   event.shaped('kubejs:crude_ender_pearl',

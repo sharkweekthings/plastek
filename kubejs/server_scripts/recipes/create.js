@@ -315,7 +315,7 @@ ServerEvents.recipes(event => {
 // Rose Quartz
   event.shaped('create:rose_quartz', 
     ['323','212','323'], {
-    1: 'emendatusenigmatica:quartz_dust', 
+    1: 'thermal:quartz_dust', 
     2: 'minecraft:redstone',
     3: 'biomesoplenty:rose_quartz_shard'})
     
@@ -437,6 +437,22 @@ ServerEvents.recipes(event => {
     "count": 1,
     "item": "extendedcrafting:advanced_auto_table"
   }
+})
+
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": 'minecraft:quartz'
+        }
+    ],
+    "processingTime": 50,
+    "results": [
+        {
+            "count": 1,
+            "item": 'thermal:quartz_dust'
+        }
+    ]
 })
 
 // Leather Operations

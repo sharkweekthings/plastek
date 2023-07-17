@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-08T09:37:43.3795578	Emendatus Enigmatica Item Tags
+// 1.19.2	2023-07-16T18:41:01.9189229	Emendatus Enigmatica Item Tags
 baca836dcb6ee7c51ceebfb1e6924c38e0b3f0d2 data/forge/tags/items/armors/boots.json
 1666aec7e4a2366628e29456b86fa4dc7c145e82 data/forge/tags/items/armors/boots/copper.json
 fa90ab6cf8117ba5fc880b604b1ef8e38ad6b388 data/forge/tags/items/armors/boots/sterling_silver.json
@@ -11,10 +11,9 @@ bc8f5a0d2e7c8fa607244dd37a9408240c104081 data/forge/tags/items/armors/helmets/st
 cb2bf5ecbf95f2f2834e066050af8f775dea0c31 data/forge/tags/items/armors/leggings.json
 5faabdc941c83f7e9daa3893db59cdd073692438 data/forge/tags/items/armors/leggings/copper.json
 f9158fddabde6b70ebb172396e7c050843e29c05 data/forge/tags/items/armors/leggings/sterling_silver.json
-cd12f7ebb16db1d97b394b89647aff83a3f0b2b6 data/forge/tags/items/dusts.json
+50845963e9eb4d053a19fc0dc5198211d9fc486b data/forge/tags/items/dusts.json
 c0d8627ab34423905e9a8ab98c45e0de2b285400 data/forge/tags/items/dusts/aluminum.json
 6ea735693aadc818027ec6eb81ea220fcf7d2c32 data/forge/tags/items/dusts/apatite.json
-bf40cafda32b41eee9a00b4a5733ddca2679ad63 data/forge/tags/items/dusts/arcmetal.json
 4a2116ab54fb41fd66658b9cf0024385679db679 data/forge/tags/items/dusts/brass.json
 ad69d5e5404e3ee6a377a2557a24ac11fff0a1f2 data/forge/tags/items/dusts/bronze.json
 e0fc4065d70dba7121925bd594bcc186f337fdbc data/forge/tags/items/dusts/charcoal.json
@@ -26,7 +25,6 @@ c6c35d499e3a95ddfd9f3ded697bba83fa1e97df data/forge/tags/items/dusts/desh.json
 3970b0f90ca594585e0fe9e6b472bd9d8df4cac2 data/forge/tags/items/dusts/diamond.json
 e97ebeb2b7a61fe81804dace1eaefb6d7fa61428 data/forge/tags/items/dusts/electrum.json
 2db13fcdb1d129563a927980ea31c1ba6d58dc6a data/forge/tags/items/dusts/enderium.json
-ccb3677cc550c8770b76207ec34feff89e70d06e data/forge/tags/items/dusts/ender_pearl.json
 bde9ada791a08ae1be8f27fc9db42dd0f54697ac data/forge/tags/items/dusts/fluorite.json
 3a7d13ce08f245fd5d2db57879e333bd8bf65494 data/forge/tags/items/dusts/gold.json
 24efd336725b8dc598d0c077f225cc221906c644 data/forge/tags/items/dusts/hop_graphite.json
@@ -38,7 +36,6 @@ d8565c532af4d76124d4e470334565a4ee2f78b3 data/forge/tags/items/dusts/lumium.json
 9a882287fd293222ec6c54d50ffd37be50acea63 data/forge/tags/items/dusts/osmium.json
 3363c181d4641ee239efdc29589b7565c1c40ae9 data/forge/tags/items/dusts/plasteel.json
 60d7d742fbaf688eb9453067c7667c66f7cdbd18 data/forge/tags/items/dusts/plastim.json
-f765270405065d2ee42f41673dc6aa664c53bfa2 data/forge/tags/items/dusts/quartz.json
 da836b31df3e2b52eecd39da8ec6e09ca935f92f data/forge/tags/items/dusts/sharkinite.json
 6c5d18d2654efade2f3d3813fded4a0a15e6a562 data/forge/tags/items/dusts/signalum.json
 92c1bb39179c82850bace476bac9badd55c48544 data/forge/tags/items/dusts/silver.json

@@ -280,9 +280,13 @@ JEIEvents.hideItems(event => {
 	event.hide('thermal:dynamo_numismatic')
 	event.hide('thermal:dynamo_disenchantment')
 	event.hide('thermal:machine_frame')
+	event.hide('thermal:ender_pearl_dust')
 
-// RF Tools
+// RF TOOLS
 	event.hide('rftoolsbase:machine_frame')
+
+// MEKANISM
+	event.hide('mekanism:dust_quartz')
 	
 
 // FARMERS DELIGHT
