@@ -602,7 +602,7 @@
 				""
 				"&dPink&r, White, &eYellow&r, or &6Orange&r"
 				""
-				"&oThere may be other colors that don't work.&r"
+				"&oThere may be other colors that don't work. You can consider these colors duds.&r"
 			]
 			id: "4C2CF4A136A1CFD6"
 			rewards: [{

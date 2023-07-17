@@ -157,11 +157,11 @@ ServerEvents.recipes(event => {
     2: 'woodenhopper:wooden_hopper'})
 
 // Green Stained Glass
-  event.shaped('minecraft:green_stained_glass',
+  event.shaped('2x minecraft:green_stained_glass',
     ['323','212','323'], {
     1: 'pneumaticcraft:plastic',
-    2: 'minecraft:glass',
-    3: 'minecraft:green_dye'})
+    2: 'immersiveengineering:insulating_glass',
+    3: 'minecraft:glass'})
 
 // Leather + Raw Rabbit = Rabbit Hide  
   event.shapeless(Item.of('minecraft:rabbit_hide'), ['minecraft:leather', 'minecraft:rabbit'])

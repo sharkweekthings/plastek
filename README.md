@@ -68,3 +68,4 @@
  - Textures are missing for several Nat Prog pebbles. Reported to Dev.
  - While you are flying at high speeds (sprinting) -- you may encounter a rare-ish issue where server a single tick takes 40 seconds. This has been reported to several mod devs. This issue doesnt tend to occur when you are running on the ground.
  - There may be some instance references of "Akashic Tome" in quests that should be changed to "Eccentric Tome". I don't recall which quests referenced the tome, so this will be updated on an 'as found' basis.
+ - There are several colors of Electric Wool which I couldnt get to work. Pink, White, Yellow, and Orange.  I've asked about this with the Mod Devs, but havent heard anything back. Consider these colors "duds"

@@ -87,6 +87,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mekanism:digital_miner'})
   event.remove({id: 'mekanism:cardboard_box'})
   event.remove({output: 'mekanism:bio_fuel'})
+  event.remove({id: 'mekanism:painting/glass/green'})
+
 
 //
 })

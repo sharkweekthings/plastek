@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
 // Pressure Chamber Glass
   event.shaped('4x pneumaticcraft:pressure_chamber_glass', 
     ['222','212','222'], {
-    1: '#forge:glass',
+    1: 'minecraft:glass',
     2: 'pneumaticcraft:reinforced_bricks'})
     
 // Pressure Chamber Interface

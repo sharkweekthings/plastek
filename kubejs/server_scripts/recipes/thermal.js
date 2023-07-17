@@ -52,6 +52,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:fire_charge/electrum_ingot_2'})
   event.remove({id: 'thermal:fluid_cell'})
   event.remove({id: 'thermal:fluid_cell_frame'})
+  event.remove({id: 'thermal:signalum_dust_4'})
+  event.remove({id: 'thermal:lumium_dust_4'})
+  event.remove({id: 'thermal:invar_dust_4'})
 
 //
 })

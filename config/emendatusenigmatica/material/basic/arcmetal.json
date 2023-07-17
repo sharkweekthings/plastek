@@ -3,7 +3,6 @@
   "source": "modded",
   "localizedName": "Arcmetal",
   "processedTypes": [
-      "dust",
       "crystal",
       "shard",
       "clump",

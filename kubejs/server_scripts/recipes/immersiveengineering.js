@@ -69,6 +69,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:crafting/wire_steel'})
   event.remove({id: 'immersiveengineering:crafting/wire_lead'})
   event.remove({id: 'immersiveengineering:crafting/wire_electrum'})
+  event.remove({id: 'immersiveengineering:electrum_mix'})
 
 //
 })
