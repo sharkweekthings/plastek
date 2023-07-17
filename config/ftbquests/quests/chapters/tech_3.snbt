@@ -115,6 +115,12 @@
 				"&oIf you want to make the fluid tank larger, Create will automatically place 4 Fluid Tank blocks down if you have them in your inventory, after the structure has been built.&r"
 			]
 			id: "5B8D1C9C65B8069E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BA4856F65F81545"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			subtitle: "So steamy! ;)"
 			tasks: [
@@ -1121,6 +1127,12 @@
 				"The Bee Jar will let you decoratively display your Bees.  Read the tool tip for the Bee Jar to learn how!"
 			]
 			id: "49CE6A491850E06C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16CFD2188127FE21"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -1152,6 +1164,12 @@
 		{
 			dependencies: ["07C95F2BD72BAC71"]
 			id: "12611406DFCEB1F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AEED65BDF50D0EC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "0C061724B0BA33B7"

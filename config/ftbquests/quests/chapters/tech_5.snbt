@@ -16,6 +16,12 @@
 				"Easy, and great for jump starting things."
 			]
 			id: "739C33D959E17736"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC717347C100308"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "5885EC3B95570B97"
@@ -33,6 +39,12 @@
 				"We'll need some of the byproduct from the setup, so it may be worth going down this path."
 			]
 			id: "64679E7FA0EE3FC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FD90A6AF34F905A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "74C41DF90D051F2F"
@@ -50,6 +62,12 @@
 				"Some foods can be really strong for the Gourmand Dynamo, or maybe you have a Potato farm and you want to have dozens of Dynamos with a metric butt ton of potatos powering things up."
 			]
 			id: "2E04F7BC6B10C967"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EE705EA4AD78ABE"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "7A9CD47E3B25799F"
@@ -722,6 +740,12 @@
 		{
 			dependencies: ["0EA3983877DAE009"]
 			id: "508769E3B70EC7F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43948F9A27DFF7E4"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "035C0C8AB1C6B396"
@@ -1201,6 +1225,12 @@
 				"While the Digital Miner is probably the more refined piece of equipment that's a bit easier to use, the RF Tools Quarry/Builder can be much faster than the Digital Miner, but very costly in power. "
 			]
 			id: "68B52B7CBB24C891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF3E1B2EA80F4D3"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "41067DD9D31F8098"
@@ -1215,6 +1245,12 @@
 			dependencies: ["4FE0F5D998E80566"]
 			description: ["Power through compressed air.  If you need to generate heat for anything, this will also help generate heat. "]
 			id: "77539F61CA763734"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21E03A9297C1BCFC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "45C1B12E9BB3C707"

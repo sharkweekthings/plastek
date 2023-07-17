@@ -239,6 +239,12 @@
 				"Either send some excess Oxygen to the machine, or setup another Electrolytic Separator and use the Oxygen from that. "
 			]
 			id: "5DE3F45D28CE409D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BC9BE5A0E659DA6"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			subtitle: "This is a help guide. Bucket optional!"
 			tasks: [{
@@ -1210,6 +1216,12 @@
 				"6881F23A6A70CFF6"
 			]
 			id: "1D743581DC19CEAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47EE0CACB094EFE5"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "364AE82ACA4AB4C2"

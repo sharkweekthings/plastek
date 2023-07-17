@@ -1105,6 +1105,12 @@
 				"Lets say you want to turn Iron Fragments into Raw Iron. You just need to assign the Blueprint to be Raw Iron. If you have at least 9 Iron Fragments in your inventory, and you click on the Blueprint, it will return Raw Iron."
 			]
 			id: "1ABEF27B5C3F766C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ED27558B2C61220"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			subtitle: "Auto Crafting v1"
 			tasks: [{

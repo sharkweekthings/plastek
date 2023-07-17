@@ -127,7 +127,7 @@
 			id: "742ADDFDBA75B0F5"
 			tasks: [{
 				id: "70BCE3E867D7DF7A"
-				item: "emendatusenigmatica:quartz_dust"
+				item: "thermal:quartz_dust"
 				type: "item"
 			}]
 			x: 2.0d

@@ -373,6 +373,12 @@
 			dependencies: ["3E95FE56FCB278C2"]
 			description: ["You can check the Tools page for the rest of the Glyphs."]
 			id: "0272B2430421120F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37694EEEE47135C6"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "061A56593E588C52"

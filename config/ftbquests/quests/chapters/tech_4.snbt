@@ -167,6 +167,12 @@
 		{
 			dependencies: ["3DCA2CCC13D97EFC"]
 			id: "08C3C24020A7C73B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DFE91D3B461F05C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			subtitle: "He's Mr Bucket!"
 			tasks: [
@@ -307,6 +313,12 @@
 		{
 			dependencies: ["3F978FBFABBAC51C"]
 			id: "332A9FEAE32BBFD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D946DF89D337680"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "3D30576518AD234D"

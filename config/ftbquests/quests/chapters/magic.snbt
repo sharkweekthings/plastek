@@ -189,9 +189,9 @@
 			dependencies: ["2F5CEEB974A828E0"]
 			id: "2A19102FB0C16ADE"
 			rewards: [{
-				count: 3
 				id: "4B6DA8D05575AEE9"
 				item: "rootsclassic:healing_poultice"
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -263,6 +263,12 @@
 				"When you make a staff with more Potency on it, it will definitely be more useful!"
 			]
 			id: "53F3A90A3B098706"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "581C96B0C22D4516"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "6E7A5A17C75B3B69"
@@ -441,6 +447,12 @@
 				"&7Gunpowder:&r +1 to (Improve Area Effect)"
 			]
 			id: "6D06741D36DBD24A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "104145016D635762"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			subtitle: "The materials must be exact!"
 			tasks: [{

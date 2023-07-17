@@ -87,12 +87,6 @@
 				table_id: 3325230720908722317L
 				type: "random"
 			}
-			{
-				exclude_from_claim_all: true
-				id: "4410F96A691FE567"
-				table_id: 3325230720908722317L
-				type: "choice"
-			}
 		]
 		tasks: [
 			{

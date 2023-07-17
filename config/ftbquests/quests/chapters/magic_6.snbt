@@ -58,6 +58,7 @@
 		{
 			dependencies: ["0F530646337BBF9B"]
 			id: "526C025D379247C4"
+			shape: "circle"
 			tasks: [{
 				id: "41A88986D96B969D"
 				item: "mysticalagriculture:awakening_pedestal"
@@ -69,6 +70,7 @@
 		{
 			dependencies: ["0F530646337BBF9B"]
 			id: "6E5D4DB2625E06E0"
+			shape: "circle"
 			tasks: [{
 				id: "42E85F774AD619FC"
 				item: "mysticalagriculture:awakening_altar"
@@ -80,6 +82,7 @@
 		{
 			dependencies: ["0F530646337BBF9B"]
 			id: "539508C77B02F5C3"
+			shape: "circle"
 			tasks: [{
 				count: 4L
 				id: "2E45E5AF3A147E6F"
@@ -92,6 +95,7 @@
 		{
 			dependencies: ["714B87A0999F252A"]
 			id: "0F530646337BBF9B"
+			shape: "circle"
 			tasks: [{
 				id: "7B01F93FEB350F83"
 				item: "mysticalagriculture:cognizant_dust"
@@ -103,6 +107,7 @@
 		{
 			dependencies: ["1A86D1454D7A0BF2"]
 			id: "714B87A0999F252A"
+			shape: "circle"
 			tasks: [{
 				id: "438F8F797FABAB84"
 				title: "Awakened"
@@ -182,6 +187,12 @@
 		{
 			dependencies: ["2261796DD3005D8B"]
 			id: "5A3EA1DB430806D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50654F3EB4F87513"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "31812E3B1484C734"

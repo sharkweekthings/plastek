@@ -70,6 +70,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:crafting/wire_lead'})
   event.remove({id: 'immersiveengineering:crafting/wire_electrum'})
   event.remove({id: 'immersiveengineering:crafting/electrum_mix'})
+  event.remove({id: 'immersiveengineering:crafting/craftingtable'})
 
 //
 })
@@ -81,6 +82,14 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Engineer's Crafting Table 
+  event.shaped('immersiveengineering:craftingtable',
+    ['313','343','232'], {
+    1: '#forge:treated_wood_slab', 
+    2: '#forge:rods/treated_wood',
+    3: 'emendatusenigmatica:iron_plate',
+    4: 'minecraft:crafting_table'})
 
 // Coke Brick
   event.shaped('immersiveengineering:cokebrick',

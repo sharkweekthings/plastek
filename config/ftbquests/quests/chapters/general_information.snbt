@@ -58,7 +58,9 @@
 		{
 			dependencies: ["7C6E2935C28151BD"]
 			description: [
-				"These quests are completely optional, and sometimes lead to pretty good things. Other times they are just for fun, to kill some time, optional goals, various armors, tools, weapons, upgrades etc.   "
+				"These quests should be completely optional, but usually lead to something nice, or have some kind of purpose. "
+				""
+				"Sometimes these will award a Bag of Tears, but not all the time."
 				""
 				"In many cases a Side Quest will start in one age, but won't be able to be fully completed until a later age.  This was to ensure that some of the mod items stayed grouped together."
 			]
