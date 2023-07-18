@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "create:polished_rose_quartz",},[{ // incomplete item
-      item: "industrialforegoing:plastic",},],], // item to deploy
+      item: "silentcompat:solarmetal_ingot",},],], // item to deploy
      results: [{
       item: "create:polished_rose_quartz",},],
 },

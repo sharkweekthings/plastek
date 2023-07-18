@@ -230,6 +230,7 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			id: "774C9A815EB538CE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -249,6 +250,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			icon: "ars_nouveau:glyph_exchange"
 			id: "199A67606FDC25C2"
 			rewards: [{
@@ -269,6 +271,7 @@
 			y: 0.5d
 		}
 		{
+			can_repeat: true
 			icon: "lootr:trophy"
 			id: "1A71B12FCD61748C"
 			rewards: [{
@@ -289,6 +292,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			icon: {
 				Count: 1b
 				id: "tombstone:decorative_grave_simple"

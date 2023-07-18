@@ -132,7 +132,7 @@
         .squared()
         .triangleHeight(
           anchors.absolute(6),
-          anchors.absolute(18)
+          anchors.absolute(56)
         )
       ore.size = 5
     })
@@ -174,9 +174,9 @@
         .squared()
         .triangleHeight(
           anchors.absolute(4),
-          anchors.absolute(38)
+          anchors.absolute(78)
         )
-      ore.size = 5
+      ore.size = 4
     })
 
   // Deepslate Copper

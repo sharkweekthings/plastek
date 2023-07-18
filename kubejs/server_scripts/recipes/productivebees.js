@@ -76,6 +76,25 @@ ServerEvents.recipes(event => {
   event.remove({id: 'productivebees:hives/advanced_bop_hellbark_beehive'})
   event.remove({id: 'productivebees:hives/advanced_bop_mahogany_beehive'})
   event.remove({id: 'productivebees:hives/advanced_bop_jacaranda_beehive'})
+  event.remove({id: 'productivebees:boxes/expansion_box_oak'})
+  event.remove({id: 'productivebees:boxes/expansion_box_spruce'})
+  event.remove({id: 'productivebees:boxes/expansion_box_birch'})
+  event.remove({id: 'productivebees:boxes/expansion_box_jungle'})
+  event.remove({id: 'productivebees:boxes/expansion_box_acacia'})
+  event.remove({id: 'productivebees:boxes/expansion_box_dark_oak'})
+  event.remove({id: 'productivebees:boxes/expansion_box_crimson'})
+  event.remove({id: 'productivebees:boxes/expansion_box_warped'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_fir'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_dead'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_palm'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_magic'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_cherry'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_umbran'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_willow'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_redwood'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_hellbark'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_mahogany'})
+  event.remove({id: 'productivebees:boxes/expansion_box_bop_jacaranda'})
   event.remove({id: 'productivebees:bee_cage'})
   event.remove({id: 'productivebees:centrifuge_cauldron'})
   event.remove({id: 'productivebees:centrifuge'})
@@ -119,6 +138,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'productivebees:create/mixing/honeycomb_ender'})
   event.remove({id: 'productivebees:create/mixing/mysticalagriculture/honeycomb_inferium'})
   event.remove({id: 'productivebees:create/mixing/pneumaticcraft/honeycomb_compressed_iron'})
+  event.remove({id: 'productivebees:heated_centrifuge'})
 //
 })
 //
@@ -151,11 +171,21 @@ ServerEvents.recipes(event => {
 
 // Advanced Oak Beehive
   event.shaped('productivebees:advanced_oak_beehive', 
-    ['444','313','424'], {
+    ['545','313','424'], {
     1: 'minecraft:beehive',
     2: '#forge:campfires',
     3: 'minecraft:honeycomb_block',
-    4: 'minecraft:oak_planks'})
+    4: 'minecraft:oak_planks',
+    5: 'minecraft:waxed_copper_block'})
+
+// Advanced Oak Beehive
+  event.shaped('productivebees:expansion_box_oak', 
+    ['545','313','424'], {
+    1: '#productivebees:advanced_beehives',
+    2: 'minecraft:chest',
+    3: 'minecraft:honeycomb_block',
+    4: 'minecraft:oak_planks',
+    5: 'minecraft:waxed_copper_block'})
 
 // Bee Cage
   event.shaped('productivebees:bee_cage', 
@@ -168,74 +198,138 @@ ServerEvents.recipes(event => {
   event.shaped('productivebees:centrifuge', 
     ['444','434','212'], {
     1: 'create:basin',
-    2: 'minecraft:honeycomb_block',
+    2: 'minecraft:waxed_copper_block',
     3: 'create:electron_tube',
     4: 'emendatusenigmatica:iron_plate'})
 
 // Powered Centrifuge
   event.shaped('productivebees:powered_centrifuge', 
-    ['4 4','313','323'], {
+    ['434','313','525'], {
     1: 'productivebees:centrifuge',
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
-    4: 'emendatusenigmatica:iron_plate'})
+    4: 'emendatusenigmatica:iron_plate',
+    5: 'minecraft:waxed_copper_block'})
+
+// Powered Centrifuge
+  event.shaped('productivebees:heated_centrifuge', 
+    ['464','313','525'], {
+    1: 'productivebees:powered_centrifuge',
+    2: 'pneumaticcraft:printed_circuit_board',
+    3: 'pneumaticcraft:plastic',
+    4: 'emendatusenigmatica:steel_plate',
+    5: 'minecraft:waxed_copper_block',
+    6: 'productivebees:inactive_dragon_egg'})
 
 // Advanced Spruce Beehive 
   event.shapeless(Item.of('productivebees:advanced_spruce_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:spruce_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Birch Beehive 
   event.shapeless(Item.of('productivebees:advanced_birch_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:birch_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Jungle Beehive 
   event.shapeless(Item.of('productivebees:advanced_jungle_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:jungle_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Acacia Beehive 
   event.shapeless(Item.of('productivebees:advanced_acacia_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:acacia_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Dark Oak Beehive 
   event.shapeless(Item.of('productivebees:advanced_dark_oak_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:dark_oak_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Crimson Beehive 
   event.shapeless(Item.of('productivebees:advanced_crimson_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:crimson_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Warped Beehive 
   event.shapeless(Item.of('productivebees:advanced_warped_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:warped_planks'])
+
+// expansion_box Spruce Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_spruce'), ['productivebees:expansion_box_oak', 'minecraft:spruce_planks'])
+
+// expansion_box Birch Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_birch'), ['productivebees:expansion_box_oak', 'minecraft:birch_planks'])
+
+// expansion_box Jungle Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_jungle'), ['productivebees:expansion_box_oak', 'minecraft:jungle_planks'])
+
+// expansion_box Acacia Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_acacia'), ['productivebees:expansion_box_oak', 'minecraft:acacia_planks'])
+
+// expansion_box Dark Oak Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_dark_oak'), ['productivebees:expansion_box_oak', 'minecraft:dark_oak_planks'])
+
+// expansion_box Crimson Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_crimson'), ['productivebees:expansion_box_oak', 'minecraft:crimson_planks'])
+
+// expansion_box Warped Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_warped'), ['productivebees:expansion_box_oak', 'minecraft:warped_planks'])
 
 ///BOP STARTS
 
-// Advanced Spruce Beehive 
+// Advanced Fir Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_fir_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:fir_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Dead Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_dead_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:dead_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Palm Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_palm_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:palm_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Magic Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_magic_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:magic_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Cherry Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_cherry_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:cherry_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Umbran Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_umbran_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:umbran_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Willow Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_willow_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:willow_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Redwood Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_redwood_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:redwood_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Hellbark Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_hellbark_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:hellbark_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Mahogany Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_mahogany_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:mahogany_planks'])
 
-// Advanced Spruce Beehive 
+// Advanced Jacaranda Beehive 
   event.shapeless(Item.of('productivebees:advanced_bop_jacaranda_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:jacaranda_planks'])
 
+// Advanced Fir Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_fir'), ['productivebees:expansion_box_oak', 'biomesoplenty:fir_planks'])
+
+// Advanced Dead Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_dead'), ['productivebees:expansion_box_oak', 'biomesoplenty:dead_planks'])
+
+// Advanced Palm Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_palm'), ['productivebees:expansion_box_oak', 'biomesoplenty:palm_planks'])
+
+// Advanced Magic Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_magic'), ['productivebees:expansion_box_oak', 'biomesoplenty:magic_planks'])
+
+// Advanced Cherry Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_cherry'), ['productivebees:expansion_box_oak', 'biomesoplenty:cherry_planks'])
+
+// Advanced Umbran Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_umbran'), ['productivebees:expansion_box_oak', 'biomesoplenty:umbran_planks'])
+
+// Advanced Willow Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_willow'), ['productivebees:expansion_box_oak', 'biomesoplenty:willow_planks'])
+
+// Advanced Redwood Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_redwood'), ['productivebees:expansion_box_oak', 'biomesoplenty:redwood_planks'])
+
+// Advanced Hellbark Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_hellbark'), ['productivebees:expansion_box_oak', 'biomesoplenty:hellbark_planks'])
+
+// Advanced Mahogany Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_mahogany'), ['productivebees:expansion_box_oak', 'biomesoplenty:mahogany_planks'])
+
+// Advanced Jacaranda Beehive 
+  event.shapeless(Item.of('productivebees:expansion_box_bop_jacaranda'), ['productivebees:expansion_box_oak', 'biomesoplenty:jacaranda_planks'])
 
 //    
 })

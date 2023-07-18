@@ -289,7 +289,8 @@ ServerEvents.recipes(event => {
     ['121','121','333'], {
     1: 'minecraft:iron_bars', 
     2: 'emendatusenigmatica:iron_plate',
-    3: 'industrialforegoing:plastic'})
+    3: 'industrialforegoing:plastic',
+    4: 'silentcompat:solarmetal_ingot'})
 
 // Deployer
   event.shaped('create:deployer', 
