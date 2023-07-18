@@ -66,6 +66,10 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:crafting/kinetics/mechanical_roller'})
   event.remove({id: 'create:crafting/appliances/crafting_blueprint'})
   event.remove({id: 'create:crafting/materials/rose_quartz'})
+  event.remove({id: 'create:crafting/kinetics/mechanical_crafter'})
+  event.remove({id: 'create:crafting/kinetics/sequenced_gearshift'})
+  event.remove({id: 'create:crafting/kinetics/rotation_speed_controller'})
+  event.remove({id: 'create:crafting/kinetics/mechanical_harvester'})
 
 //
 })
@@ -78,12 +82,43 @@ ServerEvents.recipes(event => {
 
   //ADD
 
+// Mechanical Harvester
+  event.shaped('create:mechanical_harvester', 
+    ['444','121','323'], {
+    1: 'create:cogwheel',
+    2: 'create:andesite_casing',
+    3: 'create:precision_mechanism',
+    4: 'thermal:saw_blade'})
+
+// Sequenced Gearshift
+  event.shaped('create:sequenced_gearshift', 
+    ['313','323','434'], {
+    1: 'create:electron_tube',
+    2: 'create:brass_casing',
+    3: 'create:cogwheel',
+    4: 'create:precision_mechanism'})
+
+// Rotation Speed Controller
+  event.shaped('create:rotation_speed_controller', 
+    [' 1 ','121','313'], {
+    1: 'create:cogwheel',
+    2: 'create:brass_casing',
+    3: 'create:precision_mechanism'})
+
 // Crafting Blueprint
   event.shaped('create:crafting_blueprint', 
     ['111','121','131'], {
     1: 'silentgear:blueprint_paper',
     2: 'immersiveengineering:craftingtable',
     3: 'create:precision_mechanism'})
+
+// Mechanical Crafter
+  event.shaped('create:mechanical_crafter', 
+    [' 1 ',' 2 ','434'], {
+    1: 'create:electron_tube',
+    2: 'create:brass_casing',
+    3: 'immersiveengineering:craftingtable',
+    4: 'create:precision_mechanism'})
 
 // Mechanical Roller
   event.shaped('create:mechanical_roller', 
@@ -286,7 +321,7 @@ ServerEvents.recipes(event => {
 
 // Empty Blaze Burner
   event.shaped('create:empty_blaze_burner', 
-    ['121','121','333'], {
+    ['121','121','343'], {
     1: 'minecraft:iron_bars', 
     2: 'emendatusenigmatica:iron_plate',
     3: 'industrialforegoing:plastic',

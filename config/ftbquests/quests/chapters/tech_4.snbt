@@ -1071,7 +1071,7 @@
 			dependencies: ["294D6DE9D415823B"]
 			id: "1BEB924ACBB44CA4"
 			shape: "circle"
-			subtitle: "Excavator #1"
+			subtitle: "Excavator Part #1"
 			tasks: [
 				{
 					count: 16L
@@ -1118,7 +1118,7 @@
 			dependency_requirement: "one_started"
 			id: "00E8652076713E91"
 			shape: "circle"
-			subtitle: "Excavator #2"
+			subtitle: "Excavator Part #2"
 			tasks: [
 				{
 					count: 9L

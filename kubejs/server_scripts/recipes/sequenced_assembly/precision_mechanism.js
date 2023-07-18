@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
       item: "emendatusenigmatica:brass_plate",},
      results: [{
       item: "create:precision_mechanism",
-      count: 2,},],
+      count: 1,},],
       loops: 3,
      sequence: [
 {
