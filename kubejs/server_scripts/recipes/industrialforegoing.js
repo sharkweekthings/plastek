@@ -694,43 +694,6 @@ ServerEvents.recipes(event => {
 		"type": "industrialforegoing:dissolution_chamber"
 	})
 
-// 256k ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:cell_component_64k"
-			},
-			{
-				"item": "ae2:cell_component_64k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:cell_component_64k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_256k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
 // 1M ME Storage Component
 	event.custom({
 		"input": [
