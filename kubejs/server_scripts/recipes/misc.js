@@ -661,6 +661,14 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'mysticalagradditions:insanium_essence',
     2: 'apotheosis:infused_hellshelf',
     3: 'minecraft:enchanting_table'})
+    
+// Hellshelf
+  event.shaped('apotheosis:hellshelf', 
+    ['242','313','242'], {
+    1: '#forge:bookshelves',
+    2: 'minecraft:nether_bricks',
+    3: 'minecraft:blaze_rod',
+    4: 'minecraft:lava_bucket'}).id('apotheosis:hellshelf')
 
 // Gem Cutting Table
   event.shaped('apotheosis:gem_cutting_table', 
