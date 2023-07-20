@@ -1296,6 +1296,7 @@ event.add('kubejs:age_5_exception',
 
 event.add('kubejs:age_6_item', 
   [
+  'tempad:tempad',
   'apotheosis:endshelf',
   'kubejs:player_transmitter_starter_parts',
   'kubejs:ender_gate_starter_parts',

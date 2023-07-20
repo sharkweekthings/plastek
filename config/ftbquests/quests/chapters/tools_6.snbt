@@ -33,7 +33,7 @@
 			subtitle: "Whats this button do?"
 			tasks: [{
 				id: "50890136C753E74A"
-				item: "tempad:he_who_remains_tempad"
+				item: "tempad:tempad"
 				type: "item"
 			}]
 			x: -1.5d

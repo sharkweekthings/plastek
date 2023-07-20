@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
   event.remove({output: 'supplementaries:bellows'})
   event.remove({id: 'supplementaries:soap/globe'})
   event.remove({id: 'supplementaries:globe_sepia'})
-  // event.remove({id: 'tempad:tempad'})
+  event.remove({id: 'tempad:tempad'})
   event.remove({output: 'totemic:totem_whittling_knife'})
   event.remove({id: 'totemic:tipi_from_wool'})
   event.remove({id: 'totemic:leather_from_hide'})
@@ -633,12 +633,12 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'totemic:buffalo_hide',
     3: '#minecraft:slabs'}).id('supplementaries:misc/bellows')
 
-// Tempad He Who Remains
-  event.shaped('tempad:he_who_remains_tempad',
+// Tempad
+  event.shaped('tempad:tempad',
     ['111','121','131'], {
     1: 'mekanism:hdpe_sheet',
     2: 'powah:ender_core',
-    3: 'pneumaticcraft:printed_circuit_board'}).id('tempad:misc/he_who_remains_tempad')
+    3: 'pneumaticcraft:printed_circuit_board'}).id('tempad:tempad')
 
 // Totem Whittling Knife
   event.shaped('totemic:totem_whittling_knife',
