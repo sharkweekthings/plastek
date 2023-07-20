@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
     3: 'industrialforegoing:plastic',
     4: 'minecraft:crafting_table',
     5: 'create:precision_mechanism',
-    6: 'create:electron_tube'})
+    6: 'create:electron_tube'}).id('ad_astra:recipes/nasa_workbench')
     
 // Fuel Refinery 
   event.shaped('ad_astra:fuel_refinery', 
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:iron_plate',
     3: 'minecraft:furnace',
     4: 'create:precision_mechanism',
-    5: 'pneumaticcraft:ingot_iron_compressed'})
+    5: 'pneumaticcraft:ingot_iron_compressed'}).id('ad_astra:recipes/fuel_refinery')
     
 // Oxygen Loader
   event.shaped('ad_astra:oxygen_loader', 
@@ -97,14 +97,14 @@ ServerEvents.recipes(event => {
     2: 'pneumaticcraft:ingot_iron_compressed',
     3: 'ad_astra:oxygen_tank',
     4: 'ad_astra:engine_fan',
-    5: 'create:precision_mechanism'})
+    5: 'create:precision_mechanism'}).id('ad_astra:recipes/oxygen_loader')
     
 // Space Helmet
   event.shaped('ad_astra:space_helmet', 
     ['121','232','121'], {
     1: 'industrialforegoing:plastic',
     2: 'emendatusenigmatica:iron_plate',
-    3: 'minecraft:glass_pane'})
+    3: 'minecraft:glass_pane'}).id('ad_astra:recipes/space_helmet')
     
 // Space Suit
   event.shaped('ad_astra:space_suit', 
@@ -113,28 +113,28 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:iron_plate',
     3: 'ad_astra:oxygen_tank',
     4: 'ad_astra:oxygen_gear',
-    5: 'minecraft:white_wool'})
+    5: 'minecraft:white_wool'}).id('ad_astra:recipes/space_suit')
     
 // Space Pants
   event.shaped('ad_astra:space_pants', 
     ['121','313','3 3'], {
     1: 'industrialforegoing:plastic',
     2: 'emendatusenigmatica:iron_plate',
-    3: 'minecraft:white_wool'})
+    3: 'minecraft:white_wool'}).id('ad_astra:recipes/space_pants')
 
 // Space Boots
   event.shaped('ad_astra:space_boots', 
     ['1 1','3 3','2 2'], {
     1: 'industrialforegoing:plastic',
     2: 'emendatusenigmatica:iron_plate',
-    3: 'minecraft:white_wool'})
+    3: 'minecraft:white_wool'}).id('ad_astra:recipes/space_boots')
 
 // Rocket Fin
   event.shaped('ad_astra:rocket_fin', 
     [' 2 ','313','2 2'], {
     1: 'kubejs:cheap_plastic_rocket_fin',
     2: 'emendatusenigmatica:steel_plate',
-    3: 'pneumaticcraft:plastic'})
+    3: 'pneumaticcraft:plastic'}).id('ad_astra:recipes/rocket_fin')
 
 // Nose Cone
   event.shaped('ad_astra:rocket_nose_cone', 
@@ -142,13 +142,13 @@ ServerEvents.recipes(event => {
     1: 'kubejs:cheap_plastic_rocket_nose_cone',
     2: 'emendatusenigmatica:steel_plate',
     3: 'pneumaticcraft:plastic',
-    4: 'create:electron_tube'})
+    4: 'create:electron_tube'}).id('ad_astra:recipes/rocket_nose_cone')
     
 // Oxygen Tank
   event.shaped('ad_astra:oxygen_tank', 
     ['21 ','22 ','22 '], {
     1: 'create:cogwheel',
-    2: 'emendatusenigmatica:iron_plate'})
+    2: 'emendatusenigmatica:iron_plate'}).id('ad_astra:recipes/oxygen_tank')
 
 // Desh Engine
   event.shaped('ad_astra:desh_engine', 
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
     2: 'ad_astra:desh_plate',
     3: 'pneumaticcraft:plastic',
     4: 'ad_astra:engine_frame',
-    5: 'ad_astra:engine_fan'})
+    5: 'ad_astra:engine_fan'}).id('ad_astra:recipes/desh_engine')
 
 // Ostrum Engine
   event.shaped('ad_astra:ostrum_engine', 
@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
     2: 'ad_astra:ostrum_plate',
     3: 'silentcompat:plasteel_ingot',
     4: 'ad_astra:engine_frame',
-    5: 'ad_astra:engine_fan'})
+    5: 'ad_astra:engine_fan'}).id('ad_astra:recipes/ostrum_engine')
 
 // Calorite Engine
   event.shaped('ad_astra:calorite_engine', 
@@ -175,51 +175,51 @@ ServerEvents.recipes(event => {
     2: 'ad_astra:calorite_plate',
     3: 'mekanism:hdpe_sheet',
     4: 'ad_astra:engine_frame',
-    5: 'ad_astra:engine_fan'})
+    5: 'ad_astra:engine_fan'}).id('ad_astra:recipes/calorite_engine')
 
 // Desh Tank
   event.shaped('ad_astra:desh_tank', 
     ['22 ','21 ','22 '], {
     1: 'kubejs:cheap_plastic_tank',
-    2: 'ad_astra:desh_plate'})
+    2: 'ad_astra:desh_plate'}).id('ad_astra:recipes/desh_tank')
 
 // Ostrum Tank
   event.shaped('ad_astra:ostrum_tank', 
     ['22 ','21 ','22 '], {
     1: 'ad_astra:desh_tank',
-    2: 'ad_astra:ostrum_plate'})
+    2: 'ad_astra:ostrum_plate'}).id('ad_astra:recipes/ostrum_tank')
 
 // Engine Fan
   event.shaped('ad_astra:engine_fan', 
     [' 1 ','121',' 1 '], {
     1: 'emendatusenigmatica:iron_rod',
-    2: 'emendatusenigmatica:iron_plate'})
+    2: 'emendatusenigmatica:iron_plate'}).id('ad_astra:recipes/engine_fan')
 
 // Calorite Tank
   event.shaped('ad_astra:calorite_tank', 
     ['22 ','21 ','22 '], {
     1: 'ad_astra:ostrum_tank',
-    2: 'ad_astra:calorite_plate'})
+    2: 'ad_astra:calorite_plate'}).id('ad_astra:recipes/calorite_tank')
 
 // Oxygen Gear
   event.shaped('ad_astra:oxygen_gear', 
     [' 1 ','212','212'], {
     1: 'emendatusenigmatica:iron_rod',
-    2: 'emendatusenigmatica:iron_plate'})
+    2: 'emendatusenigmatica:iron_plate'}).id('ad_astra:recipes/oxygen_gear')
 
 // Fuel Loader
   event.shaped('ad_astra_giselle_addon:fuel_loader', 
     ['333','313','323'], {
     1: 'ad_astra:fuel_refinery',
     2: 'pneumaticcraft:printed_circuit_board',
-    3: 'pneumaticcraft:plastic'})
+    3: 'pneumaticcraft:plastic'}).id('ad_astra:crafting/fuel_loader')
 
 // Netherite Space Helmet
   event.shaped('ad_astra:netherite_space_helmet', 
     ['   ','212','232'], {
     1: 'thermal:hazmat_helmet',
     2: 'ad_astra:ostrum_plate',
-    3: 'thermal:netherite_plate'})
+    3: 'thermal:netherite_plate'}).id('ad_astra:recipes/netherite_space_helmet')
 
 // Netherite Space Suit
   event.shaped('ad_astra:netherite_space_suit', 
@@ -228,21 +228,21 @@ ServerEvents.recipes(event => {
     2: 'ad_astra:ostrum_plate',
     3: 'thermal:netherite_plate',
     4: 'ad_astra:oxygen_gear',
-    5: 'ad_astra:oxygen_tank'})
+    5: 'ad_astra:oxygen_tank'}).id('ad_astra:recipes/netherite_space_suit')
 
 // Netherite Space Pants
   event.shaped('ad_astra:netherite_space_pants', 
     ['313','2 2','2 2'], {
     1: 'thermal:hazmat_leggings',
     2: 'ad_astra:ostrum_plate',
-    3: 'thermal:netherite_plate'})
+    3: 'thermal:netherite_plate'}).id('ad_astra:recipes/netherite_space_pants')
 
 // Netherite Space Boots
   event.shaped('ad_astra:netherite_space_boots', 
     ['   ','3 3','212'], {
     1: 'thermal:hazmat_boots',
     2: 'ad_astra:ostrum_plate',
-    3: 'thermal:netherite_plate'})
+    3: 'thermal:netherite_plate'}).id('ad_astra:recipes/netherite_space_boots')
 
   event.custom({
   "type": "extendedcrafting:shaped_table",
@@ -261,10 +261,10 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "ad_astra:calorite_block"
   }
-})
+}).id('ad_astra:recipes/calorite_block')
 
 // Leather + Raw Rabbit = Rabbit Hide  
-  event.shapeless(Item.of('25x ad_astra:calorite_ingot'), ['ad_astra:calorite_block'])
+  event.shapeless(Item.of('25x ad_astra:calorite_ingot'), ['ad_astra:calorite_block']).id('ad_astra:recipes/calorite_ingot')
 
 
 

@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_pity',
 	4: 'emendatusenigmatica:iron_gear',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:device_tree_extractor')
 
 // Fractionating Still
   event.shaped('thermal:machine_refinery',
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'create:mechanical_pump',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_refinery')
 
 // Crystallizer
   event.shaped('thermal:machine_crystallizer',
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'minecraft:diamond_block',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_crystallizer')
 
 // Magma Crucible
   event.shaped('thermal:machine_crucible',
@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:magma_block',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_crucible')
 
 // Induction Smelter
   event.shaped('thermal:machine_smelter',
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:furnace',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_smelter')
 
 // Centrifugal Separator
   event.shaped('thermal:machine_centrifuge',
@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'minecraft:compass',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_centrifuge')
 
 // Multiservo Press
   event.shaped('thermal:machine_press',
@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:anvil',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_press')
 
 // Pyrolyzer
   event.shaped('thermal:machine_pyrolyzer',
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'thermal:rf_coil',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('thermal:machine_pyrolyzer')
 
 // Energetic Infuser
   event.shaped('thermal:charge_bench',
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
   2: 'pneumaticcraft:plastic',
 	3: 'immersiveengineering:charging_station',
   4: 'emendatusenigmatica:gold_plate',
-  5: 'emendatusenigmatica:steel_plate'})
+  5: 'emendatusenigmatica:steel_plate'}).id('thermal:charge_bench')
 
 // Hazmat Helmet
   event.shaped('thermal:hazmat_helmet',
@@ -156,28 +156,28 @@ ServerEvents.recipes(event => {
   1: 'mekanism:hazmat_mask',
   2: 'thermal:lead_plate',
 	3: 'thermal:hazmat_fabric',
-  4: 'pneumaticcraft:pressure_chamber_glass'})
+  4: 'pneumaticcraft:pressure_chamber_glass'}).id('thermal:hazmat_helmet')
 
 // Hazmat Chestplate
   event.shaped('thermal:hazmat_chestplate',
     ['323','212','323'], {
   1: 'mekanism:hazmat_gown',
   2: 'thermal:lead_plate',
-	3: 'thermal:hazmat_fabric'})
+	3: 'thermal:hazmat_fabric'}).id('thermal:hazmat_chestplate')
 
 // Hazmat Leggings
   event.shaped('thermal:hazmat_leggings',
     ['323','212','323'], {
   1: 'mekanism:hazmat_pants',
   2: 'thermal:lead_plate',
-	3: 'thermal:hazmat_fabric'})
+	3: 'thermal:hazmat_fabric'}).id('thermal:hazmat_leggings')
 
 // Hazmat Boots
   event.shaped('thermal:hazmat_boots',
     ['323','212','323'], {
   1: 'mekanism:hazmat_boots',
   2: 'thermal:lead_plate',
-	3: 'thermal:hazmat_fabric'})
+	3: 'thermal:hazmat_fabric'}).id('thermal:hazmat_boots')
 
 // Certus Quartz Crystal
   event.custom({
@@ -190,7 +190,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "ae2:certus_quartz_crystal"}
   ]
-})
+}).id('ae2:thermal_crystallizer_certus_quartz')
 
 // Fluix Crystal
   event.custom({
@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "ae2:fluix_crystal"}
   ]
-})
+}).id('ae2:thermal_crystallizer_fluix')
 
 // Rose Quartz
   event.custom({
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "create:rose_quartz"}
   ]
-})
+}).id('create:thermal_crystallizer_rose_quartz')
 
 // Apatite Crystal
   event.custom({
@@ -229,7 +229,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "emendatusenigmatica:apatite_gem"}
   ]
-})
+}).id('emendatusenigmatica:thermal_crystallizer_apatite')
 
 // Niter Crystal
   event.custom({
@@ -242,7 +242,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "thermal:niter"}
   ]
-})
+}).id('thermal:crystallizer_niter')
 
 // Lapis Crystal
   event.custom({
@@ -255,7 +255,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "minecraft:lapis_lazuli"}
   ]
-})
+}).id('minecraft:thermal_crystallizer_lapis_lazuli')
 
 // Diamond Crystal
   event.custom({
@@ -268,7 +268,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "minecraft:diamond"}
   ]
-})
+}).id('minecraft:thermal_crystallizer_diamond')
 
 // Sulfur Gem
   event.custom({
@@ -281,7 +281,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "emendatusenigmatica:sulfur_gem"}
   ]
-})
+}).id('emendatusenigmatica:thermal_crystallizer_sulfur')
 
 // Nether Quartz
   event.custom({
@@ -294,7 +294,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "minecraft:quartz"}
   ]
-})
+}).id('minecraft:thermal_crystallizer_quartz')
 
 // Cinnabar
   event.custom({
@@ -307,7 +307,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "emendatusenigmatica:cinnabar_gem"}
   ]
-})
+}).id('emendatusenigmatica:thermal_crystallizer_cinnabar')
 
 // Emerald
   event.custom({
@@ -320,9 +320,9 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "minecraft:emerald"}
   ]
-})
+}).id('minecraft:thermal_crystallizer_emerald')
 
-// Emerald
+// Amethyst
   event.custom({
   "type": "thermal:crystallizer",
   "ingredients": [
@@ -333,7 +333,7 @@ ServerEvents.recipes(event => {
   "result": [
     {"item": "minecraft:amethyst_cluster"}
   ]
-})
+}).id('minecraft:thermal_crystallizer_amethyst')
 
 // Alfsteel Ingot
   event.custom({
@@ -365,7 +365,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('mythicbotany:thermal_smelter_alfsteel_ingot')
 
 // Terrasteel Ingot
   event.custom({
@@ -397,7 +397,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('botania:thermal_smelter_terrasteel_ingot')
 
 // Cured Rubber
   event.custom({
@@ -419,7 +419,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('thermal:thermal_smelter_cured_rubber')
 
 // Better Leather
   event.custom({
@@ -445,7 +445,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('thermal:thermal_smelter_leather')
 
 // Better Durable Leather
   event.custom({
@@ -471,7 +471,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('thermal:thermal_smelter_buffalo_hide')
 
 // Plasteel Ingot
   event.custom({
@@ -497,7 +497,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('silentcompat:thermal_smelter_plasteel_ingot')
 
 // Voidmetal Ingot
   event.custom({
@@ -523,7 +523,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('silentcompat:thermal_smelter_voidmetal_ingot')
 
 // Copper Wire
   event.custom({
@@ -542,7 +542,7 @@ ServerEvents.recipes(event => {
       "item": "immersiveengineering:wire_copper"
     }
   ]
-})
+}).id('immersiveengineering:thermal_press_wire_copper')
 
 // Electrum Wire
   event.custom({
@@ -561,7 +561,7 @@ ServerEvents.recipes(event => {
       "item": "immersiveengineering:wire_electrum"
     }
   ]
-})
+}).id('immersiveengineering:thermal_press_wire_electrum')
 
 // Aluminum Wire
   event.custom({
@@ -580,7 +580,7 @@ ServerEvents.recipes(event => {
       "item": "immersiveengineering:wire_aluminum"
     }
   ]
-})
+}).id('immersiveengineering:thermal_press_wire_aluminum')
 
 // Steel Wire
   event.custom({
@@ -599,7 +599,7 @@ ServerEvents.recipes(event => {
       "item": "immersiveengineering:wire_steel"
     }
   ]
-})
+}).id('immersiveengineering:thermal_press_wire_steel')
 
 // Lead Wire
   event.custom({
@@ -618,7 +618,7 @@ ServerEvents.recipes(event => {
       "item": "immersiveengineering:wire_lead"
     }
   ]
-})
+}).id('immersiveengineering:thermal_press_wire_lead')
 
 // Brass Rod
   event.custom({
@@ -638,7 +638,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_brass_rod')
 
 // Plasteel Rod
   event.custom({
@@ -658,7 +658,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_plasteel_rod')
 
 // Steel Rod
   event.custom({
@@ -678,7 +678,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_steel_rod')
 
 // Gold Rod
   event.custom({
@@ -698,7 +698,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_gold_rod')
 
 // Copper Rod
   event.custom({
@@ -718,7 +718,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_copper_rod')
 
 // Iron Rod
   event.custom({
@@ -738,7 +738,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_iron_rod')
 
 // Aluminum Rod
   event.custom({
@@ -758,7 +758,7 @@ ServerEvents.recipes(event => {
       "count": 3
     }
   ]
-})
+}).id('emendatusenigmatica:thermal_press_aluminum_rod')
 
 // HDPE Rod
   event.custom({
@@ -778,7 +778,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ]
-})
+}).id('mekanism:thermal_press_hdpe_rod')
 
 // Plastic
   event.custom({
@@ -795,7 +795,7 @@ ServerEvents.recipes(event => {
       "count": 2
     }
   ]
-})
+}).id('industrialforegoing:thermal_press_plastic')
 
 // Replace Thermal Machine Frame w/ Industrial Foregoing
 event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','industrialforegoing:machine_frame_advanced')

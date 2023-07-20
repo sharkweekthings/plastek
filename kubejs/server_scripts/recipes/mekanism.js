@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     ['121','131','111'], {
   1: '#forge:sawdust',
   2: 'create:super_glue',
-	3: 'pneumaticcraft:printed_circuit_board'})
+	3: 'pneumaticcraft:printed_circuit_board'}).id('mekanism:cardboard_box')
 
 // Metallurgic Infuser
   event.shaped('mekanism:metallurgic_infuser',
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_pity',
 	4: 'minecraft:redstone_block',
-  5: 'emendatusenigmatica:plasteel_plate'})
+  5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:metallurgic_infuser')
 
 // Energized Smelter
   event.shaped('mekanism:energized_smelter',
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_control_circuit',
-  5: 'emendatusenigmatica:plasteel_plate'})
+  5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:energized_smelter')
 
 // Precision Sawmill
   event.shaped('mekanism:precision_sawmill',
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_control_circuit',
   5: 'emendatusenigmatica:plasteel_plate',
-  6: 'thermal:saw_blade'})
+  6: 'thermal:saw_blade'}).id('mekanism:precision_sawmill')
 
 // Rotary Condensentrator
   event.shaped('mekanism:rotary_condensentrator',
@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_control_circuit',
-  5: 'mekanism:basic_fluid_tank'})
+  5: 'mekanism:basic_fluid_tank'}).id('mekanism:rotary_condensentrator')
 
 // Chemical Oxidizer
   event.shaped('mekanism:chemical_oxidizer',
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_chemical_tank',
-  5: 'mekanism:basic_fluid_tank'})
+  5: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_oxidizer')
 
 // Chemical Infuser
   event.shaped('mekanism:chemical_infuser',
@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:basic_chemical_tank',
-  5: 'mekanism:basic_fluid_tank'})
+  5: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_infuser')
 
 // Enrichment Chamber
   event.shaped('mekanism:enrichment_chamber',
@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_control_circuit',
-  5: 'emendatusenigmatica:plasteel_plate'})
+  5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:enrichment_chamber')
 
 // Pressurized Reaction Chamber
   event.shaped('mekanism:pressurized_reaction_chamber',
@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_plate',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_control_circuit',
-  5: 'mekanism:dynamic_tank'})
+  5: 'mekanism:dynamic_tank'}).id('mekanism:pressurized_reaction_chamber')
 
 // Purification Chamber
   event.shaped('mekanism:purification_chamber',
@@ -188,7 +188,7 @@ ServerEvents.recipes(event => {
   2: 'mekanism:alloy_infused',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:advanced_control_circuit',
-  5: 'emendatusenigmatica:plasteel_plate'})
+  5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:purification_chamber')
 
 // Crusher
   event.shaped('mekanism:crusher',
@@ -197,7 +197,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_simple',
 	4: 'mekanism:basic_control_circuit',
-  5: 'emendatusenigmatica:iron_plate'})
+  5: 'emendatusenigmatica:iron_plate'}).id('mekanism:crusher')
 
 // Osmium Compressor
   event.shaped('mekanism:osmium_compressor',
@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:advanced_control_circuit',
-  5: 'mekanism:alloy_infused'})
+  5: 'mekanism:alloy_infused'}).id('mekanism:osmium_compressor')
 
 // Electrolytic Separator
   event.shaped('mekanism:electrolytic_separator',
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:advanced_control_circuit',
   5: 'mekanism:alloy_infused',
-  6: 'mekanism:electrolytic_core'})
+  6: 'mekanism:electrolytic_core'}).id('mekanism:electrolytic_separator')
 
 // Combiner
   event.shaped('mekanism:combiner',
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:elite_control_circuit',
-  5: 'mekanism:alloy_reinforced'})
+  5: 'mekanism:alloy_reinforced'}).id('mekanism:combiner')
 
 // Chemical Injection Chamber
   event.shaped('mekanism:chemical_injection_chamber',
@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:elite_control_circuit',
   5: 'mekanism:alloy_reinforced',
-  6: 'mekanism:basic_chemical_tank'})
+  6: 'mekanism:basic_chemical_tank'}).id('mekanism:chemical_injection_chamber')
 
 // Chemical Dissolution Chamber
   event.shaped('mekanism:chemical_dissolution_chamber',
@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
-  6: 'mekanism:basic_chemical_tank'})
+  6: 'mekanism:basic_chemical_tank'}).id('mekanism:chemical_dissolution_chamber')
 
 // Chemical Washer
   event.shaped('mekanism:chemical_washer',
@@ -255,7 +255,7 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
-  6: 'mekanism:basic_fluid_tank'})
+  6: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_washer')
 
 // Chemical Crystallizer
   event.shaped('mekanism:chemical_crystallizer',
@@ -265,7 +265,7 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
-  6: 'emendatusenigmatica:fluorite_gem'})
+  6: 'emendatusenigmatica:fluorite_gem'}).id('mekanism:chemical_crystallizer')
 
 // Isotopic Centrifuge
   event.shaped('mekanism:isotopic_centrifuge',
@@ -275,28 +275,28 @@ ServerEvents.recipes(event => {
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
-  6: 'emendatusenigmatica:lead_ingot'})
+  6: 'emendatusenigmatica:lead_ingot'}).id('mekanism:isotopic_centrifuge')
 
 // Basic Fluid Tank
   event.shaped('mekanism:basic_fluid_tank',
     ['323','212','323'], {
   1: 'pneumaticcraft:small_tank',
   2: 'minecraft:glass',
-	3: 'emendatusenigmatica:iron_plate'})
+	3: 'emendatusenigmatica:iron_plate'}).id('mekanism:basic_fluid_tank')
 
 // Basic Chemical Tank
   event.shaped('mekanism:basic_chemical_tank',
     ['323','212','323'], {
   1: 'pneumaticcraft:small_tank',
   2: 'emendatusenigmatica:steel_plate',
-	3: 'emendatusenigmatica:plasteel_plate'})
+	3: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:basic_chemical_tank')
 
 // Basic Energy Cube
   event.shaped('mekanism:basic_energy_cube',
     ['323','212','323'], {
   1: 'industrialforegoing:machine_frame_advanced',
   2: 'minecraft:redstone',
-	3: 'mekanism:energy_tablet'})
+	3: 'mekanism:energy_tablet'}).id('mekanism:basic_energy_cube')
 
 // Basic Universal Cable
   event.shaped('3x mekanism:basic_universal_cable',
@@ -304,7 +304,7 @@ ServerEvents.recipes(event => {
   1: 'emendatusenigmatica:steel_rod',
   2: 'immersiveengineering:wire_electrum',
   3: 'minecraft:redstone',
-  4: 'prettypipes:pipe'})
+  4: 'prettypipes:pipe'}).id('mekanism:basic_universal_cable')
 
 // Basic Mechanical Pipe
   event.shaped('3x mekanism:basic_mechanical_pipe',
@@ -312,7 +312,7 @@ ServerEvents.recipes(event => {
   1: 'emendatusenigmatica:steel_rod',
   2: 'immersiveengineering:wire_electrum',
   3: 'minecraft:bucket',
-  4: 'prettypipes:pipe'})
+  4: 'prettypipes:pipe'}).id('mekanism:basic_mechanical_pipe')
 
 // Basic Pressurized Tube
   event.shaped('3x mekanism:basic_pressurized_tube',
@@ -320,7 +320,7 @@ ServerEvents.recipes(event => {
   1: 'emendatusenigmatica:steel_rod',
   2: 'immersiveengineering:wire_electrum',
   3: 'pneumaticcraft:pressure_tube',
-  4: 'prettypipes:pipe'})
+  4: 'prettypipes:pipe'}).id('mekanism:basic_pressurized_tube')
 
 // Basic Logisitical Transporter
   event.shaped('3x mekanism:basic_logistical_transporter',
@@ -328,7 +328,7 @@ ServerEvents.recipes(event => {
   1: 'emendatusenigmatica:steel_rod',
   2: 'immersiveengineering:wire_electrum',
   3: 'mekanism:basic_control_circuit',
-  4: 'prettypipes:pipe'})
+  4: 'prettypipes:pipe'}).id('mekanism:basic_logistical_transporter')
 
 // Basic Thermodynamic Conductor
   event.shaped('3x mekanism:basic_thermodynamic_conductor',
@@ -336,7 +336,7 @@ ServerEvents.recipes(event => {
   1: 'emendatusenigmatica:steel_rod',
   2: 'immersiveengineering:wire_electrum',
   3: 'pneumaticcraft:vortex_tube',
-  4: 'prettypipes:pipe'})
+  4: 'prettypipes:pipe'}).id('mekanism:basic_thermodynamic_conductor')
 
 // Basic Tier Installer
   event.shaped('mekanism:basic_tier_installer',
@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
   1: 'productivebees:upgrade_base',
   2: 'mekanism:basic_control_circuit',
   3: 'mekanism:alloy_infused',
-  4: 'minecraft:diamond'})
+  4: 'minecraft:diamond'}).id('mekanism:basic_tier_installer')
 
 // Advanced Tier Installer
   event.shaped('mekanism:advanced_tier_installer',
@@ -352,7 +352,7 @@ ServerEvents.recipes(event => {
   1: 'productivebees:upgrade_base',
   2: 'mekanism:advanced_control_circuit',
   3: 'mekanism:alloy_infused',
-  4: 'minecraft:diamond'})
+  4: 'minecraft:diamond'}).id('mekanism:advanced_tier_installer')
 
 // Elite Tier Installer
   event.shaped('mekanism:elite_tier_installer',
@@ -360,7 +360,7 @@ ServerEvents.recipes(event => {
   1: 'productivebees:upgrade_base',
   2: 'mekanism:elite_control_circuit',
   3: 'mekanism:alloy_reinforced',
-  4: 'minecraft:diamond'})
+  4: 'minecraft:diamond'}).id('mekanism:elite_tier_installer')
 
 // Ultimate Tier Installer
   event.shaped('mekanism:ultimate_tier_installer',
@@ -368,7 +368,7 @@ ServerEvents.recipes(event => {
   1: 'productivebees:upgrade_base',
   2: 'mekanism:ultimate_control_circuit',
   3: 'mekanism:alloy_atomic',
-  4: 'minecraft:diamond'})
+  4: 'minecraft:diamond'}).id('mekanism:ultimate_tier_installer')
 
 // MekaSuit Helmet
   event.shaped('mekanism:mekasuit_helmet',
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
   2: 'mekanism:basic_induction_cell',
   3: 'mekanism:ultimate_control_circuit',
   4: 'mekanism:hdpe_sheet',
-  5: 'ars_nouveau:magebloom_fiber'})
+  5: 'ars_nouveau:magebloom_fiber'}).id('mekanism:mekasuit_helmet')
 
 // MekaSuit Chest
   event.shaped('mekanism:mekasuit_bodyarmor',
@@ -386,7 +386,7 @@ ServerEvents.recipes(event => {
   2: 'mekanism:basic_induction_cell',
   3: 'mekanism:ultimate_control_circuit',
   4: 'mekanism:hdpe_sheet',
-  5: 'ars_nouveau:magebloom_fiber'})
+  5: 'ars_nouveau:magebloom_fiber'}).id('mekanism:mekasuit_bodyarmor')
 
 // MekaSuit Legs
   event.shaped('mekanism:mekasuit_pants',
@@ -395,7 +395,7 @@ ServerEvents.recipes(event => {
   2: 'mekanism:basic_induction_cell',
   3: 'mekanism:ultimate_control_circuit',
   4: 'mekanism:hdpe_sheet',
-  5: 'ars_nouveau:magebloom_fiber'})
+  5: 'ars_nouveau:magebloom_fiber'}).id('mekanism:mekasuit_pants')
 
 // MekaSuit Feet
   event.shaped('mekanism:mekasuit_boots',
@@ -404,7 +404,7 @@ ServerEvents.recipes(event => {
   2: 'mekanism:basic_induction_cell',
   3: 'mekanism:ultimate_control_circuit',
   4: 'mekanism:hdpe_sheet',
-  5: 'ars_nouveau:magebloom_fiber'})
+  5: 'ars_nouveau:magebloom_fiber'}).id('mekanism:mekasuit_boots')
 
 // Hazmat Mask
   event.shaped('mekanism:hazmat_mask',
@@ -412,7 +412,7 @@ ServerEvents.recipes(event => {
   1: 'minecraft:leather_helmet',
   2: 'thermal:lead_plate',
   3: 'minecraft:orange_dye',
-  4: 'totemic:buffalo_hide'})
+  4: 'totemic:buffalo_hide'}).id('mekanism:hazmat_mask')
 
 // Hazmat Chest
   event.shaped('mekanism:hazmat_gown',
@@ -420,7 +420,7 @@ ServerEvents.recipes(event => {
   1: 'minecraft:leather_chestplate',
   2: 'thermal:lead_plate',
   3: 'minecraft:orange_dye',
-  4: 'totemic:buffalo_hide'})
+  4: 'totemic:buffalo_hide'}).id('mekanism:hazmat_gown')
 
 // Hazmat Legs
   event.shaped('mekanism:hazmat_pants',
@@ -428,7 +428,7 @@ ServerEvents.recipes(event => {
   1: 'minecraft:leather_leggings',
   2: 'thermal:lead_plate',
   3: 'minecraft:orange_dye',
-  4: 'totemic:buffalo_hide'})
+  4: 'totemic:buffalo_hide'}).id('mekanism:hazmat_pants')
 
 // Hazmat Feet
   event.shaped('mekanism:hazmat_boots',
@@ -436,16 +436,16 @@ ServerEvents.recipes(event => {
   1: 'minecraft:leather_boots',
   2: 'thermal:lead_plate',
   3: 'minecraft:orange_dye',
-  4: 'totemic:buffalo_hide'})
+  4: 'totemic:buffalo_hide'}).id('mekanism:hazmat_boots')
 
 // Bio Fuel Hand
-  event.shapeless(Item.of('mekanism:bio_fuel'), ['thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro'])
+  event.shapeless(Item.of('mekanism:bio_fuel'), ['thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro']).id('mekanism:bio_fuel')
 
 // Biofuel Enrich
   event.custom({"type":"mekanism:enriching","input":{
     "amount":2,"ingredient":{"item":
     "thermal:phytogro"}},
-    "output":{"count":3,"item":"mekanism:bio_fuel"}})
+    "output":{"count":3,"item":"mekanism:bio_fuel"}}).id('mekanism:bio_fuel_extra')
 
 //    
 })

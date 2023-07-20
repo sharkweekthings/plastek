@@ -108,14 +108,14 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:voidmetal_plate',
     2: 'emendatusenigmatica:gold_rod',
     3: 'compressium:stone_3',
-    4: 'emendatusenigmatica:gold_plate'})
+    4: 'emendatusenigmatica:gold_plate'}).id('mysticalagriculture:infusion_altar')
 
 // Infusion Pedestal
   event.shaped('mysticalagriculture:infusion_pedestal',
     ['232',' 3 ',' 1 '], {
     1: 'emendatusenigmatica:voidmetal_plate',
     2: 'emendatusenigmatica:gold_plate',
-    3: 'compressium:stone_3'})
+    3: 'compressium:stone_3'}).id('mysticalagriculture:infusion_pedestal')
 
 // Awakening Altar
   event.shaped('mysticalagriculture:awakening_altar',
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
     1: 'mysticalagriculture:infusion_altar',
     2: 'mysticalagriculture:soulstone',
     3: 'compressium:redsand_3',
-    4: 'emendatusenigmatica:signalum_plate'})
+    4: 'emendatusenigmatica:signalum_plate'}).id('mysticalagriculture:awakening_altar')
 
 // Infusion Pedestal
   event.shaped('mysticalagriculture:awakening_pedestal',
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
     1: 'mysticalagriculture:infusion_pedestal',
     2: 'mysticalagriculture:soulstone',
     3: 'compressium:redsand_3',
-    4: 'emendatusenigmatica:signalum_plate'})
+    4: 'emendatusenigmatica:signalum_plate'}).id('mysticalagriculture:awakening_pedestal')
 
 // Essence Vessel
   event.shaped('mysticalagriculture:essence_vessel',
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
     1: 'pneumaticcraft:large_tank',
     2: 'mysticalagriculture:soulstone',
     3: 'emendatusenigmatica:electrum_plate',
-    4: '#forge:glass'})
+    4: '#forge:glass'}).id('mysticalagriculture:essence_vessel')
 
 // Inferium Helmet
   event.shaped('mysticalagriculture:inferium_helmet',
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
     1: 'minecraft:netherite_helmet',
     2: 'mysticalagriculture:inferium_gemstone',
     3: 'mysticalagriculture:inferium_ingot',
-    4: 'ars_nouveau:magebloom_fiber'})
+    4: 'ars_nouveau:magebloom_fiber'}).id('mysticalagriculture:inferium_helmet')
 
 // Inferium Chestplate
   event.shaped('mysticalagriculture:inferium_chestplate',
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
     1: 'minecraft:netherite_chestplate',
     2: 'mysticalagriculture:inferium_gemstone',
     3: 'mysticalagriculture:inferium_ingot',
-    4: 'ars_nouveau:magebloom_fiber'})
+    4: 'ars_nouveau:magebloom_fiber'}).id('mysticalagriculture:inferium_chestplate')
 
 // Inferium Legs
   event.shaped('mysticalagriculture:inferium_leggings',
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
     1: 'minecraft:netherite_leggings',
     2: 'mysticalagriculture:inferium_gemstone',
     3: 'mysticalagriculture:inferium_ingot',
-    4: 'ars_nouveau:magebloom_fiber'})
+    4: 'ars_nouveau:magebloom_fiber'}).id('mysticalagriculture:inferium_leggings')
 
 // Inferium Booots
   event.shaped('mysticalagriculture:inferium_boots',
@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
     1: 'minecraft:netherite_boots',
     2: 'mysticalagriculture:inferium_gemstone',
     3: 'mysticalagriculture:inferium_ingot',
-    4: 'ars_nouveau:magebloom_fiber'})
+    4: 'ars_nouveau:magebloom_fiber'}).id('mysticalagriculture:inferium_boots')
 
 // Replace Mystical Agri w/ Industrial Foregoing
 event.replaceInput({ input: 'mysticalagriculture:machine_frame' },'mysticalagriculture:machine_frame','industrialforegoing:machine_frame_advanced')

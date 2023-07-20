@@ -721,13 +721,13 @@
 				""
 				"Once you have some Otherstone, you can make Infused Nether Stone!"
 				""
-				"- First you will need to get 12-16 Jelly Babies, these Jelly Babies contain the blood, and mashed up body parts of your enemies.... "
+				"- First you will need to get at least 9 Jelly Babies, these Jelly Babies contain the blood, and mashed up body parts of your enemies.... "
 				""
 				"- Crush up Gold Ingots to get Gold Dust"
 				""
 				"- Take your Otherstone, and throw it into the Spiritfire. This will give you Nether Stone"
 				""
-				"- Now, take 12-16 Jelly Babies, Gold Dust, Nether Stone, and finally some Lava.  "
+				"- Now, take your Jelly Babies, Gold Dust, Nether Stone, and finally some Lava.  "
 				""
 				"All of this will be placed inside a non heated Create Mixer to create Infused Nether Stone. The Infused Nether Stone is the block you need to construct the Nether portal. "
 			]
@@ -826,7 +826,7 @@
 		}
 		{
 			dependencies: ["3E0F7B994C1A95BC"]
-			description: ["Nether Quartz can be found in the Nether. "]
+			description: ["Nether Quartz can be found in the Nether, but you might find some in the Overworld hidden in treasure chests."]
 			id: "0A5AD933D56B927A"
 			tasks: [{
 				id: "5826A1743CF739ED"

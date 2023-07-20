@@ -29,31 +29,31 @@ ServerEvents.recipes(event => {
   event.shaped('4x pipez:item_pipe',
     [' 2 ','111',' 2 '], {
     1: 'prettypipes:pipe',
-    2: 'minecraft:chest'})
+    2: 'minecraft:chest'}).id('pipez:item_pipe')
 
 // Fluid Pipe
   event.shaped('4x pipez:fluid_pipe',
     [' 2 ','111',' 2 '], {
     1: 'prettypipes:pipe',
-    2: 'minecraft:bucket'})
+    2: 'minecraft:bucket'}).id('pipez:fluid_pipe')
 
 // Energy Pipe
   event.shaped('4x pipez:energy_pipe',
     [' 2 ','111',' 2 '], {
     1: 'prettypipes:pipe',
-    2: '#energeticsheep:wool_energetic'})
+    2: '#energeticsheep:wool_energetic'}).id('pipez:energy_pipe')
 
 // Gas Pipe
   event.shaped('4x pipez:gas_pipe',
     [' 2 ','111',' 2 '], {
     1: 'prettypipes:pipe',
-    2: 'mekanism:basic_chemical_tank'})
+    2: 'mekanism:basic_chemical_tank'}).id('pipez:gas_pipe')
 
 // Basic Upgrade Pipe
   event.shaped('pipez:basic_upgrade',
     ['222','212','222'], {
     1: 'prettypipes:blank_module',
-    2: 'pneumaticcraft:plastic'})
+    2: 'pneumaticcraft:plastic'}).id('pipez:basic_upgrade')
 
 // Universal Pipe
   event.shaped('8x pipez:universal_pipe',
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
     1: 'prettypipes:pipe',
     2: 'pipez:item_pipe',
     3: 'pipez:fluid_pipe',
-    4: 'pipez:energy_pipe'})
+    4: 'pipez:energy_pipe'}).id('pipez:universal_pipe')
 
 //    
 })

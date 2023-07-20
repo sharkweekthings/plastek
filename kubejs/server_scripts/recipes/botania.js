@@ -56,14 +56,14 @@ ServerEvents.recipes(event => {
     1: '#forge:treated_wood_slab', 
     2: 'compressium:stone_2',
     3: '#botania:mystical_flowers',
-    4: 'minecraft:stone_slab'})
+    4: 'minecraft:stone_slab'}).id('botania:apothecary_default')
 
 // Flugel Tiara
   event.shaped('botania:flight_tiara', 
     ['111','212','232'], {
     1: 'botania:life_essence', 
     2: 'botania:elementium_ingot',
-    3: 'botania:dragonstone'})
+    3: 'botania:dragonstone'}).id('botania:flight_tiara')
 
 // Petal Apothecary - Livingrock
   event.shaped('botania:apothecary_livingrock', 
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
     1: '#forge:treated_wood_slab', 
     2: 'botania:livingrock',
     3: '#botania:mystical_flowers',
-    4: 'botania:livingrock_slab'})
+    4: 'botania:livingrock_slab'}).id('botania:apothecary_livingrock')
 
 // Mana Spreader
   event.shaped('botania:mana_spreader', 
@@ -79,67 +79,63 @@ ServerEvents.recipes(event => {
     1: '#botania:livingwood_logs', 
     2: 'rootsclassic:growth_powder',
     3: '#botania:petals',
-    4: 'minecraft:gold_ingot'})
+    4: 'minecraft:gold_ingot'}).id('botania:mana_spreader')
 
 // Mana Pool
   event.shaped('botania:mana_pool', 
     ['222','121','111'], {
     1: 'botania:livingrock', 
-    2: '#botania:petals'})
+    2: '#botania:petals'}).id('botania:mana_pool')
 
 // Open Crate
   event.shaped('botania:open_crate', 
     ['111','121','111'], {
     1: 'botania:livingwood_planks', 
-    2: 'minecraft:barrel'})
+    2: 'minecraft:barrel'}).id('botania:open_crate')
 
 // Glimmering Livingwood
   event.shaped('4x botania:glimmering_livingwood', 
     ['121','212','121'], {
     1: 'botania:livingwood', 
-    2: 'rootsclassic:growth_powder'})
+    2: 'rootsclassic:growth_powder'}).id('botania:glimmering_livingwood')
 
 // Elven Gateway Core
   event.shaped('botania:alfheim_portal', 
     ['121','131','121'], {
     1: 'botania:glimmering_livingwood', 
     2: 'rootsclassic:growth_powder', 
-    3: 'botania:terrasteel_ingot'})
+    3: 'botania:terrasteel_ingot'}).id('botania:alfheim_portal')
 
 // Elven Mana Spreader
   event.shaped('botania:elven_spreader', 
     ['111','323','111'], {
     1: '#botania:dreamwood_logs', 
     2: '#botania:petals', 
-    3: 'botania:elementium_ingot'})
+    3: 'botania:elementium_ingot'}).id('botania:elven_spreader')
 
 // Manasteel Helmet
   event.shaped('botania:manasteel_helmet', 
     ['   ','222','212'], {
     1: 'botania:manaweave_helmet', 
-    2: 'botania:manasteel_ingot'
-})
+    2: 'botania:manasteel_ingot'}).id('botania:manasteel_helmet')
 
 // Manasteel Chestplate
   event.shaped('botania:manasteel_chestplate', 
     ['2 2','212','222'], {
     1: 'botania:manaweave_chestplate', 
-    2: 'botania:manasteel_ingot'
-})
+    2: 'botania:manasteel_ingot'}).id('botania:manasteel_chestplate')
 
 // Manasteel Leggings
   event.shaped('botania:manasteel_leggings', 
     ['222','212','2 2'], {
     1: 'botania:manaweave_leggings', 
-    2: 'botania:manasteel_ingot'
-})
+    2: 'botania:manasteel_ingot'}).id('botania:manasteel_leggings')
 
 // Manasteel Boots
   event.shaped('botania:manasteel_boots', 
     ['   ','2 2','212'], {
     1: 'botania:manaweave_boots', 
-    2: 'botania:manasteel_ingot'
-})
+    2: 'botania:manasteel_ingot'}).id('botania:manasteel_boots')
 
 //    
 })

@@ -89,27 +89,27 @@ ServerEvents.recipes(event => {
     1: '#forge:treated_wood_slab', 
     2: '#forge:rods/treated_wood',
     3: 'emendatusenigmatica:iron_plate',
-    4: 'minecraft:crafting_table'})
+    4: 'minecraft:crafting_table'}).id('immersiveengineering:crafting/craftingtable')
 
 // Coke Brick
   event.shaped('immersiveengineering:cokebrick',
     ['121','131','121'], {
     1: 'minecraft:clay_ball', 
     2: 'supplementaries:ash_brick',
-    3: '#forge:concrete'})
+    3: '#forge:concrete'}).id('immersiveengineering:crafting/cokebrick')
 
 // Blast Brick
   event.shaped('immersiveengineering:blastbrick',
     ['121','232','121'], {
     1: 'minecraft:nether_brick', 
     2: 'supplementaries:ash_brick',
-    3: 'ad_astra:ostrum_plate'})
+    3: 'ad_astra:ostrum_plate'}).id('immersiveengineering:crafting/blastbrick')
 
 // Alloy Brick
   event.shaped('immersiveengineering:alloybrick',
     ['222','212','222'], {
     1: 'emendatusenigmatica:steel_block', 
-    2: 'supplementaries:ash_brick'})
+    2: 'supplementaries:ash_brick'}).id('immersiveengineering:crafting/alloybrick')
 
 // Engineers Workbench
   event.shaped('immersiveengineering:workbench',
@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
     2: '#forge:treated_wood_slab',
     3: 'immersiveengineering:treated_fence',
     4: 'immersiveengineering:craftingtable',
-    5: 'create:precision_mechanism'})
+    5: 'create:precision_mechanism'}).id('immersiveengineering:crafting/workbench')
 
 // Conveyor Basic
   event.shaped('immersiveengineering:conveyor_basic',
@@ -126,22 +126,22 @@ ServerEvents.recipes(event => {
     1: 'create:shaft',
     2: '#forge:leather',
 	  3: 'emendatusenigmatica:iron_rod',
-	  4: 'pneumaticcraft:plastic'})
+	  4: 'pneumaticcraft:plastic'}).id('immersiveengineering:crafting/conveyor_basic')
 
 // Conveyor Vertical
   event.shaped('immersiveengineering:conveyor_vertical',
     ['1  ','1  ','1  '], {
-    1: 'immersiveengineering:conveyor_basic'})
+    1: 'immersiveengineering:conveyor_basic'}).id('immersiveengineering:crafting/conveyor_vertical')
 
 // Conveyor Splitter
   event.shaped('immersiveengineering:conveyor_splitter',
     ['222','121',' 1 '], {
     1: 'immersiveengineering:conveyor_basic',
-	  2: 'emendatusenigmatica:iron_plate'})
+	  2: 'emendatusenigmatica:iron_plate'}).id('immersiveengineering:crafting/conveyor_splitter')
 
 
 // Ersatz Leather
-  event.shapeless(Item.of('immersiveengineering:ersatz_leather'), ['minecraft:leather', 'immersiveengineering:hemp_fabric'])
+  event.shapeless(Item.of('immersiveengineering:ersatz_leather'), ['minecraft:leather', 'immersiveengineering:hemp_fabric']).id('immersiveengineering:crafting/ersatz_leather')
     
 
 //    

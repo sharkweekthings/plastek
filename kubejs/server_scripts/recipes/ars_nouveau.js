@@ -33,28 +33,28 @@ ServerEvents.recipes(event => {
     ['212','212','232'], {
   1: 'ars_nouveau:archwood_planks',
   2: 'emendatusenigmatica:gold_plate',
-	3: 'mythicbotany:alfsteel_ingot'})
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:imbuement_chamber')
 
 // Arcane Pedestal
   event.shaped('ars_nouveau:arcane_pedestal',
     ['121','313','313'], {
   1: 'ars_nouveau:sourcestone',
   2: 'ars_nouveau:source_gem',
-	3: 'mythicbotany:alfsteel_nugget'})
+	3: 'mythicbotany:alfsteel_nugget'}).id('ars_nouveau:arcane_pedestal')
 
 // Source Jar
   event.shaped('ars_nouveau:source_jar',
     ['232','121','222'], {
   1: '#forge:glass',
   2: 'ars_nouveau:archwood_slab',
-	3: 'mythicbotany:alfsteel_nugget'})
+	3: 'mythicbotany:alfsteel_nugget'}).id('ars_nouveau:source_jar')
 
 // Arcane Core
   event.shaped('ars_nouveau:arcane_core',
     ['313','121','313'], {
   1: 'ars_nouveau:sourcestone',
   2: 'ars_nouveau:source_gem',
-	3: 'mythicbotany:alfsteel_ingot'})
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:arcane_core')
 
 // Enchantiing Apparatus
   event.shaped('ars_nouveau:enchanting_apparatus',
@@ -62,13 +62,13 @@ ServerEvents.recipes(event => {
   1: 'ars_nouveau:sourcestone',
   2: 'minecraft:gold_ingot',
 	3: 'mythicbotany:alfsteel_ingot',
-  4: 'minecraft:diamond_block'})
+  4: 'minecraft:diamond_block'}).id('ars_nouveau:enchanting_apparatus')
 
 // Archwood Chest
-  event.shapeless(Item.of('ars_nouveau:archwood_chest'), ['minecraft:chest', 'ars_nouveau:archwood_planks'])
+  event.shapeless(Item.of('ars_nouveau:archwood_chest'), ['minecraft:chest', 'ars_nouveau:archwood_planks']).id('ars_nouveau:archwood_chest')
   
 // Novice Spellbook
-  event.shapeless(Item.of('ars_nouveau:novice_spell_book'), ['minecraft:book', 'ars_nouveau:archwood_slab', 'mythicbotany:alfsteel_nugget'])  
+  event.shapeless(Item.of('ars_nouveau:novice_spell_book'), ['minecraft:book', 'ars_nouveau:archwood_slab', 'mythicbotany:alfsteel_nugget']).id('ars_nouveau:novice_spell_book')
 
   event.custom({
   "type": "ars_nouveau:enchanting_apparatus",
@@ -104,7 +104,7 @@ Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:enderman
     }
   ],
   "sourceCost": 2000
-})
+}).id('kubejs:infused_eye_of_ender')
 
 
 // //    

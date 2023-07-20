@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_pity',
 	4: 'immersiveengineering:fluid_pump',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:fluid_extractor')
 
 // Plant Gatherer
   event.shaped('industrialforegoing:plant_gatherer',
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:netherite_hoe',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:plant_gatherer')
 
 // Plant Sower
   event.shaped('industrialforegoing:plant_sower',
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:flower_pot',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:plant_sower')
 
 // Plant Fertilizer
   event.shaped('industrialforegoing:plant_fertilizer',
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'immersiveengineering:fertilizer',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:plant_fertilizer')
 
 // Marine Fisher
   event.shaped('industrialforegoing:marine_fisher',
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'redstone_arsenal:flux_fishing_rod',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:marine_fisher')
 
 // Animal Rancher
   event.shaped('industrialforegoing:animal_rancher',
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:shears',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:animal_rancher')
 
 // Animal Feeder
   event.shaped('industrialforegoing:animal_feeder',
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'quark:feeding_trough',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:animal_feeder')
 
 // Animal Baby Separator
   event.shaped('industrialforegoing:animal_baby_separator',
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:golden_carrot',
-	5: 'pneumaticcraft:plastic'})
+	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:animal_baby_separator')
 
 // Heart of the Deep
 	event.custom({
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"thermal:ender\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('deeperdarker:heart_of_the_deep')
 
 // Echo Shard
 	event.custom({
@@ -174,7 +174,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"thermal:ender\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('minecraft:echo_shard')
 
 // Reinforced Echo Shard
 	event.custom({
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"thermal:ender\",Amount:600}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('deeperdarker:reinforced_echo_shard')
 
 // Simple Machine Frame
 	event.custom({
@@ -248,7 +248,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('industrialforegoing:machine_frame_simple')
 
 // Advanced Machine Frame
 	event.custom({
@@ -285,7 +285,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('industrialforegoing:machine_frame_advanced')
 
 // Bandage
 	event.custom({
@@ -322,7 +322,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('pneumaticcraft:bandage')
 
 // Supreme Machine Frame
 	event.custom({
@@ -359,525 +359,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"thermal:redstone\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// Inscriber Calculation Press
-	event.custom({
-		"input": [
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "prettypipes:blank_module"
-			},
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:calculation_processor_press",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:1500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// Inscriber Silicon Press
-	event.custom({
-		"input": [
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "prettypipes:blank_module"
-			},
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:silicon_press",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// Inscriber Logic Press
-	event.custom({
-		"input": [
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "prettypipes:blank_module"
-			},
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:engineering_processor_press",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"thermal:redstone\",Amount:1500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// Inscriber Logic Press
-	event.custom({
-		"input": [
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "prettypipes:blank_module"
-			},
-			{
-				"item": "emendatusenigmatica:iron_plate"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_gear"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "emendatusenigmatica:iron_rod"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:logic_processor_press",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"thermal:ender\",Amount:1500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 1k ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "ae2:logic_processor"
-			},
-			{
-				"item": "ae2:logic_processor"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:engineering_processor"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_1k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 4k ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "ae2:cell_component_1k"
-			},
-			{
-				"item": "ae2:cell_component_1k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:cell_component_1k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_4k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 16k ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:cell_component_4k"
-			},
-			{
-				"item": "ae2:cell_component_4k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:cell_component_4k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_16k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 64k ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:cell_component_16k"
-			},
-			{
-				"item": "ae2:cell_component_16k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:cell_component_16k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_64k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 256k ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "minecraft:glowstone_dust"
-			},
-			{
-				"item": "ae2:cell_component_64k"
-			},
-			{
-				"item": "ae2:cell_component_64k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:cell_component_64k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_256k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 1M ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "ae2:sky_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "ae2:sky_dust"
-			},
-			{
-				"item": "ae2:cell_component_256k"
-			},
-			{
-				"item": "ae2:cell_component_256k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "ae2:cell_component_256k"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "megacells:cell_component_1m",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 4M ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "megacells:cell_component_1m"
-			},
-			{
-				"item": "megacells:cell_component_1m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "megacells:cell_component_1m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "megacells:cell_component_4m",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 16M ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "megacells:cell_component_4m"
-			},
-			{
-				"item": "megacells:cell_component_4m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "megacells:cell_component_4m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "megacells:cell_component_16m",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 64M ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "megacells:cell_component_16m"
-			},
-			{
-				"item": "megacells:cell_component_16m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "megacells:cell_component_16m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "megacells:cell_component_64m",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
-
-// 256M ME Storage Component
-	event.custom({
-		"input": [
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "ae2:calculation_processor"
-			},
-			{
-				"item": "ae2:ender_dust"
-			},
-			{
-				"item": "megacells:cell_component_64m"
-			},
-			{
-				"item": "megacells:cell_component_64m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			},
-			{
-				"item": "megacells:cell_component_64m"
-			},
-			{
-				"item": "ae2:quartz_glass"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "megacells:cell_component_256m",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('industrialforegoing:machine_frame_supreme')
 	
 // Cheap Plastic #2
   event.custom({"type":"immersiveengineering:arc_furnace",
@@ -887,7 +369,7 @@ ServerEvents.recipes(event => {
         "item": "productivebees:configurable_honeycomb",
         "nbt": {"EntityTag": {
         "type": "productivebees:plastic"}}},
-"results":[{"base_ingredient":{"item":"industrialforegoing:plastic"},"count":1}],"time":100})
+"results":[{"base_ingredient":{"item":"industrialforegoing:plastic"},"count":1}],"time":100}).id('industrialforegoing:plastic_2')
 
 //    
 })

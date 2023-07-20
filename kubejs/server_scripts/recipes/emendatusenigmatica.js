@@ -89,126 +89,58 @@ ServerEvents.recipes(event => {
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_helmet', 
-    3: 'emendatusenigmatica:sterling_silver_plate'})
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_helmet')
 
 // Sterling Silver Chestplate
   event.shaped('emendatusenigmatica:sterling_silver_chestplate',
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_chestplate', 
-    3: 'emendatusenigmatica:sterling_silver_plate'})
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_chestplate')
 
 // Sterling Silver Leggings  
   event.shaped('emendatusenigmatica:sterling_silver_leggings',
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_leggings', 
-    3: 'emendatusenigmatica:sterling_silver_plate'})
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_leggings')
 
 // Sterling Silver Boots    
   event.shaped('emendatusenigmatica:sterling_silver_boots',
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_boots',
-    3: 'emendatusenigmatica:sterling_silver_plate'})
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_boots')
 
 // Iron Rod
   event.shaped('emendatusenigmatica:iron_rod',
     [' 1 ',' 1 ',' 1 '], {
-    1: 'emendatusenigmatica:iron_plate'})
+    1: 'emendatusenigmatica:iron_plate'}).id('emendatusenigmatica:rod/from_ingot/iron')
     
 // Gold Rod
   event.shaped('emendatusenigmatica:gold_rod', 
     [' 1 ',' 1 ',' 1 '], {
-    1: 'emendatusenigmatica:gold_plate'})
+    1: 'emendatusenigmatica:gold_plate'}).id('emendatusenigmatica:rod/from_ingot/gold')
 
 // Steel Rod
   event.shaped('emendatusenigmatica:steel_rod',
     [' 1 ',' 1 ',' 1 '], {
-    1: 'emendatusenigmatica:steel_plate'})
+    1: 'emendatusenigmatica:steel_plate'}).id('emendatusenigmatica:rod/from_ingot/steel')
 
 // Aluminum Rod
   event.shaped('emendatusenigmatica:aluminum_rod',
     [' 1 ',' 1 ',' 1 '], {
-    1: 'emendatusenigmatica:aluminum_plate'})
+    1: 'emendatusenigmatica:aluminum_plate'}).id('emendatusenigmatica:rod/from_ingot/aluminum')
 
 // Sterling Silver Rod  
   event.shaped('emendatusenigmatica:sterling_silver_rod',
     [' 1 ',' 1 ',' 1 '], {
-    1: 'emendatusenigmatica:sterling_silver_ingot'})
+    1: 'emendatusenigmatica:sterling_silver_ingot'}).id('emendatusenigmatica:rod/from_ingot/sterling_silver')
 
 // Copper Rod  
   event.shaped('emendatusenigmatica:copper_rod',
     [' 1 ',' 1 ',' 1 '], {
-    1: 'emendatusenigmatica:copper_plate'})
-
-// Apatite Dust
-  event.custom({
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:apatite_gem"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "count": 1,
-      "item": "emendatusenigmatica:apatite_dust"
-    }
-  ]
-})
-
-// Cinnabar Dust
-  event.custom({
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:cinnabar_gem"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "count": 1,
-      "item": "emendatusenigmatica:cinnabar_dust"
-    }
-  ]
-})
-
-// Quartz Dust
-  event.custom({
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "minecraft:quartz"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "count": 1,
-      "item": "emendatusenigmatica:quartz_dust"
-    }
-  ]
-})
-
-// Gold Dust
-  event.custom({
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "minecraft:gold_ingot"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "count": 1,
-      "item": "emendatusenigmatica:gold_dust"
-    }
-  ]
-})
+    1: 'emendatusenigmatica:copper_plate'}).id('emendatusenigmatica:rod/from_ingot/copper')
 
 //    
 })

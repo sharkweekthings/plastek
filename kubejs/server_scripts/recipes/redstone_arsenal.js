@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
     1: 'minecraft:diamond',
     2: 'minecraft:redstone',
     3: 'emendatusenigmatica:cinnabar_dust',
-    4: 'emendatusenigmatica:steel_dust'})
+    4: 'emendatusenigmatica:steel_dust'}).id('redstone_arsenal:materials/flux_gem')
 
 // Flux-Infused Dust
   event.shaped('redstone_arsenal:flux_dust',
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:electrum_dust',
     2: 'minecraft:redstone',
     3: 'emendatusenigmatica:cinnabar_dust',
-    4: 'emendatusenigmatica:steel_dust'})
+    4: 'emendatusenigmatica:steel_dust'}).id('redstone_arsenal:materials/flux_dust')
 
 // Flux-Infused Gear
   event.shaped('redstone_arsenal:flux_gear',
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
   event.shaped('redstone_arsenal:obsidian_rod',
     ['  1',' 2 ','1  '], {
     1: 'minecraft:obsidian',
-    2: 'emendatusenigmatica:steel_rod'})
+    2: 'emendatusenigmatica:steel_rod'}).id('redstone_arsenal:materials/obsidian_rod')
 
 // Flux Infused Helmet
   event.shaped('redstone_arsenal:flux_helmet',
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
   1: 'thermal:hazmat_helmet',
   2: 'redstone_arsenal:flux_gem',
 	3: 'redstone_arsenal:flux_obsidian_rod',
-  4: 'redstone_arsenal:flux_plating'})
+  4: 'redstone_arsenal:flux_plating'}).id('redstone_arsenal:flux_helmet')
 
 // Flux Infused Chestplate
   event.shaped('redstone_arsenal:flux_chestplate',
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
   1: 'thermal:hazmat_chestplate',
   2: 'redstone_arsenal:flux_gem',
 	3: 'redstone_arsenal:flux_obsidian_rod',
-  4: 'redstone_arsenal:flux_plating'})
+  4: 'redstone_arsenal:flux_plating'}).id('redstone_arsenal:flux_chestplate')
 
 // Flux Infused Leggings
   event.shaped('redstone_arsenal:flux_leggings',
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
   1: 'thermal:hazmat_leggings',
   2: 'redstone_arsenal:flux_gem',
 	3: 'redstone_arsenal:flux_obsidian_rod',
-  4: 'redstone_arsenal:flux_plating'})
+  4: 'redstone_arsenal:flux_plating'}).id('redstone_arsenal:flux_leggings')
 
 // Flux Infused Boots
   event.shaped('redstone_arsenal:flux_boots',
@@ -88,14 +88,14 @@ ServerEvents.recipes(event => {
   1: 'thermal:hazmat_boots',
   2: 'redstone_arsenal:flux_gem',
 	3: 'redstone_arsenal:flux_obsidian_rod',
-  4: 'redstone_arsenal:flux_plating'})
+  4: 'redstone_arsenal:flux_plating'}).id('redstone_arsenal:flux_boots')
 
 // Flux Ingot
   event.custom({"type":"immersiveengineering:arc_furnace",
 "additives":[{"item":"minecraft:redstone"}],
 "energy":51200,
 "input":{"item":"redstone_arsenal:flux_dust"},
-"results":[{"base_ingredient":{"item":"redstone_arsenal:flux_ingot"},"count":1}],"time":100})
+"results":[{"base_ingredient":{"item":"redstone_arsenal:flux_ingot"},"count":1}],"time":100}).id('redstone_arsenal:arc_furnace_flux_dust')
 
 // Flux Ingot
   event.custom({
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
     }
   ],
   "energy": 12000
-})
+}).id('redstone_arsenal:thermal_smelter_flux_ingot')
 
 //    
 })

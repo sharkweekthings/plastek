@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "mekanism:creative_energy_cube"
   }
-})
+}).id('mekanism:creative/creative_energy_cube')
 
 // Powah Creative Energy Cell
   event.custom({
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "powah:energy_cell_creative"
   }
-})
+}).id('powah:creative/energy_cell_creative')
 
 // AE2 Creative Energy Cell
   event.custom({
@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "ae2:creative_energy_cell"
   }
-})
+}).id('ae2:creative/creative_energy_cell')
 
 // Pneumatic Craft Creative Compressor
   event.custom({
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "pneumaticcraft:creative_compressor"
   }
-})
+}).id('pneumaticcraft:creative/creative_compressor')
 
 // Create Creative Motor
   event.custom({
@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "create:creative_motor"
   }
-})
+}).id('create:creative/creative_motor')
 
 // Create Creative Fluid Tank
   event.custom({
@@ -290,7 +290,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "create:creative_fluid_tank"
   }
-})
+}).id('create:creative/creative_fluid_tank')
 
 // Create Creative Crate
   event.custom({
@@ -338,7 +338,7 @@ ServerEvents.recipes(event => {
     "item": "create:creative_crate"
   }
 
-})
+}).id('create:creative/creative_crate')
 
 // Create Creative Blaze Cake
   event.custom({
@@ -385,7 +385,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "create:creative_blaze_cake"
   }
-})
+}).id('create:creative/creative_blaze_cake')
 
 // Thermal Creative RF Coil Augment
   event.custom({
@@ -432,7 +432,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "thermal:rf_coil_creative_augment"
   }
-})
+}).id('thermal:creative/rf_coil_creative_augment')
 
 // Thermal Creative Tank Augment
   event.custom({
@@ -479,7 +479,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "thermal:fluid_tank_creative_augment"
   }
-})
+}).id('thermal:creative/fluid_tank_creative_augment')
 
 // Thermal Creative Flux Efficency Augment
   event.custom({
@@ -526,7 +526,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "thermal:machine_efficiency_creative_augment"
   }
-})
+}).id('thermal:creative/machine_efficiency_creative_augment')
 
 // Thermal Creative Flux Efficency Augment
   event.custom({
@@ -573,7 +573,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "thermal:machine_catalyst_creative_augment"
   }
-})
+}).id('thermal:creative/machine_catalyst_creative_augment')
 
 // AE2 Creative Item Cell
   event.custom({
@@ -620,7 +620,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "ae2:creative_item_cell"
   }
-})
+}).id('ae2:creative/creative_item_cell')
 
 // AE2 Creative Fluid Cell
   event.custom({
@@ -667,7 +667,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "ae2:creative_fluid_cell"
   }
-})
+}).id('ae2:creative/creative_fluid_cell')
 
 // AE2 Creative Chemical Cell
   event.custom({
@@ -714,7 +714,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "appmek:creative_chemical_cell"
   }
-})
+}).id('appmek:creative/creative_chemical_cell')
 
 // Functional Storage Creative Vending Upgrade
   event.custom({
@@ -761,7 +761,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "functionalstorage:creative_vending_upgrade"
   }
-})
+}).id('functionalstorage:creative/creative_vending_upgrade')
 
 // RF Tools Creative Screen
   event.custom({
@@ -808,7 +808,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "rftoolsutility:creative_screen"
   }
-})
+}).id('rftoolsutility:creative/creative_screen')
 
 // Creative Supply Upgrade
   event.custom({
@@ -855,7 +855,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "pneumaticcraft:creative_upgrade"
   }
-})
+}).id('pneumaticcraft:creative/creative_upgrade')
 
 // Creative Ceremony Cheat
   event.custom({
@@ -890,7 +890,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "totemic:ceremony_cheat"
   }
-})
+}).id('totemic:creative/ceremony_cheat')
 
 // Botania Creative Corporea Spark
   event.custom({
@@ -928,7 +928,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "botania:corporea_spark_creative"
   }
-})
+}).id('botania:creative/corporea_spark_creative')
 
 // Ars Nouveau Creative Source Jar
   event.custom({
@@ -963,7 +963,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "ars_nouveau:creative_source_jar"
   }
-})
+}).id('ars_nouveau:creative/creative_source_jar')
 
 // Ars Nouveau Creative Source Jar
   event.custom({
@@ -995,7 +995,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "ars_nouveau:creative_spell_book"
   }
-})
+}).id('ars_nouveau:creative/creative_spell_book')
 
 // Creative Soulium Dagger
   event.custom({
@@ -1033,7 +1033,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "mysticalagriculture:creative_soulium_dagger"
   }
-})
+}).id('mysticalagriculture:creative/creative_soulium_dagger')
 
 // Infinity Wand
   event.custom({
@@ -1071,7 +1071,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "constructionwand:infinity_wand"
   }
-})
+}).id('constructionwand:creative/infinity_wand')
 
 // Creative Pipe Upgrade
   event.custom({
@@ -1100,7 +1100,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "pipez:infinity_upgrade"
   }
-})
+}).id('pipez:creative/infinity_upgrade')
 
 // Creative Essence
   event.custom({
@@ -1138,7 +1138,7 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "mysticalagradditions:creative_essence"
   }
-})
+}).id('mysticalagradditions:creative/creative_essence')
 
 //    
 })

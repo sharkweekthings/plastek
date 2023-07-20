@@ -55,13 +55,13 @@ ServerEvents.recipes(event => {
     1: 'minecraft:furnace', 
     2: 'compressium:andesite_2',
     3: 'minecraft:copper_block',
-    4: 'minecraft:gold_block'})
+    4: 'minecraft:gold_block'}).id('silentgear:metal_alloyer')
 
 // Starter Blueprints
   event.shaped('silentgear:blueprint_package',
     ['111','121','111'], {
     1: 'silentgear:blueprint_paper',
-    2: 'sophisticatedbackpacks:upgrade_base'})
+    2: 'sophisticatedbackpacks:upgrade_base'}).id('silentgear:blueprint_package')
 
 // Material Grader
   event.shaped('silentgear:material_grader',
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
     1: 'industrialforegoing:plastic', 
     2: 'occultism:spirit_attuned_gem',
     3: 'occultism:otherstone',
-    4: 'emendatusenigmatica:iron_plate'})
+    4: 'emendatusenigmatica:iron_plate'}).id('silentgear:material_grader')
 
 // Crystalline Ingot
   event.shaped('silentcompat:crystalline_alloy',
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
     2: 'ars_nouveau:air_essence',
     3: 'ars_nouveau:water_essence',
     4: 'ars_nouveau:fire_essence',
-    5: 'minecraft:quartz'})
+    5: 'minecraft:quartz'}).id('silentcompat:crystalline_alloy')
 
 // Dark Chocolate Ingot
   event.custom({
@@ -97,22 +97,22 @@ ServerEvents.recipes(event => {
       "item": "silentcompat:dark_chocolate_ingot"
     }
   ]
-})
+}).id('silentcompat:dark_chocolate_ingot')
 
 // Bronze Ingot Alloy Kiln
 	event.custom({"type":"immersiveengineering:alloy","conditions":[{"type":"forge:not","value":
   {"type":"forge:tag_empty","tag":"forge:ingots/bronze"}},
   {"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/crimson_steel"}}],
-  "input0":{"base_ingredient":{"item":"silentgear:tyrian_steel_ingot"},"count":2},
+  "input0":{"base_ingredient":{"item":"emendatusenigmatica:steel_ingot"},"count":4},
   "input1":{"tag":"forge:ingots/crimson_steel"},
-  "result":{"base_ingredient":{"item":"silentgear:tyrian_steel_ingot"},"count":1},"time":300})
+  "result":{"base_ingredient":{"item":"silentgear:tyrian_steel_ingot"},"count":1},"time":300}).id('silentgear:tyrian_steel_ingot')
 
 // Arcmetal Ingot
   event.custom({"type":"immersiveengineering:arc_furnace",
 "additives":[{"item":"emendatusenigmatica:electrum_ingot"}],
 "energy":51200,
 "input":{"item":"silentcompat:raw_arcmetal"},
-"results":[{"base_ingredient":{"item":"silentcompat:arcmetal_ingot"},"count":1}],"time":300})
+"results":[{"base_ingredient":{"item":"silentcompat:arcmetal_ingot"},"count":1}],"time":300}).id('silentgear:arcmetal_ingot')
 
 // Sculk Alloy
 	event.custom({
@@ -149,13 +149,13 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"thermal:ender\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	})
+	}).id('silentcompat:sculk_alloy_ingot')
 
 
 
-  event.shapeless(Item.of('silentcompat:outback_leather'), ['minecraft:leather', 'pamhc2foodextended:vegemiteitem'])
-  event.shapeless(Item.of('silentgear:blueprint_paper'), ['minecraft:leather', 'minecraft:blue_dye'])
-  event.shapeless(Item.of('silentgear:blueprint_paper'), ['totemic:buffalo_hide', 'minecraft:blue_dye'])
+  event.shapeless(Item.of('silentcompat:outback_leather'), ['minecraft:leather', 'pamhc2foodextended:vegemiteitem']).id('silentcompat:outback_leather')
+  event.shapeless(Item.of('silentgear:blueprint_paper'), ['minecraft:leather', 'minecraft:blue_dye']).id('silentgear:blueprint_paper_leather')
+  event.shapeless(Item.of('silentgear:blueprint_paper'), ['totemic:buffalo_hide', 'minecraft:blue_dye']).id('silentgear:blueprint_paper_buffalo_hide')
 
 //    
 })

@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
     "item": {
         "item": "ad_astra:desh_block"
     }
-})
+}).id('productivebees:bee_convert_desh')
 
 // Blitz Bee
   event.custom({
@@ -167,7 +167,7 @@ ServerEvents.recipes(event => {
     "item": {
         "item": "thermal:lightning_tnt"
     }
-})
+}).id('productivebees:bee_convert_lightning_tnt')
 
 // Advanced Oak Beehive
   event.shaped('productivebees:advanced_oak_beehive', 
@@ -176,23 +176,23 @@ ServerEvents.recipes(event => {
     2: '#forge:campfires',
     3: 'minecraft:honeycomb_block',
     4: 'minecraft:oak_planks',
-    5: 'minecraft:waxed_copper_block'})
+    5: 'minecraft:waxed_copper_block'}).id('productivebees:advanced_oak_beehive')
 
-// Advanced Oak Beehive
+// Expansion Box Oak
   event.shaped('productivebees:expansion_box_oak', 
     ['545','313','424'], {
     1: '#productivebees:advanced_beehives',
     2: 'minecraft:chest',
     3: 'minecraft:honeycomb_block',
     4: 'minecraft:oak_planks',
-    5: 'minecraft:waxed_copper_block'})
+    5: 'minecraft:waxed_copper_block'}).id('productivebees:expansion_box_oak')
 
 // Bee Cage
   event.shaped('productivebees:bee_cage', 
     ['222','212','232'], {
     1: 'minecraft:honeycomb_block',
     2: 'emendatusenigmatica:copper_rod',
-    3: '#minecraft:trapdoors'})
+    3: '#minecraft:trapdoors'}).id('productivebees:bee_cage')
 
 // Centrifuge
   event.shaped('productivebees:centrifuge', 
@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
     1: 'create:basin',
     2: 'minecraft:waxed_copper_block',
     3: 'create:electron_tube',
-    4: 'emendatusenigmatica:iron_plate'})
+    4: 'emendatusenigmatica:iron_plate'}).id('productivebees:centrifuge')
 
 // Powered Centrifuge
   event.shaped('productivebees:powered_centrifuge', 
@@ -209,7 +209,7 @@ ServerEvents.recipes(event => {
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
     4: 'emendatusenigmatica:iron_plate',
-    5: 'minecraft:waxed_copper_block'})
+    5: 'minecraft:waxed_copper_block'}).id('productivebees:powered_centrifuge')
 
 // Powered Centrifuge
   event.shaped('productivebees:heated_centrifuge', 
@@ -219,117 +219,117 @@ ServerEvents.recipes(event => {
     3: 'pneumaticcraft:plastic',
     4: 'emendatusenigmatica:steel_plate',
     5: 'minecraft:waxed_copper_block',
-    6: 'productivebees:inactive_dragon_egg'})
+    6: 'productivebees:inactive_dragon_egg'}).id('productivebees:heated_centrifuge')
 
 // Advanced Spruce Beehive 
-  event.shapeless(Item.of('productivebees:advanced_spruce_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:spruce_planks'])
+  event.shapeless(Item.of('productivebees:advanced_spruce_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:spruce_planks']).id('productivebees:hives/advanced_spruce_beehive')
 
 // Advanced Birch Beehive 
-  event.shapeless(Item.of('productivebees:advanced_birch_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:birch_planks'])
+  event.shapeless(Item.of('productivebees:advanced_birch_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:birch_planks']).id('productivebees:hives/advanced_birch_beehive')
 
 // Advanced Jungle Beehive 
-  event.shapeless(Item.of('productivebees:advanced_jungle_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:jungle_planks'])
+  event.shapeless(Item.of('productivebees:advanced_jungle_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:jungle_planks']).id('productivebees:hives/advanced_jungle_beehive')
 
 // Advanced Acacia Beehive 
-  event.shapeless(Item.of('productivebees:advanced_acacia_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:acacia_planks'])
+  event.shapeless(Item.of('productivebees:advanced_acacia_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:acacia_planks']).id('productivebees:hives/advanced_acacia_beehive')
 
 // Advanced Dark Oak Beehive 
-  event.shapeless(Item.of('productivebees:advanced_dark_oak_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:dark_oak_planks'])
+  event.shapeless(Item.of('productivebees:advanced_dark_oak_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:dark_oak_planks']).id('productivebees:hives/advanced_dark_oak_beehive')
 
 // Advanced Crimson Beehive 
-  event.shapeless(Item.of('productivebees:advanced_crimson_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:crimson_planks'])
+  event.shapeless(Item.of('productivebees:advanced_crimson_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:crimson_planks']).id('productivebees:hives/advanced_crimson_beehive')
 
 // Advanced Warped Beehive 
-  event.shapeless(Item.of('productivebees:advanced_warped_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:warped_planks'])
+  event.shapeless(Item.of('productivebees:advanced_warped_beehive'), ['productivebees:advanced_oak_beehive', 'minecraft:warped_planks']).id('productivebees:hives/advanced_warped_beehive')
 
 // expansion_box Spruce Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_spruce'), ['productivebees:expansion_box_oak', 'minecraft:spruce_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_spruce'), ['productivebees:expansion_box_oak', 'minecraft:spruce_planks']).id('productivebees:boxes/expansion_box_spruce')
 
 // expansion_box Birch Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_birch'), ['productivebees:expansion_box_oak', 'minecraft:birch_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_birch'), ['productivebees:expansion_box_oak', 'minecraft:birch_planks']).id('productivebees:boxes/expansion_box_birch')
 
 // expansion_box Jungle Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_jungle'), ['productivebees:expansion_box_oak', 'minecraft:jungle_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_jungle'), ['productivebees:expansion_box_oak', 'minecraft:jungle_planks']).id('productivebees:boxes/expansion_box_jungle')
 
 // expansion_box Acacia Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_acacia'), ['productivebees:expansion_box_oak', 'minecraft:acacia_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_acacia'), ['productivebees:expansion_box_oak', 'minecraft:acacia_planks']).id('productivebees:boxes/expansion_box_acacia')
 
 // expansion_box Dark Oak Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_dark_oak'), ['productivebees:expansion_box_oak', 'minecraft:dark_oak_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_dark_oak'), ['productivebees:expansion_box_oak', 'minecraft:dark_oak_planks']).id('productivebees:boxes/expansion_box_dark_oak')
 
 // expansion_box Crimson Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_crimson'), ['productivebees:expansion_box_oak', 'minecraft:crimson_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_crimson'), ['productivebees:expansion_box_oak', 'minecraft:crimson_planks']).id('productivebees:boxes/expansion_box_crimson')
 
 // expansion_box Warped Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_warped'), ['productivebees:expansion_box_oak', 'minecraft:warped_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_warped'), ['productivebees:expansion_box_oak', 'minecraft:warped_planks']).id('productivebees:boxes/expansion_box_warped')
 
 ///BOP STARTS
 
 // Advanced Fir Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_fir_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:fir_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_fir_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:fir_planks']).id('productivebees:hives/advanced_bop_fir_beehive')
 
 // Advanced Dead Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_dead_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:dead_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_dead_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:dead_planks']).id('productivebees:hives/advanced_bop_dead_beehive')
 
 // Advanced Palm Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_palm_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:palm_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_palm_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:palm_planks']).id('productivebees:hives/advanced_bop_palm_beehive')
 
 // Advanced Magic Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_magic_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:magic_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_magic_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:magic_planks']).id('productivebees:hives/advanced_bop_magic_beehive')
 
 // Advanced Cherry Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_cherry_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:cherry_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_cherry_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:cherry_planks']).id('productivebees:hives/advanced_bop_cherry_beehive')
 
 // Advanced Umbran Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_umbran_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:umbran_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_umbran_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:umbran_planks']).id('productivebees:hives/advanced_bop_umbran_beehive')
 
 // Advanced Willow Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_willow_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:willow_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_willow_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:willow_planks']).id('productivebees:hives/advanced_bop_willow_beehive')
 
 // Advanced Redwood Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_redwood_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:redwood_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_redwood_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:redwood_planks']).id('productivebees:hives/advanced_bop_redwood_beehive')
 
 // Advanced Hellbark Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_hellbark_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:hellbark_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_hellbark_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:hellbark_planks']).id('productivebees:hives/advanced_bop_hellbark_beehive')
 
 // Advanced Mahogany Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_mahogany_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:mahogany_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_mahogany_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:mahogany_planks']).id('productivebees:hives/advanced_bop_mahogany_beehive')
 
 // Advanced Jacaranda Beehive 
-  event.shapeless(Item.of('productivebees:advanced_bop_jacaranda_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:jacaranda_planks'])
+  event.shapeless(Item.of('productivebees:advanced_bop_jacaranda_beehive'), ['productivebees:advanced_oak_beehive', 'biomesoplenty:jacaranda_planks']).id('productivebees:hives/advanced_bop_jacaranda_beehive')
 
 // Advanced Fir Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_fir'), ['productivebees:expansion_box_oak', 'biomesoplenty:fir_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_fir'), ['productivebees:expansion_box_oak', 'biomesoplenty:fir_planks']).id('productivebees:boxes/expansion_box_bop_fir')
 
 // Advanced Dead Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_dead'), ['productivebees:expansion_box_oak', 'biomesoplenty:dead_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_dead'), ['productivebees:expansion_box_oak', 'biomesoplenty:dead_planks']).id('productivebees:boxes/expansion_box_bop_dead')
 
 // Advanced Palm Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_palm'), ['productivebees:expansion_box_oak', 'biomesoplenty:palm_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_palm'), ['productivebees:expansion_box_oak', 'biomesoplenty:palm_planks']).id('productivebees:boxes/expansion_box_bop_palm')
 
 // Advanced Magic Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_magic'), ['productivebees:expansion_box_oak', 'biomesoplenty:magic_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_magic'), ['productivebees:expansion_box_oak', 'biomesoplenty:magic_planks']).id('productivebees:boxes/expansion_box_bop_magic')
 
 // Advanced Cherry Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_cherry'), ['productivebees:expansion_box_oak', 'biomesoplenty:cherry_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_cherry'), ['productivebees:expansion_box_oak', 'biomesoplenty:cherry_planks']).id('productivebees:boxes/expansion_box_bop_cherry')
 
 // Advanced Umbran Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_umbran'), ['productivebees:expansion_box_oak', 'biomesoplenty:umbran_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_umbran'), ['productivebees:expansion_box_oak', 'biomesoplenty:umbran_planks']).id('productivebees:boxes/expansion_box_bop_umbran')
 
 // Advanced Willow Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_willow'), ['productivebees:expansion_box_oak', 'biomesoplenty:willow_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_willow'), ['productivebees:expansion_box_oak', 'biomesoplenty:willow_planks']).id('productivebees:boxes/expanexpansion_box_bop_willowion_box_')
 
 // Advanced Redwood Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_redwood'), ['productivebees:expansion_box_oak', 'biomesoplenty:redwood_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_redwood'), ['productivebees:expansion_box_oak', 'biomesoplenty:redwood_planks']).id('productivebees:boxes/expansion_box_bop_redwood')
 
 // Advanced Hellbark Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_hellbark'), ['productivebees:expansion_box_oak', 'biomesoplenty:hellbark_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_hellbark'), ['productivebees:expansion_box_oak', 'biomesoplenty:hellbark_planks']).id('productivebees:boxes/expansion_box_bop_hellbark')
 
 // Advanced Mahogany Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_mahogany'), ['productivebees:expansion_box_oak', 'biomesoplenty:mahogany_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_mahogany'), ['productivebees:expansion_box_oak', 'biomesoplenty:mahogany_planks']).id('productivebees:boxes/expansion_box_bop_mahogany')
 
 // Advanced Jacaranda Beehive 
-  event.shapeless(Item.of('productivebees:expansion_box_bop_jacaranda'), ['productivebees:expansion_box_oak', 'biomesoplenty:jacaranda_planks'])
+  event.shapeless(Item.of('productivebees:expansion_box_bop_jacaranda'), ['productivebees:expansion_box_oak', 'biomesoplenty:jacaranda_planks']).id('productivebees:boxes/expansion_box_bop_jacaranda')
 
 //    
 })
