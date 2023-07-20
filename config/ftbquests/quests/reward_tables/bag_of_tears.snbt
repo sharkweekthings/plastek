@@ -122,7 +122,21 @@
 		{ item: "pamhc2foodextended:bltitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:guavajuiceitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "artifacts:snorkel" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"translate\":\"item.twilightforest.glass_sword.tooltip.1\",\"italic\":false,\"color\":\"gray\"}"]
+					}
+				}
+			}
+		}
 		{ item: "pamhc2foodextended:candiedgingeritem", random_bonus: 9, weight: 1000.0f }
+		{ item: "tempad:he_who_remains_tempad" }
 		{ item: "pamhc2foodextended:fishtacoitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "minecraft:end_portal_frame", random_bonus: 31, weight: 500.0f }
 		{ item: "pamhc2foodextended:candleberryjellytoastitem", random_bonus: 9, weight: 1000.0f }

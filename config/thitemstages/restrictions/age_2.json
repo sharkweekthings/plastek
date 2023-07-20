@@ -14,8 +14,6 @@
       "storagenetwork"
     ],
     "tagList": [
-      "quark:revertable_chests",
-      "quark:revertable_trapped_chests",
       "kubejs:age_2_item"
     ],
     "exceptionList": [

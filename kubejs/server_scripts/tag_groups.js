@@ -679,6 +679,7 @@ event.add('kubejs:age_2_exception',
 
 event.add('kubejs:age_3_item', 
   [  
+  'pneumaticcraft:reinforced_chest',
   'apotheosis:seashelf',
   'apotheosis:hellshelf',
   'thermal:cured_rubber',
@@ -1065,6 +1066,7 @@ event.add('kubejs:age_4_item',
 
 event.add('kubejs:age_4_exception', 
   [
+  'pneumaticcraft:reinforced_chest',
   'immersiveengineering:dust_wood',
   'pneumaticcraft:compressed_iron_helmet',
   'pneumaticcraft:compressed_iron_chestplate',

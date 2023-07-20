@@ -478,8 +478,8 @@
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B49D3097C155AA9"]
@@ -538,8 +538,8 @@
 				}
 			]
 			title: "Chef's Tools"
-			x: 2.5d
-			y: 7.0d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B49D3097C155AA9"]
@@ -568,13 +568,13 @@
 				}
 			]
 			title: "For The Kitchen!"
-			x: 1.5d
-			y: 7.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["474FF2524F214852"]
 			description: [
-				"The sink in this pack does NOT have unlimited water innately. "
+				"The sink in this pack does NOT have unlimited water. "
 				""
 				"You will need to find a way to pump water into the block in order to supply it with infinite water."
 			]
@@ -624,8 +624,8 @@
 				}
 			]
 			title: "More Kitchen"
-			x: 2.0d
-			y: 6.0d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["268262DFB73CF55A"]
@@ -719,6 +719,121 @@
 			}]
 			x: -1.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["2B9D2297649DF1DF"]
+			description: [
+				"If you find yourself needing lava, and you don't want to bucket it around -- you can try sending a Train into the Nether to collect lava for you. "
+				""
+				"You can set the train to make trips to and from the Nether to collect lava, and deposit it to a tank at your base. "
+			]
+			id: "56F6BBA4B5369677"
+			shape: "circle"
+			tasks: [{
+				id: "32786BE10A74A04D"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Trains"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56F6BBA4B5369677"]
+			id: "258040903DE3C6E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32B3EC90065DD933"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "30CE87B9D9CC1C1B"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "00FC65044156329A"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "261E4206328C9A54"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "45A4A13FEF091987"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "5A1357D0C80ED2CC"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "6934D909415B4B3A"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["258040903DE3C6E0"]
+			id: "2B654F2E88EF73B1"
+			shape: "circle"
+			tasks: [{
+				id: "078BD44AA977A4CC"
+				item: "create:train_door"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["258040903DE3C6E0"]
+			id: "756B678F40C16DE2"
+			shape: "circle"
+			tasks: [{
+				id: "797EB769EF445368"
+				item: "create:train_trapdoor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["258040903DE3C6E0"]
+			id: "1C8E58052F6D5EC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A64589436657EC6"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					icon: "create:track"
+					id: "1C7B4539817B801B"
+					title: "Travel 1000 Blocks By Train"
+					type: "custom"
+				}
+				{
+					icon: "create:track"
+					id: "756624FDFB2A1904"
+					title: "Travel Through a Nether Portal By Train"
+					type: "custom"
+				}
+			]
+			title: "Travel By Train"
+			x: 2.0d
+			y: 5.5d
 		}
 	]
 	title: "Super Side Quests"

@@ -218,6 +218,8 @@
 				"The sample is to show that you can use multiple Interfaces, and various types of containers to achieve partial automation on the Pressure Chamber.  "
 				""
 				"For the quest, we'll just be building a 3x3x3 -- with 2 Interfaces, and 1 Valve. "
+				""
+				"Definitely feel free to build a bigger one though! "
 			]
 			id: "4C3B6C4F42399736"
 			tasks: [{
@@ -433,7 +435,7 @@
 				"- Resonant Integral Components"
 			]
 			id: "57B39307C919E080"
-			subtitle: "Deployer > Deployer > Deployer > Pressing"
+			subtitle: "Deployer > Deployer > Deployer > Press"
 			tasks: [{
 				id: "10C5D6D2BFB272C4"
 				title: "Ok"
@@ -458,7 +460,7 @@
 				"- ZPM Housing Unit"
 			]
 			id: "24EDD34485EC3CB6"
-			subtitle: "Deployer > Deployer > Spout > Pressing"
+			subtitle: "Deployer > Deployer > Spout > Press"
 			tasks: [{
 				id: "45B7FA0E55DCDA45"
 				title: "Ok"

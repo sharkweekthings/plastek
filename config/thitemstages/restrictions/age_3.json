@@ -20,6 +20,8 @@
       "productivebees"
     ],
     "tagList": [
+      "quark:revertable_chests",
+      "quark:revertable_trapped_chests",
       "kubejs:age_3_item"
     ],
     "exceptionList": [
