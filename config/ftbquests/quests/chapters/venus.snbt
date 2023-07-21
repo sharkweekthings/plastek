@@ -9,7 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["061CE1BEF9113532"]
+			dependencies: [
+				"061CE1BEF9113532"
+				"25DFFE80A9494193"
+				"601E005B54F802FB"
+				"74DC6E8D496A2AF5"
+				"6D688A755213C75F"
+			]
 			icon: "ad_astra:venus_globe"
 			id: "30E96F2A742A18D8"
 			rewards: [{
@@ -25,7 +31,7 @@
 			}]
 			title: "Venus Globe"
 			x: 0.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A337CED7C4DE0ED"]
@@ -55,7 +61,63 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "25DFFE80A9494193"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "7AD49FC046586AF4"
+				item: "ad_astra:venus_cobblestone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "6D688A755213C75F"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "4E8A262B398CC83D"
+				item: "ad_astra:infernal_spire_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "601E005B54F802FB"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "622D9DA1665F5F82"
+				item: "ad_astra:venus_sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "74DC6E8D496A2AF5"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "645DCE95E2883924"
+				item: "ad_astra:venus_sandstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 	title: "Venus"

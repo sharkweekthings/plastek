@@ -10,6 +10,13 @@
 	quests: [
 		{
 			dependencies: ["0B70779A64DC22A8"]
+			description: [
+				"With the 7 Dragonba.... 12 Eyes* that you've collected from around the world, your character will be granted any wish it wants! "
+				""
+				"&oJust kidding. &r"
+				""
+				"With the eyes, you can put one into each slot of the Portal Frame. Once the portal is finished, you can jump in and proceed to fight the Savage Ender Dragon."
+			]
 			id: "37382295735E3F02"
 			rewards: [
 				{
@@ -27,24 +34,25 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "It didn't even matter"
 			tasks: [{
 				id: "416004620D977F9A"
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "In The End"
+			title: "All Eyes On You"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["37382295735E3F02"]
 			id: "24D30B73F4C96954"
+			subtitle: "It doesn't even matter"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "7742B302D1A9106D"
 				type: "dimension"
 			}]
+			title: "In The End"
 			x: 0.0d
 			y: 1.5d
 		}

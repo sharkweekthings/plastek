@@ -11,12 +11,13 @@
 		{
 			dependencies: ["481CC7DD0387169C"]
 			id: "6934CC633FD25CC2"
+			subtitle: "Welcome to Alfheim!"
 			tasks: [{
 				dimension: "mythicbotany:alfheim"
 				id: "7D319764A1B0471D"
 				type: "dimension"
 			}]
-			title: "Alfheim is a Place"
+			title: "Those Who Hunt Elves"
 			x: 0.5d
 			y: 0.5d
 		}
@@ -31,15 +32,22 @@
 			}]
 			shape: "gear"
 			tasks: [{
+				consume_items: true
+				count: 64L
 				id: "6554760E2856BAC7"
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0CC78D789648D7F5"]
+			dependencies: [
+				"0CC78D789648D7F5"
+				"6DDB1937CAFCAE96"
+				"1FC03783783EABD6"
+				"160EA796922ED027"
+			]
 			icon: "supplementaries:globe"
 			id: "548E98A50241A7BB"
 			rewards: [{
@@ -56,6 +64,78 @@
 			title: "Alfheim Globe"
 			x: 0.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["6934CC633FD25CC2"]
+			id: "6DDB1937CAFCAE96"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5EC25C4558CE39E7"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6934CC633FD25CC2"]
+			id: "1FC03783783EABD6"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "27579B3061B90B3E"
+				item: "botania:golden_grass"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6934CC633FD25CC2"]
+			id: "160EA796922ED027"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "35064E1155DF15DD"
+					item: "botania:metamorphic_forest_cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "0AD0AC137E44CF95"
+					item: "botania:metamorphic_fungal_cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "6EA8ED5F55102977"
+					item: "botania:metamorphic_taiga_cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "3FCD334F0B9BFFEA"
+					item: "botania:metamorphic_mountain_cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "74791B8C6A7C840C"
+					item: "botania:metamorphic_desert_cobblestone"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
 		}
 	]
 	title: "Alfheim"

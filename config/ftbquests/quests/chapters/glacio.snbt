@@ -9,7 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["469F09BB3EF56AFE"]
+			dependencies: [
+				"469F09BB3EF56AFE"
+				"64148A55D34902AB"
+				"30D73A2107EB4172"
+			]
 			icon: "ad_astra:glacio_globe"
 			id: "2600082B8EEE5B25"
 			rewards: [{
@@ -34,9 +38,15 @@
 				""
 				"Without having any knowledge of artifacts, space, or any science what so ever, the Merchant person seems to think that his artifacts he traded you for originated from a planet not of this system, called Glacio. "
 				""
-				"He proclaimed that Glacio has breathable air, but a little cold if you fall into the snow.  The planet is also ripe with resources as it's been uninhabitated."
+				"He proclaimed that Glacio has breathable air, but a little cold if you fall into the snow.  The planet is also ripe with resources as it's been uninhabitated by the likes of you. Mainly peaceful creatures live there. Maybe they will make a good stew?"
 				""
 				"&oWhy do you believe this individual?&r"
+				""
+				"&oWho knows&r"
+				""
+				"You feel compelled to take their advice though....."
+				""
+				"&b&oDue to it's peaceful nature, Glacio is a great place to setup a base if you are looking to build in a snowy area.&r&r"
 			]
 			id: "12E3A82BAA311379"
 			subtitle: "The air smells so clean"
@@ -60,12 +70,42 @@
 			}]
 			shape: "gear"
 			tasks: [{
+				consume_items: true
+				count: 64L
 				id: "052D4C38D12D0114"
 				item: "emendatusenigmatica:raw_sharkinite"
 				type: "item"
 			}]
 			x: 0.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["12E3A82BAA311379"]
+			id: "64148A55D34902AB"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "0A4E833946FCDC81"
+				item: "ad_astra:glacio_cobblestone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E3A82BAA311379"]
+			id: "30D73A2107EB4172"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "00A4BF71609B7D18"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 	title: "Glacio"

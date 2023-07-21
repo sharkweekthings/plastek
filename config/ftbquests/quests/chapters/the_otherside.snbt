@@ -57,7 +57,13 @@
 		{
 			dependencies: ["4685113C2A52E40E"]
 			id: "350CD5DAB9A5D784"
-			shape: "circle"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B970690613E9DE5"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
 			subtitle: "Discover all the Otherside biomes"
 			tasks: [{
 				advancement: "deeperdarker:main/explore_otherside"
@@ -65,38 +71,14 @@
 				id: "0BCDB2896199E89D"
 				type: "advancement"
 			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4685113C2A52E40E"]
-			description: [
-				"You will get an Empty Heart upon killing the Warden. "
-				""
-				"Look at the Dissolution Chamber recipe for Heart of the Deep to find out how to make the right item."
-			]
-			id: "05A84BF358C6E844"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1FF26FDD1651EFE0"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
-			shape: "gear"
-			subtitle: "Kill the Warden, and acquire a Heart of the Deep"
-			tasks: [{
-				advancement: "deeperdarker:main/kill_warden"
-				criterion: ""
-				id: "75E331B392417908"
-				type: "advancement"
-			}]
-			x: -1.5d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"05A84BF358C6E844"
 				"350CD5DAB9A5D784"
+				"32C9A1F44CC748A4"
+				"1898E8C4660D4797"
 			]
 			icon: "supplementaries:globe_sepia"
 			id: "7D258772575CA5FD"
@@ -113,7 +95,35 @@
 			}]
 			title: "Otherside Globe"
 			x: 0.0d
-			y: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "32C9A1F44CC748A4"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "7AD03DA3238DA2FC"
+				item: "deeperdarker:cobbled_sculk_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "1898E8C4660D4797"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "6AB50E76C77DE7DF"
+				item: "deeperdarker:cobbled_gloomslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
 		}
 	]
 	title: "The Otherside"

@@ -9,7 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1E71679003911475"]
+			dependencies: [
+				"1E71679003911475"
+				"7B650B372E4EA9DB"
+			]
 			icon: "ad_astra:mercury_globe"
 			id: "67F9EB32EB20F93C"
 			rewards: [{
@@ -25,7 +28,7 @@
 			}]
 			title: "Mercury Globe"
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6A337CED7C4DE0ED"]
@@ -52,6 +55,20 @@
 			tasks: [{
 				id: "5C52D4CED72AD72D"
 				item: "emendatusenigmatica:raw_weekonium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1413CE804A2D9EE2"]
+			id: "7B650B372E4EA9DB"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "536A236B7C851F64"
+				item: "ad_astra:mercury_cobblestone"
 				type: "item"
 			}]
 			x: 2.0d

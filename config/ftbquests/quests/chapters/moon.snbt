@@ -42,11 +42,13 @@
 			}]
 			shape: "gear"
 			tasks: [{
+				consume_items: true
+				count: 64L
 				id: "6B594623B61D9A3F"
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -60,17 +62,21 @@
 			}]
 			shape: "gear"
 			tasks: [{
+				consume_items: true
+				count: 64L
 				id: "01AB97A33A239B47"
 				item: "emendatusenigmatica:apatite_gem"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: [
 				"757CC8894F6F1AE7"
 				"3AC637985771A62E"
+				"516ACA472B0EE924"
+				"581FE0FD83676EC5"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "6BAC477CABB20D05"
@@ -87,7 +93,35 @@
 			}]
 			title: "Moon Globe"
 			x: 0.0d
-			y: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "581FE0FD83676EC5"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "098D29F73EA336AB"
+				item: "ad_astra:moon_sand"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "516ACA472B0EE924"
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "2AE5A6A75336CD36"
+				item: "ad_astra:moon_cobblestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "Moon"
