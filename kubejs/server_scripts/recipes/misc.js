@@ -209,51 +209,50 @@ ServerEvents.recipes(event => {
 
 // Common Hat Bag
   event.shaped('simplehats:hatbag_common',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_common'}).id('simplehats:hatbag_common')
 
 // Uncommon Hat Bag
   event.shaped('simplehats:hatbag_uncommon',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_uncommon'}).id('simplehats:hatbag_uncommon')
 
 // Rare Hat Bag
   event.shaped('simplehats:hatbag_rare',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_rare'}).id('simplehats:hatbag_rare')
 
 // Epic Hat Bag
   event.shaped('simplehats:hatbag_epic',
-    [' 2 ','414',' 3 '], {
+    ['232','313','232'], {
     1: 'supplementaries:sack',
-    2: 'simplehats:hatscraps_common',
-    3: 'simplehats:hatscraps_uncommon',
-    4: 'simplehats:hatscraps_rare'}).id('simplehats:hatbag_epic')
+    2: 'simplehats:hatscraps_uncommon',
+    3: 'simplehats:hatscraps_rare'}).id('simplehats:hatbag_epic')
 
 // Easter Hat Bag
   event.shaped('simplehats:hatbag_easter',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_easter'}).id('simplehats:hatbag_easter')
 
 // Summer Hat Bag
   event.shaped('simplehats:hatbag_summer',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_summer'}).id('simplehats:hatbag_summer')
 
 // Halloween Hat Bag
   event.shaped('simplehats:hatbag_halloween',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_halloween'}).id('simplehats:hatbag_halloween')
 
 // Festive Hat Bag
   event.shaped('simplehats:hatbag_festive',
-    [' 2 ','212',' 2 '], {
+    ['222','212','222'], {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_festive'}).id('simplehats:hatbag_festive')
 

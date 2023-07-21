@@ -856,6 +856,8 @@
 		{
 			dependencies: ["268262DFB73CF55A"]
 			description: [
+				"Hats can be equipped to the \"Cosmetic Head\" or \"Curios\" slot. This effectively lets you wear 2 hats that can appear on your head. If you use the \"Curio\" slot, you can place a hat over your helmet. Equipping a hat to the \"Cosmetic Head\" slot will override your helmet."
+				""
 				"If you have a hat you no longer want, you can use shears on it to turn it to scrap.  Based off the rarity of the hat, you will get either Uncommon, Common, Rare, or Epic scrap. "
 				""
 				"With a Sack, and 4 Scrap you can make a bag to get another chance at a different hat! "
