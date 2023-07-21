@@ -289,7 +289,7 @@ ServerEvents.blockLootTables(event => {
 // Dirt and Grass
   	event.modifyBlock(/^minecraft:.*dirt/, table => {
 		table.addPool(pool => {
-		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.02)})
+		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.01)})
 		})
 
   	event.modifyBlock(/^minecraft:.*leaves/, table => {

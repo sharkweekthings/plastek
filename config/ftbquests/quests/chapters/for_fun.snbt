@@ -318,6 +318,249 @@
 			x: 3.5d
 			y: 2.0d
 		}
+		{
+			can_repeat: true
+			description: ["This quest will consume items to give you a reward."]
+			icon: "simplehats:hatbag_easter"
+			id: "5E1615505849DB26"
+			rewards: [{
+				id: "426084C49AD8604E"
+				item: "simplehats:hatbag_easter"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "106B7438302B0041"
+					item: "pamhc2trees:avocadoitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "17B4FB1C72B47AB8"
+					item: "pamhc2trees:limeitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "316ACC6CDD543F79"
+					item: "pamhc2trees:guavaitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7A16E83DB7681A6F"
+					item: "pamhc2trees:lycheeitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0A7846966F49AB4B"
+					item: "pamhc2trees:mangoitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7159FBA40CA097AE"
+					item: "pamhc2crops:brusselsproutitem"
+					type: "item"
+				}
+			]
+			title: "Easter Hats"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: ["This quest will consume items to give you a reward."]
+			icon: "simplehats:hatbag_summer"
+			id: "4526E485582BC8D4"
+			rewards: [{
+				id: "54BC2DF76AB6E835"
+				item: "simplehats:hatbag_summer"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "4BD0B9413A452C8B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:crops/tomato"
+						}
+					}
+					title: "Any #forge:crops/tomato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3D88EC57421B6424"
+					item: "pamhc2trees:bananaitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "54F51C3757C2FC83"
+					item: "pamhc2crops:cottonitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "27BBD6D224174A9A"
+					item: "pamhc2trees:starfruititem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "12130D647C27F207"
+					item: "pamhc2crops:chilipepperitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "02457B4858E39367"
+					item: "pamhc2crops:cucumberitem"
+					type: "item"
+				}
+			]
+			title: "Summer Hats"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: ["This quest will consume items to give you a reward."]
+			icon: "simplehats:hatbag_halloween"
+			id: "62C34EA5ABB9F4EB"
+			rewards: [{
+				id: "4148DA818351B4EF"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "33894CE82AE3197C"
+					item: "pamhc2trees:cashewitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0FA68258705027D9"
+					item: "pamhc2crops:garlicitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7D69BE27ABA2A245"
+					item: "pamhc2trees:pawpawitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "61A75E9B7C40B204"
+					item: "pamhc2crops:caulifloweritem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "6A2A99E173E815F2"
+					item: "pamhc2crops:sweetpotatoitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4AA066D6C61ABFF8"
+					item: "pamhc2crops:kohlrabiitem"
+					type: "item"
+				}
+			]
+			title: "Halloween Hats"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: ["This quest will consume items to give you a reward."]
+			icon: "simplehats:hatbag_festive"
+			id: "7E8766EB2226F42B"
+			rewards: [{
+				id: "724DC612430AA1A6"
+				item: "simplehats:hatbag_festive"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "22473AFC6B79624C"
+					item: "pamhc2crops:lentilitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "02464F775246AE2F"
+					item: "pamhc2crops:wintersquashitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "786984A5FD895EB2"
+					item: "pamhc2crops:rutabagaitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5CD0E90A7167E440"
+					item: "pamhc2trees:grapefruititem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1CB7F96ED20E311B"
+					item: "pamhc2trees:pistachioitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4A31C20FD724F85E"
+					item: "pamhc2crops:kaleitem"
+					type: "item"
+				}
+			]
+			title: "Festive Hats"
+			x: 4.0d
+			y: 3.0d
+		}
 	]
 	title: "For Fun"
 }

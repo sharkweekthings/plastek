@@ -5,7 +5,7 @@
 	group: "6274245AF897553D"
 	icon: "statues:trans_bee_statue"
 	id: "6E30003C90335695"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

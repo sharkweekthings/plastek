@@ -726,6 +726,11 @@
 				"If you find yourself needing lava, and you don't want to bucket it around -- you can try sending a Train into the Nether to collect lava for you. "
 				""
 				"You can set the train to make trips to and from the Nether to collect lava, and deposit it to a tank at your base. "
+				""
+				"There is a lot to go into for trains that we cant cover here in the quest. For a more comprehensive guide, I suggest checking out: "
+				""
+				"&o&e\"Minecraft Create Mod - Train Tutorial\" by Rockit14&r&r"
+				"&o&bhttps://www.youtube.com/watch?v=C9Mwc2orrdk&r&r"
 			]
 			id: "56F6BBA4B5369677"
 			shape: "circle"
@@ -740,6 +745,29 @@
 		}
 		{
 			dependencies: ["56F6BBA4B5369677"]
+			description: [
+				"While you don't necessarily need ALL these parts individually to get a train going, you will need most of them. "
+				""
+				"To get a basic train setup:"
+				""
+				"- Lay down your train tracks"
+				"- Place down a \"Train Station\" on the track faced the way you want the train to move"
+				"- To finish the Train Station, click again on the side of the track to place the actual \"Station\" block"
+				"- Open the Station block and click \"Create New Train!\""
+				"- Place down a \"Train Casing\" on the blue spot"
+				"- From here you can design your train! "
+				""
+				"&o&bWe'll continue with an extremely basic setup:&r&r"
+				""
+				"- Surround the casing with 7 blocks of your choice, making a 3x3 platform on top of the train"
+				"- Place down the \"Train Controls\" in the direction that the train will be moving"
+				"- Use \"Super Glue\" to connect all the blocks on the train"
+				"- Click the Station block again and you can \"Assemble Train\""
+				""
+				"If everything went well, your train will have assembled and you can propel it forward and backward by clicking on the Train Controls, and using W or S! "
+				""
+				"From here you can add attachments like a Portable Storage Interface, and a tank, just make sure to Superglue them to the device."
+			]
 			id: "258040903DE3C6E0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -808,32 +836,59 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["258040903DE3C6E0"]
-			id: "1C8E58052F6D5EC0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A64589436657EC6"
-				table_id: 3325230720908722317L
-				type: "random"
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"Got a hat you really like and want to use as decoration? "
+				""
+				"You can make a stand, and place the hat on it to display  it!"
+			]
+			id: "74E4474715523B7F"
+			shape: "circle"
+			tasks: [{
+				id: "59E532BD031EDC71"
+				item: "simplehats:hatdisplay"
+				type: "item"
 			}]
-			shape: "gear"
+			title: "Hat Display Stand"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"If you have a hat you no longer want, you can use shears on it to turn it to scrap.  Based off the rarity of the hat, you will get either Uncommon, Common, Rare, or Epic scrap. "
+				""
+				"With a Sack, and 4 Scrap you can make a bag to get another chance at a different hat! "
+				""
+				"&oBe sure to look at the recipe for the Epic bag, as it differs slightly from the others. &r"
+			]
+			id: "5D908688DA57CABD"
+			shape: "circle"
 			tasks: [
 				{
-					icon: "create:track"
-					id: "1C7B4539817B801B"
-					title: "Travel 1000 Blocks By Train"
-					type: "custom"
+					id: "03FE427B8A4146CB"
+					item: "simplehats:hatbag_common"
+					type: "item"
 				}
 				{
-					icon: "create:track"
-					id: "756624FDFB2A1904"
-					title: "Travel Through a Nether Portal By Train"
-					type: "custom"
+					id: "0E6A2E5AB9B1FC1C"
+					item: "simplehats:hatbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "41E9B5B69E852DCF"
+					item: "simplehats:hatbag_rare"
+					type: "item"
+				}
+				{
+					id: "1DDBB77DFA93A4F9"
+					item: "simplehats:hatbag_epic"
+					type: "item"
 				}
 			]
-			title: "Travel By Train"
-			x: 2.0d
-			y: 5.5d
+			title: "Hat Grab Bags"
+			x: 0.0d
+			y: -3.5d
 		}
 	]
 	title: "Super Side Quests"

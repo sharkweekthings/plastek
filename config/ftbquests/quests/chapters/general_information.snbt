@@ -23,7 +23,7 @@
 				""
 				"The Bag of Tears is a pouch that can contain really powerful items.  However, you'll probably end up getting food, or a block or something."
 				""
-				"Most of these powerful items can be found in the world in various chests, but there are a few exceptions. . . "
+				"Most of these powerful items can be found in the world in various chests, but there are a few exceptions that are exclusive to this bag alone.  "
 			]
 			id: "3C1E3A1924870689"
 			shape: "gear"
@@ -207,6 +207,8 @@
 				"You can view the tab \"Ore Generation\" to find out the new Y level, and Dimension of every available ore. "
 				""
 				"The only exception to this is Sculk Ore from the Otherside. All Sculk Ore is at default Y level locations. "
+				""
+				"Each ore in the pack should be affected by Fortune up to +8, as well as Silk Touch."
 			]
 			icon: "minecraft:iron_ore"
 			id: "39009BD303B688BA"

@@ -455,6 +455,7 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'simplehats:hatdisplay',
   'ae2:ender_dust',
   'thermal:quartz_dust',
   'theurgy:divination_rod_t2',

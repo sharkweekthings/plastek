@@ -5,7 +5,7 @@
 	group: "6274245AF897553D"
 	icon: "minecraft:wheat_seeds"
 	id: "063EE1DBBC3CC246"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

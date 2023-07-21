@@ -5,7 +5,7 @@
 	group: "6274245AF897553D"
 	icon: "chococraft:gysahl_green"
 	id: "41A246769AE410A9"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
