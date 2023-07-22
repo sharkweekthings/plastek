@@ -38,6 +38,12 @@ ServerEvents.recipes(event => {
   event.remove({output: 'silentcompat:arcmetal_ingot'})
   event.remove({id: 'silentgear:bronze_ingot'})
 
+  event.remove({id: 'silentgear:azure_silver_dust'})
+  event.remove({id: 'silentgear:blaze_gold_dust'})
+  event.remove({id: 'silentgear:blazing_dust'})
+  event.remove({id: 'silentgear:azure_silver_dust'})
+  event.remove({id: 'silentgear:glittery_dust'})
+
 //
 })
 //
@@ -48,6 +54,34 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Glowing Dust
+  event.shaped('2x silentgear:glowing_dust',
+    ['323','212','323'], {
+    1: 'thermal:quartz_dust', 
+    2: 'minecraft:glowstone_dust',
+    3: 'rootsclassic:growth_powder'}).id('silentgear:glowing_dust')
+
+// Blaze Gold Ingot
+  event.shaped('2x silentgear:blaze_gold_ingot',
+    ['323','212','323'], {
+    1: 'minecraft:gold_ingot', 
+    2: 'minecraft:blaze_powder',
+    3: 'emendatusenigmatica:copper_dust'}).id('silentgear:blaze_gold_ingot')
+
+// Blazing Dust
+  event.shaped('4x silentgear:blazing_dust',
+    ['323','212','323'], {
+    1: 'silentgear:blaze_gold_dust', 
+    2: 'minecraft:blaze_powder',
+    3: 'minecraft:glowstone_dust'}).id('silentgear:blazing_dust')
+
+// Glittery Dust
+  event.shaped('8x silentgear:glittery_dust',
+    ['323','212','323'], {
+    1: 'silentgear:azure_silver_dust', 
+    2: 'silentgear:glowing_dust',
+    3: 'minecraft:popped_chorus_fruit'}).id('silentgear:glittery_dust')
 
 // Metal Alloyer (Crude Alloyer)
   event.shaped('silentgear:metal_alloyer',
@@ -150,6 +184,41 @@ ServerEvents.recipes(event => {
 		"inputFluid": "{FluidName:\"thermal:ender\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('silentcompat:sculk_alloy_ingot')
+
+// Blaze Gold Dust
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "silentgear:blaze_gold_ingot"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "silentgear:blaze_gold_dust"
+    }
+  ]
+}).id('silentgear:blaze_gold_dust')
+
+// Azure Silver Dust
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "silentgear:azure_silver_ingot"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "silentgear:azure_silver_dust"
+    }
+  ]
+}).id('silentgear:azure_silver_dust')
+
 
 
 

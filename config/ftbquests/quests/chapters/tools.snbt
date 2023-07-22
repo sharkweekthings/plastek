@@ -169,7 +169,7 @@
 			description: [
 				"A Flint Saw is so much better than a Flint Hatchet.  Instead of getting 1 Plank, you'll get 4. "
 				""
-				"This is optional though, so if you want you can just power through it with a Hatchet, like a caveman. "
+				"This is optional though, so if you want you can just power through it with a Hatchet, like you're still a caveman."
 			]
 			id: "0ADCEDA0DE534C90"
 			shape: "circle"
@@ -196,7 +196,9 @@
 			description: [
 				"You might be wondering when you're gonna get a sweet Stone Pickaxe, but you aren't going to get one. Instead you're gonna make a Bone Pickaxe. "
 				""
-				"To get going here, I suggest taking one of those Flint Tools that you made, finding some animals, and... well.. you know what to do.. Put them out of their happy existence, and collect pieces of them."
+				"To get going here, I suggest taking one of those Flint Tools that you made, finding some animals, and... well.. you know what to do.. "
+				""
+				"Put them out of their happy existence, and collect pieces of them."
 				""
 				"After you have a couple Bones -- put Flint in your offhand, and Bones on your Hotbar.  Right click them together and hope for some Bone Shards. "
 			]

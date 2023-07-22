@@ -125,7 +125,6 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "I bet you wish you could roast these right now."
 			tasks: [{
 				id: "083EBA25543276FF"
 				item: "minecraft:campfire"
@@ -573,7 +572,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["7DFA570BE3948D39"]
+			dependencies: ["0F168A15566009C5"]
 			dependency_requirement: "one_started"
 			description: ["Adding a little bark can strengthen the Rawhide."]
 			id: "203755653C86E4EE"

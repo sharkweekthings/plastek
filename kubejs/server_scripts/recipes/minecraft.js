@@ -149,6 +149,23 @@ ServerEvents.recipes(event => {
     2: 'immersiveengineering:insulating_glass',
     3: 'minecraft:glass'}).id('minecraft:green_stained_glass')
 
+// Copper Dust
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "emendatusenigmatica:copper_dust"
+    }
+  ]
+}).id('emendatusenigmatica:copper_dust')
+
 // Leather + Raw Rabbit = Rabbit Hide  
   event.shapeless(Item.of('minecraft:rabbit_hide'), ['minecraft:leather', 'minecraft:rabbit']).id('minecraft:rabbit_hide')
 

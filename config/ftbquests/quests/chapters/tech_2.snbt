@@ -564,7 +564,7 @@
 		{
 			dependencies: ["1F14D3B1AEC7C529"]
 			description: [
-				"We'll be coming back to this section before the end of this age to craf a Material Grader. However, right now we don't quite have the capability to do so, so that's the end of the Silent line for now. "
+				"We'll be coming back to this section before the end of this age to craft a Material Grader. However, right now we don't quite have the capability to do so, so that's the end of the Silent line for now. "
 				""
 				"Sorry, there was pretty much no Tech to any of what you've done in the Silent line, so far."
 			]
@@ -583,41 +583,69 @@
 			description: [
 				"The Material Grader is how you can make more powerful Silent Gear. "
 				""
-				"You put your material in the grader along with one of the 3 catalysts: "
+				"You put your material in the grader along with one of the 6 catalysts: "
 				""
-				"- &eGlowing Dust&r "
+				"&nT1&r"
+				""
+				"- &eGlowing Dust&r"
+				"- &eBlaze Gold Dust&r"
+				""
+				"&nT2&r"
+				""
 				"- &cBlazing Dust&r "
-				"- Glittery Dust"
+				"- &cAzure Silver Dust&r"
+				""
+				"&nT3&r"
+				""
+				"- &bGlittery Dust&r"
+				"- &bStarmetal Dust&r"
+				""
 				""
 				"After receiving a grade, if you aren't happy with it, you can put it back through the grader to receive another random grade. "
 				""
 				"Hopefully a better grade, but it could be a worse grade. It might be a worse grade. "
-				""
-				"Lets face it, it was a worse grade, so you just put it back through again until it's a better grade."
 			]
 			id: "31C0D70E20FECEBB"
 			rewards: [
 				{
-					count: 10
-					id: "2FF759C7B253D0C5"
-					item: "silentgear:glittery_dust"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "473CF40CD00DE0FB"
-					item: "silentgear:blazing_dust"
-					type: "item"
-				}
-				{
-					count: 30
-					id: "176C6CCC8A543882"
+					id: "40199BC4DAC1A552"
 					item: "silentgear:glowing_dust"
+					random_bonus: 49
+					type: "item"
+				}
+				{
+					id: "2B861270792038D8"
+					item: "silentgear:blaze_gold_dust"
+					random_bonus: 49
+					type: "item"
+				}
+				{
+					id: "099FDACFE9FAD55E"
+					item: "silentgear:azure_silver_dust"
+					random_bonus: 29
+					type: "item"
+				}
+				{
+					id: "46A0C217984BAE3D"
+					item: "silentgear:blazing_dust"
+					random_bonus: 29
+					type: "item"
+				}
+				{
+					id: "460312DE4E7EBE0B"
+					item: "silentgear:starmetal_dust"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "1E8A0A31DAF39C2E"
+					item: "silentgear:glittery_dust"
+					random_bonus: 9
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "746A80AD752D7E75"
+					id: "3A7C87C1D400B17E"
 					table_id: 3325230720908722317L
 					type: "random"
 				}
@@ -676,17 +704,13 @@
 				"528B58F7CC7CEA81"
 			]
 			description: [
-				"These Waterwheels act a bit differently than the past version. "
+				"These Water Wheel act a bit differently than the past version. "
 				""
 				"Waterwheels will always operate at their highest potential. Waterflow only needs to go one direction to achieve this. "
 				""
-				"- Normal Water Wheels will give you 256su"
+				"This small Water Wheel will operate at 256su."
 				""
-				"- Large Water Wheels will give you 512su"
-				""
-				"Since this is a new model, it's definitely suggested that you Ponder this by holding \"w\" over the Water Wheel / Large Water Wheel in JEI."
-				""
-				"An added bonus in this version, you can take some planks and right click them over your Water Wheel which will change the Water Wheel to the texture of that plank!"
+				"{image:kubejs:textures/create/small_waterwheel_sample.png width:175 height:150 align:1}"
 			]
 			id: "174F9BBEC3872691"
 			rewards: [{
@@ -708,6 +732,13 @@
 		}
 		{
 			dependencies: ["174F9BBEC3872691"]
+			description: [
+				"The Large Water Wheel will operate at 512su. "
+				""
+				"An added bonus in this version, you can take a plank and right click them over your Water Wheel which will change the Water Wheel to the texture of that plank, which works on both small and large Water Wheel."
+				""
+				"{image:kubejs:textures/create/large_waterwheel_sample.png width:175 height:150 align:1}"
+			]
 			id: "03FAA14F839BF3FE"
 			shape: "circle"
 			tasks: [{
@@ -1128,6 +1159,25 @@
 			}]
 			x: 6.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["03FAA14F839BF3FE"]
+			description: [
+				"If you find yourself needing more su, you can always add more Water Wheels to your setup."
+				""
+				"{image:kubejs:textures/create/large_waterwheel_su_sample.png width:175 height:150 align:1}"
+			]
+			id: "0B97E29119B5B726"
+			shape: "circle"
+			subtitle: "I'm givin' her all she's got, Captain!"
+			tasks: [{
+				id: "4E19E1785AF6CCE6"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Multiple Water Wheels"
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 	title: "Tech"
