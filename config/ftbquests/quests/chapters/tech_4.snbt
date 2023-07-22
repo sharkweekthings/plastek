@@ -442,7 +442,7 @@
 			description: [
 				"Each of the following machines to the right will require you to right click with an Engineer's Hammer when you are finished building.  "
 				""
-				"Generally the Engineer's Manual in the Akashic Tome will tell you the block that you need to click on to finish the structure."
+				"Generally the Engineer's Manual in the Eccentric Tome will tell you the block that you need to click on to finish the structure."
 			]
 			id: "5E46D02E8E6D542A"
 			subtitle: "Power up top, Machines to the right"
@@ -475,7 +475,7 @@
 			description: [
 				"Better Alloying. "
 				""
-				"A bit of an upgrade to the Crude Alloyer."
+				"In some ways it's an upgrade, in some ways not."
 			]
 			id: "49661D794D571EE6"
 			subtitle: "#2"

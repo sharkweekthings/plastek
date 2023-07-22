@@ -1984,7 +1984,8 @@ event.add('kubejs:loot_1',
   [
   'minecraft:chest',
   'minecraft:trapped_chest',
-  'minecraft:barrel'
+  'minecraft:barrel',
+  'immersiveengineering:crate'
   ])
 
 //

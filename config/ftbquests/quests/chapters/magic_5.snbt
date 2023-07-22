@@ -532,7 +532,7 @@
 			description: ["Starting with Deepshelves, and up to Sculkshelves will be the way to hit level 80."]
 			id: "73FA7CB233D08080"
 			shape: "circle"
-			subtitle: "Level 60 to 80"
+			subtitle: "Apotheosis Enchanting: Level 60 to 80"
 			tasks: [{
 				id: "068CA4065FB7A412"
 				title: "Ok"

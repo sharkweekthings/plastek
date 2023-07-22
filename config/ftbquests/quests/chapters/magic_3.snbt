@@ -610,7 +610,7 @@
 			description: ["You will be able to reach Level 60 through an assortment of Hellshelves, Seashelves, Sightshelves, and Rectifiers. "]
 			id: "0FFBFD0600D23353"
 			shape: "circle"
-			subtitle: "Level 30 to 60"
+			subtitle: "Apotheosis Enchanting: Level 30 to 60"
 			tasks: [{
 				id: "01DCC220954A1AA5"
 				title: "Ok"
