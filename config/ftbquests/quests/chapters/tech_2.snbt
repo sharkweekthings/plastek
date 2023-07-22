@@ -676,7 +676,7 @@
 				"528B58F7CC7CEA81"
 			]
 			description: [
-				"These Waterwheels act a bit differently than past versions. "
+				"These Waterwheels act a bit differently than the past version. "
 				""
 				"Waterwheels will always operate at their highest potential. Waterflow only needs to go one direction to achieve this. "
 				""
@@ -696,7 +696,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			subtitle: "Create 5.0.1 Waterwheels!"
+			subtitle: "Create 0.5.1 Waterwheels!"
 			tasks: [{
 				id: "3B5472D344CB1704"
 				item: "create:water_wheel"
