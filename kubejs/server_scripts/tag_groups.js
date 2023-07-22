@@ -457,8 +457,6 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
-  'minecraft:chest',
-  'minecraft:barrel',
   'simplehats:hatdisplay',
   'ae2:ender_dust',
   'thermal:quartz_dust',
