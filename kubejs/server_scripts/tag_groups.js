@@ -382,7 +382,9 @@ event.add('kubejs:age_1_item',
   ])
 
 event.add('kubejs:age_1_exception', 
-  [  
+  [
+  'minecraft:chest',
+  'minecraft:barrel',
   'quark:encased_pipe',
   'supplementaries:tater_in_a_jar',
   'quark:magnetized_block',
@@ -455,6 +457,8 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'minecraft:chest',
+  'minecraft:barrel',
   'simplehats:hatdisplay',
   'ae2:ender_dust',
   'thermal:quartz_dust',
