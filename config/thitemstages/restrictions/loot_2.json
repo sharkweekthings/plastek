@@ -1,0 +1,28 @@
+{
+  "Restriction Data": {
+    "stage": "loot_2",
+    "itemList": 
+    [
+      
+    ],
+
+    "tagList": 
+    [
+      "quark:revertable_chests",
+      "quark:revertable_trapped_chests"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

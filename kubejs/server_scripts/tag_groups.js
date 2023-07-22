@@ -1982,6 +1982,13 @@ event.add('kubejs:plastek_pancake',
   'pamhc2foodextended:peanutbutterbananapancakesitem'
   ])
 
+event.add('kubejs:loot_1', 
+  [
+  'minecraft:chest',
+  'minecraft:trapped_chest',
+  'minecraft:barrel'
+  ])
+
 //
 })
 //

@@ -277,12 +277,20 @@
 			dependencies: ["1673C2D215EA54FD"]
 			description: ["It's probably been quite the journey to get to this point. However, look at yourself!! You did it.  New storage is on the horizon.  Your body will thank you as you unload your items into your precious new containers, that will hopefully not get blown up by Creepers. "]
 			id: "7010308F4F836BAD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22A3543BEDC3AF2B"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "2992209DD6A62C67"
+					title: "Access to Vanilla Chests and Barrels"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "512A7B1EC9039FF7"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			subtitle: "New storage options open up after getting Treated Wood!"
 			tasks: [{

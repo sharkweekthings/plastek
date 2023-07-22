@@ -52,6 +52,16 @@ FTBQuestsEvents.customReward('3B93B7256E6AC495', event => {
   event.server.runCommandSilent(`tell @a Welcome to Age 7!`)
 })
 
+FTBQuestsEvents.customReward('2992209DD6A62C67', event => {
+  event.server.runCommandSilent(`thitemstages add ${event.player.username} loot_1`)
+  event.server.runCommandSilent(`tell @a You are now able to loot vanilla chests and barrels!`)
+})
+
+FTBQuestsEvents.customReward('055C949031C21BAE', event => {
+  event.server.runCommandSilent(`thitemstages add ${event.player.username} loot_2`)
+  event.server.runCommandSilent(`tell @a You are now able to loot Quark variant chests!`)
+})
+
 FTBQuestsEvents.customReward('04220A1E480F1E47', event => {
   event.server.runCommandSilent(`thitemstages add ${event.player.username} nether`)
   event.server.runCommandSilent(`tell @a You have gained access to the Nether!`)

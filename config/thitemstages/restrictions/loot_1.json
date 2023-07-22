@@ -1,0 +1,27 @@
+{
+  "Restriction Data": {
+    "stage": "loot_1",
+    "itemList": 
+    [
+      
+    ],
+
+    "tagList": 
+    [
+      "kubejs:loot_1"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}
