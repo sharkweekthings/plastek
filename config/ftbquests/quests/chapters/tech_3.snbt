@@ -367,12 +367,20 @@
 				"&l&eCheck the Tools section for a few Pneumatic Craft upgrades, tubes, etc.&r&r"
 			]
 			id: "3F3A305DB84B1A1E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2CA7C0A6690589C0"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "055C949031C21BAE"
+					title: "Access to Quark variant chests"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EB6AFE2E9D43529"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			subtitle: "Pressing down on the Iron Ingot"
 			tasks: [{
@@ -380,7 +388,7 @@
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			title: "Pressure pushing down on me"
+			title: "Pressure Pushing Down On Me"
 			x: -2.0d
 			y: 4.0d
 		}
