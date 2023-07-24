@@ -5,6 +5,8 @@
 
 2) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
 
+3) If you're experiencing issues with your session invalidating, install the mod [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth)
+
 ##
 ## Difficulty Adjustment
 
