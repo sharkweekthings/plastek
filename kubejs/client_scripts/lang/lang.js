@@ -77,6 +77,8 @@
   	rename('kubejs:ender_gate_starter_parts', "Ender Gate Starter Parts")
   	rename('kubejs:player_transmitter_starter_parts', "Player Transmitter Starter Parts")
   	rename('kubejs:goauld_crystal', "Goa'uld Crystal")
+  	rename('kubejs:nether_stone', "Netherstone")
+  	rename('kubejs:infused_nether_stone', "Infused Netherstone")
 
 // COMPACT MACHINES
   	rename('compactmachines:personal_shrinking_device', "Personal Compacting Device")

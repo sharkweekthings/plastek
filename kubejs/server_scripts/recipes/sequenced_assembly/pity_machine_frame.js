@@ -1,5 +1,5 @@
 ////
-// Pity Machine Frame Sequenced Assembly
+// pity machine frame sequenced assembly
 //// renik
 
 //

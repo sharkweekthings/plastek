@@ -1,5 +1,5 @@
 ////
-// Resonant Integral Components Sequenced Assembly
+// resonant integral components sequenced assembly
 //// renik
 
 //

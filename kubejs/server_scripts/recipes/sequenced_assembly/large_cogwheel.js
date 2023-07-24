@@ -1,5 +1,5 @@
 ////
-// Large Cogwheel Sequences Assembly
+// large cogwheelsequenced assembly
 //// renik
 
 //

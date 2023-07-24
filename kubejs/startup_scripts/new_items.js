@@ -53,7 +53,7 @@ StartupEvents.registry('item', e => {
 
 StartupEvents.registry('block', e => {
 
-// ONLY WORKS WITH PAXEL DIAMOND+ PAXEL?? >_<
+// NO IDEA WHY THIS ONLY WORKS WITH DIAMOND PAXEL+
   e.create('nether_stone').tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_diamond_tool')
   e.create('infused_nether_stone').tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_diamond_tool')
 

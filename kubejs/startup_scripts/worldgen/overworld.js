@@ -70,7 +70,7 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:in_mtn_emerald_ore_gen_ow'
     ore.biomes = '#kubejs:ow_mountain_gen'
     ore.addTarget('#forge:stone', 'minecraft:emerald_ore')
-    ore.count([3, 8])
+    ore.count([3, 12])
       .squared()
       .triangleHeight(
         anchors.absolute(124),
@@ -84,7 +84,7 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:in_mtn_diamond_ore_gen_ow'
     ore.biomes = '#kubejs:ow_mountain_gen'
     ore.addTarget('#forge:stone', 'minecraft:diamond_ore')
-    ore.count([3, 8])
+    ore.count([3, 12])
       .squared()
       .triangleHeight(
         anchors.absolute(116),

@@ -1,5 +1,5 @@
 ////
-// Cogwheel Sequences Assembly
+// fluid cell frame sequenced assembly
 //// renik
 
 //

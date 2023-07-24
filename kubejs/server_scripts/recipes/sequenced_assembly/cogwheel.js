@@ -1,5 +1,5 @@
 ////
-// Cogwheel Sequences Assembly
+// cogwheel sequenced assembly
 //// renik
 
 //
@@ -46,45 +46,3 @@ ServerEvents.recipes((event) => {
 //
 });
 //
-
-
-
-
-
-
-  // event.custom({
-  //   type: "create:sequenced_assembly",
-  //    ingredient: {
-  //     tag: "#minecraft:wooden_slabs",},
-  //    results: [{
-  //     item: "create:cogwheel",},],
-  //    loops: 1,
-
-  //   sequence: [{
-  //     type: "create:pressing",
-  //      ingredients: [{
-  //       item: "thermal:cured_rubber",},],
-  //      results: [{
-  //       item: "thermal:cured_rubber",},],
-  //     },
-
-  //     {
-  //     type: "create:deploying",
-  //      ingredients: [{
-  //       item: "thermal:cured_rubber",},[{
-  //       item: "thermal:cured_rubber",},],],
-  //      results: [{
-  //       item: "thermal:cured_rubber",},],
-  //     },
-
-  //     {
-  //     type: "create:pressing",
-  //      ingredients: [{
-  //       item: "thermal:cured_rubber",},],
-  //       results: [{
-  //       item: "thermal:cured_rubber",},],},],
-
-  //   transitionalItem: {
-  //     item: "thermal:cured_rubber",
-  //   },
-  // });

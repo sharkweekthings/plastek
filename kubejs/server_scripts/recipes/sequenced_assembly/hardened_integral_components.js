@@ -1,5 +1,5 @@
 ////
-// Electron Tube Sequenced Assembly
+// hardened integral components sequenced assembly
 //// renik
 
 //

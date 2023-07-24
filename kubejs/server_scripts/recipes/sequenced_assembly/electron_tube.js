@@ -1,5 +1,5 @@
 ////
-// Electron Tube Sequenced Assembly
+// electron tube sequenced assembly
 //// renik
 
 //

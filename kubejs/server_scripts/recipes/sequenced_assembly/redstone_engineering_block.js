@@ -1,5 +1,5 @@
 ////
-// Redstone Engineering Sequenced Assembly
+// redstone engineering block sequenced assembly
 //// renik
 
 //

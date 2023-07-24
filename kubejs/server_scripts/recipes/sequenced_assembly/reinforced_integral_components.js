@@ -1,5 +1,5 @@
 ////
-// Reinforced Integral Components Sequenced Assembly
+// reinforced integral components sequenced assembly
 //// renik
 
 //

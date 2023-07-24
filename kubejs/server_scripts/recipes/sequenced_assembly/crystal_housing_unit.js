@@ -1,5 +1,5 @@
 ////
-// Crystal Housing Unit Assembly
+// crystal housing unit sequenced assembly
 //// renik
 
 

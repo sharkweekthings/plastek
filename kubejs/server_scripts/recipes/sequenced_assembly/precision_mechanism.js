@@ -1,5 +1,5 @@
 ////
-// Precision Mechanism Sequenced Assembly
+// precision mechanism sequenced assembly
 //// renik
 
 //
