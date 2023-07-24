@@ -1,5 +1,5 @@
 ////
-// cancel nether portal spawn event via setting obsidian on fire.
+// disables nether portal spawn event via setting obsidian on fire.
 //// renik
 // Author: ʇʎouıplɐuop
 
