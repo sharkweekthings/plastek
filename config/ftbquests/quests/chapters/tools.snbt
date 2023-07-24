@@ -647,6 +647,36 @@
 			x: 10.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["4FFCDB35F97F22CC"]
+			description: ["A Calendar can be placed in an Item Frame, and placed on a wall. "]
+			id: "55FB38BB46129E89"
+			shape: "circle"
+			tasks: [{
+				id: "7BEB1C2D21148921"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55FB38BB46129E89"]
+			description: [
+				"You can right click to toggle the season on the sensor. "
+				""
+				"Using Redstone, you can connect a Redstone Lamp to each of your 4 sensors. With the Redstone active, the sensor will light up the lamp to let you know what season you're currently in."
+			]
+			id: "19123C2CF7D9B7AC"
+			shape: "circle"
+			tasks: [{
+				id: "52450ADC998BBA88"
+				item: "sereneseasons:season_sensor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
 	]
 	title: "Utility"
 }

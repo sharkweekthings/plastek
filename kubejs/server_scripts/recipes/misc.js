@@ -194,6 +194,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'simplehats:hatbag_summer'})
   event.remove({id: 'simplehats:hatbag_halloween'})
   event.remove({id: 'simplehats:hatbag_festive'})
+  event.remove({id: 'relics:researching_table'})
 
 
 //
@@ -206,6 +207,14 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Researching Table
+  event.shaped('relics:researching_table',
+    ['343','212','333'], {
+    1: 'immersiveengineering:craftingtable',
+    2: 'minecraft:gold_block',
+    3: 'minecraft:gold_ingot',
+    4: 'minecraft:red_carpet'}).id('relics:researching_table')
 
 // Common Hat Bag
   event.shaped('simplehats:hatbag_common',

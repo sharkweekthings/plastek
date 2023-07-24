@@ -1454,19 +1454,6 @@
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
-			id: "377F3EE30512E4D7"
-			shape: "circle"
-			subtitle: "For those seeking to be the very best"
-			tasks: [{
-				id: "261B19BE7D730A57"
-				item: "industrialforegoing:mob_imprisonment_tool"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["43F168BD03BFE53B"]
 			id: "03A2FC51DF0DF03E"
 			shape: "circle"
 			tasks: [{
@@ -1760,9 +1747,9 @@
 		}
 		{
 			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: ["Has inventory to charge up to 9 items!"]
 			id: "4B508EECB44BD1C8"
 			shape: "circle"
-			subtitle: "Capable of charging up to 9 items at once!"
 			tasks: [{
 				id: "626A1875FA1F64DD"
 				item: "thermal:charge_bench"

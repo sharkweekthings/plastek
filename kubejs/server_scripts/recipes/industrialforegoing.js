@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'industrialforegoing:conveyor'})
   event.remove({id: 'thermal:furnace_796507198'})
   event.remove({id: 'industrialforegoing:plastic'})
+  event.remove({id: 'industrialforegoing:mob_imprisonment_tool'})
 
 //
 })
@@ -44,6 +45,13 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Mob Imprisonment Tool
+  event.shaped('industrialforegoing:mob_imprisonment_tool',
+    ['121','232','121'], {
+    1: 'industrialforegoing:plastic',
+    2: 'pneumaticcraft:ingot_iron_compressed',
+	3: 'productivebees:bee_cage'}).id('industrialforegoing:mob_imprisonment_tool')
 
 // Fluid Extractor
   event.shaped('industrialforegoing:fluid_extractor',

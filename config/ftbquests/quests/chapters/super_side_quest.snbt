@@ -38,7 +38,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Age 2 - Side Quests"
+			title: "Age 2 - Extra"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -54,7 +54,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Age 4 - Side Quests"
+			title: "Age 4 - Extra"
 			x: -2.0d
 			y: 4.0d
 		}
@@ -70,7 +70,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Age 1 - Side Quests"
+			title: "Age 1 - Extra"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -271,7 +271,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Age 6 - Side Quests"
+			title: "Age 6 - Extra"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -464,7 +464,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Age 3 - Side Quests"
+			title: "Age 3 - Extra"
 			x: 2.0d
 			y: 4.0d
 		}

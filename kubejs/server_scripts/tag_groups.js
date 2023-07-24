@@ -681,7 +681,8 @@ event.add('kubejs:age_2_exception',
   ])
 
 event.add('kubejs:age_3_item', 
-  [  
+  [
+  'industrialforegoing:mob_imprisonment_tool',
   'pneumaticcraft:reinforced_chest',
   'apotheosis:seashelf',
   'apotheosis:hellshelf',
@@ -1201,6 +1202,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'industrialforegoing:mob_imprisonment_tool',
   'thermal:lead_plate',
   'ae2:ender_dust',
   'thermal:quartz_dust',

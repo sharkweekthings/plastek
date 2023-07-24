@@ -209,6 +209,8 @@
 				"The only exception to this is Sculk Ore from the Otherside. All Sculk Ore is at default Y level locations. "
 				""
 				"Each ore in the pack should be affected by Fortune up to +8, as well as Silk Touch."
+				""
+				"&bVein Mining&r is enabled through FTB Ultimine by holding &b`&r . It comes at the cost of &cconsuming a significant portion of food&r. "
 			]
 			icon: "minecraft:iron_ore"
 			id: "39009BD303B688BA"
@@ -217,7 +219,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Ore Generation"
+			title: "Ores"
 			x: -10.0d
 			y: -14.0d
 		}
@@ -280,7 +282,7 @@
 				""
 				"- Twilight Forest is a great adventure mod in the pack, with some required progression. "
 				""
-				"- The Bumblezone also has a few quests associated with it that let you adventure a little more than the others. "
+				"- The Bumblezone also has a few quests and advancements associated with it that let you adventure a little more than the others. "
 			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "22A3A38B9AA5A831"

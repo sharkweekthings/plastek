@@ -358,13 +358,13 @@
 				"This will be an important metal for this age. "
 				""
 				""
-				"&l&cNote: Pressure Chambers are not safe, and may cause explosions without the proper upgrades.&r&r  "
+				"&cNote: Pressure Chambers are not safe, and may cause explosions without the proper upgrades.&r  "
 				""
-				"&l&cDon't leave your system running unattended if you dont have Security Upgrades in it.&r&r  "
+				"&cDon't leave your system running unattended if you dont have Security Upgrades in it.&r  "
 				""
-				"&l&cIt's highly advisable to set a Redstone mode and disable the system while it's not in use.   If you leave the system running, you may come back to find your machine destroyed, and items missing.&r&r"
+				"&cIt's highly advisable to set a Redstone mode and disable the system while it's not in use.   If you leave the system running, you may come back to find your machine destroyed, and items missing.&r"
 				""
-				"&l&eCheck the Tools section for a few Pneumatic Craft upgrades, tubes, etc.&r&r"
+				"&eCheck the Tools section for a few Pneumatic Craft upgrades, tubes, etc.&r"
 			]
 			id: "3F3A305DB84B1A1E"
 			rewards: [
@@ -382,13 +382,12 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Pressing down on the Iron Ingot"
 			tasks: [{
 				id: "48C5ECBC59A694F0"
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			title: "Pressure Pushing Down On Me"
+			title: "Pressure Pushing Down On the Iron Ingot"
 			x: -2.0d
 			y: 4.0d
 		}

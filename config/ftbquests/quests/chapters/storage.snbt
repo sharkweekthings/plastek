@@ -24,13 +24,12 @@
 				item: "farmersdelight:basket"
 				type: "item"
 			}]
-			subtitle: "or both."
 			tasks: [{
 				id: "290156B447629C82"
 				item: "farmersdelight:basket"
 				type: "item"
 			}]
-			title: "Hate Me Now or Later"
+			title: "Baskets"
 			x: 0.0d
 			y: 0.0d
 		}
