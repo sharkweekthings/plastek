@@ -10,7 +10,13 @@
 	quests: [
 		{
 			dependencies: ["6C00F063FD2700AD"]
-			description: ["You are now Ant Man. You can shrink, or grow.  You can also make other things shrink and grow!"]
+			description: [
+				"You are now Ant Man. You can shrink, or grow.  You can also make other things shrink and grow!"
+				""
+				"You can use \"G\" to make yourself small, or grow depending on what you have the device set to. "
+				""
+				"Left clicking on a mob will affect it."
+			]
 			id: "25E211372C93DF2B"
 			shape: "circle"
 			tasks: [{
