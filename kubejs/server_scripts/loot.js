@@ -69,6 +69,8 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:large_cogwheel", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:cogwheel", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:crushed_raw_gold", "emendatusenigmatica:gold_crystal");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("quark:gravisand", "emendatusenigmatica:gold_crystal");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("ars_nouveau:warp_scroll", "emendatusenigmatica:gold_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:dirt", "emendatusenigmatica:osmium_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:oak_sapling", "emendatusenigmatica:osmium_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:rose_quartz", "emendatusenigmatica:osmium_crystal");
