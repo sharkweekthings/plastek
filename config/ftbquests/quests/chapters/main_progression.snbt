@@ -226,7 +226,6 @@
 				"The key objectives are:"
 				""
 				"- Craft Leather"
-				"- Craft an Iron Ingot"
 				"- Craft a Shaft"
 				"- Produce Green Powder"
 				"- Carve a Totem"
@@ -293,8 +292,8 @@
 			dependencies: [
 				"79705DCA6ADC0148"
 				"280C23FA611548B8"
-				"6BDAA8260D1272B1"
 				"6A3EF71F50C465DD"
+				"6BDAA8260D1272B1"
 				"6C1E83D3986A642A"
 				"3497470BDCF8A2F2"
 				"063D7CEC1B7AEE2D"
@@ -640,7 +639,9 @@
 			description: [
 				"Thanks for making it this far! "
 				""
-				"From here you'll need to finish up your rocket, get to Glacio, and find what you need to make Plastim, then you can go crazy making some Creative Mode items, and building whatever you want with your unlimited resources!"
+				"From here you'll need to finish up your rocket, get to Glacio, and find what you need to make Plastim. "
+				""
+				"You'll be able to go crazy making some Creative Mode items, and building whatever you want with your unlimited resources!"
 			]
 			id: "6BEB0462E77988BB"
 			rewards: [

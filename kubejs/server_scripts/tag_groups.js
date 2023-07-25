@@ -383,6 +383,7 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'silentgear:azure_silver_dust',
   'minecraft:chest',
   'minecraft:barrel',
   'quark:encased_pipe',
@@ -457,6 +458,7 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'silentgear:azure_silver_dust',
   'simplehats:hatdisplay',
   'ae2:ender_dust',
   'thermal:quartz_dust',

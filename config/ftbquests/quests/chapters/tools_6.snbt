@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["53FC9AD3F4DD2B2B"]
@@ -37,7 +37,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6AB3CD334148DB52"]
@@ -744,7 +744,7 @@
 			]
 			title: "Absorption Augment"
 			x: -5.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -779,7 +779,7 @@
 			]
 			title: "Health Boost Augment"
 			x: -4.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -809,7 +809,7 @@
 			]
 			title: "Pathing AOE Augment"
 			x: -3.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -821,7 +821,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -833,7 +833,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -858,7 +858,7 @@
 			]
 			title: "Jump Boost Augment"
 			x: -2.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -883,7 +883,7 @@
 			]
 			title: "Speed Augment"
 			x: -1.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -913,7 +913,7 @@
 			]
 			title: "Mining AOE Augment"
 			x: -5.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -943,7 +943,7 @@
 			]
 			title: "Tilling AOE Augment"
 			x: -4.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -973,7 +973,7 @@
 			]
 			title: "Pathing AOE Augment"
 			x: -3.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -985,7 +985,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -997,7 +997,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1022,7 +1022,7 @@
 			]
 			title: "Strength Augment"
 			x: -2.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1034,7 +1034,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1059,7 +1059,7 @@
 			]
 			title: "Attack AOE Augment"
 			x: -1.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1071,7 +1071,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1083,7 +1083,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1095,7 +1095,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
@@ -1107,7 +1107,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6477D7ABD5D11941"]
@@ -1124,7 +1124,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1136,7 +1136,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1148,7 +1148,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1160,7 +1160,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1172,7 +1172,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1184,7 +1184,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1196,7 +1196,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1208,7 +1208,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1220,7 +1220,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1232,7 +1232,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C00F063FD2700AD"]
@@ -1244,7 +1244,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1A86D1454D7A0BF2"]
@@ -1262,7 +1262,181 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2839B98FEEEB68EB"
+				"38296FF3FF904850"
+			]
+			id: "382E54D2C9A6164D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5F31EA36B43A8348"
+					item: "mysticalagriculture:inferium_farmland"
+					type: "item"
+				}
+				{
+					id: "15A25A464B64882A"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+				{
+					id: "663E1BDAD0B0F234"
+					item: "mysticalagriculture:tertium_farmland"
+					type: "item"
+				}
+				{
+					id: "0CBE898B76D0FA5E"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+				{
+					id: "1F7D492E4C552D19"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+				{
+					id: "3584ACD1EEAC1557"
+					item: "mysticalagradditions:insanium_farmland"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2839B98FEEEB68EB"
+				"38296FF3FF904850"
+			]
+			id: "5666D153E4BE10D4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D2EBD4D215E7162"
+					item: "mysticalagriculture:inferium_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "7467CBC3B0E2AE53"
+					item: "mysticalagriculture:prudentium_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "4A7308277C1F8A96"
+					item: "mysticalagriculture:tertium_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "2A6B6EC00202D01D"
+					item: "mysticalagriculture:imperium_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "15B12EB42C3D8EF0"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2839B98FEEEB68EB"
+				"38296FF3FF904850"
+			]
+			description: ["If you have a lot of seeds, send them through a Seed Reprocessor!"]
+			id: "6B9845B1EFBBDEDC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "140D8A183B6E9541"
+					item: "mysticalagriculture:basic_reprocessor"
+					type: "item"
+				}
+				{
+					id: "5FA259A1A01D2FC1"
+					item: "mysticalagriculture:inferium_reprocessor"
+					type: "item"
+				}
+				{
+					id: "735B190CE7FCB742"
+					item: "mysticalagriculture:prudentium_reprocessor"
+					type: "item"
+				}
+				{
+					id: "288550B3A423DB8D"
+					item: "mysticalagriculture:tertium_reprocessor"
+					type: "item"
+				}
+				{
+					id: "18AE6C50687A9072"
+					item: "mysticalagriculture:imperium_reprocessor"
+					type: "item"
+				}
+				{
+					id: "44E8F8208FB8A857"
+					item: "mysticalagriculture:supremium_reprocessor"
+					type: "item"
+				}
+				{
+					id: "1283E9244282704B"
+					item: "mysticalagriculture:awakened_supremium_reprocessor"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2839B98FEEEB68EB"
+				"38296FF3FF904850"
+			]
+			description: [
+				"Whether you use these for smelting, or decor is up to you."
+				""
+				"an upgraded Mekanism Smelting Factory is another choice."
+			]
+			id: "287530EA8CDC3766"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1A039D8A35630224"
+					item: "mysticalagriculture:inferium_furnace"
+					type: "item"
+				}
+				{
+					id: "20672ACF59C3DA72"
+					item: "mysticalagriculture:prudentium_furnace"
+					type: "item"
+				}
+				{
+					id: "0C8F5456B4067F4D"
+					item: "mysticalagriculture:tertium_furnace"
+					type: "item"
+				}
+				{
+					id: "3FE4057E37EDFB21"
+					item: "mysticalagriculture:imperium_furnace"
+					type: "item"
+				}
+				{
+					id: "276248774B4E4385"
+					item: "mysticalagriculture:supremium_furnace"
+					type: "item"
+				}
+				{
+					id: "2083AE2C49171221"
+					item: "mysticalagriculture:awakened_supremium_furnace"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
 		}
 	]
 	title: "Utility"

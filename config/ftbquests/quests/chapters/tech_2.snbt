@@ -275,7 +275,13 @@
 		}
 		{
 			dependencies: ["1673C2D215EA54FD"]
-			description: ["It's probably been quite the journey to get to this point. However, look at yourself!! You did it.  New storage is on the horizon.  Your body will thank you as you unload your items into your precious new containers, that will hopefully not get blown up by Creepers. "]
+			description: [
+				"It's probably already been quite the journey to get to this point. "
+				""
+				"However, look at yourself!! You did it.  New storage is on the horizon.  "
+				""
+				"Your body will thank you as you unload your items into your precious new containers, that will hopefully not get blown up by Creepers. "
+			]
 			id: "7010308F4F836BAD"
 			rewards: [
 				{
@@ -305,6 +311,7 @@
 				title: "Any #forge:treated_wood"
 				type: "item"
 			}]
+			title: "Treated Wood"
 			x: 4.5d
 			y: 6.5d
 		}

@@ -1380,7 +1380,7 @@
 		}
 		{
 			dependencies: ["6C83889A2AB0A579"]
-			description: ["Like the Crystal Housing Unit that you made earlier, the process for this is the same except you'll be Deploying the ZPM into the Damaged Unit."]
+			description: ["The last step is to charge this up with your Powah Energizing setup. "]
 			id: "26CFA7E3DAE92864"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1432,6 +1432,7 @@
 		}
 		{
 			dependencies: ["4A117A32B18470FE"]
+			description: ["Like the Crystal Housing Unit that you made earlier, the process for this is the same except you'll be Deploying the ZPM into the Damaged Unit."]
 			id: "6C83889A2AB0A579"
 			tasks: [{
 				id: "70036C357E733789"

@@ -797,6 +797,26 @@ ServerEvents.recipes(event => {
   ]
 }).id('industrialforegoing:thermal_press_plastic')
 
+// Plasteel Gear
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/plasteel",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_gear_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:plasteel_gear",
+      "count": 1
+    }
+  ]
+}).id('emendatusenigmatica:thermal_press_plasteel_rod')
+
 // Replace Thermal Machine Frame w/ Industrial Foregoing
 event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','industrialforegoing:machine_frame_advanced')
 
