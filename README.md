@@ -67,6 +67,9 @@
 ##
 ## Known Issues
 
+ - On World Creation - the server tends to hang for an uncomfortably long time stating "Timed out waiting for world statistics". Just keep waiting and the world should be created. 
+ - On world creation - Some mod is causing "Empty heigh range: [6 above bottom--1 absolute]". I gave up trying to figure out what was causing it.
+ 
  - Textures are missing for several Nat Prog pebbles. Reported to Dev.
  - While you are flying at high speeds (sprinting) -- you may encounter a rare-ish issue where server a single tick takes 40 seconds. This has been reported to several mod devs. This issue doesnt tend to occur when you are running on the ground.
  - There may be some instance references of "Akashic Tome" in quests that should be changed to "Eccentric Tome". I don't recall which quests referenced the tome, so this will be updated on an 'as found' basis.
