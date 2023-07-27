@@ -37,9 +37,8 @@
       "kubejs:age_1_item"
     ],
     "exceptionList": [
-      {
-        "tag": "kubejs:age_1_exception"
-      }
+      {"tag": "kubejs:age_1_exception"},
+      {"tag": "minecraft:doors"}
     ],
     "containerList": [],
     "dimensionList": []
