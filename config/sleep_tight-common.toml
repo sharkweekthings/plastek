@@ -97,7 +97,7 @@
 	apply_to_hammock = true
 	apply_to_night_bags = true
 	#Requires player to have full hunger bar before being able to sleep
-	require_full_hunger = true
+	require_full_hunger = false
 	#Xp cost for sleeping. Does not affect peaceful
 	#Range: 0 ~ 200
 	xp_cost = 0
