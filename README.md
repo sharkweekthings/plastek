@@ -3,7 +3,7 @@
 
 1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
 
-2) Unable to do much of anything because everything says "You won't be able to use thijs block!"? Click through the "Read Me" Chapter quests, and accept the reward for "Start Age 1" under "Main Progression" > "Age 1". From there you will start your journey in "Age 1" > "Utility"
+2) Unable to do much of anything because everything says "You won't be able to use this block!"? Click through the "Read Me" Chapter quests, and accept the reward for "Start Age 1" under "Main Progression" > "Age 1". From there you will start your journey in "Age 1" > "Utility"
 
 3) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
 
