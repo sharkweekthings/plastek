@@ -3,9 +3,11 @@
 
 1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
 
-2) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
+2) Unable to do much of anything? Click through the "Read Me" Chapter quests, and accept the reward for "Start Age 1" under "Main Progression" > "Age 1". From there you will start your journey in "Age 1" > "Utility"
 
-3) If you're experiencing issues with your session invalidating, install the mod [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth). This will let you authorize your client at the Server Selection screen, so you hopefully won't need to reload the game.
+3) The early game is going to be a bit rough. Once you get Healing Poultice, and a Healing Staff w/ some Potency on it though it will become easier to manage your HP.
+
+4) If you're experiencing issues with your session invalidating, install the mod [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth). This will let you authorize your client at the Server Selection screen, so you hopefully won't need to reload the game.
 
 ##
 ## Difficulty Adjustment
