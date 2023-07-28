@@ -358,16 +358,6 @@
 					item: "minecraft:gold_block"
 					type: "item"
 				}
-				{
-					id: "43B7958126948680"
-					item: "totemic:buffalo_hide"
-					type: "item"
-				}
-				{
-					id: "6B74C1E8478757EB"
-					item: "minecraft:leather"
-					type: "item"
-				}
 			]
 			title: "This Stuff Is So Heavy"
 			x: 8.0d
