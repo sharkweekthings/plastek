@@ -622,6 +622,23 @@ event.custom({
   ]
 }).id('create:milling/gold_dust')
 
+// Iron Dust
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "emendatusenigmatica:iron_dust"
+    }
+  ]
+}).id('create:milling/iron_dust')
+
 event.custom({
   "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:sterling_silver_ingot","count": 1}],
   "results": [{"item": "emendatusenigmatica:sterling_silver_plate"}]

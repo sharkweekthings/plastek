@@ -176,6 +176,7 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'create:cogwheel',
   'theurgy:divination_rod_t1',
   'create:andesite_alloy_block',
   'create:sweet_roll',
@@ -631,6 +632,7 @@ event.add('kubejs:age_2_item',
 
 event.add('kubejs:age_2_exception', 
   [
+  'create:cogwheel',
   'silentgear:salvager',
   'silentgear:guide_book',
   'occultism:dictionary_of_spirits',
