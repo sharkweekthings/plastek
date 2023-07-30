@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
   event.shaped('botania:apothecary_default', 
     ['424','323','111'], {
     1: '#forge:treated_wood_slab', 
-    2: 'compressium:stone_2',
+    2: 'compressium:stone_1',
     3: '#botania:mystical_flowers',
     4: 'minecraft:stone_slab'}).id('botania:apothecary_default')
 

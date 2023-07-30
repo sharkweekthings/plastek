@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
   event.shaped('silentgear:metal_alloyer',
     ['242','232','212'], {
     1: 'minecraft:furnace', 
-    2: 'compressium:andesite_2',
+    2: 'compressium:andesite_1',
     3: 'minecraft:copper_block',
     4: 'minecraft:gold_block'}).id('silentgear:metal_alloyer')
 

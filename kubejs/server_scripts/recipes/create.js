@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
     [' 1 ',' 2 ',' 3 '], {
     1: 'emendatusenigmatica:sterling_silver_rod',
     2: 'create:andesite_casing',
-    3: 'compressium:copper_3'}).id('create:crafts/mechanical_press')
+    3: 'compressium:copper_1'}).id('create:crafts/mechanical_press')
 
 // Whisk
   event.shaped('create:whisk', 
@@ -236,7 +236,7 @@ ServerEvents.recipes(event => {
     ['111','121','131'], {
     1: 'create:andesite_alloy', 
     2: '#forge:stripped_logs',
-    3: 'compressium:andesite_2'}).id('create:crafts/andesite_casing')
+    3: 'compressium:andesite_1'}).id('create:crafts/andesite_casing')
 
 // Train Casing
   event.shaped('create:railway_casing', 
@@ -260,7 +260,7 @@ ServerEvents.recipes(event => {
   event.shaped('create:hand_crank', 
     ['   ','232','  1'], {
     1: 'create:andesite_alloy', 
-    2: 'compressium:stone_2',
+    2: 'compressium:stone_1',
     3: 'emendatusenigmatica:sterling_silver_rod'}).id('create:crafts/hand_crank')
 
 // Mechanical Mixer
@@ -282,7 +282,7 @@ ServerEvents.recipes(event => {
 // Basin
   event.shaped('create:basin', 
     ['2 2','1 1','111'], {
-    1: 'compressium:stone_2', 
+    1: 'compressium:stone_1', 
     2: 'create:andesite_alloy'}).id('create:crafts/basin')
 
 // Wrench

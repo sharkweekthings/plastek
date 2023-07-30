@@ -341,7 +341,7 @@ ServerEvents.recipes(event => {
 // Compact Machine Wall
   event.shaped('4x compactmachines:wall',
     ['212','121','212'], {
-    1: 'compressium:stone_3',
+    1: 'compressium:stone_2',
     2: 'minecraft:polished_deepslate'}).id('compactmachines:misc/wall_4x')
 
 // Compact Machines Tiny
@@ -427,25 +427,25 @@ ServerEvents.recipes(event => {
   event.shaped('constructionwand:stone_wand',
     ['  2',' 1 ','1  '], {
     1: 'immersiveengineering:stick_treated',
-    2: 'compressium:stone_5'}).id('constructionwand:misc/stone_wand')
+    2: 'compressium:stone_2'}).id('constructionwand:misc/stone_wand')
 
 // Iron Wand
   event.shaped('constructionwand:iron_wand',
     ['  2',' 1 ','1  '], {
     1: 'immersiveengineering:stick_treated',
-    2: 'compressium:iron_5'}).id('constructionwand:misc/iron_wand')
+    2: 'compressium:iron_2'}).id('constructionwand:misc/iron_wand')
 
 // Diamond Wand
   event.shaped('constructionwand:diamond_wand',
     ['  2',' 1 ','1  '], {
     1: 'immersiveengineering:stick_treated',
-    2: 'compressium:diamond_5'}).id('constructionwand:misc/diamond_wand')
+    2: 'compressium:diamond_2'}).id('constructionwand:misc/diamond_wand')
 
 // Infinity Wand
   event.shaped('constructionwand:infinity_wand',
     ['  2',' 1 ','1  '], {
     1: 'immersiveengineering:stick_treated',
-    2: 'compressium:netherite_5'}).id('constructionwand:misc/infinity_wand')
+    2: 'compressium:netherite_2'}).id('constructionwand:misc/infinity_wand')
 
 // Ender Chest
   event.shaped('enderstorage:ender_chest',
@@ -593,18 +593,20 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Mortar
   event.shaped('rootsclassic:mortar',
-    ['1 1','1 1',' 1 '], {
-    1: 'compressium:stone_2'}).id('rootsclassic:misc/mortar')
+    ['2 2','1 1',' 1 '], {
+    1: 'compressium:stone_1',
+    2: 'minecraft:stone'}).id('rootsclassic:misc/mortar')
 
 // Pestle
   event.shaped('rootsclassic:pestle',
-    ['  1','11 ','11 '], {
-    1: 'compressium:diorite_1'}).id('rootsclassic:misc/pestle')
+    ['  1','11 ','22 '], {
+    1: 'compressium:diorite_1',
+    2: 'minecraft:diorite'}).id('rootsclassic:misc/pestle')
 
 // Imbuer
   event.shaped('rootsclassic:imbuer',
     ['212','131','212'], {
-    1: 'compressium:stone_2',
+    1: 'compressium:stone_1',
     2: 'emendatusenigmatica:gold_rod',
     3: 'rootsclassic:verdant_sprig'}).id('rootsclassic:misc/imbuer')
 
@@ -1079,7 +1081,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 // Explorers Compass
   event.shaped('explorerscompass:explorerscompass', 
     ['212','131','212'], {
-    1: 'compressium:stone_2',
+    1: 'compressium:stone_1',
     2: 'minecraft:bone_meal',
     3: 'minecraft:compass'}).id('explorerscompass:misc/explorerscompass')
 

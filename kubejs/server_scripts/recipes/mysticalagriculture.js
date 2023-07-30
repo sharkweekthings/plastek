@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
     ['4 4','242','131'], {
     1: 'emendatusenigmatica:voidmetal_plate',
     2: 'emendatusenigmatica:gold_rod',
-    3: 'compressium:stone_3',
+    3: 'compressium:stone_1',
     4: 'emendatusenigmatica:gold_plate'}).id('mysticalagriculture:infusion_altar')
 
 // Infusion Pedestal
@@ -115,14 +115,14 @@ ServerEvents.recipes(event => {
     ['232',' 3 ',' 1 '], {
     1: 'emendatusenigmatica:voidmetal_plate',
     2: 'emendatusenigmatica:gold_plate',
-    3: 'compressium:stone_3'}).id('mysticalagriculture:infusion_pedestal')
+    3: 'compressium:stone_1'}).id('mysticalagriculture:infusion_pedestal')
 
 // Awakening Altar
   event.shaped('mysticalagriculture:awakening_altar',
     ['444',' 3 ','212'], {
     1: 'mysticalagriculture:infusion_altar',
     2: 'mysticalagriculture:soulstone',
-    3: 'compressium:redsand_3',
+    3: 'compressium:redsand_1',
     4: 'emendatusenigmatica:signalum_plate'}).id('mysticalagriculture:awakening_altar')
 
 // Infusion Pedestal
@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
     ['434',' 1 ',' 2 '], {
     1: 'mysticalagriculture:infusion_pedestal',
     2: 'mysticalagriculture:soulstone',
-    3: 'compressium:redsand_3',
+    3: 'compressium:redsand_1',
     4: 'emendatusenigmatica:signalum_plate'}).id('mysticalagriculture:awakening_pedestal')
 
 // Essence Vessel

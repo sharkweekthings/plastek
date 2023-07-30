@@ -75,8 +75,8 @@ ServerEvents.recipes(event => {
 // Furnace     
   event.shaped('minecraft:furnace', 
     ['111','121','111'], {
-    1: 'compressium:cobblestone_2',
-    2: 'compressium:coal_2'}).id('minecraft:furnace')
+    1: 'compressium:cobblestone_1',
+    2: 'minecraft:coal_block'}).id('minecraft:furnace')
    
 // Shears   
   event.shaped('minecraft:shears', 
@@ -133,13 +133,13 @@ ServerEvents.recipes(event => {
 // Dispenser  
   event.shaped('minecraft:dispenser', 
     ['111','121','111'], {
-    1: 'compressium:stone_2',
+    1: 'compressium:cobblestone_1',
     2: 'minecraft:dropper'}).id('minecraft:dispenser')
     
 // Dropper  
   event.shaped('minecraft:dropper', 
     ['111','121','111'], {
-    1: 'compressium:stone_2',
+    1: 'compressium:cobblestone_1',
     2: 'woodenhopper:wooden_hopper'}).id('minecraft:dropper')
 
 // Green Stained Glass
