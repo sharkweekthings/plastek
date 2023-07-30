@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
     ['111','323','111'], {
     1: '#botania:dreamwood_logs', 
     2: '#botania:petals', 
-    3: 'botania:elementium_ingot'}).id('botania:elven_spreader')
+    3: 'botania:terrasteel_ingot'}).id('botania:elven_spreader')
 
 // Manasteel Helmet
   event.shaped('botania:manasteel_helmet', 

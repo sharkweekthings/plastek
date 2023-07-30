@@ -16,6 +16,7 @@
 	quests: [
 		{
 			dependencies: ["0240FDF5F774DEEE"]
+			description: ["It must also be made using only Iron Ingots."]
 			id: "4C087A182A204212"
 			subtitle: "This set is required to progress!"
 			tasks: [{
@@ -89,6 +90,7 @@
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
+			description: ["It must also be made using only Iron Ingots."]
 			id: "031ABE2873108E7F"
 			subtitle: "This set is required to progress!"
 			tasks: [{
@@ -162,6 +164,7 @@
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
+			description: ["It must also be made using only Iron Ingots."]
 			id: "4AF3147FF1707118"
 			subtitle: "This set is required to progress!"
 			tasks: [{
@@ -235,6 +238,7 @@
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
+			description: ["It must also be made using only Iron Ingots."]
 			id: "7F24D2182FD0F70F"
 			subtitle: "This set is required to progress!"
 			tasks: [{

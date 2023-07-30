@@ -73,6 +73,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'natprog:crafting/saws/flint_saw'})
   event.remove({id: 'powah:crafting/reactor_starter'})
   event.remove({output: 'quark:iron_rod'})
+  event.remove({id: 'quark:tweaks/crafting/utility/misc/dispenser_bow'})
+  event.remove({id: 'quark:tweaks/crafting/utility/misc/dispenser_no_bow'})
   event.remove({id: 'rangedpumps:pump'})
   event.remove({id: 'rftoolsbase:machine_frame'})
   event.remove({output: 'rootsclassic:bark_knife'})

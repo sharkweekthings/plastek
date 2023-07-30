@@ -247,7 +247,6 @@
 		}
 		{
 			dependencies: ["4E8702770B8B8257"]
-			description: ["Before placing down the Agglomeration Plate -- the pattern should look like this:"]
 			id: "001F3A1A3713FEEC"
 			rewards: [
 				{
@@ -332,7 +331,11 @@
 				"64C32E705C1B68A1"
 				"28718EEC53DC6BDA"
 			]
-			description: ["We'll need just a little bit of Terresteel right now, for progression to construct the Alfheim Portal."]
+			description: [
+				"We'll need just a little bit of Terresteel for now in order to construct the Alfheim Portal. "
+				""
+				"You may want to look into faster mana generation. There is an example of a better Mana generator to the left called \"More Mana\"."
+			]
 			id: "3497470BDCF8A2F2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -765,6 +768,18 @@
 			]
 			x: 1.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "29E8CFD256990104"
+			shape: "circle"
+			tasks: [{
+				id: "372709AF1C52ABC2"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
 		}
 	]
 	title: "Magic"
