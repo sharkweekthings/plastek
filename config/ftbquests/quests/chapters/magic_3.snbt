@@ -248,34 +248,6 @@
 		{
 			dependencies: ["4E8702770B8B8257"]
 			id: "001F3A1A3713FEEC"
-			rewards: [
-				{
-					id: "1644132F13B18FA3"
-					item: "botania:rune_earth"
-					type: "item"
-				}
-				{
-					id: "71660603DFF999D6"
-					item: "botania:rune_water"
-					type: "item"
-				}
-				{
-					id: "743DBACFCE66D8FC"
-					item: "botania:rune_mana"
-					type: "item"
-				}
-				{
-					id: "22DFD7930ABEF73A"
-					item: "botania:rune_fire"
-					type: "item"
-				}
-				{
-					id: "1C53FDF81E19736F"
-					item: "botania:rune_air"
-					type: "item"
-				}
-			]
-			subtitle: "What Rune Crafting?"
 			tasks: [
 				{
 					count: 4L
@@ -334,7 +306,7 @@
 			description: [
 				"We'll need just a little bit of Terresteel for now in order to construct the Alfheim Portal. "
 				""
-				"You may want to look into faster mana generation. There is an example of a better Mana generator to the left called \"More Mana\"."
+				"After you get the portal open, you'll be able to significantly improve your Mana regeneration."
 			]
 			id: "3497470BDCF8A2F2"
 			rewards: [{
@@ -771,6 +743,11 @@
 		}
 		{
 			dependencies: ["771AE6F3C0909CD0"]
+			description: [
+				"A Runic Altar is the intended way to make Runes. "
+				""
+				"The Market Person has a good stockpile of various Runes, but they aren't very cheap. "
+			]
 			id: "29E8CFD256990104"
 			shape: "circle"
 			tasks: [{

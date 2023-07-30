@@ -37,6 +37,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botania:manasteel_chestplate'})
   event.remove({id: 'botania:manasteel_leggings'})
   event.remove({id: 'botania:manasteel_boots'})
+  event.remove({id: 'botania:terra_plate'})
   event.remove({id: 'botania:mana_infusion/rotten_flesh_to_leather'})
   
 //
@@ -136,6 +137,14 @@ ServerEvents.recipes(event => {
     ['   ','2 2','212'], {
     1: 'botania:manaweave_boots', 
     2: 'botania:manasteel_ingot'}).id('botania:manasteel_boots')
+
+// Terra Plate
+  event.shaped('botania:terra_plate', 
+    ['111','424','333'], {
+    1: 'minecraft:lapis_block', 
+    2: 'botania:manasteel_block',
+    3: 'supplementaries:lapis_bricks_slab',
+    4: 'rootsclassic:growth_powder'}).id('botania:terra_plate')
 
 //    
 })
