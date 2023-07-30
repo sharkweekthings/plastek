@@ -588,23 +588,6 @@ event.custom({
   ]
 }).id('create:milling/cinnabar_dust')
 
-// Quartz Dust
-  event.custom({
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "minecraft:quartz"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "count": 1,
-      "item": "emendatusenigmatica:quartz_dust"
-    }
-  ]
-}).id('create:milling/quartz_dust')
-
 // Gold Dust
   event.custom({
   "type": "create:milling",

@@ -97,7 +97,7 @@
 				{
 					count: 2L
 					id: "7C024BE8B929E022"
-					item: "compressium:stone_2"
+					item: "compressium:stone_1"
 					type: "item"
 				}
 				{
@@ -245,6 +245,7 @@
 				""
 				"It's worth doing all of them at least once, some may need many exchanges."
 			]
+			icon: "occultism:spirit_fire"
 			id: "596C93F25C178797"
 			rewards: [{
 				id: "559FC84885CE7156"
@@ -259,9 +260,9 @@
 			}]
 			subtitle: "Sorry, we don't."
 			tasks: [{
-				id: "5B18A8A601731DAC"
-				item: "occultism:spirit_fire"
-				type: "item"
+				id: "368EADB1817CB8FD"
+				title: "ok"
+				type: "checkmark"
 			}]
 			title: "When Do We Meet Ichigo?"
 			x: -3.5d
