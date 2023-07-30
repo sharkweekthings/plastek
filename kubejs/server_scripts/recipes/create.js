@@ -622,6 +622,11 @@ event.custom({
   ]
 }).id('create:milling/gold_dust')
 
+event.custom({
+  "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:sterling_silver_ingot","count": 1}],
+  "results": [{"item": "emendatusenigmatica:sterling_silver_plate"}]
+  }).id('create:pressing/sterling_silver_plate')
+
 //    
 })
 //

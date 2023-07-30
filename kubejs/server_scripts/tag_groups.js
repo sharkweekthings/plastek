@@ -1992,6 +1992,8 @@ event.add('kubejs:loot_1',
   'immersiveengineering:crate'
   ])
 
+event.remove('twilightforest:portal/activator', 'minecraft:diamond')
+
 //
 })
 //

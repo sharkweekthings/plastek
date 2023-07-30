@@ -815,7 +815,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ]
-}).id('emendatusenigmatica:thermal_press_plasteel_rod')
+}).id('emendatusenigmatica:thermal_press_plasteel_gear')
 
 // Replace Thermal Machine Frame w/ Industrial Foregoing
 event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','industrialforegoing:machine_frame_advanced')
