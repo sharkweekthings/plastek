@@ -312,11 +312,25 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:in_deepslate_diamond_ore_gen_ow'
     ore.biomes = '#kubejs:ow_gen'
     ore.addTarget('minecraft:deepslate', 'minecraft:diamond_ore')
-    ore.count([2, 6])
+    ore.count([3, 11])
       .squared()
       .triangleHeight(
         anchors.absolute(-64),
         anchors.absolute(-36)
+      )
+    ore.size = 3
+  })
+
+  // Deepslate Diamond
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_deepslate_ds_diamond_ore_gen_ow'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('minecraft:deepslate', 'minecraft:deepslate_diamond_ore')
+    ore.count([1, 5])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(-64),
+        anchors.absolute(-40)
       )
     ore.size = 3
   })

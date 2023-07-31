@@ -323,6 +323,18 @@ ServerEvents.recipes(event => {
           "results": [{"item": "angelring:diamond_ring"}]
   }).id('angelring:pressure_chamber_diamond_ring')
 
+// Growth Powder
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {"item": "rootsclassic:verdant_sprig",},
+        {"item": "rootsclassic:verdant_sprig",},
+        {"item": "minecraft:wheat_seeds",},
+        {"item": "minecraft:wheat_seeds",}],
+          "pressure": 2.5, 
+          "results": [{"item": "rootsclassic:growth_powder"}]
+  }).id('rootsclassic:growth_powder_pc')
+
 // Coal to Diamond
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 

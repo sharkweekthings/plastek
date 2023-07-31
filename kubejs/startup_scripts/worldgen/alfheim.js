@@ -237,6 +237,20 @@ event.addOre(ore => {
     ore.size = 4
   })
 
+  // Diamond
+  event.addOre(ore => {
+    ore.id = 'kubejs:ds_diamond_ore_gen_ah'
+    ore.biomes = '#kubejs:alfheim_gen_1'
+    ore.addTarget('botania:livingrock', 'minecraft:deepslate_diamond_ore')
+    ore.count([3, 15])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(18),
+        anchors.absolute(58)
+      )
+    ore.size = 5
+  }) 
+
 //  
 })
 //  
