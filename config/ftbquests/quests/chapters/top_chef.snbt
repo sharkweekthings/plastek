@@ -19,6 +19,7 @@
 			}]
 			shape: "circle"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "234FB05E364B8F6C"
 				item: {
@@ -47,6 +48,7 @@
 			shape: "circle"
 			subtitle: "No wheezing the juice!"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "324C761AF1B4B9C6"
 				item: {
@@ -74,6 +76,7 @@
 			}]
 			shape: "circle"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "58C550F17A744AF1"
 				item: {
@@ -102,6 +105,7 @@
 			shape: "circle"
 			subtitle: "Sweet cherry"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "2B0B82869734964D"
 				item: {
@@ -130,6 +134,7 @@
 			shape: "circle"
 			subtitle: "I loaf this sandwich"
 			tasks: [{
+				consume_items: true
 				count: 300L
 				id: "3E26A88A96183975"
 				item: {
@@ -158,6 +163,7 @@
 			shape: "circle"
 			subtitle: "You're toast!"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "4323B3DB6E0A772B"
 				item: {
@@ -187,6 +193,7 @@
 			shape: "circle"
 			subtitle: "Anyone else like Noosa?"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "2601051B8BF97461"
 				item: {
@@ -220,6 +227,7 @@
 			shape: "circle"
 			subtitle: "You've seen the show, now you're on the show! "
 			tasks: [{
+				consume_items: true
 				count: 200L
 				id: "0FAFAA7CFD19D26C"
 				item: {
@@ -248,6 +256,7 @@
 			shape: "circle"
 			subtitle: "You still can't cook for nothing. It's raw!!"
 			tasks: [{
+				consume_items: true
 				count: 200L
 				id: "2A786751B62DAE3B"
 				item: {
@@ -276,6 +285,7 @@
 			shape: "circle"
 			subtitle: "Chicken Noodle for the soul"
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "3053309108EB6E35"
 				item: {
@@ -304,6 +314,7 @@
 			shape: "circle"
 			subtitle: "RIP Josta"
 			tasks: [{
+				consume_items: true
 				count: 300L
 				id: "7AF91425A8CC387F"
 				item: {
@@ -332,6 +343,7 @@
 			shape: "circle"
 			subtitle: "Colder than a Blizz on a hot Summer day!"
 			tasks: [{
+				consume_items: true
 				count: 300L
 				id: "7A4B3A8CC9963EAE"
 				item: {
@@ -360,6 +372,7 @@
 			shape: "circle"
 			subtitle: "That's a whole lot of cake."
 			tasks: [{
+				consume_items: true
 				count: 300L
 				id: "29EA81E8C317E6E3"
 				item: {
@@ -389,12 +402,14 @@
 			shape: "circle"
 			subtitle: "Do you prefer Pancakes or Waffles?"
 			tasks: [{
+				consume_items: true
+				count: 300L
 				id: "40157648FCC1455D"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "kubejs:plastek_iron_chef"
+						value: "kubejs:plastek_pancake"
 					}
 				}
 				title: "Any #kubejs:plastek_iron_chef"
@@ -415,6 +430,7 @@
 			shape: "circle"
 			subtitle: "So Gordon Ramsay finally gave you a positive comment on your TikTok, congrats!"
 			tasks: [{
+				consume_items: true
 				count: 200L
 				id: "4F606D5623D8B661"
 				item: {
