@@ -90,6 +90,11 @@ ServerEvents.recipes(event => {
     3: 'create:precision_mechanism',
     4: 'thermal:saw_blade'}).id('create:crafts/mechanical_harvester')
 
+// Mechanical Belt
+  event.shaped('2x create:belt_connector', 
+    ['   ','111','111'], {
+    1: 'thermal:cured_rubber'}).id('crafting/kinetics/belt_connector')
+
 // Sequenced Gearshift
   event.shaped('create:sequenced_gearshift', 
     ['313','323','434'], {
