@@ -335,6 +335,16 @@ ServerEvents.recipes(event => {
           "results": [{"item": "rootsclassic:growth_powder"}]
   }).id('rootsclassic:growth_powder_pc')
 
+// Rose Quartz Shard
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {"item": "biomesoplenty:rose_quartz_block",}],
+          "pressure": 2.5, 
+          "results": [{"item": "biomesoplenty:rose_quartz_shard",
+                       "count": 4}]
+  }).id('biomesoplenty:rose_quartz_block_pc')
+
 // Coal to Diamond
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
