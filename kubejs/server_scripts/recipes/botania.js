@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botania:apothecary_default'})
   event.remove({id: 'botania:mana_spreader'})
   event.remove({id: 'botania:mana_pool'})
+  event.remove({id: 'botania:mana_pylon'})
   event.remove({id: 'botania:open_crate'})
   event.remove({id: 'botania:glimmering_livingwood'})
   event.remove({id: 'botania:alfheim_portal'})
@@ -145,6 +146,13 @@ ServerEvents.recipes(event => {
     2: 'botania:manasteel_block',
     3: 'supplementaries:lapis_bricks_slab',
     4: 'rootsclassic:growth_powder'}).id('botania:terra_plate')
+
+// Mana Pylon
+  event.shaped('botania:mana_pylon', 
+    [' 1 ','232',' 1 '], {
+    1: 'minecraft:gold_ingot', 
+    2: 'botania:manasteel_ingot',
+    3: 'occultism:spirit_attuned_gem'}).id('botania:mana_pylon')
 
 //    
 })
