@@ -178,7 +178,7 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('minecraft:lapis_ore', 'inventorypets:nugget_lapis', {min:1,max:2})
 	oreLoot('thermal:deepslate_nickel_ore', 'emendatusenigmatica:nickel_crystal', {min:2,max:3})
 	oreLoot('immersiveengineering:ore_aluminum', 'emendatusenigmatica:aluminum_crystal', {min:1,max:2})
-	oreLoot('minecraft:diamond_ore', 'inventorypets:nugget_diamond', {min:1,max:1})
+	oreLoot('minecraft:diamond_ore', 'inventorypets:nugget_diamond', {min:1,max:3})
 	oreLoot('minecraft:redstone_ore', 'minecraft:redstone', {min:1,max:2})
 	oreLoot('create:zinc_ore', 'emendatusenigmatica:zinc_crystal', {min:1,max:2})
 	oreLoot('thermal:tin_ore', 'emendatusenigmatica:tin_crystal', {min:1,max:2})
