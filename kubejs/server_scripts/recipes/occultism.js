@@ -14,8 +14,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'occultism:crafting/goggles'})
   event.remove({id: 'occultism:ritual/summon_afrit_crusher'})
   event.remove({id: 'occultism:ritual/summon_marid_crusher'})
-  event.remove({id: 'occultism:crafting/book_of_binding_bound_djinni'})
-  event.remove({output: 'occultism:book_of_binding_djinni'})
   event.remove({id: 'occultism:crafting/chalk_gold_impure'})
   event.remove({id: 'theurgy:crafting/shaped/divination_rod_t1'})
   event.remove({id: 'theurgy:crafting/shaped/divination_rod_t2'})
@@ -68,7 +66,7 @@ ServerEvents.recipes(event => {
     1: 'occultism:purified_ink',
     2: 'minecraft:green_dye',
     3: 'minecraft:writable_book',
-    4: 'botania:dragonstone'}).id('occultism:crafting/book_of_binding_bound_djinni')
+    4: 'botania:dragonstone'}).id('occultism:crafting/book_of_binding_djinni')
 
 // T1 Divination Rod
   event.shaped('theurgy:divination_rod_t1',

@@ -22,9 +22,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:machine_crystallizer'})
   event.remove({id: 'thermal:machine_centrifuge'})
   event.remove({id: 'thermal:machine_crucible'})
-  event.remove({output: 'thermal:machine_smelter'})
-  event.remove({output: 'thermal:machine_press'})
-  event.remove({output: 'thermal:charge_bench'})
   event.remove({id: 'thermal:machines/press/press_vine_to_latex'})
   event.remove({id: 'thermal:machines/press/press_dandelion_to_latex'})
   event.remove({id: 'thermal:devices/tree_extractor/tree_extractor_jungle'})
@@ -46,8 +43,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:machines/press/unpacking/press_rubber_unpacking'})
   event.remove({id: 'thermal:machines/smelter/smelter_cured_rubber'})
   event.remove({id: 'thermal:machines/press/packing2x2/press_rubber_packing'})
-  event.remove({ output: "thermal:rubber"})
   event.remove({id: 'thermal:hazmat_fabric'})
+  event.remove({id: 'thermal:rubber_from_vine'})
+  event.remove({id: 'thermal:rubber_from_dandelion'})
   event.remove({id: 'thermal:fire_charge/invar_ingot_3'})
   event.remove({id: 'thermal:fire_charge/electrum_ingot_2'})
   event.remove({id: 'thermal:fluid_cell'})
@@ -822,6 +820,9 @@ event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','i
 
 // Replace Thermal Rubber w/ Industrial Foregoing Dry Rubber
 event.replaceInput({}, 'thermal:rubber', 'industrialforegoing:dryrubber')   
+
+// Rubber From block 
+  event.shapeless(Item.of('4x industrialforegoing:dryrubber'), ['thermal:rubber_block']).id('thermal:storage/rubber_from_block')
 
 // Crystallizer Test (ty Lexxie!)
 // event.custom({

@@ -20,6 +20,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'buildinggadgets:gadget_copy_paste'})
   event.remove([{ type: 'minecraft:crafting_shaped', output: '#cfm:storage' }])
   event.remove([{ type: 'minecraft:crafting_shapeless', output: '#cfm:storage' }])
+  event.remove([{ type: 'minecraft:crafting_shapeless', output: '#farmersdelight:cabinets' }])
+  event.remove([{ type: 'minecraft:crafting_shaped', output: '#farmersdelight:cabinets' }])
   event.remove({id: 'compactmachines:personal_shrinking_device'})
   event.remove({id: 'constructionwand:stone_wand'})
   event.remove({id: 'constructionwand:iron_wand'})
@@ -41,20 +43,11 @@ ServerEvents.recipes(event => {
   event.remove({id: 'extendedcrafting:handheld_table'})
   event.remove({id: 'extendedcrafting:advanced_auto_table'})
   event.remove({id: 'extendedcrafting:compressor'})
-  event.remove({output: 'farmersdelight:basket'})
-  event.remove({output: 'farmersdelight:cutting/leather_boots'})
-  event.remove({output: 'farmersdelight:cutting/leather_chestplate'})
-  event.remove({output: 'farmersdelight:cutting/leather_helmet'})
-  event.remove({output: 'farmersdelight:cutting/leather_leggings'})
-  event.remove({output: 'farmersdelight:cutting/leather_horse_armor'})
-  event.remove({output: 'farmersdelight:cutting/saddle'})
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: '#farmersdelight:cabinets' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: '#farmersdelight:cabinets' }])
-  event.remove({output: 'cookingforblockheads:no_filter_edition'})
-  event.remove({output: 'cookingforblockheads:recipe_book'})
-  event.remove({output: 'cookingforblockheads:crafting_book'})
-  event.remove({output: 'farmingforblockheads:feeding_trough'})
-  event.remove({output: 'farmingforblockheads:market'})
+  event.remove({id: 'cookingforblockheads:no_filter_edition'})
+  event.remove({id: 'cookingforblockheads:recipe_book_smelting_from_nofilter'})
+  event.remove({id: 'cookingforblockheads:recipe_book_smelting'})
+  event.remove({id: 'cookingforblockheads:crafting_book'})
+  event.remove({id: 'farmingforblockheads:feeding_trough'})
   event.remove({id: 'hostilenetworks:sim_chamber'})
   event.remove({id: 'hostilenetworks:loot_fabricator'})
   event.remove({id: 'hostilenetworks:living_matter/overworldian/iron_ingot'})
@@ -72,16 +65,10 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mythicbotany:alfsteel_boots_smithing'})
   event.remove({id: 'natprog:crafting/saws/flint_saw'})
   event.remove({id: 'powah:crafting/reactor_starter'})
-  event.remove({output: 'quark:iron_rod'})
   event.remove({id: 'quark:tweaks/crafting/utility/misc/dispenser_bow'})
   event.remove({id: 'quark:tweaks/crafting/utility/misc/dispenser_no_bow'})
   event.remove({id: 'rangedpumps:pump'})
   event.remove({id: 'rftoolsbase:machine_frame'})
-  event.remove({output: 'rootsclassic:bark_knife'})
-  event.remove({output: 'rootsclassic:healing_poultice'})
-  event.remove({output: 'rootsclassic:mortar'})
-  event.remove({output: 'rootsclassic:pestle'})
-  event.remove({output: 'rootsclassic:imbuer'})
   event.remove({id: 'scannable:scanner'})
   event.remove({id: 'scannable:blank_module'})
   event.remove({id: 'shrink:shrinking_device'})
@@ -101,42 +88,29 @@ ServerEvents.recipes(event => {
   event.remove({id: 'sophisticatedbackpacks:gold_backpack'})
   event.remove({id: 'sophisticatedbackpacks:diamond_backpack'})
   event.remove({id: 'sophisticatedbackpacks:netherite_backpack'})
-  event.remove({output: 'storagenetwork:inventory'})
-  event.remove({output: 'storagenetwork:exchange'})
-  event.remove({output: 'storagenetwork:collector'})
-  event.remove({output: 'storagenetwork:stock_upgrade'})
-  event.remove({output: 'storagenetwork:operation_upgrade'})
-  event.remove({output: 'storagenetwork:crafting_remote'})
-  event.remove({output: 'storagenetwork:picker_remote'})
-  event.remove({output: 'storagenetwork:collector_remote'})
-  event.remove({output: 'storagenetwork:builder_remote'})
-  event.remove({output: 'storagenetwork:master'})
-  event.remove({output: 'storagenetwork:request'})
-  event.remove({output: 'storagenetwork:kabel'})
-  event.remove({output: 'storagenetwork:inventory_remote'})
-  event.remove({output: 'supplementaries:bellows'})
+  event.remove({id: 'storagenetwork:inventory'})
+  event.remove({id: 'storagenetwork:exchange'})
+  event.remove({id: 'storagenetwork:collector'})
+  event.remove({id: 'storagenetwork:stock_upgrade'})
+  event.remove({id: 'storagenetwork:operation_upgrade'})
+  event.remove({id: 'storagenetwork:crafting_remote'})
+  event.remove({id: 'storagenetwork:picker_remote'})
+  event.remove({id: 'storagenetwork:collector_remote'})
+  event.remove({id: 'storagenetwork:builder_remote'})
+  event.remove({id: 'storagenetwork:master'})
   event.remove({id: 'supplementaries:soap/globe'})
   event.remove({id: 'supplementaries:globe_sepia'})
   event.remove({id: 'tempad:tempad'})
-  event.remove({output: 'totemic:totem_whittling_knife'})
   event.remove({id: 'totemic:tipi_from_wool'})
   event.remove({id: 'totemic:leather_from_hide'})
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:twilight_oak_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:canopy_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:mangrove_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:darkwood_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:time_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:transformation_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:mining_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'twilightforest:sorting_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:twilight_oak_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:canopy_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:mangrove_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:darkwood_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:time_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:transformation_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:mining_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'twilightforest:sorting_chest' }])
+  event.remove({id: 'twilightforest:wood/twilight_oak_chest'})
+  event.remove({id: 'twilightforest:wood/canopy_chest'})
+  event.remove({id: 'twilightforest:wood/mangrove_chest'})
+  event.remove({id: 'twilightforest:wood/darkwood_chest'})
+  event.remove({id: 'twilightforest:wood/time_chest'})
+  event.remove({id: 'twilightforest:wood/transformation_chest'})
+  event.remove({id: 'twilightforest:wood/mining_chest'})
+  event.remove({id: 'twilightforest:wood/sorting_chest'})
   event.remove({id: 'waystones:warp_stone'})
   event.remove({id: 'waystones:warp_dust'})
   event.remove({id: 'waystones:return_scroll'})
@@ -144,9 +118,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'waystones:warp_scroll'})
   event.remove({id: 'waystones:warp_plate'})
   event.remove({id: 'waystones:portstone'})
-  event.remove({output: 'waystones:attuned_shard'})
-  // event.remove({id: 'apotheosis:library'})
-  // event.remove({output: 'apotheosis:library'})
   event.remove({id: 'apotheosis:enchanting/ender_library'})
   event.remove({id: 'apotheosis:simple_reforging_table'})
   event.remove({id: 'apotheosis:reforging_table'})
@@ -156,10 +127,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'minecraft:flower_pot'})
   event.remove({id: 'botanypots:terracotta_botany_pot'})
   event.remove({id: 'supplementaries:soap_clean_botanypots_terracotta_hopper_botany_pot'})
-  event.remove({ output: "#botanypots:essences"})
-  event.remove({ output: "#botanypots:all_botany_pots"})
-  event.remove({ output: "supplementaries:planter"})
-  event.remove({ output: "supplementaries:planter_rich"})
+  // event.remove({ output: "#botanypots:essences"})
+  event.remove({id: 'botanypots:botanypots/crafting/terracotta_botany_pot'})
+  event.remove({id: 'botanypots:botanypots/crafting/terracotta_compact_hopper_botany_pot'})
   event.remove({id: 'sleep_tight:dreamer_essence'})
   event.remove({id: 'compactmachines:machine_tiny'})
   event.remove({id: 'compactmachines:machine_small'})
@@ -170,7 +140,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'compactmachines:wall'})
   event.remove({id: 'twilightforest:uncrafting_table'})
   event.remove({id: 'totemic:medicine_bag'})
-  event.remove({ output: "supplementaries:planter_rich"})
   event.remove({id: 'hostilenetworks:empty_prediction'})
   event.remove({id: 'powah:crafting/cable_starter'})
   event.remove({id: 'powah:crafting/energizing_rod_starter'})
@@ -197,8 +166,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'simplehats:hatbag_halloween'})
   event.remove({id: 'simplehats:hatbag_festive'})
   event.remove({id: 'relics:researching_table'})
-
-
 //
 })
 //
@@ -475,7 +442,7 @@ ServerEvents.recipes(event => {
     ['131','232','121'], {
     1: 'minecraft:bamboo', 
     2: 'farmersdelight:canvas',
-    3: 'immersiveengineering:hemp_fiber'}).id('farmersdelight:misc/basket')
+    3: 'immersiveengineering:hemp_fiber'}).id('farmersdelight:basket')
 
 // Market Block    
   event.shaped('farmingforblockheads:market',
@@ -484,7 +451,7 @@ ServerEvents.recipes(event => {
     2: 'pneumaticcraft:plastic',
     3: 'minecraft:red_carpet',
     4: 'emendatusenigmatica:iron_rod',
-    5: '#minecraft:planks'}).id('farmingforblockheads:misc/market')
+    5: '#minecraft:planks'}).id('farmingforblockheads:market')
 
 // Lapis Lazuli
   event.shaped('minecraft:lapis_lazuli',
@@ -591,26 +558,26 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'emendatusenigmatica:copper_crystal',
     2: 'natprog:bone_knife',
     3: 'minecraft:stick',
-    4: 'minecraft:green_dye'}).id('rootsclassic:misc/bark_knife')
+    4: 'minecraft:green_dye'}).id('rootsclassic:bark_knife')
 
 // Mortar
   event.shaped('rootsclassic:mortar',
     ['2 2','1 1',' 1 '], {
     1: 'compressium:stone_1',
-    2: 'minecraft:stone'}).id('rootsclassic:misc/mortar')
+    2: 'minecraft:stone'}).id('rootsclassic:mortar')
 
 // Pestle
   event.shaped('rootsclassic:pestle',
     ['  1','11 ','22 '], {
     1: 'compressium:diorite_1',
-    2: 'minecraft:diorite'}).id('rootsclassic:misc/pestle')
+    2: 'minecraft:diorite'}).id('rootsclassic:pestle2')
 
 // Imbuer
   event.shaped('rootsclassic:imbuer',
     ['212','131','212'], {
     1: 'compressium:stone_1',
     2: 'emendatusenigmatica:gold_rod',
-    3: 'rootsclassic:verdant_sprig'}).id('rootsclassic:misc/imbuer')
+    3: 'rootsclassic:verdant_sprig'}).id('rootsclassic:imbuer')
 
 // Scanner
   event.shaped('scannable:scanner',
@@ -709,7 +676,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     ['333','121','333'], {
     1: 'minecraft:leather', 
     2: 'totemic:buffalo_hide',
-    3: '#minecraft:slabs'}).id('supplementaries:misc/bellows')
+    3: '#minecraft:slabs'}).id('supplementaries:bellows')
 
 // Tempad
   event.shaped('tempad:tempad',
@@ -790,7 +757,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     ['323','212','323'], {
     1: 'supplementaries:planter_rich',
     2: 'minecraft:terracotta',
-    3: 'rootsclassic:growth_powder'}).id('botanypots:misc/terracotta_botany_pot_planter_rich')
+    3: 'rootsclassic:growth_powder'}).id('botanypots:botanypots/crafting/terracotta_botany_pot')
 
 // Alfsteel Helmet
   event.shaped('mythicbotany:alfsteel_helmet',
@@ -1043,7 +1010,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   2: 'rootsclassic:growth_powder',
   3: 'rootsclassic:verdant_sprig',
   4: '#rootsclassic:berries',
-  5: 'emendatusenigmatica:gold_plate'}).id('rootsclassic:misc/healing_poultice')
+  5: 'emendatusenigmatica:gold_plate'}).id('rootsclassic:healing_poultice')
 
   // Sea Shelf
   event.shaped('apotheosis:seashelf',
@@ -1087,15 +1054,14 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'minecraft:bone_meal',
     3: 'minecraft:compass'}).id('explorerscompass:misc/explorerscompass')
 
-
-// Hopper Botany Pot
-  event.shapeless(Item.of('botanypots:terracotta_hopper_botany_pot'), ['botanypots:terracotta_botany_pot', 'minecraft:hopper']).id('botanypots:misc/terracotta_hopper_botany_pot')
-
 // Planter
-  event.shapeless(Item.of('supplementaries:planter'), ['minecraft:flower_pot', 'minecraft:dirt']).id('supplementaries:misc/planter')
+  event.shapeless(Item.of('supplementaries:planter'), ['minecraft:flower_pot', 'minecraft:dirt']).id('supplementaries:planter')
 
 // Rich Soil Planter
-  event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil']).id('supplementaries:misc/planter_rich')
+  event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil']).id('supplementaries:planter_rich')
+
+// Replace Flower Pot w/ Botany Pot
+event.replaceInput({}, 'minecraft:flower_pot', 'botanypots:terracotta_botany_pot')   
 
 //    
 })

@@ -34,15 +34,20 @@ ServerEvents.recipes(event => {
   event.remove({id: 'silentgear:compounding/metal/custom_ingot.high_carbon_steel'})
   event.remove({id: 'silentgear:compounding/metal/tyrian_steel_ingot'})
   event.remove({id: 'silentgear:salvager'})
-  event.remove({output: 'silentcompat:solarmetal_ingot'})
-  event.remove({output: 'silentcompat:arcmetal_ingot'})
   event.remove({id: 'silentgear:bronze_ingot'})
-
   event.remove({id: 'silentgear:azure_silver_dust'})
   event.remove({id: 'silentgear:blaze_gold_dust'})
   event.remove({id: 'silentgear:blazing_dust'})
   event.remove({id: 'silentgear:azure_silver_dust'})
   event.remove({id: 'silentgear:glittery_dust'})
+  event.remove({id: 'minecraft:raw_solarmetal_to_ingot_blasting'})
+  event.remove({id: 'minecraft:solarmetal_ore_to_ingot_blasting'})
+  event.remove({id: 'minecraft:raw_solarmetal_to_ingot'})
+  event.remove({id: 'minecraft:solarmetal_ore_to_ingot'})
+  event.remove({id: 'minecraft:raw_arcmetal_to_ingot_blasting'})
+  event.remove({id: 'minecraft:arcmetal_ore_to_ingot_blasting'})
+  event.remove({id: 'minecraft:raw_arcmetal_to_ingot'})
+  event.remove({id: 'minecraft:arcmetal_ore_to_ingot'})
 
 //
 })

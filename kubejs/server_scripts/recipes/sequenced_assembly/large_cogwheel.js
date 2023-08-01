@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
     transitionalItem: {
       item: "minecraft:oak_planks",
     },
-  });
+  }).id('create:crafts/large_cogwheel')
 
 //
 });

@@ -7,10 +7,8 @@ ServerEvents.recipes(event => {
 //
 
   //REMOVE
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'ad_astra:aeronos_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shaped', output: 'ad_astra:strophar_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'ad_astra:aeronos_chest' }])
-  event.remove([{ type: 'minecraft:crafting_shapeless', output: 'ad_astra:strophar_chest' }])
+  event.remove({id: 'ad_astra:recipes/aeronos_chest'})
+  event.remove({id: 'ad_astra:recipes/strophar_chest'})
   event.remove({id: 'ad_astra:recipes/iron_rod'})
   event.remove({id: 'ad_astra:recipes/nasa_workbench'})
   event.remove({id: 'ad_astra:recipes/fuel_refinery'})

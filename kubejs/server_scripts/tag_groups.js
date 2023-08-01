@@ -3,6 +3,8 @@
 //// renik
 // Ty EnigmaQuip for helping start the base for this one!
 
+// priority: 1000
+
 //
 ServerEvents.tags('worldgen/biome', event => {
 //
@@ -384,6 +386,7 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'minecraft:barrier',
   'silentgear:azure_silver_dust',
   'minecraft:chest',
   'minecraft:barrel',

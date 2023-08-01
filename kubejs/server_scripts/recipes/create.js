@@ -9,22 +9,27 @@ ServerEvents.recipes(event => {
 //
 
   //REMOVE
-  event.remove({output: 'create:shaft'})
-  event.remove({output: 'createaddition:rolling_mill'})
-  event.remove({output: 'create:windmill_bearing'})
-  event.remove({output: 'create:sail_frame'})
-  event.remove({output: 'create:white_sail'})
-  event.remove({output: 'create:water_wheel'})
-  event.remove({output: 'create:large_cogwheel'})
-  event.remove({output: 'create:cogwheel'})
-  event.remove({output: 'create:hand_crank'})
-  event.remove({output: 'create:mechanical_press'})
-  event.remove({output: 'create:mechanical_mixer'})
-  event.remove({output: 'create:whisk'})
-  event.remove({output: 'create:andesite_casing'})
-  event.remove({output: 'create:depot'})
-  event.remove({output: 'create:millstone'})
-  event.remove({output: 'create:basin'})
+  event.remove({id: 'create:crafting/kinetics/shaft'})
+  event.remove({id: 'create:cutting/andesite_alloy'})
+  event.remove({id: 'create:crafting/kinetics/windmill_bearing'})
+  event.remove({id: 'create:crafting/kinetics/sail_framefrom_conversion'})
+  event.remove({id: 'create:crafting/kinetics/white_sailfrom_conversion'})
+  event.remove({id: 'create:crafting/kinetics/white_sail'})
+  event.remove({id: 'create:crafting/kinetics/water_wheel'})
+  event.remove({id: 'create:crafting/kinetics/cogwheel'})
+  event.remove({id: 'create:crafting/kinetics/large_cogwheel'})
+  event.remove({id: 'create:crafting/kinetics/large_cogwheel_from_little'})
+  event.remove({id: 'create:deploying/large_cogwheel'})
+  event.remove({id: 'create:crafting/kinetics/hand_crank'})
+  event.remove({id: 'create:crafting/kinetics/mechanical_press'})
+  event.remove({id: 'create:crafting/kinetics/mechanical_mixer'})
+  event.remove({id: 'create:crafting/kinetics/whisk'})
+  event.remove({id: 'create:crafting/kinetics/depot'})
+  event.remove({id: 'create:crafting/kinetics/millstone'})
+  event.remove({id: 'create:crafting/kinetics/basin'})
+  event.remove({id: 'create:item_application/andesite_casing_from_log'})
+  event.remove({id: 'create:item_application/andesite_casing_from_wood'})
+  event.remove({id: 'create:crafts/cogwheel'})
   event.remove({id: 'create:milling/bone'})
   event.remove({id: 'create:milling/saddle'})
   event.remove({id: 'create:crafting/materials/andesite_alloy'})
@@ -558,6 +563,11 @@ event.custom({
   "type": "create:pressing", "ingredients": [{"item": "silentcompat:voidmetal_ingot","count": 1}],
   "results": [{"item": "emendatusenigmatica:voidmetal_plate"}]
   }).id('create:pressing/voidmetal_plate')
+
+event.custom({
+  "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:silver_ingot","count": 1}],
+  "results": [{"item": "emendatusenigmatica:silver_plate"}]
+  }).id('create:pressing/silver_plate')
 
 // Apatite Dust
   event.custom({

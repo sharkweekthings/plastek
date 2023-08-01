@@ -7,10 +7,6 @@ ServerEvents.recipes(event => {
 //
 
   //REMOVE
-  event.remove({output: 'emendatusenigmatica:sterling_silver_helmet'})
-  event.remove({output: 'emendatusenigmatica:sterling_silver_chestplate'})
-  event.remove({output: 'emendatusenigmatica:sterling_silver_leggings'})
-  event.remove({output: 'emendatusenigmatica:sterling_silver_boots'})
   event.remove({id: 'emendatusenigmatica:rod/from_ingot/brass'})
   event.remove({id: 'emendatusenigmatica:rod/from_ingot/steel'})
   event.remove({id: 'immersiveengineering:crafting/stick_aluminum'})
@@ -89,28 +85,28 @@ ServerEvents.recipes(event => {
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_helmet', 
-    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_helmet')
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:helmet/from_ingot/sterling_silver')
 
 // Sterling Silver Chestplate
   event.shaped('emendatusenigmatica:sterling_silver_chestplate',
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_chestplate', 
-    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_chestplate')
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:chestplate/from_ingot/sterling_silver')
 
 // Sterling Silver Leggings  
   event.shaped('emendatusenigmatica:sterling_silver_leggings',
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_leggings', 
-    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_leggings')
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:leggings/from_ingot/sterling_silver')
 
 // Sterling Silver Boots    
   event.shaped('emendatusenigmatica:sterling_silver_boots',
     ['313','121','313'], {
     1: 'emendatusenigmatica:sterling_silver_ingot', 
     2: 'minecraft:leather_boots',
-    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:sterling_silver_boots')
+    3: 'emendatusenigmatica:sterling_silver_plate'}).id('emendatusenigmatica:boots/from_ingot/sterling_silver')
 
 // Iron Rod
   event.shaped('emendatusenigmatica:iron_rod',

@@ -2,46 +2,75 @@
 // metal barrels recipes
 //// renik
 
+// wood to copper > copper to iron > iron to silver > silver to gold > gold to diamond > diamond to obsidian > obsidian to netherite
+
 //
 ServerEvents.recipes(event => {
 //
 
   //REMOVE
-  event.remove({output: 'metalbarrels:wood_to_copper'})
-  event.remove({output: 'metalbarrels:copper_to_iron'})
-  event.remove({output: 'metalbarrels:iron_to_silver'})
-  event.remove({output: 'metalbarrels:silver_to_gold'})
-  event.remove({output: 'metalbarrels:gold_to_diamond'})
-  event.remove({output: 'metalbarrels:diamond_to_obsidian'})
-  event.remove({output: 'metalbarrels:obsidian_to_netherite'})
-  event.remove({output: 'metalbarrels:silver_to_diamond'})
-  event.remove({output: 'metalbarrels:silver_to_netherite'})
-  event.remove({output: 'metalbarrels:wood_to_netherite'})
-  event.remove({output: 'metalbarrels:wood_to_obsidian'})
-  event.remove({output: 'metalbarrels:wood_to_diamond'})
-  event.remove({output: 'metalbarrels:iron_to_gold'})
-  event.remove({output: 'metalbarrels:copper_to_obsidian'})
-  event.remove({output: 'metalbarrels:copper_to_silver'})
-  event.remove({output: 'metalbarrels:iron_to_diamond'})
-  event.remove({output: 'metalbarrels:silver_to_obsidian'})
-  event.remove({output: 'metalbarrels:copper_to_netherite'})
-  event.remove({output: 'metalbarrels:gold_to_obsidian'})
-  event.remove({output: 'metalbarrels:wood_to_gold'})
-  event.remove({output: 'metalbarrels:gold_to_netherite'})
-  event.remove({output: 'metalbarrels:iron_to_obsidian'})
-  event.remove({output: 'metalbarrels:wood_to_silver'})
-  event.remove({output: 'metalbarrels:iron_to_netherite'})
-  event.remove({output: 'metalbarrels:wood_to_iron'})
-  event.remove({output: 'metalbarrels:copper_to_gold'})
-  event.remove({output: 'metalbarrels:copper_to_diamond'})
-  event.remove({output: 'metalbarrels:diamond_to_netherite'})
-  event.remove({output: 'metalbarrels:wood_to_crystal'})
-  event.remove({output: 'metalbarrels:copper_to_crystal'})
-  event.remove({output: 'metalbarrels:iron_to_crystal'})
-  event.remove({output: 'metalbarrels:silver_to_crystal'})
-  event.remove({output: 'metalbarrels:gold_to_crystal'})
-  event.remove({output: 'metalbarrels:diamond_to_crystal'})
-  event.remove({output: 'metalbarrels:crystal_barrel'})
+  event.remove({id: 'metalbarrels:upgrades/nested/wood_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/wood_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/copper_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/iron_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/silver_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/gold_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/wood_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/copper_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/iron_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/silver_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/gold_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/wood_to_gold_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/iron_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/wood_to_silver_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/copper_to_gold_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/nested/copper_to_gold_upgrade2'})
+  event.remove({id: 'metalbarrels:upgrades/nested/copper_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_obsidian/wood_to_obsidian'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_obsidian/wood_to_obsidian2'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_diamond/wood_to_diamond'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_diamond/wood_to_diamond2'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_diamond/wood_to_diamond5'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_diamond/wood_to_diamond4'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_diamond/wood_to_diamond3'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold2'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold3'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold4'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold5'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold6'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_gold/wood_to_gold7'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_silver/wood_to_silver'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_silver/wood_to_silver2'})
+  event.remove({id: 'metalbarrels:upgrades/combine_upgrades/wood_to_silver/wood_to_silver3'})
+  event.remove({id: 'metalbarrels:upgrades/silver_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/silver_to_netherite_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_netherite_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/iron_to_gold_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/copper_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/copper_to_silver_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/iron_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/silver_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/copper_to_netherite_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/gold_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_gold_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/gold_to_netherite_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/iron_to_obsidian_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_silver_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/iron_to_netherite_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_iron_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/copper_to_gold_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/upgrades/copper_to_diamond_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/diamond_to_netherite_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/wood_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/copper_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/iron_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/silver_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/gold_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/diamond_to_crystal_upgrade'})
+  event.remove({id: 'metalbarrels:upgrades/crystal_barrel'})
   event.remove({id: 'metalbarrels:barrels/wood_to_copper_barrel'})
   event.remove({id: 'metalbarrels:barrels/copper_to_iron_barrel'})
   event.remove({id: 'metalbarrels:barrels/iron_to_silver_barrel'})
@@ -144,46 +173,46 @@ ServerEvents.recipes(event => {
     ['333','1 1','323'], {
     1: 'minecraft:copper_ingot',
     2: 'minecraft:copper_block',
-    3: 'emendatusenigmatica:copper_plate'}).id('metalbarrels:wood_to_copper_upgrade')
+    3: 'emendatusenigmatica:copper_plate'}).id('metalbarrels:upgrades/wood_to_copper_upgrade')
 
 // Copper to Iron Upgrade
   event.shaped('metalbarrels:copper_to_iron',
     ['333','1 1','323'], {
     1: 'minecraft:iron_ingot',
     2: 'minecraft:iron_block',
-    3: 'emendatusenigmatica:iron_plate'}).id('metalbarrels:copper_to_iron_upgrade')
+    3: 'emendatusenigmatica:iron_plate'}).id('metalbarrels:upgrades/copper_to_iron_upgrade')
 
 // Iron to Silver Upgrade
   event.shaped('metalbarrels:iron_to_silver',
     ['333','1 1','323'], {
     1: 'emendatusenigmatica:silver_ingot',
     2: 'emendatusenigmatica:silver_block',
-    3: 'emendatusenigmatica:silver_plate'}).id('metalbarrels:iron_to_silver_upgrade')
+    3: 'emendatusenigmatica:silver_plate'}).id('metalbarrels:upgrades/iron_to_silver_upgrade')
 
 // Silver to Gold Upgrade
   event.shaped('metalbarrels:silver_to_gold',
     ['333','1 1','323'], {
     1: 'minecraft:gold_ingot',
     2: 'minecraft:gold_block',
-    3: 'emendatusenigmatica:gold_plate'}).id('metalbarrels:silver_to_gold_upgrade')
+    3: 'emendatusenigmatica:gold_plate'}).id('metalbarrels:upgrades/silver_to_gold_upgrade')
 
 // Gold to Diamond Upgrade
   event.shaped('metalbarrels:gold_to_diamond',
     ['121','2 2','121'], {
     1: 'compressium:diamond_1',
-    2: 'minecraft:diamond'}).id('metalbarrels:gold_to_diamond_upgrade')
+    2: 'minecraft:diamond'}).id('metalbarrels:upgrades/gold_to_diamond_upgrade')
 
 // Diamond to Obsidian Upgrade
   event.shaped('metalbarrels:diamond_to_obsidian',
     ['121','2 2','121'], {
     1: 'compressium:obsidian_1',
-    2: 'minecraft:crying_obsidian'}).id('metalbarrels:diamond_to_obsidian_upgrade')
+    2: 'minecraft:crying_obsidian'}).id('metalbarrels:upgrades/diamond_to_obsidian_upgrade')
 
 // Obsidian to Netherite Upgrade
   event.shaped('metalbarrels:obsidian_to_netherite',
     ['121','2 2','121'], {
     1: 'compressium:netherite_1',
-    2: 'minecraft:netherite_ingot'}).id('metalbarrels:obsidian_to_netherite_upgrade')
+    2: 'minecraft:netherite_ingot'}).id('metalbarrels:upgrades/obsidian_to_netherite_upgrade')
 
 //    
 })
