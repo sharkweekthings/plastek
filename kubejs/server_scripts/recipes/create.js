@@ -209,14 +209,14 @@ ServerEvents.recipes(event => {
 
 // Cogwheel
   event.shaped('create:cogwheel', 
-    [' 1 ','121',' 1 '], {
+    [' 2 ','111',' 2 '], {
     1: '#minecraft:slabs', 
     2: 'create:shaft'}).id('create:crafts/cogwheel')
 
 // Large Cogwheel
   event.shaped('create:large_cogwheel', 
-    [' 1 ','121',' 1 '], {
-    1: '#minecraft:planks', 
+    [' 2 ','111',' 2 '], {
+    1: 'create:cogwheel', 
     2: 'create:shaft'}).id('create:crafts/large_cogwheel')
 
 // Spout

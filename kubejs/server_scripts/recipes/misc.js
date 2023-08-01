@@ -58,7 +58,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'hostilenetworks:living_matter/extraterrestrial/nether_star'})
   event.remove({ mod: 'inventorypets' })
   event.remove({id: 'mythicbotany:mythicbotany_rune_rituals/kvasir_blood'})
-  // event.remove({id: 'mythicbotany:mythicbotany_infusion/alfsteel_ingot'})
   event.remove({id: 'mythicbotany:alfsteel_helmet_smithing'})
   event.remove({id: 'mythicbotany:alfsteel_chestplate_smithing'})
   event.remove({id: 'mythicbotany:alfsteel_leggings_smithing'})
@@ -176,6 +175,12 @@ ServerEvents.recipes(event => {
 //
 
   //ADD
+
+// Redstone Ingot
+  event.shaped('extendedcrafting:redstone_ingot',
+    ['111','121','111'], {
+    1: 'mekanism:enriched_redstone',
+    2: 'silentgear:azure_electrum_ingot'}).id('extendedcrafting:redstone_ingot')
 
 // Researching Table
   event.shaped('relics:researching_table',

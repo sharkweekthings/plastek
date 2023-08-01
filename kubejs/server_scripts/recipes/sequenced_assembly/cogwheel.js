@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
       item: "minecraft:oak_slab",},
      results: [{
       item: "create:cogwheel",
-      count: 4,},],
+      count: 3,},],
       loops: 2,
      sequence: [
 {
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
     transitionalItem: {
       item: "minecraft:oak_slab",
     },
-  });
+  }).id('create:crafts/seq_cogwheel')
 
 //
 });

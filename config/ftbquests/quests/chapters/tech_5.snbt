@@ -568,7 +568,7 @@
 			}]
 			title: "Applied Energistics 2"
 			x: -5.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["790ECA9942A6B96B"]
@@ -579,7 +579,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -615,7 +615,7 @@
 				}
 			]
 			x: -6.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -629,7 +629,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1AE7A2562C1774E2"]
@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4E92D7C91599B826"]
@@ -660,7 +660,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4E92D7C91599B826"]
@@ -678,7 +678,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4E92D7C91599B826"]
@@ -696,7 +696,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1AE7A2562C1774E2"]
@@ -707,7 +707,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2D2B2F94FFCC2203"]
@@ -725,7 +725,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2D2B2F94FFCC2203"]
@@ -745,7 +745,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0EA3983877DAE009"]
@@ -861,7 +861,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5FCBAAD5BBD07EC0"]
@@ -873,7 +873,7 @@
 			}]
 			title: "The Last Few Thermal Machines"
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["268D87327288B46D"]
@@ -885,7 +885,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1AE7A2562C1774E2"]
@@ -896,7 +896,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["463F55548864F0FE"]
@@ -914,7 +914,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["463F55548864F0FE"]
@@ -932,7 +932,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0EA3983877DAE009"]
@@ -975,7 +975,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0035FF9DD09AE418"]
@@ -1000,7 +1000,7 @@
 				}
 			]
 			x: 1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4DDA8AE4B4591392"]
@@ -1018,7 +1018,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0EA3983877DAE009"]
@@ -1293,7 +1293,7 @@
 			]
 			title: "Molds and Dies"
 			x: 2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 	]
 	title: "Tech"

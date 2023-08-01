@@ -393,6 +393,8 @@
 				""
 				"&3/tpa&r - using this command will let you teleport to your friend if they approve the request, once every 5 minutes"
 				""
+				"&3/leaderboard&r - using this command will let you see various statistics of players on the server. This one is purely just for funsies."
+				""
 				"With &a&nMore Overlays&r&r: "
 				""
 				"If you Click F7 it will enable the Light Level / Mob Spawns overlay. "
@@ -516,7 +518,7 @@
 		{
 			dependencies: ["5587B9934B863EB4"]
 			description: [
-				"Serene Seasons in this pack will affect various Seeds and Saplings.  Most of these can only be grown in the proper season, however there are a few year round crops."
+				"Serene Seasons in this pack will affect various Seeds and Saplings.  Most of these can only be grown effectively in the proper season, however there are a few year round crops. Crops in their off season will still grow, but at a much slower rate."
 				""
 				"One season lasts about 10 Minecraft days.  "
 				""

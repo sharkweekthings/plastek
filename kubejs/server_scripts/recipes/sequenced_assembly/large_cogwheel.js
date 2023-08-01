@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
       item: "minecraft:oak_planks",},
      results: [{
       item: "create:large_cogwheel",
-      count: 4,},],
+      count: 3,},],
       loops: 2,
      sequence: [
 {
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
     transitionalItem: {
       item: "minecraft:oak_planks",
     },
-  }).id('create:crafts/large_cogwheel')
+  }).id('create:crafts/seq_large_cogwheel')
 
 //
 });

@@ -1,0 +1,15 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "extendedcrafting:redstone_ingot_block"},
+	{"item": "powah:crystal_spirited"},
+	{"item": "ad_astra:deepslate_calorite_ore"},
+	{"item": "powah:crystal_spirited"},
+	{"item": "extendedcrafting:redstone_ingot_block"}
+  ],
+  "energy": 10000000,
+  "result": {
+	"item": "ad_astra:calorite_ingot",
+	"count": 1
+  }
+}

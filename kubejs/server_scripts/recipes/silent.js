@@ -60,6 +60,13 @@ ServerEvents.recipes(event => {
 
   //ADD
 
+// Azure Electrum Ingot
+  event.shaped('silentgear:azure_electrum_ingot',
+    ['1 1','232','222'], {
+    1: 'emendatusenigmatica:electrum_ingot', 
+    2: 'silentgear:azure_silver_ingot',
+    3: 'minecraft:ender_pearl'}).id('silentgear:azure_electrum_ingot')
+
 // Glowing Dust
   event.shaped('2x silentgear:glowing_dust',
     ['323','212','323'], {

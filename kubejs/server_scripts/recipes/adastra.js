@@ -55,6 +55,22 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ad_astra:recipes/netherite_space_suit'})
   event.remove({id: 'ad_astra:recipes/netherite_space_pants'})
   event.remove({id: 'ad_astra:recipes/netherite_space_boots'})
+
+  event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_blasting_raw_ostrum'})
+  event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_blasting_mars_ostrum_ore'})
+  event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_blasting_deepslate_ostrum_ore'})
+  event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_smelting_raw_ostrum'})
+  event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_smelting_mars_ostrum_ore'})
+  event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_smelting_deepslate_ostrum_ore'})
+
+  event.remove({id: 'ad_astra:recipes/calorite_ingot_from_blasting_raw_calorite'})
+  event.remove({id: 'ad_astra:recipes/calorite_ingot_from_blasting_venus_calorite_ore'})
+  event.remove({id: 'ad_astra:recipes/calorite_ingot_from_blasting_deepslate_calorite_ore'})
+  event.remove({id: 'ad_astra:recipes/calorite_ingot_from_smelting_raw_calorite'})
+  event.remove({id: 'ad_astra:recipes/calorite_ingot_from_smelting_venus_calorite_ore'})
+  event.remove({id: 'ad_astra:recipes/calorite_ingot_from_smelting_deepslate_calorite_ore'})
+
+  event.remove({id: 'thermal:furnace_822402960'})
   event.remove({id: 'ad_astra_giselle_addon:crafting/gravity_normalizer'})
   event.remove({id: 'ad_astra_giselle_addon:crafting/fuel_loader'})
 
