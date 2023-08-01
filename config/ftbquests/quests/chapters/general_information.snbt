@@ -385,6 +385,12 @@
 		{
 			dependencies: ["5587B9934B863EB4"]
 			description: [
+				"With &a&nFTB Essentials&r&r there are several commands you have access to. Here are a few:"
+				""
+				"&3/sethome&r - this command will let you set a personal \"Home\""
+				"&3/home&r - using this command will return you to your Home, once every 5 minutes."
+				"&3/tpa&r - using this command will let you teleport to your friend if they approve the request, once every 5 minutes"
+				""
 				"With &a&nMore Overlays&r&r: "
 				""
 				"If you Click F7 it will enable the Light Level / Mob Spawns overlay. "
