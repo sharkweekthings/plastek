@@ -629,13 +629,11 @@ event.add('kubejs:age_2_item',
   'create:propeller',
   'create:water_wheel',
   'create:large_cogwheel',
-  'create:encased_fan',
-  'create:cogwheel'
+  'create:encased_fan'
   ])
 
 event.add('kubejs:age_2_exception', 
   [
-  'create:cogwheel',
   'silentgear:salvager',
   'silentgear:guide_book',
   'occultism:dictionary_of_spirits',
