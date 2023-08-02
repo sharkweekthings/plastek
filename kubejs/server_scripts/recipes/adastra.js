@@ -56,6 +56,13 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ad_astra:recipes/netherite_space_pants'})
   event.remove({id: 'ad_astra:recipes/netherite_space_boots'})
 
+  event.remove({id: 'ad_astra:recipes/desh_ingot_from_blasting_raw_desh'})
+  event.remove({id: 'ad_astra:recipes/desh_ingot_from_blasting_moon_desh_ore'})
+  event.remove({id: 'ad_astra:recipes/desh_ingot_from_blasting_deepslate_desh_ore'})
+  event.remove({id: 'ad_astra:recipes/desh_ingot_from_smelting_raw_desh'})
+  event.remove({id: 'ad_astra:recipes/desh_ingot_from_smelting_moon_desh_ore'})
+  event.remove({id: 'ad_astra:recipes/desh_ingot_from_smelting_deepslate_desh_ore'})
+
   event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_blasting_raw_ostrum'})
   event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_blasting_mars_ostrum_ore'})
   event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_blasting_deepslate_ostrum_ore'})

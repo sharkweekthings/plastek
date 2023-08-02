@@ -284,6 +284,39 @@ ServerEvents.recipes(event => {
           "results": [{"item": "emendatusenigmatica:plastim_dust"}]
   }).id('emendatusenigmatica:pressure_chamber_plastim_dust')
 
+// Desh Ingot From Raw
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {"item": "ad_astra:raw_desh",},
+        {"item": "pneumaticcraft:ingot_iron_compressed",},
+        {"item": "emendatusenigmatica:brass_dust",},],
+          "pressure": 2.0, 
+          "results": [{"item": "ad_astra:desh_ingot"}]
+  }).id('pneumaticcraft:pc_desh_ingot_from_raw')
+
+// Desh Ingot From Ore
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {"item": "ad_astra:moon_desh_ore",},
+        {"item": "pneumaticcraft:ingot_iron_compressed",},
+        {"item": "emendatusenigmatica:brass_dust",},],
+          "pressure": 2.0, 
+          "results": [{"item": "ad_astra:desh_ingot"}]
+  }).id('pneumaticcraft:pc_desh_ingot_from_ore')
+
+// Desh Ingot From Ore
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {"item": "ad_astra:deepslate_desh_ore",},
+        {"item": "pneumaticcraft:ingot_iron_compressed",},
+        {"item": "emendatusenigmatica:brass_dust",},],
+          "pressure": 2.0, 
+          "results": [{"item": "ad_astra:desh_ingot"}]
+  }).id('pneumaticcraft:pc_desh_ingot_from_ds_ore')
+
 // Blood of Kvasir
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
