@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
     ['323','212','323'], {
     1: 'emendatusenigmatica:steel_block', 
     2: 'supplementaries:ash_brick',
-    3: 'ad_astra:ostrum_plate'}).id('immersiveengineering:crafting/alloybrick')
+    3: 'ad_astra:desh_plate'}).id('immersiveengineering:crafting/alloybrick')
 
 // Engineers Workbench
   event.shaped('immersiveengineering:workbench',
@@ -123,11 +123,12 @@ ServerEvents.recipes(event => {
 
 // Conveyor Basic
   event.shaped('immersiveengineering:conveyor_basic',
-    ['323','323','141'], {
+    ['353','323','141'], {
     1: 'create:shaft',
-    2: '#forge:leather',
+    2: 'ad_astra:ostrum_plate',
 	  3: 'emendatusenigmatica:iron_rod',
-	  4: 'pneumaticcraft:plastic'}).id('immersiveengineering:crafting/conveyor_basic')
+	  4: 'pneumaticcraft:plastic',
+    5: '#forge:leather'}).id('immersiveengineering:crafting/conveyor_basic')
 
 // Conveyor Vertical
   event.shaped('immersiveengineering:conveyor_vertical',
