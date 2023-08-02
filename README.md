@@ -1,4 +1,16 @@
 ##
+## IMPORTANT NOTICE!
+
+Immersive Paintings and Immersive Armors are the only two mods in the pack that are currently left unprotected against the Serialization Vulnerability. The Dev of this Immersive Painting/Armors has confirmed that a patch will be in place in the next few days.  In the meantime, there is a current issue with SerializationIsBad and Immersive Paintings which is causing the world to crash after attempting to place an Immersive Painting. Here are the steps you can take to fix it, until Immersive Paintings updates.
+
+Do NOT attempt to place any Immersive Paintings right now if you have SerializationIsBad installed, otherwise you will need to do one of the following: 
+
+1) Delete the mod SerializationIsBad. This will let you back into your world. As long as you arent playing with people you don't know -- you can go ahead and leave the mod out. It's planned to be removed onced Immersive Paintings patches. 
+
+2) If you ARE playing with strangers, you will need to take SerializationIsBad out, load back into the world, and manually remove any Immersive Paintings that you tried to place.  Once all paintings are removed, you can close the game, and re-add SerializationIsBad. 
+
+
+##
 ## Tips
 
 1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
