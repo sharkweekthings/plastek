@@ -5,7 +5,7 @@ Immersive Paintings and Immersive Armors are the only two mods in the pack that 
 
 Do NOT attempt to place any Immersive Paintings right now if you have SerializationIsBad installed, otherwise you will need to do one of the following: 
 
-1) Delete the mod SerializationIsBad. This will let you back into your world. As long as you arent playing with people you don't know -- you can go ahead and leave the mod out. It's planned to be removed onced Immersive Paintings patches. 
+1) Delete the mod SerializationIsBad. This will let you back into your world. As long as you arent playing with people you don't know -- you can go ahead and leave the mod out. It's planned to be removed once Immersive Paintings patches. 
 
 2) If you ARE playing with strangers, you will need to take SerializationIsBad out, load back into the world, and manually remove any Immersive Paintings that you tried to place.  Once all paintings are removed, you can close the game, and re-add SerializationIsBad. 
 
