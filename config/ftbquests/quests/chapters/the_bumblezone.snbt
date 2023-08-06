@@ -9,7 +9,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["26278A3780FF8495"]
+			dependencies: [
+				"26278A3780FF8495"
+				"430A87670C5B2692"
+				"6456BD406AE2A21A"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Get some solvent ready, cause things are about to get sticky as you wade through endless amounts of honey. "
 				""
@@ -35,13 +40,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"38EF3CCF0F3F50B5"
-				"1983EA84BECBA310"
-				"37B06249C0750803"
-				"6E3DE70C0CE05D06"
-				"4BBE70BF5C3367FD"
-			]
+			dependencies: ["0492055978020330"]
 			description: [
 				"Did you know that Bees love gold? Well, they don't in real life, but luckily we're not in real life. "
 				""
@@ -64,7 +63,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51A7E3255990C9B4"]
@@ -364,7 +363,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["26278A3780FF8495"]
 			description: [
 				"You can push yourself into the Bumblezone via Piston if you prefer."
 				""
@@ -392,7 +390,7 @@
 				}
 			]
 			x: -1.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -425,6 +423,17 @@
 			title: "Honey Eye Recovery"
 			x: 7.5d
 			y: 0.5d
+		}
+		{
+			id: "6456BD406AE2A21A"
+			shape: "circle"
+			tasks: [{
+				id: "62C9B48E822B0B52"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 	title: "The Bumblezone"
