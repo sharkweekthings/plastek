@@ -178,6 +178,8 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'create:vertical_gearbox',
+  'create:gearbox',
   'create:cogwheel',
   'theurgy:divination_rod_t1',
   'create:andesite_alloy_block',
@@ -756,6 +758,8 @@ event.add('kubejs:age_3_item',
 
 event.add('kubejs:age_3_exception', 
   [
+  'create:vertical_gearbox',
+  'create:gearbox',
   'create:crafting_blueprint',
   'ad_astra:oxygen_sensor',
   'ad_astra:oxygen_distributor',
