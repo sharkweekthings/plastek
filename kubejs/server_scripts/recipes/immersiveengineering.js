@@ -71,6 +71,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:crafting/wire_electrum'})
   event.remove({id: 'immersiveengineering:crafting/electrum_mix'})
   event.remove({id: 'immersiveengineering:crafting/craftingtable'})
+  event.remove({id: 'immersiveengineering:crafting/nugget_aluminum_to_ingot_aluminum'})
+  // event.remove({id: 'immersiveengineering:crafting/blueprint_components'})
 
 //
 })
@@ -142,8 +144,13 @@ ServerEvents.recipes(event => {
 	  2: 'emendatusenigmatica:iron_plate'}).id('immersiveengineering:crafting/conveyor_splitter')
 
 
+
+// Components Blueprint
+  event.shapeless(Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'), ['minecraft:copper_ingot', 'emendatusenigmatica:steel_ingot', 'minecraft:iron_ingot', 'minecraft:blue_dye', 'minecraft:blue_dye', 'minecraft:blue_dye', 'minecraft:paper', 'minecraft:paper', 'minecraft:paper'])
+
+
 // Ersatz Leather
-  event.shapeless(Item.of('immersiveengineering:ersatz_leather'), ['minecraft:leather', 'immersiveengineering:hemp_fabric']).id('immersiveengineering:crafting/ersatz_leather')
+  event.shapeless(Item. of('immersiveengineering:ersatz_leather'), ['minecraft:leather', 'immersiveengineering:hemp_fabric']).id('immersiveengineering:crafting/ersatz_leather').id('immersiveengineering:crafting/blueprint_components')
     
 
 //    
