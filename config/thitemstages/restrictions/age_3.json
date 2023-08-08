@@ -25,9 +25,21 @@
       "kubejs:age_3_item"
     ],
     "exceptionList": [
-      {
-        "tag": "kubejs:age_3_exception"
-      }
+      {"tag": "kubejs:age_3_exception"},
+      {"tag": "create:stone_types/granite"},
+      {"tag": "create:stone_types/diorite"},
+      {"tag": "create:stone_types/andesite"},
+      {"tag": "create:stone_types/calcite"},
+      {"tag": "create:stone_types/dripstone"},
+      {"tag": "create:stone_types/deepslate"},
+      {"tag": "create:stone_types/tuff"},
+      {"tag": "create:stone_types/asurine"},
+      {"tag": "create:stone_types/crimsite"},
+      {"tag": "create:stone_types/limestone"},
+      {"tag": "create:stone_types/ochrum"},
+      {"tag": "create:stone_types/scoria"},
+      {"tag": "create:stone_types/scorchia"},
+      {"tag": "create:stone_types/veridium"}
     ],
     "containerList": [],
     "dimensionList": []
