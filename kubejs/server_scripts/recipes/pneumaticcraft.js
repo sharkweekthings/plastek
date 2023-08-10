@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
     2: 'pneumaticcraft:plastic',
     3: 'emendatusenigmatica:steel_plate',
     4: 'pneumaticcraft:printed_circuit_board',
-    5: 'industrialforegoing:laser_lens14'}).id('pneumaticcraft:assembly_laser')
+    5: 'minecraft:red_stained_glass_pane'}).id('pneumaticcraft:assembly_laser')
     
 // Pressure Chamber Valve  
   event.shaped('pneumaticcraft:pressure_chamber_valve', 
