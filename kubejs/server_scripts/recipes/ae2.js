@@ -140,6 +140,43 @@ ServerEvents.recipes(event => {
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('ae2:inscriber/calculation_processor_press')
 
+// 1k ME Storage Component Starter
+	event.custom({
+		"input": [
+			{
+				"item": "minecraft:redstone"
+			},
+			{
+				"item": "pneumaticcraft:transistor"
+			},
+			{
+				"item": "minecraft:redstone"
+			},
+			{
+				"item": "pneumaticcraft:printed_circuit_board"
+			},
+			{
+				"item": "pneumaticcraft:printed_circuit_board"
+			},
+			{
+				"item": "thermal:lapis_dust"
+			},
+			{
+				"item": "pneumaticcraft:capacitor"
+			},
+			{
+				"item": "thermal:lapis_dust"
+			}
+		],
+		"processingTime": 300,
+		"output": {
+			"item": "ae2:cell_component_1k",
+			"count": 1
+		},
+		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
+		"type": "industrialforegoing:dissolution_chamber"
+	}).id('ae2:network/cells/item_storage_components_cell_1k_part_starter')
+
 // Inscriber Silicon Press
 	event.custom({
 		"input": [
