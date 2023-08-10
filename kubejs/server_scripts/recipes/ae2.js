@@ -31,6 +31,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ae2:inscriber/engineering_processor_press'})
   event.remove({id: 'ae2:inscriber/logic_processor_press'})
   event.remove({id: 'ae2:inscriber/silicon_press'})
+//   event.remove({id: 'ae2:network/blocks/io_condenser'})
 
 //
 })
@@ -94,6 +95,13 @@ ServerEvents.recipes(event => {
     ['212','121','212'], {
   1: '#forge:glass',
   2: 'ae2:certus_quartz_crystal'}).id('ae2:decorative/quartz_glass')
+  
+// Matter Condenser
+  event.shaped('ae2:condenser',
+    ['121','232','121'], {
+  1: 'minecraft:iron_ingot',
+  2: '#forge:glass/purple',
+  3: 'ars_nouveau:magebloom_fiber'}).id('ae2:network/blocks/io_condenser')
 
 // Inscriber Calculation Press
 	event.custom({
