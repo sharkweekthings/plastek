@@ -798,7 +798,7 @@
 		{
 			dependencies: ["46A8082BAFA451ED"]
 			description: [
-				"While Coal can smelt 8 items, Coal Coke can smelt 18 items!"
+				"While Coal can smelt 8 items, Coal Coke can smelt 16 items!"
 				""
 				"In most cases you can turn Coal/Coal Coke/etc into a Block and burn the block which improves the fuel efficiency. "
 			]
@@ -809,7 +809,7 @@
 				item: "thermal:coal_coke"
 				type: "item"
 			}]
-			title: "50% Better Than Coal"
+			title: "Better Than Coal"
 			x: 1.0d
 			y: 8.0d
 		}
