@@ -462,6 +462,7 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'thermal:coal_coke_block',
   'silentgear:azure_silver_dust',
   'simplehats:hatdisplay',
   'ae2:ender_dust',
@@ -1209,6 +1210,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'thermal:coal_coke_block',
   'industrialforegoing:mob_imprisonment_tool',
   'thermal:lead_plate',
   'ae2:ender_dust',
