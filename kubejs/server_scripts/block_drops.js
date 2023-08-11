@@ -248,7 +248,7 @@ ServerEvents.blockLootTables(event => {
 // Otherside
 	oreLoot('emendatusenigmatica:fluix_mercury_stone_ore', 'ae2:fluix_dust', {min:2,max:4})
 	oreLoot('emendatusenigmatica:source_deepslate_ore', 'ars_nouveau:source_gem', {min:1,max:3})
-	oreLoot('emendatusenigmatica:certus_quartz_blackstone_ore', 'emendatusenigmatica:quartz_dust', {min:2,max:4})
+	oreLoot('emendatusenigmatica:certus_quartz_blackstone_ore', 'ae2:certus_quartz_dust', {min:2,max:4})
 
 // End
 	oreLoot('emendatusenigmatica:apatite_glacio_stone_ore', 'emendatusenigmatica:apatite_dust', {min:2,max:7})
