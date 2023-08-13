@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			title: "Making Smoothies"
-			x: -3.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -42,7 +42,7 @@
 			rewards: [{
 				id: "787668A9E3B25415"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -62,7 +62,7 @@
 				type: "item"
 			}]
 			title: "Making Juice"
-			x: -2.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{

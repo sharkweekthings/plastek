@@ -314,12 +314,12 @@
 			tasks: [
 				{
 					id: "6FA661FDE66603F8"
-					item: "compressium:cobblestone_2"
+					item: "compressium:cobblestone_1"
 					type: "item"
 				}
 				{
 					id: "582F77CF470F8FC9"
-					item: "compressium:coal_2"
+					item: "compressium:coal_1"
 					type: "item"
 				}
 			]

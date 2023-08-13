@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
 			id: "1911F551B6AA8179"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -37,7 +36,6 @@
 			y: -2.0d
 		}
 		{
-			can_repeat: true
 			id: "4815FAB2FA3ED3C2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -58,7 +56,6 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			hide: false
 			id: "5C899D066568B671"
 			rewards: [{
@@ -74,13 +71,12 @@
 				stat: "minecraft:open_barrel"
 				title: "Open 1000 Barrels"
 				type: "stat"
-				value: 1000
+				value: 2
 			}]
 			x: 2.0d
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			description: ["ring it 10,000 times!"]
 			id: "2B183DD23ECACF2D"
 			rewards: [{
@@ -104,7 +100,6 @@
 			y: -1.5d
 		}
 		{
-			can_repeat: true
 			id: "22ADF51A60B34E3F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -125,7 +120,6 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			id: "21F10D4407703500"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -146,7 +140,6 @@
 			y: 0.5d
 		}
 		{
-			can_repeat: true
 			id: "6EE9D9A011BE89E0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -167,7 +160,6 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			id: "19D7C6D09CCAABA4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -188,7 +180,6 @@
 			y: 1.0d
 		}
 		{
-			can_repeat: true
 			id: "577A63ABDB76FAC9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -209,7 +200,6 @@
 			y: -1.5d
 		}
 		{
-			can_repeat: true
 			id: "1A9E054FACEA6E81"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -230,7 +220,6 @@
 			y: 2.0d
 		}
 		{
-			can_repeat: true
 			id: "774C9A815EB538CE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -244,13 +233,12 @@
 				stat: "minecraft:mob_kills"
 				title: "Kill 1000 Mobs"
 				type: "stat"
-				value: 1000
+				value: 2
 			}]
 			x: 3.0d
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			icon: "ars_nouveau:glyph_exchange"
 			id: "199A67606FDC25C2"
 			rewards: [{
@@ -271,7 +259,6 @@
 			y: 0.5d
 		}
 		{
-			can_repeat: true
 			icon: "lootr:trophy"
 			id: "1A71B12FCD61748C"
 			rewards: [{
@@ -292,7 +279,6 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			icon: {
 				Count: 1b
 				id: "tombstone:decorative_grave_simple"

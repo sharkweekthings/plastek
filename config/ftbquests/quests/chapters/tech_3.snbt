@@ -142,12 +142,20 @@
 			dependencies: ["586DF94B6EBC5027"]
 			id: "6DBE23824C342A2A"
 			shape: "circle"
-			tasks: [{
-				count: 4L
-				id: "64FCE9FE0DB4AE8D"
-				item: "create:fluid_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "64FCE9FE0DB4AE8D"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "586580F1E7DB09DF"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -6.5d
 		}
@@ -178,13 +186,9 @@
 				"3D7E4C603140E8D5"
 			]
 			description: [
-				"You will need to use a Water Wheel (or figure out another way to self sustain the Steam Engine)."
+				"If you opted for some steam power, you may want to set up a dedicated Water Wheel to keep it going.  "
 				""
-				"For this basic system you will want to use a Water Wheel set up with 4 wheels, and Soul Sand. This should net you a Water Wheel with an su of 320."
-				""
-				"Connect the Rotation Speed Controller to the Water Wheel, place a Large Cog on top of it, then finish connecting the shafts to your Mechanical Pump."
-				""
-				"You will need to adjust your Rotation Speed Controller to at least 48 in order to kick everything off. "
+				"With that setup, you may find that you need everything to be just a little bit faster. "
 			]
 			id: "183791C103E334D4"
 			rewards: [{
@@ -194,9 +198,8 @@
 			}]
 			shape: "circle"
 			tasks: [{
-				count: 4L
-				id: "567221CD880A4B74"
-				item: "minecraft:lava_bucket"
+				id: "40B4620F01A3232E"
+				item: "create:large_water_wheel"
 				type: "item"
 			}]
 			title: "Dedicated Water Wheel"
