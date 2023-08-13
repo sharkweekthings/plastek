@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "alexsmob:farseer",
+      "id": "alexsmobs:farseer",
       "required": false
     },
     {
-      "id": "alexsmob:centipede_head",
+      "id": "alexsmobs:centipede_head",
       "required": false
     },
     {
