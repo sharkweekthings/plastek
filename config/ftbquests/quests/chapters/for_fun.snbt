@@ -71,7 +71,7 @@
 				stat: "minecraft:open_barrel"
 				title: "Open 1000 Barrels"
 				type: "stat"
-				value: 2
+				value: 1000
 			}]
 			x: 2.0d
 			y: -0.5d
@@ -220,9 +220,9 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			id: "774C9A815EB538CE"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "17C47ADF96B72025"
 				table_id: 3325230720908722317L
 				type: "random"
@@ -233,7 +233,7 @@
 				stat: "minecraft:mob_kills"
 				title: "Kill 1000 Mobs"
 				type: "stat"
-				value: 2
+				value: 1000
 			}]
 			x: 3.0d
 			y: -0.5d

@@ -190,6 +190,7 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('minecraft:copper_ore', 'emendatusenigmatica:copper_crystal', {min:1,max:3})
 	oreLoot('create:deepslate_zinc_ore', 'emendatusenigmatica:zinc_crystal', {min:2,max:4})
 	oreLoot('thermal:deepslate_tin_ore', 'emendatusenigmatica:tin_crystal', {min:2,max:4})
+	oreLoot('silentgear:bort_ore', 'silentgear:bort', {min:1,max:2})
 
 // Bumblezone
 	oreLoot('mysticalagriculture:prosperity_ore', 'mysticalagriculture:prosperity_shard', {min:1,max:2})
@@ -244,6 +245,7 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('ad_astra:venus_diamond_ore', 'minecraft:diamond', {min:1,max:3})
 	oreLoot('mythicbotany:dragonstone_ore', 'botania:dragonstone', {min:1,max:1})
 	oreLoot('silentcompat:arcmetal_ore', 'emendatusenigmatica:arcmetal_crystal', {min:2,max:7})
+	oreLoot('silentgear:deepslate_bort_ore', 'silentgear:bort', {min:2,max:4})
 
 // Otherside
 	oreLoot('emendatusenigmatica:fluix_mercury_stone_ore', 'ae2:fluix_dust', {min:2,max:4})

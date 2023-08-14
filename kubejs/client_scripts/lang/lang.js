@@ -12,8 +12,8 @@
   	rename('ad_astra:mercury_iron_ore', "Rich Iron Ore")
 
 // EMENDATUS ENIGMATICA
-  	rename('emendatusenigmatica:apatite_moon_stone_ore', "Rich Apatite Ore")
-  	rename('emendatusenigmatica:apatite_glacio_stone_ore', "Apatite Ore")
+  	rename('emendatusenigmatica:apatite_moon_stone_ore', "Apatite Ore")
+  	rename('emendatusenigmatica:apatite_glacio_stone_ore', "Rich Apatite Ore")
   	rename('emendatusenigmatica:certus_quartz_blackstone_ore', "Certus Quartz Ore")
   	rename('emendatusenigmatica:charged_certus_quartz_mercury_stone_ore', "Charged Certus Quartz Ore")
   	rename('emendatusenigmatica:fluix_mercury_stone_ore', "Fluix Ore")
