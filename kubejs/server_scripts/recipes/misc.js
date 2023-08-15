@@ -1058,6 +1058,29 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'compressium:stone_1',
     2: 'minecraft:bone_meal',
     3: 'minecraft:compass'}).id('explorerscompass:misc/explorerscompass')
+    
+// Mega Torch
+  event.shaped('torchmaster:megatorch', 
+    ['333','313','222'], {
+    1: 'reliquary:lantern_of_paranoia',
+    2: 'occultism:spirit_attuned_gem',
+    3: 'minecraft:torch'}).id('torchmaster:megatorch')
+    
+// Dread Lamp
+  event.shaped('torchmaster:dreadlamp', 
+    ['222','313','222'], {
+    1: 'torchmaster:megatorch',
+    2: 'minecraft:obsidian',
+    3: '#forge:glass_panes'}).id('torchmaster:dreadlamp')
+    
+// Feral Flare Lantern
+  event.shaped('torchmaster:feral_flare_lantern', 
+    ['222','313','222'], {
+    1: 'torchmaster:megatorch',
+    2: 'minecraft:gold_ingot',
+    3: '#forge:glass_panes'}).id('torchmaster:feral_flare_lantern')
+
+
 
 // Planter
   event.shapeless(Item.of('supplementaries:planter'), ['minecraft:flower_pot', 'minecraft:dirt']).id('supplementaries:planter')
