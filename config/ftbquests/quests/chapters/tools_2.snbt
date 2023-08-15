@@ -651,6 +651,56 @@
 			x: -2.5d
 			y: -3.5d
 		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: ["Blocks hostile mob spawns in a 64 block radius in each direction around the torch."]
+			id: "3A6C953F679115B2"
+			shape: "circle"
+			tasks: [{
+				id: "714D2521CA2303BE"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "68A5E02BB5CF2233"
+			shape: "circle"
+			tasks: [{
+				id: "67B3AE47535BD6BB"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A6C953F679115B2"]
+			description: ["Blocks neutral mob spawns in a 64 block radius in each direction around the lamp."]
+			id: "0AFC04D1E7E75275"
+			shape: "circle"
+			tasks: [{
+				id: "0814D3AFB6FECB73"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68A5E02BB5CF2233"]
+			id: "1723DE60A4E3B77F"
+			shape: "circle"
+			tasks: [{
+				id: "1523E0FADB584B8C"
+				item: "torchmaster:frozen_pearl"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
 	]
 	title: "Utility"
 }

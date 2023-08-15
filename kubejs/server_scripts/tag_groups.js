@@ -178,6 +178,7 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'botania:brown_petal',
   'create:vertical_gearbox',
   'create:gearbox',
   'create:cogwheel',
@@ -921,6 +922,7 @@ event.add('kubejs:age_3_exception',
   'botania:purple_petal',
   'botania:gray_double_flower',
   'botania:yellow_petal',
+  'botania:brown_petal',
   'botania:green_mystical_flower',
   'botania:brown_mystical_flower',
   'botania:white_petal',
@@ -2000,6 +2002,9 @@ event.add('kubejs:loot_1',
   ])
 
 event.remove('twilightforest:portal/activator', 'minecraft:diamond')
+
+// event.add('silentgear:saw', '#natprog:saw')
+event.add('natprog:saw', 'silentgear:saw')
 
 //
 })

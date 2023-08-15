@@ -220,7 +220,6 @@
 			y: 2.0d
 		}
 		{
-			can_repeat: true
 			id: "774C9A815EB538CE"
 			rewards: [{
 				id: "17C47ADF96B72025"
@@ -229,9 +228,8 @@
 			}]
 			shape: "circle"
 			tasks: [{
-				id: "6D6C239AD57B8CE1"
+				id: "645864FA3F6CBE4F"
 				stat: "minecraft:mob_kills"
-				title: "Kill 1000 Mobs"
 				type: "stat"
 				value: 1000
 			}]
@@ -361,7 +359,7 @@
 			]
 			title: "Easter Hats"
 			x: 1.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -427,7 +425,7 @@
 			]
 			title: "Summer Hats"
 			x: 2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -486,7 +484,7 @@
 			]
 			title: "Halloween Hats"
 			x: 3.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -545,7 +543,201 @@
 			]
 			title: "Festive Hats"
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "497EB09BBEB99CE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E122A775DB7E883"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1B90D62362D2FA00"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "2B55C0A8A2EB0B35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10A74838E22BA113"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "1EE92A78B881BF94"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "276187115DFE694C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17A7014CBEEF2F9E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "777BFE8CE35992CC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "472C85C9DE8C9AE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4281CDFEAF05FE2A"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "208F381EF7D20FE1"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "3DF8FD4C3F26A6B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30DE49A7BD723C9E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7CE42F4E88ECDBFA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "0556F43BEE5E4A5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E6BFDD9253B43F0"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:villager"
+				id: "49160EAFDB0D0EA9"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:turtle_egg"
+			id: "77D038C542742148"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D4E7910DCEB2B76"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "ad_astra:lunarian"
+				icon: "minecraft:turtle_egg"
+				id: "123ACE048630CC13"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "53550D3BA82CC16B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0693D49669EC7E25"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "27D7E651B1454AFD"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "7B91EA2BDD1A437C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3468AE9BECCB611F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "ad_astra:lunarian_wandering_trader"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "1A175F4E3E3C0A21"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "41C4395D9034FBAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20AA49A5F0EAC5D9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "00F8A5758014B476"
+				type: "kill"
+				value: 200L
+			}]
+			x: 6.5d
+			y: 1.5d
 		}
 	]
 	title: "For Fun"
