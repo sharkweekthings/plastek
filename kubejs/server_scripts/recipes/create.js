@@ -642,6 +642,24 @@ event.custom({
   "results": [{"item": "emendatusenigmatica:sterling_silver_plate"}]
   }).id('create:pressing/sterling_silver_plate')
 
+  event.custom({
+  "type": "create:filling","ingredients": [
+    {"tag": "minecraft:planks"},
+    {
+      "amount": 250,
+      "fluid": "immersiveengineering:creosote",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    }
+  ]
+}).id('create:filling/treated_wood')
+
+
+
 //    
 })
 //
