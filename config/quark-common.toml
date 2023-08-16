@@ -655,7 +655,7 @@
 		#Can Charcoal be crafted into Black Dye?
 		"Charcoal To Black Dye" = true
 		#Can two Logs be used instead of a Chest to make a Hopper?
-		"Easy Hopper" = true
+		"Easy Hopper" = false
 		#Can two Logs be used to craft 16 sticks?
 		"Easy Sticks" = true
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?

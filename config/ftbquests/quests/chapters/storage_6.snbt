@@ -73,6 +73,29 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"You can have a crafting remote earlier than AE2. "
+				""
+				"But it's not gonna be easy."
+			]
+			id: "753B4DCFDC3AF8AD"
+			shape: "circle"
+			subtitle: "Okay, I caved."
+			tasks: [{
+				id: "028BA6A01E3BA7FA"
+				item: {
+					Count: 1b
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "A Crafting Remote?!"
+			x: 1.0d
+			y: -1.5d
+		}
 	]
 	title: "Storage"
 }

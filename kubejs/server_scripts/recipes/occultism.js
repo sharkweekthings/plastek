@@ -31,6 +31,13 @@ ServerEvents.recipes(event => {
 
   //ADD
 
+// Inert Storage Remote
+  event.shaped('occultism:storage_remote_inert',
+    ['131','212','222'], {
+    1: 'emendatusenigmatica:electrum_plate',
+    2: 'minecraft:stone_button',
+    3: 'storagenetwork:inventory_remote'}).id('occultism:crafting/storage_remote_inert')
+
 // Golden Sacrificial Bowl
   event.shaped('occultism:golden_sacrificial_bowl',
     ['212','131','212'], {

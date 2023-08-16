@@ -701,6 +701,18 @@
 			x: 5.0d
 			y: -7.0d
 		}
+		{
+			dependencies: ["7010308F4F836BAD"]
+			id: "2FCD2B8D09CF00E7"
+			shape: "circle"
+			tasks: [{
+				id: "5F178E2A9A24B9B6"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
 	]
 	title: "Utility"
 }

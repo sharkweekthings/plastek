@@ -328,7 +328,7 @@
 				type: "checkmark"
 			}]
 			title: "Simple Storage"
-			x: 3.5d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -357,7 +357,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -376,7 +376,7 @@
 				item: "storagenetwork:kabel"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -400,7 +400,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -420,7 +420,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -433,7 +433,7 @@
 				item: "storagenetwork:export_kabel"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -982,6 +982,90 @@
 			}]
 			x: -5.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["28699AB195F74472"]
+			description: [
+				"While Simple Storage is the intended storage for the pack, Occultism offers a pretty nice storage system as well. "
+				""
+				"If you want to go with this storage, you'll need the components in this quest series to get rolling. "
+			]
+			hide_dependency_lines: true
+			id: "7F3DF4D3C5AAD86A"
+			shape: "circle"
+			tasks: [{
+				id: "6102077003AB0198"
+				item: "occultism:storage_controller_base"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28699AB195F74472"]
+			hide_dependency_lines: true
+			id: "30B931DC59CDB414"
+			shape: "circle"
+			tasks: [{
+				id: "647F64A24073DE71"
+				item: {
+					Count: 1b
+					id: "occultism:dimensional_matrix"
+					tag: {
+						spiritName: "Harzirlind"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28699AB195F74472"]
+			hide_dependency_lines: true
+			id: "42851517DCF2EA72"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "71872C0A3B2F678F"
+					item: "occultism:storage_stabilizer_tier1"
+					type: "item"
+				}
+				{
+					id: "6BA3FA4665C48B9C"
+					item: "occultism:storage_stabilizer_tier2"
+					type: "item"
+				}
+				{
+					id: "2BDDACF65C04AC1D"
+					item: "occultism:storage_stabilizer_tier3"
+					type: "item"
+				}
+				{
+					id: "2B29C0C51578C093"
+					item: "occultism:storage_stabilizer_tier4"
+					type: "item"
+				}
+			]
+			title: "Storage Stabilizers"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F3DF4D3C5AAD86A"
+				"30B931DC59CDB414"
+			]
+			id: "573D609224362B90"
+			shape: "circle"
+			tasks: [{
+				id: "44E1C33029AC268D"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
 		}
 	]
 	title: "Storage"

@@ -20,7 +20,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mob_grinding_utils:recipe_solidifier'})
   event.remove({id: 'mob_grinding_utils:recipe_mould_reset'})
   event.remove({id: 'mob_grinding_utils:recipe_mould_blank'})
-  event.remove({id: 'mob_grinding_utils:recipe_absorbtion_hopper'})
   event.remove({id: 'mob_grinding_utils:recipe_saw'})
   event.remove({id: 'mob_grinding_utils:recipe_xp_tap'})
   event.remove({id: 'mob_grinding_utils:recipe_mould_baby_upgrade'})
@@ -70,7 +69,7 @@ ServerEvents.recipes(event => {
 // Absorption Hopper
   event.shaped('mob_grinding_utils:absorption_hopper',
     ['222','232','111'], {
-    1: 'minecraft:hopper',
+    1: 'woodenhopper:wooden_hopper',
     2: 'emendatusenigmatica:iron_plate',
     3: 'minecraft:diamond_block'}).id('mob_grinding_utils:recipe_absorbtion_hopper')
 

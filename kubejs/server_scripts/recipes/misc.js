@@ -176,6 +176,12 @@ ServerEvents.recipes(event => {
 
   //ADD
 
+// Wooden Hopper
+  event.shaped('woodenhopper:wooden_hopper',
+    ['1 1','121',' 1 '], {
+    1: '#forge:treated_wood',
+    2: '#forge:chests/wooden'}).id('woodenhopper:wooden_hopper')
+
 // Redstone Ingot
   event.shaped('extendedcrafting:redstone_ingot',
     ['111','121','111'], {
@@ -1079,6 +1085,16 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'torchmaster:megatorch',
     2: 'minecraft:gold_ingot',
     3: '#forge:glass_panes'}).id('torchmaster:feral_flare_lantern')
+    
+// Item Storage Terminal
+  event.shaped('prettypipes:item_terminal', 
+    ['123','465','321'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:ender_pearl',
+    3: 'minecraft:iron_block',
+    4: "prettypipes:high_retrieval_module",
+    5: "prettypipes:high_extraction_module",
+    6: "storagenetwork:master"}).id('prettypipes:item_terminal')
 
 
 

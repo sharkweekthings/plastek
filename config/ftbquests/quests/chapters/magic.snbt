@@ -534,7 +534,11 @@
 		}
 		{
 			dependencies: ["2F5CEEB974A828E0"]
-			description: ["When unlocked in Age 6 -- Mystical Agriculture will not work with Botany Pots, so you will need to find alternative ways to farm those seeds."]
+			description: [
+				"The Hopper Botany Pot cannot be made until Age 3 when the vanilla Hopper unlocks."
+				""
+				"When unlocked in Age 6 -- Mystical Agriculture will not work with Botany Pots, so you will need to find alternative ways to farm those seeds."
+			]
 			id: "4CD0E6121CD44ABE"
 			shape: "circle"
 			tasks: [

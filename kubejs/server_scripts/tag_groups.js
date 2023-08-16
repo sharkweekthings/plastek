@@ -389,6 +389,7 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'minecraft:hopper',
   'minecraft:barrier',
   'silentgear:azure_silver_dust',
   'minecraft:chest',
@@ -463,6 +464,7 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'woodenhopper:wooden_hopper',
   'thermal:coal_coke_block',
   'silentgear:azure_silver_dust',
   'simplehats:hatdisplay',
@@ -635,6 +637,8 @@ event.add('kubejs:age_2_item',
 
 event.add('kubejs:age_2_exception', 
   [
+  'occultism:storage_remote_inert',
+  'occultism:storage_remote',
   'silentgear:salvager',
   'silentgear:guide_book',
   'occultism:dictionary_of_spirits',
@@ -688,6 +692,7 @@ event.add('kubejs:age_2_exception',
 
 event.add('kubejs:age_3_item', 
   [
+  'minecraft:hopper',
   'industrialforegoing:mob_imprisonment_tool',
   'pneumaticcraft:reinforced_chest',
   'apotheosis:seashelf',
@@ -1019,6 +1024,8 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'occultism:storage_remote_inert',
+  'occultism:storage_remote',
   'thermal:lead_plate',
   'kubejs:advanced_pressure_tube_parts',
   'kubejs:incomplete_green_board',
