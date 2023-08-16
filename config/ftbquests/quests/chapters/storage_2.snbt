@@ -356,6 +356,10 @@
 					item: "storagenetwork:request"
 					type: "item"
 				}
+				{
+					id: "52E6BB5534EBCF8F"
+					type: "custom"
+				}
 			]
 			x: 0.5d
 			y: 0.5d
@@ -989,6 +993,8 @@
 				"While Simple Storage is the intended storage for the pack, Occultism offers a pretty nice storage system as well. "
 				""
 				"If you want to go with this storage, you'll need the components in this quest series to get rolling. "
+				""
+				"With this storage system, you will have access to a &astorage remote with crafting capabilities&r in Age 4."
 			]
 			hide_dependency_lines: true
 			id: "7F3DF4D3C5AAD86A"
@@ -1022,6 +1028,11 @@
 		}
 		{
 			dependencies: ["28699AB195F74472"]
+			description: [
+				"The T1 Storage Stabilizer is the easiest of the bunch to make. "
+				""
+				"While T2-T4 are unlocked in Age 2, their material cost may not be possible until later ages."
+			]
 			hide_dependency_lines: true
 			id: "42851517DCF2EA72"
 			optional: true
