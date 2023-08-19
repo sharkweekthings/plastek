@@ -1082,8 +1082,8 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 // Feral Flare Lantern
   event.shaped('torchmaster:feral_flare_lantern', 
     ['222','313','222'], {
-    1: 'torchmaster:megatorch',
-    2: 'minecraft:gold_ingot',
+    1: 'minecraft:sea_lantern',
+    2: 'emendatusenigmatica:gold_plate',
     3: '#forge:glass_panes'}).id('torchmaster:feral_flare_lantern')
     
 // Item Storage Terminal
