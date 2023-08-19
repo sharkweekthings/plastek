@@ -83,10 +83,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'sophisticatedbackpacks:blasting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:auto_blasting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:upgrade_base'})
-  event.remove({id: 'sophisticatedbackpacks:iron_backpack'})
-  event.remove({id: 'sophisticatedbackpacks:gold_backpack'})
-  event.remove({id: 'sophisticatedbackpacks:diamond_backpack'})
-  event.remove({id: 'sophisticatedbackpacks:netherite_backpack'})
   event.remove({id: 'storagenetwork:inventory'})
   event.remove({id: 'storagenetwork:exchange'})
   event.remove({id: 'storagenetwork:collector'})
@@ -619,34 +615,6 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'minecraft:leather',
     3: 'totemic:buffalo_hide',
     4: 'minecraft:string'}).id('sophisticatedbackpacks:misc/backpack')
-
-// Iron Backpack
-  event.shaped('sophisticatedbackpacks:iron_backpack', 
-    ['121','232','121'], {
-    1: 'minecraft:iron_block', 
-    2: 'emendatusenigmatica:iron_plate',
-    3: 'sophisticatedbackpacks:backpack'}).id('sophisticatedbackpacks:misc/iron_backpack')
-
-// Gold Backpack
-  event.shaped('sophisticatedbackpacks:gold_backpack', 
-    ['121','232','121'], {
-    1: 'minecraft:gold_block', 
-    2: 'emendatusenigmatica:gold_plate',
-    3: 'sophisticatedbackpacks:iron_backpack'}).id('sophisticatedbackpacks:misc/gold_backpack')
-
-// Diamond Backpack
-  event.shaped('sophisticatedbackpacks:diamond_backpack', 
-    ['121','232','121'], {
-    1: 'minecraft:diamond',
-    2: 'minecraft:diamond_block',
-    3: 'sophisticatedbackpacks:gold_backpack'}).id('sophisticatedbackpacks:misc/diamond_backpack')
-
-// Netherite Backpack
-  event.shaped('sophisticatedbackpacks:netherite_backpack', 
-    ['121','232','121'], {
-    1: 'minecraft:netherite_block', 
-    2: 'create:sturdy_sheet',
-    3: 'sophisticatedbackpacks:diamond_backpack'}).id('sophisticatedbackpacks:misc/netherite_backpack')
 
 // Upgrade Base
   event.shaped('sophisticatedbackpacks:upgrade_base', 

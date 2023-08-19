@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:netherite_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "BPB",
+    "PIP",
+    "BPB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_block"
+    },
+    "I": {
+      "item": "sophisticatedbackpacks:diamond_backpack"
+    },
+    "P": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:netherite_backpack"
+  }
+}

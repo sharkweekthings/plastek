@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "BPB",
+    "PIP",
+    "BPB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "I": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "P": {
+      "item": "emendatusenigmatica:gold_plate"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

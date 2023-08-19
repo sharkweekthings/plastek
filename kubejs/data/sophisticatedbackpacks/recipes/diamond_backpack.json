@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:diamond_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "BPB",
+    "PIP",
+    "BPB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "I": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    },
+    "P": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  }
+}
