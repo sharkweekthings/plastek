@@ -464,7 +464,6 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
-  'woodenhopper:wooden_hopper',
   'thermal:coal_coke_block',
   'silentgear:azure_silver_dust',
   'simplehats:hatdisplay',
