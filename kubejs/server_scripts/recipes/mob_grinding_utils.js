@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
     ['444','434','121'], {
     1: 'minecraft:piston',
     2: 'mob_grinding_utils:tank',
-    3: 'minecraft:hopper',
+    3: 'woodenhopper:wooden_hopper',
     4: 'emendatusenigmatica:iron_plate'}).id('mob_grinding_utils:recipe_solidifier')
 
 // XP Mould Blank
