@@ -581,7 +581,15 @@
 				"3F3A305DB84B1A1E"
 				"564AA140606FC4F4"
 			]
+			description: [
+				"Are you ready to go to the Moon? "
+				""
+				"No. Not yet. "
+				""
+				"First you'll need to build your Tier 1 Rocket, a Space Suit, Fuel, and a way to retain Oxygen while you're out there. "
+			]
 			id: "5C177330670C0A81"
+			subtitle: "To the Moon!"
 			tasks: [{
 				id: "27A2C79008B4EDB3"
 				title: "Ok"
@@ -1007,15 +1015,6 @@
 				"In order to process any Honeycombs into resources, honey, and other fluids -- you're going to need at least a Basic Centrifuge."
 			]
 			id: "2DB43F74D53D9EEE"
-			rewards: [{
-				id: "4D5A80BD17D159FD"
-				item: {
-					Count: 1b
-					id: "productivebees:nest_locator"
-					tag: { }
-				}
-				type: "item"
-			}]
 			subtitle: "When they've found their honey!"
 			tasks: [{
 				id: "2944288FA658C72E"

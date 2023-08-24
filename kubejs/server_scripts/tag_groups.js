@@ -464,6 +464,8 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'mysticalagriculture:inferium_essence',
+  'thermal:rubber_block',
   'immersiveengineering:coke_oven',
   'thermal:coal_coke_block',
   'silentgear:azure_silver_dust',
@@ -1220,6 +1222,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'thermal:rubber_block',
   'thermal:coal_coke_block',
   'industrialforegoing:mob_imprisonment_tool',
   'thermal:lead_plate',
@@ -1372,6 +1375,7 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mysticalagriculture:inferium_essence',
   'mekanism:sawdust',
   'mekanism:cardboard_box',
   'mekanism:digital_miner',
