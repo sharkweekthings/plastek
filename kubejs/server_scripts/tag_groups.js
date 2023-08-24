@@ -178,6 +178,8 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'create:honey_bucket',
+  'productivebees:honey_bucket',
   'botania:brown_petal',
   'create:vertical_gearbox',
   'create:gearbox',
@@ -764,6 +766,8 @@ event.add('kubejs:age_3_item',
 
 event.add('kubejs:age_3_exception', 
   [
+  'create:honey_bucket',
+  'productivebees:honey_bucket',
   'create:vertical_gearbox',
   'create:gearbox',
   'create:crafting_blueprint',

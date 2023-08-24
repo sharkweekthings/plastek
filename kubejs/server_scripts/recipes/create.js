@@ -637,6 +637,7 @@ event.custom({
   ]
 }).id('create:milling/iron_dust')
 
+// Treated Wood
 event.custom({
   "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:sterling_silver_ingot","count": 1}],
   "results": [{"item": "emendatusenigmatica:sterling_silver_plate"}]
@@ -657,6 +658,48 @@ event.custom({
     }
   ]
 }).id('create:filling/treated_wood')
+
+// Leather Grind
+event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 4,
+      "item": "silentgear:leather_scrap"
+    },
+    {
+      "chance": 0.1,
+      "count": 2,
+      "item": "silentgear:leather_scrap"
+    }
+  ]
+}).id('create:milling/leather_to_scrap')// Leather Grind
+event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "totemic:buffalo_hide"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 4,
+      "item": "silentgear:leather_scrap"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+      "item": "rootsclassic:dark_oak_bark"
+    }
+  ]
+}).id('create:milling/durable_leather_to_scrap')
 
 
 
