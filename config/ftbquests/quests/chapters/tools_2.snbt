@@ -162,7 +162,11 @@
 		}
 		{
 			dependencies: ["7B2BE8EF4B077ABF"]
-			description: ["This tool has many uses such as finding out information about certain Botania blocks, as well as activating the Alfheim Portal."]
+			description: [
+				"This tool has many uses such as finding out information about certain Botania blocks, as well as activating the Alfheim Portal."
+				""
+				"Thanks to a player by the name of &bQuarris&r, if you highlight over your Mana Pool with a Wand of the Forest -- you will be able to see the total amount of mana you have in that Mana Pool! "
+			]
 			id: "7510B8270AB11333"
 			tasks: [{
 				id: "115E52EA16B406D9"

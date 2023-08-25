@@ -703,17 +703,24 @@
 			]
 			shape: "gear"
 			subtitle: "From here, it's time to navigate over to the Moon tab!"
-			tasks: [{
-				id: "1D8CE754CBCCF1BD"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rocket"
-					tag: {
-						BotariumData: { }
+			tasks: [
+				{
+					id: "1D8CE754CBCCF1BD"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7EAFB8C34D64EF1C"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 7.0d
 		}

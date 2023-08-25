@@ -92,6 +92,12 @@ ServerEvents.recipes(event => {
 
   //ADD
     
+// Launch Pad
+  event.shaped('ad_astra:launch_pad', 
+    ['121','212','121'], {
+    1: 'industrialforegoing:plastic',
+    2: 'emendatusenigmatica:iron_plate'}).id('ad_astra:recipes/launch_pad')
+    
 // Nasa Workbench 
   event.shaped('ad_astra:nasa_workbench', 
     ['565','343','121'], {
