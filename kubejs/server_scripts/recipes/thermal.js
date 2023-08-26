@@ -429,7 +429,7 @@ ServerEvents.recipes(event => {
     },
     {
       "item": "silentgear:leather_scrap",
-      "count": 5
+      "count": 2
     },
     {
       "item": "thermal:rosin",
@@ -455,7 +455,7 @@ ServerEvents.recipes(event => {
     },
     {
       "item": "silentgear:leather_scrap",
-      "count": 5
+      "count": 2
     },
     {
       "item": "thermal:tar",
