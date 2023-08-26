@@ -273,7 +273,7 @@
 			shape: "circle"
 			tasks: [
 				{
-					biome: "biomesoplenty:highland"
+					biome: "twilightforest:highlands"
 					id: "64DF3DA20C1589AA"
 					type: "biome"
 				}
