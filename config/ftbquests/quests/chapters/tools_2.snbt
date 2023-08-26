@@ -180,6 +180,7 @@
 				}
 				type: "item"
 			}]
+			title: "Wand of the Forest"
 			x: 4.0d
 			y: -2.0d
 		}
