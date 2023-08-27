@@ -346,24 +346,60 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
-        {"item": "compressium:diamond_3",},
-        {"item": "compressium:diamond_3",},
-        {"item": "powah:crystal_spirited",},
-        {"item": "powah:crystal_spirited",},
-        {"item": "mekanism:enriched_diamond",},
-        {"item": "mekanism:enriched_diamond",}],
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "compressium:diamond_3"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "powah:crystal_spirited"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "mekanism:enriched_diamond"
+        },],
           "pressure": 2.5, 
           "results": [{"item": "angelring:diamond_ring"}]
   }).id('angelring:pressure_chamber_diamond_ring')
 
-// Growth Powder
+
+
+
+  // Growth Powder
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
-        {"item": "rootsclassic:verdant_sprig",},
-        {"item": "rootsclassic:verdant_sprig",},
-        {"item": "minecraft:wheat_seeds",},
-        {"item": "minecraft:wheat_seeds",}],
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "rootsclassic:verdant_sprig"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "minecraft:wheat_seeds"
+        },],
+          "pressure": 2.5, 
+          "results": [{"item": "rootsclassic:growth_powder"}]
+  }).id('rootsclassic:growth_powder_pc')
+
+  // Growth Powder
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "rootsclassic:verdant_sprig"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "minecraft:wheat_seeds"
+        },],
           "pressure": 2.5, 
           "results": [{"item": "rootsclassic:growth_powder"}]
   }).id('rootsclassic:growth_powder_pc')
