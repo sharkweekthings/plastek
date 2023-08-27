@@ -1030,6 +1030,7 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'mekanism:dust_obsidian',
   'occultism:storage_remote_inert',
   'occultism:storage_remote',
   'thermal:lead_plate',
@@ -1379,6 +1380,7 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mekanism:dust_obsidian',
   'mysticalagriculture:inferium_essence',
   'mekanism:sawdust',
   'mekanism:cardboard_box',
