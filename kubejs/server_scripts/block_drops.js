@@ -205,7 +205,7 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('thermal:deepslate_silver_ore', 'emendatusenigmatica:silver_crystal', {min:3,max:6})
 
 // Nether
-	oreLoot('minecraft:ancient_debris', 'minecraft:ancient_debris', {min:1,max:3})
+	// oreLoot('minecraft:ancient_debris', 'minecraft:ancient_debris', {min:1,max:3})
 	oreLoot('mysticalagriculture:soulium_ore', 'mysticalagriculture:soulium_dust', {min:2,max:4})
 	oreLoot('minecraft:nether_gold_ore', 'minecraft:raw_gold', {min:1,max:1})
 	oreLoot('minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_crystal', {min:3,max:6})

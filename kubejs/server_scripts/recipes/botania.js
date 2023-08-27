@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botania:terra_plate'})
   event.remove({id: 'botania:mana_infusion/rotten_flesh_to_leather'})
   event.remove({id: 'botania:mana_infusion/mana_diamond_block'})
+  event.remove({id: 'botania:glimmering_livingwood_from_log'})
   
 //
 })
