@@ -8,8 +8,8 @@
 
 LootJS.modifiers(event => {
     // event.enableLogging();
-    event.addLootTableModifier(/.*/).replaceLoot("minecraft:leather", "silentgear:leather_scrap");
-    event.addLootTableModifier(/.*/).replaceLoot("totemic:buffalo_hide", "silentgear:leather_scrap");
+    event.addLootTableModifier(/.*/).replaceLoot("minecraft:leather", "silentgear:leather_scrap", true);
+    event.addLootTableModifier(/.*/).replaceLoot("totemic:buffalo_hide", "silentgear:leather_scrap", true);
     event.addLootTableModifier(/.*/).replaceLoot("deeperdarker:heart_of_the_deep", "kubejs:empty_heart_of_the_deep");
 
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:lapis_lazuli", "inventorypets:nugget_lapis");
