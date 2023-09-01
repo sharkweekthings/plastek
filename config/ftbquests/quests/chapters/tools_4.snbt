@@ -63,8 +63,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -79,8 +79,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -95,8 +95,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -111,8 +111,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -127,8 +127,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -143,8 +143,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["48D65877C05F1D79"]
@@ -203,8 +203,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["281EE59C33F78909"]
@@ -221,8 +221,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["281EE59C33F78909"]
@@ -239,8 +239,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["281EE59C33F78909"]
@@ -257,8 +257,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["281EE59C33F78909"]
@@ -275,7 +275,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -489,6 +489,92 @@
 			}]
 			x: -0.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: ["With Pretty Pipes: Fluids, you'll be able to transfer your fluids around much easier. "]
+			id: "402FFFD366D4B390"
+			shape: "circle"
+			subtitle: "It can do fluids too!?"
+			tasks: [{
+				id: "13BDD481C0DDE00F"
+				item: "ppfluids:fluid_pipe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["402FFFD366D4B390"]
+			id: "6634C3DFF06F5FA6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0C91238F6551946D"
+					item: "ppfluids:low_fluid_extraction_module"
+					type: "item"
+				}
+				{
+					id: "55FB65592633FD62"
+					item: "ppfluids:medium_fluid_extraction_module"
+					type: "item"
+				}
+				{
+					id: "7D4129332AA17879"
+					item: "ppfluids:high_fluid_extraction_module"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["402FFFD366D4B390"]
+			id: "0BDB715DB74F5148"
+			shape: "circle"
+			tasks: [
+				{
+					id: "49223DF75D481DB6"
+					item: "ppfluids:low_fluid_filter_module"
+					type: "item"
+				}
+				{
+					id: "7E002169A6C03F29"
+					item: "ppfluids:medium_fluid_filter_module"
+					type: "item"
+				}
+				{
+					id: "28467D8443797D81"
+					item: "ppfluids:high_fluid_filter_module"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["402FFFD366D4B390"]
+			id: "623E5AF7AE64D3A7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "272F80FED431DFBB"
+					item: "ppfluids:low_fluid_retrieval_module"
+					type: "item"
+				}
+				{
+					id: "21DF10BFC89CDD04"
+					item: "ppfluids:medium_fluid_retrieval_module"
+					type: "item"
+				}
+				{
+					id: "745448CFE645F49C"
+					item: "ppfluids:high_fluid_retrieval_module"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
 		}
 	]
 	title: "Utility"

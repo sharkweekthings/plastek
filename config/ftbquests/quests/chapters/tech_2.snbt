@@ -806,7 +806,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "643A10EC597DF1AB"
-				item: "thermal:coal_coke"
+				item: "immersiveengineering:coal_coke"
 				type: "item"
 			}]
 			title: "Better Than Coal"
