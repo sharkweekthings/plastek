@@ -1,10 +1,9 @@
-// 1.19.2	2023-06-21T17:32:14.4918693	EE Occultism Addon Recipes
+// 1.19.2	2023-09-04T17:06:51.6401281	EE Occultism Addon Recipes
 763b65538b048993390212029a62c595868eb505 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/brass.json
 f40a7ec9ac0b7740fc4d480a650c8035e9e5abed data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/bronze.json
 c266a743a4ff4b4610d949fd432f99d2b449f9c3 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/constantan.json
 90b49c4f8858874c369230cd8324234a0f94edc2 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/electrum.json
 7a450b4bb4cec8bc02d2f6b6b631f457b46bedc0 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/enderium.json
-1bae39ad58fbb17ff5a2bee3f96976f24b4b7941 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/hop_graphite.json
 4ab5d8eb5a48f05c08cd802117d5b6dcb58ba8b6 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/invar.json
 9d0170bdafe322e0e0967b08d5374f49b5dbaeb4 data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/lead.json
 a995d143d7749af80d5dcce871b9b41fa71242be data/emendatusenigmatica/recipes/dust/from_ingot_crusher_spirit/lumium.json

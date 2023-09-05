@@ -386,24 +386,6 @@ ServerEvents.recipes(event => {
           "results": [{"item": "rootsclassic:growth_powder"}]
   }).id('rootsclassic:growth_powder_pc')
 
-  // Growth Powder
-  event.custom({
-    "type": "pneumaticcraft:pressure_chamber", 
-      "inputs": [
-        {
-          "type": "pneumaticcraft:stacked_item",
-          "count": 2,
-          "item": "rootsclassic:verdant_sprig"
-        },
-        {
-          "type": "pneumaticcraft:stacked_item",
-          "count": 2,
-          "item": "minecraft:wheat_seeds"
-        },],
-          "pressure": 2.5, 
-          "results": [{"item": "rootsclassic:growth_powder"}]
-  }).id('rootsclassic:growth_powder_pc')
-
 // Rose Quartz Shard
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 

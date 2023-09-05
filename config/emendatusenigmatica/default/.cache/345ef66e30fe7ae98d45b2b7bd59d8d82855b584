@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-17T13:00:31.045607	Emendatus Enigmatica Item Tags
+// 1.19.2	2023-09-04T17:06:51.6426081	Emendatus Enigmatica Item Tags
 baca836dcb6ee7c51ceebfb1e6924c38e0b3f0d2 data/forge/tags/items/armors/boots.json
 1666aec7e4a2366628e29456b86fa4dc7c145e82 data/forge/tags/items/armors/boots/copper.json
 fa90ab6cf8117ba5fc880b604b1ef8e38ad6b388 data/forge/tags/items/armors/boots/sterling_silver.json
@@ -11,7 +11,7 @@ bc8f5a0d2e7c8fa607244dd37a9408240c104081 data/forge/tags/items/armors/helmets/st
 cb2bf5ecbf95f2f2834e066050af8f775dea0c31 data/forge/tags/items/armors/leggings.json
 5faabdc941c83f7e9daa3893db59cdd073692438 data/forge/tags/items/armors/leggings/copper.json
 f9158fddabde6b70ebb172396e7c050843e29c05 data/forge/tags/items/armors/leggings/sterling_silver.json
-aa1046bc325b55d360d7bf0f4743e527acfade52 data/forge/tags/items/dusts.json
+d44f7e0851f33f8918df8778db1976ef190dd6d1 data/forge/tags/items/dusts.json
 c0d8627ab34423905e9a8ab98c45e0de2b285400 data/forge/tags/items/dusts/aluminum.json
 6ea735693aadc818027ec6eb81ea220fcf7d2c32 data/forge/tags/items/dusts/apatite.json
 4a2116ab54fb41fd66658b9cf0024385679db679 data/forge/tags/items/dusts/brass.json
@@ -27,7 +27,6 @@ e97ebeb2b7a61fe81804dace1eaefb6d7fa61428 data/forge/tags/items/dusts/electrum.js
 2db13fcdb1d129563a927980ea31c1ba6d58dc6a data/forge/tags/items/dusts/enderium.json
 bde9ada791a08ae1be8f27fc9db42dd0f54697ac data/forge/tags/items/dusts/fluorite.json
 3a7d13ce08f245fd5d2db57879e333bd8bf65494 data/forge/tags/items/dusts/gold.json
-24efd336725b8dc598d0c077f225cc221906c644 data/forge/tags/items/dusts/hop_graphite.json
 3d8ea0cad5d8f800c9543acab31f9a570e5b2603 data/forge/tags/items/dusts/invar.json
 ea291379b1ce48ec5e7d8720f31ab90b7ed21dc4 data/forge/tags/items/dusts/iron.json
 d8de3e7219f02878ad3a4775656a21fb99b7494a data/forge/tags/items/dusts/lead.json
@@ -69,14 +68,13 @@ c421a7b06def1603e09981eef6ac49b425409120 data/forge/tags/items/gears/steel.json
 822b448925946fd27b673bfbe0001dcf842f16c8 data/forge/tags/items/gems/fluorite.json
 4cabe6b98f6af24741f909d799cd938a838b2d54 data/forge/tags/items/gems/silicon.json
 b4a89d5370e296b6fbb7ad924ab600355f63ba6b data/forge/tags/items/gems/sulfur.json
-5bbecaec50ac4bb39c284ff4670fddc608d7772a data/forge/tags/items/ingots.json
+ba83b80fbc20a4796223a067a48e777d61128f79 data/forge/tags/items/ingots.json
 a3f70b5cf98210398dfcd5dd70bf5bc8377f11e8 data/forge/tags/items/ingots/aluminum.json
 9d93ac8859e589eb3f80bf9f98e31324e4f78880 data/forge/tags/items/ingots/brass.json
 2c2e01eb13234220da7a3f69d86803f4f74f8453 data/forge/tags/items/ingots/bronze.json
 2766f579465178ff33ed89cb2ecafee9abfc2134 data/forge/tags/items/ingots/constantan.json
 ed6d3102bed709c5f362097fc35c4f7c565af38a data/forge/tags/items/ingots/electrum.json
 c2eadcfe32fbf79c71872de20e60ad08df788c60 data/forge/tags/items/ingots/enderium.json
-9eb84ae65c5af1056eabc666b65c3a790b63d722 data/forge/tags/items/ingots/hop_graphite.json
 ce0e40994719a1fa1a964be9a9ac41b72f7757f5 data/forge/tags/items/ingots/invar.json
 2f9664e4620d278dba676860d6fd75520034011d data/forge/tags/items/ingots/lead.json
 279de107c151dcd9f3bf250f36dfc7829d8bf893 data/forge/tags/items/ingots/lumium.json
@@ -231,4 +229,4 @@ a369e8f2c282efd595a9fa74d987b73c77cbaafa data/forge/tags/items/tools/swords.json
 94cb0f55112a0238829396284cfd036d01e68d1d data/forge/tags/items/tools/swords/copper.json
 dc76a1d039019adf459774313905c3810faaade0 data/forge/tags/items/tools/swords/steel.json
 cc59a01f931bc131fca398945ddbbd74faeb4308 data/forge/tags/items/tools/swords/sterling_silver.json
-d464883f8215341f538b0c3cf52676f363959fa7 data/minecraft/tags/items/beacon_payment_items.json
+10f095735a1cb086d4646cb34486c296f5e4ea2d data/minecraft/tags/items/beacon_payment_items.json

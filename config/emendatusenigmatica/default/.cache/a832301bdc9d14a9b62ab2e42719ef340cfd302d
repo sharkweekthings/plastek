@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-17T13:00:31.050071	Emendatus Enigmatica Item Models
+// 1.19.2	2023-09-04T17:06:51.6604647	Emendatus Enigmatica Item Models
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/alien_gear.json
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/alien_rod.json
 e787d08cc53f9e63f47b913e1a4348a5b05a1de7 assets/emendatusenigmatica/models/item/aluminum_block.json
@@ -101,8 +101,6 @@ c053d267203b427f401e774192371e00cd09147d assets/emendatusenigmatica/models/item/
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/gold_gear.json
 57851f40a9ad9c10ed7005f6ca42b1bff8dc59a3 assets/emendatusenigmatica/models/item/gold_plate.json
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/gold_rod.json
-90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/hop_graphite_dust.json
-058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/hop_graphite_ingot.json
 63b129c5520d703ae816401041afbcaeb72d9752 assets/emendatusenigmatica/models/item/invar_block.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/invar_dust.json
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/invar_gear.json
