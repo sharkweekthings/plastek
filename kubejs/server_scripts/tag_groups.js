@@ -391,6 +391,7 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'minecraft:echo_shard',
   'minecraft:hopper',
   'minecraft:barrier',
   'silentgear:azure_silver_dust',
@@ -1176,6 +1177,7 @@ event.add('kubejs:age_4_exception',
 
 event.add('kubejs:age_5_item', 
   [
+  'minecraft:echo_shard',
   'apotheosis:dormant_deepshelf',
   'kubejs:empty_prediction_parts',
   'kubejs:digital_miner_parts',

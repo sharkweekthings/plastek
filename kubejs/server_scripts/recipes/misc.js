@@ -1064,6 +1064,12 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     4: "prettypipes:high_retrieval_module",
     5: "prettypipes:high_extraction_module",
     6: "storagenetwork:master"}).id('prettypipes:item_terminal')
+    
+// Pretty Pipes Fluid Pipe
+  event.shaped('ppfluids:fluid_pipe', 
+    ['   ','121','   '], {
+    1: 'prettypipes:pipe',
+    2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
 
 
 

@@ -20,10 +20,6 @@
 				"Once we get it back to the overworld, it'l be time to pollute the world some more! "
 				""
 				"&oThe story of Plastic is non canon, don't believe my ramblings.&r"
-				""
-				"&eCorners are irrelevant, but the portal must be built with this shape: &r"
-				""
-				"{image:kubejs:textures/minecraft/nether_portal_sample.png width:150 height:150 align:1}"
 			]
 			id: "5947EE7F3AE8F2A7"
 			rewards: [

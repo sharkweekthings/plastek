@@ -776,6 +776,8 @@
 				"- Now, take your Jelly Babies, Gold Dust, Nether Stone, and finally some Lava.  "
 				""
 				"All of this will be placed inside a non heated Create Mixer to create Infused Nether Stone. The Infused Nether Stone is the block you need to construct the Nether portal. "
+				""
+				"&o&cWhile not intended, only a&r &b&oDiamond Paxel&r&r &cor above can break Infused Netherstone.&r&r"
 			]
 			icon: "kubejs:infused_nether_stone"
 			id: "3E0F7B994C1A95BC"

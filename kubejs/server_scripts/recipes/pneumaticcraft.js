@@ -386,6 +386,29 @@ ServerEvents.recipes(event => {
           "results": [{"item": "rootsclassic:growth_powder"}]
   }).id('rootsclassic:growth_powder_pc')
 
+  // HDPE Sheet
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "mekanism:hdpe_pellet"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "industrialforegoing:plastic"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 1,
+          "item": "pneumaticcraft:plastic"
+        },],
+          "pressure": 2.5, 
+          "results": [{"item": "mekanism:hdpe_sheet"}]
+  }).id('mekanism:enriching/hdpe_sheet')
+
 // Rose Quartz Shard
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
