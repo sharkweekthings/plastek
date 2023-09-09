@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
      ingredients: [{
       item: "kubejs:damaged_zpm_housing_unit",},{
       fluid: "pneumaticcraft:plastic",
-      amount: 5000,},],
+      amount: 1000,},],
      results: [{
       item: "kubejs:damaged_zpm_housing_unit",},],
 },

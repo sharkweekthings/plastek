@@ -1,0 +1,28 @@
+{
+  "type": "occultism:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/hop_graphite"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/hop_graphite"
+      }
+    }
+  ],
+  "crushing_time": 200,
+  "ignore_crushing_multiplier": false,
+  "ingredient": {
+    "tag": "forge:ingots/hop_graphite"
+  },
+  "result": {
+    "count": 1,
+    "tag": "forge:dusts/hop_graphite"
+  }
+}

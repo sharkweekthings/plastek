@@ -178,6 +178,7 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'extendedcrafting:nether_star_block',
   'create:honey_bucket',
   'productivebees:honey_bucket',
   'botania:brown_petal',
@@ -1468,6 +1469,11 @@ event.add('kubejs:age_7_item',
   'thermal:fluid_tank_creative_augment',
   'thermal:machine_efficiency_creative_augment',
   'totemic:ceremony_cheat'
+  ])
+
+event.add('kubejs:age_7_exception', 
+  [
+  'extendedcrafting:nether_star_block'
   ])
 
 event.add('kubejs:plastek_smoothie', 
