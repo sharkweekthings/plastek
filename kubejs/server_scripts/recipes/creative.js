@@ -575,52 +575,52 @@ ServerEvents.recipes(event => {
   }
 }).id('thermal:creative/machine_catalyst_creative_augment')
 
-// AE2 Creative Item Cell
-  event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
-  ],
-  "key": {
-    "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "megacells:item_storage_cell_256m"
-    },
-    "G": {
-      "item": "megacells:mega_item_cell_housing"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
-    }
-  },
-  "result": {
-    "item": "ae2:creative_item_cell"
-  }
-}).id('ae2:creative/creative_item_cell')
+// // AE2 Creative Item Cell
+//   event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     "ABCBA",
+//     "DDEDD",
+//     "CFGFC",
+//     "HIJIH",
+//     "ABCBA"
+//   ],
+//   "key": {
+//     "A": {
+//       "item": "mekanism:alloy_atomic"
+//     },
+//     "B": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     },
+//     "C": {
+//       "item": "pneumaticcraft:printed_circuit_board"
+//     },
+//     "D": {
+//       "item": "emendatusenigmatica:plastim_plate"
+//     },
+//     "E": {
+//       "item": "ae2:singularity"
+//     },
+//     "F": {
+//       "item": "megacells:item_storage_cell_256m"
+//     },
+//     "G": {
+//       "item": "megacells:mega_item_cell_housing"
+//     },
+//     "H": {
+//       "item": "emendatusenigmatica:plasteel_gear"
+//     },
+//     "I": {
+//       "item": "immersiveengineering:wire_aluminum"
+//     },
+//     "J": {
+//       "item": "immersiveengineering:wire_electrum"
+//     }
+//   },
+//   "result": {
+//     "item": "ae2:creative_item_cell"
+//   }
+// }).id('ae2:creative/creative_item_cell')
 
 // AE2 Creative Fluid Cell
   event.custom({
