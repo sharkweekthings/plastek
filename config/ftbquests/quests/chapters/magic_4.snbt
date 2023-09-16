@@ -181,7 +181,7 @@
 		{
 			dependencies: ["43AC23BA6F042C2C"]
 			description: [
-				"If you look at the Lexica Botania in your Akashic Tome and navigate to the Ritual of Gaia -- you can project the Summoning Ritual design into the world."
+				"If you look at the Lexica Botania in your Eccentric Tome and navigate to the Ritual of Gaia -- you can project the Summoning Ritual design into the world."
 				""
 				"Despite the projection showing that you need Iron Blocks, you don't actually need the Iron Blocks.  However, the structure may continue to say \"Incomplete\" if you don't use Iron Blocks, so you'll have extra text on your screen whenever you're in the area of your arena."
 				""
@@ -202,7 +202,7 @@
 				{
 					count: 4L
 					id: "79B963992EFD0898"
-					item: "botania:natura_pylon"
+					item: "botania:gaia_pylon"
 					type: "item"
 				}
 			]

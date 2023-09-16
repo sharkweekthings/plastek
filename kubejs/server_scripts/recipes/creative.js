@@ -370,7 +370,7 @@ ServerEvents.recipes(event => {
       "item": "metalbarrels:netherite_barrel"
     },
     "G": {
-      "item": "industrialforegoing:machine_frame_supreme"
+      "item": "create:blaze_burner"
     },
     "H": {
       "item": "emendatusenigmatica:plasteel_gear"
