@@ -622,99 +622,99 @@ ServerEvents.recipes(event => {
 //   }
 // }).id('ae2:creative/creative_item_cell')
 
-// AE2 Creative Fluid Cell
-  event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
-  ],
-  "key": {
-    "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "megacells:fluid_storage_cell_256m"
-    },
-    "G": {
-      "item": "megacells:mega_fluid_cell_housing"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
-    }
-  },
-  "result": {
-    "item": "ae2:creative_fluid_cell"
-  }
-}).id('ae2:creative/creative_fluid_cell')
+// // AE2 Creative Fluid Cell
+//   event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     "ABCBA",
+//     "DDEDD",
+//     "CFGFC",
+//     "HIJIH",
+//     "ABCBA"
+//   ],
+//   "key": {
+//     "A": {
+//       "item": "mekanism:alloy_atomic"
+//     },
+//     "B": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     },
+//     "C": {
+//       "item": "pneumaticcraft:printed_circuit_board"
+//     },
+//     "D": {
+//       "item": "emendatusenigmatica:plastim_plate"
+//     },
+//     "E": {
+//       "item": "ae2:singularity"
+//     },
+//     "F": {
+//       "item": "megacells:fluid_storage_cell_256m"
+//     },
+//     "G": {
+//       "item": "megacells:mega_fluid_cell_housing"
+//     },
+//     "H": {
+//       "item": "emendatusenigmatica:plasteel_gear"
+//     },
+//     "I": {
+//       "item": "immersiveengineering:wire_aluminum"
+//     },
+//     "J": {
+//       "item": "immersiveengineering:wire_electrum"
+//     }
+//   },
+//   "result": {
+//     "item": "ae2:creative_fluid_cell"
+//   }
+// }).id('ae2:creative/creative_fluid_cell')
 
-// AE2 Creative Chemical Cell
-  event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
-  ],
-  "key": {
-    "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "megacells:chemical_storage_cell_256m"
-    },
-    "G": {
-      "item": "megacells:mega_chemical_cell_housing"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
-    }
-  },
-  "result": {
-    "item": "appmek:creative_chemical_cell"
-  }
-}).id('appmek:creative/creative_chemical_cell')
+// // AE2 Creative Chemical Cell
+//   event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     "ABCBA",
+//     "DDEDD",
+//     "CFGFC",
+//     "HIJIH",
+//     "ABCBA"
+//   ],
+//   "key": {
+//     "A": {
+//       "item": "mekanism:alloy_atomic"
+//     },
+//     "B": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     },
+//     "C": {
+//       "item": "pneumaticcraft:printed_circuit_board"
+//     },
+//     "D": {
+//       "item": "emendatusenigmatica:plastim_plate"
+//     },
+//     "E": {
+//       "item": "ae2:singularity"
+//     },
+//     "F": {
+//       "item": "megacells:chemical_storage_cell_256m"
+//     },
+//     "G": {
+//       "item": "megacells:mega_chemical_cell_housing"
+//     },
+//     "H": {
+//       "item": "emendatusenigmatica:plasteel_gear"
+//     },
+//     "I": {
+//       "item": "immersiveengineering:wire_aluminum"
+//     },
+//     "J": {
+//       "item": "immersiveengineering:wire_electrum"
+//     }
+//   },
+//   "result": {
+//     "item": "appmek:creative_chemical_cell"
+//   }
+// }).id('appmek:creative/creative_chemical_cell')
 
 // Functional Storage Creative Vending Upgrade
   event.custom({
