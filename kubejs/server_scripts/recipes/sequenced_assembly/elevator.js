@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "minecraft:white_wool",},[{ // incomplete item
-      item: "energeticsheep:white_energetic_wool",},],], // item to deploy
+      item: "pneumaticcraft:plastic",},],], // item to deploy
      results: [{
       item: "minecraft:white_wool",},],
 },
