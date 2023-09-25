@@ -73,9 +73,8 @@
 
  - On World Creation - the server tends to hang for an uncomfortably long time stating "Timed out waiting for world statistics". Just keep waiting and the world should be created. 
  - On world creation - Some mod is causing "Empty heigh range: [6 above bottom--1 absolute]". I gave up trying to figure out what was causing it.
- 
- - When crafting a saw, and Ars Nouveau style Log together, it will consume the whole durability of the Saw. 
- - Several "For Fun" chapter quests have had their Repeatable Quest disabled due to an issue with FTB Quests allowing for infinite re-completion of the quest without needing to re-do the quest.
+ - Pam's Log items have no collision and can be walked through... But.... why?
+ - Certain Creative items have been disabled until I can make a more clear cut progression through the Age 7
  - There may be an issue with the Spell Turret firing off spells
  - Textures are missing for several Nat Prog pebbles. Reported to Dev.
  - While you are flying at high speeds (sprinting) -- you may encounter a rare-ish issue where server a single tick takes 40 seconds. This has been reported to several mod devs. This issue doesnt tend to occur when you are running on the ground.
