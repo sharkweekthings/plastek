@@ -640,7 +640,7 @@
 			description: [
 				"So here you are. You've dug around. You probably noticed a lack of Gold and other resources in the Overworld. Don't worry, they are out there, and you're about to find out exactly where you need to bee. "
 				""
-				"Go ahead and take a look at \"The Bumblezone\" quest line. You currently just need Gold Ingots to progress, but before finishing Age 1 -- You'll need to do some exploration in the Bumblezone and successfully trade a Queen Bee. "
+				"Go ahead and take a look at \"The Bumblezone\" quest line. You currently just need Gold Ingots to progress, but before finishing the pack -- You'll need to do some exploration in the Bumblezone and successfully trade a Queen Bee. "
 			]
 			id: "4FFCDB35F97F22CC"
 			rewards: [{

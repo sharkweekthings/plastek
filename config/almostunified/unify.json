@@ -90,6 +90,7 @@
     "zinc"
   ],
   "priorityOverrides": {},
+  "customTags": {},
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},

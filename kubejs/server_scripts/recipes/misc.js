@@ -1071,19 +1071,19 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'prettypipes:pipe',
     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
     
-// Crystaltine Ingot
-  event.shaped('ppfluids:fluid_pipe', 
-    ['   ','121','   '], {
-    1: 'extendedcrafting:black_iron_slate',
-    2: 'extendedcrafting:luminessence',
-    3: ''}).id('ppfluids:fluid_pipe')
+// // Crystaltine Ingot
+//   event.shaped('ppfluids:fluid_pipe', 
+//     ['   ','121','   '], {
+//     1: 'extendedcrafting:black_iron_slate',
+//     2: 'extendedcrafting:luminessence',
+//     3: ''}).id('ppfluids:fluid_pipe')
     
-// Crystaltine Component
-  event.shaped('ppfluids:fluid_pipe', 
-    ['   ','121','   '], {
-    1: 'extendedcrafting:black_iron_slate',
-    2: 'extendedcrafting:luminessence',
-    3: ''}).id('ppfluids:fluid_pipe')
+// // Crystaltine Component
+//   event.shaped('ppfluids:fluid_pipe', 
+//     ['   ','121','   '], {
+//     1: 'extendedcrafting:black_iron_slate',
+//     2: 'extendedcrafting:luminessence',
+//     3: ''}).id('ppfluids:fluid_pipe')
 
 
 
