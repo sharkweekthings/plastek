@@ -32,7 +32,7 @@
     "canPickup": false,
     "containerListWhitelist": false,
     "checkPlayerInventory": true,
-    "checkPlayerEquipment": false,
+    "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,
     "usableBlocks": true
