@@ -162,6 +162,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'simplehats:hatbag_festive'})
   event.remove({id: 'relics:researching_table'})
   event.remove({id: 'alexsmobs:kangaroo_hide_to_leather'})
+  event.remove({id: 'rootsclassic:pestle'})
 //
 })
 //

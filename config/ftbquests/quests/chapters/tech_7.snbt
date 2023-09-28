@@ -9,61 +9,32 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
-			id: "30CD995ABD42AA09"
-			shape: "circle"
-			tasks: [{
-				id: "166EF8BC97D68069"
-				item: "ae2:creative_energy_cell"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: ["6CC548A88B883F00"]
+			hide_dependency_lines: false
 			id: "1D084DFDA1E21F68"
-			invisible: true
 			shape: "circle"
 			tasks: [{
 				id: "2220FD71CF4EFB19"
 				item: "ae2:creative_item_cell"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: ["6CC548A88B883F00"]
+			hide_dependency_lines: false
 			id: "18F0B3498C6106EE"
-			invisible: true
 			shape: "circle"
 			tasks: [{
 				id: "196B4F03AA6B4DAE"
 				item: "ae2:creative_fluid_cell"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
-			id: "352BD73859F9E2EA"
-			shape: "circle"
-			tasks: [{
-				id: "71BF7FB683496793"
-				item: "powah:energy_cell_creative"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["01011EAF7AC1ECF1"]
 			hide_dependency_lines: true
 			id: "6644AC2219D1F36E"
 			shape: "circle"
@@ -72,13 +43,16 @@
 				item: "pneumaticcraft:creative_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
+			dependencies: [
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
+			]
 			description: ["{@pagebreak}"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "76EA543CF771808F"
 			shape: "circle"
 			tasks: [{
@@ -86,25 +60,15 @@
 				item: "pneumaticcraft:creative_compressor"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
-			id: "2D772B55FF9572A7"
-			shape: "circle"
-			tasks: [{
-				id: "2BC28F98CE99B8BC"
-				item: "thermal:rf_coil_creative_augment"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: [
+				"0F40041626CD0CBB"
+				"77C6034732EC7F88"
+			]
+			hide_dependency_lines: false
 			id: "0BB2400341ECDB10"
 			shape: "circle"
 			tasks: [{
@@ -112,12 +76,15 @@
 				item: "thermal:fluid_tank_creative_augment"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: [
+				"76EA543CF771808F"
+				"161425322AABFBED"
+			]
+			hide_dependency_lines: false
 			id: "221A3D7B8C76B864"
 			shape: "circle"
 			tasks: [{
@@ -125,12 +92,11 @@
 				item: "thermal:machine_efficiency_creative_augment"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "099E9B46035533DD"
 			shape: "circle"
 			tasks: [{
@@ -138,46 +104,15 @@
 				item: "thermal:machine_catalyst_creative_augment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
-			id: "6B618208B8BCF027"
-			shape: "circle"
-			tasks: [{
-				id: "025348DD4CF6177E"
-				item: {
-					Count: 1b
-					id: "mekanism:creative_energy_cube"
-					tag: {
-						mekData: {
-							EnergyContainers: [{
-								Container: 0b
-								stored: "18446744073709551615.9999"
-							}]
-							componentConfig: {
-								config0: {
-									side0: 4
-									side1: 4
-									side2: 4
-									side3: 4
-									side4: 4
-									side5: 4
-								}
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: [
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
+			]
+			hide_dependency_lines: false
 			id: "161425322AABFBED"
 			shape: "circle"
 			tasks: [{
@@ -185,12 +120,16 @@
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: [
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
+				"77C6034732EC7F88"
+			]
+			hide_dependency_lines: false
 			id: "0F40041626CD0CBB"
 			shape: "circle"
 			tasks: [{
@@ -198,12 +137,12 @@
 				item: "create:creative_fluid_tank"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: ["0A298462977A633B"]
+			hide_dependency_lines: false
 			id: "41CDD68812B0EF97"
 			shape: "circle"
 			tasks: [{
@@ -211,24 +150,23 @@
 				item: "create:creative_crate"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "7DFD8A4FD1BB9E8D"
-			shape: "circle"
+			shape: "gear"
 			tasks: [{
 				id: "7645BD33D6BC8BBD"
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
 			hide_dependency_lines: true
 			id: "6981F33216C172CF"
 			shape: "circle"
@@ -238,11 +176,11 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: ["0BB2400341ECDB10"]
+			hide_dependency_lines: false
 			id: "0A298462977A633B"
 			shape: "circle"
 			tasks: [{
@@ -250,26 +188,28 @@
 				item: "functionalstorage:creative_vending_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: ["6CC548A88B883F00"]
+			hide_dependency_lines: false
 			id: "553C169425A590A9"
-			invisible: true
 			shape: "circle"
 			tasks: [{
 				id: "0890AE7C0C7EF0C6"
 				item: "appmek:creative_chemical_cell"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
-			hide_dependency_lines: true
+			dependencies: [
+				"2384C49497914DBB"
+				"41CDD68812B0EF97"
+			]
+			hide_dependency_lines: false
 			id: "6CC548A88B883F00"
 			shape: "circle"
 			tasks: [{
@@ -277,8 +217,8 @@
 				item: "rftoolsutility:creative_screen"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["34269CBE4A60EE1A"]
@@ -301,8 +241,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.0d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7AB6777B9471D4AD"]
@@ -323,8 +263,8 @@
 				type: "checkmark"
 			}]
 			title: "The Seventh Age"
-			x: 3.5d
-			y: -7.0d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["46302C4C64C7C6E2"]
@@ -336,8 +276,8 @@
 				item: "extendedcrafting:advanced_auto_table"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["733685689F4BC517"]
@@ -354,11 +294,10 @@
 				item: "emendatusenigmatica:plastim_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
 			hide_dependency_lines: true
 			id: "5BC23FFF0CC462B6"
 			shape: "circle"
@@ -367,11 +306,15 @@
 				item: "pipez:infinity_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
+			dependencies: [
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
+				"76EA543CF771808F"
+			]
 			id: "77C6034732EC7F88"
 			shape: "circle"
 			tasks: [{
@@ -379,8 +322,62 @@
 				item: "mekanism:creative_bin"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["221A3D7B8C76B864"]
+			id: "6B5674AA87E4BBC4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "78DA0E177BD56555"
+					item: {
+						Count: 1b
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D354FB0E7F28529"
+					item: "powah:energy_cell_creative"
+					type: "item"
+				}
+				{
+					id: "11662518CFC1573F"
+					item: "thermal:rf_coil_creative_augment"
+					type: "item"
+				}
+			]
+			title: "Creative Power"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B5674AA87E4BBC4"]
+			id: "2384C49497914DBB"
+			shape: "circle"
+			tasks: [{
+				id: "1CB6AEDB1218DA80"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Tech"
