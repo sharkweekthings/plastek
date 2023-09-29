@@ -166,8 +166,8 @@ ServerEvents.recipes(event => {
     1: 'mob_grinding_utils:solid_xp_mould_blank',
     2: 'minecraft:diamond',
     3: 'emendatusenigmatica:gold_plate',
-    4: 'pneumaticcraft:printed_circuit_board',
-    5: 'minecraft:blaze_powder'}).id('mob_grinding_utils:recipe_fan_upgrade_speed')
+    4: 'productivebees:upgrade_time',
+    5: 'ad_astra:engine_fan'}).id('mob_grinding_utils:recipe_fan_upgrade_speed')
 
 // Fan Upgrade Height Upgrade
   event.shaped('mob_grinding_utils:fan_upgrade_height',
@@ -175,17 +175,17 @@ ServerEvents.recipes(event => {
     1: 'mob_grinding_utils:solid_xp_mould_blank',
     2: 'minecraft:diamond',
     3: 'emendatusenigmatica:gold_plate',
-    4: 'pneumaticcraft:printed_circuit_board',
-    5: 'immersiveengineering:treated_fence'}).id('mob_grinding_utils:recipe_fan_upgrade_height')
+    4: 'productivebees:upgrade_range',
+    5: 'ad_astra:engine_fan'}).id('mob_grinding_utils:recipe_fan_upgrade_height')
 
 // Fan Upgrade Width Upgrade
   event.shaped('mob_grinding_utils:fan_upgrade_width',
-    ['545','212','535'], {
+    ['535','212','545'], {
     1: 'mob_grinding_utils:solid_xp_mould_blank',
     2: 'minecraft:diamond',
     3: 'emendatusenigmatica:gold_plate',
-    4: 'pneumaticcraft:printed_circuit_board',
-    5: 'pamhc2foodextended:frosteddonutitem'}).id('mob_grinding_utils:recipe_fan_upgrade_width')
+    4: 'productivebees:upgrade_range',
+    5: 'ad_astra:engine_fan'}).id('mob_grinding_utils:recipe_fan_upgrade_width')
 
 // GM Chicken Feed
   event.shaped('mob_grinding_utils:gm_chicken_feed',
@@ -196,9 +196,9 @@ ServerEvents.recipes(event => {
 // Mob Fan
   event.shaped('mob_grinding_utils:fan',
     ['333','313','323'], {
-    1: 'industrialforegoing:machine_frame_supreme',
+    1: 'create:brass_casing',
     2: 'ad_astra:engine_fan',
-    3: 'mekanism:hdpe_sheet'}).id('mob_grinding_utils:recipe_fan')
+    3: 'pneumaticcraft:plastic'}).id('mob_grinding_utils:recipe_fan')
 
 
 // XP Mould Baby

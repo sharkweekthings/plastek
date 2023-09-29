@@ -220,7 +220,7 @@ ServerEvents.recipes(event => {
   event.shaped('ad_astra:engine_fan', 
     [' 1 ','121',' 1 '], {
     1: 'emendatusenigmatica:iron_rod',
-    2: 'emendatusenigmatica:iron_plate'}).id('ad_astra:recipes/engine_fan')
+    2: 'pneumaticcraft:ingot_iron_compressed'}).id('ad_astra:recipes/engine_fan')
 
 // Calorite Tank
   event.shaped('ad_astra:calorite_tank', 

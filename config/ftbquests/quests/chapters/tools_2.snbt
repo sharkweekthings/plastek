@@ -578,7 +578,7 @@
 				item: "mob_grinding_utils:fan_upgrade_height"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -9.0d
 		}
 		{
@@ -590,12 +590,12 @@
 				item: "mob_grinding_utils:fan_upgrade_speed"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2E0DB2805D654494"]
-			description: ["While this is unlocked in the quest book, you won't be able to craft it until Age 6"]
+			description: ["The Mob Fan will unlock in Age 3, so for now -- you likely won't have a good way to move mobs around. "]
 			id: "7712DE08D8BE78BA"
 			shape: "circle"
 			tasks: [{
