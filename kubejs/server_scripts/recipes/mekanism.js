@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_pity',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:redstone_block',
   5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:metallurgic_infuser')
 
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:basic_control_circuit',
   5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:energized_smelter')
 
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:basic_control_circuit',
   5: 'emendatusenigmatica:plasteel_plate',
   6: 'thermal:saw_blade'}).id('mekanism:precision_sawmill')
@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_control_circuit',
   5: 'mekanism:basic_fluid_tank'}).id('mekanism:rotary_condensentrator')
 
@@ -244,16 +244,25 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_chemical_tank',
   5: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_oxidizer')
+
+// Thermal Evaporation Controller
+  event.shaped('mekanism:thermal_evaporation_controller',
+    ['454','232','212'], {
+  1: 'pneumaticcraft:printed_circuit_board',
+  2: 'mekanism:thermal_evaporation_block',
+	3: 'industrialforegoing:machine_frame_supreme',
+	4: 'mekanism:advanced_control_circuit',
+  5: '#forge:glass_panes'}).id('mekanism:thermal_evaporation/controller')
 
 // Chemical Infuser
   event.shaped('mekanism:chemical_infuser',
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_advanced',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_chemical_tank',
   5: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_infuser')
 
@@ -262,7 +271,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_control_circuit',
   5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:enrichment_chamber')
 
@@ -271,7 +280,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_control_circuit',
   5: 'mekanism:dynamic_tank'}).id('mekanism:pressurized_reaction_chamber')
 
@@ -280,7 +289,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'mekanism:alloy_infused',
-	3: 'industrialforegoing:machine_frame_advanced',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:advanced_control_circuit',
   5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:purification_chamber')
 
@@ -289,7 +298,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:basic_control_circuit',
   5: 'emendatusenigmatica:iron_plate'}).id('mekanism:crusher')
 
@@ -298,7 +307,7 @@ ServerEvents.recipes(event => {
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_advanced',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:advanced_control_circuit',
   5: 'mekanism:alloy_infused'}).id('mekanism:osmium_compressor')
 
@@ -307,7 +316,7 @@ ServerEvents.recipes(event => {
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:plasteel_gear',
-	3: 'industrialforegoing:machine_frame_advanced',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:advanced_control_circuit',
   5: 'mekanism:alloy_infused',
   6: 'mekanism:electrolytic_core'}).id('mekanism:electrolytic_separator')
@@ -388,7 +397,7 @@ ServerEvents.recipes(event => {
 // Basic Energy Cube
   event.shaped('mekanism:basic_energy_cube',
     ['323','212','323'], {
-  1: 'industrialforegoing:machine_frame_advanced',
+  1: 'industrialforegoing:machine_frame_supreme',
   2: 'minecraft:redstone',
 	3: 'mekanism:energy_tablet'}).id('mekanism:basic_energy_cube')
 
