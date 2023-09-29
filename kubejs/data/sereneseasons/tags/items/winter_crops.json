@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+		"environmental:pink_wisteria_sapling",
+		"environmental:blue_wisteria_sapling",
+		"environmental:purple_wisteria_sapling",
+		"environmental:white_wisteria_sapling",
+		"environmental:cherry_sapling",
+		"environmental:willow_sapling",
 		"minecraft:oak_sapling",
 		"minecraft:birch_sapling",
 		"minecraft:spruce_sapling",
@@ -18,6 +24,7 @@
 		"minecraft:weeping_vines",
 		"minecraft:seagrass",
 		"minecraft:sea_pickle",
+		"minecraft:wheat_seeds",
 		"pamhc2trees:chestnut_sapling",
 		"pamhc2trees:durian_sapling",
 		"pamhc2trees:grapefruit_sapling",
