@@ -61,42 +61,27 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
+    "AAAAA",
     "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "ADEDA",
+    "ACBCA",
+    "AAAAA"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
       "item": "emendatusenigmatica:plastim_plate"
     },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "powah:energy_cell_spirited"
-    },
-    "G": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
+    "B": {
       "item": "immersiveengineering:wire_aluminum"
     },
-    "J": {
+    "C": {
       "item": "immersiveengineering:wire_electrum"
+    },
+    "D": {
+      "item": "thermal:rf_coil_creative_augment"
+    },
+    "E": {
+      "item": "industrialforegoing:machine_frame_supreme"
     }
   },
   "result": {
@@ -108,42 +93,30 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "AAAAA",
+    "ABCDA",
+    "AEFEA",
+    "ADCBA",
+    "AAAAA"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
+      "item": "emendatusenigmatica:plastim_plate"
     },
     "B": {
-      "item": "mekanism:ultimate_control_circuit"
+      "item": "immersiveengineering:wire_electrum"
     },
     "C": {
       "item": "pneumaticcraft:printed_circuit_board"
     },
     "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "ae2:energy_cell"
-    },
-    "G": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
       "item": "immersiveengineering:wire_aluminum"
     },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+    "E": {
+      "item": "thermal:rf_coil_creative_augment"
+    },
+    "F": {
+      "item": "powah:energy_cell_creative"
     }
   },
   "result": {
@@ -156,41 +129,41 @@ ServerEvents.recipes(event => {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "DCECD",
+    "CEFEC",
+    "GCECH",
+    "IJCJI"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
       "item": "mekanism:ultimate_control_circuit"
     },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
+    "B": {
       "item": "ae2:singularity"
     },
-    "F": {
-      "item": "pneumaticcraft:advanced_air_compressor"
+    "C": {
+      "item": "emendatusenigmatica:plastim_plate"
     },
-    "G": {
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
       "item": "industrialforegoing:machine_frame_supreme"
     },
+    "G": {
+      "item": "pneumaticcraft:advanced_air_compressor"
+    },
     "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
+      "item": "pneumaticcraft:advanced_liquid_compressor"
     },
     "I": {
-      "item": "immersiveengineering:wire_aluminum"
+      "item": "immersiveengineering:wire_electrum"
     },
     "J": {
-      "item": "immersiveengineering:wire_electrum"
+      "item": "immersiveengineering:wire_aluminum"
     }
   },
   "result": {
@@ -203,41 +176,38 @@ ServerEvents.recipes(event => {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "DCECD",
+    "CEFEC",
+    "GCECG",
+    "HICIH"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
       "item": "mekanism:ultimate_control_circuit"
     },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
+    "B": {
       "item": "ae2:singularity"
     },
-    "F": {
-      "item": "create:rotation_speed_controller"
+    "C": {
+      "item": "emendatusenigmatica:plastim_plate"
     },
-    "G": {
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
       "item": "industrialforegoing:machine_frame_supreme"
     },
+    "G": {
+      "item": "create:rotation_speed_controller"
+    },
     "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
+      "item": "immersiveengineering:wire_electrum"
     },
     "I": {
       "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
     }
   },
   "result": {
@@ -249,42 +219,27 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "ABBBA",
+    "ACDCA",
+    "ADEDA",
+    "ACDCA",
+    "ABBBA"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
+      "item": "thermal:enderium_glass"
     },
     "B": {
-      "item": "mekanism:ultimate_control_circuit"
+      "item": "emendatusenigmatica:plastim_plate"
     },
     "C": {
       "item": "pneumaticcraft:printed_circuit_board"
     },
     "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
       "item": "pneumaticcraft:huge_tank"
     },
-    "G": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+    "E": {
+      "item": "thermal:fluid_tank_creative_augment"
     }
   },
   "result": {
@@ -296,137 +251,59 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
+    "AAAAA",
     "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "ACDCA",
+    "ABCBA",
+    "AAAAA"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
       "item": "emendatusenigmatica:plastim_plate"
     },
-    "E": {
-      "item": "ae2:singularity"
+    "B": {
+      "item": "mekanism:alloy_atomic"
     },
-    "F": {
+    "C": {
       "item": "metalbarrels:netherite_barrel"
     },
-    "G": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+    "D": {
+      "item": "functionalstorage:creative_vending_upgrade"
     }
   },
   "result": {
     "item": "create:creative_crate"
   }
-
 }).id('create:creative/creative_crate')
-
-// Create Creative Blaze Cake
-  event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
-  ],
-  "key": {
-    "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "metalbarrels:netherite_barrel"
-    },
-    "G": {
-      "item": "create:blaze_burner"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
-    }
-  },
-  "result": {
-    "item": "create:creative_blaze_cake"
-  }
-}).id('create:creative/creative_blaze_cake')
 
 // Thermal Creative RF Coil Augment
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "  A  ",
+    " BCB ",
+    "DEFED",
+    " BCB ",
+    "  A  "
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
+      "item": "immersiveengineering:wire_electrum"
     },
     "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
-      "item": "emendatusenigmatica:plastim_plate"
-    },
-    "E": {
       "item": "ae2:singularity"
     },
-    "F": {
-      "item": "thermal:rf_coil"
+    "C": {
+      "item": "mekanism:alloy_atomic"
     },
-    "G": {
-      "item": "pneumaticcraft:upgrade_matrix"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
+    "D": {
       "item": "immersiveengineering:wire_aluminum"
     },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+    "E": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "F": {
+      "item": "thermal:machine_efficiency_creative_augment"
     }
   },
   "result": {
@@ -438,42 +315,30 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
+    " AAA ",
     "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "ADEDA",
+    " AFA ",
+    "  A  "
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
       "item": "emendatusenigmatica:plastim_plate"
     },
-    "E": {
-      "item": "ae2:singularity"
+    "B": {
+      "item": "mekanism:alloy_atomic"
     },
-    "F": {
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
       "item": "pneumaticcraft:huge_tank"
     },
-    "G": {
-      "item": "pneumaticcraft:upgrade_matrix"
+    "E": {
+      "item": "industrialforegoing:supreme_black_hole_tank"
     },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+    "F": {
+      "item": "create:creative_blaze_cake"
     }
   },
   "result": {
@@ -485,42 +350,33 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "  A  ",
+    " BCB ",
+    "DEFGD",
+    " BCB ",
+    "  A  "
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
       "item": "mekanism:ultimate_control_circuit"
     },
-    "C": {
+    "B": {
       "item": "pneumaticcraft:printed_circuit_board"
     },
-    "D": {
+    "C": {
       "item": "emendatusenigmatica:plastim_plate"
     },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
     "E": {
-      "item": "ae2:singularity"
+      "item": "pneumaticcraft:creative_compressor"
     },
     "F": {
-      "item": "extendedcrafting:nether_star_block"
+      "item": "ae2:singularity"
     },
     "G": {
-      "item": "pneumaticcraft:upgrade_matrix"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+      "item": "create:creative_motor"
     }
   },
   "result": {
@@ -575,234 +431,145 @@ ServerEvents.recipes(event => {
   }
 }).id('thermal:creative/machine_catalyst_creative_augment')
 
-// // AE2 Creative Item Cell
-//   event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     "ABCBA",
-//     "DDEDD",
-//     "CFGFC",
-//     "HIJIH",
-//     "ABCBA"
-//   ],
-//   "key": {
-//     "A": {
-//       "item": "mekanism:alloy_atomic"
-//     },
-//     "B": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     },
-//     "C": {
-//       "item": "pneumaticcraft:printed_circuit_board"
-//     },
-//     "D": {
-//       "item": "emendatusenigmatica:plastim_plate"
-//     },
-//     "E": {
-//       "item": "ae2:singularity"
-//     },
-//     "F": {
-//       "item": "megacells:item_storage_cell_256m"
-//     },
-//     "G": {
-//       "item": "megacells:mega_item_cell_housing"
-//     },
-//     "H": {
-//       "item": "emendatusenigmatica:plasteel_gear"
-//     },
-//     "I": {
-//       "item": "immersiveengineering:wire_aluminum"
-//     },
-//     "J": {
-//       "item": "immersiveengineering:wire_electrum"
-//     }
-//   },
-//   "result": {
-//     "item": "ae2:creative_item_cell"
-//   }
-// }).id('ae2:creative/creative_item_cell')
-
-// // AE2 Creative Fluid Cell
-//   event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     "ABCBA",
-//     "DDEDD",
-//     "CFGFC",
-//     "HIJIH",
-//     "ABCBA"
-//   ],
-//   "key": {
-//     "A": {
-//       "item": "mekanism:alloy_atomic"
-//     },
-//     "B": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     },
-//     "C": {
-//       "item": "pneumaticcraft:printed_circuit_board"
-//     },
-//     "D": {
-//       "item": "emendatusenigmatica:plastim_plate"
-//     },
-//     "E": {
-//       "item": "ae2:singularity"
-//     },
-//     "F": {
-//       "item": "megacells:fluid_storage_cell_256m"
-//     },
-//     "G": {
-//       "item": "megacells:mega_fluid_cell_housing"
-//     },
-//     "H": {
-//       "item": "emendatusenigmatica:plasteel_gear"
-//     },
-//     "I": {
-//       "item": "immersiveengineering:wire_aluminum"
-//     },
-//     "J": {
-//       "item": "immersiveengineering:wire_electrum"
-//     }
-//   },
-//   "result": {
-//     "item": "ae2:creative_fluid_cell"
-//   }
-// }).id('ae2:creative/creative_fluid_cell')
-
-// // AE2 Creative Chemical Cell
-//   event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     "ABCBA",
-//     "DDEDD",
-//     "CFGFC",
-//     "HIJIH",
-//     "ABCBA"
-//   ],
-//   "key": {
-//     "A": {
-//       "item": "mekanism:alloy_atomic"
-//     },
-//     "B": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     },
-//     "C": {
-//       "item": "pneumaticcraft:printed_circuit_board"
-//     },
-//     "D": {
-//       "item": "emendatusenigmatica:plastim_plate"
-//     },
-//     "E": {
-//       "item": "ae2:singularity"
-//     },
-//     "F": {
-//       "item": "megacells:chemical_storage_cell_256m"
-//     },
-//     "G": {
-//       "item": "megacells:mega_chemical_cell_housing"
-//     },
-//     "H": {
-//       "item": "emendatusenigmatica:plasteel_gear"
-//     },
-//     "I": {
-//       "item": "immersiveengineering:wire_aluminum"
-//     },
-//     "J": {
-//       "item": "immersiveengineering:wire_electrum"
-//     }
-//   },
-//   "result": {
-//     "item": "appmek:creative_chemical_cell"
-//   }
-// }).id('appmek:creative/creative_chemical_cell')
-
-// Functional Storage Creative Vending Upgrade
+// AE2 Creative Item Cell
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
+    "BDEFB",
+    "CEGEC",
+    "BFEDB",
     "ABCBA"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
+      "item": "create:creative_crate"
     },
     "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
       "item": "emendatusenigmatica:plastim_plate"
     },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
+      "item": "immersiveengineering:wire_electrum"
+    },
     "E": {
-      "item": "ae2:singularity"
+      "item": "pneumaticcraft:printed_circuit_board"
     },
     "F": {
-      "item": "functionalstorage:storage_controller"
-    },
-    "G": {
-      "item": "pneumaticcraft:upgrade_matrix"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
       "item": "immersiveengineering:wire_aluminum"
     },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+    "G": {
+      "item": "rftoolsutility:creative_screen"
     }
   },
   "result": {
-    "item": "functionalstorage:creative_vending_upgrade"
+    "item": "ae2:creative_item_cell"
   }
-}).id('functionalstorage:creative/creative_vending_upgrade')
+}).id('ae2:creative/creative_item_cell')
+
+// AE2 Creative Fluid Cell
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEFB",
+    "CEGEC",
+    "BFEDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:creative_fluid_tank"
+    },
+    "B": {
+      "item": "emendatusenigmatica:plastim_plate"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
+      "item": "immersiveengineering:wire_electrum"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "immersiveengineering:wire_aluminum"
+    },
+    "G": {
+      "item": "rftoolsutility:creative_screen"
+    }
+  },
+  "result": {
+    "item": "ae2:creative_fluid_cell"
+  }
+}).id('ae2:creative/creative_fluid_cell')
+
+// AE2 Creative Chemical Cell
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEFB",
+    "CEGEC",
+    "BFEDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mekanism:creative_chemical_tank"
+    },
+    "B": {
+      "item": "emendatusenigmatica:plastim_plate"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
+      "item": "immersiveengineering:wire_electrum"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "immersiveengineering:wire_aluminum"
+    },
+    "G": {
+      "item": "rftoolsutility:creative_screen"
+    }
+  },
+  "result": {
+    "item": "appmek:creative_chemical_cell"
+  }
+}).id('appmek:creative/creative_chemical_cell')
 
 // RF Tools Creative Screen
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "ABCBA",
-    "DDEDD",
-    "CFGFC",
-    "HIJIH",
-    "ABCBA"
+    "AAAAA",
+    "ABBBA",
+    "ACDEA",
+    "ABBBA",
+    "AAAAA"
   ],
   "key": {
     "A": {
-      "item": "mekanism:alloy_atomic"
-    },
-    "B": {
-      "item": "mekanism:ultimate_control_circuit"
-    },
-    "C": {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    "D": {
       "item": "emendatusenigmatica:plastim_plate"
     },
+    "B": {
+      "item": "thermal:enderium_glass"
+    },
+    "C": {
+      "item": "ae2:creative_energy_cell"
+    },
+    "D": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
     "E": {
-      "item": "ae2:singularity"
-    },
-    "F": {
-      "item": "rftoolsutility:screen"
-    },
-    "G": {
-      "item": "pneumaticcraft:upgrade_matrix"
-    },
-    "H": {
-      "item": "emendatusenigmatica:plasteel_gear"
-    },
-    "I": {
-      "item": "immersiveengineering:wire_aluminum"
-    },
-    "J": {
-      "item": "immersiveengineering:wire_electrum"
+      "item": "create:creative_crate"
     }
   },
   "result": {
@@ -1139,6 +906,134 @@ ServerEvents.recipes(event => {
     "item": "mysticalagradditions:creative_essence"
   }
 }).id('mysticalagradditions:creative/creative_essence')
+
+// Creative Bin
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "ABCBA",
+    "ABDBA",
+    "ABCBA",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "emendatusenigmatica:plastim_plate"
+    },
+    "B": {
+      "item": "metalbarrels:netherite_barrel"
+    },
+    "C": {
+      "item": "ae2:singularity"
+    },
+    "D": {
+      "item": "create:creative_fluid_tank"
+    }
+  },
+  "result": {
+    "item": "mekanism:creative_bin"
+  }
+}).id('mekanism:creative_bin')
+
+// Creative Compressed Iron Block
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 5,
+          "item": "pneumaticcraft:compressed_iron_block"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "ae2:creative_energy_cell"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 5,
+          "item": "pneumaticcraft:compressed_iron_block"
+        },],
+          "pressure": 5, 
+          "results": [{"item": "pneumaticcraft:creative_compressed_iron_block"}]
+  }).id('pneumaticcraft:pressure_chamber_creative_iron_block')
+
+// Creative World Shaper
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABB",
+    "ACDEB",
+    "FCGDA",
+    "HICCA",
+    "JHFAA"
+  ],
+  "key": {
+    "A": {
+      "item": "emendatusenigmatica:plastim_plate"
+    },
+    "B": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "C": {
+      "item": "emendatusenigmatica:plasteel_gear"
+    },
+    "D": {
+      "item": "thermal:rf_coil_creative_augment"
+    },
+    "E": {
+      "item": "mysticalagriculture:supremium_pickaxe"
+    },
+    "F": {
+      "item": "immersiveengineering:wire_electrum"
+    },
+    "G": {
+      "item": "create:creative_motor"
+    },
+    "H": {
+      "item": "ae2:singularity"
+    },
+    "I": {
+      "item": "immersiveengineering:wire_aluminum"
+    },
+    "J": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "create:handheld_worldshaper"
+  }
+}).id('create:handheld_worldshaper')
+
+// Creative Chemical Tank
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "ABCBA",
+    "ACDCA",
+    "ABCBA",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "emendatusenigmatica:plastim_plate"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "item": "pneumaticcraft:huge_tank"
+    },
+    "D": {
+      "item": "create:creative_fluid_tank"
+    }
+  },
+  "result": {
+    "item": "mekanism:creative_chemical_tank"
+  }
+}).id('mekanism:creative_chemical_tank')
 
 //    
 })

@@ -35,6 +35,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["46302C4C64C7C6E2"]
 			hide_dependency_lines: true
 			id: "6644AC2219D1F36E"
 			shape: "circle"
@@ -47,10 +48,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"01011EAF7AC1ECF1"
-				"7DFD8A4FD1BB9E8D"
-			]
+			dependencies: ["01011EAF7AC1ECF1"]
 			description: ["{@pagebreak}"]
 			hide_dependency_lines: false
 			id: "76EA543CF771808F"
@@ -65,8 +63,8 @@
 		}
 		{
 			dependencies: [
-				"0F40041626CD0CBB"
-				"77C6034732EC7F88"
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
 			]
 			hide_dependency_lines: false
 			id: "0BB2400341ECDB10"
@@ -76,8 +74,8 @@
 				item: "thermal:fluid_tank_creative_augment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -96,6 +94,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4091966F3BE79F43"]
 			hide_dependency_lines: false
 			id: "099E9B46035533DD"
 			shape: "circle"
@@ -108,10 +107,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"01011EAF7AC1ECF1"
-				"7DFD8A4FD1BB9E8D"
-			]
+			dependencies: ["01011EAF7AC1ECF1"]
 			hide_dependency_lines: false
 			id: "161425322AABFBED"
 			shape: "circle"
@@ -127,7 +123,7 @@
 			dependencies: [
 				"01011EAF7AC1ECF1"
 				"7DFD8A4FD1BB9E8D"
-				"77C6034732EC7F88"
+				"0BB2400341ECDB10"
 			]
 			hide_dependency_lines: false
 			id: "0F40041626CD0CBB"
@@ -137,6 +133,7 @@
 				item: "create:creative_fluid_tank"
 				type: "item"
 			}]
+			title: "Creative Fluid Tank"
 			x: 5.5d
 			y: -2.5d
 		}
@@ -154,7 +151,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["01011EAF7AC1ECF1"]
+			dependencies: ["51BAE5970C9584CB"]
 			hide_dependency_lines: false
 			id: "7DFD8A4FD1BB9E8D"
 			shape: "gear"
@@ -179,7 +176,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0BB2400341ECDB10"]
+			dependencies: ["77C6034732EC7F88"]
 			hide_dependency_lines: false
 			id: "0A298462977A633B"
 			shape: "circle"
@@ -192,7 +189,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["6CC548A88B883F00"]
+			dependencies: [
+				"6CC548A88B883F00"
+				"26B22177279644A7"
+			]
 			hide_dependency_lines: false
 			id: "553C169425A590A9"
 			shape: "circle"
@@ -291,13 +291,14 @@
 			shape: "gear"
 			tasks: [{
 				id: "6733B1D30113E68D"
-				item: "emendatusenigmatica:plastim_ingot"
+				item: "emendatusenigmatica:plastim_plate"
 				type: "item"
 			}]
 			x: 2.5d
 			y: -4.0d
 		}
 		{
+			dependencies: ["46302C4C64C7C6E2"]
 			hide_dependency_lines: true
 			id: "5BC23FFF0CC462B6"
 			shape: "circle"
@@ -311,9 +312,8 @@
 		}
 		{
 			dependencies: [
-				"01011EAF7AC1ECF1"
-				"7DFD8A4FD1BB9E8D"
-				"76EA543CF771808F"
+				"0BB2400341ECDB10"
+				"0F40041626CD0CBB"
 			]
 			id: "77C6034732EC7F88"
 			shape: "circle"
@@ -322,36 +322,14 @@
 				item: "mekanism:creative_bin"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["221A3D7B8C76B864"]
 			id: "6B5674AA87E4BBC4"
 			shape: "circle"
 			tasks: [
-				{
-					id: "78DA0E177BD56555"
-					item: {
-						Count: 1b
-						id: "mekanism:creative_energy_cube"
-						tag: {
-							mekData: {
-								componentConfig: {
-									config0: {
-										side0: 1
-										side1: 1
-										side2: 1
-										side3: 1
-										side4: 1
-										side5: 1
-									}
-								}
-							}
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "1D354FB0E7F28529"
 					item: "powah:energy_cell_creative"
@@ -378,6 +356,61 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["2384C49497914DBB"]
+			id: "51BAE5970C9584CB"
+			shape: "circle"
+			tasks: [{
+				id: "6AD96AF5EA22E64B"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B5674AA87E4BBC4"]
+			description: ["No, probably not."]
+			id: "145444560CE7241F"
+			shape: "circle"
+			tasks: [{
+				id: "631101014C6BFCA1"
+				item: {
+					Count: 1b
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							componentConfig: {
+								config0: {
+									side0: 1
+									side1: 1
+									side2: 1
+									side3: 1
+									side4: 1
+									side5: 1
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Do I even really need this?"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F40041626CD0CBB"]
+			id: "26B22177279644A7"
+			shape: "circle"
+			tasks: [{
+				id: "71D7B2247F896B1F"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
 		}
 	]
 	title: "Tech"
