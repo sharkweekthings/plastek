@@ -12,13 +12,13 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:iron_ore_gen_tf'
     ore.biomes = '#kubejs:twilightforest_gen_1'
     ore.addTarget('minecraft:stone', 'minecraft:iron_ore')
-    ore.count([8, 25])
+    ore.count([8, 22])
       .squared()
       .triangleHeight(
         anchors.absolute(-25),
         anchors.absolute(16)
       )
-    ore.size = 12
+    ore.size = 10
   })
 
 // Coal

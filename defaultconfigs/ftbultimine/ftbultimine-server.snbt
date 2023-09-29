@@ -15,7 +15,7 @@
 	# Max amount of blocks that can be ultimined at once
 	# Default: 8
 	# Range: 0 ~ 32768
-	max_blocks: 8
+	max_blocks: 16
 	
 	# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
 	# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]
