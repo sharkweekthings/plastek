@@ -1335,7 +1335,7 @@
 			]
 			title: "Addon: Range"
 			x: 13.0d
-			y: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
@@ -1372,7 +1372,7 @@
 			]
 			title: "Addon: Speed"
 			x: 14.0d
-			y: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
@@ -1413,7 +1413,7 @@
 			]
 			title: "Addon: Efficiency"
 			x: 15.0d
-			y: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
@@ -1450,7 +1450,7 @@
 			]
 			title: "Addon: Processing"
 			x: 16.0d
-			y: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
@@ -1475,7 +1475,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
@@ -1500,7 +1500,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["43F168BD03BFE53B"]
@@ -1526,7 +1526,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5FCBAAD5BBD07EC0"]
@@ -1881,6 +1881,129 @@
 			}]
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "2B5B259E584A4B14"
+			shape: "circle"
+			tasks: [{
+				id: "3EC5EDD639DD22FD"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "0EB517F5DB2FB5D9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "164713F71D3E4BB7"
+					item: "xnet:netcable_red"
+					type: "item"
+				}
+				{
+					id: "395788DE9696B651"
+					item: "xnet:netcable_green"
+					type: "item"
+				}
+				{
+					id: "43764AE93DD94595"
+					item: "xnet:netcable_blue"
+					type: "item"
+				}
+				{
+					id: "403E8EAEFA94D34B"
+					item: "xnet:netcable_yellow"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "7A0D15C5D9EE1B5E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "74D9AADD38E3A522"
+					item: "xnet:connector_red"
+					type: "item"
+				}
+				{
+					id: "4E2075129D4A9F96"
+					item: "xnet:connector_green"
+					type: "item"
+				}
+				{
+					id: "2A3ABEFA3FAD14D0"
+					item: "xnet:connector_blue"
+					type: "item"
+				}
+				{
+					id: "50410B5634651DFB"
+					item: "xnet:connector_yellow"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "65ECBDEBAA6029AB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7F7C40383D554F47"
+					item: "xnet:advanced_connector_red"
+					type: "item"
+				}
+				{
+					id: "69488F8E816C76A7"
+					item: "xnet:advanced_connector_green"
+					type: "item"
+				}
+				{
+					id: "7EF5F3AAB0FC205D"
+					item: "xnet:advanced_connector_blue"
+					type: "item"
+				}
+				{
+					id: "44D6BA79925FC26E"
+					item: "xnet:advanced_connector_yellow"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "0E030510EB10591C"
+			shape: "circle"
+			tasks: [{
+				id: "4F527D1CA97AA513"
+				item: "xnet:facade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "48D822A86817AA0B"
+			shape: "circle"
+			tasks: [{
+				id: "0E9864098A4F0B35"
+				item: "xnet:connector_upgrade"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
 		}
 	]
 	title: "Utility"

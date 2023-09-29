@@ -152,18 +152,30 @@
 		}
 		{
 			dependencies: ["51BAE5970C9584CB"]
+			description: [
+				"To create the perfect little Blaze Cake. "
+				""
+				"A miraculous food which will power a Blaze Burner forever! "
+				""
+				"What will you be doing with it you wonder? "
+				""
+				"&oYeah... you wonder.&r"
+			]
 			hide_dependency_lines: false
 			id: "7DFD8A4FD1BB9E8D"
 			shape: "gear"
+			subtitle: "These were the ingredients chosen"
 			tasks: [{
 				id: "7645BD33D6BC8BBD"
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
+			title: "Sugar, Spice, and Everything Nice"
 			x: 2.5d
 			y: -2.5d
 		}
 		{
+			dependencies: ["161425322AABFBED"]
 			hide_dependency_lines: true
 			id: "6981F33216C172CF"
 			shape: "circle"

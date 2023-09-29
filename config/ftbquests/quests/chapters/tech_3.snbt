@@ -443,6 +443,7 @@
 				"- Reinforced Integral Components"
 				"- Resonant Integral Components"
 				"- Shaft"
+				"- Creative Vending Upgrade"
 			]
 			id: "57B39307C919E080"
 			subtitle: "Deployer > Deployer > Deployer > Press"
@@ -468,9 +469,10 @@
 				"- Pity Machine Frame"
 				"- Crystal Housing Unit"
 				"- ZPM Housing Unit"
+				"- Creative Blaze Cake"
 			]
 			id: "24EDD34485EC3CB6"
-			subtitle: "Deployer > Deployer > Spout > Press"
+			subtitle: "Deployer > Deployer > Deployer > Spout > Press"
 			tasks: [{
 				id: "45B7FA0E55DCDA45"
 				title: "Ok"
