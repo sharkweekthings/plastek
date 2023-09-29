@@ -75,6 +75,22 @@ ServerEvents.recipes(event => {
     3: 'minecraft:writable_book',
     4: 'botania:dragonstone'}).id('occultism:crafting/book_of_binding_djinni')
 
+// Book of Binding: Afrit
+  event.shaped('occultism:book_of_binding_afrit',
+    ['124','232','424'], {
+    1: 'occultism:purified_ink',
+    2: 'minecraft:purple_dye',
+    3: 'minecraft:writable_book',
+    4: 'ae2:fluix_crystal'}).id('occultism:crafting/book_of_binding_afrit')
+
+// Book of Binding: Marid
+  event.shaped('occultism:book_of_binding_marid',
+    ['124','232','424'], {
+    1: 'occultism:purified_ink',
+    2: 'minecraft:red_dye',
+    3: 'minecraft:writable_book',
+    4: 'powah:steel_energized'}).id('occultism:crafting/book_of_binding_marid')
+
 // T1 Divination Rod
   event.shaped('theurgy:divination_rod_t1',
     ['243',' 31','3 2'], {

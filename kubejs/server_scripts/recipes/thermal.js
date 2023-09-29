@@ -795,6 +795,23 @@ ServerEvents.recipes(event => {
   ]
 }).id('industrialforegoing:thermal_press_plastic')
 
+// Plasteel Plate
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "silentcompat:plasteel_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:plasteel_plate",
+      "count": 1
+    }
+  ]
+}).id('thermal:plasteel_plate_press')
+
 // Plasteel Gear
   event.custom({
   "type": "thermal:press",

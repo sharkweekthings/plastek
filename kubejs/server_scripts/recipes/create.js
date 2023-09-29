@@ -75,6 +75,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:crafting/kinetics/sequenced_gearshift'})
   event.remove({id: 'create:crafting/kinetics/rotation_speed_controller'})
   event.remove({id: 'create:crafting/kinetics/mechanical_harvester'})
+  event.remove({id: 'create:pressing/plasteel_plate'})
 
 //
 })

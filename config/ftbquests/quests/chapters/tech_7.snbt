@@ -372,6 +372,12 @@
 		{
 			dependencies: ["2384C49497914DBB"]
 			id: "51BAE5970C9584CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77B9D13C589385A7"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "6AD96AF5EA22E64B"
