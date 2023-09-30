@@ -420,12 +420,6 @@ ServerEvents.recipes(event => {
     1: 'immersiveengineering:stick_treated',
     2: 'compressium:diamond_2'}).id('constructionwand:misc/diamond_wand')
 
-// Infinity Wand
-  event.shaped('constructionwand:infinity_wand',
-    ['  2',' 1 ','1  '], {
-    1: 'immersiveengineering:stick_treated',
-    2: 'compressium:netherite_2'}).id('constructionwand:misc/infinity_wand')
-
 // Ender Chest
   event.shaped('enderstorage:ender_chest',
     ['232','313','232'], {
