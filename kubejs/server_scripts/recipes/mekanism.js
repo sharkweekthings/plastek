@@ -550,6 +550,16 @@ ServerEvents.recipes(event => {
     "thermal:phytogro"}},
     "output":{"count":3,"item":"mekanism:bio_fuel"}}).id('mekanism:bio_fuel_extra')
 
+// Sharkinite Ingot
+  event.custom({"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":100,"tag":"mekanism:refined_obsidian"},
+  "itemInput":{"ingredient":{"item":"emendatusenigmatica:raw_sharkinite"}},
+  "output":{"item":"emendatusenigmatica:sharkinite_ingot"}}).id('mekanism:raw_to_ingot_sharkinite')
+
+// Sharkinite Ingot FroM Dust
+  event.custom({"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":100,"tag":"mekanism:refined_obsidian"},
+  "itemInput":{"ingredient":{"item":"emendatusenigmatica:sharkinite_dust"}},
+  "output":{"item":"emendatusenigmatica:sharkinite_ingot"}}).id('mekanism:dust_to_ingot_sharkinite')
+
 //    
 })
 //

@@ -106,6 +106,88 @@ Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:enderman
   "sourceCost": 2000
 }).id('kubejs:infused_eye_of_ender')
 
+// Weekonium Ingot
+  event.custom({
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "emendatusenigmatica:weekonium_ingot"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "emendatusenigmatica:raw_weekonium"
+    }
+  ],
+  "sourceCost": 9000
+}).id('kubejs:weekonium_ingot')
+
+// Weekonium Ingot From Dust
+  event.custom({
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "emendatusenigmatica:weekonium_dust"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "emendatusenigmatica:weekonium_dust"
+    }
+  ],
+  "sourceCost": 9000
+}).id('kubejs:weekonium_ingot_from_dust')
+
 
 // //    
 })
