@@ -284,6 +284,15 @@ ServerEvents.recipes(event => {
 	4: 'mekanism:basic_control_circuit',
   5: 'mekanism:dynamic_tank'}).id('mekanism:pressurized_reaction_chamber')
 
+// Solar Neutron Activator
+  event.shaped('mekanism:solar_neutron_activator',
+    ['555','232','414'], {
+  1: 'pneumaticcraft:printed_circuit_board',
+  2: 'emendatusenigmatica:plasteel_plate',
+	3: 'industrialforegoing:machine_frame_supreme',
+	4: 'mekanism:ultimate_control_circuit',
+  5: 'emendatusenigmatica:plasteel_gear'}).id('mekanism:solar_neutron_activator')
+
 // Purification Chamber
   event.shaped('mekanism:purification_chamber',
     ['555','232','414'], {
@@ -540,6 +549,48 @@ ServerEvents.recipes(event => {
   2: 'thermal:lead_plate',
   3: 'minecraft:orange_dye',
   4: 'totemic:buffalo_hide'}).id('mekanism:hazmat_boots')
+
+// Turbine Casing
+  event.shaped('2x mekanismgenerators:turbine_casing',
+    ['313','121','313'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'powah:reactor_spirited',
+  3: 'mekanism:hdpe_sheet'}).id('mekanismgenerators:turbine/casing')
+
+// Fission Reactor Casing
+  event.shaped('2x mekanismgenerators:fission_reactor_casing',
+    ['131','323','131'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'powah:reactor_spirited',
+  3: 'mekanism:hdpe_sheet'}).id('mekanismgenerators:fission_reactor/casing')
+
+// Saturating Condenser
+  event.shaped('mekanismgenerators:saturating_condenser',
+    ['313','121','313'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'thermal:device_water_gen',
+  3: 'mekanism:hdpe_sheet'}).id('mekanismgenerators:saturating_condenser')
+
+// Electromagnetic Coil
+  event.shaped('mekanismgenerators:electromagnetic_coil',
+    ['313','121','313'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'immersiveengineering:toolupgrade_revolver_electro',
+  3: 'emendatusenigmatica:electrum_plate'}).id('mekanismgenerators:electromagnetic_coil')
+
+// Control Rod Assembly
+  event.shaped('mekanismgenerators:control_rod_assembly',
+    ['121','232','121'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'mekanism:hdpe_sheet',
+  3: 'mekanism:ultimate_control_circuit'}).id('mekanismgenerators:fission_reactor/control_rod_assembly')
+
+// Fuel Assembly
+  event.shaped('mekanismgenerators:fission_fuel_assembly',
+    ['121','131','121'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'mekanism:hdpe_sheet',
+  3: 'mekanism:ultimate_chemical_tank'}).id('mekanismgenerators:fission_reactor/fuel_assembly')
 
 // Bio Fuel Hand
   event.shapeless(Item.of('mekanism:bio_fuel'), ['thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', ]).id('mekanism:bio_fuel')

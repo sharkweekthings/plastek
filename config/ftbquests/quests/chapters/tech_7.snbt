@@ -773,6 +773,11 @@
 			]
 			id: "1B5E6706AC68BCC0"
 			subtitle: "Part 4: Finale"
+			tasks: [{
+				id: "24D5EBCBEE429E7E"
+				title: "Ok"
+				type: "checkmark"
+			}]
 			title: "Lets Get Creative"
 			x: 2.5d
 			y: -7.0d
