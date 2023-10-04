@@ -5,7 +5,8 @@
 	{"item": "silentcompat:plasteel_ingot"},
 	{"item": "pneumaticcraft:plastic"},
 	{"item": "industrialforegoing:plastic"},
-	{"item": "emendatusenigmatica:plastim_dust"}
+	{"item": "emendatusenigmatica:plastim_dust"},
+	{"item": "mekanism:pellet_polonium"}
   ],
   "energy": 60000000,
   "result": {

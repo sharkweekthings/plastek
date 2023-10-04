@@ -782,6 +782,18 @@
 			x: 2.5d
 			y: -7.0d
 		}
+		{
+			id: "7DED2DA9655A250E"
+			title: "Induction Matrix?"
+			x: 12.0d
+			y: -9.5d
+		}
+		{
+			id: "662ED5C80079DFC4"
+			title: "Fusion Reactor?"
+			x: 15.0d
+			y: -9.5d
+		}
 	]
 	title: "Tech"
 }
