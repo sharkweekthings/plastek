@@ -1379,26 +1379,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["6C83889A2AB0A579"]
-			description: ["The last step is to charge this up with your Powah Energizing setup. "]
-			id: "26CFA7E3DAE92864"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1ED3ACCAEAEEF2D1"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "6F71AD33D7A85982"
-				item: "kubejs:charged_zpm_housing_unit"
-				type: "item"
-			}]
-			title: "Charged ZPM Housing Unit"
-			x: -4.5d
-			y: 8.5d
-		}
-		{
 			dependencies: ["6A337CED7C4DE0ED"]
 			id: "0464A5D19D1AC159"
 			subtitle: "We had to use it somewhere!"
@@ -1432,8 +1412,13 @@
 		}
 		{
 			dependencies: ["4A117A32B18470FE"]
-			description: ["Like the Crystal Housing Unit that you made earlier, the process for this is the same except you'll be Deploying the ZPM into the Damaged Unit."]
+			description: [
+				"Like the Crystal Housing Unit that you made earlier, the process for this is the same except you'll be Deploying the ZPM into the Damaged Unit."
+				""
+				"We will need to charge it up sometime in Age 7 to be used in the Tier 4 rocket."
+			]
 			id: "6C83889A2AB0A579"
+			shape: "gear"
 			tasks: [{
 				id: "70036C357E733789"
 				item: "kubejs:depleted_zpm_housing_unit"

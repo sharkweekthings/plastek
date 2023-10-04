@@ -439,7 +439,7 @@ ServerEvents.recipes(event => {
     "tag": "forge:biodiesel"
   },
   "fluid_output": {
-    "amount": 1000,
+    "amount": 150,
     "fluid": "pneumaticcraft:plastic"
   },
   "item_input": {
@@ -464,7 +464,7 @@ ServerEvents.recipes(event => {
     "tag": "forge:lpg"
   },
   "fluid_output": {
-    "amount": 1000,
+    "amount": 150,
     "fluid": "pneumaticcraft:plastic"
   },
   "item_input": {

@@ -66,6 +66,11 @@
 				"01011EAF7AC1ECF1"
 				"7DFD8A4FD1BB9E8D"
 			]
+			description: [
+				"Heres what we did with the Blaze Cake."
+				""
+				"Now it seems like wondering was a waste of time. Sorry!"
+			]
 			hide_dependency_lines: false
 			id: "0BB2400341ECDB10"
 			shape: "circle"
@@ -234,6 +239,7 @@
 		}
 		{
 			dependencies: ["34269CBE4A60EE1A"]
+			description: ["Finally we will be making use of our Charged ZPM."]
 			id: "733685689F4BC517"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -524,6 +530,10 @@
 				"You are free to make the Fission Reactor any size you see fit for your Pollonium production needs."
 				""
 				"The examples provided will be using a 4 wide 5 tall setup."
+				""
+				"&bYou should definitely wait to turn everything on until the Fission Reactor is 100% full of coolant.&r "
+				""
+				"&c&oYou wouldnt want this to explode and destroy your base would you?&r&r"
 			]
 			id: "06CBEEF8DA88AC21"
 			tasks: [
@@ -783,16 +793,153 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["654C0693E4AD7972"]
+			description: [
+				"The Induction Matrix is a powerful multiblock that allows you to store massive amounts of power. "
+				""
+				"The main goal for this piece of the quest is to make an Ultimate Induction Cell. You're gonna need it for the Tier 4 rocket. "
+				""
+				"If you're interested in actually making an Induction Matrix, it's pretty easy! "
+				""
+				"You can make any cuboid shape up to 18x18x18 in size. The frame itself must be made of &bInduction Casing&r and the rest can be filled with the casing, &bStructural Glass&r, or &bInduction Ports&r."
+				""
+				"Once you have your cuboid shape you will need to add &bInduction Cells&r which will act as the storage. You will also need to add &bInduction Providers&r if you want to increase the rate at which the power is transferred."
+			]
 			id: "7DED2DA9655A250E"
-			title: "Induction Matrix?"
+			tasks: [
+				{
+					id: "04DD38B62D8E0E99"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "59BDAF21F37589B1"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "6B2694D5C6620E86"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+			]
+			title: "Induction Matrix"
+			x: 14.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DED2DA9655A250E"]
+			description: ["The princess is in another castle."]
+			id: "662ED5C80079DFC4"
+			invisible: true
+			shape: "circle"
+			subtitle: "Reserved for future Fusion Reactor quest"
+			title: "Fusion Reactor"
+			x: 17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["259B2A9BDF1D4EAC"]
+			description: [
+				"Making Lithium is surprisingly easy!"
+				""
+				"You've already made a Thermo Evaporation Plant to make Brine. Now you just need to make another Thermo Evaporation Plant, send in the Brine, and you will produce Lithium at a rate of 10mb to 1mb!"
+				""
+				"You'll need to send the Liquid Lithium into a &bRotary Condensentrator&r to turn it into Lithium, then send the Lithium into a &bChemical Crystallizer&r in order to make Lithium Dust."
+			]
+			id: "654C0693E4AD7972"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76BB0452907EFA4C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Lithium made easy."
+			tasks: [{
+				id: "1F1C2ED7FF097A6F"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			title: "Lithium Dust"
 			x: 12.0d
 			y: -9.5d
 		}
 		{
-			id: "662ED5C80079DFC4"
-			title: "Fusion Reactor?"
+			dependencies: ["7DED2DA9655A250E"]
+			description: ["Acts as power storage when placed inside the Induction Matrix."]
+			id: "26FD986DBA81F07C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3724D4B59A6C055B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "41A8D24E5E2B6EBC"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "5A74C6D69821D4B3"
+					item: "mekanism:advanced_induction_cell"
+					type: "item"
+				}
+				{
+					id: "56376CD4B8D7DF5A"
+					item: "mekanism:elite_induction_cell"
+					type: "item"
+				}
+				{
+					id: "6C20C5A875CAA012"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+			]
 			x: 15.0d
-			y: -9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7DED2DA9655A250E"]
+			description: ["Increases the rate at which power is transferred for your Induction Matrix."]
+			id: "0F8AC6AB5A5EAD78"
+			shape: "square"
+			tasks: [
+				{
+					id: "7A0F9E563AC03AB1"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					id: "2990670ADBDE3A57"
+					item: "mekanism:advanced_induction_provider"
+					type: "item"
+				}
+				{
+					id: "29A58E59651C2F36"
+					item: "mekanism:elite_induction_provider"
+					type: "item"
+				}
+				{
+					id: "22F15AB126451308"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			id: "3D128960378C29D4"
+			tasks: [{
+				id: "39A2614D86547D07"
+				item: "kubejs:charged_zpm_housing_unit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	title: "Tech"

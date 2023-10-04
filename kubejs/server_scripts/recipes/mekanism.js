@@ -585,6 +585,55 @@ ServerEvents.recipes(event => {
   2: 'mekanism:hdpe_sheet',
   3: 'mekanism:ultimate_control_circuit'}).id('mekanismgenerators:fission_reactor/control_rod_assembly')
 
+// Turbine Rotor
+  event.shaped('mekanismgenerators:turbine_rotor',
+    ['121','121','121'], {
+  1: 'emendatusenigmatica:plasteel_rod',
+  2: 'mekanism:alloy_reinforced'}).id('mekanismgenerators:turbine/rotor')
+
+// Turbine Blade
+  event.shaped('mekanismgenerators:turbine_blade',
+    [' 1 ','121',' 1 '], {
+  1: 'emendatusenigmatica:steel_plate',
+  2: 'mekanism:alloy_reinforced'}).id('mekanismgenerators:turbine/blade')
+
+// Induction Casing
+  event.shaped('2x mekanism:induction_casing',
+    ['222','212','222'], {
+  1: 'industrialforegoing:machine_frame_supreme',
+  2: 'mekanism:hdpe_sheet'}).id('mekanism:induction/casing')
+
+// Induction Port
+  event.shaped('mekanism:induction_port',
+    [' 2 ','212',' 2 '], {
+  1: 'mekanism:ultimate_control_circuit',
+  2: 'mekanism:induction_casing'}).id('mekanism:induction/port')
+
+// Basic Induction Cell
+  event.shaped('mekanism:basic_induction_cell',
+    ['131','323','131'], {
+  1: 'mekanism:dust_lithium',
+  2: 'mekanism:basic_induction_provider',
+  3: 'mekanism:induction_casing'}).id('mekanism:induction/cell/basic')
+
+// Advanced Induction Cell
+  event.shaped('mekanism:advanced_induction_cell',
+    [' 1 ','121',' 1 '], {
+  1: 'mekanism:basic_induction_cell',
+  2: 'mekanism:advanced_induction_provider'}).id('mekanism:induction/cell/advanced')
+
+// Elite Induction Cell
+  event.shaped('mekanism:elite_induction_cell',
+    [' 1 ','121',' 1 '], {
+  1: 'mekanism:advanced_induction_cell',
+  2: 'mekanism:elite_induction_provider'}).id('mekanism:induction/cell/elite')
+
+// Ultimate Induction Cell
+  event.shaped('mekanism:ultimate_induction_cell',
+    [' 1 ','121',' 1 '], {
+  1: 'mekanism:elite_induction_cell',
+  2: 'mekanism:ultimate_induction_provider'}).id('mekanism:induction/cell/ultimate')
+
 // Fuel Assembly
   event.shaped('mekanismgenerators:fission_fuel_assembly',
     ['121','131','121'], {
