@@ -19,7 +19,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6CC548A88B883F00"]
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["46302C4C64C7C6E2"]
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -96,7 +96,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4091966F3BE79F43"]
@@ -122,7 +122,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -140,7 +140,7 @@
 			}]
 			title: "Creative Fluid Tank"
 			x: 5.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A298462977A633B"]
@@ -153,7 +153,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["51BAE5970C9584CB"]
@@ -177,7 +177,7 @@
 			}]
 			title: "Sugar, Spice, and Everything Nice"
 			x: 2.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["161425322AABFBED"]
@@ -203,7 +203,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -219,7 +219,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -235,11 +235,15 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["34269CBE4A60EE1A"]
-			description: ["Finally we will be making use of our Charged ZPM."]
+			dependencies: ["3D128960378C29D4"]
+			description: [
+				"The Tier 4 rocket has the capability of traveling to Glacio. "
+				""
+				"Glacio is a planet lush with resources, and seemingly friendly creatures. "
+			]
 			id: "733685689F4BC517"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -260,7 +264,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7AB6777B9471D4AD"]
@@ -286,7 +290,11 @@
 		}
 		{
 			dependencies: ["1B5E6706AC68BCC0"]
-			description: ["To make any Creative Items you will need the Advanced Crafting Table.  "]
+			description: [
+				"To make any Creative Items you will need the Advanced Crafting Table, so lets go ahead and get this out of the way. "
+				""
+				"We won't need it for a few more steps, though. "
+			]
 			id: "34269CBE4A60EE1A"
 			shape: "circle"
 			tasks: [{
@@ -313,7 +321,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["46302C4C64C7C6E2"]
@@ -341,7 +349,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["221A3D7B8C76B864"]
@@ -361,7 +369,7 @@
 			]
 			title: "Creative Power"
 			x: 0.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6B5674AA87E4BBC4"]
@@ -373,7 +381,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2384C49497914DBB"]
@@ -391,7 +399,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6B5674AA87E4BBC4"]
@@ -422,7 +430,7 @@
 			}]
 			title: "Do I even really need this?"
 			x: -1.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0F40041626CD0CBB"]
@@ -434,7 +442,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1EE34A8EBF067D13"]
@@ -932,14 +940,16 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["1B5E6706AC68BCC0"]
+			description: ["You'll need to take the Depleted ZPM Housing Unit and charge it up with your Powah Energizing setup."]
 			id: "3D128960378C29D4"
 			tasks: [{
 				id: "39A2614D86547D07"
 				item: "kubejs:charged_zpm_housing_unit"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 2.5d
+			y: -4.0d
 		}
 	]
 	title: "Tech"
