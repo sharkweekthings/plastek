@@ -19,7 +19,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6CC548A88B883F00"]
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["46302C4C64C7C6E2"]
@@ -45,7 +45,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["01011EAF7AC1ECF1"]
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -75,7 +75,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -91,7 +91,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4091966F3BE79F43"]
@@ -104,7 +104,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["01011EAF7AC1ECF1"]
@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -135,7 +135,7 @@
 			}]
 			title: "Creative Fluid Tank"
 			x: 5.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A298462977A633B"]
@@ -148,7 +148,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["51BAE5970C9584CB"]
@@ -172,7 +172,7 @@
 			}]
 			title: "Sugar, Spice, and Everything Nice"
 			x: 2.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["161425322AABFBED"]
@@ -185,7 +185,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["77C6034732EC7F88"]
@@ -198,7 +198,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -214,7 +214,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -230,7 +230,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["34269CBE4A60EE1A"]
@@ -254,7 +254,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7AB6777B9471D4AD"]
@@ -279,7 +279,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["46302C4C64C7C6E2"]
+			dependencies: ["1B5E6706AC68BCC0"]
 			description: ["To make any Creative Items you will need the Advanced Crafting Table.  "]
 			id: "34269CBE4A60EE1A"
 			shape: "circle"
@@ -289,7 +289,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["733685689F4BC517"]
@@ -307,7 +307,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["46302C4C64C7C6E2"]
@@ -320,7 +320,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -335,7 +335,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["221A3D7B8C76B864"]
@@ -355,7 +355,7 @@
 			]
 			title: "Creative Power"
 			x: 0.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B5674AA87E4BBC4"]
@@ -367,7 +367,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2384C49497914DBB"]
@@ -385,7 +385,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6B5674AA87E4BBC4"]
@@ -416,7 +416,7 @@
 			}]
 			title: "Do I even really need this?"
 			x: -1.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F40041626CD0CBB"]
@@ -428,7 +428,354 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "3D0A462904DDBAD2"
+			shape: "square"
+			tasks: [{
+				id: "7A8E7C8169308F5E"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "24FF2B2C385D7B8A"
+			tasks: [{
+				id: "1A1C3EC83CB9686B"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			description: ["Here we will be setting up several machines in order to create Fissile Fuel to power up our Fission Reactor. "]
+			id: "1EE34A8EBF067D13"
+			subtitle: "Part 1"
+			tasks: [{
+				id: "31A66268230A2393"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Fuel of the Future"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "17576FDE566047D4"
+			tasks: [{
+				id: "36A138768569B0CD"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "1F6F8F46B95D9AEC"
+			tasks: [{
+				id: "193C33431735341D"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			description: [
+				"Now we're producing Fissile Fuel. "
+				""
+				"Once the Fission Reactor is setup, you'll be sending your Fissile Fuel into the Fission Reactor."
+			]
+			id: "1083EFA885F31C83"
+			tasks: [{
+				id: "464AD7846E026C24"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			id: "60400B420A133339"
+			subtitle: "Part 2"
+			tasks: [{
+				id: "11188EB9D5814D4C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Power Overwhelming"
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["60400B420A133339"]
+			description: [
+				"You are free to make the Fission Reactor any size you see fit for your Pollonium production needs."
+				""
+				"The examples provided will be using a 4 wide 5 tall setup."
+			]
+			id: "06CBEEF8DA88AC21"
+			tasks: [
+				{
+					id: "58F76BDFD2FFFDED"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4A64319C4EAD2FC7"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "7038C1468502919C"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "384DC03BD319B5B8"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AAFA77B42A3909F"]
+			id: "2ACD9AB347CB63EF"
+			tasks: [{
+				id: "432042E5FCB12A93"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2ACD9AB347CB63EF"]
+			id: "35B280F124AC0693"
+			tasks: [{
+				id: "572C4F5A0C8B36E6"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"06CBEEF8DA88AC21"
+				"35B280F124AC0693"
+			]
+			id: "7B926B747A2EC7D8"
+			shape: "gear"
+			tasks: [{
+				id: "488E0D5AADE2CE1D"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["60400B420A133339"]
+			description: [
+				"You are free to make the Industrial Turbine any size you see fit for your Pollonium production needs."
+				""
+				"The examples provided will be using a 5 wide 9 tall setup."
+			]
+			id: "259B2A9BDF1D4EAC"
+			tasks: [
+				{
+					id: "7A58D0C6640DBFEF"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "1EAE1DC5638ECAE1"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "76AE39716F99D1B0"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "2DB01D0AD3CB7F92"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "28CCED63A2853C18"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "0A0C4386091FAA66"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					id: "43DD67CB90134BCD"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "0C188B6EA043B058"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "2C2180479E4851C4"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "0E0EEAB6226F3A4A"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+			]
+			title: "Industrial Turbine"
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["259B2A9BDF1D4EAC"]
+			description: [
+				"- 128 Turbine Casing (&othe frame must be casing, everything else can be Structural Glass if you want to make it look nice&r)"
+				"- 5 Turbine Rotor"
+				"- 10 Turbine Blades"
+				"- 33 Turbine Vent"
+				"- 6 Saturating Condensers"
+				"- 3 Electromagnetic Coil"
+				"- 8 Pressure Disperser"
+				"- 1 Turbine Valve"
+				"- 1 Rotational Complex"
+				""
+				"{image:kubejs:textures/mekanism/mekanism_turbine_reactor_view_front.png width:150 height:150 align:1}"
+			]
+			id: "7ACEEF9E739B075A"
+			shape: "circle"
+			tasks: [{
+				id: "1E48FE014F339C96"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Industrial Turbine Example"
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["06CBEEF8DA88AC21"]
+			description: [
+				"- 67 Fission Reactor Casing (&othe frame must be casing, everything else can be Reactor Glass if you want to make it look nice&r)"
+				"- 4 Control Rod Assembly"
+				"- 8 Fission Fuel Assembly"
+				"- 3 Fission Reactor Port"
+				""
+				""
+				"{image:kubejs:textures/mekanism/mekanism_fission_reactor_view_front.png width:150 height:150 align:1}"
+			]
+			id: "002E1A83C3C0D396"
+			shape: "circle"
+			tasks: [{
+				id: "477C5C238E4E6783"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Fission Reactor Example"
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"002E1A83C3C0D396"
+				"7ACEEF9E739B075A"
+			]
+			description: [
+				"{image:kubejs:textures/mekanism/mekanism_turbine_fission_loop.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+			]
+			id: "72F0E9CE1EA25A4C"
+			shape: "circle"
+			tasks: [{
+				id: "29A2B8FF6E62AE57"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Closed Loop"
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7ACEEF9E739B075A"]
+			description: ["{image:kubejs:textures/mekanism/mekanism_turbine_reactor_view_top.png width:150 height:150 align:1}"]
+			id: "4022F2E8E8327BE3"
+			shape: "circle"
+			tasks: [{
+				id: "1EA62381CA9DE669"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Top View, with the Vents"
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7ACEEF9E739B075A"]
+			description: ["{image:kubejs:textures/mekanism/mekanism_turbine_reactor_view_inside.png width:150 height:150 align:1}"]
+			id: "0909272B21CB7A6D"
+			shape: "circle"
+			tasks: [{
+				id: "3C96409D7E205BDF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Top View, Under the Vents"
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			id: "1AAFA77B42A3909F"
+			subtitle: "Part 3"
+			tasks: [{
+				id: "2A8132D3A36E4419"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "It's Just A Pellet?!"
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			description: [
+				"Wow. I cant believe someone actually made it this far. "
+				""
+				"That's pretty darn cool! "
+				""
+				"Thank you for taking the time to make it through my modpack. I hope you have fun finishing up the rest of the Age. "
+			]
+			id: "1B5E6706AC68BCC0"
+			subtitle: "Part 4: Finale"
+			title: "Lets Get Creative"
+			x: 2.5d
+			y: -7.0d
 		}
 	]
 	title: "Tech"

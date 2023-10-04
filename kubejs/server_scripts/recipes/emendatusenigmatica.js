@@ -68,7 +68,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'emendatusenigmatica:dust/from_raw/silver'})
   event.remove({id: 'emendatusenigmatica:dust/from_raw/osmium'})
   event.remove({id: 'emendatusenigmatica:dust/from_raw/weekonium'})
-
   event.remove({id: 'emendatusenigmatica:ingot/from_ore/smelting/sharkinite'})
   event.remove({id: 'emendatusenigmatica:ingot/from_ore/blasting/sharkinite'})
   event.remove({id: 'emendatusenigmatica:ingot/from_raw/smelting/sharkinite'})
@@ -77,6 +76,13 @@ ServerEvents.recipes(event => {
   event.remove({id: 'emendatusenigmatica:clump/from_ore/sharkinite'})
   event.remove({id: 'emendatusenigmatica:slurry/dirty/from_ore/sharkinite'})
   event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_blackstone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_mercury_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_glacio_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_moon_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_mars_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_venus_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_basalt'})
   event.remove({id: 'emendatusenigmatica:dust/from_ore_crusher_spirit/sharkinite'})
   event.remove({id: 'emendatusenigmatica:ingot/from_dust/smelting/sharkinite'})
   event.remove({id: 'emendatusenigmatica:ingot/from_dust/blasting/sharkinite'})
@@ -84,9 +90,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/sharkinite_deepslate'})
   event.remove({id: 'thermal:furnace_1073449645'})
   event.remove({id: 'thermal:furnace_104601605'})
-
-  
-  
   event.remove({id: 'emendatusenigmatica:ingot/from_ore/smelting/weekonium'})
   event.remove({id: 'emendatusenigmatica:ingot/from_ore/blasting/weekonium'})
   event.remove({id: 'emendatusenigmatica:ingot/from_raw/smelting/weekonium'})
@@ -99,7 +102,15 @@ ServerEvents.recipes(event => {
   event.remove({id: 'emendatusenigmatica:ingot/from_dust/smelting/weekonium'})
   event.remove({id: 'emendatusenigmatica:ingot/from_dust/blasting/weekonium'})
   event.remove({id: 'emendatusenigmatica:ingot/from_dust_induction/weekonium'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_blackstone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_mercury_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_glacio_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_moon_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_mars_stone'})
   event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_venus_stone'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_basalt'})
+  event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_deepslate'})
   event.remove({id: 'thermal:furnace_706515847'})
   event.remove({id: 'thermal:furnace_706515847'})
 
