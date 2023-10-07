@@ -926,7 +926,7 @@
 				}
 			]
 			title: "Molten Plastic to Plastic Sheets"
-			x: -1.5d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
@@ -1189,7 +1189,7 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 8.5d
 		}
 	]

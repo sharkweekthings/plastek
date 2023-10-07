@@ -237,7 +237,7 @@ ServerEvents.recipes(event => {
     2: 'create:shaft'}).id('create:crafts/large_cogwheel')
 
 // Spout
-  event.shapeless(Item.of('create:spout'), ['create:copper_casing', 'supplementaries:faucet']).id('create:crafts/spout')  
+  event.shapeless(Item.of('create:spout'), ['create:brass_casing', 'supplementaries:faucet']).id('create:crafts/spout')  
 
 // Mechanical Press   
   event.shaped('create:mechanical_press', 
@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
     ['111',' 3 ',' 2 '], {
     1: 'industrialforegoing:plastic', 
     2: 'create:brass_hand',
-    3: 'create:andesite_casing'}).id('create:crafts/deployer')
+    3: 'create:brass_casing'}).id('create:crafts/deployer')
 
 // Mechanical Saw
   event.shaped('create:mechanical_saw', 

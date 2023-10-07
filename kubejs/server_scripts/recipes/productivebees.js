@@ -191,7 +191,7 @@ ServerEvents.recipes(event => {
   event.shaped('productivebees:bee_cage', 
     ['222','212','232'], {
     1: 'minecraft:honeycomb_block',
-    2: 'emendatusenigmatica:copper_rod',
+    2: 'emendatusenigmatica:brass_rod',
     3: '#minecraft:trapdoors'}).id('productivebees:bee_cage')
 
 // Centrifuge
@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
     1: 'create:basin',
     2: 'minecraft:waxed_copper_block',
     3: 'create:electron_tube',
-    4: 'emendatusenigmatica:iron_plate'}).id('productivebees:centrifuge')
+    4: 'emendatusenigmatica:brass_plate'}).id('productivebees:centrifuge')
 
 // Powered Centrifuge
   event.shaped('productivebees:powered_centrifuge', 

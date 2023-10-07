@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
 // Nasa Workbench 
   event.shaped('ad_astra:nasa_workbench', 
     ['565','343','121'], {
-    1: 'minecraft:redstone_block',
+    1: 'emendatusenigmatica:brass_block',
     2: 'pneumaticcraft:compressed_iron_block',
     3: 'industrialforegoing:plastic',
     4: 'minecraft:crafting_table',
