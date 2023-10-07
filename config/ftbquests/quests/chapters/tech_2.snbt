@@ -45,132 +45,30 @@
 		}
 		{
 			dependencies: ["50031393944F8B2E"]
-			description: [
-				"It'l be great to get that better storage up and running, won't it?  "
-				""
-				"Well, if you picked this as your first route -- you got some more hand cranking to do!  This time you'll need to power up an Encased Fan with some water so you can do some bulk Washing."
-				""
-				"Of course, you can always wait until you have a Water Wheel and power the Encased Fan automatically. "
-			]
-			id: "1CBA8C2CFE9A8017"
-			tasks: [
-				{
-					id: "6997C052D6D2AB90"
-					item: "create:propeller"
-					type: "item"
-				}
-				{
-					id: "5A723CB3C4BD28DF"
-					item: "create:shaft"
-					type: "item"
-				}
-				{
-					id: "77CB57BBE46FCF53"
-					item: "create:andesite_casing"
-					type: "item"
-				}
-				{
-					id: "21A6066E526BE40B"
-					item: "create:hand_crank"
-					type: "item"
-				}
-			]
-			title: "So Cranky"
-			x: -4.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1CBA8C2CFE9A8017"]
-			description: [
-				"A simple setup could look something like this: "
-				""
-				"{image:kubejs:textures/create/create_fan_sample.png width:125 height:125 align:1}"
-			]
-			id: "4B05051E2D5A54FF"
+			description: ["A dye of your choice color, 4 Sand, and 4 Gravel crafted together whill create Concrete Powder."]
+			id: "1C89D3758FDA8D63"
 			tasks: [{
-				id: "75690BF4D8D04485"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1CBA8C2CFE9A8017"]
-			description: ["Trapdoors are optional. If you know of a better way to contain the water, the choice is yours."]
-			id: "4514A9A99052FB71"
-			shape: "circle"
-			tasks: [{
-				count: 4L
-				id: "0E36B27FE6ECC036"
+				id: "04E804177681AB56"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "minecraft:trapdoors"
+						value: "forge:concrete_powder"
 					}
 				}
-				title: "Any #minecraft:trapdoors"
+				title: "Any #forge:concrete_powder"
 				type: "item"
 			}]
-			title: "Trapdoors Optional"
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1CBA8C2CFE9A8017"]
-			id: "257884FF983105F8"
-			tasks: [{
-				id: "3EFD70223C514203"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4B05051E2D5A54FF"]
-			description: [
-				"1 Concrete Powder will cost 4 Sand, 4 Gravel, and 1 Dye of whatever color Concrete you want. "
-				""
-				"When you have enough Concrete Powder, take it over to your Washing Fan, drop them in front of the fan, or on the Depot (if you set up a Depot). Then get to cranking!   "
-				""
-				"After a little while, your stack should convert into \"Concrete\"!"
-			]
-			id: "1C89D3758FDA8D63"
-			tasks: [
-				{
-					count: 4L
-					id: "27774C81B7C2D57F"
-					item: "minecraft:gravel"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "769A7DD4E555A08E"
-					item: "minecraft:sand"
-					type: "item"
-				}
-				{
-					id: "535F49EF42F3B968"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dyes"
-						}
-					}
-					title: "Any #forge:dyes"
-					type: "item"
-				}
-			]
 			title: "Concrete Powder"
-			x: 1.0d
-			y: 3.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1C89D3758FDA8D63"]
-			description: ["With this kind of knowledge, you could get a job as someone who makes sidewalks!"]
+			dependencies: [
+				"02E317D4A6FB874C"
+				"1C89D3758FDA8D63"
+			]
+			description: ["To make 1 Concrete Block you will need to make 500mb of Liquid Concrete, and pour it over a Concrete Powder block using a Spout."]
 			id: "116360F62F2EB226"
 			tasks: [{
 				id: "620CFC76666B7908"
@@ -185,8 +83,8 @@
 				type: "item"
 			}]
 			title: "iConcrete"
-			x: 1.0d
-			y: 5.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -219,8 +117,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 5.0d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -235,8 +133,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -256,8 +154,8 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -270,8 +168,8 @@
 				item: "immersiveengineering:creosote_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1673C2D215EA54FD"]
@@ -313,7 +211,7 @@
 			}]
 			title: "Treated Wood"
 			x: 4.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1BEF36F590BA5162"]
@@ -812,8 +710,8 @@
 				type: "item"
 			}]
 			title: "Better Than Coal"
-			x: 1.0d
-			y: 8.0d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["40562A0DA7BD8849"]
@@ -920,7 +818,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0BB117053557ED97"]
@@ -1167,7 +1065,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["03FAA14F839BF3FE"]
@@ -1187,6 +1085,25 @@
 			title: "Multiple Water Wheels"
 			x: 2.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["50031393944F8B2E"]
+			description: [
+				"You'll need 1 Water Bucket, 4 Sand, and 4 Gravel to make 1 Construction Paste.  Just craft it together on a Crafting Table. "
+				""
+				"Using 5 Construction Paste and 200mb of Water will make 150mb of Liquid Concrete when put in a Mixer."
+			]
+			id: "02E317D4A6FB874C"
+			subtitle: "Mix it real good"
+			tasks: [{
+				count: 5L
+				id: "16B875E023E7A6A1"
+				item: "buildinggadgets:construction_paste"
+				type: "item"
+			}]
+			title: "Mixing Construction Paste"
+			x: -5.0d
+			y: 3.0d
 		}
 	]
 	title: "Tech"

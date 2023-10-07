@@ -468,6 +468,9 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'buildinggadgets:construction_paste',
+  'immersiveengineering:concrete_bucket',
+  'immersiveengineering:concrete',
   'mysticalagriculture:inferium_essence',
   'thermal:rubber_block',
   'immersiveengineering:coke_oven',
@@ -1101,6 +1104,9 @@ event.add('kubejs:age_4_item',
 
 event.add('kubejs:age_4_exception', 
   [
+  'buildinggadgets:construction_paste',
+  'immersiveengineering:concrete_bucket',
+  'immersiveengineering:concrete',
   'immersiveengineering:coal_coke',
   'pneumaticcraft:reinforced_chest',
   'immersiveengineering:dust_wood',

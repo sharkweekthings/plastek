@@ -164,6 +164,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'alexsmobs:kangaroo_hide_to_leather'})
   event.remove({id: 'rootsclassic:pestle'})
   event.remove({id: 'constructionwands:misc/infinity_wand'})
+  event.remove({id: 'create:crushing/dense_construction_block'})
+  event.remove({id: 'create:milling/dense_construction_block'})
 //
 })
 //
@@ -1066,6 +1068,13 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     ['   ','121','   '], {
     1: 'prettypipes:pipe',
     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
+    
+// Construction Paste
+  event.shaped('buildinggadgets:construction_paste', 
+    ['111','132','222'], {
+    1: 'minecraft:gravel',
+    2: 'minecraft:sand',
+    3: 'minecraft:water_bucket'}).id('buildinggadgets:construction_paste')
     
 // // Crystaltine Ingot
 //   event.shaped('ppfluids:fluid_pipe', 
