@@ -415,6 +415,7 @@
 				"7D6EBC73A32BFA92"
 				"4AC78DE83D2FDDD5"
 				"1288C1609FEA3F39"
+				"6C83889A2AB0A579"
 			]
 			description: [
 				"To unlock Age 7 you will need to progress through all/most of the Main Quests of Age 6. "
@@ -426,7 +427,7 @@
 				"- Create a Spirited Crystal"
 				"- Create a Master Infusion Crystal"
 				"- Make a Crystal Housing Unit"
-				"- Make a Charged ZPM Housing Unit"
+				"- Make a Depleted ZPM Housing Unit"
 			]
 			id: "7AB6777B9471D4AD"
 			rewards: [{
@@ -645,30 +646,6 @@
 			id: "6BEB0462E77988BB"
 			rewards: [
 				{
-					id: "3D0B6B71C0A507F4"
-					item: "ae2:singularity"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "053329237FD697D2"
-					item: "pneumaticcraft:printed_circuit_board"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "2577BBA879F46465"
-					item: "mysticalagradditions:creative_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "3967F92B3E9EE46A"
-					item: "emendatusenigmatica:plasteel_gear"
-					random_bonus: 4
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "553402F22E0820AA"
 					table_id: 3325230720908722317L
@@ -683,6 +660,18 @@
 				{
 					exclude_from_claim_all: true
 					id: "4F5350102FAA6287"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09CB5AC2A94C08B3"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73DBB42F9E189440"
 					table_id: 3325230720908722317L
 					type: "random"
 				}

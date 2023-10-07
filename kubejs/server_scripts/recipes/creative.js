@@ -967,7 +967,7 @@ ServerEvents.recipes(event => {
     "ACDEB",
     "FCGDA",
     "HICCA",
-    "JHFAA"
+    "JHKAA"
   ],
   "key": {
     "A": {
@@ -986,7 +986,7 @@ ServerEvents.recipes(event => {
       "item": "mysticalagriculture:supremium_pickaxe"
     },
     "F": {
-      "item": "immersiveengineering:wire_electrum"
+      "item": "ae2:creative_item_cell"
     },
     "G": {
       "item": "create:creative_motor"
@@ -995,10 +995,13 @@ ServerEvents.recipes(event => {
       "item": "ae2:singularity"
     },
     "I": {
-      "item": "immersiveengineering:wire_aluminum"
+      "item": "appmek:creative_chemical_cell"
     },
     "J": {
       "item": "minecraft:stick"
+    },
+    "K": {
+      "item": "ae2:creative_fluid_cell"
     }
   },
   "result": {
