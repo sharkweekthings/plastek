@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "create:sequenced_assembly",
      ingredient: {
-      item: "minecraft:gold_block",},
+      item: "emendatusenigmatica:brass_block",},
      results: [{
       item: "immersiveengineering:light_engineering",
       count: 1,},],
@@ -29,46 +29,46 @@ ServerEvents.recipes((event) => {
 {
     type: "create:deploying",
      ingredients: [{
-      item: "minecraft:gold_block",},[{ // incomplete item
+      item: "emendatusenigmatica:brass_block",},[{ // incomplete item
       item: "create:precision_mechanism",},],], // item to deploy
      results: [{
-      item: "minecraft:gold_block",},],
+      item: "emendatusenigmatica:brass_block",},],
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "minecraft:gold_block",},[{ // incomplete item
+      item: "emendatusenigmatica:brass_block",},[{ // incomplete item
       item: "immersiveengineering:sheetmetal_iron",},],], // item to deploy
      results: [{
-      item: "minecraft:gold_block",},],
+      item: "emendatusenigmatica:brass_block",},],
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "minecraft:gold_block",},[{ // incomplete item
+      item: "emendatusenigmatica:brass_block",},[{ // incomplete item
       item: "immersiveengineering:component_iron",},],], // item to deploy
      results: [{
-      item: "minecraft:gold_block",},],
+      item: "emendatusenigmatica:brass_block",},],
 },
 {
     type: "create:filling",
      ingredients: [{
-      item: "minecraft:gold_block",},{
+      item: "emendatusenigmatica:brass_block",},{
       fluid: "pneumaticcraft:plastic",
       amount: 500,},],
      results: [{
-      item: "minecraft:gold_block",},],
+      item: "emendatusenigmatica:brass_block",},],
 },
 {
     type: "create:pressing",
      ingredients: [{
-      item: "minecraft:gold_block",},],
+      item: "emendatusenigmatica:brass_block",},],
      results: [{
-      item: "minecraft:gold_block",},],
+      item: "emendatusenigmatica:brass_block",},],
 },
 ],
     transitionalItem: {
-      item: "minecraft:gold_block",
+      item: "emendatusenigmatica:brass_block",
     },
   });
 
