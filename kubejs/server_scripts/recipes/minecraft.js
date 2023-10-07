@@ -59,6 +59,11 @@ ServerEvents.recipes(event => {
     ['111','121','111'], {
     1: '#forge:treated_wood', 
     2: '#minecraft:trapdoors'}).id('minecraft:chest')
+
+// Iron Bars
+  event.shaped('8x minecraft:iron_bars',
+    ['   ','111','111'], {
+    1: 'emendatusenigmatica:iron_rod'}).id('minecraft:iron_bars')
     
 // Ender Chest
   event.shaped('minecraft:ender_chest',
