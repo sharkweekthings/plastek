@@ -102,17 +102,19 @@ ServerEvents.recipes(event => {
 
 // Blast Brick
   event.shaped('immersiveengineering:blastbrick',
-    ['121','232','121'], {
+    ['121','434','121'], {
     1: 'minecraft:nether_brick', 
     2: 'supplementaries:ash_brick',
-    3: 'ad_astra:desh_plate'}).id('immersiveengineering:crafting/blastbrick')
+    3: 'ad_astra:desh_plate',
+    4: '#forge:concrete'}).id('immersiveengineering:crafting/blastbrick')
 
 // Alloy Brick
   event.shaped('immersiveengineering:alloybrick',
-    ['323','212','323'], {
+    ['343','212','343'], {
     1: 'emendatusenigmatica:steel_block', 
     2: 'supplementaries:ash_brick',
-    3: 'ad_astra:desh_plate'}).id('immersiveengineering:crafting/alloybrick')
+    3: 'ad_astra:desh_plate',
+    4: '#forge:concrete'}).id('immersiveengineering:crafting/alloybrick')
 
 // Engineers Workbench
   event.shaped('immersiveengineering:workbench',
