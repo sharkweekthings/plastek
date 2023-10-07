@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "create:sequenced_assembly",
      ingredient: {
-      item: "emendatusenigmatica:brass_block",},
+      item: "create:brass_casing",},
      results: [{
       item: "industrialforegoing:machine_frame_pity",
       count: 1,},],
@@ -30,46 +30,46 @@ ServerEvents.recipes((event) => {
 {
     type: "create:deploying",
      ingredients: [{
-      item: "emendatusenigmatica:brass_block",},[{ // incomplete item
+      item: "create:brass_casing",},[{ // incomplete item
       item: "emendatusenigmatica:iron_rod",},],], // item to deploy
      results: [{
-      item: "emendatusenigmatica:brass_block",},],
+      item: "create:brass_casing",},],
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "emendatusenigmatica:brass_block",},[{ // incomplete item
+      item: "create:brass_casing",},[{ // incomplete item
       item: "emendatusenigmatica:steel_plate",},],], // item to deploy
      results: [{
-      item: "emendatusenigmatica:brass_block",},],
+      item: "create:brass_casing",},],
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "emendatusenigmatica:brass_block",},[{ // incomplete item
+      item: "create:brass_casing",},[{ // incomplete item
       item: "emendatusenigmatica:steel_plate",},],], // item to deploy
      results: [{
-      item: "emendatusenigmatica:brass_block",},],
+      item: "create:brass_casing",},],
 },
 {
     type: "create:filling",
      ingredients: [{
-      item: "emendatusenigmatica:brass_block",},{
+      item: "create:brass_casing",},{
       fluid: "pneumaticcraft:plastic",
       amount: 300,},],
      results: [{
-      item: "emendatusenigmatica:brass_block",},],
+      item: "create:brass_casing",},],
 },
 {
     type: "create:pressing",
      ingredients: [{
-      item: "emendatusenigmatica:brass_block",},],
+      item: "create:brass_casing",},],
      results: [{
-      item: "emendatusenigmatica:brass_block",},],
+      item: "create:brass_casing",},],
 },
 ],
     transitionalItem: {
-      item: "minecraft:stripped_oak_wood",
+      item: "create:brass_casing",
     },
   });
 

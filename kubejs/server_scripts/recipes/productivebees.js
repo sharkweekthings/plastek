@@ -171,12 +171,13 @@ ServerEvents.recipes(event => {
 
 // Advanced Oak Beehive
   event.shaped('productivebees:advanced_oak_beehive', 
-    ['545','313','424'], {
+    ['545','313','626'], {
     1: 'minecraft:beehive',
     2: '#forge:campfires',
     3: 'minecraft:honeycomb_block',
     4: 'minecraft:oak_planks',
-    5: 'minecraft:waxed_copper_block'}).id('productivebees:advanced_oak_beehive')
+    5: 'minecraft:waxed_copper_block',
+    6: 'emendatusenigmatica:brass_plate'}).id('productivebees:advanced_oak_beehive')
 
 // Expansion Box Oak
   event.shaped('productivebees:expansion_box_oak', 
