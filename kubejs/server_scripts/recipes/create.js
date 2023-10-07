@@ -731,6 +731,20 @@ event.custom({
   "heatRequirement": "none" 
   }).id('create:mixing/concrete_fluid')
 
+// Construction Paste
+event.custom({
+  "type": "create:mixing", "ingredients": [
+  {"item": "minecraft:gravel","count": 1}, 
+  {"item": "minecraft:gravel","count": 1}, 
+  {"item": "minecraft:gravel","count": 1}, 
+  {"item": "minecraft:sand","count": 1}, 
+  {"item": "minecraft:sand","count": 1}, 
+  {"item": "minecraft:sand","count": 1},
+  {"fluid": "minecraft:water","amount": 400}],
+  "results": [{"item": "buildinggadgets:construction_paste", "count": 1}],
+  "heatRequirement": "none" 
+  }).id('create:mixing/construction_paste')
+
 // White Concrete
   event.custom({
   "type": "create:filling","ingredients": [

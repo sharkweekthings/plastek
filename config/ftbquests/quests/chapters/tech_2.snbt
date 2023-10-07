@@ -70,6 +70,7 @@
 			]
 			description: ["To make 1 Concrete Block you will need to make 500mb of Liquid Concrete, and pour it over a Concrete Powder block using a Spout."]
 			id: "116360F62F2EB226"
+			subtitle: "Mix it real good"
 			tasks: [{
 				id: "620CFC76666B7908"
 				item: {
@@ -1089,12 +1090,14 @@
 		{
 			dependencies: ["50031393944F8B2E"]
 			description: [
-				"You'll need 1 Water Bucket, 4 Sand, and 4 Gravel to make 1 Construction Paste.  Just craft it together on a Crafting Table. "
+				"In a Create Mixer: "
 				""
-				"Using 5 Construction Paste and 200mb of Water will make 150mb of Liquid Concrete when put in a Mixer."
+				"You will need 3 sand, 3 gravel, and 400mb of Water to mix together 1 Construction Paste. "
+				""
+				"With 5 Construction Paste, and 200mb of Water you can mix together 150mb of Liquid Concrete. "
 			]
 			id: "02E317D4A6FB874C"
-			subtitle: "Mix it real good"
+			subtitle: "Ah, mix it"
 			tasks: [{
 				count: 5L
 				id: "16B875E023E7A6A1"
