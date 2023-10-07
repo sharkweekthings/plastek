@@ -168,9 +168,10 @@ ServerEvents.recipes(event => {
     
 // Reinforced Stone
   event.shaped('4x pneumaticcraft:reinforced_stone', 
-    ['222','212','222'], {
+    ['232','313','232'], {
     1: 'industrialforegoing:plastic',
-    2: 'compressium:stone_1'}).id('pneumaticcraft:reinforced_stone')
+    2: 'compressium:stone_1',
+    3: '#forge:concrete'}).id('pneumaticcraft:reinforced_stone')
     
 // PCB Blueprint
   event.shaped('pneumaticcraft:pcb_blueprint', 
