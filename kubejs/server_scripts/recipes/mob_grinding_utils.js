@@ -75,11 +75,12 @@ ServerEvents.recipes(event => {
 
 // Mob Masher
   event.shaped('mob_grinding_utils:saw',
-    ['434','212','323'], {
+    ['434','212','353'], {
     1: 'minecraft:diamond_block',
     2: 'mob_grinding_utils:spikes',
     3: 'create:shaft',
-    4: 'minecraft:diamond'}).id('mob_grinding_utils:recipe_saw')
+    4: 'minecraft:diamond',
+    5: 'create:water_wheel'}).id('mob_grinding_utils:recipe_saw')
 
 // XP Tap
   event.shaped('mob_grinding_utils:xp_tap',
