@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
     ['545','637','212'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'prettypipes:blank_module',
 	5: 'pneumaticcraft:plastic',
   6: 'ae2:certus_quartz_crystal',
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
     ['545','637','212'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_pity',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: '#energeticsheep:wool_energetic',
 	5: 'pneumaticcraft:plastic',
   6: 'ae2:fluix_crystal',
@@ -98,9 +98,9 @@ ServerEvents.recipes(event => {
   
 // Matter Condenser
   event.shaped('ae2:condenser',
-    ['121','232','121'], {
-  1: 'minecraft:iron_ingot',
-  2: '#forge:glass/purple',
+    ['131','323','131'], {
+  1: 'emendatusenigmatica:sterel_plate',
+  2: 'industrialforegoing:machine_frame_supreme',
   3: 'ars_nouveau:magebloom_fiber'}).id('ae2:network/blocks/io_condenser')
 
 // Inscriber Calculation Press

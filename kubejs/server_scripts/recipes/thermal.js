@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
     ['545','232','212'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:diamond_block',
 	5: 'pneumaticcraft:plastic'}).id('thermal:machine_crystallizer')
 
@@ -189,6 +189,18 @@ ServerEvents.recipes(event => {
     {"item": "ae2:certus_quartz_crystal"}
   ]
 }).id('ae2:thermal_crystallizer_certus_quartz')
+
+// Arc Metal Nugget
+  event.custom({
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {"fluid": "thermal:redstone",
+      "amount": 500},
+    {"item": "silentcompat:arcmetal_ingot"}],
+  "result": [
+    {"item": "silentcompat:arcmetal_nugget"}
+  ]
+}).id('silentcompat:arcmetal_nugget_1')
 
 // Fluix Crystal
   event.custom({
