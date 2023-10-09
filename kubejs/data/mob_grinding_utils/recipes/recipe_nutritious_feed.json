@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "type": "mob_grinding_utils:fluid",
+      "advanced": false,
+      "tag": "forge:experience"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "S": {
+      "item": "mob_grinding_utils:gm_chicken_feed"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:beetroot"
+    },
+    "O": {
+      "item": "rootsclassic:growth_powder"
+    }
+  },
+  "pattern": [
+    "OCO",
+    "PSX",
+    "BWB"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:nutritious_chicken_feed"
+  }
+}

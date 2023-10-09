@@ -319,7 +319,7 @@
 				table_id: 3325230720908722317L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "3D30576518AD234D"
 				item: "pneumaticcraft:plastic_bucket"
@@ -365,11 +365,9 @@
 		{
 			dependencies: ["59AE13AF70687556"]
 			description: [
-				"After this is filled with Etching Acid, you can put the Empty PCB in. "
+				"When properly supplied with pressure, the UV Lightbox will bring your Empty PCB from 0 to 100% Etch chance. Once the Empty PCB is at 100%, it is ready to have it's Etching Acid shower!"
 				""
-				"After some time, the Empty PCB will turn into another \"Empty PCB\" but with a full charge."
-				""
-				""
+				"Here is a very basic setup:"
 				"{image:kubejs:textures/pneumaticcraft/pneumatic_uv_sample.png width:125 height:125 align:1}"
 			]
 			id: "7FC2073903E11EAF"
@@ -384,27 +382,35 @@
 		{
 			dependencies: ["59AE13AF70687556"]
 			description: [
-				"After this is filled with Etching Acid, you can put the charged Empty PCB in. "
+				"Normally you would put an Empty PCB into an Etching Tank and let the process happen. However, we're not playing by normal rules. "
 				""
-				"After some time, it will either turn into an Unassembled PCB, or a Failed PCB."
+				"The Etching Tank itself has been &cdisabled&r. "
+				""
+				"Instead, you'll need to figure out how to get your Etching Acid into a Create Spout (&oa Small Tank from Pneumatic Craft works great!&r). "
+				""
+				"Once there, you will need to take an &bEmpty PCB&r with a &a100% Etch Chance&r, place it under the spout and let the Etching Acid pour onto it. "
+				""
+				"This will provide you with 1 &9Unassembled PCB&r"
 			]
 			id: "6FC92C323C8EE144"
 			tasks: [{
-				id: "0D3C8398CBBB0606"
-				item: "pneumaticcraft:etching_tank"
+				id: "4D13D57D1A9EA99C"
+				item: "create:spout"
 				type: "item"
 			}]
+			title: "Etching Spout"
 			x: 2.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["043ADB4D1CEE73C6"]
 			description: [
-				"Click on the Etching Acid Bucket, check the recipe for the Pressure Chamber. "
+				"The Etching Acid recipe is pretty annoying. The good news is, you'll only have to deal with the Etching Acid for PCBs until you setup your Assembly Program. "
 				""
-				"You'll need to add those items to your Pressure Chamber to get a bucket of Etching Acid.  "
+				"You'll need 5 Green Powder, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic. "
 				""
-				"With your bucket of Etching Acid, you'll need to put it in the Etching Tank. "
+				""
+				"With your bucket of Etching Acid, you will need to get it into a Create Spout in order to pour 1 bucket of Etching Acid over the Empty PCB to create an Unassembled PCB."
 			]
 			id: "59AE13AF70687556"
 			subtitle: "Throw it in the Instant Pot."

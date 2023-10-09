@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "type": "mob_grinding_utils:fluid",
+      "advanced": false,
+      "tag": "forge:experience"
+    },
+    "E": {
+      "item": "minecraft:spider_eye"
+    },
+    "G": {
+      "tag": "forge:gunpowder"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "S": {
+      "item": "mob_grinding_utils:gm_chicken_feed"
+    },
+    "X": {
+      "tag": "forge:bones"
+    },
+    "O": {
+      "item": "rootsclassic:growth_powder"
+    }
+  },
+  "pattern": [
+    "OEO",
+    "RSX",
+    "BGB"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:gm_chicken_feed_cursed"
+  }
+}

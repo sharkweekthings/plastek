@@ -762,6 +762,28 @@ event.custom({
   ]
 }).id('minecraft:white_concrete')
 
+// Unassembled PCB
+  event.custom({
+  "type": "create:filling","ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "pneumaticcraft:empty_pcb",
+      "count": 1,
+      "nbt": "{\"pneumaticcraft:uv_exposure\":100}"
+    },
+    {
+      "amount": 1000,
+      "fluid": "pneumaticcraft:etching_acid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:unassembled_pcb"
+    }
+  ]
+}).id('pneumaticcraft:unassembled_pcb_2')
+
 // Orange Concrete
   event.custom({
   "type": "create:filling","ingredients": [

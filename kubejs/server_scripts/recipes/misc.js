@@ -808,11 +808,12 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Empty PCB Parts
   event.shaped('kubejs:empty_pcb_parts', 
-    ['323','212','343'], {
+    ['353','212','343'], {
     1: 'kubejs:empty_parts_box',
     2: 'emendatusenigmatica:electrum_plate',
     3: 'emendatusenigmatica:aluminum_plate',
-    4: 'pneumaticcraft:empty_pcb'}).id('kubejs:misc/empty_pcb_parts')
+    4: 'pneumaticcraft:empty_pcb',
+    5: 'create:electron_tube'}).id('kubejs:misc/empty_pcb_parts')
 
 // Netherite Drill Parts
   event.shaped('kubejs:netherite_drill_bit_parts', 

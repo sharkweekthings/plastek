@@ -44,6 +44,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:assembly_laser'})
   event.remove({id: 'pneumaticcraft:assembly_controller'})
   event.remove({id: 'pneumaticcraft:bandage'})
+  event.remove({id: 'pneumaticcraft:etching_tank'})
 
 //
 })
@@ -366,8 +367,33 @@ ServerEvents.recipes(event => {
           "results": [{"item": "angelring:diamond_ring"}]
   }).id('angelring:pressure_chamber_diamond_ring')
 
-
-
+// Etching Acid Bucket
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 5,
+          "item": "rootsclassic:growth_powder"
+        },
+        {
+          "item": "mob_grinding_utils:nutritious_chicken_feed"
+        },
+        {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed"
+        },
+        {
+          "item": "create:electron_tube"
+        },
+        {
+          "item": "pneumaticcraft:gasoline_bucket"
+        },
+        {
+          "item": "pneumaticcraft:plastic_bucket"
+        },],
+          "pressure": 3, 
+          "results": [{"item": "pneumaticcraft:etching_acid_bucket"}]
+  }).id('pneumaticcraft:pressure_chamber/etching_acid')
 
   // Growth Powder
   event.custom({
