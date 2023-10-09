@@ -49,6 +49,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'minecraft:raw_arcmetal_to_ingot'})
   event.remove({id: 'minecraft:arcmetal_ore_to_ingot'})
   event.remove({id: 'minecraft:arcmetal_ingot_unpacking'})
+  event.remove({id: 'minecraft:arcmetal_nugget_packing'})
 
 //
 })
