@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "create:sequenced_assembly",
      ingredient: {
-      item: "minecraft:oak_slab",},
+      tag: "forge:treated_wood_slab",},
      results: [{
       item: "create:cogwheel",
       count: 3,},],
@@ -18,28 +18,28 @@ ServerEvents.recipes((event) => {
 {
       type: "create:cutting",
      ingredients: [{
-      item: "minecraft:oak_slab",},],
+      tag: "forge:treated_wood_slab",},],
       results: [{
-      item: "minecraft:oak_slab",},], // incomplete item
+      tag: "forge:treated_wood_slab",},], // incomplete item
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "minecraft:oak_slab",},[{ // incomplete item
+      tag: "forge:treated_wood_slab",},[{ // incomplete item
       item: "create:shaft",},],], // item to deploy
      results: [{
-      item: "minecraft:oak_slab",},],
+      tag: "forge:treated_wood_slab",},],
 },
 {
     type: "create:pressing",
      ingredients: [{
-      item: "minecraft:oak_slab",},],
+      tag: "forge:treated_wood_slab",},],
      results: [{
-      item: "minecraft:oak_slab",},],
+      tag: "forge:treated_wood_slab",},],
 },
 ],
     transitionalItem: {
-      item: "minecraft:oak_slab",
+      tag: "forge:treated_wood_slab",
     },
   }).id('create:crafts/seq_cogwheel')
 
