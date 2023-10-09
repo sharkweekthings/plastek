@@ -391,7 +391,7 @@
 				""
 				"Instead, you'll need to figure out how to get your Etching Acid into a Create Spout (&oa Small Tank from Pneumatic Craft works great!&r). "
 				""
-				"Once there, you will need to take an &bEmpty PCB&r with a &a100% Etch Chance&r, place it under the spout and let the Etching Acid pour onto it. "
+				"Once you have at least 1 bucket of &aEtching Acid&r inside a &dCreate Spout&r, you will need to take an &bEmpty PCB&r with a &a100% Etch Chance&r, place it under the spout and let the Etching Acid pour onto it. "
 				""
 				"This will provide you with 1 &9Unassembled PCB&r"
 			]

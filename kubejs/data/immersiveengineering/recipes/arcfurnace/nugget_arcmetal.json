@@ -1,0 +1,4 @@
+{"type":"immersiveengineering:arc_furnace",
+"additives":[{"item":"emendatusenigmatica:electrum_dust"}],"energy":51200,
+"input":{"item":"silentcompat:arcmetal_ingot"},
+"results":[{"base_ingredient":{"item":"silentcompat:arcmetal_nugget"},"count":1}],"time":100}

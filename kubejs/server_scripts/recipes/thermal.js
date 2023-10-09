@@ -190,18 +190,6 @@ ServerEvents.recipes(event => {
   ]
 }).id('ae2:thermal_crystallizer_certus_quartz')
 
-// Arc Metal Nugget
-  event.custom({
-  "type": "thermal:crystallizer",
-  "ingredients": [
-    {"fluid": "thermal:redstone",
-      "amount": 500},
-    {"item": "silentcompat:arcmetal_ingot"}],
-  "result": [
-    {"item": "silentcompat:arcmetal_nugget"}
-  ]
-}).id('silentcompat:arcmetal_nugget_1')
-
 // Fluix Crystal
   event.custom({
   "type": "thermal:crystallizer",
