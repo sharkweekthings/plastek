@@ -365,10 +365,12 @@
 		{
 			dependencies: ["59AE13AF70687556"]
 			description: [
-				"When properly supplied with pressure, the UV Lightbox will bring your Empty PCB from 0 to 100% Etch chance. Once the Empty PCB is at 100%, it is ready to have it's Etching Acid shower!"
+				"When properly supplied with pressure, the UV Light Box will bring your Empty PCB from 0 to 100% Etch chance. Once the Empty PCB is at 100%, it is ready to have it's Etching Acid shower!"
 				""
 				"Here is a very basic setup:"
 				"{image:kubejs:textures/pneumaticcraft/pneumatic_uv_sample.png width:125 height:125 align:1}"
+				""
+				"&oIf you feel that your UV Light Box is producing too slowly, be sure to add Speed upgrades to it!&r"
 			]
 			id: "7FC2073903E11EAF"
 			subtitle: "Never seen a better tan!"
@@ -884,6 +886,8 @@
 				"Since you're going to be needing a lot of Printed Circuit Boards for the forseeable future -- you may want to set up a better process to create them.  "
 				""
 				"Using the Pneumaticcraft Assembly you can greatly speed up the process of creating the Unassembled PCB."
+				""
+				"With the precise nature of Lasers -- you will no longer need to send the Empty PCB through the UV Light Box. "
 				""
 				"&b&oWhile the Laser Assembly is not required to complete Age 4, it is required to make several machines, and components in Age 5 and 6.&r&r"
 			]
