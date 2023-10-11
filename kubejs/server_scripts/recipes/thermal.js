@@ -529,7 +529,7 @@ ServerEvents.recipes(event => {
   "ingredients": [
     {
       "tag": "forge:ingots/copper",
-      "count": 4
+      "count": 1
     },
     {
       "item": "immersiveengineering:mold_wire"
@@ -537,7 +537,8 @@ ServerEvents.recipes(event => {
   ],
   "result": [
     {
-      "item": "immersiveengineering:wire_copper"
+      "item": "immersiveengineering:wire_copper",
+      "count": 2
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_copper')
@@ -548,7 +549,7 @@ ServerEvents.recipes(event => {
   "ingredients": [
     {
       "tag": "forge:ingots/electrum",
-      "count": 4
+      "count": 1
     },
     {
       "item": "immersiveengineering:mold_wire"
@@ -556,7 +557,8 @@ ServerEvents.recipes(event => {
   ],
   "result": [
     {
-      "item": "immersiveengineering:wire_electrum"
+      "item": "immersiveengineering:wire_electrum",
+      "count": 2
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_electrum')
@@ -567,7 +569,7 @@ ServerEvents.recipes(event => {
   "ingredients": [
     {
       "tag": "forge:ingots/aluminum",
-      "count": 4
+      "count": 1
     },
     {
       "item": "immersiveengineering:mold_wire"
@@ -575,7 +577,8 @@ ServerEvents.recipes(event => {
   ],
   "result": [
     {
-      "item": "immersiveengineering:wire_aluminum"
+      "item": "immersiveengineering:wire_aluminum",
+      "count": 2
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_aluminum')
@@ -586,7 +589,7 @@ ServerEvents.recipes(event => {
   "ingredients": [
     {
       "tag": "forge:ingots/steel",
-      "count": 4
+      "count": 1
     },
     {
       "item": "immersiveengineering:mold_wire"
@@ -594,7 +597,8 @@ ServerEvents.recipes(event => {
   ],
   "result": [
     {
-      "item": "immersiveengineering:wire_steel"
+      "item": "immersiveengineering:wire_steel",
+      "count": 2
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_steel')
@@ -605,7 +609,7 @@ ServerEvents.recipes(event => {
   "ingredients": [
     {
       "tag": "forge:ingots/lead",
-      "count": 4
+      "count": 1
     },
     {
       "item": "immersiveengineering:mold_wire"
@@ -613,7 +617,8 @@ ServerEvents.recipes(event => {
   ],
   "result": [
     {
-      "item": "immersiveengineering:wire_lead"
+      "item": "immersiveengineering:wire_lead",
+      "count": 2
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_lead')
