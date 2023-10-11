@@ -912,12 +912,13 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Digital Miner Parts
   event.shaped('kubejs:digital_miner_parts',
-    ['333','212','445'], {
+    ['333','262','415'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'thermal:lead_plate',
   3: 'thermal:netherite_plate',
   4: 'pneumaticcraft:plastic',
-  5: 'kubejs:empty_parts_box'}).id('kubejs:misc/digital_miner_parts')
+  5: 'kubejs:empty_parts_box',
+  6: 'industrialforegoing:machine_frame_supreme'}).id('kubejs:misc/digital_miner_parts')
 
 // Prediction Matrix Parts
   event.shaped('kubejs:empty_prediction_parts',
