@@ -1653,6 +1653,7 @@
 	"Overlay Shader" = false
 	#Allows placing variant blocks automatically via a selector menu triggered from a keybind
 	"Variant Selector" = false
+	"Villager Rerolling Rework" = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1689,6 +1690,9 @@
 		"Disable Mushroom Block Removal" = true
 		#Makes tripwire hooks unable to be duplicated
 		"Disable Tripwire Hook Dupe" = true
+		#Makes Mending II still work even if mending is nerfed.
+		#If you want Mending II, disable the sanity check on Ancient Tomes and add minecraft:mending to the tomes.
+		"No Nerf for Mending II" = false
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
@@ -1708,6 +1712,7 @@
 		"Convert Variant Items" = false
 		#Enable the hammer, allowing variants to be swapped between eachother, including the original block. Do this ONLY under the same circumstances as Convert Variant Items.
 		"Enable Hammer" = false
+		"Show Tooltip" = true
 
 		[experimental.variant_selector.variants]
 			#The list of all variant types available for players to use. Values are treated as suffixes to block IDs for scanning.
@@ -1724,6 +1729,19 @@
 			#Add manual variant overrides here, the format is 'type,block,output' (e.g. polish,minecraft:stone_bricks,minecraft:chiseled_stone_bricks). The type must be listed in Variant Types
 			"Manual Variants" = []
 			Blacklist = []
+
+	[experimental.villager_rerolling_rework]
+		#If enabled, the first two trades a villager generates for a profession will always be the same for a given villager.
+		#This prevents repeatedly placing down a job site block to reroll the villager's trades.
+		"Seed Initial Villager Trades" = true
+		#Set to 0 to disable the chance to reroll trades when restocking.
+		#It's possible for a trade to not restock even when the chance is 1. This happens when the rerolled trade is one the villager already has.
+		#This chance only guarantees a reroll will be attempted.
+		#Allowed values: [0,1]
+		"Chance To Reroll When Restocking" = 0.25
+		#Set to 0 to disable the chance to reroll trades when restocking. Set to -1 to allow unlimited rerolling.
+		#Trades earlier in the list will restock first.
+		"Maximum Restocks Per Day" = 3
 
 [oddities]
 	Crate = true

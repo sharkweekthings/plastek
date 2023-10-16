@@ -749,6 +749,13 @@
 		}
 		{
 			dependencies: ["0EA3983877DAE009"]
+			description: [
+				"There are a few enchants that will work on this. "
+				""
+				"One of them is Holding enchant which will increase the fluid capacity of this block.  There are other enchants that will work to increase the size further, but I honestly forgot what they were. "
+				""
+				"&oDo you know? How about joining the Discord and letting me know. Then I can add it to the quest so other people know!&r"
+			]
 			id: "508769E3B70EC7F4"
 			rewards: [{
 				exclude_from_claim_all: true
