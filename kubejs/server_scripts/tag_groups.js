@@ -178,6 +178,7 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'thermal:charcoal_block',
   'extendedcrafting:nether_star_block',
   'create:honey_bucket',
   'productivebees:honey_bucket',
@@ -1242,6 +1243,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'thermal:charcoal_block',
   'thermal:rubber_block',
   'thermal:coal_coke_block',
   'industrialforegoing:mob_imprisonment_tool',
