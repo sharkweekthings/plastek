@@ -1,0 +1,22 @@
+{
+  "type": "mythicbotany:infuser",
+  "fromColor": 255,
+  "group": "infuser",
+  "ingredients": [
+    {
+      "tag": "botania:manasteel_ingots"
+    },
+    {
+      "item": "rootsclassic:growth_powder"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "mana": 500000,
+  "output": {
+    "count": 1,
+    "item": "botania:terrasteel_ingot"
+  },
+  "toColor": 65280
+}

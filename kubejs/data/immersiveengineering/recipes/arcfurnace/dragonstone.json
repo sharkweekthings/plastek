@@ -1,0 +1,4 @@
+{"type":"immersiveengineering:arc_furnace",
+"additives":[{"item":"minecraft:blaze_powder"}],"energy":51200,
+"input":{"item":"mythicbotany:dragonstone_ore"},
+"results":[{"base_ingredient":{"item":"botania:dragonstone"},"count":1}],"time":500}

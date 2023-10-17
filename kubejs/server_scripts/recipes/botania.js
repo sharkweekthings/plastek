@@ -42,6 +42,10 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botania:mana_infusion/rotten_flesh_to_leather'})
   event.remove({id: 'botania:mana_infusion/mana_diamond_block'})
   event.remove({id: 'botania:glimmering_livingwood_from_log'})
+  event.remove({id: 'botania:elven_trade/dragonstone'})
+  event.remove({id: 'mythicbotany:blasting/dragonstone'})
+  event.remove({id: 'mythicbotany:smelting/dragonstone'})
+  event.remove({id: 'thermal:furnace_1447321962'})
   
 //
 })
