@@ -435,6 +435,26 @@
 			x: -1.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1901A75ACB7C0A0C"]
+			description: [
+				"Keeping your ear to the stre... hive, you heard some buzz about Bee Stingers, a Honeycomb Block, and the Pressure Chamber. "
+				""
+				"Bee Stinger Amber is an item that the Bee Queen's seem to like as a bartering item. "
+				""
+				"It also seems to be innately imbued with some type of magic that may have a purpose later."
+			]
+			id: "0D4E6807F57949D1"
+			shape: "circle"
+			subtitle: "It's smooth, but looks rough, and smells like Lucky Charms..?"
+			tasks: [{
+				id: "344AC412FFBF2E5A"
+				item: "kubejs:bee_stinger_amber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
 	]
 	title: "The Bumblezone"
 }

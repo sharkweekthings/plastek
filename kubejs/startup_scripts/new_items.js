@@ -49,6 +49,7 @@ StartupEvents.registry('item', e => {
   e.create('energizing_orb_parts')
   e.create('ender_gate_starter_parts')
   e.create('player_transmitter_starter_parts')
+  e.create('bee_stinger_amber')
 })
 
 StartupEvents.registry('block', e => {

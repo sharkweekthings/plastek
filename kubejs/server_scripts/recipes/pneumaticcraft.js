@@ -505,6 +505,24 @@ ServerEvents.recipes(event => {
   }
 }).id('kubejs:thermo_plant_plastic_from_comb_lpg')
 
+  // Bee Stinger Amber
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 64,
+          "item": "the_bumblezone:bee_stinger"
+        },
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 1,
+          "item": "minecraft:honeycomb_block"
+        },],
+          "pressure": 2.5, 
+          "results": [{"item": "kubejs:bee_stinger_amber"}]
+  }).id('the_bumblezone:bee_stinger_amber')
+
 //    
 })
 //

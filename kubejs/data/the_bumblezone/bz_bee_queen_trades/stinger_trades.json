@@ -1,0 +1,46 @@
+{
+  "wants": [
+    {
+      "id": "kubejs:bee_stinger_amber",
+      "count": 64,
+      "required": false
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "minecraft:honey_block",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 98,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_honey_bee_rat_faced_boy",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_la_bee_da_loca",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 1,
+      "required": true
+    }
+  ]
+}
