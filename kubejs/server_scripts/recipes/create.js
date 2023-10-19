@@ -237,7 +237,15 @@ ServerEvents.recipes(event => {
     2: 'create:shaft'}).id('create:crafts/large_cogwheel')
 
 // Spout
-  event.shapeless(Item.of('create:spout'), ['create:brass_casing', 'supplementaries:faucet']).id('create:crafts/spout')  
+  event.shapeless(Item.of('create:spout'), ['create:andesite_casing', 'supplementaries:faucet']).id('create:crafts/spout')
+
+// Spout  
+  event.shaped('create:spout', 
+    ['444','313','424'], {
+    1: 'create:andesite_casing',
+    2: 'supplementaries:faucet',
+    3: '#forge:glass',
+    4: 'emendatusenigmatica:copper_plate'}).id('create:crafts/spout')
 
 // Mechanical Press   
   event.shaped('create:mechanical_press', 
@@ -734,33 +742,16 @@ event.custom({
 // Construction Paste
 event.custom({
   "type": "create:mixing", "ingredients": [
-  {"item": "minecraft:gravel","count": 1}, 
-  {"item": "minecraft:gravel","count": 1}, 
-  {"item": "minecraft:gravel","count": 1}, 
   {"item": "minecraft:sand","count": 1}, 
   {"item": "minecraft:sand","count": 1}, 
-  {"item": "minecraft:sand","count": 1},
+  {"item": "minecraft:sand","count": 1}, 
+  {"item": "minecraft:clay_ball","count": 1}, 
+  {"item": "minecraft:clay_ball","count": 1}, 
+  {"item": "minecraft:clay_ball","count": 1}, 
   {"fluid": "minecraft:water","amount": 400}],
   "results": [{"item": "buildinggadgets:construction_paste", "count": 1}],
   "heatRequirement": "none" 
   }).id('create:mixing/construction_paste')
-
-// White Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:white_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:white_concrete"
-    }
-  ]
-}).id('minecraft:white_concrete')
 
 // Unassembled PCB
   event.custom({
@@ -784,10 +775,10 @@ event.custom({
   ]
 }).id('pneumaticcraft:unassembled_pcb_2')
 
-// Orange Concrete
+// Concrete
   event.custom({
   "type": "create:filling","ingredients": [
-    {"item": "minecraft:orange_concrete_powder"},
+    {"item": "minecraft:gravel"},
     {
       "amount": 500,
       "fluid": "immersiveengineering:concrete",
@@ -796,248 +787,10 @@ event.custom({
   ],
   "results": [
     {
-      "item": "minecraft:orange_concrete"
+      "item": "immersiveengineering:concrete"
     }
   ]
-}).id('minecraft:orange_concrete')
-
-// Magenta Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:magenta_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:magenta_concrete"
-    }
-  ]
-}).id('minecraft:magenta_concrete')
-
-// Light Blue Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:light_blue_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:light_blue_concrete"
-    }
-  ]
-}).id('minecraft:light_blue_concrete')
-
-// Yellow Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:yellow_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:yellow_concrete"
-    }
-  ]
-}).id('minecraft:yellow_concrete')
-
-// Lime Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:lime_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:lime_concrete"
-    }
-  ]
-}).id('minecraft:lime_concrete')
-
-// Pink Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:pink_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:pink_concrete"
-    }
-  ]
-}).id('minecraft:pink_concrete')
-
-// Gray Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:gray_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:gray_concrete"
-    }
-  ]
-}).id('minecraft:gray_concrete')
-
-// Light Gray Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:light_gray_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:light_gray_concrete"
-    }
-  ]
-}).id('minecraft:light_gray_concrete')
-
-// Cyan Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:cyan_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:cyan_concrete"
-    }
-  ]
-}).id('minecraft:cyan_concrete')
-
-// Purple Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:purple_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:purple_concrete"
-    }
-  ]
-}).id('minecraft:purple_concrete')
-
-// Blue Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:blue_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:blue_concrete"
-    }
-  ]
-}).id('minecraft:blue_concrete')
-
-// Brown Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:brown_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:brown_concrete"
-    }
-  ]
-}).id('minecraft:brown_concrete')
-
-// Green Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:green_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:green_concrete"
-    }
-  ]
-}).id('minecraft:green_concrete')
-
-// Red Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:red_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:red_concrete"
-    }
-  ]
-}).id('minecraft:red_concrete')
-
-// Black Concrete
-  event.custom({
-  "type": "create:filling","ingredients": [
-    {"item": "minecraft:black_concrete_powder"},
-    {
-      "amount": 500,
-      "fluid": "immersiveengineering:concrete",
-      "nbt": {}
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:black_concrete"
-    }
-  ]
-}).id('minecraft:black_concrete')
+}).id('immersiveengineering:crafting/concrete')
 
 //    
 })

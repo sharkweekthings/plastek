@@ -1,6 +1,6 @@
 {
   "max_length": 4,
-  "ore": "minecraft:coal_ore",
+  "ore": "minecraft:crying_obsidian",
   "size_variation": 0.5,
   "weight": 30
 }

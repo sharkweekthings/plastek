@@ -1,12 +1,22 @@
 ////
 // rename some items to fit the pack
 //// renik
-// script created by ArugChief in the KubeJS Discord.
+// script created by ArugChief, and edited by Lat in the KubeJS Discord.
+
+//   const rename = (item, newName) => e.addLang(Item.of(item).item.getDescriptionId(), newName)
 
 //
- ClientEvents.highPriorityAssets(e => {
+//  ClientEvents.highPriorityAssets(e => {
 //
-  const rename = (item, newName) => e.addLang(Item.of(item).item.getDescriptionId(), newName)
+
+//
+ClientEvents.lang('en_us', event => {
+//
+  const rename = (item, newName) => {
+    let stack = Item.of(item);
+    e.add(stack.mod, stack.item.descriptionId, newName)
+  }
+
 // AD ASTRA
   	rename('ad_astra:venus_coal_ore', "Rich Coal Ore")
   	rename('ad_astra:mercury_iron_ore', "Rich Iron Ore")

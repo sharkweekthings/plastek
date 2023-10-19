@@ -1070,22 +1070,54 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     ['   ','121','   '], {
     1: 'prettypipes:pipe',
     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
-    
-// // Crystaltine Ingot
-//   event.shaped('ppfluids:fluid_pipe', 
-//     ['   ','121','   '], {
-//     1: 'extendedcrafting:black_iron_slate',
-//     2: 'extendedcrafting:luminessence',
-//     3: ''}).id('ppfluids:fluid_pipe')
-    
-// // Crystaltine Component
-//   event.shaped('ppfluids:fluid_pipe', 
-//     ['   ','121','   '], {
-//     1: 'extendedcrafting:black_iron_slate',
-//     2: 'extendedcrafting:luminessence',
-//     3: ''}).id('ppfluids:fluid_pipe')
 
+// White Concrete
+  event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')
 
+// Orange Concrete
+  event.shapeless(Item.of('minecraft:orange_concrete'), ['immersiveengineering:concrete', 'minecraft:orange_dye']).id('minecraft:orange_concrete')
+
+// Magenta Concrete
+  event.shapeless(Item.of('minecraft:magenta_concrete'), ['immersiveengineering:concrete', 'minecraft:magenta_dye']).id('minecraft:magenta_concrete')
+
+// Light Blue Concrete
+  event.shapeless(Item.of('minecraft:light_blue_concrete'), ['immersiveengineering:concrete', 'minecraft:light_blue_dye']).id('minecraft:light_blue_concrete')
+
+// Yellow Concrete
+  event.shapeless(Item.of('minecraft:yellow_concrete'), ['immersiveengineering:concrete', 'minecraft:yellow_dye']).id('minecraft:yellow_concrete')
+
+// Lime Concrete
+  event.shapeless(Item.of('minecraft:lime_concrete'), ['immersiveengineering:concrete', 'minecraft:lime_dye']).id('minecraft:lime_concrete')
+
+// Pink Concrete
+  event.shapeless(Item.of('minecraft:pink_concrete'), ['immersiveengineering:concrete', 'minecraft:pink_dye']).id('minecraft:pink_concrete')
+
+// Gray Concrete
+  event.shapeless(Item.of('minecraft:gray_concrete'), ['immersiveengineering:concrete', 'minecraft:gray_dye']).id('minecraft:gray_concrete')
+
+// Light Gray Concrete
+  event.shapeless(Item.of('minecraft:light_gray_concrete'), ['immersiveengineering:concrete', 'minecraft:light_gray_dye']).id('minecraft:light_gray_concrete')
+
+// Cyan Concrete
+  event.shapeless(Item.of('minecraft:cyan_concrete'), ['immersiveengineering:concrete', 'minecraft:cyan_dye']).id('minecraft:cyan_concrete')
+
+// Purple Concrete
+  event.shapeless(Item.of('minecraft:purple_concrete'), ['immersiveengineering:concrete', 'minecraft:purple_dye']).id('minecraft:purple_concrete')
+
+// Blue Concrete
+  event.shapeless(Item.of('minecraft:blue_concrete'), ['immersiveengineering:concrete', 'minecraft:blue_dye']).id('minecraft:blue_concrete')
+
+// Brown Concrete
+  event.shapeless(Item.of('minecraft:brown_concrete'), ['immersiveengineering:concrete', 'minecraft:brown_dye']).id('minecraft:brown_concrete')
+
+// Green Concrete
+  event.shapeless(Item.of('minecraft:green_concrete'), ['immersiveengineering:concrete', 'minecraft:green_dye']).id('minecraft:green_concrete')
+
+// Red Concrete
+  event.shapeless(Item.of('minecraft:red_concrete'), ['immersiveengineering:concrete', 'minecraft:red_dye']).id('minecraft:red_concrete')
+
+// Black Concrete
+  event.shapeless(Item.of('minecraft:black_concrete'), ['immersiveengineering:concrete', 'minecraft:black_dye']).id('minecraft:black_concrete')
 
 // Planter
   event.shapeless(Item.of('supplementaries:planter'), ['minecraft:flower_pot', 'minecraft:dirt']).id('supplementaries:planter')

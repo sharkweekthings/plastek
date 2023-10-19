@@ -338,19 +338,12 @@
 			]
 			icon: "twilightforest:final_boss_boss_spawner"
 			id: "03198A2AE825EFF0"
-			rewards: [
-				{
-					id: "59EBC4E96E49D3F6"
-					item: "botania:dice"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "2FDEB3F14057B3CB"
-					item: "create:creative_blaze_cake"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "59EBC4E96E49D3F6"
+				item: "botania:dice"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [
 				{

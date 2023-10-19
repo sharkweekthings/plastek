@@ -7,7 +7,8 @@ const $IProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
 const CreativeModeTab = Java.loadClass('net.minecraft.world.item.CreativeModeTab')
 
 StartupEvents.registry('item', e => {
-  e.custom("crude_ender_pearl", new $EnderpearlItem(new  $IProperties().tab(CreativeModeTab.TAB_MISC)))
+  e.createCustom("crude_ender_pearl", () => new $EnderpearlItem(new $IProperties().tab(CreativeModeTab.TAB_MISC)))
+  // e.custom("crude_ender_pearl", new $EnderpearlItem(new  $IProperties().tab(CreativeModeTab.TAB_MISC)))
   e.create('durable_rawhide')
   e.create('durable_mallable_hide')
   e.create('rawhide')

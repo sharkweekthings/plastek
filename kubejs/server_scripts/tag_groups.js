@@ -178,6 +178,22 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'unusualend:music_disc_flying_ships',
+  'unusualend:music_disc_endstone_golem_theme',
+  'botania:record_gaia_1',
+  'botania:record_gaia_2',
+  'infernalexp:music_disc_flush',
+  'infernalexp:music_disc_soul_spunk',
+  'ars_nouveau:music_disc_firel_the_wild_hunt',
+  'ars_nouveau:music_disc_thistle_the_sound_of_glass',
+  'ars_nouveau:music_disc_aria_biblio',
+  'immersiveengineering:shader_bag_uncommon',
+  'immersiveengineering:shader_bag_rare',
+  'immersiveengineering:shader_bag_common',
+  'immersiveengineering:shader_bag_epic',
+  'immersiveengineering:shader_bag_ie_masterwork',
+  'immersiveengineering:shader',
+  'thermal:gunpowder_block',
   'thermal:bamboo_block',
   'thermal:sugar_cane_block',
   'thermal:charcoal_block',
@@ -471,6 +487,7 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'create:spout',
   'buildinggadgets:construction_paste',
   'immersiveengineering:concrete_bucket',
   'immersiveengineering:concrete',
@@ -651,6 +668,8 @@ event.add('kubejs:age_2_item',
 
 event.add('kubejs:age_2_exception', 
   [
+  'infernalexp:music_disc_flush',
+  'infernalexp:music_disc_soul_spunk',
   'occultism:storage_remote_inert',
   'occultism:storage_remote',
   'silentgear:salvager',
@@ -780,6 +799,9 @@ event.add('kubejs:age_3_item',
 
 event.add('kubejs:age_3_exception', 
   [
+  'create:spout',
+  'botania:record_gaia_1',
+  'botania:record_gaia_2',
   'create:honey_bucket',
   'productivebees:honey_bucket',
   'create:vertical_gearbox',
@@ -1108,6 +1130,12 @@ event.add('kubejs:age_4_item',
 
 event.add('kubejs:age_4_exception', 
   [
+  'immersiveengineering:shader_bag_uncommon',
+  'immersiveengineering:shader_bag_rare',
+  'immersiveengineering:shader_bag_common',
+  'immersiveengineering:shader_bag_epic',
+  'immersiveengineering:shader_bag_ie_masterwork',
+  'immersiveengineering:shader',
   'buildinggadgets:construction_paste',
   'immersiveengineering:concrete_bucket',
   'immersiveengineering:concrete',
@@ -1246,6 +1274,12 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'ars_nouveau:music_disc_firel_the_wild_hunt',
+  'ars_nouveau:music_disc_thistle_the_sound_of_glass',
+  'ars_nouveau:music_disc_aria_biblio',
+  'unusualend:music_disc_flying_ships',
+  'unusualend:music_disc_endstone_golem_theme',
+  'thermal:gunpowder_block',
   'thermal:bamboo_block',
   'thermal:sugar_cane_block',
   'thermal:charcoal_block',
@@ -1256,7 +1290,6 @@ event.add('kubejs:age_5_exception',
   'ae2:ender_dust',
   'thermal:quartz_dust',
   'thermal:sawdust',
-  'unusualend:music_disc_endstone_golem_theme',
   'thermal:cured_rubber',
   'thermal:saw_blade',
   'thermal:hazmat_boots',
@@ -2069,6 +2102,11 @@ event.add('kubejs:loot_1',
   'minecraft:trapped_chest',
   'minecraft:barrel',
   'immersiveengineering:crate'
+  ])
+
+event.add('forge:concrete', 
+  [
+  'immersiveengineering:concrete'
   ])
 
 event.remove('twilightforest:portal/activator', 'minecraft:diamond')

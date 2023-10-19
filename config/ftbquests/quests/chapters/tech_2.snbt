@@ -44,31 +44,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["50031393944F8B2E"]
-			description: ["A dye of your choice color, 4 Sand, and 4 Gravel crafted together whill create Concrete Powder."]
-			id: "1C89D3758FDA8D63"
-			tasks: [{
-				id: "04E804177681AB56"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:concrete_powder"
-					}
-				}
-				title: "Any #forge:concrete_powder"
-				type: "item"
-			}]
-			title: "Concrete Powder"
-			x: -3.0d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"02E317D4A6FB874C"
-				"1C89D3758FDA8D63"
+			dependencies: ["02E317D4A6FB874C"]
+			description: [
+				"Now you will just need to pour 500mb of Liquid Concrete onto a Gravel block to make your Concrete."
+				""
+				"&oYou can craft together 1 Concrete Block + various Dye if you would like to change the color of the Concrete block.&r"
 			]
-			description: ["To make 1 Concrete Block you will need to make 500mb of Liquid Concrete, and pour it over a Concrete Powder block using a Spout."]
 			id: "116360F62F2EB226"
 			subtitle: "Mix it real good"
 			tasks: [{
@@ -1092,7 +1073,7 @@
 			description: [
 				"In a Create Mixer: "
 				""
-				"You will need 3 sand, 3 gravel, and 400mb of Water to mix together 1 Construction Paste. "
+				"You will need 5 Sand, and 400mb of Water to mix together 1 Construction Paste. "
 				""
 				"With 5 Construction Paste, and 200mb of Water you can mix together 150mb of Liquid Concrete. "
 			]
@@ -1105,7 +1086,7 @@
 				type: "item"
 			}]
 			title: "Mixing Construction Paste"
-			x: -5.0d
+			x: -4.0d
 			y: 3.5d
 		}
 	]
