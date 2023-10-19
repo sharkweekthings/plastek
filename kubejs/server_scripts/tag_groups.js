@@ -411,6 +411,7 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'twilightforest:ore_magnet',
   'minecraft:echo_shard',
   'minecraft:hopper',
   'minecraft:barrier',
@@ -1499,6 +1500,7 @@ event.add('kubejs:age_6_exception',
 
 event.add('kubejs:age_7_item', 
   [
+  'twilightforest:ore_magnet',
   'mekanismgenerators:rotational_complex',
   'mekanismgenerators:turbine_valve',
   'mekanismgenerators:pressure_disperser',

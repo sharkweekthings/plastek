@@ -338,12 +338,20 @@
 			]
 			icon: "twilightforest:final_boss_boss_spawner"
 			id: "03198A2AE825EFF0"
-			rewards: [{
-				id: "59EBC4E96E49D3F6"
-				item: "botania:dice"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "59EBC4E96E49D3F6"
+					item: "botania:dice"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "06B2AC1507F44DE4"
+					item: "twilightforest:mining_sapling"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [
 				{

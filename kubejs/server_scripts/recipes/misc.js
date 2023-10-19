@@ -166,6 +166,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'constructionwands:misc/infinity_wand'})
   event.remove({id: 'create:crushing/dense_construction_block'})
   event.remove({id: 'create:milling/dense_construction_block'})
+  event.remove({id: 'botanytrees:twilightforest/miners_tree'})
 //
 })
 //
