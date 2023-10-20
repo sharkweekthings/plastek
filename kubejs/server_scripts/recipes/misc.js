@@ -167,6 +167,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:crushing/dense_construction_block'})
   event.remove({id: 'create:milling/dense_construction_block'})
   event.remove({id: 'botanytrees:twilightforest/miners_tree'})
+  event.remove({id: 'twilightforest:botanypots/trees/mining'})
 //
 })
 //
