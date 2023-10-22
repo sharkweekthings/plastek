@@ -169,6 +169,14 @@ ServerEvents.recipes(event => {
     }
 }).id('productivebees:bee_convert_lightning_tnt')
 
+// Honey Generator
+  event.shaped('productivebees:honey_generator', 
+    ['323','313','434'], {
+    1: 'create:brass_casing',
+    2: '#forge:buckets/honey',
+    3: 'pneumaticcraft:ingot_iron_compressed',
+    4: 'create:cogwheel'}).id('productivebees:honey_generator')
+
 // Advanced Oak Beehive
   event.shaped('productivebees:advanced_oak_beehive', 
     ['545','313','626'], {
