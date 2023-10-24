@@ -18,8 +18,6 @@
 
 //   const rename = (item, newName) => {
 //     let stack = Item.of(item);
-//     console.log("Trying to rename -> " + item)
-//     console.log(stack.item.descriptionId)
 //     event.add(stack.item.descriptionId, newName)
 //   }
 
