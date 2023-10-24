@@ -161,6 +161,14 @@ ServerEvents.recipes(event => {
     2: 'botania:manasteel_ingot',
     3: 'occultism:spirit_attuned_gem'}).id('botania:mana_pylon')
 
+// Mana Fluxfield
+  event.shaped('botania:mana_fluxfield', 
+    ['121','232','444'], {
+    1: 'botania:livingrock', 
+    2: 'minecraft:redstone_block',
+    3: 'botania:terrasteel_ingot',
+    4: '#energeticsheep:wool_energetic'}).id('botania:mana_fluxfield')
+
 //    
 })
 //
