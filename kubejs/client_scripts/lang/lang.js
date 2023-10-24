@@ -131,7 +131,7 @@
   	rename('farmersdelight:cabbage_seeds', "Savoy Cabbage Seeds")
   	rename('farmersdelight:cabbage', "Savoy Cabbage")
   	rename('farmersdelight:tomato_seeds', "Roma Tomato Seeds")
-  	rename('farmersdelight:tomato', "Roma Tomato Cabbage")
+  	rename('farmersdelight:tomato', "Roma Tomato")
 
 
 //   Ingredient.of(/mekanism:.*crystals/).stacks.forEach(item => rename(item, "Test Rename"))
