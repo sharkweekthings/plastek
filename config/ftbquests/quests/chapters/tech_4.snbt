@@ -699,6 +699,17 @@
 		}
 		{
 			dependencies: ["422B990ADEC51790"]
+			description: [
+				"Here is what we need to do in order to get our Aluminum Wire:"
+				""
+				"- Crush down your Raw Aluminum or Bauxite Ore to get Aluminum Dust"
+				""
+				"- Place 1 Aluminum Dust and 1 Energized Wool (&oany color&r) into the Arc Furnace to get Aluminum Ingot"
+				""
+				"- Put 1 Aluminum |ngot into your Metal Press with a Metal Press Mold: Wire attached to get 2 Aluminum Wire"
+				""
+				"&o&eOnce you unlock the Thermal Induction Smelter, you will no longer need the Energized Wool to help bind the Aluminum Dust into a solid ingot.&r&r "
+			]
 			id: "09A8F4E340FB7D21"
 			tasks: [{
 				id: "37F82F29A75CF3BD"

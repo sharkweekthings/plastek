@@ -134,6 +134,15 @@ ServerEvents.recipes(event => {
 	  4: 'pneumaticcraft:plastic',
     5: '#forge:leather'}).id('immersiveengineering:crafting/conveyor_basic')
 
+// Thermoelectric Generator
+  event.shaped('immersiveengineering:thermoelectric_generator',
+    ['343','121','151'], {
+    1: 'emendatusenigmatica:steel_plate',
+    2: 'immersiveengineering:coil_lv',
+	  3: 'emendatusenigmatica:constantan_plate',
+	  4: 'pneumaticcraft:plastic',
+    5: '#energeticsheep:wool_energetic'}).id('immersiveengineering:crafting/thermoelectric_generator')
+
 // Conveyor Vertical
   event.shaped('immersiveengineering:conveyor_vertical',
     ['1  ','1  ','1  '], {

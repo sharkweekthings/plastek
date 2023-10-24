@@ -83,6 +83,11 @@ ServerEvents.recipes(event => {
 
   //ADD
 
+// Slag Block
+  event.shaped('thermal:slag_block',
+    ['11 ','11 ','   '], {
+  1: '#forge:slag'}).id('thermal:storage/slag_block')
+
 // Arboreal Extractor
   event.shaped('thermal:device_tree_extractor',
     ['545','232','212'], {
@@ -440,7 +445,7 @@ ServerEvents.recipes(event => {
   "type": "thermal:smelter",
   "ingredients": [
     {
-      "item": "thermal:slag",
+      "tag": "forge:slag",
       "count": 3
     },
     {
@@ -466,7 +471,7 @@ ServerEvents.recipes(event => {
   "type": "thermal:smelter",
   "ingredients": [
     {
-      "item": "thermal:slag",
+      "tag": "forge:slag",
       "count": 3
     },
     {

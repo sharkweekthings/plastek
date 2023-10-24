@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
     1: 'create:brass_casing',
     2: '#forge:buckets/honey',
     3: 'pneumaticcraft:ingot_iron_compressed',
-    4: 'create:cogwheel'}).id('productivebees:honey_generator')
+    4: '#energeticsheep:wool_energetic'}).id('productivebees:honey_generator')
 
 // Advanced Oak Beehive
   event.shaped('productivebees:advanced_oak_beehive', 

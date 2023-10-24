@@ -614,23 +614,19 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["3A9CE464B5D8E24F"]
+			dependencies: ["5C177330670C0A81"]
 			description: [
 				"You may have noticed out in the world sheep that look like they would shock you if you touched them. Shearing these special sheep net a special, electricfying wool. "
 				""
 				"With this Electric Wool in hand, you can deposit this into any machine that requires RF to power it up. "
 				""
-				"It's an extremely crude way to power machines that require RF until we get more options in the next age. "
+				"It's an extremely crude way to power machines that require RF, as well as a crafting material for the &6Honey Generator&r, and used in early &7Aluminum Ingot&r making!"
 				""
-				"&l&cNote 1: For some reason the sheep are unkillable through normal means.. You can use TNT, Explosive Arrows, or a Mob Masher to kill them.&r&r"
-				""
-				"&l&cNote 2: I've found that some colors simply don't work and won't load into machines:&r&r"
+				"&l&cNote: I've found that some colors simply don't work and won't load into machines:&r&r"
 				""
 				"&dPink&r, White, &eYellow&r, or &6Orange&r"
 				""
 				"&oThere may be other colors that don't work. You can consider these colors duds.&r"
-				""
-				"&c&oAs of Build 1.25 the Honey Generator is the official progression point with Energetic Sheep being a side quest.&r&r"
 			]
 			id: "4C2CF4A136A1CFD6"
 			rewards: [{
@@ -639,7 +635,7 @@
 				table_id: 3325230720908722317L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "gear"
 			subtitle: "Sheep Power"
 			tasks: [{
 				id: "2BDF4A2DE3F54019"
@@ -654,7 +650,7 @@
 				type: "item"
 			}]
 			title: "Bah."
-			x: 5.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -1329,7 +1325,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["5C177330670C0A81"]
+			dependencies: ["4C2CF4A136A1CFD6"]
 			description: [
 				"If you're gonna goto the Moon, you're going to need a little power to get you on your way. "
 				""
@@ -1341,7 +1337,7 @@
 				item: "productivebees:honey_generator"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 4.0d
 		}
 	]

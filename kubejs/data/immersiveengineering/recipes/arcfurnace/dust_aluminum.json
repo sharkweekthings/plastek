@@ -1,0 +1,4 @@
+{"type":"immersiveengineering:arc_furnace",
+"additives":[{"tag":"energeticsheep:wool_energetic"}],"energy":51200,
+"input":{"tag":"forge:dusts/aluminum"},
+"results":[{"tag":"forge:ingots/aluminum"}],"time":100}
