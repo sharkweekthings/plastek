@@ -480,6 +480,48 @@
 			x: 1.0d
 			y: -3.5d
 		}
+		{
+			description: [
+				"This non repeatable quest is a great way to get rid of your extra tomatos. "
+				""
+				"You'll get a bottle of &cKetchup,&r and a chance at some &aEmeralds&r!"
+				""
+				"&o&c\"You're a monster.\" -Toriko&r&r"
+			]
+			id: "08ED6A664A5FAF03"
+			rewards: [
+				{
+					id: "774C0257E84888D0"
+					item: "pamhc2foodextended:ketchupitem"
+					type: "item"
+				}
+				{
+					id: "4341F969EE4CB099"
+					item: "minecraft:emerald"
+					random_bonus: 14
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "C'mon Toriko, take the tomatos. "
+			tasks: [
+				{
+					count: 64L
+					id: "3D5089C14CFA4089"
+					item: "pamhc2crops:tomatoitem"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "021E46054CD57156"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+			]
+			title: "Toriko Loves Tomatos"
+			x: 1.0d
+			y: 3.0d
+		}
 	]
 	title: "Top Chef"
 }

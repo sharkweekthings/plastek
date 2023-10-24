@@ -73,6 +73,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:crafting/craftingtable'})
   event.remove({id: 'immersiveengineering:crafting/nugget_aluminum_to_ingot_aluminum'})
   event.remove({id: 'immersiveengineering:metalpress/gear_plasteel'})
+  event.remove({id: 'immersiveengineering:arcfurnace/raw_block_aluminum'})
 
 //
 })
