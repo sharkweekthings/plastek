@@ -22,6 +22,7 @@
 				item: "minecraft:music_disc_13"
 				type: "item"
 			}]
+			title: "C418 - 13"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -39,6 +40,7 @@
 				item: "minecraft:music_disc_cat"
 				type: "item"
 			}]
+			title: "C418 - Cat"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -56,6 +58,7 @@
 				item: "minecraft:music_disc_blocks"
 				type: "item"
 			}]
+			title: "C418 - Blocks"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -73,6 +76,7 @@
 				item: "minecraft:music_disc_chirp"
 				type: "item"
 			}]
+			title: "C418 - Chirp"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -90,6 +94,7 @@
 				item: "minecraft:music_disc_far"
 				type: "item"
 			}]
+			title: "C418 - Far"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -107,6 +112,7 @@
 				item: "minecraft:music_disc_mall"
 				type: "item"
 			}]
+			title: "C418 - Mall"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -124,6 +130,7 @@
 				item: "minecraft:music_disc_mellohi"
 				type: "item"
 			}]
+			title: "C418 - Mellohi"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -141,6 +148,7 @@
 				item: "minecraft:music_disc_stal"
 				type: "item"
 			}]
+			title: "C418 - Stal"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -158,6 +166,7 @@
 				item: "minecraft:music_disc_strad"
 				type: "item"
 			}]
+			title: "C418 - Strad"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -175,6 +184,7 @@
 				item: "minecraft:music_disc_ward"
 				type: "item"
 			}]
+			title: "C418 - Ward"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -192,6 +202,7 @@
 				item: "minecraft:music_disc_11"
 				type: "item"
 			}]
+			title: "C418 - 11"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -209,6 +220,7 @@
 				item: "minecraft:music_disc_wait"
 				type: "item"
 			}]
+			title: "C418 - Wait"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -226,6 +238,7 @@
 				item: "minecraft:music_disc_otherside"
 				type: "item"
 			}]
+			title: "Lena Raine - Otherside"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -243,7 +256,8 @@
 				item: "environmental:music_disc_leaving_home"
 				type: "item"
 			}]
-			x: 4.0d
+			title: "Hatsondogs - Leaving Home"
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -260,7 +274,8 @@
 				item: "environmental:music_disc_slabrave"
 				type: "item"
 			}]
-			x: 5.0d
+			title: "Renren - Slabrave"
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -277,7 +292,8 @@
 				item: "minecraft:music_disc_5"
 				type: "item"
 			}]
-			x: 6.0d
+			title: "Samuel Aberg - 5"
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -294,7 +310,8 @@
 				item: "minecraft:music_disc_pigstep"
 				type: "item"
 			}]
-			x: 7.0d
+			title: "Lena Raine - Pigstep"
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -311,6 +328,7 @@
 				item: "infernalexp:music_disc_soul_spunk"
 				type: "item"
 			}]
+			title: "LudoCrypt - Soul Spunk"
 			x: 8.0d
 			y: 1.0d
 		}
@@ -328,6 +346,7 @@
 				item: "infernalexp:music_disc_flush"
 				type: "item"
 			}]
+			title: "Ludo Crypt - Flush"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -345,6 +364,7 @@
 				item: "unusualend:music_disc_flying_ships"
 				type: "item"
 			}]
+			title: "RedWolf - Flying Ships"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -362,6 +382,7 @@
 				item: "unusualend:music_disc_endstone_golem_theme"
 				type: "item"
 			}]
+			title: "RedWolf - Endstone Golem Theme"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -380,6 +401,7 @@
 				item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
 				type: "item"
 			}]
+			title: "Rimsky Korsakov - Flight of the Bumblebee"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -397,6 +419,7 @@
 				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
 				type: "item"
 			}]
+			title: "Rat Faced Boy - Honey Bee"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -414,6 +437,7 @@
 				item: "the_bumblezone:music_disc_la_bee_da_loca"
 				type: "item"
 			}]
+			title: "Ludo Crypt - La Bee-da Loca"
 			x: 5.0d
 			y: 2.0d
 		}
@@ -431,6 +455,7 @@
 				item: "idas:music_disc_slither"
 				type: "item"
 			}]
+			title: "Cama - Slither"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -448,6 +473,7 @@
 				item: "idas:music_disc_calidum"
 				type: "item"
 			}]
+			title: "Cama - Calidum"
 			x: 8.0d
 			y: 2.0d
 		}
@@ -465,6 +491,7 @@
 				item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
 				type: "item"
 			}]
+			title: "Ludo Crypt - Bee-laxing with the Hom-bees"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -482,6 +509,7 @@
 				item: "biomesoplenty:music_disc_wanderer"
 				type: "item"
 			}]
+			title: "Tim Rurkowski - Wanderer"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -499,6 +527,7 @@
 				item: "botania:record_gaia_1"
 				type: "item"
 			}]
+			title: "Kain Vinosec - Endure Emptiness"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -516,6 +545,7 @@
 				item: "botania:record_gaia_2"
 				type: "item"
 			}]
+			title: "Kain Vinosec - Fight For Quiescence"
 			x: 2.0d
 			y: 3.0d
 		}
@@ -533,6 +563,7 @@
 				item: "alexsmobs:music_disc_thime"
 				type: "item"
 			}]
+			title: "Ludo Crypt - Thime"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -550,6 +581,7 @@
 				item: "alexsmobs:music_disc_daze"
 				type: "item"
 			}]
+			title: "Ludo Crypt - Daze"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -567,6 +599,7 @@
 				item: "twilightforest:music_disc_radiance"
 				type: "item"
 			}]
+			title: "Rotch Gwylt - Radiance"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -584,6 +617,7 @@
 				item: "twilightforest:music_disc_steps"
 				type: "item"
 			}]
+			title: "Rotch Gwylt - Steps"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -601,6 +635,7 @@
 				item: "twilightforest:music_disc_superstitious"
 				type: "item"
 			}]
+			title: "Rotch Gwylt - Superstitious"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -618,6 +653,7 @@
 				item: "twilightforest:music_disc_home"
 				type: "item"
 			}]
+			title: "Mr Compost - Home"
 			x: 8.0d
 			y: 3.0d
 		}
@@ -635,6 +671,7 @@
 				item: "twilightforest:music_disc_wayfarer"
 				type: "item"
 			}]
+			title: "Mr Compost - Wayfarer"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -652,6 +689,7 @@
 				item: "twilightforest:music_disc_findings"
 				type: "item"
 			}]
+			title: "Mr Compost - Findings"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -669,6 +707,7 @@
 				item: "twilightforest:music_disc_maker"
 				type: "item"
 			}]
+			title: "Mr Compost - Maker"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -686,6 +725,7 @@
 				item: "twilightforest:music_disc_thread"
 				type: "item"
 			}]
+			title: "Mr Compost - Thread"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -703,6 +743,7 @@
 				item: "twilightforest:music_disc_motion"
 				type: "item"
 			}]
+			title: "Mr Compost - Motion"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -720,6 +761,7 @@
 				item: "ars_nouveau:music_disc_aria_biblio"
 				type: "item"
 			}]
+			title: "Firel - Aria Biblio"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -737,6 +779,7 @@
 				item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
 				type: "item"
 			}]
+			title: "Thistle - The Sound of Glass"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -754,6 +797,7 @@
 				item: "ars_nouveau:music_disc_firel_the_wild_hunt"
 				type: "item"
 			}]
+			title: "Firel - The Wild Hunt"
 			x: 7.0d
 			y: 4.0d
 		}
@@ -771,8 +815,27 @@
 				item: "quark:music_disc_endermosh"
 				type: "item"
 			}]
+			title: "Kain Vinosec - Endermosh"
 			x: 8.0d
 			y: 4.0d
+		}
+		{
+			id: "7382ADE60962AEBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76134E2B2F0EFE9C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Just don't get syrup stuck in your record player...."
+			tasks: [{
+				id: "70EEE1C5E121BD18"
+				item: "supplementaries:pancake"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
 		}
 	]
 	title: "Music Discs"
