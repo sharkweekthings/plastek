@@ -2145,8 +2145,6 @@ event.add('forge:concrete',
   'immersiveengineering:concrete'
   ])
 
-event.remove('twilightforest:portal/activator', 'minecraft:diamond')
-
 // event.add('silentgear:saw', '#natprog:saw')
 event.add('natprog:saw', 'silentgear:saw')
 
