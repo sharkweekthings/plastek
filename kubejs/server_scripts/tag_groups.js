@@ -1420,6 +1420,8 @@ event.add('kubejs:age_5_exception',
 
 event.add('kubejs:age_6_item', 
   [
+  'endermanoverhaul:corrupted_shield',
+  'endermanoverhaul:corrupted_blade',
   'tempad:tempad',
   'apotheosis:endshelf',
   'kubejs:player_transmitter_starter_parts',

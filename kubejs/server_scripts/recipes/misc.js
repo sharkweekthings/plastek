@@ -1073,6 +1073,20 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'prettypipes:pipe',
     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
 
+// Corrupted Blade
+  event.shaped('endermanoverhaul:corrupted_blade',
+    [' 1 ','313',' 2 '], {
+    1: 'endermanoverhaul:enderman_tooth',
+    2: 'emendatusenigmatica:plasteel_rod',
+    3: 'mekanism:hdpe_sheet'}).id('endermanoverhaul:corrupted_blade')
+
+// Corrupted Shield
+  event.shaped('endermanoverhaul:corrupted_shield',
+    ['313','121','313'], {
+    1: 'endermanoverhaul:enderman_tooth',
+    2: 'alexsmobs:shield_of_the_deep',
+    3: 'mekanism:hdpe_sheet'}).id('endermanoverhaul:corrupted_shield')
+
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')
 

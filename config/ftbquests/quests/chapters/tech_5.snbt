@@ -1005,6 +1005,11 @@
 					item: "emendatusenigmatica:plasteel_plate"
 					type: "item"
 				}
+				{
+					id: "6474F06CBF86168C"
+					item: "emendatusenigmatica:plasteel_rod"
+					type: "item"
+				}
 			]
 			x: 1.0d
 			y: 9.0d

@@ -23,6 +23,7 @@
 				item: "statues:statue_table"
 				type: "item"
 			}]
+			title: "Statue Table"
 			x: 2.5d
 			y: -1.5d
 		}
@@ -652,6 +653,7 @@
 				item: "statues:info_statue"
 				type: "item"
 			}]
+			title: "Info Statue"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -1893,6 +1895,7 @@
 				item: "statues:display_stand"
 				type: "item"
 			}]
+			title: "Statue Display Stand"
 			x: 1.5d
 			y: -1.0d
 		}

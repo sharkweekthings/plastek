@@ -177,6 +177,42 @@
 			x: 4.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "7F82B1E4BA9EF9CE"
+			shape: "circle"
+			tasks: [{
+				id: "595882C927F5F0DF"
+				item: {
+					Count: 1b
+					id: "endermanoverhaul:corrupted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BEE3233A277F52E"]
+			id: "34C74473144F03EE"
+			shape: "circle"
+			tasks: [{
+				id: "03D4F6862CF72B29"
+				item: {
+					Count: 1b
+					id: "endermanoverhaul:corrupted_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
 	]
 	title: "Weapons"
 }
