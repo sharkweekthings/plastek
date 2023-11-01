@@ -1148,6 +1148,7 @@ event.add('kubejs:age_4_item',
 
 event.add('kubejs:age_4_exception', 
   [
+  'mythicbotany:mjoellnir',
   'immersiveengineering:shader_bag_uncommon',
   'immersiveengineering:shader_bag_rare',
   'immersiveengineering:shader_bag_common',

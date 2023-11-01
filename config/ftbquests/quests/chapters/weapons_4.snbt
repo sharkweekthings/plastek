@@ -137,6 +137,9 @@
 				"Once defeated, the Gaia Guardian should drop a Dice of Fate. The Dice of Fate should hold one of several different powerful artifacts, the Ring of Thor being one of them. "
 				""
 				"The Dice of Fate is farmable from Gaia Guardian 2, and drops a few powerful artifacts."
+				""
+				"&l&e&nREAD IMPORTANT:&r&r&r "
+				"&c&oThere is currently an issue when a Mjolnir has an Apotheosis affix. Your world can become corrupted, and unusable.  As a result, this item has been disabled from gaining affixes for now.&r&r"
 			]
 			id: "06197C0F2D5E3808"
 			shape: "circle"
