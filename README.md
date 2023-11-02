@@ -74,9 +74,9 @@
  - On World Creation - the server tends to hang for an uncomfortably long time stating "Timed out waiting for world statistics". Just keep waiting and the world should be created. 
  - On world creation - Some mod is causing "Empty heigh range: [6 above bottom--1 absolute]". I gave up trying to figure out what was causing it.
  - Pam's Log items have no collision and can be walked through... But.... why?
- - Certain Creative items have been disabled until I can make a more clear cut progression through the Age 7
  - There may be an issue with the Spell Turret firing off spells
  - Textures are missing for several Nat Prog pebbles. Reported to Dev.
  - While you are flying at high speeds (sprinting) -- you may encounter a rare-ish issue where server a single tick takes 40 seconds. This has been reported to several mod devs. This issue doesnt tend to occur when you are running on the ground.
  - There may be some instance references of "Akashic Tome" in quests that should be changed to "Eccentric Tome". I don't recall which quests referenced the tome, so this will be updated on an 'as found' basis.
- - There are several colors of Electric Wool which I couldnt get to work. Pink, White, Yellow, and Orange.  I've asked about this with the Mod Devs, but havent heard anything back. Consider these colors "duds"
+ - There are several colors of Electric Wool which I couldnt get to work. Pink, White, Yellow, and Orange.  I've asked about this with the Mod Devs, but havent heard anything back. Consider these colors "duds" 
+ - If the item Mjolnir somehow ends up with an Apotheosis affix it can brick/crash your world, this also applies to attempting to use Apotheosis Reforger. You will need to edit the NBT data of your world to fix this. The config option for Apotheosis "adventure.cfg" should have a block for this item that looks like this "mythicbotany:mjoellnir|none". If you do not have this line please be sure to update your build to at least 1.26. 
