@@ -190,31 +190,35 @@ ServerEvents.recipes(event => {
 
 // Vortex Tube  
   event.shaped('pneumaticcraft:vortex_tube', 
-    ['212','313','222'], {
+    ['212','313','444'], {
     1: 'pneumaticcraft:pressure_tube',
     2: 'pneumaticcraft:ingot_iron_compressed',
-    3: 'create:precision_mechanism'}).id('pneumaticcraft:vortex_tube')
+    3: 'create:precision_mechanism',
+    4: 'pneumaticcraft:plastic'}).id('pneumaticcraft:vortex_tube')
     
 // Refinery Controller 
   event.shaped('pneumaticcraft:refinery', 
-    ['111','323','111'], {
+    ['141','323','141'], {
     1: 'pneumaticcraft:reinforced_stone_slab',
     2: 'pneumaticcraft:small_tank',
-    3: 'create:precision_mechanism'}).id('pneumaticcraft:refinery')
+    3: 'create:precision_mechanism',
+    4: 'pneumaticcraft:plastic'}).id('pneumaticcraft:refinery')
     
 // Refinery Output 
   event.shaped('pneumaticcraft:refinery_output', 
-    ['111','232','111'], {
+    ['141','232','141'], {
     1: 'pneumaticcraft:reinforced_stone_slab',
     2: '#forge:glass',
-    3: 'create:precision_mechanism'}).id('pneumaticcraft:refinery_output')
+    3: 'create:precision_mechanism',
+    4: 'pneumaticcraft:plastic'}).id('pneumaticcraft:refinery_output')
     
 // Small Fluid Tank
   event.shaped('pneumaticcraft:small_tank', 
-    ['121','232','121'], {
+    ['141','232','141'], {
     1: 'minecraft:iron_bars',
     2: 'pneumaticcraft:ingot_iron_compressed',
-    3: '#forge:glass'}).id('pneumaticcraft:small_tank')
+    3: '#forge:glass',
+    4: 'pneumaticcraft:plastic'}).id('pneumaticcraft:small_tank')
     
 // UV Light Box
   event.shaped('pneumaticcraft:uv_light_box', 
@@ -227,11 +231,12 @@ ServerEvents.recipes(event => {
     
 // Heat Frame
   event.shaped('pneumaticcraft:heat_frame', 
-    ['333','212','343'], {
+    ['353','212','343'], {
     1: 'create:blaze_burner',
     2: 'pneumaticcraft:compressed_iron_block',
     3: 'emendatusenigmatica:iron_rod',
-    4: 'pneumaticcraft:printed_circuit_board'}).id('pneumaticcraft:heat_frame')
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: 'pneumaticcraft:plastic'}).id('pneumaticcraft:heat_frame')
     
 // Smart Chest
   event.shaped('pneumaticcraft:smart_chest', 
