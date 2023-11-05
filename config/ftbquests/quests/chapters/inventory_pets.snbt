@@ -809,29 +809,6 @@
 			y: 1.0d
 		}
 		{
-			id: "469276859F3FD10C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28F7ED426210F601"
-				table_id: 5825749635945163331L
-				type: "random"
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "2599829B0B8DCFE3"
-				item: {
-					Count: 1b
-					id: "inventorypets:pet_illuminati"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
 			id: "18607E9574031A2F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -874,8 +851,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "4BCB45E333E3C4EE"
@@ -897,7 +874,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -920,7 +897,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -943,7 +920,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -966,7 +943,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -989,7 +966,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -1012,7 +989,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -1035,7 +1012,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 2.0d
 		}
 		{
@@ -1058,7 +1035,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 2.0d
 		}
 		{
@@ -1316,7 +1293,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{

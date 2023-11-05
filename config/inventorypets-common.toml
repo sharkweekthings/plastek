@@ -200,7 +200,7 @@
 	#Disable the House pet (default:false)
 	disableHouse = false
 	#Disable the Illuminati pet (default:false)
-	disableIlluminati = false
+	disableIlluminati = true
 	#Disable the Iron Golem pet (default:false)
 	disableIronGolem = false
 	#Disable the Juggernaut pet (default:false)
