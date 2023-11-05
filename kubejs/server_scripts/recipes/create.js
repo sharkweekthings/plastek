@@ -236,9 +236,6 @@ ServerEvents.recipes(event => {
     1: 'create:cogwheel', 
     2: 'create:shaft'}).id('create:crafts/large_cogwheel')
 
-// Spout
-  event.shapeless(Item.of('create:spout'), ['create:andesite_casing', 'supplementaries:faucet']).id('create:crafts/spout')
-
 // Spout  
   event.shaped('create:spout', 
     ['444','313','424'], {
