@@ -824,7 +824,7 @@
 				}
 				{
 					id: "22427D055FCD4DAE"
-					item: "minecraft:hopper"
+					item: "woodenhopper:wooden_hopper"
 					type: "item"
 				}
 			]

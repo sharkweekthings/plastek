@@ -427,6 +427,7 @@ event.add('kubejs:age_1_item',
 
 event.add('kubejs:age_1_exception', 
   [
+  'supplementaries:item_shelf',
   'twilightforest:ore_magnet',
   'minecraft:echo_shard',
   'minecraft:hopper',
@@ -2140,6 +2141,7 @@ event.add('kubejs:loot_1',
   'minecraft:chest',
   'minecraft:trapped_chest',
   'minecraft:barrel',
+  'supplementaries:item_shelf',
   'immersiveengineering:crate'
   ])
 
