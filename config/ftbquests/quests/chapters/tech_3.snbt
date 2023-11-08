@@ -366,7 +366,7 @@
 				""
 				"&cIt's highly advisable to set a Redstone mode and disable the system while it's not in use.   If you leave the system running, you may come back to find your machine destroyed, and items missing.&r"
 				""
-				"&eCheck the Tools section for a few Pneumatic Craft upgrades, tubes, etc.&r"
+				"&eCheck the Utility section for a few Pneumatic Craft upgrades, tubes, etc.&r"
 			]
 			id: "3F3A305DB84B1A1E"
 			rewards: [

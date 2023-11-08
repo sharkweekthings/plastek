@@ -218,7 +218,7 @@
 			id: "09473F5555348878"
 			rewards: [{
 				id: "3D65C313FA59F282"
-				item: "farmersdelight:stuffed_potato"
+				item: "silentgear:leather_scrap"
 				random_bonus: 14
 				type: "item"
 			}]
