@@ -1221,7 +1221,7 @@
 			}
 			id: "42B96AF84E4FEB2A"
 			shape: "circle"
-			subtitle: "Spawns"
+			subtitle: "Conversion"
 			tasks: [{
 				id: "16FED002EBD43AC5"
 				title: "Ok"
@@ -1246,7 +1246,7 @@
 			}
 			id: "6017E55F343520D2"
 			shape: "circle"
-			subtitle: "Spawns"
+			subtitle: "Conversion"
 			tasks: [{
 				id: "48A6DAD0F3991989"
 				title: "Ok"
