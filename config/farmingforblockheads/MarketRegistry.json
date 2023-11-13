@@ -2504,6 +2504,17 @@
     },     
     {
       "output": {
+        "item": "minecraft:wooden_sword",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
         "item": "minecraft:wooden_shovel",
         "count": 1
       },
