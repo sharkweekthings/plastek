@@ -1,4 +1,4 @@
-// 1.19.2	2023-09-04T17:06:51.6604647	Emendatus Enigmatica Item Models
+// 1.19.2	2023-11-12T18:56:05.4187437	Emendatus Enigmatica Item Models
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/alien_gear.json
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/alien_rod.json
 e787d08cc53f9e63f47b913e1a4348a5b05a1de7 assets/emendatusenigmatica/models/item/aluminum_block.json
@@ -19,6 +19,7 @@ d41befa7230df3b2fd0cc725ae3b4acd0d973d86 assets/emendatusenigmatica/models/item/
 4bc748203ff7faaff6b5ca0218fc148c1e6a8758 assets/emendatusenigmatica/models/item/apatite_moon_stone_ore.json
 3b895c7d507d86f8a9533dbbb561780b45f4669a assets/emendatusenigmatica/models/item/apatite_stone_ore.json
 f5d5dcddca103c323d3e8a7f4b8df0f94ec251e7 assets/emendatusenigmatica/models/item/apatite_venus_stone_ore.json
+90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/blazing_dust.json
 a61f3d2c263e9c6306174dc77ff7f1a61926dfb9 assets/emendatusenigmatica/models/item/brass_block.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/brass_dust.json
 058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/brass_ingot.json

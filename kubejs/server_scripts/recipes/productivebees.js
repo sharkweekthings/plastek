@@ -205,11 +205,12 @@ ServerEvents.recipes(event => {
 
 // Centrifuge
   event.shaped('productivebees:centrifuge', 
-    ['444','434','212'], {
+    ['454','434','212'], {
     1: 'create:basin',
     2: 'minecraft:waxed_copper_block',
     3: 'create:electron_tube',
-    4: 'emendatusenigmatica:brass_plate'}).id('productivebees:centrifuge')
+    4: 'emendatusenigmatica:brass_plate',
+    5: 'productivebees:bee_cage'}).id('productivebees:centrifuge')
 
 // Powered Centrifuge
   event.shaped('productivebees:powered_centrifuge', 

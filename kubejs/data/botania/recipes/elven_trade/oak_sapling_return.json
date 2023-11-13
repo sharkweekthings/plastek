@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_sapling"
+    }
+  ],
+  "output": [
+    {
+      "item": "rootsclassic:verdant_sprig"
+    }
+  ]
+}

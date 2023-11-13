@@ -1,0 +1,4 @@
+{"type":"immersiveengineering:arc_furnace",
+"additives":[{"item":"emendatusenigmatica:blazing_dust"}],"energy":51200,
+"input":{"item":"pneumaticcraft:plastic"},
+"results":[{"base_ingredient":{"item":"silentcompat:raw_solarmetal"},"count":1}],"time":500}

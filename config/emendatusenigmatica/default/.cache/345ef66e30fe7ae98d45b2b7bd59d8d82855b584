@@ -1,4 +1,4 @@
-// 1.19.2	2023-09-04T17:06:51.6426081	Emendatus Enigmatica Item Tags
+// 1.19.2	2023-11-12T18:56:05.4296564	Emendatus Enigmatica Item Tags
 baca836dcb6ee7c51ceebfb1e6924c38e0b3f0d2 data/forge/tags/items/armors/boots.json
 1666aec7e4a2366628e29456b86fa4dc7c145e82 data/forge/tags/items/armors/boots/copper.json
 fa90ab6cf8117ba5fc880b604b1ef8e38ad6b388 data/forge/tags/items/armors/boots/sterling_silver.json
@@ -11,9 +11,10 @@ bc8f5a0d2e7c8fa607244dd37a9408240c104081 data/forge/tags/items/armors/helmets/st
 cb2bf5ecbf95f2f2834e066050af8f775dea0c31 data/forge/tags/items/armors/leggings.json
 5faabdc941c83f7e9daa3893db59cdd073692438 data/forge/tags/items/armors/leggings/copper.json
 f9158fddabde6b70ebb172396e7c050843e29c05 data/forge/tags/items/armors/leggings/sterling_silver.json
-d44f7e0851f33f8918df8778db1976ef190dd6d1 data/forge/tags/items/dusts.json
+f96639d6d73e724be683c5aea8d9e6e754ee1cd9 data/forge/tags/items/dusts.json
 c0d8627ab34423905e9a8ab98c45e0de2b285400 data/forge/tags/items/dusts/aluminum.json
 6ea735693aadc818027ec6eb81ea220fcf7d2c32 data/forge/tags/items/dusts/apatite.json
+e4ac8203f5a916880e0662b48bcb4e3ad95ef7a4 data/forge/tags/items/dusts/blazing.json
 4a2116ab54fb41fd66658b9cf0024385679db679 data/forge/tags/items/dusts/brass.json
 ad69d5e5404e3ee6a377a2557a24ac11fff0a1f2 data/forge/tags/items/dusts/bronze.json
 e0fc4065d70dba7121925bd594bcc186f337fdbc data/forge/tags/items/dusts/charcoal.json

@@ -443,6 +443,7 @@
 				"- Reinforced Integral Components"
 				"- Resonant Integral Components"
 				"- Shaft"
+				"- Brass Rod"
 				"- Creative Vending Upgrade"
 			]
 			id: "57B39307C919E080"
@@ -1083,7 +1084,7 @@
 				""
 				"&3- Breed the Lumber and Resin Bee to get a Plastic Bee&r"
 				""
-				"&c&oThe unprocessed Plastic Comb is a key component in strengthening plastic, and making Molten Plastic. We'll need quite a bit of Plastic Combs going forward.&r&r"
+				"&a&oThe unprocessed Plastic Comb is a key component in strengthening plastic, and making Molten Plastic. We'll need quite a bit of Plastic Combs going forward.&r&r"
 			]
 			id: "6A3EF71F50C465DD"
 			rewards: [{

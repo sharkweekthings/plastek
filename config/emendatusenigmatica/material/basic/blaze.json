@@ -1,0 +1,18 @@
+{
+  "id": "blazing",
+  "source": "modded",
+  "localizedName": "Blazing",
+  "processedTypes": [
+  "dust"
+  ],
+  "properties": {
+    "materialType": "gem",
+    "harvestLevel": 2,
+    "isBurnable": false,
+    "isEmissive": false,
+    "hasOxidization": false
+  },
+  "colors": {
+    "materialColor": "920000"
+  }
+}

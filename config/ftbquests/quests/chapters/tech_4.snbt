@@ -1214,6 +1214,46 @@
 			x: 0.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Another optional piece of machinery that will help crush limited things into dusts."]
+			id: "1B857BA57DA019B3"
+			shape: "circle"
+			tasks: [
+				{
+					count: 10L
+					id: "76FA42F0F9D80C61"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "0859FD36E1C038B2"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "61F5F56E6ECB4C92"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57AFB634C9BD5011"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "06A67BD37AB3E8C3"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Crusher"
+			x: 6.0d
+			y: -1.5d
+		}
 	]
 	title: "Tech"
 }
