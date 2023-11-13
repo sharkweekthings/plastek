@@ -522,6 +522,12 @@ ServerEvents.recipes(event => {
     ]
 }).id('create:thermal_quartz_dust')
 
+//Constantan Plate
+event.custom({
+  "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:constantan_ingot","count": 1}],
+  "results": [{"item": "emendatusenigmatica:constantan_plate"}]
+  }).id('create:pressing/constantan_plate')
+
 // Leather Operations
 event.custom({
   "type": "create:mixing", "ingredients": [{"item": "kubejs:rawhide","count": 1},

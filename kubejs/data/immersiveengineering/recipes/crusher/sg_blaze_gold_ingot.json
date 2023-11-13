@@ -1,0 +1,3 @@
+{"type":"immersiveengineering:crusher","energy":15000,"input":{"item":"silentgear:blaze_gold_ingot"},
+"result":{"count":2,"item":"silentgear:blaze_gold_nugget"},
+"secondaries":[{"chance":0.10,"output":{"item":"silentgear:blaze_gold_nugget"}}]}

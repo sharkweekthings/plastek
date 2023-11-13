@@ -50,6 +50,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'minecraft:arcmetal_ore_to_ingot'})
   event.remove({id: 'minecraft:arcmetal_ingot_unpacking'})
   event.remove({id: 'minecraft:arcmetal_nugget_packing'})
+  event.remove({id: 'silentgear:blaze_gold_ingot_from_nugget'})
+  event.remove({id: 'silentgear:blaze_gold_nugget'})
 
 //
 })

@@ -1,0 +1,3 @@
+{"type":"immersiveengineering:crusher","energy":10000,"input":{"item":"silentgear:blaze_gold_nugget"},
+"result":{"item":"emendatusenigmatica:blazing_dust"},"secondaries":[{"chance":0.05,
+"output":{"item":"emendatusenigmatica:blazing_dust"}}]}
