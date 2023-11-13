@@ -236,6 +236,12 @@ ServerEvents.recipes(event => {
     1: 'supplementaries:sack',
     2: 'simplehats:hatscraps_summer'}).id('simplehats:hatbag_summer')
 
+// Sturdy Stone
+  event.shaped('quark:sturdy_stone',
+    ['111','121','111'], {
+    1: 'minecraft:cobblestone',
+    2: 'minecraft:gravel'}).id('quark:building/crafting/sturdy_stone')
+
 // Halloween Hat Bag
   event.shaped('simplehats:hatbag_halloween',
     ['222','212','222'], {
