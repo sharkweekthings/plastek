@@ -161,6 +161,13 @@ ServerEvents.recipes(event => {
     2: 'botania:manasteel_ingot',
     3: 'occultism:spirit_attuned_gem'}).id('botania:mana_pylon')
 
+// Gaia Pylon
+  event.shaped('botania:gaia_pylon', 
+    [' 1 ','232',' 1 '], {
+    1: 'botania:pixie_dust', 
+    2: 'botania:elementium_ingot',
+    3: 'botania:natura_pylon'}).id('mythicbotany:gaia_pylon')
+
 // Mana Fluxfield
   event.shaped('botania:mana_fluxfield', 
     ['121','232','444'], {
