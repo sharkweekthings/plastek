@@ -19,6 +19,7 @@
 				"Fluid"
 				"FE"
 				"Light"
+				"Chemical"
 				""
 				"Using a P2P Tunnel you can transfer -- for instance, Light through your AE2 Network from the Input side to the Output side.  For the Light example, you can actually see the Light being transferred as well, as it lights up the pipe line. "
 				""
