@@ -597,6 +597,23 @@ event.custom({
   "results": [{"item": "emendatusenigmatica:silver_plate"}]
   }).id('create:pressing/silver_plate')
 
+// Diamond Nugget
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "processingTime": 10000,
+  "results": [
+    {
+      "count": 9,
+      "item": "inventorypets:nugget_diamond"
+    }
+  ]
+}).id('inventorypets:nuggets/diamond')
+
 // Apatite Dust
   event.custom({
   "type": "create:milling",
