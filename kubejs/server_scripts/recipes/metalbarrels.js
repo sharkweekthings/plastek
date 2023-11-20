@@ -149,24 +149,24 @@ ServerEvents.recipes(event => {
 
 // Diamond Barrel
   event.shaped('metalbarrels:diamond_barrel',
-    ['131','323','131'], {
-    1: 'compressium:diamond_1',
+    ['111','121','131'], {
+    1: 'minecraft:diamond',
     2: 'metalbarrels:gold_barrel',
-    3: 'minecraft:diamond'}).id('metalbarrels:diamond_barrel')
+    3: 'minecraft:diamond_block'}).id('metalbarrels:diamond_barrel')
 
 // Obsidian Barrel
   event.shaped('metalbarrels:obsidian_barrel',
-    ['131','323','131'], {
-    1: 'compressium:obsidian_1',
+    ['111','121','131'], {
+    1: 'minecraft:obsidian',
     2: 'metalbarrels:diamond_barrel',
-    3: 'minecraft:crying_obsidian'}).id('metalbarrels:obsidian_barrel')
+    3: 'compressium:obsidian_1'}).id('metalbarrels:obsidian_barrel')
 
 // Netherite Barrel
   event.shaped('metalbarrels:netherite_barrel',
-    ['131','323','131'], {
-    1: 'compressium:netherite_1',
+    ['111','121','131'], {
+    1: 'minecraft:netherite_ingot',
     2: 'metalbarrels:obsidian_barrel',
-    3: 'minecraft:netherite_ingot'}).id('metalbarrels:netherite_barrel')
+    3: 'minecraft:netherite_block'}).id('metalbarrels:netherite_barrel')
 
 // Wood to Copper Upgrade
   event.shaped('metalbarrels:wood_to_copper',
@@ -198,20 +198,20 @@ ServerEvents.recipes(event => {
 
 // Gold to Diamond Upgrade
   event.shaped('metalbarrels:gold_to_diamond',
-    ['121','2 2','121'], {
-    1: 'compressium:diamond_1',
-    2: 'minecraft:diamond'}).id('metalbarrels:upgrades/gold_to_diamond_upgrade')
+    ['111','1 1','121'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:diamond_block'}).id('metalbarrels:upgrades/gold_to_diamond_upgrade')
 
 // Diamond to Obsidian Upgrade
   event.shaped('metalbarrels:diamond_to_obsidian',
-    ['121','2 2','121'], {
+    ['222','2 2','212'], {
     1: 'compressium:obsidian_1',
-    2: 'minecraft:crying_obsidian'}).id('metalbarrels:upgrades/diamond_to_obsidian_upgrade')
+    2: 'minecraft:obsidian'}).id('metalbarrels:upgrades/diamond_to_obsidian_upgrade')
 
 // Obsidian to Netherite Upgrade
   event.shaped('metalbarrels:obsidian_to_netherite',
-    ['121','2 2','121'], {
-    1: 'compressium:netherite_1',
+    ['222','2 2','212'], {
+    1: 'minecraft:netherite_block',
     2: 'minecraft:netherite_ingot'}).id('metalbarrels:upgrades/obsidian_to_netherite_upgrade')
 
 //    
