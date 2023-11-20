@@ -169,6 +169,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botanytrees:twilightforest/miners_tree'})
   event.remove({id: 'twilightforest:botanypots/trees/mining'})
   event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
+  event.remove({id: 'deeperdarker:warden_sword_smithing'})
 //
 })
 //
@@ -1093,6 +1094,16 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'endermanoverhaul:enderman_tooth',
     2: 'alexsmobs:shield_of_the_deep',
     3: 'mekanism:hdpe_sheet'}).id('endermanoverhaul:corrupted_shield')
+
+// Warden Sword
+  event.shaped('deeperdarker:warden_sword',
+    ['562','416','345'], {
+    1: 'kubejs:empty_heart_of_the_deep',
+    2: 'pneumaticcraft:drill_bit_diamond',
+    3: 'emendatusenigmatica:iron_rod',
+    4: 'deeperdarker:reinforced_echo_shard',
+    5: 'deeperdarker:sculk_tendrils',
+    6: 'deeperdarker:sculk_vines'}).id('deeperdarker:warden_sword')
 
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')

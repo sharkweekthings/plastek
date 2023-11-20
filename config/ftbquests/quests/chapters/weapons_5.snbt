@@ -163,6 +163,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["060D5244CBD4660D"]
 			id: "4B30C425C794645A"
 			shape: "circle"
 			tasks: [{
@@ -178,6 +179,30 @@
 			}]
 			x: 1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			description: [
+				"Are you feeling a little overrun with Wardens while trying to adventure in The Otherside?  "
+				""
+				"Well, with this brand new sword you will deal significantly more damage to Wardens!"
+			]
+			id: "65E91D4BAA3B357C"
+			shape: "circle"
+			subtitle: "Warden Pest Removal"
+			tasks: [{
+				id: "2E1BA24EE317D1DF"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 	title: "Weapons"
