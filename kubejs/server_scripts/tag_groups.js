@@ -21,7 +21,7 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('kubejs:mars_gen_2', ['ad_astra:martian_polar_caps'])
   event.add('kubejs:mercury_gen', ['ad_astra:mercury_deltas'])
   event.add('kubejs:moon_gen', ['ad_astra:lunar_wastelands'])
-  event.add('kubejs:otherside_gen_1', ['deeperdarker:otherside_deeplands', 'deeperdarker:overcast_columns'])
+  event.add('kubejs:otherside_gen_1', ['deeperdarker:deeplands', 'deeperdarker:overcast_columns'])
   event.add('kubejs:otherside_gen_2', ['deeperdarker:echoing_forest'])
   event.add('kubejs:twilightforest_gen_1', ['twilightforest:clearing', 'twilightforest:highlands', 'twilightforest:oak_savannah', 'twilightforest:spooky_forest', 'twilightforest:mushroom_forest', 'twilightforest:swamp', 'twilightforest:fire_swamp', 'twilightforest:stream'])
   event.add('kubejs:twilightforest_gen_2', ['twilightforest:dark_forest', 'twilightforest:dense_mushroom_forest', 'twilightforest:enchanted_forest', 'twilightforest:glacier', 'twilightforest:forest', 'twilightforest:thornlands', 'twilightforest:highlands'])
