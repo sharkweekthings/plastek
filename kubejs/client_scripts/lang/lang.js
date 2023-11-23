@@ -46,6 +46,7 @@ ClientEvents.lang('en_us', event => {
   	rename('emendatusenigmatica:iron_crystal', "Iron Fragment")
   	rename('emendatusenigmatica:alien_gear', "Unidentified Alien Piece")
   	rename('emendatusenigmatica:alien_rod', "Unidentified Alien Part")
+  	rename('emendatusenigmatica:blazing_dust', "Blaze Dust")
 
 // KUBEJS
   	rename('kubejs:durable_rawhide', "Durable Rawhide")
