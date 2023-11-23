@@ -75,7 +75,7 @@ ClientEvents.lang('en_us', event => {
   	rename('kubejs:digital_miner_parts', "Digital Miner Parts")
   	rename('kubejs:empty_prediction_parts', "Prediction Matrix Parts")
   	rename('kubejs:energy_cable_starter_parts', "Energy Cable Starter Parts")
-  	rename('kubejs:energizing_rod_parts', "Energizing Rod Parts")
+  	rename('kubejs:energizing_rod_starter_parts', "Energizing Starter Rod Parts")
   	rename('kubejs:energizing_orb_parts', "Energizing Orb Parts")
   	rename('kubejs:ender_gate_starter_parts', "Ender Gate Starter Parts")
   	rename('kubejs:player_transmitter_starter_parts', "Player Transmitter Starter Parts")
