@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
 // Brass Tunnel
   event.shaped('create:brass_tunnel', 
     ['343','121','121'], {
-    1: 'create:brass_ingot',
+    1: 'emendatusenigmatica:brass_ingot',
     2: 'create:belt_connector',
     3: 'emendatusenigmatica:brass_plate',
     4: 'create:electron_tube'}).id('create:crafts/brass_tunnel')
