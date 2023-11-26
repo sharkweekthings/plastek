@@ -109,7 +109,7 @@
 			}]
 			title: "Mars Globe"
 			x: 1.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["72D3E2106C9F726C"]

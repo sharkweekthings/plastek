@@ -39,7 +39,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -47,6 +47,7 @@
 				"6DDB1937CAFCAE96"
 				"1FC03783783EABD6"
 				"160EA796922ED027"
+				"0909E953E4B7F190"
 			]
 			icon: "supplementaries:globe"
 			id: "548E98A50241A7BB"
@@ -63,7 +64,7 @@
 			}]
 			title: "Alfheim Globe"
 			x: 0.5d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6934CC633FD25CC2"]
@@ -83,13 +84,22 @@
 			dependencies: ["6934CC633FD25CC2"]
 			id: "1FC03783783EABD6"
 			shape: "circle"
-			tasks: [{
-				consume_items: true
-				count: 256L
-				id: "27579B3061B90B3E"
-				item: "botania:golden_grass"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "27579B3061B90B3E"
+					item: "botania:golden_grass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0848A61E38ED3DAD"
+					item: "mythicbotany:dreamwood_leaves"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 1.5d
 		}
@@ -135,7 +145,31 @@
 				}
 			]
 			x: -0.5d
-			y: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"627B70A107BA2E7B"
+				"708C37EB7AD8675B"
+				"2C214069CB063175"
+				"3678F3D283B02C92"
+			]
+			icon: {
+				Count: 1b
+				id: "mythicbotany:alfsteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0909E953E4B7F190"
+			shape: "circle"
+			tasks: [{
+				id: "42417459DD0A8706"
+				title: "That New Alf Shine"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 	title: "Alfheim"

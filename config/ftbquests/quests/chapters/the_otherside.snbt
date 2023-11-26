@@ -69,6 +69,7 @@
 			tasks: [{
 				advancement: "deeperdarker:main/explore_otherside"
 				criterion: ""
+				icon: "deeperdarker:echo_sign"
 				id: "0BCDB2896199E89D"
 				type: "advancement"
 			}]
@@ -80,6 +81,11 @@
 				"350CD5DAB9A5D784"
 				"32C9A1F44CC748A4"
 				"1898E8C4660D4797"
+				"0E5A2BAD12C5C0FB"
+				"38184ED154696EAE"
+				"20EF393971137895"
+				"3C4A018501950A89"
+				"5849FCFB2A64BA4F"
 			]
 			icon: "supplementaries:globe_sepia"
 			id: "7D258772575CA5FD"
@@ -96,21 +102,30 @@
 			}]
 			title: "Otherside Globe"
 			x: 0.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4685113C2A52E40E"]
 			id: "32C9A1F44CC748A4"
 			shape: "circle"
-			tasks: [{
-				consume_items: true
-				count: 512L
-				id: "7AD03DA3238DA2FC"
-				item: "deeperdarker:cobbled_sculk_stone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "7AD03DA3238DA2FC"
+					item: "deeperdarker:cobbled_sculk_stone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "34424C7853E7118E"
+					item: "deeperdarker:cobbled_gloomslate"
+					type: "item"
+				}
+			]
 			x: -1.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4685113C2A52E40E"]
@@ -118,13 +133,167 @@
 			shape: "circle"
 			tasks: [{
 				consume_items: true
-				count: 512L
+				count: 256L
 				id: "6AB50E76C77DE7DF"
-				item: "deeperdarker:cobbled_gloomslate"
+				item: "deeperdarker:sculk_gleam"
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4E92401BFC11C854"
+				"0F4467F3E3C1FFB0"
+				"6A422B5075A81CD1"
+				"4F82119F19BA0E9D"
+				"4685113C2A52E40E"
+			]
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E5A2BAD12C5C0FB"
+			shape: "circle"
+			tasks: [{
+				id: "48DF80A4E206C812"
+				title: "Geared Up"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65E91D4BAA3B357C"
+				"4685113C2A52E40E"
+			]
+			description: ["Don't forget - this blade will deal significantly more damage to \"Warden\" mobs!"]
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38184ED154696EAE"
+			shape: "circle"
+			tasks: [{
+				id: "587FCC285C8C5350"
+				title: "Warden Extermination"
+				type: "checkmark"
+			}]
+			title: "Wardens? More Like Wardeads!"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "3C4A018501950A89"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "2C09A573ECBED475"
+					item: "deeperdarker:sculk_vines"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "3EF9B00819D24482"
+					item: "deeperdarker:sculk_tendrils"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "20EF393971137895"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "259AE0A47BE6C4FE"
+					item: "deeperdarker:echo_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "1511ED970965C9FA"
+					item: "deeperdarker:echo_soil"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "5849FCFB2A64BA4F"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 75L
+					id: "16BA38CBC9574C75"
+					item: "deeperdarker:sculk_stone_iron_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "16CF8F7257D3983A"
+					item: "deeperdarker:sculk_stone_copper_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "65408A1EA96F4EE2"
+					item: "deeperdarker:sculk_stone_gold_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "27FF8E6A0B1B377E"
+					item: "deeperdarker:sculk_stone_redstone_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "3C0BB5B5CDED947A"
+					item: "deeperdarker:sculk_stone_emerald_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "1AA9D0BCE44B53E5"
+					item: "deeperdarker:sculk_stone_lapis_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "2A42DDB35E93F6F5"
+					item: "deeperdarker:sculk_stone_diamond_ore"
+					type: "item"
+				}
+			]
+			title: "Sculk Ores"
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 	title: "The Otherside"
