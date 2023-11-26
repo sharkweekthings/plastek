@@ -889,7 +889,26 @@
 				}
 			]
 			title: "Hat Grab Bags"
-			x: 0.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"Handcrafted adds a ton more nice looking housing decor. "
+				""
+				"&oYou likely won't be able to craft a lot of these furnitures until Age 3 - but there is a chance of getting it in &bShaun's Magical Sack.&r&r"
+			]
+			icon: "handcrafted:acacia_board"
+			id: "697A30455AAA9C7B"
+			shape: "circle"
+			tasks: [{
+				id: "38B39966729E50FC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Handcrafted"
+			x: 0.5d
 			y: -3.5d
 		}
 	]
