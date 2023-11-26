@@ -32,8 +32,8 @@
 				value: 100000
 			}]
 			title: "Jump 100,000 times"
-			x: 2.5d
-			y: -2.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			id: "4815FAB2FA3ED3C2"
@@ -96,8 +96,8 @@
 				value: 10000
 			}]
 			title: "Ring 10000 Bells"
-			x: 1.5d
-			y: -1.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			id: "22ADF51A60B34E3F"
@@ -136,8 +136,8 @@
 				type: "stat"
 				value: 500
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			id: "6EE9D9A011BE89E0"
@@ -176,8 +176,8 @@
 				type: "stat"
 				value: 500
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			id: "577A63ABDB76FAC9"
@@ -196,8 +196,8 @@
 				type: "stat"
 				value: 10000
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			id: "1A9E054FACEA6E81"
@@ -216,8 +216,8 @@
 				type: "stat"
 				value: 20
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "774C9A815EB538CE"
@@ -253,8 +253,8 @@
 				type: "stat"
 				value: 500
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			icon: "lootr:trophy"
@@ -299,7 +299,7 @@
 				type: "stat"
 				value: 200
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -562,7 +562,7 @@
 				value: 1000L
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -581,7 +581,7 @@
 				value: 1000L
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -600,7 +600,7 @@
 				value: 1000L
 			}]
 			x: -1.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -619,7 +619,7 @@
 				value: 1000L
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -638,7 +638,7 @@
 				value: 1000L
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -657,7 +657,7 @@
 				value: 1000L
 			}]
 			x: 6.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -678,7 +678,7 @@
 				value: 1000L
 			}]
 			x: 6.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -697,7 +697,7 @@
 				value: 100L
 			}]
 			x: 6.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -718,7 +718,7 @@
 				value: 100L
 			}]
 			x: 6.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -737,6 +737,302 @@
 				value: 200L
 			}]
 			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "00CC77ABCCCDF9F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79147776F067E786"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "64164628797FA7CE"
+				type: "kill"
+				value: 500L
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "359C054EA6531E70"
+			shape: "circle"
+			tasks: [{
+				entity: "ad_astra:corrupted_lunarian"
+				icon: "ad_astra:corrupted_lunarian_spawn_egg"
+				id: "2221D630CB2218C4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "6A79A1EB3DCD961E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D3CF962C327AA5E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:blue_bed"
+				id: "4A6D8251B51BF668"
+				stat: "minecraft:sleep_in_bed"
+				type: "stat"
+				value: 250
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "3A261121B8F723FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22139E4E74888582"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:furnace"
+				id: "1FF7338231EE92A5"
+				stat: "minecraft:interact_with_furnace"
+				type: "stat"
+				value: 5000
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "67D741A143CBBC3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04C1F342DCA6631B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "inventorypets:pet_pig"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "199D4F0FB31402BF"
+				stat: "minecraft:pig_one_cm"
+				type: "stat"
+				value: 5000
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "29AD6D4197DEBA8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FA1F8A51721F083"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:cake"
+				id: "39761E765A6949F7"
+				stat: "minecraft:eat_cake_slice"
+				type: "stat"
+				value: 500
+			}]
+			title: "Eat 500 Cake Slices"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "4335995C5DBC4BBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C570FD0AA9902A9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "068A4AFED07E62BF"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "1D8A5A0BA76BD4FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EFD8EA636047059"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "alexsmobs:bone_serpent"
+				icon: "alexsmobs:spawn_egg_bone_serpent"
+				id: "294CDC9492DFDCFB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "30CF22972952D660"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CB0E03F1C00B1AC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "thermal:basalz_spawn_egg"
+				id: "5A4468C10EA855FE"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "6C72FD9C4FFB840C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E89EED1C6AB90C8"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "unusualend:dragling_spawn_egg"
+				id: "32B093BDD1D6669D"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "mutantmonsters:mutant_creeper_spawn_egg"
+			id: "01790CCE71C5EC88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A4DF34F7A9E345"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "160A8E4F4B989E8F"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "3770520E8219F138"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DBA4E7EB7B8DD76"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				id: "36FCBC85EBECF26A"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "024376745ACED4A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A68512F0D2E52C9"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "5D053FF167C02AFC"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "4C20EF59956B0410"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285E3A7ACCB25F22"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "mutantmonsters:mutant_snow_golem"
+				icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
+				id: "7F9704D9679017A8"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "455DE22FB92CFF37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "308F4BCD055F648E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "707E7DA58FB7FB36"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.5d
 			y: 1.5d
 		}
 	]
