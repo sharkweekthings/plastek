@@ -9,7 +9,10 @@
 
 4) Diamonds, and Emeralds can spawn high up in the mountains of the Overworld. However, this occurs rarely. You are more likely to find Diamonds than you are Emeralds. Emeralds main spawn is the Moon.
 
-5) If you're experiencing issues with your session invalidating, install the mod [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth). This will let you authorize your client at the Server Selection screen, so you hopefully won't need to reload the game.
+5) To get Rich Soil Farmland into a Botany Pot, put the Rich Soil in the Botany Pot and then till the pot. (Thanks Calvin_54)
+
+6) If you're experiencing issues with your session invalidating, install the mod [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth). This will let you authorize your client at the Server Selection screen, so you hopefully won't need to reload the game.
+
 
 ##
 ## Difficulty Adjustment
