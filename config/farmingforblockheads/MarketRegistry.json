@@ -1,4 +1,24 @@
 {
+"groupOverrides": {
+    "Vanilla Seeds": {
+      "enabled": false
+    },
+    "Vanilla Saplings": {
+      "enabled": false
+    },
+     "Bone Meal": {
+      "enabled": false
+    },
+     "Farmers Delight Seeds": {
+      "enabled": false
+    },
+    "Pam's HarvestCraft 2 Crops Seeds": {
+      "enabled": false
+    },
+    "Pam's HarvestCraft 2 Trees Saplings": {
+      "enabled": false
+    }
+  },
   "customCategories": {
     "saplings": {
       "name": "Saplings",
