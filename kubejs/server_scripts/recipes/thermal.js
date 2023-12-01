@@ -386,6 +386,34 @@ ServerEvents.recipes(event => {
   "energy": 12000
 }).id('mythicbotany:thermal_smelter_alfsteel_ingot')
 
+// Andesite Alloy
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite",
+      "count": 1
+    },
+    {
+      "item": "emendatusenigmatica:zinc_dust",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "create:andesite_alloy",
+      "chance": 0.8,
+      "count": 2
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 0.2,
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}).id('create:andesite_alloy_induction_smelter')
+
 // Terrasteel Ingot
   event.custom({
   "type": "thermal:smelter",
