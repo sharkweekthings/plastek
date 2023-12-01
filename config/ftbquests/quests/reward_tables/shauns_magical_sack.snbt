@@ -582,257 +582,257 @@
 		{ item: "simplylight:illuminant_slab" }
 		{ item: "simplylight:illuminant_light_blue_block" }
 		{ item: "simplylight:illuminant_blue_block" }
-		{item:"handcrafted:oak_couch"}
-		{item:"handcrafted:orange_sheet"}
-		{item:"handcrafted:jungle_fancy_bed"}
-		{item:"handcrafted:warped_nightstand"}
-		{item:"handcrafted:oak_pillar_trim"}
-		{item:"handcrafted:phantom_trophy"}
-		{item:"handcrafted:mangrove_pillar_trim"}
-		{item:"handcrafted:warped_counter"}
-		{item:"handcrafted:white_glazed_thin_pot"}
-		{item:"handcrafted:oak_table"}
-		{item:"handcrafted:blaze_trophy"}
-		{item:"handcrafted:crimson_pillar_trim"}
-		{item:"handcrafted:green_cushion"}
-		{item:"handcrafted:acacia_chair"}
-		{item:"handcrafted:green_sheet"}
-		{item:"handcrafted:dark_oak_dining_bench"}
-		{item:"handcrafted:white_sheet"}
-		{item:"handcrafted:mangrove_table"}
-		{item:"handcrafted:dripstone_corner_trim"}
-		{item:"handcrafted:birch_pillar_trim"}
-		{item:"handcrafted:dark_oak_desk"}
-		{item:"handcrafted:evoker_trophy"}
-		{item:"handcrafted:jungle_nightstand"}
-		{item:"handcrafted:purple_cushion"}
-		{item:"handcrafted:mangrove_couch"}
-		{item:"handcrafted:creeper_trophy"}
-		{item:"handcrafted:mangrove_nightstand"}
-		{item:"handcrafted:red_sheet"}
-		{item:"handcrafted:acacia_pillar_trim"}
-		{item:"handcrafted:magenta_sheet"}
-		{item:"handcrafted:warped_board"}
-		{item:"handcrafted:crimson_dining_bench"}
-		{item:"handcrafted:hammer"}
-		{item:"handcrafted:acacia_dining_bench"}
-		{item:"handcrafted:fancy_painting"}
-		{item:"handcrafted:blackstone_pillar_trim"}
-		{item:"handcrafted:oak_bench"}
-		{item:"handcrafted:jungle_desk"}
-		{item:"handcrafted:bricks_corner_trim"}
-		{item:"handcrafted:warped_chair"}
-		{item:"handcrafted:terracotta_cup"}
-		{item:"handcrafted:terracotta_plate"}
-		{item:"handcrafted:crimson_board"}
-		{item:"handcrafted:blue_cup"}
-		{item:"handcrafted:spruce_table"}
-		{item:"handcrafted:terracotta_thin_pot"}
-		{item:"handcrafted:stone_pillar_trim"}
-		{item:"handcrafted:birch_nightstand"}
-		{item:"handcrafted:acacia_fancy_bed"}
-		{item:"handcrafted:quartz_pillar_trim"}
-		{item:"handcrafted:yellow_crockery_combo"}
-		{item:"handcrafted:dark_oak_board"}
-		{item:"handcrafted:mangrove_desk"}
-		{item:"handcrafted:mangrove_bench"}
-		{item:"handcrafted:skeleton_horse_trophy"}
-		{item:"handcrafted:spruce_couch"}
-		{item:"handcrafted:diorite_pillar_trim"}
-		{item:"handcrafted:jungle_board"}
-		{item:"handcrafted:tropical_fish_trophy"}
-		{item:"handcrafted:crimson_chair"}
-		{item:"handcrafted:spruce_fancy_bed"}
-		{item:"handcrafted:birch_corner_trim"}
-		{item:"handcrafted:spider_trophy"}
-		{item:"handcrafted:birch_desk"}
-		{item:"handcrafted:oven"}
-		{item:"handcrafted:birch_counter"}
-		{item:"handcrafted:warped_shelf"}
-		{item:"handcrafted:golden_wide_pot"}
-		{item:"handcrafted:jungle_shelf"}
-		{item:"handcrafted:jungle_corner_trim"}
-		{item:"handcrafted:mangrove_corner_trim"}
-		{item:"handcrafted:bench"}
-		{item:"handcrafted:andesite_corner_trim"}
-		{item:"handcrafted:dripstone_pillar_trim"}
-		{item:"handcrafted:fox_trophy"}
-		{item:"handcrafted:white_cushion"}
-		{item:"handcrafted:magenta_cushion"}
-		{item:"handcrafted:crimson_shelf"}
-		{item:"handcrafted:birch_bench"}
-		{item:"handcrafted:spruce_bench"}
-		{item:"handcrafted:vindicator_trophy"}
-		{item:"handcrafted:spruce_nightstand"}
-		{item:"handcrafted:bricks_pillar_trim"}
-		{item:"handcrafted:dark_oak_cupboard"}
-		{item:"handcrafted:acacia_table"}
-		{item:"handcrafted:blue_cushion"}
-		{item:"handcrafted:red_cushion"}
-		{item:"handcrafted:jungle_chair"}
-		{item:"handcrafted:andesite_pillar_trim"}
-		{item:"handcrafted:kitchen_hood_pipe"}
-		{item:"handcrafted:kitchen_hood"}
-		{item:"handcrafted:yellow_plate"}
-		{item:"handcrafted:salmon_trophy"}
-		{item:"handcrafted:light_blue_sheet"}
-		{item:"handcrafted:blue_crockery_combo"}
-		{item:"handcrafted:brown_cushion"}
-		{item:"handcrafted:warped_couch"}
-		{item:"handcrafted:crimson_side_table"}
-		{item:"handcrafted:crimson_corner_trim"}
-		{item:"handcrafted:acacia_nightstand"}
-		{item:"handcrafted:birch_fancy_bed"}
-		{item:"handcrafted:wolf_trophy"}
-		{item:"handcrafted:spruce_counter"}
-		{item:"handcrafted:crimson_nightstand"}
-		{item:"handcrafted:birch_cupboard"}
-		{item:"handcrafted:goat_trophy"}
-		{item:"handcrafted:acacia_side_table"}
-		{item:"handcrafted:warped_desk"}
-		{item:"handcrafted:pillager_trophy"}
-		{item:"handcrafted:acacia_board"}
-		{item:"handcrafted:oak_nightstand"}
-		{item:"handcrafted:spruce_pillar_trim"}
-		{item:"handcrafted:white_cup"}
-		{item:"handcrafted:oak_corner_trim"}
-		{item:"handcrafted:terracotta_medium_pot"}
-		{item:"handcrafted:black_sheet"}
-		{item:"handcrafted:wood_crockery_combo"}
-		{item:"handcrafted:mangrove_side_table"}
-		{item:"handcrafted:gray_cushion"}
-		{item:"handcrafted:birch_side_table"}
-		{item:"handcrafted:blue_glazed_wide_pot"}
-		{item:"handcrafted:crimson_cupboard"}
-		{item:"handcrafted:terracotta_thick_pot"}
-		{item:"handcrafted:crimson_table"}
-		{item:"handcrafted:warped_cupboard"}
-		{item:"handcrafted:jungle_bench"}
-		{item:"handcrafted:jungle_pillar_trim"}
-		{item:"handcrafted:black_cushion"}
-		{item:"handcrafted:calcite_corner_trim"}
-		{item:"handcrafted:crimson_fancy_bed"}
-		{item:"handcrafted:pink_cushion"}
-		{item:"handcrafted:white_glazed_medium_pot"}
-		{item:"handcrafted:acacia_bench"}
-		{item:"handcrafted:silverfish_trophy"}
-		{item:"handcrafted:gray_sheet"}
-		{item:"handcrafted:warped_side_table"}
-		{item:"handcrafted:oak_board"}
-		{item:"handcrafted:oak_desk"}
-		{item:"handcrafted:dark_oak_table"}
-		{item:"handcrafted:lime_sheet"}
-		{item:"handcrafted:warped_bench"}
-		{item:"handcrafted:oak_side_table"}
-		{item:"handcrafted:white_plate"}
-		{item:"handcrafted:oak_counter"}
-		{item:"handcrafted:light_blue_cushion"}
-		{item:"handcrafted:crimson_couch"}
-		{item:"handcrafted:pink_sheet"}
-		{item:"handcrafted:granite_pillar_trim"}
-		{item:"handcrafted:wither_skeleton_trophy"}
-		{item:"handcrafted:mangrove_cupboard"}
-		{item:"handcrafted:acacia_cupboard"}
-		{item:"handcrafted:birch_table"}
-		{item:"handcrafted:white_bowl"}
-		{item:"handcrafted:crimson_desk"}
-		{item:"handcrafted:crimson_bench"}
-		{item:"handcrafted:dark_oak_pillar_trim"}
-		{item:"handcrafted:cyan_sheet"}
-		{item:"handcrafted:yellow_bowl"}
-		{item:"handcrafted:jungle_couch"}
-		{item:"handcrafted:terracotta_wide_pot"}
-		{item:"handcrafted:mangrove_board"}
-		{item:"handcrafted:golden_thin_pot"}
-		{item:"handcrafted:warped_pillar_trim"}
-		{item:"handcrafted:dark_oak_bench"}
-		{item:"handcrafted:orange_cushion"}
-		{item:"handcrafted:acacia_shelf"}
-		{item:"handcrafted:acacia_counter"}
-		{item:"handcrafted:light_gray_cushion"}
-		{item:"handcrafted:yellow_cushion"}
-		{item:"handcrafted:birch_dining_bench"}
-		{item:"handcrafted:jungle_dining_bench"}
-		{item:"handcrafted:white_crockery_combo"}
-		{item:"handcrafted:blue_plate"}
-		{item:"handcrafted:oak_dining_bench"}
-		{item:"handcrafted:oak_fancy_bed"}
-		{item:"handcrafted:birch_couch"}
-		{item:"handcrafted:dark_oak_couch"}
-		{item:"handcrafted:lime_cushion"}
-		{item:"handcrafted:deepslate_pillar_trim"}
-		{item:"handcrafted:spruce_corner_trim"}
-		{item:"handcrafted:wood_cup"}
-		{item:"handcrafted:spruce_side_table"}
-		{item:"handcrafted:mangrove_chair"}
-		{item:"handcrafted:frozen_bench"}
-		{item:"handcrafted:skeleton_trophy"}
-		{item:"handcrafted:white_glazed_thick_pot"}
-		{item:"handcrafted:spruce_board"}
-		{item:"handcrafted:dark_oak_shelf"}
-		{item:"handcrafted:acacia_desk"}
-		{item:"handcrafted:spruce_dining_bench"}
-		{item:"handcrafted:bear_trophy"}
-		{item:"handcrafted:birch_board"}
-		{item:"handcrafted:dark_oak_fancy_bed"}
-		{item:"handcrafted:dark_oak_chair"}
-		{item:"handcrafted:yellow_cup"}
-		{item:"handcrafted:stackable_book"}
-		{item:"handcrafted:granite_corner_trim"}
-		{item:"handcrafted:light_gray_sheet"}
-		{item:"handcrafted:warped_fancy_bed"}
-		{item:"handcrafted:jungle_counter"}
-		{item:"handcrafted:blue_glazed_thick_pot"}
-		{item:"handcrafted:blue_glazed_thin_pot"}
-		{item:"handcrafted:wood_plate"}
-		{item:"handcrafted:spruce_desk"}
-		{item:"handcrafted:acacia_corner_trim"}
-		{item:"handcrafted:dark_oak_nightstand"}
-		{item:"handcrafted:yellow_sheet"}
-		{item:"handcrafted:spruce_cupboard"}
-		{item:"handcrafted:mangrove_shelf"}
-		{item:"handcrafted:blue_sheet"}
-		{item:"handcrafted:berry_jam_jar"}
-		{item:"handcrafted:jungle_table"}
-		{item:"handcrafted:birch_chair"}
-		{item:"handcrafted:golden_medium_pot"}
-		{item:"handcrafted:terracotta_bowl"}
-		{item:"handcrafted:stone_corner_trim"}
-		{item:"handcrafted:warped_table"}
-		{item:"handcrafted:oak_cupboard"}
-		{item:"handcrafted:blue_glazed_medium_pot"}
-		{item:"handcrafted:spruce_chair"}
-		{item:"handcrafted:pufferfish_trophy"}
-		{item:"handcrafted:mangrove_counter"}
-		{item:"handcrafted:mangrove_fancy_bed"}
-		{item:"handcrafted:warped_dining_bench"}
-		{item:"handcrafted:brown_sheet"}
-		{item:"handcrafted:mangrove_dining_bench"}
-		{item:"handcrafted:dark_oak_corner_trim"}
-		{item:"handcrafted:golden_thick_pot"}
-		{item:"handcrafted:blue_bowl"}
-		{item:"handcrafted:cyan_cushion"}
-		{item:"handcrafted:wood_bowl"}
-		{item:"handcrafted:purple_sheet"}
-		{item:"handcrafted:white_glazed_wide_pot"}
-		{item:"handcrafted:witch_trophy"}
-		{item:"handcrafted:calcite_pillar_trim"}
-		{item:"handcrafted:warped_corner_trim"}
-		{item:"handcrafted:jungle_cupboard"}
-		{item:"handcrafted:dark_oak_counter"}
-		{item:"handcrafted:blackstone_corner_trim"}
-		{item:"handcrafted:spruce_shelf"}
-		{item:"handcrafted:birch_shelf"}
-		{item:"handcrafted:terracotta_crockery_combo"}
-		{item:"handcrafted:dark_oak_side_table"}
-		{item:"handcrafted:acacia_couch"}
-		{item:"handcrafted:crimson_counter"}
-		{item:"handcrafted:oak_chair"}
-		{item:"handcrafted:jungle_side_table"}
-		{item:"handcrafted:diorite_corner_trim"}
-		{item:"handcrafted:oak_shelf"}
-		{item:"handcrafted:quartz_corner_trim"}
-		{item:"handcrafted:deepslate_corner_trim"}
+		{ item: "handcrafted:oak_couch" }
+		{ item: "handcrafted:orange_sheet" }
+		{ item: "handcrafted:jungle_fancy_bed" }
+		{ item: "handcrafted:warped_nightstand" }
+		{ item: "handcrafted:oak_pillar_trim" }
+		{ item: "handcrafted:phantom_trophy" }
+		{ item: "handcrafted:mangrove_pillar_trim" }
+		{ item: "handcrafted:warped_counter" }
+		{ item: "handcrafted:white_glazed_thin_pot" }
+		{ item: "handcrafted:oak_table" }
+		{ item: "handcrafted:blaze_trophy" }
+		{ item: "handcrafted:crimson_pillar_trim" }
+		{ item: "handcrafted:green_cushion" }
+		{ item: "handcrafted:acacia_chair" }
+		{ item: "handcrafted:green_sheet" }
+		{ item: "handcrafted:dark_oak_dining_bench" }
+		{ item: "handcrafted:white_sheet" }
+		{ item: "handcrafted:mangrove_table" }
+		{ item: "handcrafted:dripstone_corner_trim" }
+		{ item: "handcrafted:birch_pillar_trim" }
+		{ item: "handcrafted:dark_oak_desk" }
+		{ item: "handcrafted:evoker_trophy" }
+		{ item: "handcrafted:jungle_nightstand" }
+		{ item: "handcrafted:purple_cushion" }
+		{ item: "handcrafted:mangrove_couch" }
+		{ item: "handcrafted:creeper_trophy" }
+		{ item: "handcrafted:mangrove_nightstand" }
+		{ item: "handcrafted:red_sheet" }
+		{ item: "handcrafted:acacia_pillar_trim" }
+		{ item: "handcrafted:magenta_sheet" }
+		{ item: "handcrafted:warped_board" }
+		{ item: "handcrafted:crimson_dining_bench" }
+		{ item: "handcrafted:hammer" }
+		{ item: "handcrafted:acacia_dining_bench" }
+		{ item: "handcrafted:fancy_painting" }
+		{ item: "handcrafted:blackstone_pillar_trim" }
+		{ item: "handcrafted:oak_bench" }
+		{ item: "handcrafted:jungle_desk" }
+		{ item: "handcrafted:bricks_corner_trim" }
+		{ item: "handcrafted:warped_chair" }
+		{ item: "handcrafted:terracotta_cup" }
+		{ item: "handcrafted:terracotta_plate" }
+		{ item: "handcrafted:crimson_board" }
+		{ item: "handcrafted:blue_cup" }
+		{ item: "handcrafted:spruce_table" }
+		{ item: "handcrafted:terracotta_thin_pot" }
+		{ item: "handcrafted:stone_pillar_trim" }
+		{ item: "handcrafted:birch_nightstand" }
+		{ item: "handcrafted:acacia_fancy_bed" }
+		{ item: "handcrafted:quartz_pillar_trim" }
+		{ item: "handcrafted:yellow_crockery_combo" }
+		{ item: "handcrafted:dark_oak_board" }
+		{ item: "handcrafted:mangrove_desk" }
+		{ item: "handcrafted:mangrove_bench" }
+		{ item: "handcrafted:skeleton_horse_trophy" }
+		{ item: "handcrafted:spruce_couch" }
+		{ item: "handcrafted:diorite_pillar_trim" }
+		{ item: "handcrafted:jungle_board" }
+		{ item: "handcrafted:tropical_fish_trophy" }
+		{ item: "handcrafted:crimson_chair" }
+		{ item: "handcrafted:spruce_fancy_bed" }
+		{ item: "handcrafted:birch_corner_trim" }
+		{ item: "handcrafted:spider_trophy" }
+		{ item: "handcrafted:birch_desk" }
+		{ item: "handcrafted:oven" }
+		{ item: "handcrafted:birch_counter" }
+		{ item: "handcrafted:warped_shelf" }
+		{ item: "handcrafted:golden_wide_pot" }
+		{ item: "handcrafted:jungle_shelf" }
+		{ item: "handcrafted:jungle_corner_trim" }
+		{ item: "handcrafted:mangrove_corner_trim" }
+		{ item: "handcrafted:bench" }
+		{ item: "handcrafted:andesite_corner_trim" }
+		{ item: "handcrafted:dripstone_pillar_trim" }
+		{ item: "handcrafted:fox_trophy" }
+		{ item: "handcrafted:white_cushion" }
+		{ item: "handcrafted:magenta_cushion" }
+		{ item: "handcrafted:crimson_shelf" }
+		{ item: "handcrafted:birch_bench" }
+		{ item: "handcrafted:spruce_bench" }
+		{ item: "handcrafted:vindicator_trophy" }
+		{ item: "handcrafted:spruce_nightstand" }
+		{ item: "handcrafted:bricks_pillar_trim" }
+		{ item: "handcrafted:dark_oak_cupboard" }
+		{ item: "handcrafted:acacia_table" }
+		{ item: "handcrafted:blue_cushion" }
+		{ item: "handcrafted:red_cushion" }
+		{ item: "handcrafted:jungle_chair" }
+		{ item: "handcrafted:andesite_pillar_trim" }
+		{ item: "handcrafted:kitchen_hood_pipe" }
+		{ item: "handcrafted:kitchen_hood" }
+		{ item: "handcrafted:yellow_plate" }
+		{ item: "handcrafted:salmon_trophy" }
+		{ item: "handcrafted:light_blue_sheet" }
+		{ item: "handcrafted:blue_crockery_combo" }
+		{ item: "handcrafted:brown_cushion" }
+		{ item: "handcrafted:warped_couch" }
+		{ item: "handcrafted:crimson_side_table" }
+		{ item: "handcrafted:crimson_corner_trim" }
+		{ item: "handcrafted:acacia_nightstand" }
+		{ item: "handcrafted:birch_fancy_bed" }
+		{ item: "handcrafted:wolf_trophy" }
+		{ item: "handcrafted:spruce_counter" }
+		{ item: "handcrafted:crimson_nightstand" }
+		{ item: "handcrafted:birch_cupboard" }
+		{ item: "handcrafted:goat_trophy" }
+		{ item: "handcrafted:acacia_side_table" }
+		{ item: "handcrafted:warped_desk" }
+		{ item: "handcrafted:pillager_trophy" }
+		{ item: "handcrafted:acacia_board" }
+		{ item: "handcrafted:oak_nightstand" }
+		{ item: "handcrafted:spruce_pillar_trim" }
+		{ item: "handcrafted:white_cup" }
+		{ item: "handcrafted:oak_corner_trim" }
+		{ item: "handcrafted:terracotta_medium_pot" }
+		{ item: "handcrafted:black_sheet" }
+		{ item: "handcrafted:wood_crockery_combo" }
+		{ item: "handcrafted:mangrove_side_table" }
+		{ item: "handcrafted:gray_cushion" }
+		{ item: "handcrafted:birch_side_table" }
+		{ item: "handcrafted:blue_glazed_wide_pot" }
+		{ item: "handcrafted:crimson_cupboard" }
+		{ item: "handcrafted:terracotta_thick_pot" }
+		{ item: "handcrafted:crimson_table" }
+		{ item: "handcrafted:warped_cupboard" }
+		{ item: "handcrafted:jungle_bench" }
+		{ item: "handcrafted:jungle_pillar_trim" }
+		{ item: "handcrafted:black_cushion" }
+		{ item: "handcrafted:calcite_corner_trim" }
+		{ item: "handcrafted:crimson_fancy_bed" }
+		{ item: "handcrafted:pink_cushion" }
+		{ item: "handcrafted:white_glazed_medium_pot" }
+		{ item: "handcrafted:acacia_bench" }
+		{ item: "handcrafted:silverfish_trophy" }
+		{ item: "handcrafted:gray_sheet" }
+		{ item: "handcrafted:warped_side_table" }
+		{ item: "handcrafted:oak_board" }
+		{ item: "handcrafted:oak_desk" }
+		{ item: "handcrafted:dark_oak_table" }
+		{ item: "handcrafted:lime_sheet" }
+		{ item: "handcrafted:warped_bench" }
+		{ item: "handcrafted:oak_side_table" }
+		{ item: "handcrafted:white_plate" }
+		{ item: "handcrafted:oak_counter" }
+		{ item: "handcrafted:light_blue_cushion" }
+		{ item: "handcrafted:crimson_couch" }
+		{ item: "handcrafted:pink_sheet" }
+		{ item: "handcrafted:granite_pillar_trim" }
+		{ item: "handcrafted:wither_skeleton_trophy" }
+		{ item: "handcrafted:mangrove_cupboard" }
+		{ item: "handcrafted:acacia_cupboard" }
+		{ item: "handcrafted:birch_table" }
+		{ item: "handcrafted:white_bowl" }
+		{ item: "handcrafted:crimson_desk" }
+		{ item: "handcrafted:crimson_bench" }
+		{ item: "handcrafted:dark_oak_pillar_trim" }
+		{ item: "handcrafted:cyan_sheet" }
+		{ item: "handcrafted:yellow_bowl" }
+		{ item: "handcrafted:jungle_couch" }
+		{ item: "handcrafted:terracotta_wide_pot" }
+		{ item: "handcrafted:mangrove_board" }
+		{ item: "handcrafted:golden_thin_pot" }
+		{ item: "handcrafted:warped_pillar_trim" }
+		{ item: "handcrafted:dark_oak_bench" }
+		{ item: "handcrafted:orange_cushion" }
+		{ item: "handcrafted:acacia_shelf" }
+		{ item: "handcrafted:acacia_counter" }
+		{ item: "handcrafted:light_gray_cushion" }
+		{ item: "handcrafted:yellow_cushion" }
+		{ item: "handcrafted:birch_dining_bench" }
+		{ item: "handcrafted:jungle_dining_bench" }
+		{ item: "handcrafted:white_crockery_combo" }
+		{ item: "handcrafted:blue_plate" }
+		{ item: "handcrafted:oak_dining_bench" }
+		{ item: "handcrafted:oak_fancy_bed" }
+		{ item: "handcrafted:birch_couch" }
+		{ item: "handcrafted:dark_oak_couch" }
+		{ item: "handcrafted:lime_cushion" }
+		{ item: "handcrafted:deepslate_pillar_trim" }
+		{ item: "handcrafted:spruce_corner_trim" }
+		{ item: "handcrafted:wood_cup" }
+		{ item: "handcrafted:spruce_side_table" }
+		{ item: "handcrafted:mangrove_chair" }
+		{ item: "handcrafted:frozen_bench" }
+		{ item: "handcrafted:skeleton_trophy" }
+		{ item: "handcrafted:white_glazed_thick_pot" }
+		{ item: "handcrafted:spruce_board" }
+		{ item: "handcrafted:dark_oak_shelf" }
+		{ item: "handcrafted:acacia_desk" }
+		{ item: "handcrafted:spruce_dining_bench" }
+		{ item: "handcrafted:bear_trophy" }
+		{ item: "handcrafted:birch_board" }
+		{ item: "handcrafted:dark_oak_fancy_bed" }
+		{ item: "handcrafted:dark_oak_chair" }
+		{ item: "handcrafted:yellow_cup" }
+		{ item: "handcrafted:stackable_book" }
+		{ item: "handcrafted:granite_corner_trim" }
+		{ item: "handcrafted:light_gray_sheet" }
+		{ item: "handcrafted:warped_fancy_bed" }
+		{ item: "handcrafted:jungle_counter" }
+		{ item: "handcrafted:blue_glazed_thick_pot" }
+		{ item: "handcrafted:blue_glazed_thin_pot" }
+		{ item: "handcrafted:wood_plate" }
+		{ item: "handcrafted:spruce_desk" }
+		{ item: "handcrafted:acacia_corner_trim" }
+		{ item: "handcrafted:dark_oak_nightstand" }
+		{ item: "handcrafted:yellow_sheet" }
+		{ item: "handcrafted:spruce_cupboard" }
+		{ item: "handcrafted:mangrove_shelf" }
+		{ item: "handcrafted:blue_sheet" }
+		{ item: "handcrafted:berry_jam_jar" }
+		{ item: "handcrafted:jungle_table" }
+		{ item: "handcrafted:birch_chair" }
+		{ item: "handcrafted:golden_medium_pot" }
+		{ item: "handcrafted:terracotta_bowl" }
+		{ item: "handcrafted:stone_corner_trim" }
+		{ item: "handcrafted:warped_table" }
+		{ item: "handcrafted:oak_cupboard" }
+		{ item: "handcrafted:blue_glazed_medium_pot" }
+		{ item: "handcrafted:spruce_chair" }
+		{ item: "handcrafted:pufferfish_trophy" }
+		{ item: "handcrafted:mangrove_counter" }
+		{ item: "handcrafted:mangrove_fancy_bed" }
+		{ item: "handcrafted:warped_dining_bench" }
+		{ item: "handcrafted:brown_sheet" }
+		{ item: "handcrafted:mangrove_dining_bench" }
+		{ item: "handcrafted:dark_oak_corner_trim" }
+		{ item: "handcrafted:golden_thick_pot" }
+		{ item: "handcrafted:blue_bowl" }
+		{ item: "handcrafted:cyan_cushion" }
+		{ item: "handcrafted:wood_bowl" }
+		{ item: "handcrafted:purple_sheet" }
+		{ item: "handcrafted:white_glazed_wide_pot" }
+		{ item: "handcrafted:witch_trophy" }
+		{ item: "handcrafted:calcite_pillar_trim" }
+		{ item: "handcrafted:warped_corner_trim" }
+		{ item: "handcrafted:jungle_cupboard" }
+		{ item: "handcrafted:dark_oak_counter" }
+		{ item: "handcrafted:blackstone_corner_trim" }
+		{ item: "handcrafted:spruce_shelf" }
+		{ item: "handcrafted:birch_shelf" }
+		{ item: "handcrafted:terracotta_crockery_combo" }
+		{ item: "handcrafted:dark_oak_side_table" }
+		{ item: "handcrafted:acacia_couch" }
+		{ item: "handcrafted:crimson_counter" }
+		{ item: "handcrafted:oak_chair" }
+		{ item: "handcrafted:jungle_side_table" }
+		{ item: "handcrafted:diorite_corner_trim" }
+		{ item: "handcrafted:oak_shelf" }
+		{ item: "handcrafted:quartz_corner_trim" }
+		{ item: "handcrafted:deepslate_corner_trim" }
 	]
 	title: "Shaun's Magical Sack"
 	use_title: true
