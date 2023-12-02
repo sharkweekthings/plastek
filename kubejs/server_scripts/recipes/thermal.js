@@ -198,6 +198,19 @@ ServerEvents.recipes(event => {
   2: 'thermal:lead_plate',
 	3: 'thermal:hazmat_fabric'}).id('thermal:hazmat_boots')
 
+// Arc Metal Crystal
+  event.custom({
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {"fluid": "thermal:glowstone",
+      "amount": 500},
+    {"item": "thermal:rosin"},
+    {"item": "silentgear:azure_electrum_dust"}],
+  "result": [
+    {"item": "emendatusenigmatica:arcmetal_crystal"}
+  ]
+}).id('ae2:thermal_crystallizer_arcmetal_crystal')
+
 // Certus Quartz Crystal
   event.custom({
   "type": "thermal:crystallizer",
