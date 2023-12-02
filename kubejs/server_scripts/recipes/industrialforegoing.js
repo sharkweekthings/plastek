@@ -34,6 +34,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:furnace_796507198'})
   event.remove({id: 'industrialforegoing:plastic'})
   event.remove({id: 'industrialforegoing:mob_imprisonment_tool'})
+  event.remove({id: 'industrialforegoing:iron_gear'})
+  event.remove({id: 'industrialforegoing:gold_gear'})
+  event.remove({id: 'industrialforegoing:diamond_gear'})
 
 //
 })
