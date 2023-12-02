@@ -1105,6 +1105,38 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     5: 'deeperdarker:sculk_tendrils',
     6: 'deeperdarker:sculk_vines'}).id('deeperdarker:warden_sword')
 
+// Feed Bag
+  event.shaped('inventorypets:feed_bag',
+    ['423','615','272'], {
+    1: 'supplementaries:sack',
+    2: 'inventorypets:nugget_diamond',
+    3: 'inventorypets:nugget_obsidian',
+    4: 'inventorypets:nugget_coal',
+    5: 'inventorypets:nugget_lapis',
+    6: 'inventorypets:nugget_ender',
+    7: 'inventorypets:nugget_emerald'}).id('inventorypets:feed_bag')
+
+// Meta Pet
+  event.custom({
+  "result": {
+    "item": "inventorypets:pet_meta"
+  },
+  "pattern": [
+    "DDD",
+    "DFD",
+    "DDD"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "inventorypets:all_pets"
+    },
+    "F": {
+      "item": "minecraft:emerald_block"
+    }
+  }
+}).id('inventorypets:meta_pet')
+
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')
 
@@ -1161,6 +1193,9 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Replace Flower Pot w/ Botany Pot
 event.replaceInput({}, 'minecraft:flower_pot', 'botanypots:terracotta_botany_pot')   
+
+// Coal Nug to Coal
+  event.shapeless(Item.of('minecraft:coal'), ['inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal']).id('inventorypets:nugget_to_coal')
 
 //    
 })

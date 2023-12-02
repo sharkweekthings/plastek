@@ -614,6 +614,91 @@ event.custom({
   ]
 }).id('inventorypets:nuggets/diamond')
 
+// Obsidian Nugget
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "processingTime": 20000,
+  "results": [
+    {
+      "count": 5,
+      "item": "inventorypets:nugget_obsidian"
+    }
+  ]
+}).id('inventorypets:nuggets/obsidian')
+
+// Coal Nugget
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "processingTime": 10000,
+  "results": [
+    {
+      "count": 9,
+      "item": "inventorypets:nugget_coal"
+    }
+  ]
+}).id('inventorypets:nuggets/coal')
+
+// Lapis Nugget
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "processingTime": 10000,
+  "results": [
+    {
+      "count": 9,
+      "item": "inventorypets:nugget_lapis"
+    }
+  ]
+}).id('inventorypets:nuggets/lapis_lazuli')
+
+// Ender Nugget
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "processingTime": 10000,
+  "results": [
+    {
+      "count": 9,
+      "item": "inventorypets:nugget_ender"
+    }
+  ]
+}).id('inventorypets:nuggets/ender')
+
+// Emerald Nugget
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "processingTime": 10000,
+  "results": [
+    {
+      "count": 9,
+      "item": "inventorypets:nugget_emerald"
+    }
+  ]
+}).id('inventorypets:nuggets/emerald')
+
 // Apatite Dust
   event.custom({
   "type": "create:milling",
