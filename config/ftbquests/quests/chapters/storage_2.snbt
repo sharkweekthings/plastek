@@ -356,10 +356,6 @@
 					item: "storagenetwork:request"
 					type: "item"
 				}
-				{
-					id: "52E6BB5534EBCF8F"
-					type: "custom"
-				}
 			]
 			x: 0.5d
 			y: 0.5d
