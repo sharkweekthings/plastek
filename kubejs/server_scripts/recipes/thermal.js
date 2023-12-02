@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
   "ingredients": [
     {"fluid": "thermal:glowstone",
       "amount": 500},
-    {"item": "thermal:rosin"},
+    {"item": "emendatusenigmatica:diamond_dust"},
     {"item": "silentgear:azure_electrum_dust"}],
   "result": [
     {"item": "emendatusenigmatica:arcmetal_crystal"}
