@@ -137,6 +137,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'totemic:medicine_bag'})
   event.remove({id: 'hostilenetworks:empty_prediction'})
   event.remove({id: 'powah:crafting/cable_starter'})
+  event.remove({id: 'powah:crafting/cable_basic_2'})
   event.remove({id: 'powah:crafting/energizing_rod_starter'})
   event.remove({id: 'powah:crafting/energizing_orb'})
   event.remove({id: 'powah:crafting/player_tranmitter_starter'})
@@ -1094,6 +1095,13 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'endermanoverhaul:enderman_tooth',
     2: 'alexsmobs:shield_of_the_deep',
     3: 'mekanism:hdpe_sheet'}).id('endermanoverhaul:corrupted_shield')
+
+// Ender Gate Basic
+  event.shaped('powah:ender_gate_basic',
+    ['121','232','121'], {
+    1: 'minecraft:obsidian',
+    2: 'powah:ender_gate_starter',
+    3: 'powah:ender_core'}).id('powah:crafting/ender_gate_basic')
 
 // Warden Sword
   event.shaped('deeperdarker:warden_sword',
