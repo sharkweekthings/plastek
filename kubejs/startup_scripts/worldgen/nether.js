@@ -111,14 +111,14 @@
     event.addOre(ore => {
       ore.id = 'kubejs:soulium_ore_gen_nth'
       ore.biomes = '#kubejs:nether_gen'
-      ore.addTarget('minecraft:soul_sand', 'mysticalagriculture:soulium_ore') 
+      ore.addTarget('minecraft:netherrack', 'mysticalagriculture:soulium_ore') 
       ore.count([15, 50])
         .squared()
         .triangleHeight(
           anchors.absolute(4),
           anchors.absolute(184)
         )
-      ore.size = 6
+      ore.size = 3
     })
 
 // BOT
