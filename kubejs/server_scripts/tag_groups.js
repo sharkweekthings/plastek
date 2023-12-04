@@ -2154,7 +2154,8 @@ event.add('forge:concrete',
 
 event.add('thermal:crafting/dies', 
   [
-  'thermal:chiller_rod_cast'
+  'thermal:chiller_rod_cast',
+  'immersiveengineering:mold_wire'
   ])
 
 // event.add('silentgear:saw', '#natprog:saw')

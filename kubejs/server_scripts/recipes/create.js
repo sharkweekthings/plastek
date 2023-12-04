@@ -778,7 +778,7 @@ event.custom({
     {"tag": "minecraft:planks"},
     {
       "amount": 250,
-      "fluid": "immersiveengineering:creosote",
+      "tag": "forge:creosote",
       "nbt": {}
     }
   ],
