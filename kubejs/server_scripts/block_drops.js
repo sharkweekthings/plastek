@@ -205,13 +205,11 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('thermal:deepslate_silver_ore', 'emendatusenigmatica:silver_crystal', {min:3,max:6})
 
 // Nether
-	// oreLoot('minecraft:ancient_debris', 'minecraft:ancient_debris', {min:1,max:3})
-	oreLoot('mysticalagriculture:soulium_ore', 'mysticalagriculture:soulium_dust', {min:2,max:4})
+	oreLoot('mysticalagriculture:soulium_ore', 'mysticalagriculture:soulium_dust', {min:1,max:2})
 	oreLoot('minecraft:nether_gold_ore', 'minecraft:raw_gold', {min:1,max:1})
 	oreLoot('minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_crystal', {min:3,max:6})
 	oreLoot('mysticalagradditions:nether_inferium_ore', 'mysticalagriculture:inferium_essence', {min:1,max:1})
 	oreLoot('mysticalagriculture:deepslate_inferium_ore', 'mysticalagriculture:inferium_essence', {min:1,max:3})
-	// oreLoot('occultism:iesnium_ore_natural', 'occultism:raw_iesnium')
 	oreLoot('rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard', {min:1,max:3})
 	oreLoot('silentgear:crimson_iron_ore', 'silentgear:raw_crimson_iron', {min:1,max:3})
 	oreLoot('silentcompat:solarmetal_ore', 'silentcompat:raw_solarmetal', {min:1,max:3})
