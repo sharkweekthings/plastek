@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ingots/hop_graphite"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:dust_hop_graphite",
+      "count": 1
+    }
+  ]
+}
