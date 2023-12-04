@@ -419,6 +419,7 @@ ServerEvents.recipes(event => {
     ]
 }).id('create:minecraft_bone_meal_from_block')
 
+// Bone Meal From Bone
   event.custom({
     "type": "create:milling",
     "ingredients": [
@@ -434,6 +435,23 @@ ServerEvents.recipes(event => {
         }
     ]
 }).id('create:minecraft_bone_meal_from_bone')
+
+// Cobbled Soul Stone
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": 'infernalexp:soul_stone'
+        }
+    ],
+    "processingTime": 85,
+    "results": [
+        {
+            "count": 1,
+            "item": 'mysticalagriculture:soulstone_cobble'
+        }
+    ]
+}).id('create:soulstone_cobble_soulstone')
 
 // ZPM Housing Unit
   event.custom({
@@ -567,6 +585,60 @@ event.custom({
   "results": [{"item": "emendatusenigmatica:brass_ingot", "count": 1}],
   "heatRequirement": "heated" 
   }).id('create:mixing/brass_ingot')
+
+// Molten Soulium
+event.custom({
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_soil"
+    }
+  ],
+  "results": [
+    {
+      "amount": 150,
+      "fluid": "mysticalagradditions:molten_soulium"
+    }
+  ]
+}).id('create:mixing/molten_soulium')
+
+// Soulium Ingot
+  event.custom({
+  "type": "create:filling","ingredients": [
+    {"item": "mysticalagriculture:prosperity_ingot"},
+    {
+      "amount": 300,
+      "fluid": "mysticalagradditions:molten_soulium",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:soulium_ingot"
+    }
+  ]
+}).id('mysticalagriculture:soulium_ingot')
+
+// Soulium Dust
+  event.custom({
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:soulium_ingot"
+    }
+  ],
+  "processingTime": 10000,
+  "results": [
+    {
+      "count": 2,
+      "item": "mysticalagriculture:soulium_dust"
+    }
+  ]
+}).id('create:soulium_dust_crush')
 
 
 // Tiny Dry Rubber
@@ -809,7 +881,9 @@ event.custom({
       "item": "silentgear:leather_scrap"
     }
   ]
-}).id('create:milling/leather_to_scrap')// Leather Grind
+}).id('create:milling/leather_to_scrap')
+
+// Durable Leather to Scrap
 event.custom({
   "type": "create:milling",
   "ingredients": [
