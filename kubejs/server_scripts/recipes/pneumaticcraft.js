@@ -249,19 +249,21 @@ ServerEvents.recipes(event => {
     
 // Capacitor
   event.shaped('pneumaticcraft:capacitor', 
-    ['131','343','222'], {
+    ['151','343','222'], {
     1: 'pneumaticcraft:plastic',
     2: 'immersiveengineering:wire_electrum',
     3: 'emendatusenigmatica:apatite_dust',
-    4: 'silentcompat:arcmetal_nugget'}).id('pneumaticcraftpressure_chamber/capacitor')
+    4: 'silentcompat:arcmetal_nugget',
+    5: 'immersivepetroleum:petcoke_dust'}).id('pneumaticcraftpressure_chamber/capacitor')
     
 // Transistor
   event.shaped('pneumaticcraft:transistor', 
-    ['131','343','222'], {
+    ['151','343','222'], {
     1: 'pneumaticcraft:plastic',
     2: 'immersiveengineering:wire_electrum',
     3: 'immersiveengineering:dust_hop_graphite',
-    4: 'silentcompat:arcmetal_nugget'}).id('pneumaticcraft:pressure_chamber/transistor')
+    4: 'silentcompat:arcmetal_nugget',
+    5: 'immersivepetroleum:petcoke_dust'}).id('pneumaticcraft:pressure_chamber/transistor')
 
 // Pneumatic Craft - Plastic
   event.custom({

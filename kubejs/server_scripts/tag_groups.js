@@ -1084,6 +1084,8 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'thermal:bitumen',
+  'thermal:bitumen_block',
   'thermal:slag_block',
   'mekanism:dust_obsidian',
   'occultism:storage_remote_inert',
@@ -1295,6 +1297,8 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
+  'thermal:bitumen',
+  'thermal:bitumen_block',
   'thermal:white_rockwool',
   'thermal:orange_rockwool',
   'thermal:magenta_rockwool',

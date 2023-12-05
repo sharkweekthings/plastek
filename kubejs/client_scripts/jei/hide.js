@@ -281,6 +281,9 @@ JEIEvents.hideItems(event => {
 	event.hide('thermal:dynamo_disenchantment')
 	event.hide('thermal:machine_frame')
 	event.hide('thermal:ender_pearl_dust')
+	event.hide('thermal:creosote')
+	event.hide('thermal:creosote_bucket')
+	event.hide('thermal:creosote')
 
 // RF TOOLS
 	event.hide('rftoolsbase:machine_frame')
@@ -431,6 +434,10 @@ JEIEvents.hideItems(event => {
 	event.hide('extendedcrafting:elite_auto_table')
 	event.hide('extendedcrafting:ultimate_auto_table')
 	event.hide('extendedcrafting:handheld_table')
+
+// IMMERSIVE PETROLEUM
+	event.hide('immersivepetroleum:bitumen')
+
 
 //
 })

@@ -155,6 +155,14 @@ ServerEvents.recipes(event => {
     1: 'immersiveengineering:conveyor_basic',
 	  2: 'emendatusenigmatica:iron_plate'}).id('immersiveengineering:crafting/conveyor_splitter')
 
+// Core Sample Drill
+  event.shaped('immersiveengineering:sample_drill',
+    ['131','434','232'], {
+    1: 'immersiveengineering:steel_scaffolding_standard',
+	  2: 'immersiveengineering:light_engineering',
+    3: 'immersiveengineering:steel_fence',
+    4: 'redstone_arsenal:flux_ingot'}).id('immersiveengineering:crafting/sample_drill')
+
 
 
 // Components Blueprint

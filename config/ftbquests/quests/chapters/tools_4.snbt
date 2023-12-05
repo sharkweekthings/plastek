@@ -169,7 +169,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -403,7 +403,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -428,7 +428,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -456,7 +456,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -575,6 +575,73 @@
 			]
 			x: -0.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "28B3C46C7AA91E62"
+			shape: "circle"
+			tasks: [{
+				id: "77E3B6DD83EFC480"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "immersivepetroleum:projector"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["These tanks can hold up to 512 buckets of a single type of fluid."]
+			id: "251ADDDA49F2245D"
+			shape: "circle"
+			tasks: [
+				{
+					count: 34L
+					id: "5DEEFE89672E94F2"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4FBAA0C810573C33"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+			]
+			title: "Fluid Tank"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Silos have space for 41,472 of a single item."]
+			id: "192ED32037725A0C"
+			shape: "circle"
+			tasks: [
+				{
+					count: 50L
+					id: "68B8882F260D4841"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25BCF2B750F3C2B9"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+			]
+			title: "Item Silo"
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "Utility"
