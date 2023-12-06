@@ -96,6 +96,88 @@
 			x: 1.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["These tanks can hold up to 512 buckets of a single type of fluid."]
+			id: "1E54ED3698D4775B"
+			shape: "circle"
+			tasks: [
+				{
+					count: 34L
+					id: "6632CF1BFCB3D18D"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F4BE1FFE7938168"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+			]
+			title: "Fluid Tank"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Supports up to 1024 buckets of any single type of non gaseous fluid."]
+			id: "4583B965FC880CF7"
+			shape: "circle"
+			subtitle: "Not just for oil!"
+			tasks: [
+				{
+					count: 62L
+					id: "69099A5546023E4A"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "5EB5BB86A04FF125"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01705389757C01B4"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3886D0ABF41AD232"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "Oil Tank"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Silos have space for 41,472 of a single item."]
+			id: "151AA72BF415BEC3"
+			shape: "circle"
+			tasks: [
+				{
+					count: 50L
+					id: "605A8210CAA7B1C9"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A6D4625416B461C"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+			]
+			title: "Item Silo"
+			x: 2.5d
+			y: -3.0d
+		}
 	]
 	title: "Storage"
 }

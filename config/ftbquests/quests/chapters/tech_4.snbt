@@ -779,9 +779,7 @@
 			description: [
 				"Simply put Lava on one side, Water on the other. That will generate power! "
 				""
-				"That probably won't be enough power. "
-				""
-				"You may want to add a bunch more of these, or use the more powerful Diesel Generator. "
+				"That probably won't be enough power, but a few of these may tide you over until you get a Diesel Generator."
 				""
 				"Now, you could probably continue using sheep if you really want, bah-t... do you REALLY want to?? "
 				""
@@ -802,7 +800,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "It's okay"
+			subtitle: "It's okay, but it's not enough."
 			tasks: [{
 				id: "7C57D443829375B1"
 				item: "immersiveengineering:thermoelectric_generator"
@@ -1182,7 +1180,7 @@
 				""
 				"On Page 8 you can see the various deposits, what their yield can be, and what dimension you would need to setup your Excavator in. "
 				""
-				"&oLater you will gain access to the Mekanism Digital Miner, and the RF Tools Quarry which will mine the physical ores in the world. &r"
+				"&oLater you will gain access to the Mekanism Digital Miner which will mine the physical ores in the world. &r"
 			]
 			id: "294D6DE9D415823B"
 			shape: "circle"
@@ -1462,9 +1460,14 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"Yes, welcome your new Diesel Generator to your family. "
+				""
+				"It will help power up your machines for this age."
+			]
 			id: "3F2AF8C18E33DF6B"
 			shape: "circle"
-			subtitle: "It's better!"
+			subtitle: "Family"
 			tasks: [
 				{
 					count: 9L
