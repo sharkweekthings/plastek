@@ -517,6 +517,7 @@
 					type: "item"
 				}
 			]
+			title: "Growing"
 			x: 3.0d
 			y: 5.5d
 		}
@@ -541,6 +542,7 @@
 					type: "item"
 				}
 			]
+			title: "By Land"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -553,6 +555,7 @@
 				item: "industrialforegoing:marine_fisher"
 				type: "item"
 			}]
+			title: "By Sea"
 			x: 4.0d
 			y: 5.5d
 		}
