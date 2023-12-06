@@ -233,6 +233,7 @@
 				type: "stat"
 				value: 1000
 			}]
+			title: "Kill 1000 Mobs"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -788,6 +789,7 @@
 				type: "stat"
 				value: 250
 			}]
+			title: "Sleep In Bed 250 Times"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -807,6 +809,7 @@
 				type: "stat"
 				value: 5000
 			}]
+			title: "Have 5000 Interactions With Your Furnace"
 			x: 4.5d
 			y: 0.5d
 		}
@@ -832,6 +835,7 @@
 				type: "stat"
 				value: 5000
 			}]
+			title: "Travel 5000m By Pig"
 			x: 3.0d
 			y: 2.0d
 		}
