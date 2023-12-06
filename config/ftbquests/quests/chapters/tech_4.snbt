@@ -166,6 +166,7 @@
 		}
 		{
 			dependencies: ["3DCA2CCC13D97EFC"]
+			description: ["This Diesel sure would look nice in a Diesel Generator."]
 			id: "08C3C24020A7C73B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1468,6 +1469,8 @@
 				"Yes, welcome your new Diesel Generator to your family. "
 				""
 				"It will help power up your machines for this age."
+				""
+				"You'll just need to fuel it up with Diesel, Biodiesel, or another source that I probably don't know about that actually works. "
 			]
 			id: "3F2AF8C18E33DF6B"
 			shape: "circle"
