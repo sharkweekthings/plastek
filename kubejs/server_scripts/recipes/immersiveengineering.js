@@ -127,14 +127,14 @@ ServerEvents.recipes(event => {
     4: 'immersiveengineering:craftingtable',
     5: 'create:precision_mechanism'}).id('immersiveengineering:crafting/workbench')
 
-// Conveyor Basic
-  event.shaped('immersiveengineering:conveyor_basic',
-    ['353','323','141'], {
-    1: 'create:shaft',
-    2: 'ad_astra:ostrum_plate',
-	  3: 'emendatusenigmatica:iron_rod',
-	  4: 'pneumaticcraft:plastic',
-    5: '#forge:leather'}).id('immersiveengineering:crafting/conveyor_basic')
+// // Conveyor Basic
+//   event.shaped('immersiveengineering:conveyor_basic',
+//     ['353','323','141'], {
+//     1: 'create:shaft',
+//     2: 'ad_astra:ostrum_plate',
+// 	  3: 'emendatusenigmatica:iron_rod',
+// 	  4: 'pneumaticcraft:plastic',
+//     5: '#forge:leather'}).id('immersiveengineering:crafting/conveyor_basic')
 
 // Thermoelectric Generator
   event.shaped('immersiveengineering:thermoelectric_generator',

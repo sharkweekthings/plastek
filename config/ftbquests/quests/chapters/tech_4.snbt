@@ -1560,6 +1560,7 @@
 		}
 		{
 			dependencies: ["0DF12EA8CAAC71A6"]
+			description: ["These Blast Furnace Preheaters will double, then triple the speed of the Improved Blast Furnace. They do require power to function, though."]
 			id: "0441CD515F1BA4F9"
 			shape: "circle"
 			tasks: [{
