@@ -74,6 +74,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:crafting/nugget_aluminum_to_ingot_aluminum'})
   event.remove({id: 'immersiveengineering:metalpress/gear_plasteel'})
   event.remove({id: 'immersiveengineering:arcfurnace/raw_block_aluminum'})
+  event.remove({id: 'immersiveengineering:crafting/blastbrick_reinforced'})
 
 //
 })
@@ -162,6 +163,21 @@ ServerEvents.recipes(event => {
 	  2: 'immersiveengineering:light_engineering',
     3: 'immersiveengineering:steel_fence',
     4: 'redstone_arsenal:flux_ingot'}).id('immersiveengineering:crafting/sample_drill')
+
+// Projector
+  event.shaped('immersivepetroleum:projector',
+    ['344','514','452'], {
+    1: 'immersiveengineering:lantern',
+	  2: '#forge:treated_wood',
+    3: 'glassential:glass_ethereal',
+    4: 'pneumaticcraft:plastic',
+    5: 'emendatusenigmatica:steel_ingot'}).id('immersivepetroleum:projector')
+
+// Fluid Pipe
+  event.shaped('4x immersiveengineering:fluid_pipe',
+    ['111',' 2 ','111'], {
+    1: 'emendatusenigmatica:iron_plate',
+	  2: 'create:fluid_pipe'}).id('immersiveengineering:crafting/fluid_pipe')
 
 
 

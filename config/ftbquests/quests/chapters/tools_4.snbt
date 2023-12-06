@@ -36,12 +36,12 @@
 		{
 			dependencies: ["481CC7DD0387169C"]
 			description: [
-				"Amadrone Technology at it's best. "
+				"Amadrone technology at it's best. "
 				""
 				"All Drones are ready to ship out your product in moments.  Just make your request, and wait for your items!"
 			]
 			id: "68D6A04710DEFEA7"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "5F8598D42179C217"
 				item: "pneumaticcraft:amadron_tablet"
@@ -169,7 +169,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -403,7 +403,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -428,7 +428,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -456,7 +456,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -578,6 +578,7 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
+			description: ["This handy little device projects Immersive Engineering multiblock structures into the world to assist you in building the structures."]
 			id: "28B3C46C7AA91E62"
 			shape: "circle"
 			tasks: [{
@@ -595,7 +596,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
@@ -618,7 +619,7 @@
 			]
 			title: "Fluid Tank"
 			x: -2.0d
-			y: -1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
@@ -641,7 +642,151 @@
 			]
 			title: "Item Silo"
 			x: 1.0d
-			y: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Supports up to 1024 buckets of any single type of non gaseous fluid."]
+			id: "7CEB1239C2F482C5"
+			shape: "circle"
+			subtitle: "Not just for oil!"
+			tasks: [
+				{
+					count: 62L
+					id: "30BA833DD07AF267"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "0E584B4E1B381ECD"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "50FC9FB8669695B6"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "633951B993DCE144"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "Oil Tank"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "04C71C573EE04D4D"
+			shape: "circle"
+			subtitle: "Oh, I'd... Nevermind...."
+			tasks: [{
+				id: "1E9EF1F8976B465D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersivepetroleum:speedboat"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Provides machines with Lubricant to allow them to operate more efficiently. "]
+			id: "1FF37236555EC9A1"
+			shape: "circle"
+			tasks: [{
+				id: "3F2F188A38D05794"
+				item: "immersivepetroleum:auto_lubricator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "345389E2E213F4DD"
+			shape: "circle"
+			tasks: [{
+				id: "5ED2A868E4BA9EAD"
+				item: "immersivepetroleum:flarestack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "46E39B74855125B7"
+			shape: "circle"
+			subtitle: "Literally moving power "
+			tasks: [{
+				id: "25B1EA1360BB903C"
+				item: "immersivepetroleum:gas_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04C71C573EE04D4D"]
+			id: "1B3EA18497FC196B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2708AEE3CD2C41C0"
+					item: "immersivepetroleum:upgrade_reinforced_hull"
+					type: "item"
+				}
+				{
+					id: "475C7E3DB404CAFB"
+					item: "immersivepetroleum:upgrade_icebreaker"
+					type: "item"
+				}
+				{
+					id: "2144E4AF1613C232"
+					item: "immersivepetroleum:upgrade_tank"
+					type: "item"
+				}
+				{
+					id: "72FC0A1E65602AB4"
+					item: "immersivepetroleum:upgrade_rudders"
+					type: "item"
+				}
+				{
+					id: "6072B89064B75077"
+					item: "immersivepetroleum:upgrade_paddles"
+					type: "item"
+				}
+			]
+			title: "Motorboat Upgrades"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Filters fluids to let them move in specific directions."]
+			id: "00CDEA02D08186BC"
+			shape: "circle"
+			tasks: [{
+				id: "02863F67CA788821"
+				item: "immersiveengineering:fluid_sorter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
 		}
 	]
 	title: "Utility"

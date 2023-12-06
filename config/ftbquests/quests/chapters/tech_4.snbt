@@ -1226,6 +1226,7 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
+			description: ["The Crusher is the only device capable of turning Petcoke into Petcoke Dust."]
 			id: "1B857BA57DA019B3"
 			shape: "square"
 			subtitle: "#9"
@@ -1266,6 +1267,7 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
+			description: ["Fill this up with any of the fluids you see in JEI, as well as 2 Bitumen to make some more Sulfurized Diesel, and Petcoke!"]
 			id: "14577A9D0ED6368D"
 			subtitle: "#8"
 			tasks: [
@@ -1351,6 +1353,17 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"Supply this with Oil or Crude Oil to get:"
+				""
+				"Lubricant"
+				"Sulfurized Diesel"
+				"Kerosene"
+				"Naphtha"
+				"Bitumen"
+				""
+				"You'll need to either sort out, or dispose of the various fluids that are generated. "
+			]
 			id: "66EBB1DFF76FCE00"
 			subtitle: "#7"
 			tasks: [
@@ -1492,6 +1505,47 @@
 			title: "Diesel Generator"
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4596F14140B7AE67"]
+			description: ["You'll need the Arc Furnace in order to fuse the Steel to the Blast Brick. "]
+			id: "0DF12EA8CAAC71A6"
+			shape: "circle"
+			tasks: [
+				{
+					count: 27L
+					id: "352C649F70D9BEEE"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "762F43C0341446E4"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Improved Blast Furnace"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B857BA57DA019B3"]
+			description: ["This is a critical component in making Transistors and Capacitors for all the Printed Circuit Boards you'll be making."]
+			id: "0D0AC04D3F23DEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37D8A876292F909C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "49ABA541EAD71CA3"
+				item: "immersivepetroleum:petcoke_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
 		}
 	]
 	title: "Tech"
