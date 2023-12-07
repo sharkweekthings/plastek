@@ -517,7 +517,7 @@
 					type: "item"
 				}
 			]
-			title: "Growing"
+			title: "Plant Things"
 			x: 3.0d
 			y: 5.5d
 		}
@@ -542,7 +542,7 @@
 					type: "item"
 				}
 			]
-			title: "By Land"
+			title: "Animal Things"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -555,7 +555,7 @@
 				item: "industrialforegoing:marine_fisher"
 				type: "item"
 			}]
-			title: "By Sea"
+			title: "Sea Things"
 			x: 4.0d
 			y: 5.5d
 		}

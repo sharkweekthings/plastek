@@ -354,7 +354,7 @@ ServerEvents.recipes(event => {
   event.shaped('compactmachines:machine_normal',
     ['212','131','212'], {
     1: 'compactmachines:wall',
-    2: 'thermal:electrum_block',
+    2: 'emendatusenigmatica:electrum_block',
     3: 'compactmachines:machine_small'}).id('compactmachines:misc/machine_normal')
 
 // Compact Machines Large
