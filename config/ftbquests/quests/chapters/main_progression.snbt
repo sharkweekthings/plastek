@@ -15,7 +15,7 @@
 				""
 				"After accepting the reward for this quest, start in Age 1 Utility"
 			]
-			icon: "minecraft:stone"
+			icon: "minecraft:iron_ingot"
 			id: "5928D99A2F786286"
 			rewards: [
 				{
@@ -232,6 +232,7 @@
 				"- Craft your Nature's Compass"
 				"- Craft your Explorer's Compass"
 			]
+			icon: "industrialforegoing:plastic"
 			id: "0240FDF5F774DEEE"
 			rewards: [{
 				icon: "supplementaries:sign_post_oak"
@@ -271,6 +272,7 @@
 				"- Make Cheap Plastic"
 				"- Craft a Material Grader"
 			]
+			icon: "pneumaticcraft:plastic"
 			id: "79705DCA6ADC0148"
 			rewards: [{
 				icon: "supplementaries:sign_post_oak"
@@ -312,6 +314,7 @@
 				"- Trade a Diamond for a Mana Diamond"
 				"- Trade an Ender Pearl for a Mana Pearl"
 			]
+			icon: "pneumaticcraft:printed_circuit_board"
 			id: "481CC7DD0387169C"
 			rewards: [{
 				icon: "supplementaries:sign_post_oak"
@@ -347,6 +350,7 @@
 				"- Make Mead of Kvasir (and drink it)"
 				"- Find Dragonstone in Alfheim"
 			]
+			icon: "silentcompat:plasteel_ingot"
 			id: "060D5244CBD4660D"
 			rewards: [{
 				icon: "supplementaries:sign_post_oak"
@@ -390,6 +394,7 @@
 				"- Create Air Essence &o(Ars Noveau)&r"
 				"- Make Magebloom Fiber"
 			]
+			icon: "mekanism:hdpe_sheet"
 			id: "6C00F063FD2700AD"
 			rewards: [{
 				icon: "supplementaries:sign_post_oak"
@@ -429,6 +434,7 @@
 				"- Make a Crystal Housing Unit"
 				"- Make a Depleted ZPM Housing Unit"
 			]
+			icon: "mekanism:pellet_polonium"
 			id: "7AB6777B9471D4AD"
 			rewards: [{
 				icon: "supplementaries:sign_post_oak"
@@ -635,14 +641,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7AB6777B9471D4AD"]
-			description: [
-				"Thanks for making it this far! "
-				""
-				"From here you'll need to finish up your rocket, get to Glacio, and find what you need to make Plastim. "
-				""
-				"You'll be able to go crazy making some Creative Mode items, and building whatever you want with your unlimited resources!"
+			dependencies: [
+				"7AB6777B9471D4AD"
+				"12E3A82BAA311379"
 			]
+			description: ["From here you'll need to finish up your rocket, get to Glacio, and find what you need to make Plastim. "]
+			icon: "emendatusenigmatica:plastim_ingot"
 			id: "6BEB0462E77988BB"
 			rewards: [
 				{
@@ -676,15 +680,72 @@
 					type: "random"
 				}
 			]
-			shape: "heart"
+			shape: "hexagon"
 			tasks: [{
 				id: "7F40E99231B0042C"
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Wrapping Up"
+			title: "The Final Stretch"
 			x: -9.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6BEB0462E77988BB"
+				"1D084DFDA1E21F68"
+				"18F0B3498C6106EE"
+				"553C169425A590A9"
+			]
+			description: [
+				"You've been to all the places. You've gathered all the stuff. "
+				""
+				"Now all thats left is to craft the Creative Item, Fluid, and Chemical Storage Cells and you will have completed the pack! "
+			]
+			icon: "ae2:creative_item_cell"
+			id: "597B9E13F27FEF7E"
+			shape: "hexagon"
+			subtitle: "Do all of the things!"
+			tasks: [{
+				id: "5F118A177731CEB4"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "End of the Road"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["597B9E13F27FEF7E"]
+			description: [
+				"Thank you for playing Plastek!"
+				""
+				"It's awesome that you tried this modpack out in the first place, let alone making it this far. I hope I was able to throw a few fun challenges at you! "
+				""
+				"Unfortunately there aren't any quest rewards that I can offer for this one as you should be able to essentially generate any item in the pack on demand with your new AE2 drives. "
+			]
+			id: "42C827621CB22C61"
+			rewards: [{
+				id: "7499C1B77D35D14D"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "<3"
+			tasks: [{
+				id: "609CF0FA469D3729"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Thank You"
+			x: -7.5d
+			y: 1.5d
 		}
 	]
 	title: "Main Progression"

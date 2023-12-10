@@ -942,7 +942,7 @@ ServerEvents.recipes(event => {
       "inputs": [
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 5,
+          "count": 10,
           "item": "pneumaticcraft:compressed_iron_block"
         },
         {
@@ -952,8 +952,8 @@ ServerEvents.recipes(event => {
         },
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 5,
-          "item": "pneumaticcraft:compressed_iron_block"
+          "count": 10,
+          "item": "mekanism:pellet_polonium"
         },],
           "pressure": 5, 
           "results": [{"item": "pneumaticcraft:creative_compressed_iron_block"}]
