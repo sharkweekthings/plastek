@@ -1,4 +1,0 @@
-{"type":"immersiveengineering:arc_furnace",
-"additives":[{"item":"emendatusenigmatica:steel_plate"}],"energy":21500,
-"input":{"item":"immersiveengineering:blastbrick"},
-"results":[{"base_ingredient":{"item":"immersiveengineering:blastbrick_reinforced"},"count":1}],"time":500}

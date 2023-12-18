@@ -1519,9 +1519,9 @@
 		{
 			dependencies: ["4596F14140B7AE67"]
 			description: [
-				"You'll need the Arc Furnace in order to fuse the Steel to the Blast Brick. "
+				"You'll need the Alloy Kiln in order to fuse the Steel to the Blast Brick. "
 				""
-				"&oThis Blast Furnace is faster when you add Preheaters, and allows for full automation.&r"
+				"&oThis Blast Furnace allows for full automation, and will increase its speed if you add up to 2 Preheaters.&r"
 			]
 			id: "0DF12EA8CAAC71A6"
 			shape: "circle"

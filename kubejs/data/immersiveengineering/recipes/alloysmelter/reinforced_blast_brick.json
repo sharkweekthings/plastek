@@ -1,0 +1,5 @@
+{"type":"immersiveengineering:alloy","input0":{"base_ingredient":{
+    "item":"emendatusenigmatica:steel_plate"},"count":1},"input1":{
+    "item":"immersiveengineering:blastbrick"},
+        "result":{"count":1,
+        "item":"immersiveengineering:blastbrick_reinforced"},"time":500}
