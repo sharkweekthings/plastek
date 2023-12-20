@@ -971,6 +971,775 @@ event.custom({
   ]
 }).id('immersiveengineering:crafting/concrete')
 
+// Coal Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_ore"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.75,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/coal_ore')
+
+// Deepslate Coal Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_coal_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.75,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_coal_ore')
+
+// Copper Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "count": 3,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/copper_ore')
+
+// Deepslate Copper Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_copper_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 5,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_copper_ore')
+
+// Diamond Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "chance": 0.75,
+      "item": "minecraft:diamond"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/diamond_ore')
+
+// Deepslate Diamond Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_diamond_ore"
+    }
+  ],
+  "processingTime": 450,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:diamond"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:diamond"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_diamond_ore')
+
+// Emerald Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "chance": 0.75,
+      "item": "minecraft:emerald"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/emerald_ore')
+
+// Deepslate Emerald Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_emerald_ore"
+    }
+  ],
+  "processingTime": 450,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:emerald"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:emerald"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_emerald_ore')
+
+// Gold Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.75,
+      "count": 2,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/gold_ore')
+
+// Deepslate Gold Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 2,
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.75,
+      "count": 2,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_gold_ore')
+
+// Nether Gold Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_gold_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 18,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:netherrack"
+    }
+  ]
+}).id('create:crushing/nether_gold_ore')
+
+// Iron Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/iron_ore')
+
+// Deepslate Iron Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_iron_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 2,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_iron_ore')
+
+// Lapis Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/lapis_ore')
+
+// Deepslate Lapis Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_lapis_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 5,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_lapis_ore')
+
+// Lead Ore
+  event.custom({
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/lead"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ores/lead"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create:crushed_raw_lead"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_lead"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}).id('create:crushing/lead_ore')
+
+// Nether Quartz Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_quartz_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:quartz"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:quartz"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:netherrack"
+    }
+  ]
+}).id('create:crushing/nether_quart_ore')
+
+// Nickel Ore
+  event.custom({
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/nickel"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ores/nickel"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create:crushed_raw_nickel"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_nickel"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}).id('create:crushing/nickel_ore')
+
+// Osmium Ore
+  event.custom({
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/osmium"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ores/osmium"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}).id('create:crushing/osmium_ore')
+
+// Redstone Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "count": 3,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/redstone_ore')
+
+// Deepslate Redstone Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_redstone_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 5,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_redstone_ore')
+
+// Silver Ore
+  event.custom({
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/silver"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ores/silver"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}).id('create:crushing/silver_ore')
+
+// Tin Ore
+  event.custom({
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/tin"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ores/tin"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create:crushed_raw_tin"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_tin"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}).id('create:crushing/tin_ore')
+
+// Uranium Ore
+  event.custom({
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/uranium"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ores/uranium"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create:crushed_raw_uranium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_uranium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}).id('create:crushing/uranium_ore')
+
+// Zinc Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:zinc_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}).id('create:crushing/zinc_ore')
+
+// Deepslate Zinc Ore
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:deepslate_zinc_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 2,
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}).id('create:crushing/deepslate_zinc_ore')
+
 //    
 })
 //
