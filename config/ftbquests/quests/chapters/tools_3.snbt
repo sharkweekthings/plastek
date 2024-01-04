@@ -97,7 +97,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 3.4999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.5d
+			y: 3.4999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -121,7 +121,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: 3.4999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -133,7 +133,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.5d
+			y: 3.4999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -145,7 +145,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 3.4999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
