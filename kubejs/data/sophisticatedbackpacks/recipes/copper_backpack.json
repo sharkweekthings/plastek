@@ -2,7 +2,7 @@
   "type": "sophisticatedbackpacks:backpack_upgrade",
   "conditions": [
     {
-      "itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+      "itemRegistryName": "sophisticatedbackpacks:copper_backpack",
       "type": "sophisticatedcore:item_enabled"
     }
   ],
@@ -13,16 +13,16 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:copper_block"
     },
     "I": {
-      "item": "sophisticatedbackpacks:copper_backpack"
+      "item": "sophisticatedbackpacks:backpack"
     },
     "P": {
-      "item": "emendatusenigmatica:iron_plate"
+      "item": "emendatusenigmatica:copper_plate"
     }
   },
   "result": {
-    "item": "sophisticatedbackpacks:iron_backpack"
+    "item": "sophisticatedbackpacks:copper_backpack"
   }
 }

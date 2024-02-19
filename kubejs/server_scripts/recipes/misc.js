@@ -72,6 +72,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'scannable:blank_module'})
   event.remove({id: 'shrink:shrinking_device'})
   event.remove({id: 'sophisticatedbackpacks:backpack'})
+  event.remove({id: 'sophisticatedbackpacks:iron_backpack_from_copper'})
   event.remove({id: 'sophisticatedbackpacks:compacting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:advanced_compacting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:battery_upgrade'})

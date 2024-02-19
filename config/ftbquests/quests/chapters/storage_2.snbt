@@ -562,7 +562,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B573F268F450246"]
+			dependencies: ["3F742135E94E6596"]
 			id: "4A6F8BD9AFB461D0"
 			shape: "circle"
 			tasks: [{
@@ -583,8 +583,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4A6F8BD9AFB461D0"]
@@ -608,8 +608,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["56DC84BD2AAF37ED"]
@@ -634,7 +634,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["027EBB7B6BB8F475"]
@@ -658,8 +658,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -678,7 +678,7 @@
 				}
 			]
 			x: -6.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -697,7 +697,7 @@
 				}
 			]
 			x: -5.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -716,7 +716,7 @@
 				}
 			]
 			x: -4.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -735,7 +735,7 @@
 				}
 			]
 			x: -5.0d
-			y: 8.500000000000002d
+			y: 9.500000000000002d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -754,7 +754,7 @@
 				}
 			]
 			x: -3.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -773,7 +773,7 @@
 				}
 			]
 			x: -2.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -792,7 +792,7 @@
 				}
 			]
 			x: -6.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -811,7 +811,7 @@
 				}
 			]
 			x: -5.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -823,7 +823,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -842,7 +842,7 @@
 				}
 			]
 			x: -3.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -871,7 +871,7 @@
 				}
 			]
 			x: -2.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -883,7 +883,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -902,7 +902,7 @@
 				}
 			]
 			x: -5.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -914,7 +914,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -933,7 +933,7 @@
 				}
 			]
 			x: -3.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["244AC6C84AF6FA65"]
@@ -945,7 +945,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3B573F268F450246"]
@@ -957,7 +957,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1F26723000FD1E75"]
@@ -1084,7 +1084,32 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B573F268F450246"]
+			id: "3F742135E94E6596"
+			shape: "circle"
+			tasks: [{
+				id: "619CD180FA3B7A63"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:copper_backpack"
+					tag: {
+						contentsUuid: [I;
+							1508597415
+							2061519432
+							-1162984396
+							1172062953
+						]
+						inventorySlots: 45
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
 		}
 	]
 	title: "Storage"

@@ -250,9 +250,10 @@
 			description: [
 				"Throughout your travels you will find 12 special eyes. These will have a very important role to play later. "
 				""
-				"Don't lose them."
+				"Try not to lose them. "
+				""
+				"&oIf they do get lost, you can look for the Heart shaped quests. These quests will generally return very specific lost treasurers, such as the various Eyes. &r"
 				" "
-				"The only way to replace them if you do lose them is to have an Op/Admin give it to you."
 			]
 			id: "41416CFE6766963D"
 			rewards: [
@@ -454,6 +455,20 @@
 			}]
 			x: 1.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["41416CFE6766963D"]
+			description: ["If you're looking for additional challenges, the \"Essence of the Bees\" is a reward for completing all of the Bumblezone Advancements under the Advancements window. You can get there by clicking \"L\" by default."]
+			id: "3757E2DC5B7E75F1"
+			shape: "circle"
+			subtitle: "Need more?"
+			tasks: [{
+				id: "6C53C0568286B521"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
 		}
 	]
 	title: "The Bumblezone"
