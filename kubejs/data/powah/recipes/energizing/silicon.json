@@ -1,0 +1,12 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "mekanism:hdpe_pellet"},
+	{"item": "industrialforegoing:pink_slime"},
+  {"item": "mekanism:hdpe_pellet"}
+  ],
+  "energy": 300000,
+  "result": {
+	"item": "ae2:silicon"
+  }
+}

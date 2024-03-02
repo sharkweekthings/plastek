@@ -1,0 +1,6 @@
+{"type":"mekanism:reaction","duration":60,
+	"energyRequired":1300,
+	"fluidInput":{"amount":1000,"tag":"forge:honey"},
+	"gasInput":{"amount":100,"gas":"mekanism:ethene"},
+	"itemInput":{"amount":1,"ingredient":{"item":"minecraft:slime_ball"}},
+	"itemOutput":{"item":"industrialforegoing:pink_slime"}}
