@@ -33,6 +33,7 @@ StartupEvents.registry('item', e => {
   e.create('advanced_pressure_tube_parts')
   e.create('empty_parts_box')
   e.create('empty_pcb_parts')
+  e.create('time_in_a_bottle_parts')
   e.create('netherite_drill_bit_parts')
   e.create('pressure_chamber_valve_parts')
   e.create('compression_dynamo_parts')

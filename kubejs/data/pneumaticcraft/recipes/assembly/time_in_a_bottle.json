@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:time_in_a_bottle_parts"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "tiab:time_in_a_bottle"
+  }
+}

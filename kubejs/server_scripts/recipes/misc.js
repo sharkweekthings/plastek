@@ -172,6 +172,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'twilightforest:botanypots/trees/mining'})
   event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
   event.remove({id: 'deeperdarker:warden_sword_smithing'})
+  event.remove({id: 'tiab:time_in_a_bottle'})
+//
 //
 })
 //
@@ -810,6 +812,15 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     ['111','121','111'], {
     1: '#forge:sawdust',
     2: 'minecraft:chest'}).id('kubejs:misc/empty_parts_box')
+
+// Time in a Bottle Parts
+  event.shaped('kubejs:time_in_a_bottle_parts', 
+    ['515','323','545'], {
+    1: 'kubejs:empty_parts_box',
+    2: 'botania:mana_bottle',
+    3: 'botania:dragonstone',
+    4: 'pneumaticcraft:printed_circuit_board',
+    5: 'pneumaticcraft:plastic'}).id('misc/time_in_a_bottle')
 
 // Advanced Pressure Tube Parts
   event.shaped('kubejs:advanced_pressure_tube_parts', 

@@ -169,7 +169,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -403,7 +403,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -428,7 +428,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -456,7 +456,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -705,6 +705,35 @@
 			}]
 			x: 1.0d
 			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2E18138D211E9206"
+				"48ABF1D3186757AE"
+			]
+			description: [
+				"With Time in a Bottle, you can do just that! "
+				""
+				"Keeping this item in your inventory will collect time. With enough stored time you can accelerate the rate certain blocks tick."
+				""
+				"The first click will cost 30 seconds.  The second will cost 60 seconds, then 120, 240, and 480.  The speed the block ticks will double with each click. "
+				""
+				"The Time in a Bottle tick will last for 30 seconds."
+			]
+			id: "2B93BBEB34D7DC3E"
+			shape: "circle"
+			subtitle: "Ever wanted to store time?"
+			tasks: [{
+				id: "2D19E0BF7FB03161"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Utility"
