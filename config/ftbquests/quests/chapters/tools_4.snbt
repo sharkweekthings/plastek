@@ -30,8 +30,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -63,7 +63,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -79,7 +79,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -5.0d
 		}
 		{
@@ -95,7 +95,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -111,7 +111,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -127,7 +127,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -143,7 +143,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -185,8 +185,8 @@
 				item: "immersiveengineering:charging_station"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["281EE59C33F78909"]
@@ -203,7 +203,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -221,7 +221,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -3.5d
 		}
 		{
@@ -239,7 +239,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -257,7 +257,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -275,7 +275,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -310,8 +310,8 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0BD2C38D1B9252E6"]
@@ -322,8 +322,8 @@
 				item: "scannable:blank_module"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E3A16FF7ECFEC58"]
@@ -377,8 +377,8 @@
 				}
 			]
 			title: "Scanner Modules"
-			x: 1.5d
-			y: -5.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -469,8 +469,8 @@
 				item: "sleep_tight:dreamer_essence"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -732,6 +732,7 @@
 				}
 				type: "item"
 			}]
+			title: "Time in a Bottle"
 			x: -0.5d
 			y: 0.0d
 		}

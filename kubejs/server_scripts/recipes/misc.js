@@ -815,12 +815,13 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Time in a Bottle Parts
   event.shaped('kubejs:time_in_a_bottle_parts', 
-    ['515','323','545'], {
+    ['515','323','646'], {
     1: 'kubejs:empty_parts_box',
     2: 'botania:mana_bottle',
     3: 'botania:dragonstone',
     4: 'pneumaticcraft:printed_circuit_board',
-    5: 'pneumaticcraft:plastic'}).id('misc/time_in_a_bottle')
+    5: 'pneumaticcraft:plastic',
+    6: 'pneumaticcraft:plastic_bucket'}).id('misc/time_in_a_bottle')
 
 // Advanced Pressure Tube Parts
   event.shaped('kubejs:advanced_pressure_tube_parts', 
