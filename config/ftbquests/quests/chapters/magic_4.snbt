@@ -338,25 +338,25 @@
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 4L
 					id: "63BC3AB48C4AA63D"
 					item: "occultism:sacrificial_bowl"
 					type: "item"
 				}
 				{
-					count: 4L
+					count: 2L
 					id: "768A2D281100F63C"
 					item: "occultism:spirit_attuned_crystal"
 					type: "item"
 				}
 				{
-					count: 4L
+					count: 2L
 					id: "000231D4E9169F4C"
 					item: "occultism:candle_white"
 					type: "item"
 				}
 			]
-			title: "The Basic Stuff"
+			title: "Some Basic Stuff"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -365,7 +365,7 @@
 			description: [
 				"Put these materials down onto the sacrifical bowls, place the book in the middle and wait to see if the demons are happy with the deal."
 				""
-				"If successful, you should get a golden Miner Lamp."
+				"If successful, you should get a golden Miner Lamp which will be required to let the Dimensional Mineshaft function."
 			]
 			id: "2EA3894CC2A995DD"
 			shape: "circle"
@@ -403,7 +403,7 @@
 				}
 				{
 					id: "3FF7505D49AC7902"
-					item: "occultism:book_of_binding_djinni"
+					item: "occultism:book_of_binding_foliot"
 					type: "item"
 				}
 			]
@@ -436,10 +436,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["2EA3894CC2A995DD"]
+			dependencies: ["34BD9E6EC406BECB"]
 			description: ["Using the same ritual site, but adding 2 more Sacrifical Bowls will let you create the Dimensional Mineshaft."]
 			id: "5C1F5DFD44351484"
 			shape: "circle"
@@ -475,16 +475,10 @@
 					item: "occultism:otherstone"
 					type: "item"
 				}
-				{
-					count: 2L
-					id: "7D8A72A5FB6532B6"
-					item: "occultism:sacrificial_bowl"
-					type: "item"
-				}
 			]
-			title: "Just a Few More Items"
+			title: "The Next Ritual"
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -632,6 +626,39 @@
 			title: "Storing Knowledge"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["2EA3894CC2A995DD"]
+			id: "34BD9E6EC406BECB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "68EDF5E832162FC5"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "2F4C8ED78143B3D6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0A61B0BA3F73B448"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2380BCB327376076"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "More Basic Stuff"
+			x: 2.0d
+			y: 4.5d
 		}
 	]
 	title: "Magic"

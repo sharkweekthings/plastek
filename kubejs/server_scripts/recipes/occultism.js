@@ -31,6 +31,14 @@ ServerEvents.recipes(event => {
 
   //ADD
 
+// Book of Binding Foliot
+  event.shaped('occultism:book_of_binding_foliot',
+    ['243','212','343'], {
+    1: 'minecraft:writable_book',
+    2: 'occultism:purified_ink',
+    3: 'mob_grinding_utils:solid_xp_baby',
+    4: 'minecraft:white_dye'}).id('occultism:crafting/book_of_binding_foliot')
+
 // Inert Storage Remote
   event.shaped('occultism:storage_remote_inert',
     ['131','212','222'], {
