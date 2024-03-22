@@ -1137,6 +1137,15 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     6: 'inventorypets:nugget_ender',
     7: 'inventorypets:nugget_emerald'}).id('inventorypets:feed_bag')
 
+// Carpenters Table
+  event.shaped('chipped:carpenters_table', 
+    ['  1','232','542'], {
+    1: 'minecraft:iron_ingot',
+    2: '#minecraft:logs',
+    3: 'minecraft:crafting_table',
+    4: '#minecraft:planks',
+    5: 'minecraft:iron_axe'}).id('chipped:benches/carpenters_table')
+
 // Meta Pet
   event.custom({
   "result": {
