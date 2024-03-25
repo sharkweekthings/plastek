@@ -414,7 +414,7 @@ ServerEvents.recipes(event => {
         {
           "type": "pneumaticcraft:stacked_item",
           "count": 2,
-          "item": "minecraft:wheat_seeds"
+          "tag": "forge:seeds"
         },],
           "pressure": 2.5, 
           "results": [{"item": "rootsclassic:growth_powder"}]
