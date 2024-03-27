@@ -92,6 +92,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:splashing/green_concrete_powder'})
   event.remove({id: 'create:splashing/red_concrete_powder'})
   event.remove({id: 'create:splashing/black_concrete_powder'})
+  event.remove({id: 'create:compat/ae2/milling/ender_pearl'})
 
 //
 })

@@ -71,6 +71,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:green_concrete_powder_with_slag'})
   event.remove({id: 'thermal:red_concrete_powder_with_slag'})
   event.remove({id: 'thermal:black_concrete_powder_with_slag'})
+  event.remove({id: 'thermal:earth_charge/ender_pearl_dust_from_ender_pearl'})
 
 //
 })

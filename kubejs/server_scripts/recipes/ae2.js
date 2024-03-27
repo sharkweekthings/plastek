@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ae2:inscriber/engineering_processor_press'})
   event.remove({id: 'ae2:inscriber/logic_processor_press'})
   event.remove({id: 'ae2:inscriber/silicon_press'})
-//   event.remove({id: 'ae2:network/blocks/io_condenser'})
+  event.remove({id: 'ae2:inscriber/ender_dust'})
 
 //
 })

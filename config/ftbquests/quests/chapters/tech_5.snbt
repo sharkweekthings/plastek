@@ -1310,6 +1310,18 @@
 			x: 2.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			description: ["The Pulverizer can help us smash certain things into dust more effectively, but it's main purpose will be to create Ender Dust."]
+			id: "42EBA0458399EFB6"
+			tasks: [{
+				id: "7B768CC1B3CC4D13"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -5.0000000000000036d
+			y: 2.4000000000000004d
+		}
 	]
 	title: "Tech"
 }
