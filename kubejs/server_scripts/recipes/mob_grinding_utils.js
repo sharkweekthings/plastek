@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
     2: 'minecraft:diamond',
     3: 'emendatusenigmatica:gold_plate',
     4: 'minecraft:chest',
-    5: 'functionalstorage:oak_1'}).id('mob_grinding_utils:recipe_saw_upgrade_looting')
+    5: '#functionalstorage:drawer'}).id('mob_grinding_utils:recipe_saw_upgrade_looting')
 
 // Sharpness Upgrade
   event.shaped('mob_grinding_utils:saw_upgrade_sharpness',

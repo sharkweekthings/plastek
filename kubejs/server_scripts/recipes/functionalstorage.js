@@ -17,6 +17,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'functionalstorage:puller_upgrade'})
   event.remove({id: 'functionalstorage:pusher_upgrade'})
   event.remove({id: 'functionalstorage:redstone_upgrade'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x1'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x2'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x4'})
 
 //
 })

@@ -115,11 +115,12 @@ ServerEvents.recipes(event => {
 
 // Material Grader
   event.shaped('silentgear:material_grader',
-    ['121','131','444'], {
+    ['121','131','454'], {
     1: 'industrialforegoing:plastic', 
     2: 'occultism:spirit_attuned_gem',
     3: 'occultism:otherstone',
-    4: 'emendatusenigmatica:iron_plate'}).id('silentgear:material_grader')
+    4: 'emendatusenigmatica:iron_plate',
+    5: 'botania:manasteel_ingot'}).id('silentgear:material_grader')
 
 // Crystalline Ingot
   event.shaped('silentcompat:crystalline_alloy',

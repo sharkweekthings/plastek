@@ -280,7 +280,5 @@
 	#Disable the Wolf pet (default:false)
 	disableWolf = false
 	#Disable Cloud Fly ability (default:false)
-	disableCloudFly = false
-	#Cow Pet Removes Levitation (default:false)
-	cowPetRemovesLevitation = false
+	disableCloudFly = true
 
