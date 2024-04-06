@@ -142,6 +142,7 @@
 		{
 			dependencies: ["380F35F18A82D30C"]
 			id: "07D4EBE8C300917B"
+			shape: "circle"
 			tasks: [{
 				id: "1888F0E5D925F035"
 				item: "mekanism:chemical_dissolution_chamber"
@@ -151,8 +152,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["07D4EBE8C300917B"]
+			dependencies: ["380F35F18A82D30C"]
 			id: "0864F6A749897598"
+			shape: "circle"
 			tasks: [{
 				id: "31CD5E163994A6EE"
 				item: "mekanism:chemical_washer"
@@ -162,8 +164,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0864F6A749897598"]
+			dependencies: ["380F35F18A82D30C"]
 			id: "61E3EBB6CE9858C8"
+			shape: "circle"
 			tasks: [{
 				id: "55CA5E31799AC242"
 				item: "mekanism:chemical_crystallizer"
@@ -616,10 +619,12 @@
 			dependencies: ["331C109ECCC53EFA"]
 			id: "767DE5E9115682D3"
 			tasks: [{
+				count: 36L
 				id: "1B99F6ADDA38A0A3"
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
+			title: "Reactor (Starter)"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -627,10 +632,12 @@
 			dependencies: ["2EDCBADA14989465"]
 			id: "0422EDAB49877CEA"
 			tasks: [{
+				count: 36L
 				id: "37082E7A94CB17D0"
 				item: "powah:reactor_hardened"
 				type: "item"
 			}]
+			title: "Reactor (Hardened)"
 			x: 6.5d
 			y: 3.0d
 		}
@@ -638,10 +645,12 @@
 			dependencies: ["52F3DBD70678F35F"]
 			id: "6B2D8F7067DB469A"
 			tasks: [{
+				count: 36L
 				id: "5681250627F06942"
 				item: "powah:reactor_blazing"
 				type: "item"
 			}]
+			title: "Reactor (Blazing)"
 			x: 9.0d
 			y: 3.0d
 		}
@@ -649,10 +658,12 @@
 			dependencies: ["15D6C9DA2DABF952"]
 			id: "029B722F91BFA54E"
 			tasks: [{
+				count: 36L
 				id: "6D198705BD7D70E5"
 				item: "powah:reactor_niotic"
 				type: "item"
 			}]
+			title: "Reactor (Niotic)"
 			x: 11.5d
 			y: 3.0d
 		}
@@ -660,10 +671,12 @@
 			dependencies: ["07058389A485CBF5"]
 			id: "772AF3DC81E0E465"
 			tasks: [{
+				count: 36L
 				id: "6F0C75DDAF6E622D"
 				item: "powah:reactor_spirited"
 				type: "item"
 			}]
+			title: "Reactor (Spirited)"
 			x: 14.0d
 			y: 3.0d
 		}
@@ -672,10 +685,12 @@
 			id: "1D9B83DE4E8D1DC3"
 			shape: "circle"
 			tasks: [{
+				count: 36L
 				id: "74B7CC54DD8EC888"
 				item: "powah:reactor_nitro"
 				type: "item"
 			}]
+			title: "Reactor (Nitro)"
 			x: 16.5d
 			y: 3.0d
 		}
@@ -707,10 +722,12 @@
 			dependencies: ["5892322BD60199FB"]
 			id: "040D4AE110344788"
 			tasks: [{
+				count: 36L
 				id: "4DC420F485F6A3A4"
 				item: "powah:reactor_basic"
 				type: "item"
 			}]
+			title: "Reactor (Basic)"
 			x: 4.0d
 			y: 3.0d
 		}

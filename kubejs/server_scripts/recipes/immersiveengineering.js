@@ -179,6 +179,13 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:iron_plate',
 	  2: 'create:fluid_pipe'}).id('immersiveengineering:crafting/fluid_pipe')
 
+// Fluid Pipe
+  event.shaped('4x immersiveengineering:radiator',
+    ['212','131','212'], {
+    1: 'emendatusenigmatica:copper_plate',
+	  2: 'immersiveengineering:sheetmetal_steel',
+    3: 'ad_astra:cryo_fuel_bucket'}).id('immersiveengineering:crafting/radiator')
+
 
 
 // Components Blueprint
