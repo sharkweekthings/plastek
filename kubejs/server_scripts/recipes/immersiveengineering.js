@@ -186,6 +186,14 @@ ServerEvents.recipes(event => {
 	  2: 'immersiveengineering:sheetmetal_steel',
     3: 'ad_astra:cryo_fuel_bucket'}).id('immersiveengineering:crafting/radiator')
 
+// Asphalt Concrete
+  event.shaped('8x immersivepetroleum:asphalt',
+    ['323','414','323'], {
+    1: 'minecraft:water_bucket',
+	  2: '#forge:bitumen',
+    3: 'immersiveengineering:concrete',
+    4: '#forge:gravel'}).id('immersivepetroleum:asphalt')
+
 
 
 // Components Blueprint

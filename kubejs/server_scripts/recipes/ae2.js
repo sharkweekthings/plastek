@@ -508,7 +508,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	}).id('megacells:cell_component_1m')
+	}).id('megacells:cells/cell_component_1m')
 
 // 4M ME Storage Component
 	event.custom({
@@ -545,7 +545,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	}).id('megacells:cell_component_4m')
+	}).id('megacells:cells/cell_component_4m')
 
 // 16M ME Storage Component
 	event.custom({
@@ -582,7 +582,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	}).id('megacells:cell_component_16m')
+	}).id('megacells:cells/cell_component_16m')
 
 // 64M ME Storage Component
 	event.custom({
@@ -619,7 +619,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	}).id('megacells:cell_component_64m')
+	}).id('megacells:cells/cell_component_64m')
 
 // 256M ME Storage Component
 	event.custom({
@@ -656,7 +656,7 @@ ServerEvents.recipes(event => {
 		},
 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
-	}).id('megacells:cell_component_256m')
+	}).id('megacells:cells/cell_component_256m')
 
 
 //    

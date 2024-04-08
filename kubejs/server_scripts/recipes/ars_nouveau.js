@@ -152,7 +152,7 @@ Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:enderman
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
   "output": {
-    "item": "emendatusenigmatica:weekonium_dust"
+    "item": "emendatusenigmatica:weekonium_ingot"
   },
   "pedestalItems": [
     {
