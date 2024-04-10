@@ -113,6 +113,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'emendatusenigmatica:dust/from_ore_crush_spell/weekonium_deepslate'})
   event.remove({id: 'thermal:furnace_706515847'})
   event.remove({id: 'thermal:furnace_706515847'})
+  event.remove({id: 'emendatusenigmatica:gear/from_ingot/steel'})
+  event.remove({id: 'emendatusenigmatica:gear/from_ingot/osmium'})
 
 //
 })
@@ -182,6 +184,24 @@ ServerEvents.recipes(event => {
   event.shaped('emendatusenigmatica:copper_rod',
     [' 1 ',' 1 ',' 1 '], {
     1: 'emendatusenigmatica:copper_plate'}).id('emendatusenigmatica:rod/from_ingot/copper')
+
+// Gold Gear
+  event.shaped('emendatusenigmatica:gold_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'minecraft:gold_ingot',
+    2: 'create:super_glue'}).id('emendatusenigmatica:gear/from_ingot/gold')
+
+// Diamond Gear
+  event.shaped('emendatusenigmatica:diamond_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'minecraft:diamond',
+    2: 'create:super_glue'}).id('emendatusenigmatica:gear/from_gem/diamond')
+
+// Iron Gear
+  event.shaped('emendatusenigmatica:iron_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'minecraft:iron_ingot',
+    2: 'create:super_glue'}).id('emendatusenigmatica:gear/from_ingot/iron')
 
 //    
 })

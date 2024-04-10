@@ -1,0 +1,16 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "immersiveengineering:ore_aluminum"
+  },
+  "result": [
+    {
+      "item": "emendatusenigmatica:aluminum_dust",
+      "chance": 1.0
+    },
+    {
+      "item": "emendatusenigmatica:aluminum_dust",
+      "chance": 0.15
+    }
+  ]
+}

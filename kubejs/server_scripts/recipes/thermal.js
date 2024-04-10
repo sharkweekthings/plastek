@@ -72,6 +72,10 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:red_concrete_powder_with_slag'})
   event.remove({id: 'thermal:black_concrete_powder_with_slag'})
   event.remove({id: 'thermal:earth_charge/ender_pearl_dust_from_ender_pearl'})
+  event.remove({id: 'thermal:parts/netherite_gear'})
+  event.remove({id: 'thermal:parts/emerald_gear'})
+  event.remove({id: 'thermal:parts/quartz_gear'})
+  event.remove({id: 'thermal:machines/press/press_netherite_to_gear'})
 
 //
 })
@@ -459,6 +463,95 @@ ServerEvents.recipes(event => {
   ],
   "energy": 12000
 }).id('botania:thermal_smelter_terrasteel_ingot')
+
+// Tyrian Steel
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "emendatusenigmatica:steel_ingot",
+      "count": 4
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "silentgear:tyrian_steel_ingot",
+      "chance": 0.7,
+      "count": 1
+    },
+    {
+      "item": "silentgear:tyrian_steel_ingot",
+      "chance": 0.3,
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}).id('silentgear:thermal_smelter_tyrian_steel_ingot')
+
+// Azure Silver
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "emendatusenigmatica:silver_ingot",
+      "count": 2
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 2
+    }
+  ],
+  "result": [
+    {
+      "item": "silentgear:azure_silver_ingot",
+      "chance": 0.7,
+      "count": 1
+    },
+    {
+      "item": "silentgear:azure_silver_ingot",
+      "chance": 0.3,
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}).id('silentgear:thermal_smelter_azure_silver_ingot')
+
+// Brass Ingot
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 1
+    },
+    {
+      "item": "emendatusenigmatica:zinc_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:brass_ingot",
+      "chance": 0.8,
+      "count": 1
+    },
+    {
+      "item": "emendatusenigmatica:brass_ingot",
+      "chance": 0.4,
+      "count": 1
+    },
+    {
+      "item": "emendatusenigmatica:brass_ingot",
+      "chance": 0.2,
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}).id('emendatusenigmatica:thermal_smelter_brass_ingot')
 
 // Cured Rubber
   event.custom({
@@ -899,6 +992,119 @@ ServerEvents.recipes(event => {
     }
   ]
 }).id('emendatusenigmatica:thermal_press_plasteel_gear')
+
+// Steel Plate
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "emendatusenigmatica:steel_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:steel_plate",
+      "count": 1
+    }
+  ]
+}).id('thermal:steel_plate_press')
+
+// Voidmetal Plate
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "silentcompat:voidmetal_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:voidmetal_plate",
+      "count": 1
+    }
+  ]
+}).id('thermal:voidmetal_plate_press')
+
+// Lumium Gear
+  event.shaped('emendatusenigmatica:lumium_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:lumium_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/lumium_gear')
+
+// Signalum Gear
+  event.shaped('emendatusenigmatica:signalum_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:signalum_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/signalum_gear')
+
+// Tin Gear
+  event.shaped('emendatusenigmatica:tin_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:tin_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/tin_gear')
+
+// Copper Gear
+  event.shaped('emendatusenigmatica:copper_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'minecraft:copper_ingot',
+    2: 'create:super_glue'}).id('emendatusenigmatica:gear/from_ingot/copper')
+
+// Invar Gear
+  event.shaped('emendatusenigmatica:invar_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:invar_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/invar_gear')
+
+// Nickel Gear
+  event.shaped('emendatusenigmatica:nickel_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:nickel_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/nickel_gear')
+
+// Constantan Gear
+  event.shaped('emendatusenigmatica:constantan_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:constantan_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/constantan_gear')
+
+// Lead Gear
+  event.shaped('emendatusenigmatica:lead_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:lead_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/lead_gear')
+
+// Bronze Gear
+  event.shaped('emendatusenigmatica:bronze_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:bronze_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/bronze_gear')
+
+// Silver Gear
+  event.shaped('emendatusenigmatica:silver_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:silver_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/silver_gear')
+
+// Lapis Gear
+  event.shaped('thermal:lapis_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'minecraft:lapis_lazuli',
+    2: 'create:super_glue'}).id('thermal:parts/lapis_gear')
+
+// Enderium Gear
+  event.shaped('thermal:enderium_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:enderium_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/enderium_gear')
+
+// Electrum Gear
+  event.shaped('thermal:electrum_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:electrum_ingot',
+    2: 'create:super_glue'}).id('thermal:parts/electrum_gear')
+
 
 // Replace Thermal Machine Frame w/ Industrial Foregoing
 event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','industrialforegoing:machine_frame_advanced')

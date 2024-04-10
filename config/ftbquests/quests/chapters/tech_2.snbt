@@ -53,15 +53,8 @@
 			id: "116360F62F2EB226"
 			subtitle: "Mix it real good"
 			tasks: [{
-				id: "620CFC76666B7908"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:concrete"
-					}
-				}
-				title: "Any #forge:concrete"
+				id: "5ADDAC593DA54245"
+				item: "immersiveengineering:concrete"
 				type: "item"
 			}]
 			title: "iConcrete"
@@ -100,7 +93,7 @@
 				}
 			]
 			x: -2.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -116,7 +109,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1002,7 +995,11 @@
 				"0A5AD933D56B927A"
 				"55868D112FDA7017"
 			]
-			description: ["With dusts of both Nether Quartz and Cinnabar, you can put that in a Create Mixer to make Tiny Dry Rubber."]
+			description: [
+				"With dusts of both Nether Quartz and Cinnabar, you can put that in a Create Mixer, with some water to make Tiny Dry Rubber."
+				""
+				"You can also use Fluid XP instead of water for a better result. "
+			]
 			id: "2B19664C9255178E"
 			tasks: [{
 				id: "47C9B0E4911A41F6"
@@ -1088,6 +1085,27 @@
 			title: "Mixing Construction Paste"
 			x: -4.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["116360F62F2EB226"]
+			id: "0F1BC2567F2AC2E5"
+			shape: "circle"
+			subtitle: "Colorful Concrete is for aesthetics only."
+			tasks: [{
+				id: "35BD3315567B070C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:concrete"
+					}
+				}
+				title: "Any #forge:concrete"
+				type: "item"
+			}]
+			title: "Colorful Concrete"
+			x: -5.5d
+			y: 4.0d
 		}
 	]
 	title: "Tech"

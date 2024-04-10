@@ -284,6 +284,9 @@ JEIEvents.hideItems(event => {
 	event.hide('thermal:creosote')
 	event.hide('thermal:creosote_bucket')
 	event.hide('thermal:creosote')
+	event.hide('thermal:netherite_gear')
+	event.hide('thermal:emerald_gear')
+	event.hide('thermal:quartz_gear')
 
 // RF TOOLS
 	event.hide('rftoolsbase:machine_frame')

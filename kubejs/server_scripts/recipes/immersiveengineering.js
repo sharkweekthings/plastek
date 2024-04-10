@@ -75,7 +75,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:metalpress/gear_plasteel'})
   event.remove({id: 'immersiveengineering:arcfurnace/raw_block_aluminum'})
   event.remove({id: 'immersiveengineering:crafting/blastbrick_reinforced'})
-
+  event.remove({id: 'immersiveengineering:metalpress/gear_steel'})
+  event.remove({id: 'immersiveengineering:metalpress/gear_osmium'})
 //
 })
 //
@@ -100,7 +101,7 @@ ServerEvents.recipes(event => {
     ['121','131','121'], {
     1: 'minecraft:clay_ball', 
     2: 'supplementaries:ash_brick',
-    3: '#forge:concrete'}).id('immersiveengineering:crafting/cokebrick')
+    3: 'immersiveengineering:concrete'}).id('immersiveengineering:crafting/cokebrick')
 
 // Blast Brick
   event.shaped('immersiveengineering:blastbrick',
@@ -108,7 +109,7 @@ ServerEvents.recipes(event => {
     1: 'minecraft:nether_brick', 
     2: 'supplementaries:ash_brick',
     3: 'ad_astra:desh_plate',
-    4: '#forge:concrete'}).id('immersiveengineering:crafting/blastbrick')
+    4: 'immersiveengineering:concrete'}).id('immersiveengineering:crafting/blastbrick')
 
 // Alloy Brick
   event.shaped('immersiveengineering:alloybrick',
@@ -116,7 +117,7 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:steel_block', 
     2: 'supplementaries:ash_brick',
     3: 'ad_astra:desh_plate',
-    4: '#forge:concrete'}).id('immersiveengineering:crafting/alloybrick')
+    4: 'immersiveengineering:concrete'}).id('immersiveengineering:crafting/alloybrick')
 
 // Engineers Workbench
   event.shaped('immersiveengineering:workbench',

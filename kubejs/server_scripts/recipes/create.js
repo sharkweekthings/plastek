@@ -650,6 +650,14 @@ event.custom({
   "heatRequirement": "none"
   }).id('create:mixing/tinydryrubber')
 
+// Tiny Dry Rubber 2
+event.custom({
+  "type": "create:mixing", "ingredients": [{"item": "thermal:quartz_dust","count": 1}, {"item": "emendatusenigmatica:cinnabar_dust","count": 1},
+  {"fluidTag": "forge:experience","amount": 200}],
+  "results": [{"item": "industrialforegoing:tinydryrubber","count": 2}],
+  "heatRequirement": "none"
+  }).id('create:mixing/tinydryrubber2')
+
 event.custom({
   "type": "create:pressing", "ingredients": [{"item": "industrialforegoing:dryrubber","count": 1}],
   "results": [{"item": "industrialforegoing:plastic"}]
