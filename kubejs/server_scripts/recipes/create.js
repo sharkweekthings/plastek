@@ -931,10 +931,6 @@ event.custom({
 event.custom({
   "type": "create:mixing", "ingredients": [
   {"item": "minecraft:sand","count": 1}, 
-  {"item": "minecraft:sand","count": 1}, 
-  {"item": "minecraft:sand","count": 1}, 
-  {"item": "minecraft:clay_ball","count": 1}, 
-  {"item": "minecraft:clay_ball","count": 1}, 
   {"item": "minecraft:clay_ball","count": 1}, 
   {"fluid": "minecraft:water","amount": 400}],
   "results": [{"item": "buildinggadgets:construction_paste", "count": 1}],
