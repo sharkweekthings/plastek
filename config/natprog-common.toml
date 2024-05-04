@@ -36,7 +36,7 @@
 	#Range: 1 ~ 100
 	boneShardKnappingChance = 75
 	#Setting this to true will make ground blocks (e.g. sand, dirt, gravel) harder to break without the correct tool.
-	makeGroundBlocksHarder = true
+	makeGroundBlocksHarder = false
 	#Setting this to true prevents the ability to use wooden tools, though you can still craft them for compatibility.
 	removeWoodenToolFunctionality = false
 

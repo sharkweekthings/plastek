@@ -973,6 +973,23 @@ ServerEvents.recipes(event => {
   ]
 }).id('thermal:plasteel_plate_press')
 
+// Brass Plate
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "emendatusenigmatica:brass_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:brass_plate",
+      "count": 1
+    }
+  ]
+}).id('thermal:brass_plate_press')
+
 // Plasteel Gear
   event.custom({
   "type": "thermal:press",
