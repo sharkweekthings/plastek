@@ -873,11 +873,11 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "AAAAA",
+    "IAHAI",
     "AGBGA",
-    "ACDEA",
+    "ICDEI",
     "AGFGA",
-    "AAAAA"
+    "IAHAI"
   ],
   "key": {
     "A": {
@@ -900,6 +900,12 @@ ServerEvents.recipes(event => {
     },
     "G": {
       "item": "emendatusenigmatica:plastim_dust"
+    },
+    "H": {
+      "item": "apotheosis:mythic_material"
+    },
+    "I": {
+      "item": "apotheosis:epic_material"
     }
   },
   "result": {

@@ -104,33 +104,36 @@ ServerEvents.recipes(event => {
 
 // Infusion Altar
   event.shaped('mysticalagriculture:infusion_altar',
-    ['4 4','242','131'], {
+    ['454','242','131'], {
     1: 'emendatusenigmatica:voidmetal_plate',
     2: 'emendatusenigmatica:gold_rod',
     3: 'compressium:stone_1',
-    4: 'emendatusenigmatica:gold_plate'}).id('mysticalagriculture:infusion_altar')
+    4: 'emendatusenigmatica:gold_plate',
+    5: 'apotheosis:epic_material'}).id('mysticalagriculture:infusion_altar')
 
 // Infusion Pedestal
   event.shaped('mysticalagriculture:infusion_pedestal',
-    ['232',' 3 ',' 1 '], {
+    ['232','434','414'], {
     1: 'emendatusenigmatica:voidmetal_plate',
     2: 'emendatusenigmatica:gold_plate',
-    3: 'compressium:stone_1'}).id('mysticalagriculture:infusion_pedestal')
+    3: 'compressium:stone_1',
+    4: 'apotheosis:rare_material'}).id('mysticalagriculture:infusion_pedestal')
 
 // Awakening Altar
   event.shaped('mysticalagriculture:awakening_altar',
-    ['444',' 3 ','212'], {
+    ['454','434','212'], {
     1: 'mysticalagriculture:infusion_altar',
     2: 'mysticalagriculture:soulstone',
     3: 'compressium:redsand_1',
-    4: 'emendatusenigmatica:signalum_plate'}).id('mysticalagriculture:awakening_altar')
+    4: 'emendatusenigmatica:signalum_plate',
+    5: 'apotheosis:mythic_material'}).id('mysticalagriculture:awakening_altar')
 
 // Infusion Pedestal
   event.shaped('mysticalagriculture:awakening_pedestal',
     ['434',' 1 ',' 2 '], {
     1: 'mysticalagriculture:infusion_pedestal',
     2: 'mysticalagriculture:soulstone',
-    3: 'compressium:redsand_1',
+    3: 'apotheosis:mythic_material',
     4: 'emendatusenigmatica:signalum_plate'}).id('mysticalagriculture:awakening_pedestal')
 
 // Essence Vessel
@@ -172,6 +175,13 @@ ServerEvents.recipes(event => {
     2: 'mysticalagriculture:inferium_gemstone',
     3: 'mysticalagriculture:inferium_ingot',
     4: 'ars_nouveau:magebloom_fiber'}).id('mysticalagriculture:inferium_boots')
+
+// Master Infusion Crystal
+  event.shaped('mysticalagriculture:master_infusion_crystal',
+    ['323','212','323'], {
+    1: 'mysticalagriculture:supremium_gemstone',
+    2: 'apotheosis:mythic_material',
+    3: 'mysticalagriculture:supremium_essence'}).id('mysticalagriculture:master_infusion_crystal')
 
 // Replace Mystical Agri w/ Industrial Foregoing
 event.replaceInput({ input: 'mysticalagriculture:machine_frame' },'mysticalagriculture:machine_frame','industrialforegoing:machine_frame_advanced')

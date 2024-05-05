@@ -351,6 +351,18 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "6D7FE4451440EC40"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:twilight/forest"
+							rarity: "ancient"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [

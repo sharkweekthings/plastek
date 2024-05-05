@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["7AC83CDC6A5DBAA8"]
-			description: ["Generates Source through crops simply growing within a large range."]
+			description: ["Generates Source through crop growth within a 15 block radius."]
 			id: "35C7D310EA2061BA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -583,6 +583,160 @@
 			}]
 			x: 2.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3B52E0D0ABA63E2A"]
+			id: "25FAF59C9373315D"
+			shape: "circle"
+			subtitle: "Ars: Part 5"
+			tasks: [{
+				id: "31515FC36281028E"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "I Dream of Drygmy"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25FAF59C9373315D"]
+			id: "4137EBE85377446B"
+			shape: "circle"
+			tasks: [{
+				id: "2B714C61ED65CE1D"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25FAF59C9373315D"]
+			id: "2899F2A718593108"
+			shape: "circle"
+			tasks: [{
+				id: "68DA7028E8CBDE79"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25FAF59C9373315D"]
+			id: "092C984F01559489"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2278A7EA084FAE43"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "424B1291DE01CB76"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+			]
+			title: "Containment Essentials"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"092C984F01559489"
+				"2899F2A718593108"
+			]
+			description: [
+				"- Place down your Ritual Brazier next to a jar filled with Source."
+				""
+				"- Place down a few Containment Jars near the Brazier."
+				""
+				"- Click the Tablet of Containment onto the Ritual Brazier. It should say: '&oTablet of Containment Awaiting Activation&r'"
+				""
+				"- Clicking the Brazier again with your hands will switch it to 'Running'"
+				""
+				"- If a mob comes within the vicinity of the ritual, it will be contained in a jar. "
+				""
+				"&oLegend says if you kill mobs inside the Twilight Forest there is a chance you will find a Gem of the Twilight Forest. This gem has a small chance to spawn a &aTreasure Goblin&r. &oYou can also get one as a reward for completing the &2Twilight Forest&r.&r"
+			]
+			id: "64A4B07FB6C8FD2F"
+			shape: "circle"
+			tasks: [{
+				id: "4C087A9064A3F97E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Containment Ritual"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4137EBE85377446B"]
+			id: "50582A3763F2CE8E"
+			shape: "circle"
+			tasks: [{
+				id: "5AC00807BF95A633"
+				item: "minecraft:mossy_cobblestone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4137EBE85377446B"]
+			id: "0B6D7121C3E7C845"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5BD71AEBFECB0E99"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "0E511B65F5BD865D"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+			]
+			title: "A Little Automation"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"50582A3763F2CE8E"
+				"0B6D7121C3E7C845"
+			]
+			description: [
+				"- Place down a Mossy Cobblestone."
+				""
+				"- Place a jar filled with Source next to the Mossy Cobblestone."
+				""
+				"- Place a Chest or Barrel next to the the Mossy Cobblestone."
+				""
+				"- Click the Mossy Cobblestone with the Drygmy Charm to convert it into a Drygmy Henge."
+				""
+				"- Place down your Containment Jar filled with a mob nearby."
+				""
+				"- Place down a Salvaging Table from Apotheosis."
+				""
+				"- Using whatever pipes you want, pipe items out of the Chest or Barrel, and into the Salvaging Table. "
+				""
+				"- Add a secondary filter that pipes unwanted items into a trash can, or route them into a different storage to keep the process moving."
+				""
+				"&o&aWhile this is an optional contraption, if you plan on doing Age 7 this farm paired with a Treasure Goblin or other mobs should help make sure you have some necessary materials.&r&r"
+			]
+			id: "2EF3DFFBCD48C37D"
+			shape: "circle"
+			tasks: [{
+				id: "28D60C0A641DB51F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Drygmy Farmville"
+			x: -1.5d
+			y: -6.0d
 		}
 	]
 	title: "Magic"
