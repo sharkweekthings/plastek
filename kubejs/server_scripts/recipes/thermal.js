@@ -1010,6 +1010,26 @@ ServerEvents.recipes(event => {
   ]
 }).id('emendatusenigmatica:thermal_press_plasteel_gear')
 
+// Diamond Gear
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diamond",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_gear_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:diamond_gear",
+      "count": 1
+    }
+  ]
+}).id('emendatusenigmatica:thermal_press_diamond_gear')
+
 // Steel Plate
   event.custom({
   "type": "thermal:press",
