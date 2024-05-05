@@ -265,6 +265,127 @@ ServerEvents.recipes(event => {
     4: 'silentcompat:arcmetal_nugget',
     5: 'immersivepetroleum:petcoke_dust'}).id('pneumaticcraft:pressure_chamber/transistor')
 
+// Pneumatic Helmet
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "pneumaticcraft:air_canister",
+      "count": 1,
+      "nbt": "{\"pneumaticcraft:air\":30000}"
+    },
+    "D": {
+      "item": "pneumaticcraft:compressed_iron_helmet"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_helmet"
+  }
+}).id('pneumaticcraft:pneumatic_helmet')
+
+// Pneumatic Chestplate
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "pneumaticcraft:air_canister",
+      "count": 1,
+      "nbt": "{\"pneumaticcraft:air\":30000}"
+    },
+    "D": {
+      "item": "pneumaticcraft:compressed_iron_chestplate"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_chestplate"
+  }
+}).id('pneumaticcraft:pneumatic_chestplate')
+
+// Pneumatic Leggings
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "pneumaticcraft:air_canister",
+      "count": 1,
+      "nbt": "{\"pneumaticcraft:air\":30000}"
+    },
+    "D": {
+      "item": "pneumaticcraft:compressed_iron_leggings"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_leggings"
+  }
+}).id('pneumaticcraft:pneumatic_leggings')
+
+// Pneumatic Boots
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "pneumaticcraft:air_canister",
+      "count": 1,
+      "nbt": "{\"pneumaticcraft:air\":30000}"
+    },
+    "D": {
+      "item": "pneumaticcraft:compressed_iron_boots"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_boots"
+  }
+}).id('pneumaticcraft:pneumatic_boots')
+
+
 // Pneumatic Craft - Plastic
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
@@ -281,6 +402,8 @@ ServerEvents.recipes(event => {
           "pressure": 2.0, 
           "results": [{"item": "pneumaticcraft:plastic"}]
 }).id('pneumaticcraft:pressure_chamber_plastic')
+
+
 
 // Plastim Dust
   event.custom({
