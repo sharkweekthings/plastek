@@ -67,7 +67,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0492055978020330"]
+			dependencies: ["4A56A6C0FACF11EA"]
 			description: [
 				"One of the most powerful metals in the world. Copper. Copper..... "
 				""
@@ -86,7 +86,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 9.5d
 			y: -1.0d
 		}
 		{
@@ -311,7 +311,7 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -330,7 +330,7 @@
 				}
 			]
 			title: "Smoosh Em Together"
-			x: 3.5d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -366,7 +366,7 @@
 				}
 			]
 			title: "This Stuff Is So Heavy"
-			x: 8.0d
+			x: 11.0d
 			y: -1.5d
 		}
 		{
@@ -378,7 +378,7 @@
 				type: "item"
 			}]
 			title: "Crude Alloyer"
-			x: 9.5d
+			x: 12.5d
 			y: -1.5d
 		}
 		{
@@ -396,7 +396,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 12.5d
 			y: -6.5d
 		}
 		{
@@ -407,7 +407,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: -5.0d
 		}
 		{
@@ -418,7 +418,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -461,7 +461,7 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -6.5d
 		}
 		{
@@ -472,7 +472,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -8.0d
 		}
 		{
@@ -485,7 +485,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -5.0d
 		}
 		{
@@ -524,7 +524,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 14.5d
 			y: -6.5d
 		}
 		{
@@ -542,7 +542,7 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.0d
 			y: -5.0d
 		}
 		{
@@ -553,7 +553,7 @@
 				item: "emendatusenigmatica:iron_rod"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 14.5d
 			y: -5.0d
 		}
 		{
@@ -564,7 +564,7 @@
 				item: "emendatusenigmatica:iron_plate"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 14.5d
 			y: -8.0d
 		}
 		{
@@ -638,11 +638,11 @@
 				type: "item"
 			}]
 			title: "Sterling Silver"
-			x: 9.5d
+			x: 12.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["0492055978020330"]
+			dependencies: ["4A56A6C0FACF11EA"]
 			description: [
 				"So here you are. You've dug around. You probably noticed a lack of Gold and other resources in the Overworld. Don't worry, they are out there, and you're about to find out exactly where you need to bee. "
 				""
@@ -661,7 +661,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -672,7 +672,7 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -8.5d
 		}
 		{
@@ -747,7 +747,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -813,6 +813,130 @@
 			title: "The Brawny Man"
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["79096AD88ECD2A39"]
+			description: ["Until you get to a later age, the Melter, and Smeltery will be the only way to make ingots. "]
+			id: "4A56A6C0FACF11EA"
+			rewards: [{
+				count: 32
+				id: "366179C74E8C6FDC"
+				item: "tconstruct:ingot_sand_cast"
+				random_bonus: 32
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6713D7468E17526F"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "7D3CFA8278EA0D5E"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "2B0BD7B927A9C6F4"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "28552678DEFE8F34"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			title: "The ..Meltery"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FFCDB35F97F22CC"]
+			description: ["You'll probably have a bad time if you don't make this.."]
+			id: "2E492D0ADE821FE0"
+			shape: "circle"
+			subtitle: "It's totally optional"
+			tasks: [{
+				id: "49F693E2E9E36E36"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["357963E0D7FB0176"]
+			id: "79096AD88ECD2A39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44A71EEFAA0946E7"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1B8B71F508AB3112"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FCBB48C6F9A8E03"]
+			id: "7BF76498DE7536C5"
+			shape: "circle"
+			tasks: [{
+				id: "7F6620BDEE85291D"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			id: "357963E0D7FB0176"
+			tasks: [{
+				id: "38E99F334E3B9768"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BF76498DE7536C5"]
+			description: [
+				"The max size of the Smeltery is 16x16x65 external, or 14x14x64 internal."
+				""
+				"Be sure to look at the \"Structure Requirements\" page of the Mighty Smelting book to learn how to construct your Smeltery!"
+			]
+			id: "2855CCD06EBCDF44"
+			shape: "circle"
+			subtitle: "Upgrades!!"
+			tasks: [
+				{
+					id: "71BDD73D78023268"
+					item: {
+						Count: 1b
+						id: "tconstruct:smeltery_controller"
+						tag: {
+							texture: "tconstruct:seared_stone"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22B0B18C74325387"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+			]
+			title: "The Smeltery!"
+			x: 12.5d
+			y: -9.5d
 		}
 	]
 	title: "Tech"

@@ -1107,6 +1107,38 @@
 			x: -5.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["7C43A90AB79EE944"]
+			description: ["With a Tinker's Foundry you can store molten metals without them alloying. "]
+			id: "76F549124C90EE74"
+			shape: "circle"
+			tasks: [{
+				id: "21A1A9F59D037F52"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76F549124C90EE74"]
+			description: ["To make Scorched Brick you'll need to throw some Nether Grout into the Smeltery."]
+			id: "3169B7557DB2876A"
+			shape: "circle"
+			tasks: [{
+				id: "7BF68D40A153B179"
+				item: {
+					Count: 1b
+					id: "tconstruct:foundry_controller"
+					tag: {
+						texture: "tconstruct:scorched_stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
 	]
 	title: "Tech"
 }

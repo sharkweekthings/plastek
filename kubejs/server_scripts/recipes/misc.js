@@ -173,6 +173,53 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
   event.remove({id: 'deeperdarker:warden_sword_smithing'})
   event.remove({id: 'tiab:time_in_a_bottle'})
+  event.remove({id: 'tconstruct:small_axe_head_sand_cast'})
+  event.remove({id: 'tconstruct:broad_axe_head_red_sand_cast'})
+  event.remove({id: 'tconstruct:wire_sand_cast'})
+  event.remove({id: 'tconstruct:rod_red_sand_cast'})
+  event.remove({id: 'tconstruct:rod_sand_cast'})
+  event.remove({id: 'tconstruct:bow_grip_red_sand_cast'})
+  event.remove({id: 'tconstruct:round_plate_red_sand_cast'})
+  event.remove({id: 'tconstruct:small_axe_head_red_sand_cast'})
+  event.remove({id: 'tconstruct:broad_blade_red_sand_cast'})
+  event.remove({id: 'tconstruct:large_plate_red_sand_cast'})
+  event.remove({id: 'tconstruct:gem_red_sand_cast'})
+  event.remove({id: 'tconstruct:coin_red_sand_cast'})
+  event.remove({id: 'tconstruct:tool_handle_sand_cast'})
+  event.remove({id: 'tconstruct:blank_sand_cast'})
+  event.remove({id: 'tconstruct:repair_kit_red_sand_cast'})
+  event.remove({id: 'tconstruct:nugget_red_sand_cast'})
+  event.remove({id: 'tconstruct:tool_binding_sand_cast'})
+  event.remove({id: 'tconstruct:plate_red_sand_cast'})
+  event.remove({id: 'tconstruct:bow_grip_sand_cast'})
+  event.remove({id: 'tconstruct:tough_handle_sand_cast'})
+  event.remove({id: 'tconstruct:hammer_head_sand_cast'})
+  event.remove({id: 'tconstruct:round_plate_sand_cast'})
+  event.remove({id: 'tconstruct:coin_sand_cast'})
+  event.remove({id: 'tconstruct:pick_head_red_sand_cast'})
+  event.remove({id: 'tconstruct:blank_red_sand_cast'})
+  event.remove({id: 'tconstruct:tool_handle_red_sand_cast'})
+  event.remove({id: 'tconstruct:gear_sand_cast'})
+  event.remove({id: 'tconstruct:pick_head_sand_cast'})
+  event.remove({id: 'tconstruct:bow_limb_sand_cast'})
+  event.remove({id: 'tconstruct:bow_limb_red_sand_cast'})
+  event.remove({id: 'tconstruct:repair_kit_sand_cast'})
+  event.remove({id: 'tconstruct:broad_blade_sand_cast'})
+  event.remove({id: 'tconstruct:broad_axe_head_sand_cast'})
+  event.remove({id: 'tconstruct:hammer_head_red_sand_cast'})
+  event.remove({id: 'tconstruct:tool_binding_red_sand_cast'})
+  event.remove({id: 'tconstruct:tough_handle_red_sand_cast'})
+  event.remove({id: 'tconstruct:small_blade_red_sand_cast'})
+  event.remove({id: 'tconstruct:gem_sand_cast'})
+  event.remove({id: 'tconstruct:nugget_sand_cast'})
+  event.remove({id: 'tconstruct:gear_red_sand_cast'})
+  event.remove({id: 'tconstruct:plate_sand_cast'})
+  event.remove({id: 'tconstruct:large_plate_sand_cast'})
+  event.remove({id: 'tconstruct:wire_red_sand_cast'})
+  event.remove({id: 'tconstruct:small_blade_sand_cast'})
+  event.remove({id: 'tconstruct:smeltery/casting/scorched/brick_composite'})
+  event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
+  // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
 //
 })
@@ -1146,6 +1193,29 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     4: '#minecraft:planks',
     5: 'minecraft:iron_axe'}).id('chipped:benches/carpenters_table')
 
+// Seared Melter
+  event.shaped('tconstruct:seared_melter',
+    [' 2 ','131','111'], {
+    1: 'tconstruct:seared_brick',
+    2: '#tconstruct:seared_tanks',
+    3: 'minecraft:furnace'}).id('tconstruct:smeltery/seared/melter')
+
+// Smeltery Controller
+  event.shaped('tconstruct:smeltery_controller',
+    ['333','121','343'], {
+    1: 'create:andesite_alloy',
+    2: 'tconstruct:seared_melter',
+    3: 'tconstruct:seared_brick',
+    4: 'emendatusenigmatica:iron_plate'}).id('tconstruct:smeltery/casting/seared/smeltery_controller')
+
+// Foundry Controller
+  event.shaped('tconstruct:foundry_controller',
+    ['333','121','343'], {
+    1: 'industrialforegoing:plastic',
+    2: 'tconstruct:seared_melter',
+    3: 'tconstruct:scorched_brick',
+    4: 'tconstruct:cobalt_ingot'}).id('tconstruct:smeltery/casting/scorched/foundry_controller')
+
 // Meta Pet
   event.custom({
   "result": {
@@ -1166,6 +1236,9 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     }
   }
 }).id('inventorypets:meta_pet')
+
+// Seared Brick
+event.smelting('tconstruct:seared_brick', 'tconstruct:grout')
 
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')
