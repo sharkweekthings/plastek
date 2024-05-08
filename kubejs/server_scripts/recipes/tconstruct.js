@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'tconstruct:nugget_cast'})
 	event.remove({id: 'tconstruct:small_blade_cast'})
 	event.remove({id: 'tconstruct:gem_cast'})
-	event.remove({id: 'tconstruct:tool_handle_cast}'})
+	event.remove({id: 'tconstruct:tool_handle_cast'})
 	event.remove({id: 'tconstruct:plate_cast'})
 	event.remove({id: 'tconstruct:repair_kit_cast'})
 	event.remove({id: 'tconstruct:gear_cast'})
