@@ -86,7 +86,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -311,7 +311,7 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -330,7 +330,7 @@
 				}
 			]
 			title: "Smoosh Em Together"
-			x: 2.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -338,10 +338,8 @@
 				"4FFCDB35F97F22CC"
 				"29ABB78197853F7B"
 			]
-			description: ["Just make a new one. The Crude Alloyer isn't a replacement for any furnace, and has very limited usages."]
 			icon: "compressium:andesite_2"
 			id: "5F9650322884CAF2"
-			subtitle: "Don't use your current furnace!"
 			tasks: [
 				{
 					count: 7L
@@ -366,11 +364,12 @@
 				}
 			]
 			title: "This Stuff Is So Heavy"
-			x: 11.0d
+			x: 12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5F9650322884CAF2"]
+			description: ["The Crude Alloyer isn't a replacement for any furnace, and has very limited usages."]
 			id: "275A35DE022B722D"
 			tasks: [{
 				id: "062BC1DDDDF4B155"
@@ -378,7 +377,7 @@
 				type: "item"
 			}]
 			title: "Crude Alloyer"
-			x: 12.5d
+			x: 13.5d
 			y: -1.5d
 		}
 		{
@@ -396,7 +395,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.5d
 			y: -6.5d
 		}
 		{
@@ -407,7 +406,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -5.0d
 		}
 		{
@@ -418,7 +417,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -8.0d
 		}
 		{
@@ -461,7 +460,7 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -6.5d
 		}
 		{
@@ -472,7 +471,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -8.0d
 		}
 		{
@@ -485,7 +484,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -5.0d
 		}
 		{
@@ -524,7 +523,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: -6.5d
 		}
 		{
@@ -542,7 +541,7 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.0d
 			y: -5.0d
 		}
 		{
@@ -553,7 +552,7 @@
 				item: "emendatusenigmatica:iron_rod"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: -5.0d
 		}
 		{
@@ -564,7 +563,7 @@
 				item: "emendatusenigmatica:iron_plate"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: -8.0d
 		}
 		{
@@ -638,7 +637,7 @@
 				type: "item"
 			}]
 			title: "Sterling Silver"
-			x: 12.5d
+			x: 13.5d
 			y: -4.0d
 		}
 		{
@@ -661,7 +660,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -672,7 +671,7 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -8.5d
 		}
 		{
@@ -726,7 +725,7 @@
 		}
 		{
 			dependencies: ["0492055978020330"]
-			description: ["By constructing a Bellows, placing it behind a Furnace, and activating it with a Lever, you can speed up the time it takes to smelt items!"]
+			description: ["By constructing a Bellows, placing it behind a Furnace, and activating it with a Lever, you can speed up the time it takes to process items!"]
 			id: "06F684BEEA458789"
 			rewards: [{
 				count: 5
@@ -747,7 +746,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -819,10 +818,9 @@
 			description: ["Until you get to a later age, the Melter, and Smeltery will be the only way to make ingots. "]
 			id: "4A56A6C0FACF11EA"
 			rewards: [{
-				count: 32
 				id: "366179C74E8C6FDC"
 				item: "tconstruct:ingot_sand_cast"
-				random_bonus: 32
+				random_bonus: 14
 				type: "item"
 			}]
 			tasks: [
@@ -848,25 +846,34 @@
 				}
 			]
 			title: "The ..Meltery"
-			x: 8.0d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4FFCDB35F97F22CC"]
-			description: ["You'll probably have a bad time if you don't make this.."]
+			description: ["You'll probably have a bad time if you don't make the ingot cast."]
 			id: "2E492D0ADE821FE0"
 			shape: "circle"
 			subtitle: "It's totally optional"
-			tasks: [{
-				id: "49F693E2E9E36E36"
-				item: "tconstruct:ingot_cast"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -3.5d
+			tasks: [
+				{
+					id: "49F693E2E9E36E36"
+					item: "tconstruct:ingot_cast"
+					type: "item"
+				}
+				{
+					id: "2F353223246B9B1E"
+					item: "tconstruct:nugget_cast"
+					type: "item"
+				}
+			]
+			title: "Ingot and Nugget Casts"
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["357963E0D7FB0176"]
+			description: ["To get yourself some Seared Brick you'll need to make some Grout and put it in a Furnace."]
 			id: "79096AD88ECD2A39"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -880,7 +887,7 @@
 				item: "tconstruct:seared_brick"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -892,7 +899,7 @@
 				item: "tconstruct:mighty_smelting"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.5d
 			y: -8.0d
 		}
 		{
@@ -903,7 +910,7 @@
 				item: "tconstruct:puny_smelting"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -935,8 +942,28 @@
 				}
 			]
 			title: "The Smeltery!"
-			x: 12.5d
+			x: 13.5d
 			y: -9.5d
+		}
+		{
+			dependencies: ["79096AD88ECD2A39"]
+			description: ["This here is like a Crafting Table, except you can leave items on it. "]
+			id: "785962FF4878BBD3"
+			shape: "circle"
+			subtitle: "It's just better."
+			tasks: [{
+				id: "235989DAF056B75C"
+				item: {
+					Count: 1b
+					id: "tconstruct:crafting_station"
+					tag: {
+						texture: "minecraft:dark_oak_log"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
 		}
 	]
 	title: "Tech"

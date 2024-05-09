@@ -195,7 +195,7 @@
 
   // Deepslate Redstone
     event.addOre(ore => {
-      ore.id = 'kubejs:deepslate_redstone_ore_gen_nth'
+      ore.id = 'kubejs:_ore_gen_nth'
       ore.biomes = '#kubejs:nether_gen'
       ore.addTarget('minecraft:netherrack', 'minecraft:deepslate_redstone_ore') 
       ore.count([8, 22])
@@ -203,6 +203,20 @@
         .triangleHeight(
           anchors.absolute(10),
           anchors.absolute(28)
+        )
+      ore.size = 5
+    })
+
+  // Cobalt Ore
+    event.addOre(ore => {
+      ore.id = 'kubejs:cobalt_ore_gen_nth'
+      ore.biomes = '#kubejs:nether_gen'
+      ore.addTarget('minecraft:netherrack', 'tconstruct:cobalt_ore') 
+      ore.count([10, 20])
+        .squared()
+        .triangleHeight(
+          anchors.absolute(0),
+          anchors.absolute(189)
         )
       ore.size = 5
     })

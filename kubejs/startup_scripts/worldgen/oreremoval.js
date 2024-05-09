@@ -281,3 +281,14 @@ WorldgenEvents.remove(event => {
         ]
     );
 });
+
+// TINKERS
+WorldgenEvents.remove(event => {
+    event.removeFeatureById(
+        'underground_decoration', 
+        [
+    "tconstruct:cobalt_ore_small",
+    "tconstruct:cobalt_ore_large"
+        ]
+    );
+});

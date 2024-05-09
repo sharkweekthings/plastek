@@ -76,6 +76,10 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:parts/emerald_gear'})
   event.remove({id: 'thermal:parts/quartz_gear'})
   event.remove({id: 'thermal:machines/press/press_netherite_to_gear'})
+  event.remove({id: 'thermal:fire_charge/lumium_ingot_4'})
+  event.remove({id: 'thermal:fire_charge/enderium_ingot_2'})
+  event.remove({id: 'thermal:fire_charge/bronze_ingot_4'})
+  event.remove({id: 'thermal:fire_charge/signalum_ingot_4'})
 
 //
 })

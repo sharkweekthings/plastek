@@ -6,12 +6,16 @@
     },
     "w": {
       "tag": "minecraft:logs"
+    },
+    "x": {
+      "item": "tconstruct:seared_brick"
     }
   },
   "match_all": false,
   "pattern": [
-    "p",
-    "w"
+    "xpx",
+    "xwx",
+    "xxx"
   ],
   "result": {
     "item": "tconstruct:crafting_station"

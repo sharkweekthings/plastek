@@ -736,6 +736,147 @@
 			x: -0.5d
 			y: 0.0d
 		}
+		{
+			id: "17CDAD1480ACD566"
+			shape: "circle"
+			tasks: [{
+				id: "01C1B1AC62EB659D"
+				item: {
+					Count: 1b
+					id: "tconstruct:tinker_station"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "1B6992FF260D94B6"
+			shape: "circle"
+			tasks: [{
+				id: "631CFA14B8C4D79D"
+				item: {
+					Count: 1b
+					id: "tconstruct:part_builder"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "19A54E5E44101072"
+			shape: "circle"
+			tasks: [{
+				id: "40C6ACB426A4A357"
+				item: {
+					Count: 1b
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "immersiveengineering:storage_steel"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "0838EFEBF40A49F7"
+			shape: "circle"
+			tasks: [{
+				id: "1E34BAA08C9A5B72"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "5EB2B2A2A093E648"
+			tasks: [
+				{
+					id: "70193D030F7ADD32"
+					item: "kubejs:broad_axe_head_steel_cast"
+					type: "item"
+				}
+				{
+					id: "02813708BBD0C8C8"
+					item: "kubejs:broad_blade_steel_cast"
+					type: "item"
+				}
+				{
+					id: "2788D8BFB1DE9EF7"
+					item: "kubejs:hammer_head_steel_cast"
+					type: "item"
+				}
+				{
+					id: "5A28D8ABB20BDF4E"
+					item: "kubejs:large_plate_steel_cast"
+					type: "item"
+				}
+				{
+					id: "7B9E4EC347A60E45"
+					item: "kubejs:tough_tool_handle_steel_cast"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "5119E99078384A17"
+			tasks: [
+				{
+					id: "4CC0E2A78F3EE51B"
+					item: "kubejs:small_blade_steel_cast"
+					type: "item"
+				}
+				{
+					id: "636B142B79C4559D"
+					item: "kubejs:small_axe_head_steel_cast"
+					type: "item"
+				}
+				{
+					id: "34F78406ABD0FBE1"
+					item: "kubejs:pick_head_steel_cast"
+					type: "item"
+				}
+				{
+					id: "3E79C2C4BDA3EEDB"
+					item: "kubejs:round_plate_steel_cast"
+					type: "item"
+				}
+				{
+					id: "09C1F785E976FF52"
+					item: "kubejs:bow_grip_steel_cast"
+					type: "item"
+				}
+				{
+					id: "7CA416AB4927A7EF"
+					item: "kubejs:bow_limb_steel_cast"
+					type: "item"
+				}
+				{
+					id: "516C895504F3B464"
+					item: "kubejs:tool_binding_steel_cast"
+					type: "item"
+				}
+				{
+					id: "426F820271C57D42"
+					item: "kubejs:tool_handle_steel_cast"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
 	]
 	title: "Utility"
 }

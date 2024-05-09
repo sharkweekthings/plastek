@@ -802,7 +802,7 @@
 				type: "item"
 			}]
 			title: "Dimensional Shard Ore"
-			x: -4.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -902,7 +902,7 @@
 				type: "item"
 			}]
 			title: "Nether Quartz Ore"
-			x: -1.0d
+			x: -1.5d
 			y: -5.5d
 		}
 		{
@@ -1102,7 +1102,7 @@
 				type: "item"
 			}]
 			title: "Niter Ore"
-			x: 0.0d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -1307,7 +1307,7 @@
 				type: "item"
 			}]
 			title: "Dragonstore Ore"
-			x: -3.0d
+			x: -3.5d
 			y: -5.5d
 		}
 		{
@@ -1353,7 +1353,7 @@
 				type: "item"
 			}]
 			title: "Fluix Ore"
-			x: -2.0d
+			x: -2.5d
 			y: -5.5d
 		}
 		{
@@ -1418,7 +1418,7 @@
 				type: "item"
 			}]
 			title: "Certus Quartz Ore"
-			x: -5.0d
+			x: -5.5d
 			y: -5.5d
 		}
 		{
@@ -1441,7 +1441,7 @@
 				type: "item"
 			}]
 			title: "Source Ore"
-			x: 1.0d
+			x: 0.5d
 			y: -5.5d
 		}
 		{
@@ -1721,7 +1721,7 @@
 				item: "emendatusenigmatica:charged_certus_quartz_mercury_stone_ore"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -1740,6 +1740,23 @@
 			}]
 			x: 2.5d
 			y: -2.0d
+		}
+		{
+			description: [
+				"&c&nNETHER&r&r"
+				""
+				"Y - 1"
+				"Y - 189"
+			]
+			id: "584093A48E2B5EDE"
+			shape: "circle"
+			tasks: [{
+				id: "3D3B1A29F42669AF"
+				item: "tconstruct:cobalt_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
 		}
 	]
 	title: "Ore Generation"

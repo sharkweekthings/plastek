@@ -486,7 +486,6 @@ JEIEvents.hideItems(event => {
 	event.hide('tconstruct:large_plate_sand_cast')
 	event.hide('tconstruct:wire_red_sand_cast')
 	event.hide('tconstruct:small_blade_sand_cast')
-	event.hide('tconstruct:nugget_cast')
 	event.hide('tconstruct:small_blade_cast')
 	event.hide('tconstruct:gem_cast')
 	event.hide('tconstruct:tool_handle_cast')

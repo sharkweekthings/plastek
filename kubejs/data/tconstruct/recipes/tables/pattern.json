@@ -6,14 +6,18 @@
     },
     "s": {
       "tag": "forge:rods/wooden"
+    },
+    "x": {
+      "item": "pneumaticcraft:plastic"
     }
   },
   "pattern": [
-    "ps",
-    "sp"
+    "psp",
+    "sxs",
+    "psp"
   ],
   "result": {
-    "count": 3,
+    "count": 2,
     "item": "tconstruct:pattern"
   }
 }

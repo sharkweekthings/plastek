@@ -51,7 +51,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'tconstruct:large_plate_sand_cast'})
   event.remove({id: 'tconstruct:wire_red_sand_cast'})
   event.remove({id: 'tconstruct:small_blade_sand_cast'})
-  event.remove({id: 'tconstruct:nugget_cast'})
 	event.remove({id: 'tconstruct:small_blade_cast'})
 	event.remove({id: 'tconstruct:gem_cast'})
 	event.remove({id: 'tconstruct:tool_handle_cast'})

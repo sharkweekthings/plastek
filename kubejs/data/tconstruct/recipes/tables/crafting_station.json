@@ -17,11 +17,15 @@
       "subtracted": {
         "item": "tconstruct:crafting_station"
       }
+    },
+    "x": {
+      "item": "tconstruct:seared_brick"
     }
   },
   "pattern": [
-    "p",
-    "w"
+    "xpx",
+    "xwx",
+    "xxx"
   ],
   "result": {
     "item": "tconstruct:crafting_station"
