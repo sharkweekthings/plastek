@@ -1002,7 +1002,6 @@
 				item: "productivebees:honey_treat"
 				type: "item"
 			}]
-			subtitle: "And bees dumb jokes..."
 			tasks: [{
 				id: "782380F199DE97DC"
 				title: "Ok"

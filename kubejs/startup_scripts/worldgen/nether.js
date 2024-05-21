@@ -212,13 +212,13 @@
       ore.id = 'kubejs:cobalt_ore_gen_nth'
       ore.biomes = '#kubejs:nether_gen'
       ore.addTarget('minecraft:netherrack', 'tconstruct:cobalt_ore') 
-      ore.count([10, 20])
+      ore.count([3, 50])
         .squared()
         .triangleHeight(
           anchors.absolute(0),
           anchors.absolute(189)
         )
-      ore.size = 5
+      ore.size = 6
     })
 
 //  

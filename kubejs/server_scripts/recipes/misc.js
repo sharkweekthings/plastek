@@ -172,6 +172,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'twilightforest:botanypots/trees/mining'})
   event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
   event.remove({id: 'deeperdarker:warden_sword_smithing'})
+  event.remove({id: 'alexsmobs:bonemeal_from_fish_bones'})
   event.remove({id: 'tiab:time_in_a_bottle'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
@@ -1194,6 +1195,12 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Seared Brick
 event.smelting('tconstruct:seared_brick', 'tconstruct:grout')
+
+// Bonemeal Fish
+event.smelting('minecraft:bone_meal', 'alexsmobs:fish_bones').id('alexsmobs:bonemeal_from_fish_bones')
+
+// Bonemeal Fish
+event.smelting('minecraft:bone_meal', '#forge:bones').id('quark:tweaks/smelting/bone_meal_utility')
 
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')

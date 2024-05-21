@@ -14,11 +14,13 @@
 	sleep_interval = 24000
 	#Makes night bag less unique by allowing you to place them normally on the ground
 	boring_night_bags = false
+	#Immediately attempt sleeping after laying down on a bed
+	sleep_immediately = false
 
 	[misc.heartstone_mod_integration]
 		#Gives some benefit when sleeping next to somebody else. By default only works in conjunction with heartstone mod
-		#Allowed Values: WITH_MOD, OFF, ALWAYS_ON
-		enabled = "WITH_MOD"
+		#Allowed Values: HEARTSTONE_PLAYER_OR_VILLAGER, HEARTSTONE_PLAYER, ANY_PLAYER_OR_VILLAGER, ANY_PLAYER, OFF
+		enabled = "HEARTSTONE_PLAYER_OR_VILLAGER"
 
 		#Effect to give to players when they wake up next to a heartstone player
 		#This is a list. Add more entries with syntax [[...]]
@@ -109,9 +111,11 @@
 	#Percentage of xp added per tier of the effect. Setting to 1 doubles the effect
 	#Range: 0.0 ~ 1.0
 	invigorated_effect_xp = 0.1
-	#home bed level cap. Each night slept increases this number
+	#Home bed level cap. Each night slept increases this number
 	#Range: 0 ~ 1000
 	max_level_cap = 100
+	#Makes respawning only possible when using your own Home Bed. Fight back the night!
+	only_respawn_in_home_bed = false
 
 [nightmares]
 	apply_to_beds = true
@@ -142,11 +146,11 @@
 	min_radius = 2
 	#Range: 1 ~ 10
 	height = 3
-	#Mobs that can randomly wake up the player if sleeping in a dark place. Leave empty to use default spawning behavior. Add a weighted list in the following format (replace line bellow):
-	#[[bed.wake_up_encounters.alternative_whitelist]]
+	#Mobs that can randomly wake up the player if sleeping in a dark place. Leave empty to use default spawning behavior. Add a weighted list in the following format (replace line bellow with this example.This is a Toml map btw, check out its syntax):
+	#[[wake_up_encounters.alternative_whitelist]]
 	#			data = "minecraft:vindicator"
 	#			weight = 2
-	#[[bed.wake_up_encounters.alternative_whitelist]]
+	#[[wake_up_encounters.alternative_whitelist]]
 	#			data = "minecraft:creeper"
 	#			weight = 2
 	#

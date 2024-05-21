@@ -1337,6 +1337,21 @@
 			x: 2.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["7F54F607D5950735"]
+			description: ["Carry a mob with you"]
+			id: "6496E4CB719A6295"
+			shape: "circle"
+			subtitle: "I'll carry you <3"
+			tasks: [{
+				id: "15D1FBD7875F2C39"
+				item: "tconstruct:piggy_backpack"
+				type: "item"
+			}]
+			title: "Piggy Backpack"
+			x: 3.5d
+			y: -3.0d
+		}
 	]
 	title: "Utility"
 }

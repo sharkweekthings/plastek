@@ -3354,7 +3354,7 @@
 				item: "simplehats:apple"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 0.0d
 			y: 14.0d
 		}
 		{
@@ -3371,7 +3371,7 @@
 				item: "simplehats:artsy"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 1.0d
 			y: 14.0d
 		}
 		{
@@ -3388,8 +3388,932 @@
 				item: "simplehats:babydolphin"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 2.0d
 			y: 14.0d
+		}
+		{
+			id: "774B8B14DEE2E185"
+			shape: "circle"
+			tasks: [{
+				id: "66A6040CFD5C7883"
+				item: "simplehats:chalk_stick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			id: "05A53C871582FF8D"
+			shape: "circle"
+			tasks: [{
+				id: "57A023B01C31B548"
+				item: "simplehats:octodad"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			id: "6D80B76120915741"
+			shape: "circle"
+			tasks: [{
+				id: "306065BCB5B28CEE"
+				item: "simplehats:traffic_cone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			id: "7BED340E416C928C"
+			shape: "circle"
+			tasks: [{
+				id: "7305C323B19644DC"
+				item: "simplehats:baby_crewmate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			id: "284BBF7537C05DDA"
+			shape: "circle"
+			tasks: [{
+				id: "5AD7671DF750BD2F"
+				item: "simplehats:sport_sunglasses"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			id: "5DB7170B87F8B053"
+			shape: "circle"
+			tasks: [{
+				id: "2130C074C4D4F3DE"
+				item: "simplehats:udder_hat"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			id: "28FB967B1D72B6F7"
+			shape: "circle"
+			tasks: [{
+				id: "2474549B53740FA8"
+				item: "simplehats:toy_story_alien"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			id: "1FCD1156C8DCBF1A"
+			shape: "circle"
+			tasks: [{
+				id: "18ACD777DBB55245"
+				item: "simplehats:mindflayer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			id: "5433A82A6CE4D234"
+			shape: "circle"
+			tasks: [{
+				id: "31BBA4AC0F1A21D7"
+				item: "simplehats:peppino"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			id: "6CDAEC62D370D1CA"
+			shape: "circle"
+			tasks: [{
+				id: "2DA64E987673FB0B"
+				item: "simplehats:the_noisier"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			id: "663592A91BC7BC98"
+			shape: "circle"
+			tasks: [{
+				id: "3BBC7883836C4673"
+				item: "simplehats:druid_antlers"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			id: "6361BA36E48C1B1A"
+			shape: "circle"
+			tasks: [{
+				id: "7452BBBFEBDAFB13"
+				item: "simplehats:mimic_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			id: "1966854ED27BE226"
+			shape: "circle"
+			tasks: [{
+				id: "3200E102CE2E3BAE"
+				item: "simplehats:binky"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			id: "3146FDC0EAF76BB2"
+			shape: "circle"
+			tasks: [{
+				id: "50968E758C3B0D42"
+				item: "simplehats:cat_on_head"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			id: "4941B71DFD8FD8B2"
+			shape: "circle"
+			tasks: [{
+				id: "4EE1D8C5A0F847F2"
+				item: "simplehats:ladybug_on_head"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			id: "3123BBFD04015D14"
+			shape: "circle"
+			tasks: [{
+				id: "31884A0B4DE02AB5"
+				item: "simplehats:azumanga_hat"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			id: "7FCDECB606ACD473"
+			shape: "circle"
+			tasks: [{
+				id: "713405A45638023F"
+				item: "simplehats:bee_on_head"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			id: "222A90BFF8BFF002"
+			shape: "circle"
+			tasks: [{
+				id: "3994162DC107EFB5"
+				item: "simplehats:tanuki_leaf"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			id: "10CD7E2310CA28FC"
+			shape: "circle"
+			tasks: [{
+				id: "5D56118F053BE678"
+				item: "simplehats:eyeholder_xanath"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			id: "000436C9E4A11408"
+			shape: "circle"
+			tasks: [{
+				id: "406E9197B435AACB"
+				item: "simplehats:thumbnail"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			id: "535516A1BABDD6FD"
+			shape: "circle"
+			tasks: [{
+				id: "3875934BC3875324"
+				item: "simplehats:mindflayer_alhoon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			id: "6AEEE7A072E38720"
+			shape: "circle"
+			tasks: [{
+				id: "480F419FBDD01A57"
+				item: "simplehats:cardboard_box"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			id: "28215DF06369839B"
+			shape: "circle"
+			tasks: [{
+				id: "4D096BAD8C9C20A7"
+				item: "simplehats:stinkycheeseman"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			id: "328F1EB523F92697"
+			shape: "circle"
+			tasks: [{
+				id: "02CB7E689A23221A"
+				item: "simplehats:pom_moog"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			id: "466DDF6AC753E4D0"
+			shape: "circle"
+			tasks: [{
+				id: "61138E7CB6FA5EA5"
+				item: "simplehats:round_purple_wig"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 15.0d
+		}
+		{
+			id: "75DBED283863F1C8"
+			shape: "circle"
+			tasks: [{
+				id: "26ACDD95320D1824"
+				item: "simplehats:axolotl_on_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			id: "0ADD19B38D5948DD"
+			shape: "circle"
+			tasks: [{
+				id: "7DA1F6FA3A990C47"
+				item: "simplehats:eevee_ears"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			id: "4C702127EBC24FE6"
+			shape: "circle"
+			tasks: [{
+				id: "21F475EB2A695D25"
+				item: "simplehats:chocolate_sauced"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			id: "0325E7285944D1B7"
+			shape: "circle"
+			tasks: [{
+				id: "3EA82470205CB4A8"
+				item: "simplehats:chi_ears"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			id: "2ECA341F9F0F6A8C"
+			shape: "circle"
+			tasks: [{
+				id: "30619012F3883A4A"
+				item: "simplehats:right_hand_hat"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			id: "56B0D4BF08F09E96"
+			shape: "circle"
+			tasks: [{
+				id: "03C97B47DDBC6E0B"
+				item: "simplehats:the_noise"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			id: "06AADB0A7FDB1E41"
+			shape: "circle"
+			tasks: [{
+				id: "01CB2C22F2862CE7"
+				item: "simplehats:topcathat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			id: "0360FE51698105C3"
+			shape: "circle"
+			tasks: [{
+				id: "3F6EF541980DF00F"
+				item: "simplehats:eyeholder_dark"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			id: "09CC5E0D6A992C60"
+			shape: "circle"
+			tasks: [{
+				id: "2EA788B9E2C79BE8"
+				item: "simplehats:medusa"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			id: "43A455184C583F84"
+			shape: "circle"
+			tasks: [{
+				id: "3B82DD99D1FF10C6"
+				item: "simplehats:lightning_eyes"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			id: "1DDE6645755982BC"
+			shape: "circle"
+			tasks: [{
+				id: "6B2599BF3489DF9D"
+				item: "simplehats:milady_doll"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			id: "4F83A6970C3CF3AD"
+			shape: "circle"
+			tasks: [{
+				id: "1077D6E79F157D53"
+				item: "simplehats:nyan_doll"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			id: "08469DB7F98C7586"
+			shape: "circle"
+			tasks: [{
+				id: "7F620B5444F6E5F6"
+				item: "simplehats:slime_cube_dnd"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			id: "200F3059B2637DC8"
+			shape: "circle"
+			tasks: [{
+				id: "4009C36EDC6C07DD"
+				item: "simplehats:pika_ears"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			id: "1720870282B449C6"
+			shape: "circle"
+			tasks: [{
+				id: "754982A8067C2950"
+				item: "simplehats:angel_and_devil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "68776137D1853C11"
+			shape: "circle"
+			tasks: [{
+				id: "10E8560FE8297CF7"
+				item: "simplehats:lil_termagant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			id: "182A14A6C4E2E4A2"
+			shape: "circle"
+			tasks: [{
+				id: "5E7D8B488C9FEEFD"
+				item: "simplehats:bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			id: "7D5CBDD11C7B07C9"
+			shape: "circle"
+			tasks: [{
+				id: "59B1F63886DAFAE2"
+				item: "simplehats:circular_glasses"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			id: "761B473ABEF573AD"
+			shape: "circle"
+			tasks: [{
+				id: "1902FBA2A3B44CED"
+				item: "simplehats:artsy_doll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			id: "187CBF56F70A15CA"
+			shape: "circle"
+			tasks: [{
+				id: "13AE892B1B25363D"
+				item: "simplehats:worms_mine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			id: "7F9E4C620B75522E"
+			shape: "circle"
+			tasks: [{
+				id: "07F061CD91F97DB1"
+				item: "simplehats:gnome_clover_wig"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			id: "5D503D7C7C4127A4"
+			shape: "circle"
+			tasks: [{
+				id: "52057A0F99A02AD6"
+				item: "simplehats:scouter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			id: "53F4B90437C551E2"
+			shape: "circle"
+			tasks: [{
+				id: "3DAB65E340806F48"
+				item: "simplehats:toilet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			id: "0881B840D323A25B"
+			shape: "circle"
+			tasks: [{
+				id: "4DB70065F7A04729"
+				item: "simplehats:alien_antennae"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			id: "4EEC3E2DABBFAB66"
+			shape: "circle"
+			tasks: [{
+				id: "5F092948D50438CD"
+				item: "simplehats:tick_on_head"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 17.0d
+		}
+		{
+			id: "7285A8430E38B668"
+			shape: "circle"
+			tasks: [{
+				id: "1EE5FEF9353AB366"
+				item: "simplehats:fez"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 17.0d
+		}
+		{
+			id: "2C724B2009ABBF7F"
+			shape: "circle"
+			tasks: [{
+				id: "30060CE7452770D4"
+				item: "simplehats:puchiko"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 17.0d
+		}
+		{
+			id: "1071DD145098EEA9"
+			shape: "circle"
+			tasks: [{
+				id: "02814A4EF44E2B83"
+				item: "simplehats:greaser"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 17.0d
+		}
+		{
+			id: "31463CEC46305DBB"
+			shape: "circle"
+			tasks: [{
+				id: "01B61D523B18BB7C"
+				item: "simplehats:strawberry_hat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			id: "50FB7B04B87B64D0"
+			shape: "circle"
+			tasks: [{
+				id: "36F31DB203B579F4"
+				item: "simplehats:dejiko"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			id: "1EDEFF41324D2E8D"
+			shape: "circle"
+			tasks: [{
+				id: "5AA89C855FC83347"
+				item: "simplehats:eyeholder_beeholder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			id: "2405C502BDB161B1"
+			shape: "circle"
+			tasks: [{
+				id: "24FF03449E204643"
+				item: "simplehats:burning_m_bison"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			id: "4BFEFC25D1C0A27B"
+			shape: "circle"
+			tasks: [{
+				id: "6100B53DC12D8B41"
+				item: "simplehats:slime_head"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			id: "6FBF61DA73E4CD66"
+			shape: "circle"
+			tasks: [{
+				id: "7033A35698A92E49"
+				item: "simplehats:worm_hat"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			id: "673E72CE73A43F20"
+			shape: "circle"
+			tasks: [{
+				id: "23A9D25643521879"
+				item: "simplehats:tomato_splats"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			id: "4D5D206EC821399F"
+			shape: "circle"
+			tasks: [{
+				id: "1F0172F34939B92C"
+				item: "simplehats:round_red_wig"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			id: "00C3E907093C28A1"
+			shape: "circle"
+			tasks: [{
+				id: "3CABBC26A11F060E"
+				item: "simplehats:hat_of_discipline"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			id: "4454C8D88B81F536"
+			shape: "circle"
+			tasks: [{
+				id: "548407D2F4829DAD"
+				item: "simplehats:astronaut"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			id: "6D261E11D0276DEB"
+			shape: "circle"
+			tasks: [{
+				id: "30A0ABB944F8F2E8"
+				item: "simplehats:teddy_bear"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			id: "16C103578DCF3697"
+			shape: "circle"
+			tasks: [{
+				id: "4F4E1078E55F5433"
+				item: "simplehats:druid_antlers_rare"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 18.0d
+		}
+		{
+			id: "387B8AE3049923D5"
+			shape: "circle"
+			tasks: [{
+				id: "29117BBCE2D2723C"
+				item: "simplehats:dipper"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			id: "0505AFAE357B1B89"
+			shape: "circle"
+			tasks: [{
+				id: "692021B1B9A2FDD7"
+				item: "simplehats:gnome"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 18.0d
+		}
+		{
+			id: "65A486C6C9ACF407"
+			shape: "circle"
+			tasks: [{
+				id: "1A1BB05E86CFAA66"
+				item: "simplehats:stuck_lollipop"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			id: "1AC21827FE3A3D4D"
+			shape: "circle"
+			tasks: [{
+				id: "374B8C9861C64E9E"
+				item: "simplehats:twilight_doll"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			id: "4F43A173AFEDF41C"
+			shape: "circle"
+			tasks: [{
+				id: "4101C8A5D8284057"
+				item: "simplehats:beret_ribbon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			id: "1327E7D0493F5A0C"
+			shape: "circle"
+			tasks: [{
+				id: "2F066126585819A2"
+				item: "simplehats:rabi_en_rose"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			id: "7F7F8CBF4F9371AF"
+			shape: "circle"
+			tasks: [{
+				id: "37811BCEF389C4E0"
+				item: "simplehats:raincloud"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			id: "510475876867C9B6"
+			shape: "circle"
+			tasks: [{
+				id: "18791943740D606F"
+				item: "simplehats:caterpillar_on_head"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			id: "7AC1F48091C17330"
+			shape: "circle"
+			tasks: [{
+				id: "330FEC41ED2FD4AB"
+				item: "simplehats:sleepeyemask"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			id: "5B148E7519B38B2A"
+			shape: "circle"
+			tasks: [{
+				id: "661A5B6043E3D2D4"
+				item: "simplehats:orange_hat"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			id: "3DA4010299BB970E"
+			shape: "circle"
+			tasks: [{
+				id: "4FE25BC0E49C7FCE"
+				item: "simplehats:cucumbereyemask"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 19.0d
+		}
+		{
+			id: "790CD1A10D47C0F8"
+			shape: "circle"
+			tasks: [{
+				id: "44F80588A2D2F636"
+				item: "simplehats:longfoxears"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			id: "3436346F573FA073"
+			shape: "circle"
+			tasks: [{
+				id: "19284A32037E40C6"
+				item: "simplehats:crystal_horns"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 19.0d
+		}
+		{
+			id: "6E927C959523FA0C"
+			shape: "circle"
+			tasks: [{
+				id: "121548CFC094B5D2"
+				item: "simplehats:beetle_on_head"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 19.0d
+		}
+		{
+			id: "313B417290F4011A"
+			shape: "circle"
+			tasks: [{
+				id: "5F96C74A7A164FC9"
+				item: "simplehats:eyeholder_warm"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 19.0d
+		}
+		{
+			id: "53881E280F90C84A"
+			shape: "circle"
+			tasks: [{
+				id: "43C756672FE786BC"
+				item: "simplehats:mimic_head_gold"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 19.0d
+		}
+		{
+			id: "37BB5DEB68000C6D"
+			shape: "circle"
+			tasks: [{
+				id: "19F48FA7A00BEC8C"
+				item: "simplehats:mimic_head_dark"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 20.0d
+		}
+		{
+			id: "31434917FAFDED61"
+			shape: "circle"
+			tasks: [{
+				id: "24B138A823E54231"
+				item: "simplehats:fishing_hat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 20.0d
+		}
+		{
+			id: "2ABA9246A8F1D3F2"
+			shape: "circle"
+			tasks: [{
+				id: "059FA9AC872C9AAE"
+				item: "simplehats:lil_bows"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.0d
 		}
 	]
 	title: "Hats"

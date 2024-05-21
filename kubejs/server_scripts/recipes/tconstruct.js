@@ -71,7 +71,43 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'tconstruct:tool_binding_cast'})
 	event.remove({id: 'tconstruct:broad_axe_head_cast'})
 	event.remove({id: 'tconstruct:small_axe_head_cast'})	
+	event.remove({id: 'tconstruct:smeltery/casting/scorched/brick_composite'})	
+	event.remove({id: 'tconstruct:smeltery/seared/grout_multiple'})
 
 //
+})
+//
+
+//
+ServerEvents.recipes(event => {
+//
+
+  //ADD
+
+// Grout
+  event.shaped('2x tconstruct:grout',
+    ['232','414','232'], {
+    1: 'minecraft:gravel', 
+    2: '#minecraft:sand',
+    3: 'minecraft:clay_ball',
+    4: 'minecraft:bone_meal'}).id('tconstruct:smeltery/seared/grout')
+
+// Nether Grout
+  event.shaped('2x tconstruct:nether_grout',
+    ['232','414','232'], {
+    1: 'tconstruct:grout', 
+    2: 'minecraft:soul_sand',
+    3: 'minecraft:magma_cream',
+    4: 'minecraft:netherrack'}).id('tconstruct:smeltery/scorched/nether_grout')
+
+// Piggy Backpack
+  event.shaped('tconstruct:piggy_backpack',
+    ['343','121','333'], {
+    1: 'tconstruct:slimesteel_ingot', 
+    2: 'industrialforegoing:mob_imprisonment_tool',
+    3: '#forge:leather',
+    4: 'tconstruct:pig_iron_ingot'}).id('tconstruct:gadgets/piggy_backpack')
+
+//    
 })
 //

@@ -1122,7 +1122,7 @@
 		}
 		{
 			dependencies: ["76F549124C90EE74"]
-			description: ["To make Scorched Brick you'll need to throw some Nether Grout into the Smeltery."]
+			description: ["To make Scorched Brick you'll need to throw some Nether Grout into the Smeltery, then use an ingot cast to turn it into bricks. "]
 			id: "3169B7557DB2876A"
 			shape: "circle"
 			tasks: [{
