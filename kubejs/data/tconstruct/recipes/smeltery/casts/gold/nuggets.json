@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "tag": "forge:rods"
+    "tag": "forge:nuggets"
   },
   "cast_consumed": true,
   "cooling_time": 57,
   "fluid": {
-    "amount": 90,
-    "tag": "forge:molten_steel"
+    "amount": 180,
+    "tag": "forge:molten_gold"
   },
-  "result": "kubejs:rod_steel_cast",
+  "result": "tconstruct:nugget_cast",
   "switch_slots": true
 }

@@ -1139,6 +1139,27 @@
 			x: 9.5d
 			y: -0.5d
 		}
+		{
+			id: "232FB2EFFDB642E9"
+			shape: "circle"
+			tasks: [{
+				id: "715732E9DAD11A08"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "6BF3D1F47B32C9B1"
+			tasks: [{
+				id: "70745B2A1315AC53"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
 	]
 	title: "Tech"
 }

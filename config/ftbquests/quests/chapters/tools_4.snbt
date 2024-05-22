@@ -402,8 +402,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -427,8 +427,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -455,8 +455,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -750,7 +750,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -767,7 +767,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 4.5d
 		}
 		{
@@ -784,7 +784,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 4.5d
 		}
 		{
@@ -795,11 +795,12 @@
 				item: "tconstruct:cast_chest"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
 			id: "5EB2B2A2A093E648"
+			shape: "circle"
 			tasks: [
 				{
 					id: "70193D030F7ADD32"
@@ -827,11 +828,13 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 3.5d
+			title: "Casts For Special Tool Parts"
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			id: "5119E99078384A17"
+			shape: "circle"
 			tasks: [
 				{
 					id: "4CC0E2A78F3EE51B"
@@ -874,8 +877,57 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 3.5d
+			title: "Casts For Tool Parts"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "192F7B10B37EE297"
+			shape: "circle"
+			tasks: [{
+				id: "1193D8337E9A80CC"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "1A49770155115C3E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "038568A27963A432"
+					item: "kubejs:gear_steel_cast"
+					type: "item"
+				}
+				{
+					id: "5EA8ADCC5070EE74"
+					item: "kubejs:wire_steel_cast"
+					type: "item"
+				}
+			]
+			title: "Casts For Crafting Parts"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "1E20A83422FD15F2"
+			shape: "circle"
+			tasks: [{
+				id: "7FC1C086289F0B58"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 	]
 	title: "Utility"
