@@ -46,6 +46,14 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "emendatusenigmatica:brass_plate",},[{ // incomplete item
+      item: "emendatusenigmatica:copper_gear",},],], // item to deploy
+     results: [{
+      item: "emendatusenigmatica:brass_plate",},],
+},
+{
+    type: "create:deploying",
+     ingredients: [{
+      item: "emendatusenigmatica:brass_plate",},[{ // incomplete item
       item: "industrialforegoing:plastic",},],], // item to deploy
      results: [{
       item: "emendatusenigmatica:brass_plate",},],

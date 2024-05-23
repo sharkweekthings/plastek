@@ -171,11 +171,12 @@ ServerEvents.recipes(event => {
 
 // Honey Generator
   event.shaped('productivebees:honey_generator', 
-    ['323','313','434'], {
+    ['323','313','454'], {
     1: 'create:brass_casing',
     2: '#forge:buckets/honey',
     3: 'pneumaticcraft:ingot_iron_compressed',
-    4: '#energeticsheep:wool_energetic'}).id('productivebees:honey_generator')
+    4: '#energeticsheep:wool_energetic',
+    5: 'emendatusenigmatica:copper_gear'}).id('productivebees:honey_generator')
 
 // Advanced Oak Beehive
   event.shaped('productivebees:advanced_oak_beehive', 
@@ -208,7 +209,7 @@ ServerEvents.recipes(event => {
     ['454','434','212'], {
     1: 'create:basin',
     2: 'minecraft:waxed_copper_block',
-    3: 'create:electron_tube',
+    3: 'emendatusenigmatica:copper_gear',
     4: 'emendatusenigmatica:brass_plate',
     5: 'productivebees:bee_cage'}).id('productivebees:centrifuge')
 

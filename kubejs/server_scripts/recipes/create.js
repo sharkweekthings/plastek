@@ -92,7 +92,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:splashing/green_concrete_powder'})
   event.remove({id: 'create:splashing/red_concrete_powder'})
   event.remove({id: 'create:splashing/black_concrete_powder'})
-  event.remove({id: 'create:compat/ae2/milling/ender_pearl'})
+  event.remove({id: 'create:compat/ae2/milling/ender_pearl'}) 
+  event.remove({id: 'create:crafting/appliances/dough'}) 
 
 //
 })
@@ -240,18 +241,19 @@ ServerEvents.recipes(event => {
 
 // Spout  
   event.shaped('create:spout', 
-    ['444','313','424'], {
+    ['454','313','424'], {
     1: 'create:andesite_casing',
     2: 'supplementaries:faucet',
     3: '#forge:glass',
-    4: 'emendatusenigmatica:copper_plate'}).id('create:crafts/spout')
+    4: 'emendatusenigmatica:copper_plate',
+    5: 'emendatusenigmatica:copper_gear'}).id('create:crafts/spout')
 
 // Mechanical Press   
   event.shaped('create:mechanical_press', 
     [' 1 ',' 2 ',' 3 '], {
     1: 'emendatusenigmatica:sterling_silver_rod',
     2: 'create:andesite_casing',
-    3: 'compressium:copper_1'}).id('create:crafts/mechanical_press')
+    3: 'compressium:copper_1',}).id('create:crafts/mechanical_press')
 
 // Whisk
   event.shaped('create:whisk', 
@@ -363,19 +365,21 @@ ServerEvents.recipes(event => {
 
 // Deployer
   event.shaped('create:deployer', 
-    ['111',' 3 ',' 2 '], {
+    ['141',' 3 ',' 2 '], {
     1: 'industrialforegoing:plastic', 
     2: 'create:brass_hand',
-    3: 'create:brass_casing'}).id('create:crafts/deployer')
+    3: 'create:brass_casing',
+    4: 'emendatusenigmatica:copper_gear'}).id('create:crafts/deployer')
 
 // Mechanical Saw
   event.shaped('create:mechanical_saw', 
-    ['   ','323','313'], {
+    [' 2 ','343','313'], {
     1: 'create:andesite_casing', 
     2: 'thermal:saw_blade',
-    3: '#forge:treated_wood'}).id('create:crafts/mechanical_saw')
+    3: '#forge:treated_wood',
+    4: 'emendatusenigmatica:copper_gear'}).id('create:crafts/mechanical_saw')
 
-// Mechanical Saw
+// Mechanical Drill
   event.shaped('create:mechanical_drill', 
     ['   ','323','313'], {
     1: 'create:andesite_casing', 

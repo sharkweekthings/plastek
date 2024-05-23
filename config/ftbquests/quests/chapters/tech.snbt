@@ -851,7 +851,11 @@
 		}
 		{
 			dependencies: ["4FFCDB35F97F22CC"]
-			description: ["You'll probably have a bad time if you don't make the ingot cast."]
+			description: [
+				"You'll probably have a bad time if you don't make the ingot cast."
+				""
+				"JEI will tell you certain things can be made with Sand Casts and Red Sand Casts. That's not true though. You can make Nuggets with Sand/Red Sand Casts, but nothing else.   "
+			]
 			id: "2E492D0ADE821FE0"
 			shape: "circle"
 			subtitle: "It's totally optional"

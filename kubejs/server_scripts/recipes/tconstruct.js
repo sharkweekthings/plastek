@@ -184,6 +184,7 @@ event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/broad_axe_hea
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/small_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casting/scorched/brick_composite'})	
 event.remove({id: 'tconstruct:smeltery/seared/grout_multiple'})
+event.remove({id: 'tconstruct:smeltery/casting/metal/aluminum/wire_gold_cast'})
 
 //
 })

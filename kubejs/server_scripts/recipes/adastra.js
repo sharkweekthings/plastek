@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
     ['151','232','141'], {
     1: 'industrialforegoing:plastic',
     2: 'emendatusenigmatica:iron_plate',
-    3: 'minecraft:furnace',
+    3: 'tconstruct:seared_fuel_tank',
     4: 'create:precision_mechanism',
     5: 'pneumaticcraft:ingot_iron_compressed'}).id('ad_astra:recipes/fuel_refinery')
     

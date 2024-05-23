@@ -174,6 +174,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'deeperdarker:warden_sword_smithing'})
   event.remove({id: 'alexsmobs:bonemeal_from_fish_bones'})
   event.remove({id: 'tiab:time_in_a_bottle'})
+  event.remove({id: 'pamhc2crops:slimeball_aloe'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //

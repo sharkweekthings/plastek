@@ -112,10 +112,11 @@ ServerEvents.recipes(event => {
     
 // Pressure Chamber Valve  
   event.shaped('pneumaticcraft:pressure_chamber_valve', 
-    ['111','232','111'], {
+    ['111','232','141'], {
     1: 'industrialforegoing:plastic',
     2: 'compressium:iron_1',
-    3: 'pneumaticcraft:pressure_tube'}).id('pneumaticcraft:pressure_chamber_valve')
+    3: 'pneumaticcraft:pressure_tube',
+    4: 'emendatusenigmatica:iron_gear'}).id('pneumaticcraft:pressure_chamber_valve')
     
 // Security Upgrade
   event.shaped('pneumaticcraft:security_upgrade', 
@@ -161,11 +162,12 @@ ServerEvents.recipes(event => {
     
 // Air Compressor
   event.shaped('pneumaticcraft:air_compressor', 
-    ['111','142','131'], {
+    ['111','542','131'], {
     1: 'pneumaticcraft:reinforced_bricks',
     2: 'pneumaticcraft:pressure_tube',
     3: 'minecraft:furnace',
-    4: 'industrialforegoing:plastic'}).id('pneumaticcraft:air_compressor')
+    4: 'industrialforegoing:plastic',
+    5: 'emendatusenigmatica:iron_gear'}).id('pneumaticcraft:air_compressor')
     
 // Reinforced Stone
   event.shaped('4x pneumaticcraft:reinforced_stone', 

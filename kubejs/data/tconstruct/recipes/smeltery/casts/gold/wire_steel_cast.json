@@ -18,6 +18,6 @@
     "amount": 180,
     "tag": "forge:molten_steel"
   },
-  "result": "kubejs:wire_cast",
+  "result": "kubejs:wire_steel_cast",
   "switch_slots": true
 }
