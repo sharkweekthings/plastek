@@ -215,9 +215,10 @@ ServerEvents.recipes(event => {
 
 // Water Wheel
   event.shaped('create:water_wheel', 
-    ['111','121','111'], {
+    ['131','121','131'], {
     1: 'create:large_cogwheel', 
-    2: 'create:shaft'}).id('create:crafts/water_wheel')
+    2: 'create:shaft',
+    3: 'emendatusenigmatica:iron_gear'}).id('create:crafts/water_wheel')
 
 // Large Water Wheel
   event.shaped('create:large_water_wheel', 

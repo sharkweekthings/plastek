@@ -7,61 +7,6 @@ ServerEvents.recipes(event => {
 //
 
   //REMOVE
-  // event.remove({id: 'tconstruct:small_axe_head_sand_cast'})
-  // event.remove({id: 'tconstruct:broad_axe_head_red_sand_cast'})
-  // event.remove({id: 'tconstruct:wire_sand_cast'})
-  // event.remove({id: 'tconstruct:rod_red_sand_cast'})
-  // event.remove({id: 'tconstruct:rod_sand_cast'})
-  // event.remove({id: 'tconstruct:bow_grip_red_sand_cast'})
-  // event.remove({id: 'tconstruct:round_plate_red_sand_cast'})
-  // event.remove({id: 'tconstruct:small_axe_head_red_sand_cast'})
-  // event.remove({id: 'tconstruct:broad_blade_red_sand_cast'})
-  // event.remove({id: 'tconstruct:large_plate_red_sand_cast'})
-  // event.remove({id: 'tconstruct:gem_red_sand_cast'})
-  // event.remove({id: 'tconstruct:coin_red_sand_cast'})
-  // event.remove({id: 'tconstruct:tool_handle_sand_cast'})
-  // event.remove({id: 'tconstruct:blank_sand_cast'})
-  // event.remove({id: 'tconstruct:repair_kit_red_sand_cast'})
-  // event.remove({id: 'tconstruct:nugget_red_sand_cast'})
-  // event.remove({id: 'tconstruct:tool_binding_sand_cast'})
-  // event.remove({id: 'tconstruct:plate_red_sand_cast'})
-  // event.remove({id: 'tconstruct:bow_grip_sand_cast'})
-  // event.remove({id: 'tconstruct:tough_handle_sand_cast'})
-  // event.remove({id: 'tconstruct:hammer_head_sand_cast'})
-  // event.remove({id: 'tconstruct:round_plate_sand_cast'})
-  // event.remove({id: 'tconstruct:coin_sand_cast'})
-  // event.remove({id: 'tconstruct:pick_head_red_sand_cast'})
-  // event.remove({id: 'tconstruct:blank_red_sand_cast'})
-  // event.remove({id: 'tconstruct:tool_handle_red_sand_cast'})
-  // event.remove({id: 'tconstruct:gear_sand_cast'})
-  // event.remove({id: 'tconstruct:pick_head_sand_cast'})
-  // event.remove({id: 'tconstruct:bow_limb_sand_cast'})
-  // event.remove({id: 'tconstruct:bow_limb_red_sand_cast'})
-  // event.remove({id: 'tconstruct:repair_kit_sand_cast'})
-  // event.remove({id: 'tconstruct:broad_blade_sand_cast'})
-  // event.remove({id: 'tconstruct:broad_axe_head_sand_cast'})
-  // event.remove({id: 'tconstruct:hammer_head_red_sand_cast'})
-  // event.remove({id: 'tconstruct:tool_binding_red_sand_cast'})
-  // event.remove({id: 'tconstruct:tough_handle_red_sand_cast'})
-  // event.remove({id: 'tconstruct:small_blade_red_sand_cast'})
-  // event.remove({id: 'tconstruct:gem_sand_cast'})
-  // event.remove({id: 'tconstruct:nugget_sand_cast'})
-  // event.remove({id: 'tconstruct:gear_red_sand_cast'})
-  // event.remove({id: 'tconstruct:plate_sand_cast'})
-  // event.remove({id: 'tconstruct:large_plate_sand_cast'})
-  // event.remove({id: 'tconstruct:wire_red_sand_cast'})
-  // event.remove({id: 'tconstruct:small_blade_sand_cast'})
-
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/helmet_plating_sand'})
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/chestplate_plating_sand'})
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/leggings_plating_sand'})
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/maille_sand'})
-
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/helmet_plating_red_sand'})
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/chestplate_plating_red_sand'})
-  // event.remove({id: 'tconstruct:smeltery/casts/gold/leggings_plating_red_sand'})
-  // event.remove({id: 'tconstruct:maille_red_sand'})
-
 event.remove({id: 'tconstruct:smeltery/casts/gold/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/gold/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/gold/tool_handle'})
@@ -87,7 +32,6 @@ event.remove({id: 'tconstruct:smeltery/casts/gold/boots_plating'})
 event.remove({id: 'tconstruct:smeltery/casts/gold/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/gold/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/gold/small_axe_head'})
-
 event.remove({id: 'tconstruct:smeltery/casts/sand/molding/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/molding/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/molding/tool_handle'})
@@ -113,7 +57,6 @@ event.remove({id: 'tconstruct:smeltery/casts/sand/molding/boots_plating'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/molding/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/molding/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/molding/small_axe_head'})
-
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/tool_handle'})
@@ -139,7 +82,6 @@ event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/boots_plating'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/molding/small_axe_head'})
-
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/tool_handle'})
@@ -165,7 +107,6 @@ event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/boots_plating'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/small_axe_head'})
-
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/tool_handle'})
@@ -191,7 +132,6 @@ event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/boots_platin
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_block/small_axe_head'})
-
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/tool_handle'})
@@ -217,7 +157,6 @@ event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/boots_plating'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/small_axe_head'})
-
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/small_blade'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/gems'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/tool_handle'})
@@ -243,9 +182,6 @@ event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/boots_plating
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/small_axe_head'})
-
-
-
 event.remove({id: 'tconstruct:smeltery/casting/scorched/brick_composite'})	
 event.remove({id: 'tconstruct:smeltery/seared/grout_multiple'})
 
@@ -282,6 +218,14 @@ ServerEvents.recipes(event => {
     2: 'industrialforegoing:mob_imprisonment_tool',
     3: '#forge:leather',
     4: 'tconstruct:pig_iron_ingot'}).id('tconstruct:gadgets/piggy_backpack')
+
+// Part Chest
+  event.shaped('tconstruct:part_chest',
+    [' 1 ','232','242'], {
+    1: 'tconstruct:pattern', 
+    2: 'alexsmobs:gazelle_horn',
+    3: 'minecraft:chest',
+    4: 'minecraft:barrel'}).id('tconstruct:tables/part_chest')
 
 //    
 })

@@ -105,6 +105,20 @@ ServerEvents.recipes(event => {
     2: 'minecraft:redstone', 
     3: 'minecraft:redstone_block'}).id('functionalstorage:redstone_upgrade')
 
+// Storage Controller
+  event.shaped('functionalstorage:storage_controller',
+    ['222','212','232'], {
+    1: '#functionalstorage:drawer', 
+    2: 'industrialforegoing:plastic', 
+    3: 'emendatusenigmatica:copper_gear'}).id('functionalstorage:storage_controller')
+
+// Controller Extension
+  event.shaped('functionalstorage:controller_extension',
+    ['   ','132','   '], {
+    1: '#forge:chests', 
+    2: '#forge:barrels',
+    3: 'functionalstorage:storage_controller'}).id('functionalstorage:controller_extension')
+
 //    
 })
 //

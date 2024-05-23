@@ -1111,6 +1111,23 @@
 			x: -7.0d
 			y: 4.5d
 		}
+		{
+			dependencies: [
+				"67EE744F1273EBE8"
+				"5E6D7F48FAFC4D72"
+			]
+			hide_dependency_lines: true
+			id: "28FB50925AF9956F"
+			shape: "circle"
+			tasks: [{
+				id: "374AAEC60A6CE841"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			title: "Tinker's Part Chest"
+			x: 2.5d
+			y: -2.5d
+		}
 	]
 	title: "Storage"
 }

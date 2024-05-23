@@ -46,10 +46,11 @@ ServerEvents.recipes(event => {
 
 // Iron Spikes
   event.shaped('mob_grinding_utils:spikes',
-    ['323','212','333'], {
+    ['323','212','343'], {
     1: 'minecraft:iron_block',
     2: 'minecraft:iron_sword',
-    3: 'emendatusenigmatica:iron_plate'}).id('mob_grinding_utils:recipe_spikes')
+    3: 'emendatusenigmatica:iron_plate',
+    4: 'emendatusenigmatica:iron_gear'}).id('mob_grinding_utils:recipe_spikes')
 
 // XP Solidifier
   event.shaped('mob_grinding_utils:xpsolidifier',

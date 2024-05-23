@@ -119,7 +119,7 @@ ServerEvents.recipes(event => {
     1: 'industrialforegoing:plastic', 
     2: 'occultism:spirit_attuned_gem',
     3: 'occultism:otherstone',
-    4: 'emendatusenigmatica:iron_plate',
+    4: 'emendatusenigmatica:iron_gea',
     5: 'botania:manasteel_ingot'}).id('silentgear:material_grader')
 
 // Crystalline Ingot
