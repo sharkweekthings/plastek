@@ -1186,6 +1186,10 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'kubejs:helmet_plating_steel_cast',
+  'kubejs:chestplate_plating_steel_cast',
+  'kubejs:leggings_plating_steel_cast',
+  'kubejs:boots_plating_steel_cast',
   'kubejs:wire_steel_cast',
   'kubejs:rod_steel_cast',
   'kubejs:repair_kit_steel_cast',

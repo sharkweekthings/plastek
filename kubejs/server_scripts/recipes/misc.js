@@ -392,6 +392,13 @@ ServerEvents.recipes(event => {
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic'}).id('buildinggadgets:misc/gadget_building')
 
+// Destruction Gadget
+  event.shaped('buildinggadgets:gadget_destruction',
+    ['333','313','323'], {
+    1: 'buildinggadgets:gadget_building',
+    2: 'pneumaticcraft:printed_circuit_board',
+    3: 'pneumaticcraft:plastic'}).id('buildinggadgets:gadget_destruction')
+
 // Dreamer Essence
   event.shaped('sleep_tight:dreamer_essence',
     ['353','242','313'], {
@@ -1149,29 +1156,6 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     3: 'minecraft:crafting_table',
     4: '#minecraft:planks',
     5: 'minecraft:iron_axe'}).id('chipped:benches/carpenters_table')
-
-// Seared Melter
-  event.shaped('tconstruct:seared_melter',
-    [' 2 ','131','111'], {
-    1: 'tconstruct:seared_brick',
-    2: '#tconstruct:seared_tanks',
-    3: 'minecraft:furnace'}).id('tconstruct:smeltery/seared/melter')
-
-// Smeltery Controller
-  event.shaped('tconstruct:smeltery_controller',
-    ['333','121','343'], {
-    1: 'create:andesite_alloy',
-    2: 'tconstruct:seared_melter',
-    3: 'tconstruct:seared_brick',
-    4: 'emendatusenigmatica:iron_plate'}).id('tconstruct:smeltery/casting/seared/smeltery_controller')
-
-// Foundry Controller
-  event.shaped('tconstruct:foundry_controller',
-    ['333','121','343'], {
-    1: 'industrialforegoing:plastic',
-    2: 'tconstruct:seared_melter',
-    3: 'tconstruct:scorched_brick',
-    4: 'tconstruct:cobalt_ingot'}).id('tconstruct:smeltery/casting/scorched/foundry_controller')
 
 // Meta Pet
   event.custom({

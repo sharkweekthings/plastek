@@ -183,6 +183,7 @@ event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/maille'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/broad_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casts/red_sand/builder_cast/small_axe_head'})
 event.remove({id: 'tconstruct:smeltery/casting/scorched/brick_composite'})	
+event.remove({id: 'tconstruct:smeltery/casting/seared/brick_composite'})	
 event.remove({id: 'tconstruct:smeltery/seared/grout_multiple'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/aluminum/wire_gold_cast'})
 
@@ -227,6 +228,41 @@ ServerEvents.recipes(event => {
     2: 'alexsmobs:gazelle_horn',
     3: 'minecraft:chest',
     4: 'minecraft:barrel'}).id('tconstruct:tables/part_chest')
+
+// Seared Fuel Tank
+  event.shaped('tconstruct:seared_fuel_tank',
+    ['121','131','121'], {
+    1: 'tconstruct:seared_brick', 
+    2: 'create:andesite_alloy',
+    3: 'tconstruct:seared_glass'}).id('tconstruct:smeltery/seared/fuel_tank')
+
+// Seared Fuel Gauge
+  event.shaped('tconstruct:seared_fuel_gauge',
+    ['121','222','121'], {
+    1: 'create:andesite_alloy',
+    2: 'tconstruct:seared_glass'}).id('tconstruct:smeltery/seared/fuel_gauge')// Seared Melter
+  event.shaped('tconstruct:seared_melter',
+    [' 2 ','131','111'], {
+    1: 'tconstruct:seared_brick',
+    2: '#tconstruct:seared_tanks',
+    3: 'minecraft:furnace'}).id('tconstruct:smeltery/seared/melter')
+
+// Smeltery Controller
+  event.shaped('tconstruct:smeltery_controller',
+    ['353','121','343'], {
+    1: 'create:andesite_alloy',
+    2: 'tconstruct:seared_melter',
+    3: 'tconstruct:seared_brick',
+    4: 'emendatusenigmatica:iron_plate',
+    5: 'tconstruct:mighty_smelting'}).id('tconstruct:smeltery/casting/seared/smeltery_controller')
+
+// Foundry Controller
+  event.shaped('tconstruct:foundry_controller',
+    ['333','121','343'], {
+    1: 'industrialforegoing:plastic',
+    2: 'tconstruct:seared_melter',
+    3: 'tconstruct:scorched_brick',
+    4: 'tconstruct:cobalt_ingot'}).id('tconstruct:smeltery/casting/scorched/foundry_controller')
 
 //    
 })

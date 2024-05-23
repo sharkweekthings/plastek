@@ -737,6 +737,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["481CC7DD0387169C"]
 			id: "17CDAD1480ACD566"
 			shape: "circle"
 			tasks: [{
@@ -750,10 +751,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["481CC7DD0387169C"]
 			id: "1B6992FF260D94B6"
 			shape: "circle"
 			tasks: [{
@@ -767,10 +769,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["481CC7DD0387169C"]
 			id: "19A54E5E44101072"
 			shape: "circle"
 			tasks: [{
@@ -784,10 +787,11 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["481CC7DD0387169C"]
 			id: "0838EFEBF40A49F7"
 			shape: "circle"
 			tasks: [{
@@ -795,10 +799,11 @@
 				item: "tconstruct:cast_chest"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["4596F14140B7AE67"]
 			id: "5EB2B2A2A093E648"
 			shape: "circle"
 			tasks: [
@@ -829,10 +834,11 @@
 				}
 			]
 			title: "Casts For Special Tool Parts"
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["4596F14140B7AE67"]
 			id: "5119E99078384A17"
 			shape: "circle"
 			tasks: [
@@ -878,10 +884,11 @@
 				}
 			]
 			title: "Casts For Tool Parts"
-			x: -1.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["2E18138D211E9206"]
 			id: "192F7B10B37EE297"
 			shape: "circle"
 			tasks: [{
@@ -900,6 +907,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4596F14140B7AE67"]
 			id: "1A49770155115C3E"
 			shape: "circle"
 			tasks: [
@@ -915,19 +923,38 @@
 				}
 			]
 			title: "Casts For Crafting Parts"
-			x: -0.5d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
-			id: "1E20A83422FD15F2"
+			dependencies: ["4596F14140B7AE67"]
+			id: "2E5A414873A1F9B5"
 			shape: "circle"
-			tasks: [{
-				id: "7FC1C086289F0B58"
-				item: "tconstruct:part_chest"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
+			tasks: [
+				{
+					id: "1EF18DC11BD2F83C"
+					item: "kubejs:helmet_plating_steel_cast"
+					type: "item"
+				}
+				{
+					id: "4938A926EFB4DFFC"
+					item: "kubejs:chestplate_plating_steel_cast"
+					type: "item"
+				}
+				{
+					id: "7DBE4594E0E0D931"
+					item: "kubejs:leggings_plating_steel_cast"
+					type: "item"
+				}
+				{
+					id: "67F72359E2291324"
+					item: "kubejs:boots_plating_steel_cast"
+					type: "item"
+				}
+			]
+			title: "Casts For Armor"
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "Utility"

@@ -853,18 +853,19 @@ event.custom({
   ]
 }).id('create:milling/iron_dust')
 
-// Treated Wood
-event.custom({
+// Silver Plate
+  event.custom({
   "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:sterling_silver_ingot","count": 1}],
   "results": [{"item": "emendatusenigmatica:sterling_silver_plate"}]
   }).id('create:pressing/sterling_silver_plate')
 
+// Treated Wood
   event.custom({
   "type": "create:filling","ingredients": [
     {"tag": "minecraft:planks"},
     {
       "amount": 250,
-      "tag": "forge:creosote",
+      "fluidTag": "forge:creosote",
       "nbt": {}
     }
   ],
@@ -873,7 +874,7 @@ event.custom({
       "item": "immersiveengineering:treated_wood_horizontal"
     }
   ]
-}).id('create:filling/treated_wood')
+  }).id('create:filling/treated_wood')
 
 // Leather Grind
 event.custom({

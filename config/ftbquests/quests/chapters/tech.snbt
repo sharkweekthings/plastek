@@ -927,24 +927,17 @@
 			id: "2855CCD06EBCDF44"
 			shape: "circle"
 			subtitle: "Upgrades!!"
-			tasks: [
-				{
-					id: "71BDD73D78023268"
-					item: {
-						Count: 1b
-						id: "tconstruct:smeltery_controller"
-						tag: {
-							texture: "tconstruct:seared_stone"
-						}
+			tasks: [{
+				id: "71BDD73D78023268"
+				item: {
+					Count: 1b
+					id: "tconstruct:smeltery_controller"
+					tag: {
+						texture: "tconstruct:seared_stone"
 					}
-					type: "item"
 				}
-				{
-					id: "22B0B18C74325387"
-					item: "tconstruct:seared_fuel_tank"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "The Smeltery!"
 			x: 13.5d
 			y: -9.5d
@@ -968,6 +961,30 @@
 			}]
 			x: 7.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["7BF76498DE7536C5"]
+			id: "50E0FB1E293DB665"
+			shape: "circle"
+			tasks: [{
+				id: "1035796AFCA936A7"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7BF76498DE7536C5"]
+			id: "796DFD9A4EAE37C6"
+			shape: "circle"
+			tasks: [{
+				id: "2812B1CF4FEB25AC"
+				item: "tconstruct:seared_fuel_gauge"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
 		}
 	]
 	title: "Tech"
