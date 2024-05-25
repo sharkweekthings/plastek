@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:fire_dragon_flesh"
+    },
+    "title": {
+      "translate": "advancements.iceandfire.kill_a_dragon.title2"
+    },
+    "description": {
+      "translate": "advancements.iceandfire.kill_a_dragon.description2"
+    }
+  },
+  "parent": "iceandfire:iceandfire/bestiary",
+  "criteria": {
+    "killed_fire_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:fire_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_fire_dragon"
+    ]
+  ]
+}

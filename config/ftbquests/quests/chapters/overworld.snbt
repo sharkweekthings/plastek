@@ -858,6 +858,61 @@
 			x: -4.0d
 			y: 1.0d
 		}
+		{
+			id: "0872C4A348505F22"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/gorgon_head"
+				criterion: ""
+				id: "4E9733CFDCA5FA5A"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "33F7C24F00AB5C03"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+				id: "3C165025A043328A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "0DBFE683115B6244"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_siren"
+				criterion: ""
+				id: "1B25928B0388CB6B"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "22BBD1738A733BE9"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "2BA55C4F1755497E"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "022C744F1E2F2739"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "5345B2569EE76D99"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
 	]
 	title: "Overworld"
 }

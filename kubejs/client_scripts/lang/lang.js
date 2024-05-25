@@ -7,8 +7,29 @@
 ClientEvents.lang('en_us', event => {
 //
   const rename = (item, newName) => {
-	event.renameItem(item, newName)
-  }
+	event.renameItem(item, newName)}
+
+// TEST
+
+  	rename('emendatusenigmatica:end_inferium_ore', "Rich Inferium Ore")
+  	rename('emendatusenigmatica:end_prosperity_ore', "Rich Prosperity Ore")
+  	rename('emendatusenigmatica:arcmetal_crystal', "Arcmetal Fragment")
+  	rename('emendatusenigmatica:voidmetal_crystal', "Voidmetal Fragment")
+  	rename('emendatusenigmatica:tin_crystal', "Tin Fragment")
+  	rename('emendatusenigmatica:zinc_crystal', "Zinc Fragment")
+  	rename('emendatusenigmatica:sharkinite_crystal', "Sharkinite Fragment")
+  	rename('emendatusenigmatica:silver_crystal', "Silver Fragment")
+  	rename('emendatusenigmatica:aluminum_crystal', "Aluminum Fragment")
+  	rename('emendatusenigmatica:gold_crystal', "Gold Fragment")
+  	rename('emendatusenigmatica:copper_crystal', "Copper Fragment")
+  	rename('emendatusenigmatica:nickel_crystal', "Nickel Fragment")
+  	rename('emendatusenigmatica:osmium_crystal', "Osmium Fragment")
+  	rename('emendatusenigmatica:quartz_crystal', "Nether Quartz Fragment")
+  	rename('emendatusenigmatica:weekonium_crystal', "Weekonium Fragment")
+  	rename('emendatusenigmatica:lead_crystal', "Lead Fragment")
+  	rename('emendatusenigmatica:iron_crystal', "Iron Fragment")
+
+
 
 // AD ASTRA
   	rename('ad_astra:venus_coal_ore', "Rich Coal Ore")
@@ -27,23 +48,25 @@ ClientEvents.lang('en_us', event => {
   	rename('emendatusenigmatica:plastim_ingot', "Plastim Composite Ingot")
   	rename('emendatusenigmatica:plastim_dust', "Plastim Composite Dust")
   	rename('minecraft:deepslate_lapis_ore', "Rich Lapis Ore")
-  	rename('emendatusenigmatica:end_inferium_ore', "Rich Inferium Ore")
-  	rename('emendatusenigmatica:end_prosperity_ore', "Rich Prosperity Ore")
-  	rename('emendatusenigmatica:arcmetal_crystal', "Arcmetal Fragment")
-  	rename('emendatusenigmatica:voidmetal_crystal', "Voidmetal Fragment")
-  	rename('emendatusenigmatica:tin_crystal', "Tin Fragment")
-  	rename('emendatusenigmatica:zinc_crystal', "Zinc Fragment")
-  	rename('emendatusenigmatica:sharkinite_crystal', "Sharkinite Fragment")
-  	rename('emendatusenigmatica:silver_crystal', "Silver Fragment")
-  	rename('emendatusenigmatica:aluminum_crystal', "Aluminum Fragment")
-  	rename('emendatusenigmatica:gold_crystal', "Gold Fragment")
-  	rename('emendatusenigmatica:copper_crystal', "Copper Fragment")
-  	rename('emendatusenigmatica:nickel_crystal', "Nickel Fragment")
-  	rename('emendatusenigmatica:osmium_crystal', "Osmium Fragment")
-  	rename('emendatusenigmatica:quartz_crystal', "Nether Quartz Fragment")
-  	rename('emendatusenigmatica:weekonium_crystal', "Weekonium Fragment")
-  	rename('emendatusenigmatica:lead_crystal', "Lead Fragment")
-  	rename('emendatusenigmatica:iron_crystal', "Iron Fragment")
+
+  	// rename('emendatusenigmatica:end_inferium_ore', "Rich Inferium Ore")
+  	// rename('emendatusenigmatica:end_prosperity_ore', "Rich Prosperity Ore")
+  	// rename('emendatusenigmatica:arcmetal_crystal', "Arcmetal Fragment")
+  	// rename('emendatusenigmatica:voidmetal_crystal', "Voidmetal Fragment")
+  	// rename('emendatusenigmatica:tin_crystal', "Tin Fragment")
+  	// rename('emendatusenigmatica:zinc_crystal', "Zinc Fragment")
+  	// rename('emendatusenigmatica:sharkinite_crystal', "Sharkinite Fragment")
+  	// rename('emendatusenigmatica:silver_crystal', "Silver Fragment")
+  	// rename('emendatusenigmatica:aluminum_crystal', "Aluminum Fragment")
+  	// rename('emendatusenigmatica:gold_crystal', "Gold Fragment")
+  	// rename('emendatusenigmatica:copper_crystal', "Copper Fragment")
+  	// rename('emendatusenigmatica:nickel_crystal', "Nickel Fragment")
+  	// rename('emendatusenigmatica:osmium_crystal', "Osmium Fragment")
+  	// rename('emendatusenigmatica:quartz_crystal', "Nether Quartz Fragment")
+  	// rename('emendatusenigmatica:weekonium_crystal', "Weekonium Fragment")
+  	// rename('emendatusenigmatica:lead_crystal', "Lead Fragment")
+  	// rename('emendatusenigmatica:iron_crystal', "Iron Fragment")
+
   	rename('emendatusenigmatica:alien_gear', "Unidentified Alien Piece")
   	rename('emendatusenigmatica:alien_rod', "Unidentified Alien Part")
   	rename('emendatusenigmatica:blazing_dust', "Blaze Dust")

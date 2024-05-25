@@ -22,6 +22,9 @@
     "minecraft:magma_cube",
     "minecraft:allay",
     "minecraft:warden",
-    "minecraft:blaze"
+    "minecraft:blaze",
+    "iceandfire:fire_dragon",
+    "iceandfire:lightning_dragon",
+    "iceandfire:ice_dragon"
   ]
 }
