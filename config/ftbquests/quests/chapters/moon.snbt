@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4C10F51470F58A61"]
@@ -69,7 +69,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -77,6 +77,7 @@
 				"3AC637985771A62E"
 				"516ACA472B0EE924"
 				"581FE0FD83676EC5"
+				"45366CB8BF7D0C05"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "6BAC477CABB20D05"
@@ -93,7 +94,7 @@
 			}]
 			title: "Moon Globe"
 			x: 0.0d
-			y: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4C10F51470F58A61"]
@@ -122,6 +123,24 @@
 			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			description: [
+				"Ice dragons can also be found on Glacio."
+				""
+				"&o&eIn extremely rare cases you may encounter younger ice dragons on the surface of the Overworld, but only in the Jagged Peaks biome. This event can be so rare that you may never see it in your game.&r&r"
+			]
+			id: "45366CB8BF7D0C05"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:kill_if_dragon2"
+				criterion: ""
+				id: "62952DA835BCA349"
+				type: "advancement"
+			}]
+			title: "Ice Dragons Beyond The Atmosphere"
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Moon"

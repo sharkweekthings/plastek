@@ -43,7 +43,7 @@
 			}]
 			title: "Earth Globe"
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			id: "6D3D41A060D07214"
@@ -859,59 +859,217 @@
 			y: 1.0d
 		}
 		{
+			description: ["Wearing a Blindfold is advised before taking on a Gorgon."]
 			id: "0872C4A348505F22"
+			shape: "circle"
+			subtitle: "Rock on"
 			tasks: [{
 				advancement: "iceandfire:iceandfire/gorgon_head"
 				criterion: ""
 				id: "4E9733CFDCA5FA5A"
 				type: "advancement"
 			}]
+			title: "Slay a Gorgon"
 			x: 1.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
+			description: ["A Cyclops has one eye that is probably susceptible to sharp projectile objects."]
 			id: "33F7C24F00AB5C03"
+			shape: "circle"
+			subtitle: "Eye spy"
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_cyclops"
 				criterion: ""
 				id: "3C165025A043328A"
 				type: "advancement"
 			}]
+			title: "Slay a Cyclops"
 			x: 2.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
+			description: ["but it's probably not a song you want to hear. If you plan an ocean trip you might want some ear plugs."]
 			id: "0DBFE683115B6244"
+			shape: "circle"
+			subtitle: "Their song is beautiful"
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_siren"
 				criterion: ""
 				id: "1B25928B0388CB6B"
 				type: "advancement"
 			}]
+			title: "Slay a Siren"
 			x: 3.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
+			description: ["Rumor is they don't like TNT very much."]
 			id: "22BBD1738A733BE9"
+			shape: "circle"
+			subtitle: "Got any Spice?"
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_deathworm"
 				criterion: ""
 				id: "2BA55C4F1755497E"
 				type: "advancement"
 			}]
+			title: "Slay a Deathworm"
 			x: 4.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
+			description: ["If you don't have weapons imbued with fire you're gonna have a bad time. "]
 			id: "022C744F1E2F2739"
+			shape: "circle"
+			subtitle: "It loves to cuddle"
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_hydra"
 				criterion: ""
 				id: "5345B2569EE76D99"
 				type: "advancement"
 			}]
+			title: "Slay a Hydra"
 			x: 5.0d
-			y: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "6C5CF047D24C110D"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/bestiary"
+				criterion: ""
+				id: "29BD4AE6A4B3E3B2"
+				type: "advancement"
+			}]
+			title: "The Good Book of Monsters"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "7A00AF8EA1013509"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/lectern"
+				criterion: ""
+				id: "0B75860A4B097049"
+				type: "advancement"
+			}]
+			title: "The More You Know"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "0CE30613DE98BD2D"
+			shape: "circle"
+			subtitle: "Don't rub it's belly."
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_troll"
+				criterion: ""
+				id: "615689C7C3504D5D"
+				type: "advancement"
+			}]
+			title: "Slay a Cave Troll"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "0D3541BF046E534A"
+			shape: "circle"
+			subtitle: "The sea isn't safe"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "214C30E4971EC829"
+				type: "advancement"
+			}]
+			title: "Slay a Sea Serpent"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "1EC3AE1DB923E335"
+			shape: "circle"
+			subtitle: "It loves people"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "41B6733A7CCD7DA9"
+				type: "advancement"
+			}]
+			title: "Slay a Stymphalian Bird"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "124326B2BDFC2989"
+			shape: "circle"
+			subtitle: "Don't cross the streams"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+				id: "7FEE95BD2204B335"
+				type: "advancement"
+			}]
+			title: "Slay a Ghost"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: ["You're gonna have to shoot this down and ride it to try and break it. "]
+			id: "5181EACC2B7FFD28"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "3B9CEB64FA99266B"
+				type: "advancement"
+			}]
+			title: "Tame a Ampithere"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["An offering of Rabbit's Feet is said to assist in befriending Hippogryphs."]
+			id: "6792AF7CD1CA8A50"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "0108B09ABCEAB32D"
+				type: "advancement"
+			}]
+			title: "Tame a Hippogryph"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["Your potential new friend likes Kelp."]
+			id: "5546036E5AAE27ED"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+				id: "13D818AAE874FD74"
+				type: "advancement"
+			}]
+			title: "Tame a Hippocampus"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "055EAC293D1E66E3"
+			shape: "circle"
+			subtitle: "and obtain it's chitin"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_myrmex"
+				criterion: ""
+				id: "5214499C64249733"
+				type: "advancement"
+			}]
+			title: "Slay a Myrmex"
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 	title: "Overworld"
