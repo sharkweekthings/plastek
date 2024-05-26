@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "thermal:silver_ore"
+          "Name": "iceandfire:silver_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

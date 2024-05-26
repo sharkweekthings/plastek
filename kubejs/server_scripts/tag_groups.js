@@ -2290,6 +2290,222 @@ event.add('thermal:crafting/dies',
   'immersiveengineering:mold_wire'
   ])
 
+event.add('iceandfire:dragonsteel_chest', 
+  [
+  'iceandfire:dragonsteel_fire_chestplate',
+  'iceandfire:dragonsteel_ice_chestplate',
+  'iceandfire:dragonsteel_lightning_chestplate'
+  ])
+
+event.add('iceandfire:dragonsteel_feet', 
+  [
+  'iceandfire:dragonsteel_fire_boots',
+  'iceandfire:dragonsteel_ice_boots',
+  'iceandfire:dragonsteel_lightning_boots'
+  ])
+
+event.add('iceandfire:dragonsteel_head', 
+  [
+  'iceandfire:dragonsteel_fire_helmet',
+  'iceandfire:dragonsteel_ice_helmet',
+  'iceandfire:dragonsteel_lightning_helmet'
+  ])
+
+event.add('iceandfire:dragonsteel_legs', 
+  [
+  'iceandfire:dragonsteel_fire_leggings',
+  'iceandfire:dragonsteel_ice_leggings',
+  'iceandfire:dragonsteel_lightning_leggings'
+  ])
+
+event.add('iceandfire:myrmex_chest', 
+  [
+  'iceandfire:myrmex_desert_chestplate',
+  'iceandfire:myrmex_jungle_chestplate'
+  ])
+
+event.add('iceandfire:myrmex_feet', 
+  [
+  'iceandfire:myrmex_desert_boots',
+  'iceandfire:myrmex_jungle_boots'
+  ])
+
+event.add('iceandfire:myrmex_head', 
+  [
+  'iceandfire:myrmex_desert_helmet',
+  'iceandfire:myrmex_jungle_helmet'
+  ])
+
+event.add('iceandfire:myrmex_legs', 
+  [
+  'iceandfire:myrmex_desert_leggings',
+  'iceandfire:myrmex_jungle_leggings'
+  ])
+
+event.add('iceandfire:scale_chest', 
+  [
+  'iceandfire:armor_amythest_chestplate',
+  'iceandfire:armor_black_chestplate',
+  'iceandfire:armor_blue_chestplate',
+  'iceandfire:armor_bronze_chestplate',
+  'iceandfire:armor_copper_chestplate',
+  'iceandfire:armor_electric_chestplate',
+  'iceandfire:armor_gray_chestplate',
+  'iceandfire:armor_green_chestplate',
+  'iceandfire:armor_red_chestplate',
+  'iceandfire:armor_sapphire_chestplate',
+  'iceandfire:armor_silver_chestplate',
+  'iceandfire:armor_white_chestplate'
+  ])
+
+event.add('iceandfire:scale_feet', 
+  [
+  'iceandfire:armor_amythest_boots',
+  'iceandfire:armor_black_boots',
+  'iceandfire:armor_blue_boots',
+  'iceandfire:armor_bronze_boots',
+  'iceandfire:armor_copper_boots',
+  'iceandfire:armor_electric_boots',
+  'iceandfire:armor_gray_boots',
+  'iceandfire:armor_green_boots',
+  'iceandfire:armor_red_boots',
+  'iceandfire:armor_sapphire_boots',
+  'iceandfire:armor_silver_boots',
+  'iceandfire:armor_white_boots'
+  ])
+
+event.add('iceandfire:scale_head', 
+  [
+  'iceandfire:armor_amythest_helmet',
+  'iceandfire:armor_black_helmet',
+  'iceandfire:armor_blue_helmet',
+  'iceandfire:armor_bronze_helmet',
+  'iceandfire:armor_copper_helmet',
+  'iceandfire:armor_electric_helmet',
+  'iceandfire:armor_gray_helmet',
+  'iceandfire:armor_green_helmet',
+  'iceandfire:armor_red_helmet',
+  'iceandfire:armor_sapphire_helmet',
+  'iceandfire:armor_silver_helmet',
+  'iceandfire:armor_white_helmet'
+  ])
+
+event.add('iceandfire:scale_legs', 
+  [
+  'iceandfire:armor_amythest_leggings',
+  'iceandfire:armor_black_leggings',
+  'iceandfire:armor_blue_leggings',
+  'iceandfire:armor_bronze_leggings',
+  'iceandfire:armor_copper_leggings',
+  'iceandfire:armor_electric_leggings',
+  'iceandfire:armor_gray_leggings',
+  'iceandfire:armor_green_leggings',
+  'iceandfire:armor_red_leggings',
+  'iceandfire:armor_sapphire_leggings',
+  'iceandfire:armor_silver_leggings',
+  'iceandfire:armor_white_leggings'
+  ])
+
+event.add('iceandfire:tide_guardian_chest', 
+  [
+  'iceandfire:tide_blue_chestplate',
+  'iceandfire:tide_bronze_chestplate',
+  'iceandfire:tide_deepblue_chestplate',
+  'iceandfire:tide_green_chestplate',
+  'iceandfire:tide_purple_chestplate',
+  'iceandfire:tide_red_chestplate',
+  'iceandfire:tide_teal_chestplate'
+  ])
+
+event.add('iceandfire:tide_guardian_feet', 
+  [
+  'iceandfire:tide_blue_boots',
+  'iceandfire:tide_bronze_boots',
+  'iceandfire:tide_deepblue_boots',
+  'iceandfire:tide_green_boots',
+  'iceandfire:tide_purple_boots',
+  'iceandfire:tide_red_boots',
+  'iceandfire:tide_teal_boots'
+  ])
+
+event.add('iceandfire:tide_guardian_head', 
+  [
+  'iceandfire:tide_blue_helmet',
+  'iceandfire:tide_bronze_helmet',
+  'iceandfire:tide_deepblue_helmet',
+  'iceandfire:tide_green_helmet',
+  'iceandfire:tide_purple_helmet',
+  'iceandfire:tide_red_helmet',
+  'iceandfire:tide_teal_helmet'
+  ])
+
+event.add('iceandfire:tide_guardian_legs', 
+  [
+  'iceandfire:tide_blue_leggings',
+  'iceandfire:tide_bronze_leggings',
+  'iceandfire:tide_deepblue_leggings',
+  'iceandfire:tide_green_leggings',
+  'iceandfire:tide_purple_leggings',
+  'iceandfire:tide_red_leggings',
+  'iceandfire:tide_teal_leggings'
+  ])
+
+event.add('iceandfire:troll_chest', 
+  [
+  'iceandfire:forest_troll_leather_chestplate',
+  'iceandfire:frost_troll_leather_chestplate',
+  'iceandfire:mountain_troll_leather_chestplate'
+  ])
+
+event.add('iceandfire:troll_feet', 
+  [
+  'iceandfire:forest_troll_leather_boots',
+  'iceandfire:frost_troll_leather_boots',
+  'iceandfire:mountain_troll_leather_boots'
+  ])
+
+event.add('iceandfire:troll_head', 
+  [
+  'iceandfire:forest_troll_leather_helmet',
+  'iceandfire:frost_troll_leather_helmet',
+  'iceandfire:mountain_troll_leather_helmet'
+  ])
+
+event.add('iceandfire:troll_legs', 
+  [
+  'iceandfire:forest_troll_leather_leggings',
+  'iceandfire:frost_troll_leather_leggings',
+  'iceandfire:mountain_troll_leather_leggings'
+  ])
+
+event.add('iceandfire:worm_chest', 
+  [
+  'iceandfire:deathworm_red_chestplate',
+  'iceandfire:deathworm_white_chestplate',
+  'iceandfire:deathworm_yellow_chestplate'
+  ])
+
+event.add('iceandfire:worm_feet', 
+  [
+  'iceandfire:deathworm_red_boots',
+  'iceandfire:deathworm_white_boots',
+  'iceandfire:deathworm_yellow_boots'
+  ])
+
+event.add('iceandfire:worm_head', 
+  [
+  'iceandfire:deathworm_red_helmet',
+  'iceandfire:deathworm_white_helmet',
+  'iceandfire:deathworm_yellow_helmet'
+  ])
+
+event.add('iceandfire:worm_legs', 
+  [
+'iceandfire:deathworm_red_leggings',
+'iceandfire:deathworm_white_leggings',
+'iceandfire:deathworm_yellow_leggings'
+  ])
+
 // event.add('silentgear:saw', '#natprog:saw')
 event.add('natprog:saw', 'silentgear:saw')
 

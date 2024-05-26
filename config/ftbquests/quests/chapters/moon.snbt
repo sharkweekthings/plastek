@@ -129,6 +129,8 @@
 				"Ice dragons can also be found on Glacio."
 				""
 				"&o&eIn extremely rare cases you may encounter younger ice dragons on the surface of the Overworld, but only in the Jagged Peaks biome. This event can be so rare that you may never see it in your game.&r&r"
+				""
+				"&b&oDragon caves can contain ore that doesn't exist natively.&r&r"
 			]
 			id: "45366CB8BF7D0C05"
 			shape: "circle"

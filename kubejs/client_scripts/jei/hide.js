@@ -520,6 +520,9 @@ JEIEvents.hideItems(event => {
 	event.hide('tconstruct:boots_plating_sand_cast')
 	event.hide('tconstruct:maille_sand_cast')
 
+// Ice & Fire
+	event.hide('iceandfire:sapphire_ore')
+
 
 
 //
