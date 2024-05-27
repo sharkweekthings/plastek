@@ -1603,6 +1603,12 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mysticalagriculture:air_agglomeratio',
+  'mysticalagriculture:dye_agglomeratio',
+  'mysticalagriculture:earth_agglomeratio',
+  'mysticalagriculture:fire_agglomeratio',
+  'mysticalagriculture:nature_agglomeratio',
+  'mysticalagriculture:water_agglomeratio',
   'mekanism:digital_miner',
   'mekanism:bounding_block',
   'mekanismgenerators:rotational_complex',

@@ -25,7 +25,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -37,7 +37,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -73,7 +73,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -85,7 +85,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -97,7 +97,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.4999999999999996d
+			y: 3.9999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.4999999999999996d
+			y: 3.9999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -121,7 +121,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.4999999999999996d
+			y: 3.9999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -133,7 +133,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.4999999999999996d
+			y: 3.9999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -145,7 +145,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.4999999999999996d
+			y: 3.9999999999999996d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -169,7 +169,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -181,7 +181,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -215,7 +215,7 @@
 				}
 			]
 			x: 2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -244,7 +244,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -256,7 +256,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -268,7 +268,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -280,7 +280,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -292,7 +292,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -304,7 +304,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -316,7 +316,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -328,7 +328,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -340,7 +340,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -352,7 +352,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -364,7 +364,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
@@ -388,7 +388,7 @@
 				}
 			]
 			x: 2.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
@@ -407,7 +407,7 @@
 				}
 			]
 			x: 1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
@@ -426,7 +426,7 @@
 				}
 			]
 			x: 0.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -438,7 +438,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C3B6C4F42399736"]
@@ -451,7 +451,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79705DCA6ADC0148"]
@@ -798,7 +798,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -810,7 +810,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18767B4EA37C9EDB"]
@@ -840,7 +840,7 @@
 			]
 			title: "Drill Bits"
 			x: -1.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -861,7 +861,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2D29E707D6153F7D"]
@@ -896,7 +896,7 @@
 				}
 			]
 			x: 5.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79705DCA6ADC0148"]
@@ -914,7 +914,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6C1E83D3986A642A"]
@@ -1157,7 +1157,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -1169,7 +1169,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -1181,7 +1181,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -1193,7 +1193,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["79705DCA6ADC0148"]
@@ -1212,7 +1212,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["79705DCA6ADC0148"]
@@ -1262,8 +1262,8 @@
 				}
 			]
 			title: "Construction Wands"
-			x: 5.5d
-			y: -3.5d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7FE6C2524B72462E"]
@@ -1295,7 +1295,7 @@
 				}
 			]
 			x: 1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6C1E83D3986A642A"]
@@ -1320,10 +1320,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["79705DCA6ADC0148"]
+			dependencies: ["6496E4CB719A6295"]
 			description: ["Throw this at a mob or villager and leave them there until you click again."]
 			id: "7F54F607D5950735"
 			shape: "circle"
@@ -1334,11 +1334,11 @@
 				type: "item"
 			}]
 			title: "The Best"
-			x: 2.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["7F54F607D5950735"]
+			dependencies: ["79705DCA6ADC0148"]
 			description: ["Carry a mob with you"]
 			id: "6496E4CB719A6295"
 			shape: "circle"
@@ -1349,7 +1349,7 @@
 				type: "item"
 			}]
 			title: "Piggy Backpack"
-			x: 3.5d
+			x: 2.0d
 			y: -3.0d
 		}
 	]

@@ -971,6 +971,431 @@
 			x: 1.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:forest_troll_leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31D68123D61DFC55"
+			shape: "circle"
+			tasks: [{
+				id: "2D9886801BED98F9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:troll_head"
+					}
+				}
+				title: "Any #iceandfire:troll_head"
+				type: "item"
+			}]
+			title: "Troll Helmet"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:forest_troll_leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A5235B6BF610527"
+			shape: "circle"
+			tasks: [{
+				id: "6232B78924F44EFD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:troll_chest"
+					}
+				}
+				title: "Any #iceandfire:troll_chest"
+				type: "item"
+			}]
+			title: "Troll Chestplate"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:forest_troll_leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50C9C639DF73B8D0"
+			shape: "circle"
+			tasks: [{
+				id: "731408205A94BBA8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:troll_legs"
+					}
+				}
+				title: "Any #iceandfire:troll_legs"
+				type: "item"
+			}]
+			title: "Troll Leggings"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "7F9C03CF87FD2570"
+			shape: "circle"
+			tasks: [{
+				id: "007C8CA42E624DBB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:troll_feet"
+					}
+				}
+				title: "Any #iceandfire:troll_feet"
+				type: "item"
+			}]
+			title: "Troll Boots"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:deathworm_yellow_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3305CEFABA5BBF6E"
+			shape: "circle"
+			tasks: [{
+				id: "48E3EC5503B1C63C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:worm_head"
+					}
+				}
+				title: "Any #iceandfire:worm_head"
+				type: "item"
+			}]
+			title: "Death Worm Helmet"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:deathworm_yellow_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7BFC2E2D17A5920D"
+			shape: "circle"
+			tasks: [{
+				id: "37675B7C95759C4B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:worm_chest"
+					}
+				}
+				title: "Any #iceandfire:worm_chest"
+				type: "item"
+			}]
+			title: "Death Worm Chestplate"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:deathworm_yellow_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4923DCDE870F603F"
+			shape: "circle"
+			tasks: [{
+				id: "1A92695DB04FB292"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:worm_legs"
+					}
+				}
+				title: "Any #iceandfire:worm_legs"
+				type: "item"
+			}]
+			title: "Death Worm Leggings"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:deathworm_yellow_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0B84BAF59F99CBEA"
+			shape: "circle"
+			tasks: [{
+				id: "64AF40D9F567688B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:worm_feet"
+					}
+				}
+				title: "Any #iceandfire:worm_feet"
+				type: "item"
+			}]
+			title: "Death Worm Boots"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:tide_blue_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B8F6830AC210B9B"
+			shape: "circle"
+			tasks: [{
+				id: "4AAAC7E415560375"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:tide_guardian_head"
+					}
+				}
+				title: "Any #iceandfire:tide_guardian_head"
+				type: "item"
+			}]
+			title: "Tide Guardian Helmet"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:tide_blue_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01BDD2C8729A7996"
+			shape: "circle"
+			tasks: [{
+				id: "6C8C36565BE0D4ED"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:tide_guardian_chest"
+					}
+				}
+				title: "Any #iceandfire:tide_guardian_chest"
+				type: "item"
+			}]
+			title: "Tide Guardian Chestplate"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:tide_blue_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4CA15CB6D8F4CF09"
+			shape: "circle"
+			tasks: [{
+				id: "61831780374AF62B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:tide_guardian_legs"
+					}
+				}
+				title: "Any #iceandfire:tide_guardian_legs"
+				type: "item"
+			}]
+			title: "Tide Guardian Leggings"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:tide_blue_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38086D089B458447"
+			shape: "circle"
+			tasks: [{
+				id: "75AD4C8AD992C2BA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:tide_guardian_feet"
+					}
+				}
+				title: "Any #iceandfire:tide_guardian_feet"
+				type: "item"
+			}]
+			title: "Tide Guardian Boots"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:myrmex_desert_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F0CCFF53C51799F"
+			shape: "circle"
+			tasks: [{
+				id: "0C3DA031EBE9D5F7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:myrmex_head"
+					}
+				}
+				title: "Any #iceandfire:myrmex_head"
+				type: "item"
+			}]
+			title: "Myrmex Helmet"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:myrmex_desert_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40E4E4DEFD6FBF54"
+			shape: "circle"
+			tasks: [{
+				id: "219C0CBC12417FF2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:myrmex_chest"
+					}
+				}
+				title: "Any #iceandfire:myrmex_chest"
+				type: "item"
+			}]
+			title: "Myrmex Chestplate"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:myrmex_desert_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "02EC05638781C007"
+			shape: "circle"
+			tasks: [{
+				id: "3708FC16821FC067"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:myrmex_legs"
+					}
+				}
+				title: "Any #iceandfire:myrmex_legs"
+				type: "item"
+			}]
+			title: "Myrmex Leggings"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:myrmex_desert_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F900DFAD651855A"
+			shape: "circle"
+			tasks: [{
+				id: "6ED18BB671BCDF22"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:myrmex_feet"
+					}
+				}
+				title: "Any #iceandfire:myrmex_feet"
+				type: "item"
+			}]
+			title: "Myrmex Boots"
+			x: 8.0d
+			y: -3.0d
+		}
 	]
 	title: "Armor"
 }

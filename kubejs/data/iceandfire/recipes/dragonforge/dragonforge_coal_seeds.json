@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "fire",
+  "cook_time": 1000,
+  "input": {
+    "item": "compressium:coal_2"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:coal_seeds"
+  }
+}

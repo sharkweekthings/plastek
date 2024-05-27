@@ -27,7 +27,7 @@
 			}]
 			title: "Wrapping Up w/ Botania and Occultism"
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -46,7 +46,7 @@
 			}]
 			title: "Demon Mining"
 			x: 2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -62,7 +62,7 @@
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -88,7 +88,7 @@
 			}]
 			title: "Gaia Guardian - Part 1"
 			x: -2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["545BCD238889A9AF"]
@@ -127,7 +127,7 @@
 			]
 			title: "Getting Thirsty"
 			x: -4.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["50C38CBD42331813"]
@@ -152,7 +152,7 @@
 				}
 			]
 			x: -4.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["50E223D6CA37794C"]
@@ -176,7 +176,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -208,7 +208,7 @@
 			]
 			title: "The Arena"
 			x: -2.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1AA726DA3A51CAC5"]
@@ -232,7 +232,7 @@
 				type: "advancement"
 			}]
 			x: -2.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7F896FEF828D86E1"]
@@ -252,7 +252,7 @@
 				type: "advancement"
 			}]
 			x: -2.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["48D65877C05F1D79"]
@@ -290,7 +290,7 @@
 			]
 			title: "Drinking from Yggdrasil"
 			x: -2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["637459C5F511748D"]
@@ -324,7 +324,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7370F0819950059B"]
@@ -358,7 +358,7 @@
 			]
 			title: "Some Basic Stuff"
 			x: 2.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6CD12F2F9CAA0FD6"]
@@ -409,7 +409,7 @@
 			]
 			title: "The Ritual Items"
 			x: 2.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5C1F5DFD44351484"]
@@ -436,7 +436,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["34BD9E6EC406BECB"]
@@ -478,7 +478,7 @@
 			]
 			title: "The Next Ritual"
 			x: 2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -518,7 +518,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["48ABF1D3186757AE"]
@@ -542,7 +542,7 @@
 				}
 			]
 			x: -5.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0933440E7DFA2B10"]
@@ -573,11 +573,11 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["48ABF1D3186757AE"]
+			dependencies: ["20CE54E140F2108E"]
 			icon: {
 				Count: 1b
 				id: "endrem:lost_eye"
@@ -604,8 +604,8 @@
 				type: "checkmark"
 			}]
 			title: "Dragon Eye Recovery"
-			x: -4.0d
-			y: 7.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -625,7 +625,7 @@
 			}]
 			title: "Storing Knowledge"
 			x: 0.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2EA3894CC2A995DD"]
@@ -658,7 +658,97 @@
 			]
 			title: "More Basic Stuff"
 			x: 2.0d
-			y: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48ABF1D3186757AE"]
+			id: "4BC048AF7DADFD7D"
+			shape: "square"
+			tasks: [{
+				id: "79896CE3180A1B1F"
+				title: "One More Forge"
+				type: "checkmark"
+			}]
+			title: "Two More Forges"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BC048AF7DADFD7D"]
+			id: "0A7EA8DBDB82893E"
+			shape: "circle"
+			tasks: [
+				{
+					count: 17L
+					id: "4CD86490D87AC063"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+				{
+					id: "05EECDB22A8629D8"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					id: "5A63F2D9783485DA"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+			]
+			title: "Lightning Dragonforge"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4BC048AF7DADFD7D"]
+			id: "1DDAF7F532AD2DF4"
+			shape: "square"
+			tasks: [
+				{
+					count: 17L
+					id: "0B74D02D68C31D6E"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+				{
+					id: "398B17FE8179DD08"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					id: "5E758472611347DE"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+			]
+			title: "Fire Dragonforge"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DDAF7F532AD2DF4"]
+			id: "20CE54E140F2108E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02E2765971A702FC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "222D833503C89EAF"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Eye of the Dragon"
+			x: -6.0d
+			y: -3.5d
 		}
 	]
 	title: "Magic"

@@ -230,6 +230,150 @@
 			x: 2.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["1DDAF7F532AD2DF4"]
+			id: "720CBFDAD729043E"
+			shape: "circle"
+			tasks: [{
+				id: "4705C1441E0A203C"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1DDAF7F532AD2DF4"]
+			id: "736F46449014E3C6"
+			shape: "circle"
+			tasks: [{
+				id: "2500C76A107D9B4F"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1DDAF7F532AD2DF4"]
+			id: "18F1126DD6ADFECC"
+			shape: "circle"
+			tasks: [{
+				id: "64A9E8D166CC66B7"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1DDAF7F532AD2DF4"]
+			id: "7A9CFCD837A6D033"
+			shape: "circle"
+			tasks: [{
+				id: "0DE914B6EE5BF5CB"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A7EA8DBDB82893E"]
+			id: "696119ED0FF3F6DD"
+			shape: "circle"
+			tasks: [{
+				id: "1B0A423334BCFFD9"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A7EA8DBDB82893E"]
+			id: "36E5E3BF718942B6"
+			shape: "circle"
+			tasks: [{
+				id: "7DA44A88979B9019"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A7EA8DBDB82893E"]
+			id: "4C54441F4BDDC82D"
+			shape: "circle"
+			tasks: [{
+				id: "759B639CA9B5B95C"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A7EA8DBDB82893E"]
+			id: "75EFCE6B18335F24"
+			shape: "circle"
+			tasks: [{
+				id: "0FB447F476325EC4"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
 	]
 	title: "Armor"
 }

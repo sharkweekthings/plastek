@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "ice",
+  "cook_time": 1000,
+  "input": {
+    "item": "mysticalagriculture:water_agglomeratio"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:water_seeds"
+  }
+}

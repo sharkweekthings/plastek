@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "lightning",
+  "cook_time": 1000,
+  "input": {
+    "item": "compressium:stone_2"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:stone_seeds"
+  }
+}

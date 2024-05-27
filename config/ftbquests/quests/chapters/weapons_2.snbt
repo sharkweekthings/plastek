@@ -673,7 +673,43 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "227C34081E4359D2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0DD159B71D414EF0"
+					item: {
+						Count: 1b
+						id: "iceandfire:dragonbone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71F334FB1C37F1E7"
+					item: {
+						Count: 1b
+						id: "iceandfire:dragonbone_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2248DEDECCD0E442"
+					item: "iceandfire:dragonbone_arrow"
+					type: "item"
+				}
+			]
+			title: "Dragon Bone Weapons"
+			x: 2.5d
 			y: 2.0d
 		}
 	]

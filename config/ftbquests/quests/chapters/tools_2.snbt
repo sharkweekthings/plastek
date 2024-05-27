@@ -718,6 +718,71 @@
 			x: -2.5d
 			y: -8.0d
 		}
+		{
+			id: "261EA36A1D9E58F7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "438C87B3C827FF65"
+					item: {
+						Count: 1b
+						id: "iceandfire:dragonbone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D067CA32A660C62"
+					item: {
+						Count: 1b
+						id: "iceandfire:dragonbone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770F0F1FA429F8BB"
+					item: {
+						Count: 1b
+						id: "iceandfire:dragonbone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D66BD7CB5B83F0A"
+					item: {
+						Count: 1b
+						id: "iceandfire:dragonbone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragon Bone Tools"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: ["This item will cause your tamed dragon, ampithere, or hippogryph to stop flying and come down as long as you are below it. "]
+			id: "2A8AF6E7065478DF"
+			shape: "circle"
+			tasks: [{
+				id: "384D4064D8DE83DB"
+				item: "iceandfire:dragon_flute"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
 	]
 	title: "Utility"
 }

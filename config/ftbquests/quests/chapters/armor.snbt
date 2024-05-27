@@ -29,8 +29,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -47,8 +47,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -65,8 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -83,8 +83,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -104,8 +104,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -125,8 +125,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -146,8 +146,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -167,8 +167,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -185,7 +185,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -203,7 +203,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -221,7 +221,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -239,7 +239,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -257,8 +257,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -275,8 +275,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -293,8 +293,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -311,8 +311,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -329,7 +329,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -347,7 +347,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -365,7 +365,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -383,8 +383,228 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["1631511C74EA85F2"]
+			hide_dependency_lines: true
+			id: "43326B3F9A0A7580"
+			shape: "circle"
+			tasks: [{
+				id: "5196D1C70EECB560"
+				item: {
+					Count: 1b
+					id: "iceandfire:sheep_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79B86C98EFFAB966"]
+			hide_dependency_lines: true
+			id: "7E32182FB905640D"
+			shape: "circle"
+			tasks: [{
+				id: "5672D34CF89D2DAD"
+				item: {
+					Count: 1b
+					id: "iceandfire:sheep_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D9A953825DE7FF"]
+			hide_dependency_lines: true
+			id: "3FC85E85241C23F8"
+			shape: "circle"
+			tasks: [{
+				id: "73815C404B302281"
+				item: {
+					Count: 1b
+					id: "iceandfire:sheep_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B4ACA63650D98E"]
+			hide_dependency_lines: true
+			id: "6464D9C368ADEA78"
+			shape: "circle"
+			tasks: [{
+				id: "13B9E53D5004F008"
+				item: {
+					Count: 1b
+					id: "iceandfire:sheep_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "61409422D3825A55"
+			shape: "circle"
+			tasks: [{
+				id: "5CCA033CDA605E21"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_copper_metal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "499EC189CD2BF6F8"
+			shape: "circle"
+			tasks: [{
+				id: "7626B89A6F30E24F"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_copper_metal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "2CDA3E4C58CE457E"
+			shape: "circle"
+			tasks: [{
+				id: "3362E773EDB2A41E"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_copper_metal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "3CE242B49E36FC4D"
+			shape: "circle"
+			tasks: [{
+				id: "6FFA384F94009F7A"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_copper_metal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "0251A8EB2F5C8AF0"
+			shape: "circle"
+			tasks: [{
+				id: "1887FAEE66B3CE56"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_silver_metal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "74987AC29DED07CE"
+			shape: "circle"
+			tasks: [{
+				id: "15C73C36B0470736"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_silver_metal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "443D699C972BC2D5"
+			shape: "circle"
+			tasks: [{
+				id: "7444C4202F5ECBCE"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_silver_metal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "043A14FD13A9BAAF"
+			shape: "circle"
+			tasks: [{
+				id: "775158AFB5F663DC"
+				item: {
+					Count: 1b
+					id: "iceandfire:armor_silver_metal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	title: "Armor"

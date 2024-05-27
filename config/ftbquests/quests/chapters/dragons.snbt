@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragons"
+	group: "6274245AF897553D"
+	icon: "iceandfire:dragonegg_blue"
+	id: "6CE36445126E1020"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "066E6612BBC90154"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "526453CC921A1DA0"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1694FDBE2DEF3606"
+				item: "iceandfire:dragonegg_red"
+				type: "item"
+			}]
+			title: "Red Dragon Egg"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "7E9DC2D8614B8931"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0270A94227C0CEDC"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0E07FD182A17BBA2"
+				item: "iceandfire:dragonegg_green"
+				type: "item"
+			}]
+			title: "Emerald Dragon Egg"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "39D0B2B4ED5F724D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D78929CE0E969E8"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "37CFE2C140B11F4B"
+				item: "iceandfire:dragonegg_bronze"
+				type: "item"
+			}]
+			title: "Bronze Dragon Egg"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0CCEDBDD6DA19488"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C9EB9760C0C59B"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "36DBF4B12CB7E1D9"
+				item: "iceandfire:dragonegg_gray"
+				type: "item"
+			}]
+			title: "Gray Dragon Egg"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "614FDBAF71E4FA09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "772AF91FA5153AB9"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "15E5196BB6A8AD63"
+				item: "iceandfire:dragonegg_blue"
+				type: "item"
+			}]
+			title: "Blue Dragon Egg"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "41F9AF8D2C34C012"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "482D735088D0890B"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3A4E46AB01934DDE"
+				item: "iceandfire:dragonegg_white"
+				type: "item"
+			}]
+			title: "White Dragon Egg"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "3B5EC245C39790EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AEA044F859F17B3"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "57B27C103FB4F46D"
+				item: "iceandfire:dragonegg_sapphire"
+				type: "item"
+			}]
+			title: "Sapphire Dragon Egg"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "2E661916FE420166"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECAC5107B562E1B"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "26B4E4E0954F4E12"
+				item: "iceandfire:dragonegg_silver"
+				type: "item"
+			}]
+			title: "Silver Dragon Egg"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "7C26CED4D738AAE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FE5601C9DE60164"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "45DDD54B09CC93FE"
+				item: "iceandfire:dragonegg_electric"
+				type: "item"
+			}]
+			title: "Electric Blue Dragon Egg"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "14CA4F91AC4785E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11DF34105EA7C5A1"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "49E5F76651CF0058"
+				item: "iceandfire:dragonegg_amythest"
+				type: "item"
+			}]
+			title: "Amethyst Dragon Egg"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "2BDDC0B813B85C25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5140361F0EC8ECCD"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "786B5EC55AED4F20"
+				item: "iceandfire:dragonegg_copper"
+				type: "item"
+			}]
+			title: "Copper Dragon Egg"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "6917AA6B4B64908F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC4870D7C5E6F76"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4C29EE9BAC6A7090"
+				item: "iceandfire:dragonegg_black"
+				type: "item"
+			}]
+			title: "Black Dragon Egg"
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+	title: "Dragons"
+}

@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
   event.shaped('tconstruct:piggy_backpack',
     ['343','121','333'], {
     1: 'tconstruct:slimesteel_ingot', 
-    2: 'industrialforegoing:mob_imprisonment_tool',
+    2: 'productivebees:bee_cage',
     3: '#forge:leather',
     4: 'tconstruct:pig_iron_ingot'}).id('tconstruct:gadgets/piggy_backpack')
 

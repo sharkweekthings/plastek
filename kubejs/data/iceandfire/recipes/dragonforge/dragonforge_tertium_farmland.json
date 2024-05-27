@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "lightning",
+  "cook_time": 1000,
+  "input": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:tertium_farmland"
+  }
+}

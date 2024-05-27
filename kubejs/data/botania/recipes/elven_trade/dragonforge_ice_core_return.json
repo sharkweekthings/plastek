@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "kubejs:ice_dragonforge_core_package"
+    }
+  ],
+  "output": [
+    {
+      "item": "iceandfire:dragonforge_ice_core_disabled"
+    }
+  ]
+}

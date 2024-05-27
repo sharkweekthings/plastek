@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "fire",
+  "cook_time": 1000,
+  "input": {
+    "item": "mythicbotany:dragonstone_ore"
+  },
+  "blood": {
+    "item": "apotheosis:mythic_material"
+  },
+  "result": {
+    "item": "endrem:lost_eye"
+  }
+}

@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
     ['121','232','121'], {
     1: 'industrialforegoing:plastic',
     2: 'pneumaticcraft:ingot_iron_compressed',
-	3: 'productivebees:bee_cage'}).id('industrialforegoing:mob_imprisonment_tool')
+	3: 'tconstruct:piggy_backpack'}).id('industrialforegoing:mob_imprisonment_tool')
 
 // Fluid Extractor
   event.shaped('industrialforegoing:fluid_extractor',

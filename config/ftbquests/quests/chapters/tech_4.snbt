@@ -1060,6 +1060,7 @@
 			y: 8.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2E18138D211E9206"]
 			icon: {
 				Count: 1b

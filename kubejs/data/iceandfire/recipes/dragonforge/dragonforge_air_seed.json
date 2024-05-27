@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "ice",
+  "cook_time": 1000,
+  "input": {
+    "item": "mob_grinding_utils:fan"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:air_seeds"
+  }
+}

@@ -874,7 +874,11 @@
 			y: 4.0d
 		}
 		{
-			description: ["A Cyclops has one eye that is probably susceptible to sharp projectile objects."]
+			description: [
+				"Cyclops' tend to leave sheep alone. Perhaps if you had some sort of sheep disguse you could walk past without it noticing you. "
+				""
+				"A Cyclops eye makes for excellent target practice with a bow and arrow!"
+			]
 			id: "33F7C24F00AB5C03"
 			shape: "circle"
 			subtitle: "Eye spy"
