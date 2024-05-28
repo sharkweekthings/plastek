@@ -523,6 +523,23 @@ JEIEvents.hideItems(event => {
 // Ice & Fire
 	event.hide('iceandfire:sapphire_ore')
 
+// EE
+	event.hide('emendatusenigmatica:copper_sword')
+	event.hide('emendatusenigmatica:copper_pickaxe')
+	event.hide('emendatusenigmatica:copper_shovel')
+	event.hide('emendatusenigmatica:copper_hoe')
+	event.hide('emendatusenigmatica:copper_helmet')
+	event.hide('emendatusenigmatica:copper_chestplate')
+	event.hide('emendatusenigmatica:copper_leggings')
+	event.hide('emendatusenigmatica:copper_boots')
+	event.hide('emendatusenigmatica:sterling_silver_sword')
+	event.hide('emendatusenigmatica:sterling_silver_pickaxe')
+	event.hide('emendatusenigmatica:sterling_silver_shovel')
+	event.hide('emendatusenigmatica:sterling_silver_helmet')
+	event.hide('emendatusenigmatica:sterling_silver_chestplate')
+	event.hide('emendatusenigmatica:sterling_silver_leggings')
+	event.hide('emendatusenigmatica:sterling_silver_boots')
+
 
 
 //

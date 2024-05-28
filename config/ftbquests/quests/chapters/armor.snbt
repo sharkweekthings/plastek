@@ -19,10 +19,10 @@
 			id: "38EF3CCF0F3F50B5"
 			shape: "circle"
 			tasks: [{
-				id: "16CAEA7496B5D3F6"
+				id: "21317ED4759C2049"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_helmet"
+					id: "iceandfire:armor_copper_metal_helmet"
 					tag: {
 						Damage: 0
 					}
@@ -30,17 +30,17 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
 			id: "1983EA84BECBA310"
 			shape: "circle"
 			tasks: [{
-				id: "61F927CB8C62C434"
+				id: "7FBAA02022486F33"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_chestplate"
+					id: "iceandfire:armor_copper_metal_chestplate"
 					tag: {
 						Damage: 0
 					}
@@ -48,17 +48,17 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
 			id: "37B06249C0750803"
 			shape: "circle"
 			tasks: [{
-				id: "565DC5CCDA47319C"
+				id: "0B5A0251E192D99E"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_leggings"
+					id: "iceandfire:armor_copper_metal_leggings"
 					tag: {
 						Damage: 0
 					}
@@ -66,17 +66,17 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
 			id: "6E3DE70C0CE05D06"
 			shape: "circle"
 			tasks: [{
-				id: "455B1A968EE0224A"
+				id: "296A16566184DFB4"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_boots"
+					id: "iceandfire:armor_copper_metal_boots"
 					tag: {
 						Damage: 0
 					}
@@ -84,20 +84,20 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
-				"0EAC1C918A0B2E6D"
+				"159DC7234BD0097A"
 				"4438CC470515A45C"
 			]
 			id: "661D5C93922B4751"
 			shape: "circle"
 			tasks: [{
-				id: "36DCA8142868F3F3"
+				id: "53AC55F33FAC756B"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:sterling_silver_helmet"
+					id: "iceandfire:armor_silver_metal_helmet"
 					tag: {
 						Damage: 0
 					}
@@ -109,16 +109,16 @@
 		}
 		{
 			dependencies: [
-				"0EAC1C918A0B2E6D"
+				"159DC7234BD0097A"
 				"27FBC19A999E7499"
 			]
 			id: "12C96B59E4BD837F"
 			shape: "circle"
 			tasks: [{
-				id: "3685F2AEE1AB7ABD"
+				id: "64DBD45054AA6017"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:sterling_silver_chestplate"
+					id: "iceandfire:armor_silver_metal_chestplate"
 					tag: {
 						Damage: 0
 					}
@@ -130,16 +130,16 @@
 		}
 		{
 			dependencies: [
-				"0EAC1C918A0B2E6D"
+				"159DC7234BD0097A"
 				"27FBC19A999E7499"
 			]
 			id: "234B3E7AE665C667"
 			shape: "circle"
 			tasks: [{
-				id: "31199F5BB5C53F5E"
+				id: "0A6D81B8AEDA3500"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:sterling_silver_leggings"
+					id: "iceandfire:armor_silver_metal_leggings"
 					tag: {
 						Damage: 0
 					}
@@ -151,16 +151,16 @@
 		}
 		{
 			dependencies: [
-				"0EAC1C918A0B2E6D"
+				"159DC7234BD0097A"
 				"4438CC470515A45C"
 			]
 			id: "45207CCD6F12C407"
 			shape: "circle"
 			tasks: [{
-				id: "6D5844F0AAB2FB55"
+				id: "48271E51C8E35045"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:sterling_silver_boots"
+					id: "iceandfire:armor_silver_metal_boots"
 					tag: {
 						Damage: 0
 					}
@@ -461,150 +461,6 @@
 			}]
 			x: -0.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "61409422D3825A55"
-			shape: "circle"
-			tasks: [{
-				id: "5CCA033CDA605E21"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_copper_metal_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "499EC189CD2BF6F8"
-			shape: "circle"
-			tasks: [{
-				id: "7626B89A6F30E24F"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_copper_metal_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "2CDA3E4C58CE457E"
-			shape: "circle"
-			tasks: [{
-				id: "3362E773EDB2A41E"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_copper_metal_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "3CE242B49E36FC4D"
-			shape: "circle"
-			tasks: [{
-				id: "6FFA384F94009F7A"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_copper_metal_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "0251A8EB2F5C8AF0"
-			shape: "circle"
-			tasks: [{
-				id: "1887FAEE66B3CE56"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_silver_metal_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "74987AC29DED07CE"
-			shape: "circle"
-			tasks: [{
-				id: "15C73C36B0470736"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_silver_metal_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "443D699C972BC2D5"
-			shape: "circle"
-			tasks: [{
-				id: "7444C4202F5ECBCE"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_silver_metal_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "043A14FD13A9BAAF"
-			shape: "circle"
-			tasks: [{
-				id: "775158AFB5F663DC"
-				item: {
-					Count: 1b
-					id: "iceandfire:armor_silver_metal_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
 		}
 	]
 	title: "Armor"

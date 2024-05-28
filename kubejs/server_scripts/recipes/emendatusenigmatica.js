@@ -115,6 +115,23 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:furnace_706515847'})
   event.remove({id: 'emendatusenigmatica:gear/from_ingot/steel'})
   event.remove({id: 'emendatusenigmatica:gear/from_ingot/osmium'})
+  event.remove({id: 'emendatusenigmatica:sword/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:pickaxe/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:shovel/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:hoe/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:helmet/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:chestplate/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:leggings/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:boots/from_ingot/copper'})
+  event.remove({id: 'emendatusenigmatica:sword/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:pickaxe/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:shovel/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:hoe/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:helmet/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:chestplate/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:leggings/from_ingot/sterling_silver'})
+  event.remove({id: 'emendatusenigmatica:boots/from_ingot/sterling_silver'})
+
 
 //
 })

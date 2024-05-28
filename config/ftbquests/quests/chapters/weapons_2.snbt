@@ -673,44 +673,174 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["0240FDF5F774DEEE"]
 			id: "227C34081E4359D2"
+			shape: "circle"
+			tasks: [{
+				id: "0DD159B71D414EF0"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonbone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dragon Bone Sword"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "382B9E825DE84F1F"
+			shape: "circle"
+			tasks: [{
+				id: "156E25BB980982DB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:myrm_sword"
+					}
+				}
+				title: "Any #iceandfire:myrm_sword"
+				type: "item"
+			}]
+			title: "Myrmex Sword"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "046C8473509E2781"
+			shape: "circle"
+			tasks: [{
+				id: "0E3819269A6ACDAF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:worm_gauntlet"
+					}
+				}
+				title: "Any #iceandfire:worm_gauntlet"
+				type: "item"
+			}]
+			title: "Worm Gauntlet"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["227C34081E4359D2"]
+			id: "1FFFCC1471B33170"
+			shape: "circle"
+			tasks: [{
+				id: "0A8183D1DBDE41F2"
+				item: {
+					Count: 1b
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "11AAF3784696E7F5"
+			shape: "circle"
+			tasks: [{
+				id: "03CC276277A345F8"
+				item: {
+					Count: 1b
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "20B83026F1A0D42E"
+			shape: "circle"
+			tasks: [{
+				id: "5604E384C8C52DD9"
+				item: {
+					Count: 1b
+					id: "iceandfire:stymphalian_bird_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "111996B4DD0DAE2E"
+			shape: "circle"
+			tasks: [{
+				id: "21CBAF120037A805"
+				item: {
+					Count: 1b
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "48672BCB8169DF31"
 			shape: "circle"
 			tasks: [
 				{
-					id: "0DD159B71D414EF0"
-					item: {
-						Count: 1b
-						id: "iceandfire:dragonbone_sword"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "62CABCD9F12C7DDB"
+					item: "iceandfire:amphithere_arrow"
 					type: "item"
 				}
 				{
-					id: "71F334FB1C37F1E7"
-					item: {
-						Count: 1b
-						id: "iceandfire:dragonbone_bow"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2248DEDECCD0E442"
+					id: "35643944EAB79DC6"
 					item: "iceandfire:dragonbone_arrow"
 					type: "item"
 				}
+				{
+					id: "7B3AEE5285C04E5F"
+					item: "iceandfire:hydra_arrow"
+					type: "item"
+				}
+				{
+					id: "027D599306A7C13B"
+					item: "iceandfire:sea_serpent_arrow"
+					type: "item"
+				}
+				{
+					id: "40E60B10F959100B"
+					item: "iceandfire:stymphalian_arrow"
+					type: "item"
+				}
 			]
-			title: "Dragon Bone Weapons"
-			x: 2.5d
-			y: 2.0d
+			title: "Arrows of Ice and Fire"
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Weapons"

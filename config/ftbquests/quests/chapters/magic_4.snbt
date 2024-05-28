@@ -664,6 +664,7 @@
 			dependencies: ["48ABF1D3186757AE"]
 			id: "4BC048AF7DADFD7D"
 			shape: "square"
+			subtitle: "Fire Dragonforge required for the pack"
 			tasks: [{
 				id: "79896CE3180A1B1F"
 				title: "One More Forge"

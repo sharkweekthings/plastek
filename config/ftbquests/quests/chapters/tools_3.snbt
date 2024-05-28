@@ -1352,6 +1352,17 @@
 			x: 2.0d
 			y: -3.0d
 		}
+		{
+			id: "00655743E0DF1CC7"
+			shape: "circle"
+			tasks: [{
+				id: "732EEC6BB6D2AD08"
+				item: "iceandfire:summoning_crystal_ice"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
 	]
 	title: "Utility"
 }

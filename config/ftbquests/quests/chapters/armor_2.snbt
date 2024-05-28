@@ -1396,6 +1396,42 @@
 			x: 8.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "1C8960DA12F78645"
+			shape: "circle"
+			tasks: [{
+				id: "1F5A243FD72D642F"
+				item: "iceandfire:iron_hippogryph_armor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "7CF5906AEAA52515"
+			shape: "circle"
+			tasks: [{
+				id: "5FE4B85C78019675"
+				item: "iceandfire:gold_hippogryph_armor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "21BC8270F609E568"
+			shape: "circle"
+			tasks: [{
+				id: "2D005FE17141B347"
+				item: "iceandfire:diamond_hippogryph_armor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
 	]
 	title: "Armor"
 }

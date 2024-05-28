@@ -284,13 +284,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["301EFB21689EDC51"]
+			dependencies: ["29ABB78197853F7B"]
 			id: "378EB7B1D0917EEF"
 			tasks: [{
-				id: "07AD17DB38EF8A46"
+				id: "58D5380ED80972B1"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_hoe"
+					id: "iceandfire:copper_hoe"
 					tag: {
 						Damage: 0
 					}
@@ -302,13 +302,13 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["301EFB21689EDC51"]
+			dependencies: ["29ABB78197853F7B"]
 			id: "74EA353F28795796"
 			tasks: [{
-				id: "688F20324F7E5AC1"
+				id: "6EDC524C87C57AA5"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_pickaxe"
+					id: "iceandfire:copper_pickaxe"
 					tag: {
 						Damage: 0
 					}
@@ -316,17 +316,17 @@
 				type: "item"
 			}]
 			title: "Copper Pickaxe"
-			x: 5.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["301EFB21689EDC51"]
+			dependencies: ["29ABB78197853F7B"]
 			id: "1B85900C76F33C8B"
 			tasks: [{
-				id: "4531870DB0BC277C"
+				id: "1468443C688248F4"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:copper_shovel"
+					id: "iceandfire:copper_shovel"
 					tag: {
 						Damage: 0
 					}
@@ -334,7 +334,7 @@
 				type: "item"
 			}]
 			title: "Copper Shovel"
-			x: 7.5d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -465,24 +465,24 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0EAC1C918A0B2E6D"]
+			dependencies: ["159DC7234BD0097A"]
 			id: "4CB4012E79F09338"
 			tasks: [{
-				id: "3C143F9E6601705B"
+				id: "1B9AEE50D6CB7981"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:sterling_silver_pickaxe"
+					id: "iceandfire:silver_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["0EAC1C918A0B2E6D"]
+			dependencies: ["159DC7234BD0097A"]
 			icon: {
 				Count: 1b
 				id: "emendatusenigmatica:sterling_silver_shovel"
@@ -493,17 +493,17 @@
 			id: "5615497CF7549469"
 			subtitle: "Wow, a new shovel... amaaaazing."
 			tasks: [{
-				id: "740CCE85FA3D71E0"
+				id: "184D1AD160D24E5C"
 				item: {
 					Count: 1b
-					id: "emendatusenigmatica:sterling_silver_shovel"
+					id: "iceandfire:silver_shovel"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -676,6 +676,57 @@
 			}]
 			x: 10.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["29ABB78197853F7B"]
+			id: "253EC9A77B380502"
+			tasks: [{
+				id: "676C1ACC6D6B9927"
+				item: {
+					Count: 1b
+					id: "iceandfire:copper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["159DC7234BD0097A"]
+			id: "0029CDD964D484EA"
+			tasks: [{
+				id: "63B4ABFDE7AD7E2D"
+				item: {
+					Count: 1b
+					id: "iceandfire:silver_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["159DC7234BD0097A"]
+			id: "020328B344A9190C"
+			tasks: [{
+				id: "104B76EE19ED8F0B"
+				item: {
+					Count: 1b
+					id: "iceandfire:silver_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
 		}
 	]
 	title: "Utility"

@@ -617,7 +617,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["275A35DE022B722D"]
+			dependencies: [
+				"275A35DE022B722D"
+				"159DC7234BD0097A"
+			]
 			description: [
 				"With the Crude Alloyer you can make Sterling Silver ingots. "
 				""
@@ -638,7 +641,7 @@
 			}]
 			title: "Sterling Silver"
 			x: 13.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4A56A6C0FACF11EA"]
@@ -985,6 +988,19 @@
 			}]
 			x: 14.0d
 			y: -10.5d
+		}
+		{
+			dependencies: ["4A56A6C0FACF11EA"]
+			hide_dependency_lines: true
+			id: "159DC7234BD0097A"
+			shape: "gear"
+			tasks: [{
+				id: "4114101298685855"
+				item: "emendatusenigmatica:silver_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
 		}
 	]
 	title: "Tech"

@@ -158,7 +158,7 @@
 			}]
 			title: "I Can Buy Myself Flowers"
 			x: 5.0d
-			y: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7B2BE8EF4B077ABF"]
@@ -182,7 +182,7 @@
 			}]
 			title: "Wand of the Forest"
 			x: 4.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["791E405B6085CCE2"]
@@ -309,7 +309,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -719,6 +719,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["0240FDF5F774DEEE"]
 			id: "261EA36A1D9E58F7"
 			shape: "circle"
 			tasks: [
@@ -772,6 +773,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["0240FDF5F774DEEE"]
 			description: ["This item will cause your tamed dragon, ampithere, or hippogryph to stop flying and come down as long as you are below it. "]
 			id: "2A8AF6E7065478DF"
 			shape: "circle"
@@ -780,6 +782,64 @@
 				item: "iceandfire:dragon_flute"
 				type: "item"
 			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "53D73D71657F987C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3E11680956346832"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:myrm_pickaxe"
+						}
+					}
+					title: "Any #iceandfire:myrm_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7096BC4DD18C2390"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:myrm_axe"
+						}
+					}
+					title: "Any #iceandfire:myrm_axe"
+					type: "item"
+				}
+				{
+					id: "254964DD585999D4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:myrm_shovel"
+						}
+					}
+					title: "Any #iceandfire:myrm_shovel"
+					type: "item"
+				}
+				{
+					id: "72E4F36ADCC953FC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:myrm_hoe"
+						}
+					}
+					title: "Any #iceandfire:myrm_hoe"
+					type: "item"
+				}
+			]
+			title: "Myrmex Tools"
 			x: 4.5d
 			y: -0.5d
 		}

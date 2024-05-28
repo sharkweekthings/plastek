@@ -1018,6 +1018,134 @@
 			x: 3.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "188486867917E0B2"
+			shape: "circle"
+			tasks: [{
+				id: "6DE8F145C5EF1A43"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:dragonarmor_head"
+					}
+				}
+				title: "Any #iceandfire:dragonarmor_head"
+				type: "item"
+			}]
+			title: "A Helmet For Your Dragon"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "60857B4AA14A3790"
+			shape: "circle"
+			tasks: [{
+				id: "0640684E26877EE4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:dragonarmor_neck"
+					}
+				}
+				title: "Any #iceandfire:dragonarmor_neck"
+				type: "item"
+			}]
+			title: "Neck Guard For Your Dragon"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "6F6C4BBC0F7C8BA3"
+			shape: "circle"
+			tasks: [{
+				id: "21B8C3D9287A6837"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:dragonarmor_body"
+					}
+				}
+				title: "Any #iceandfire:dragonarmor_body"
+				type: "item"
+			}]
+			title: "Body Armor For Your Dragon"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "76D125D02CF47739"
+			shape: "circle"
+			tasks: [{
+				id: "624F49B19184B2A3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:dragonarmor_tail"
+					}
+				}
+				title: "Any #iceandfire:dragonarmor_tail"
+				type: "item"
+			}]
+			title: "Tail Armor For Your Dragon"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78A5E57037A9FD9E"]
+			id: "66E76998ACD81ECC"
+			shape: "circle"
+			tasks: [{
+				id: "592A0F1571922AA7"
+				item: "iceandfire:dragonarmor_dragonsteel_ice_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78A5E57037A9FD9E"]
+			id: "5BA0B55DDE6D5226"
+			shape: "circle"
+			tasks: [{
+				id: "3FD693999EC2D814"
+				item: "iceandfire:dragonarmor_dragonsteel_ice_neck"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78A5E57037A9FD9E"]
+			id: "1F71D50A3A7D14A9"
+			shape: "circle"
+			tasks: [{
+				id: "409A4E4EC592908C"
+				item: "iceandfire:dragonarmor_dragonsteel_ice_body"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78A5E57037A9FD9E"]
+			id: "2CF8A1490954311D"
+			shape: "circle"
+			tasks: [{
+				id: "3D78C51DF4D0E610"
+				item: "iceandfire:dragonarmor_dragonsteel_ice_tail"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
 	]
 	title: "Armor"
 }
