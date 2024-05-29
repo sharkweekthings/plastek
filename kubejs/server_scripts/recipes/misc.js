@@ -1157,6 +1157,30 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     4: '#minecraft:planks',
     5: 'minecraft:iron_axe'}).id('chipped:benches/carpenters_table')
 
+// Bone Helmet
+  event.shaped('immersive_armors:bone_helmet', 
+    ['   ','111','121'], {
+    1: 'minecraft:bone',
+    2: 'minecraft:leather_helmet'}).id('immersive_armors:bone_helmet')
+
+// Bone Chestplate
+  event.shaped('immersive_armors:bone_chestplate', 
+    ['1 1','121','111'], {
+    1: 'minecraft:bone',
+    2: 'minecraft:leather_chestplate'}).id('immersive_armors:bone_chestplate')
+
+// Bone Leggings>
+  event.shaped('immersive_armors:bone_leggings', 
+    ['111','121','1 1'], {
+    1: 'minecraft:bone',
+    2: 'minecraft:leather_leggings'}).id('immersive_armors:bone_leggings')
+
+// Bone Boots
+  event.shaped('immersive_armors:bone_boots', 
+    ['   ','121','1 1'], {
+    1: 'minecraft:bone',
+    2: 'minecraft:leather_boots'}).id('immersive_armors:bone_boots')
+
 // Meta Pet
   event.custom({
   "result": {

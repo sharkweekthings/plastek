@@ -86,11 +86,6 @@
 				"You can put this under a Mixer, Steam Engine, and other things that require heating.  This one you will probably want to use for the Mixer to start making Brass."
 			]
 			id: "495614D702F691B3"
-			rewards: [{
-				id: "1BEBFAABB7A15C25"
-				item: "create:empty_blaze_burner"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2963A6E918D601C2"
 				item: "create:empty_blaze_burner"
@@ -563,6 +558,8 @@
 				"If you're looking for Rose Quartz Shards, you can find them in the Nether at the Crystalline Chasm biome. "
 				""
 				"You will need to find, and break Rose Quartz Clusters. This will give you Rose Quartz Shards!"
+				""
+				"Once you have at least 1 shard, you can use the Pressure Chamber to start duplicating them. "
 			]
 			id: "564AA140606FC4F4"
 			rewards: [{

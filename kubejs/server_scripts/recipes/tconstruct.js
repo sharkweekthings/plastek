@@ -186,6 +186,7 @@ event.remove({id: 'tconstruct:smeltery/casting/scorched/brick_composite'})
 event.remove({id: 'tconstruct:smeltery/casting/seared/brick_composite'})	
 event.remove({id: 'tconstruct:smeltery/seared/grout_multiple'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/aluminum/wire_gold_cast'})
+event.remove({id: 'tconstruct:smeltery/alloys/molten_brass'})
 
 //
 })

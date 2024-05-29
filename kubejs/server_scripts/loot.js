@@ -98,6 +98,7 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:pumpkin_seeds", "emendatusenigmatica:iron_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:powdered_obsidian", "emendatusenigmatica:iron_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:painting", "immersive_paintings:painting");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:rotten_flesh", "iceandfire:manuscript");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:pneumatic_cylinder", "immersive_paintings:painting");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:iron_backpack", "botanypots:terracotta_botany_pot");
 

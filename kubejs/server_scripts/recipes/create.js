@@ -335,6 +335,14 @@ ServerEvents.recipes(event => {
     2: 'create:fluid_pipe',
     3: 'minecraft:barrel'}).id('create:crafts/fluid_tank')
 
+// Fluid Valve
+  event.shaped('create:fluid_valve', 
+    ['141','323','111'], {
+    1: 'emendatusenigmatica:brass_plate', 
+    2: 'create:fluid_pipe',
+    3: 'create:shaft',
+    4: 'emendatusenigmatica:copper_gear'}).id('create:crafting/kinetics/fluid_valve')
+
 // Fluid Pipe
   event.shaped('2x create:fluid_pipe', 
     ['   ','121','   '], {

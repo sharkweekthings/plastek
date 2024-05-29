@@ -3,12 +3,12 @@
   "dragon_type": "fire",
   "cook_time": 1000,
   "input": {
-    "item": "botania:dragonstone"
+    "tag": "forge:ingots/steel"
   },
   "blood": {
-    "item": "apotheosis:mythic_material"
+    "item": "iceandfire:fire_dragon_blood"
   },
   "result": {
-    "item": "endrem:lost_eye"
+    "item": "iceandfire:dragonsteel_fire_ingot"
   }
 }

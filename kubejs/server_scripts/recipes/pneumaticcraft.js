@@ -134,11 +134,11 @@ ServerEvents.recipes(event => {
     4: 'pneumaticcraft:reinforced_stone_slab'}).id('pneumaticcraft:thermopneumatic_processing_plant')
     
 // Pressure Tube
-  event.shaped('2x pneumaticcraft:pressure_tube', 
-    [' 3 ','121',' 3 '], {
+  event.shaped('pneumaticcraft:pressure_tube', 
+    ['   ','231','   '], {
     1: 'industrialforegoing:plastic',
-    2: 'minecraft:iron_ingot',
-    3: 'create:cogwheel'}).id('pneumaticcraft:pressure_tube')
+    2: 'emendatusenigmatica:iron_rod',
+    3: 'emendatusenigmatica:iron_gear'}).id('pneumaticcraft:pressure_tube')
     
 // Pressure Chamber Wall
   event.shaped('4x pneumaticcraft:pressure_chamber_wall', 
@@ -174,7 +174,7 @@ ServerEvents.recipes(event => {
     ['232','313','232'], {
     1: 'industrialforegoing:plastic',
     2: 'compressium:stone_1',
-    3: '#forge:concrete'}).id('pneumaticcraft:reinforced_stone')
+    3: 'immersiveengineering:concrete'}).id('pneumaticcraft:reinforced_stone')
     
 // PCB Blueprint
   event.shaped('pneumaticcraft:pcb_blueprint', 
@@ -266,6 +266,12 @@ ServerEvents.recipes(event => {
     3: 'immersiveengineering:dust_hop_graphite',
     4: 'silentcompat:arcmetal_nugget',
     5: 'immersivepetroleum:petcoke_dust'}).id('pneumaticcraft:pressure_chamber/transistor')
+
+// Compressed Iron Gear
+  event.shaped('pneumaticcraft:compressed_iron_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'pneumaticcraft:ingot_iron_compressed',
+    2: 'create:super_glue'}).id('pneumaticcraft:compressed_iron_gear')
 
 // Pneumatic Helmet
 event.custom({
@@ -405,8 +411,6 @@ event.custom({
           "results": [{"item": "pneumaticcraft:plastic"}]
 }).id('pneumaticcraft:pressure_chamber_plastic')
 
-
-
 // Plastim Dust
   event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
@@ -475,6 +479,21 @@ event.custom({
           "pressure": 2.3, 
           "results": [{"item": "silentcompat:solarmetal_ingot"}]
   }).id('silentcompat:pressure_chamber_solarmetal_ingot')
+
+// Rose Quartz Shard
+  event.custom({
+    "type": "pneumaticcraft:pressure_chamber", 
+      "inputs": [
+        {"item": "biomesoplenty:rose_quartz_shard",},
+        {
+          "type": "pneumaticcraft:stacked_item",
+          "count": 5,
+          "item": "minecraft:netherrack"
+        },],
+          "pressure": 2.0, 
+          "results": [{"item": "biomesoplenty:rose_quartz_shard",
+                       "count": 2}]
+  }).id('biomesoplenty:rose_quartz_shard_2')
 
 // Diamond Ring
   event.custom({

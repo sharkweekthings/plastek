@@ -173,10 +173,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["6934CC633FD25CC2"]
 			description: [
 				"Lightning dragons can also be found on Glacio."
-				""
-				"&o&eIn extremely rare cases you may encounter younger lightning dragons on the surface of the Overworld, but only in the Jagged Peaks biome. This event can be so rare that you may never see it in your game.&r&r"
 				""
 				"&b&oDragon caves can contain ore that doesn't exist natively.&r&r"
 			]

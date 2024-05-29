@@ -993,6 +993,12 @@
 			dependencies: ["4A56A6C0FACF11EA"]
 			hide_dependency_lines: true
 			id: "159DC7234BD0097A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DECFD769445C918"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "4114101298685855"
