@@ -68,42 +68,28 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "terralith:steppe"
+        "value": "ad_astra:martian_canyon_creek"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:rose_fields"
+        "value": "ad_astra:martian_wastelands"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:prairie"
+        "value": "ad_astra:infernal_venus_barrens"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:firecracker_shrubland"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:autumnal_valley"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:lush_stacks"
+        "value": "ad_astra:mercury_deltas"
       }
     ]
   ]

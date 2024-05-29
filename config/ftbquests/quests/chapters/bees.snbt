@@ -1863,6 +1863,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["0EB66877C19B1BB3"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "productivebees:spawn_egg_configurable_bee"
@@ -1884,6 +1886,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["0EB66877C19B1BB3"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "productivebees:spawn_egg_configurable_bee"
@@ -1905,6 +1909,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["0EB66877C19B1BB3"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "productivebees:spawn_egg_configurable_bee"

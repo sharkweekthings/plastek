@@ -40,54 +40,49 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "terralith:ashen_savanna"
+        "value": "mythicbotany:alfheim_hills"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "terralith:savanna_badlands"
+        "value": "mythicbotany:alfheim_lakes"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "terralith:savanna_slopes"
+        "value": "mythicbotany:alfheim_plains"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:guiana_shield"
+        "value": "mythicbotany:dreamwood_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:temperate_rainforest"
+        "value": "mythicbotany:golden_fields"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:tropical_rainforest"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:jacaranda_forest"
+        "value": "ad_astra:glacio_ice_peaks"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:sierra_badlands"
+        "value": "ad_astra:glacio_snowy_barrens"
       }
     ]
   ]

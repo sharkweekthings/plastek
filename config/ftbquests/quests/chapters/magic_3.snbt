@@ -781,9 +781,11 @@
 		{
 			dependencies: ["0F2AB9FBA1B60CFE"]
 			description: [
-				"A Dragonforge is a special forge that requires Dragon's Breath."
+				"If you manage to take on a &bStage 4 - 5 dragon&r, and raise your own - you will be &bgreatly rewarded&r by being able to utilize a &dDragon Forge&r. "
 				""
-				"There are &bnew Dragonforge recipes&r. These recipes offer powerful items that are generally intended for later ages. "
+				"Each different &dDragon Forge&r will let you &bcreate a few Mystical Agriculture seeds&r that should aide in progression of the pack. The earlier you take on a dragon, the better!"
+				""
+				"To construct a Dragon Forge:"
 				""
 				"- The 4 Corners of Layer 1 should be Dragon Bone"
 				"- Fill the rest of the layer in with Dragon Bricks"
@@ -803,7 +805,7 @@
 				id: "2BD2F28BDEFA1CAB"
 				type: "checkmark"
 			}]
-			title: "Dragonforges"
+			title: "Dragon Forges"
 			x: -6.5d
 			y: -2.0d
 		}
@@ -829,13 +831,13 @@
 					type: "item"
 				}
 			]
-			title: "Ice Dragonforge"
+			title: "Ice Dragon Forge"
 			x: -6.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7941C5A0DC6D3C41"]
-			description: ["Every Dragonforge will need 8 blocks of Dragon Bone."]
+			description: ["Every Dragon Forge will need 8 blocks of Dragon Bone."]
 			id: "6911637152DAF014"
 			shape: "circle"
 			tasks: [{

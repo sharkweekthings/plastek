@@ -547,25 +547,12 @@
 		{
 			dependencies: ["0933440E7DFA2B10"]
 			id: "48ABF1D3186757AE"
-			rewards: [
-				{
-					id: "5E0F0E6DFC73EDE0"
-					item: {
-						Count: 1b
-						id: "endrem:lost_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "70D1D5F98943116B"
-					table_id: 3325230720908722317L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70D1D5F98943116B"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "2B0B3758FD25B9EB"
@@ -662,9 +649,13 @@
 		}
 		{
 			dependencies: ["48ABF1D3186757AE"]
+			description: [
+				"Like the Ice Dragon Forge in Age 3, the Fire and Lightning Dragon Forge have their own newly added special recipes that will help out with progression."
+				""
+				"&e&oBefore going into The End in Age 4, you will need to create the Dragon Eye item.&r&r"
+			]
 			id: "4BC048AF7DADFD7D"
 			shape: "square"
-			subtitle: "Fire Dragonforge required for the pack"
 			tasks: [{
 				id: "79896CE3180A1B1F"
 				title: "One More Forge"
@@ -696,7 +687,7 @@
 					type: "item"
 				}
 			]
-			title: "Lightning Dragonforge"
+			title: "Lightning Dragon Forge"
 			x: -3.5d
 			y: -3.5d
 		}
@@ -722,20 +713,13 @@
 					type: "item"
 				}
 			]
-			title: "Fire Dragonforge"
+			title: "Fire Dragon Forge"
 			x: -4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1DDAF7F532AD2DF4"]
 			id: "20CE54E140F2108E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "02E2765971A702FC"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
-			shape: "gear"
 			tasks: [{
 				id: "222D833503C89EAF"
 				item: {

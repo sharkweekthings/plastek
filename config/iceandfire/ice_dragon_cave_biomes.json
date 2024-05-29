@@ -18,6 +18,13 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "ad_astra:martian_polar_caps"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "ad_astra:glacio_snowy_barrens"
       }
     ]
