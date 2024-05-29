@@ -112,24 +112,21 @@ ServerEvents.recipes(event => {
 
 // Dragonforge Lightning Brick
   event.shaped('3x iceandfire:dragonforge_lightning_brick', 
-    ['232','313','232'], {
+    ['212','121','212'], {
     1: '#forge:storage_blocks/scales/dragon/lightning',
-    2: 'pneumaticcraft:reinforced_bricks',
-    3: '#iceandfire:scales/dragon/lightning'}).id('iceandfire:dragonforge_lightning_brick')
+    2: 'pneumaticcraft:reinforced_bricks'}).id('iceandfire:dragonforge_lightning_brick')
 
 // Dragonforge Fire Brick
   event.shaped('3x iceandfire:dragonforge_fire_brick', 
-    ['232','313','232'], {
+    ['212','121','212'], {
     1: '#forge:storage_blocks/scales/dragon/fire',
-    2: 'pneumaticcraft:reinforced_bricks',
-    3: '#iceandfire:scales/dragon/fire'}).id('iceandfire:dragonforge_fire_brick')
+    2: 'pneumaticcraft:reinforced_bricks'}).id('iceandfire:dragonforge_fire_brick')
 
 // Dragonforge Ice Brick
   event.shaped('3x iceandfire:dragonforge_ice_brick', 
-    ['232','313','232'], {
+    ['212','121','212'], {
     1: '#forge:storage_blocks/scales/dragon/ice',
-    2: 'pneumaticcraft:reinforced_bricks',
-    3: '#iceandfire:scales/dragon/ice'}).id('iceandfire:dragonforge_ice_brick')
+    2: 'pneumaticcraft:reinforced_bricks'}).id('iceandfire:dragonforge_ice_brick')
 
 // Dragonforge Ice Aperture
   event.shaped('iceandfire:dragonforge_ice_input', 

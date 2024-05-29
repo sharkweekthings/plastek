@@ -48,7 +48,6 @@
 				"1FC03783783EABD6"
 				"160EA796922ED027"
 				"0909E953E4B7F190"
-				"19AEB315076A44B7"
 			]
 			icon: "supplementaries:globe"
 			id: "548E98A50241A7BB"
@@ -171,26 +170,6 @@
 			}]
 			x: 0.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["6934CC633FD25CC2"]
-			description: [
-				"Lightning dragons can also be found on Glacio."
-				""
-				"&b&oDragon caves can contain ore that doesn't exist natively.&r&r"
-			]
-			id: "19AEB315076A44B7"
-			shape: "circle"
-			subtitle: "pika"
-			tasks: [{
-				advancement: "iceandfire:kill_if_dragon3"
-				criterion: ""
-				id: "0D1E452F499AA69B"
-				type: "advancement"
-			}]
-			title: "That's Not a Pikachu?!"
-			x: 0.5d
-			y: 4.0d
 		}
 	]
 	title: "Alfheim"

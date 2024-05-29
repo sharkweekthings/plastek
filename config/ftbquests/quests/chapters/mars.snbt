@@ -139,25 +139,6 @@
 			x: 2.5d
 			y: 4.0d
 		}
-		{
-			dependencies: ["72D3E2106C9F726C"]
-			description: [
-				"Fire dragons can also be found on Venus, and Mercury."
-				""
-				"&b&oDragon caves can contain ore that doesn't exist natively.&r&r"
-			]
-			id: "29555E76F9373C42"
-			shape: "circle"
-			tasks: [{
-				advancement: "iceandfire:kill_if_dragon"
-				criterion: ""
-				id: "2309820A5471CA34"
-				type: "advancement"
-			}]
-			title: " King Under the Mountain"
-			x: 1.0d
-			y: 3.5d
-		}
 	]
 	title: "Mars"
 }

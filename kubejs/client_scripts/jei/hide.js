@@ -297,6 +297,7 @@ JEIEvents.hideItems(event => {
 
 // FARMERS DELIGHT
 	event.hide('#farmersdelight:cabinets')
+	event.hide('farmersdelight:wheat_dough')
 
 // INDUSTRIAL FOREGOING
 	event.hide('industrialforegoing:mob_slaughter_factory')
@@ -539,6 +540,9 @@ JEIEvents.hideItems(event => {
 	event.hide('emendatusenigmatica:sterling_silver_chestplate')
 	event.hide('emendatusenigmatica:sterling_silver_leggings')
 	event.hide('emendatusenigmatica:sterling_silver_boots')
+
+// pams
+	event.hide('pamhc2foodcore:doughitem')
 
 
 

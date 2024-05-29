@@ -1862,6 +1862,69 @@
 			x: -4.0d
 			y: 8.5d
 		}
+		{
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ice_dragonsteel"
+					}
+				}
+			}
+			id: "2DA396992D94B0DB"
+			shape: "circle"
+			tasks: [{
+				id: "3178E02C3F27A82E"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Ice Dragon Bee"
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:fire_dragonsteel"
+					}
+				}
+			}
+			id: "150BB063DE292B63"
+			shape: "circle"
+			tasks: [{
+				id: "5DD86F63A7DBF99B"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Fire Dragon Bee"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lightning_dragonsteel"
+					}
+				}
+			}
+			id: "46FB83CAC0293127"
+			shape: "circle"
+			tasks: [{
+				id: "39F81657D5443CC6"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Lightning Dragon Bee"
+			x: 1.5d
+			y: 9.5d
+		}
 	]
 	title: "Bees"
 }

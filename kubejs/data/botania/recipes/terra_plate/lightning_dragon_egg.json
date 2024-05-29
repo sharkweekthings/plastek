@@ -1,0 +1,23 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "mana": 250000,
+  "result": {
+    "item": "productivebees:spawn_egg_configurable_bee",
+    "nbt": {
+      "EntityTag": {
+        "type": "productivebees:lightning_dragonsteel"
+      }
+    }
+  }
+}

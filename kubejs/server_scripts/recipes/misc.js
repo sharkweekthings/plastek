@@ -175,6 +175,12 @@ ServerEvents.recipes(event => {
   event.remove({id: 'alexsmobs:bonemeal_from_fish_bones'})
   event.remove({id: 'tiab:time_in_a_bottle'})
   event.remove({id: 'pamhc2crops:slimeball_aloe'})
+  event.remove({id: 'quark:tweaks/crafting/utility/bent/bread'})
+  event.remove({id: 'minecraft:bread'})
+  event.remove({id: 'pamhc2crops:bread_grain'})
+  event.remove({id: 'farmersdelight:wheat_dough_from_water'})
+  event.remove({id: 'farmersdelight:wheat_dough_from_eggs'})
+  event.remove({id: 'pamhc2foodcore:doughitem_x2'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
@@ -505,6 +511,12 @@ event.replaceOutput({}, 'thermal:ender_pearl_dust', 'ae2:ender_dust')
 
 // Diamond Shard Gets Replaced w/ Diamond Nugget
 event.replaceInput({}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
+
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
+
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
 
 // Crude Ender Pearl
   event.shaped('kubejs:crude_ender_pearl',
