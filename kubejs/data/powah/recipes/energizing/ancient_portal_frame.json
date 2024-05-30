@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "mekanism:hdpe_sheet"},
+	{"item": "kubejs:infused_eye_of_ender"},
+	{"item": "compressium:endstone_3"},
+	{"item": "compressium:endstone_3"},
+	{"item": "kubejs:infused_eye_of_ender"},
+	{"item": "mekanism:hdpe_sheet"}
+  ],
+  "energy": 40000000,
+  "result": {
+	"item": "endrem:ancient_portal_frame",
+	"count": 1
+  }
+}

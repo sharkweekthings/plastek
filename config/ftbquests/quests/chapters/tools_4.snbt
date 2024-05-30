@@ -794,11 +794,19 @@
 			dependencies: ["481CC7DD0387169C"]
 			id: "0838EFEBF40A49F7"
 			shape: "circle"
-			tasks: [{
-				id: "1E34BAA08C9A5B72"
-				item: "tconstruct:cast_chest"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E34BAA08C9A5B72"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					id: "4AF69ECFA9A7AAA9"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			title: "Chesties"
 			x: 1.5d
 			y: 4.5d
 		}
