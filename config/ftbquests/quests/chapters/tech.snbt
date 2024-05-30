@@ -302,18 +302,6 @@
 		{
 			dependencies: ["24CAB28F70C0D5C1"]
 			id: "0492055978020330"
-			rewards: [
-				{
-					id: "5CF5BF5C4761BFED"
-					item: "minecraft:mushroom_stew"
-					type: "item"
-				}
-				{
-					id: "2898AD1DFB65D872"
-					item: "rootsclassic:rooty_stew"
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "6A50208F73BC5F70"
 				item: "minecraft:furnace"
@@ -836,12 +824,6 @@
 			dependencies: ["79096AD88ECD2A39"]
 			description: ["Until you get to a later age, the Melter, and Smeltery will be the only way to make ingots. "]
 			id: "4A56A6C0FACF11EA"
-			rewards: [{
-				id: "366179C74E8C6FDC"
-				item: "tconstruct:ingot_sand_cast"
-				random_bonus: 14
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "6713D7468E17526F"
@@ -978,7 +960,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1031,6 +1013,31 @@
 			}]
 			x: 13.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["79096AD88ECD2A39"]
+			description: ["You'll need a Part Builder to make casts. Until you get some Gold or Steel casts, you'll have to use these one time use sand Sand Casts"]
+			id: "3B950BB893689047"
+			rewards: [{
+				id: "7A57A1D3FB590F5F"
+				item: "tconstruct:ingot_sand_cast"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5BB888905F5787C6"
+				item: {
+					Count: 1b
+					id: "tconstruct:part_builder"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
 		}
 	]
 	title: "Tech"

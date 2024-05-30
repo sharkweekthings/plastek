@@ -178,6 +178,9 @@ ServerEvents.tags('item', event => {
 
 event.add('kubejs:age_1_item', 
   [
+  'tconstruct:part_builder',
+  'tconstruct:nugget_red_sand_cast',
+  'tconstruct:nugget_sand_cast',
   'tconstruct:puny_smelting',
   'tconstruct:grout',
   'tconstruct:seared_brick',
@@ -1068,6 +1071,8 @@ event.add('kubejs:age_2_item',
 
 event.add('kubejs:age_2_exception', 
   [
+  'tconstruct:nugget_red_sand_cast',
+  'tconstruct:nugget_sand_cast',
   'tconstruct:modifier_worktable',
   'tconstruct:puny_smelting',
   'tconstruct:grout',
@@ -1715,7 +1720,6 @@ event.add('kubejs:age_4_item',
   'kubejs:tool_binding_steel_cast',
   'kubejs:tool_handle_steel_cast',
   'tconstruct:tinker_station',
-  'tconstruct:part_builder',
   'tconstruct:tinkers_anvil',
   'tconstruct:cast_chest',
   'thermal:bitumen',

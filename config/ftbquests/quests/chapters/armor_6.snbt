@@ -361,6 +361,7 @@
 		}
 		{
 			dependencies: ["58582C8DF0D92ACF"]
+			description: ["Hold down Spacebar and move your mouse. Careful for bumpy landings!"]
 			id: "7F9139DCE3C6D589"
 			shape: "circle"
 			tasks: [{
