@@ -40,14 +40,14 @@ ServerEvents.recipes(event => {
     ['121','313','313'], {
   1: 'ars_nouveau:sourcestone',
   2: 'ars_nouveau:source_gem',
-	3: 'mythicbotany:alfsteel_nugget'}).id('ars_nouveau:arcane_pedestal')
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:arcane_pedestal')
 
 // Source Jar
   event.shaped('ars_nouveau:source_jar',
-    ['232','121','222'], {
-  1: '#forge:glass',
+    ['232','1 1','111'], {
+  1: 'thermal:lumium_glass',
   2: 'ars_nouveau:archwood_slab',
-	3: 'mythicbotany:alfsteel_nugget'}).id('ars_nouveau:source_jar')
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:source_jar')
 
 // Arcane Core
   event.shaped('ars_nouveau:arcane_core',

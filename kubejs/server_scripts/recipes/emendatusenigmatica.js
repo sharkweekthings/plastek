@@ -208,6 +208,12 @@ ServerEvents.recipes(event => {
     1: 'minecraft:gold_ingot',
     2: 'create:super_glue'}).id('emendatusenigmatica:gear/from_ingot/gold')
 
+// Steel Gear
+  event.shaped('emendatusenigmatica:steel_gear',
+    [' 1 ','121',' 1 '], {
+    1: 'emendatusenigmatica:steel_ingot',
+    2: 'create:super_glue'}).id('emendatusenigmatica:gear/from_ingot/steel')
+
 // Diamond Gear
   event.shaped('emendatusenigmatica:diamond_gear',
     [' 1 ','121',' 1 '], {

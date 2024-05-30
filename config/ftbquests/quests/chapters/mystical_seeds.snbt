@@ -549,7 +549,7 @@
 				item: "mysticalagriculture:gold_seeds"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -8.0d
 		}
 		{
@@ -566,7 +566,7 @@
 				item: "mysticalagriculture:lapis_lazuli_seeds"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -8.0d
 		}
 		{
@@ -583,7 +583,7 @@
 				item: "mysticalagriculture:end_seeds"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -8.0d
 		}
 		{
@@ -600,8 +600,8 @@
 				item: "mysticalagriculture:experience_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			id: "1DBC3454822B11A8"
@@ -668,7 +668,7 @@
 				item: "mysticalagriculture:constantan_seeds"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -685,7 +685,7 @@
 				item: "mysticalagriculture:electrum_seeds"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -6.0d
 		}
 		{
@@ -702,7 +702,7 @@
 				item: "mysticalagriculture:invar_seeds"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -8.0d
 		}
 		{
@@ -736,7 +736,7 @@
 				item: "mysticalagriculture:signalum_seeds"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -753,7 +753,7 @@
 				item: "mysticalagriculture:lumium_seeds"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
@@ -770,7 +770,7 @@
 				item: "mysticalagriculture:hop_graphite_seeds"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -787,7 +787,7 @@
 				item: "mysticalagriculture:elementium_seeds"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -8.0d
 		}
 		{
@@ -804,7 +804,7 @@
 				item: "mysticalagriculture:osmium_seeds"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -8.0d
 		}
 		{
@@ -821,7 +821,7 @@
 				item: "mysticalagriculture:fluorite_seeds"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: -8.0d
 		}
 		{
@@ -923,8 +923,8 @@
 				item: "mysticalagriculture:fluix_seeds"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			id: "363C22F2B58BBD62"
@@ -940,7 +940,7 @@
 				item: "mysticalagriculture:energized_steel_seeds"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: -6.0d
 		}
 		{
@@ -974,7 +974,7 @@
 				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -991,8 +991,8 @@
 				item: "mysticalagriculture:emerald_seeds"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			id: "5A6716F3F417A48E"
@@ -1008,8 +1008,8 @@
 				item: "mysticalagriculture:netherite_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			id: "2302F4A8B9DF5C28"
@@ -1025,8 +1025,8 @@
 				item: "mysticalagriculture:wither_skeleton_seeds"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			id: "5CE70CFB085E3481"
@@ -1042,7 +1042,7 @@
 				item: "mysticalagriculture:enderium_seeds"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 3.0d
 			y: -5.0d
 		}
 		{
@@ -1059,7 +1059,7 @@
 				item: "mysticalagriculture:terrasteel_seeds"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.0d
 			y: -5.0d
 		}
 		{
@@ -1076,7 +1076,7 @@
 				item: "mysticalagriculture:niotic_crystal_seeds"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -5.0d
 		}
 		{
@@ -1093,7 +1093,7 @@
 				item: "mysticalagriculture:spirited_crystal_seeds"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.0d
 			y: -5.0d
 		}
 		{
@@ -1110,7 +1110,7 @@
 				item: "mysticalagriculture:uraninite_seeds"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.0d
 			y: -5.0d
 		}
 		{
@@ -1127,8 +1127,8 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			id: "0F4673BE642D42CF"
@@ -1144,8 +1144,8 @@
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			id: "32F769A67BC7BBA6"
@@ -1161,8 +1161,8 @@
 				item: "mysticalagriculture:gaia_spirit_seeds"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			id: "2E2857E812C0701E"
@@ -1178,8 +1178,8 @@
 				item: "mysticalagriculture:nitro_crystal_seeds"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			id: "616C74A778647A98"
@@ -1214,6 +1214,91 @@
 			}]
 			x: 5.0d
 			y: -12.5d
+		}
+		{
+			id: "4D9704D59C8820A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "081FAB9AC996D937"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3F02EB86DA220D96"
+				item: "mysticalagriculture:cobalt_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			id: "65B503BE4F1017E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C40B8598F3DCB4C"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1721253F67DADC50"
+				item: "mysticalagriculture:manyullyn_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			id: "0AA1E5794E58B565"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EEB62729CCD327A"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "50278DEA4D607445"
+				item: "mysticalagriculture:queens_slime_seeds"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "3D0C64039071F849"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "718256815F053090"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "40B665C65ED7ED17"
+				item: "mysticalagriculture:slimesteel_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "2B629920D3A8C02C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34886B203116C833"
+				table_id: 5825749635945163331L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5086A2782BE9CA20"
+				item: "mysticalagriculture:pig_iron_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
 		}
 	]
 	title: "Mystical Seeds"

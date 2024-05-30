@@ -88,6 +88,12 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mysticalagriculture:seed/reprocessor/rabbit'})
   event.remove({id: 'mysticalagriculture:seed/reprocessor/blaze'})
   event.remove({id: 'mysticalagriculture:seed/reprocessor/enderman'})
+  event.remove({id: 'mysticalagriculture:seed/infusion/amethyst_bronze'})
+  event.remove({id: 'mysticalagriculture:seed/infusion/hepatizon'})
+  event.remove({id: 'mysticalagriculture:seed/infusion/rose_gold'})
+  event.remove({id: 'mysticalagriculture:seed/reprocessor/amethyst_bronze'})
+  event.remove({id: 'mysticalagriculture:seed/reprocessor/hepatizon'})
+  event.remove({id: 'mysticalagriculture:seed/reprocessor/rose_gold'})
   event.remove({id: 'mysticalagriculture:machine_frame'})
   event.remove({id:/botanypots:mysticalagriculture\/crop/})
 

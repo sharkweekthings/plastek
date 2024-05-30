@@ -244,13 +244,13 @@ ServerEvents.recipes(event => {
 				"item": "minecraft:iron_block"
 			},
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:steel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:gold_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:steel_plate"
 			}
 		],
 		"processingTime": 300,

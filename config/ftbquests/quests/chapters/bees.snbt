@@ -1864,6 +1864,15 @@
 		}
 		{
 			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"&nTerrestrial Agglomeration&r"
+				"Any egg + Spirit Attuned Gem + Ice Dragon Blood "
+				""
+				"or"
+				""
+				"&nIce Dragon Forge&r"
+				"Any egg + Ice Dragon Blood"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1876,6 +1885,7 @@
 			}
 			id: "2DA396992D94B0DB"
 			shape: "circle"
+			subtitle: "Terrestrial Agglomeration or Dragon Forge"
 			tasks: [{
 				id: "3178E02C3F27A82E"
 				title: "a"
@@ -1883,10 +1893,19 @@
 			}]
 			title: "Ice Dragon Bee"
 			x: -0.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"&nTerrestrial Agglomeration&r"
+				"Any egg + Spirit Attuned Gem + Fire Dragon Blood "
+				""
+				"or"
+				""
+				"&nFire Dragon Forge&r"
+				"Any egg + Fire Dragon Blood"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1899,6 +1918,7 @@
 			}
 			id: "150BB063DE292B63"
 			shape: "circle"
+			subtitle: "Terrestrial Agglomeration or Dragon Forge"
 			tasks: [{
 				id: "5DD86F63A7DBF99B"
 				title: "a"
@@ -1906,10 +1926,19 @@
 			}]
 			title: "Fire Dragon Bee"
 			x: 0.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"&nTerrestrial Agglomeration&r"
+				"Any egg + Spirit Attuned Gem + Lightning Dragon Blood "
+				""
+				"or"
+				""
+				"&nLightning Dragon Forge&r"
+				"Any egg + Lightning Dragon Blood"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1922,6 +1951,7 @@
 			}
 			id: "46FB83CAC0293127"
 			shape: "circle"
+			subtitle: "Terrestrial Agglomeration or Dragon Forge"
 			tasks: [{
 				id: "39F81657D5443CC6"
 				title: "a"
@@ -1929,6 +1959,156 @@
 			}]
 			title: "Lightning Dragon Bee"
 			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: ["Molten Amethyst + Copper egg"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:amethyst_bronze"
+					}
+				}
+			}
+			id: "0E452BCB3B785958"
+			shape: "circle"
+			subtitle: "Casting Table"
+			tasks: [{
+				id: "13F1442E4CD096DE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Amethyst Bronze Bee"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: ["Enderslime + Slimy egg"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ender_slimy"
+					}
+				}
+			}
+			id: "7FAF2E2A3C3A8523"
+			shape: "circle"
+			subtitle: "Casting Table"
+			tasks: [{
+				id: "004BE891027B6D29"
+				title: "Okj"
+				type: "checkmark"
+			}]
+			title: "Ender Slimy Bee"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: ["Molten Hepatizon + Obsidian egg"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:hepatizon"
+					}
+				}
+			}
+			id: "6D7BE7D00BBBFA89"
+			shape: "circle"
+			subtitle: "Casting Table"
+			tasks: [{
+				id: "392539955BA53535"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Hepatizon Bee"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: ["Magma + Slimy egg"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ichor_slimy"
+					}
+				}
+			}
+			id: "3E5D0E5B369B71EA"
+			shape: "circle"
+			subtitle: "Casting Table"
+			tasks: [{
+				id: "3FCBCFF046E97341"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ichor Slimy Bee"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: ["Molten Copper + Gold egg"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:rose_gold"
+					}
+				}
+			}
+			id: "6D1704703AB575B2"
+			shape: "circle"
+			subtitle: "Casting Table"
+			tasks: [{
+				id: "3B5495C2B566B799"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Rose Gold Bee"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: ["Skyslime + Slimy egg"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sky_slimy"
+					}
+				}
+			}
+			id: "1BF4D28470CBC349"
+			shape: "circle"
+			subtitle: "Casting Table"
+			tasks: [{
+				id: "1ED22C1C6BB02CAF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Sky Slime Bee"
+			x: 3.0d
 			y: 9.5d
 		}
 	]

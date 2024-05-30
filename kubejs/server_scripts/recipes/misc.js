@@ -181,6 +181,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'farmersdelight:wheat_dough_from_water'})
   event.remove({id: 'farmersdelight:wheat_dough_from_eggs'})
   event.remove({id: 'pamhc2foodcore:doughitem_x2'})
+  event.remove({id: 'powah:crafting/dielectric_paste_2'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
@@ -1279,6 +1280,20 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     3: 'powah:dielectric_casing',
     4: 'powah:thermoelectric_plate',
     5: 'powah:crystal_nitro',}).id('powah:crafting/thermo_generator_starter')
+
+// Basic Capacitor  
+  event.shaped('powah:capacitor_basic',
+    [' 31','323','13'], {
+    1: 'powah:dielectric_paste',
+    2: 'minecraft:signalum_block',
+    3: 'emendatusenigmatica:plasteel_plate'}).id('powah:crafting/capacitor_basic')
+
+// Dielectric Paste
+  event.shaped('12x powah:dielectric_paste',
+    ['111','223','111'], {
+    1: 'immersiveengineering:dust_hop_graphite',
+    2: 'minecraft:clay_ball',
+    3: 'buildinggadgets:construction_paste'}).id('powah:crafting/dielectric_paste')
 
 // Meta Pet
   event.custom({

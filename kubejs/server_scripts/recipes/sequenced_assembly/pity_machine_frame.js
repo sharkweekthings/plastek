@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "create:brass_casing",},[{ // incomplete item
-      item: "emendatusenigmatica:iron_rod",},],], // item to deploy
+      item: "emendatusenigmatica:steel_gear",},],], // item to deploy
      results: [{
       item: "create:brass_casing",},],
 },
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "create:brass_casing",},[{ // incomplete item
-      item: "emendatusenigmatica:steel_plate",},],], // item to deploy
+      item: "emendatusenigmatica:iron_plate",},],], // item to deploy
      results: [{
       item: "create:brass_casing",},],
 },
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "create:brass_casing",},[{ // incomplete item
-      item: "emendatusenigmatica:steel_plate",},],], // item to deploy
+      item: "emendatusenigmatica:iron_plate",},],], // item to deploy
      results: [{
       item: "create:brass_casing",},],
 },

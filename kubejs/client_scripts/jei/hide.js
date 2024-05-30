@@ -404,6 +404,12 @@ JEIEvents.hideItems(event => {
 	event.hide('mysticalagriculture:blaze_essence')
 	event.hide('mysticalagriculture:enderman_essence')
 	event.hide('mysticalagriculture:machine_frame')
+	event.hide('mysticalagriculture:amethyst_bronze_seeds')
+	event.hide('mysticalagriculture:hepatizon_seeds')
+	event.hide('mysticalagriculture:rose_gold_seeds')
+	event.hide('mysticalagriculture:amethyst_bronze_essence')
+	event.hide('mysticalagriculture:hepatizon_essence')
+	event.hide('mysticalagriculture:rose_gold_essence')
 
 // Mob Grinding Utils
 	event.hide('mob_grinding_utils:spawner_upgrade_width')

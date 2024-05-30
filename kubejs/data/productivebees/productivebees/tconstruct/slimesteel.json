@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#7ae7e0",
+    "secondaryColor": "#73d2dc",
+    "particleColor": "#7ae7e0",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "flowerTag": "forge:storage_blocks/slimesteel",
+    "conditions": [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "sharkweekisntamod"
+        }
+    ]
+}
