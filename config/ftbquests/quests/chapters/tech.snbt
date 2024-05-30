@@ -71,15 +71,23 @@
 			description: [
 				"One of the most powerful metals in the world. Copper. Copper..... "
 				""
-				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll be using Copper for a little bit. "
+				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll need to use Copper tools for a little while. Good thing Silver is just two quests away!"
 			]
 			id: "29ABB78197853F7B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76CE7AB9D811193D"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "38790CFB44D09A1C"
+					title: "Equip Copper Tier"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73C511BE69723BB8"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "708FA8DB9D272073"
@@ -511,12 +519,20 @@
 				"6FCBB48C6F9A8E03"
 			]
 			id: "141BB1A7D5C7030B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0CD230809BD16D82"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "0827C48B3A1BA723"
+					title: "Equip Iron Tier"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12D1D2F86442230F"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "3774877C4ADCA3BB"
@@ -993,12 +1009,20 @@
 			dependencies: ["4A56A6C0FACF11EA"]
 			hide_dependency_lines: true
 			id: "159DC7234BD0097A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5DECFD769445C918"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "170054EED0E4B314"
+					title: "Equip Silver Tier"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EB431745EEB2E13"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "4114101298685855"

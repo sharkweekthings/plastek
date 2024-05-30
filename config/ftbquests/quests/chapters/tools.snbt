@@ -286,6 +286,7 @@
 		{
 			dependencies: ["29ABB78197853F7B"]
 			id: "378EB7B1D0917EEF"
+			shape: "circle"
 			tasks: [{
 				id: "58D5380ED80972B1"
 				item: {
@@ -322,6 +323,7 @@
 		{
 			dependencies: ["29ABB78197853F7B"]
 			id: "1B85900C76F33C8B"
+			shape: "circle"
 			tasks: [{
 				id: "1468443C688248F4"
 				item: {
@@ -491,6 +493,7 @@
 				}
 			}
 			id: "5615497CF7549469"
+			shape: "circle"
 			subtitle: "Wow, a new shovel... amaaaazing."
 			tasks: [{
 				id: "184D1AD160D24E5C"
@@ -680,6 +683,7 @@
 		{
 			dependencies: ["29ABB78197853F7B"]
 			id: "253EC9A77B380502"
+			shape: "circle"
 			tasks: [{
 				id: "676C1ACC6D6B9927"
 				item: {
@@ -697,6 +701,7 @@
 		{
 			dependencies: ["159DC7234BD0097A"]
 			id: "0029CDD964D484EA"
+			shape: "circle"
 			tasks: [{
 				id: "63B4ABFDE7AD7E2D"
 				item: {
@@ -714,6 +719,7 @@
 		{
 			dependencies: ["159DC7234BD0097A"]
 			id: "020328B344A9190C"
+			shape: "circle"
 			tasks: [{
 				id: "104B76EE19ED8F0B"
 				item: {
@@ -727,6 +733,142 @@
 			}]
 			x: 11.0d
 			y: 2.0d
+		}
+		{
+			id: "60BB39D0729403E3"
+			shape: "circle"
+			tasks: [{
+				id: "254FC3E958E17B42"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "69C872E9580F5490"
+			shape: "circle"
+			tasks: [{
+				id: "7A5F24BA9800D82B"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "1B83AAD943610233"
+			shape: "circle"
+			tasks: [{
+				id: "4CEBA25A23055187"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "2A104A3E068251BA"
+			shape: "circle"
+			tasks: [{
+				id: "428CBFFCE3706E93"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "49E4A79CFC5773A7"
+			shape: "circle"
+			tasks: [{
+				id: "284010C574D533CE"
+				item: {
+					Count: 1b
+					id: "rootsclassic:living_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "1ED2774A9B997474"
+			shape: "circle"
+			tasks: [{
+				id: "1CA7F988AA41AB9A"
+				item: {
+					Count: 1b
+					id: "rootsclassic:living_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "6819EC63F078D468"
+			shape: "circle"
+			tasks: [{
+				id: "49F8E65F0E8F84FC"
+				item: {
+					Count: 1b
+					id: "rootsclassic:living_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "5C9EBBD030A66F03"
+			shape: "circle"
+			tasks: [{
+				id: "4F9CC71958E509BB"
+				item: {
+					Count: 1b
+					id: "rootsclassic:living_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
 		}
 	]
 	title: "Utility"

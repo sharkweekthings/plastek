@@ -69,6 +69,39 @@
 			x: 0.0d
 			y: 1.0d
 		}
+		{
+			id: "50F8CEE3C872EF95"
+			shape: "circle"
+			tasks: [{
+				id: "1173803CD900AFFF"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "33882CD630985676"
+			tasks: [{
+				id: "6541B84B31678D93"
+				item: {
+					Count: 1b
+					id: "rootsclassic:living_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	title: "Weapons"
 }

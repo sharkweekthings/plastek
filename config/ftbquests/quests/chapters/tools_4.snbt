@@ -751,7 +751,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -769,7 +769,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 4.5d
 		}
 		{
@@ -787,7 +787,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -799,7 +799,7 @@
 				item: "tconstruct:cast_chest"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -955,6 +955,24 @@
 			title: "Casts For Armor"
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "4F9D71701BB191F4"
+			shape: "circle"
+			tasks: [{
+				id: "724BCFE8F7F7C8C2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_worktable"
+					tag: {
+						texture: "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
 		}
 	]
 	title: "Utility"

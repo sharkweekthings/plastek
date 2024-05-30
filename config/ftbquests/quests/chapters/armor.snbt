@@ -30,7 +30,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -48,7 +48,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -84,7 +84,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -105,7 +105,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -126,7 +126,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -147,7 +147,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -168,7 +168,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -461,6 +461,424 @@
 			}]
 			x: -0.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "622B3E584ADA278A"
+			shape: "circle"
+			tasks: [{
+				id: "5F7C0A7DE30E63FA"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "059D7574C744ED3B"
+			shape: "circle"
+			tasks: [{
+				id: "25122CB31E152D5B"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "4EA251A6BB2BD438"
+			shape: "circle"
+			tasks: [{
+				id: "006D1E99485AC444"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "4FC4807C8F83167C"
+			shape: "circle"
+			tasks: [{
+				id: "6B611AEF7A30D761"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "17F36E6257E40FED"
+			shape: "circle"
+			tasks: [{
+				id: "0389498C2CB92945"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_helmet"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 1.0f
+							"tconstruct:durability": 110.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "4A4BC30CFBA32C5D"
+			shape: "circle"
+			tasks: [{
+				id: "583706FAFFE82B7D"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_chestplate"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.55f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 5.0f
+							"tconstruct:durability": 160.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "338EAD4ED63C099D"
+			shape: "circle"
+			tasks: [{
+				id: "296609B570F6F22F"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_leggings"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 4.0f
+							"tconstruct:durability": 150.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "55EC12ADBEE459CA"
+			shape: "circle"
+			tasks: [{
+				id: "0C8923DE35230237"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_boots"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:snow_boots"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 1.0f
+							"tconstruct:durability": 130.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							"tconstruct:snow_boots": 1b
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "59C0D15F15F80841"
+			shape: "circle"
+			tasks: [{
+				id: "156182CFA3455788"
+				title: "Become The Hunter"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "37FBE4DB86C112AC"
+			shape: "circle"
+			tasks: [{
+				id: "75CD782DECA237EB"
+				item: {
+					Count: 1b
+					id: "alexsmobs:centipede_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "360CA838BB391727"
+			shape: "circle"
+			tasks: [{
+				id: "388A14BE2EFE0D1C"
+				item: {
+					Count: 1b
+					id: "alexsmobs:crocodile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "3EEFEBF801F06A8E"
+			shape: "circle"
+			tasks: [{
+				id: "317B8753C6854F6D"
+				item: {
+					Count: 1b
+					id: "alexsmobs:flying_fish_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "777E1478846F3AA5"
+			shape: "circle"
+			tasks: [{
+				id: "68B9CF93064DC35D"
+				item: {
+					Count: 1b
+					id: "alexsmobs:froststalker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "00070145EA5DE293"
+			shape: "circle"
+			tasks: [{
+				id: "38D29F622777BAC3"
+				item: {
+					Count: 1b
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "4D2189C7EC64F1D2"
+			shape: "circle"
+			tasks: [{
+				id: "27E0C46C6D33C19F"
+				item: {
+					Count: 1b
+					id: "alexsmobs:emu_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "70D0FCBF780498BA"
+			shape: "circle"
+			tasks: [{
+				id: "49532097F0213BC7"
+				item: {
+					Count: 1b
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59C0D15F15F80841"]
+			id: "4C83CF82E180914F"
+			shape: "circle"
+			tasks: [{
+				id: "694BA790BB4A50F3"
+				item: {
+					Count: 1b
+					id: "alexsmobs:rocky_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "083C747FF4EB4CCC"
+			shape: "circle"
+			tasks: [{
+				id: "66141790AA13BDB8"
+				item: {
+					Count: 1b
+					id: "minecraft:chainmail_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "2FEC89F81966B7A7"
+			shape: "circle"
+			tasks: [{
+				id: "4F9715B70094CFB2"
+				item: {
+					Count: 1b
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4358AC9E9ABB51FC"
+			shape: "circle"
+			tasks: [{
+				id: "57E8094CF93787FD"
+				item: {
+					Count: 1b
+					id: "minecraft:chainmail_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "707142C029ED24C3"
+			shape: "circle"
+			tasks: [{
+				id: "10B9D9CA4020D2E9"
+				item: {
+					Count: 1b
+					id: "minecraft:chainmail_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
 		}
 	]
 	title: "Armor"

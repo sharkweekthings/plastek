@@ -13,7 +13,7 @@
 			description: [
 				"To unlock Age 1, just click through the quests in the \"Read Me\" tab."
 				""
-				"After accepting the reward for this quest, start in Age 1 Utility"
+				"After accepting the reward for this quest, &bstart in Age 1 Utility&r"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "5928D99A2F786286"

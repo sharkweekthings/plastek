@@ -86,7 +86,7 @@
 			}]
 			title: "Silent Gear - Iron Helmet"
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -160,7 +160,7 @@
 			}]
 			title: "Silent Gear - Iron Chestplate"
 			x: 1.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -234,7 +234,7 @@
 			}]
 			title: "Silent Gear - Iron Leggings"
 			x: 2.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -308,7 +308,7 @@
 			}]
 			title: "Silent Gear - Iron Boots"
 			x: 3.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -579,7 +579,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -597,7 +597,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -615,7 +615,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -633,7 +633,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -651,7 +651,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -669,7 +669,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -687,7 +687,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -705,7 +705,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -727,7 +727,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -749,7 +749,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -771,7 +771,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -799,7 +799,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -821,7 +821,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["486E2F2D84E0E664"]
@@ -843,79 +843,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "07CD7743A29747B7"
-			shape: "circle"
-			tasks: [{
-				id: "796CEF3D5D59F25D"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "70FE0D640C240593"
-			shape: "circle"
-			tasks: [{
-				id: "104DB09A172ED2B4"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "33E0259854371519"
-			shape: "circle"
-			tasks: [{
-				id: "67048D7DB0BA378D"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0240FDF5F774DEEE"]
-			id: "1B8240023287A94B"
-			shape: "circle"
-			tasks: [{
-				id: "1B446A98A36B193A"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0240FDF5F774DEEE"]
@@ -1431,6 +1359,111 @@
 			}]
 			x: 2.5d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4C087A182A204212"
+				"031ABE2873108E7F"
+				"4AF3147FF1707118"
+				"7F24D2182FD0F70F"
+			]
+			description: ["From here on out you'll be able to use most gear if you can make it, or get a free hand me down from a friend."]
+			id: "6F1E63A9F1891FED"
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "59C971762C0507A0"
+					title: "Equip Everything Else"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6145711606442AC9"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0A766759DA4AF15C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Everything Else"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B766B34D55CBF6B"]
+			id: "4442AB3183C17EF8"
+			shape: "circle"
+			tasks: [{
+				id: "6FEF5ABB1CEDAA1C"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B766B34D55CBF6B"]
+			id: "13FC71B13E7F1405"
+			shape: "circle"
+			tasks: [{
+				id: "2321576F048536A9"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B766B34D55CBF6B"]
+			id: "253BBFDA9B11FD91"
+			shape: "circle"
+			tasks: [{
+				id: "591F808FCA4E0952"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B766B34D55CBF6B"]
+			id: "69105D124D2D76B5"
+			shape: "circle"
+			tasks: [{
+				id: "585D01E35BA0328E"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
 		}
 	]
 	title: "Armor"

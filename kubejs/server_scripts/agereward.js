@@ -81,3 +81,23 @@ FTBQuestsEvents.customReward('58AD6358671D5915', event => {
   event.server.runCommandSilent(`thitemstages add ${event.player.username} otherside`)
   event.server.runCommandSilent(`tell ${event.player.username} You have gained access to the Otherside!`)
 })
+
+FTBQuestsEvents.customReward('38790CFB44D09A1C', event => {
+  event.server.runCommandSilent(`thitemstages add ${event.player.username} copper_equipment`)
+  event.server.runCommandSilent(`tell ${event.player.username} You are now able to equip Copper tiered items!`)
+})
+
+FTBQuestsEvents.customReward('170054EED0E4B314', event => {
+  event.server.runCommandSilent(`thitemstages add ${event.player.username} silver_equipment`)
+  event.server.runCommandSilent(`tell ${event.player.username} You are now able to equip Silver tiered items!`)
+})
+
+FTBQuestsEvents.customReward('0827C48B3A1BA723', event => {
+  event.server.runCommandSilent(`thitemstages add ${event.player.username} iron_equipment`)
+  event.server.runCommandSilent(`tell ${event.player.username} You are now able to equip Iron tiered items!`)
+})
+
+FTBQuestsEvents.customReward('59C971762C0507A0', event => {
+  event.server.runCommandSilent(`thitemstages add ${event.player.username} everything_else`)
+  event.server.runCommandSilent(`tell ${event.player.username} It feels like a weight has been lifted from your shoulders. It's magical`)
+})

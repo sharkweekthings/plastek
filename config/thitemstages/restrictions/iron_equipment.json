@@ -1,0 +1,27 @@
+{
+  "Restriction Data": {
+    "stage": "iron_equipment",
+    "itemList": 
+    [
+      
+    ],
+
+    "tagList": 
+    [
+      "kubejs:iron_equipment"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

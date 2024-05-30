@@ -1193,6 +1193,15 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'minecraft:bone',
     2: 'minecraft:leather_boots'}).id('immersive_armors:bone_boots')
 
+// Thermo Generator Starter
+  event.shaped('powah:thermo_generator_starter', 
+    ['111','232','454'], {
+    1: 'powah:dielectric_paste',
+    2: 'powah:capacitor_basic_tiny',
+    3: 'powah:dielectric_casing',
+    4: 'powah:thermoelectric_plate',
+    5: 'powah:crystal_nitro',}).id('powah:crafting/thermo_generator_starter')
+
 // Meta Pet
   event.custom({
   "result": {
