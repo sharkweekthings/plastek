@@ -342,7 +342,9 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["115CB943EE1021B0"]
 			id: "4EFC3ED5184423BF"
+			shape: "circle"
 			tasks: [{
 				id: "41561ED8FB7BE812"
 				item: {
@@ -358,7 +360,9 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["58582C8DF0D92ACF"]
 			id: "7F9139DCE3C6D589"
+			shape: "circle"
 			tasks: [{
 				id: "4167B4DD67860583"
 				item: {
@@ -375,7 +379,9 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["211B2F86EFCEB273"]
 			id: "511BE12D90E1165C"
+			shape: "circle"
 			tasks: [{
 				id: "47B3C11E45E91555"
 				item: {
@@ -391,7 +397,9 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["6731D99588DF5C7A"]
 			id: "6EF217781F5B8579"
+			shape: "circle"
 			tasks: [{
 				id: "4BEA5C41CF96D8EE"
 				item: {

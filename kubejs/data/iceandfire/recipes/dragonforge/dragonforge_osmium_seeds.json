@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "lightning",
+  "cook_time": 1000,
+  "input": {
+    "item": "emendatusenigmatica:osmium_block"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:osmium_seeds"
+  }
+}

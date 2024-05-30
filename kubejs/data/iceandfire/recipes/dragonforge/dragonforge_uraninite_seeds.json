@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "lightning",
+  "cook_time": 1000,
+  "input": {
+    "item": "powah:uraninite_block"
+  },
+  "blood": {
+    "tag": "forge:seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:uraninite_seeds"
+  }
+}
