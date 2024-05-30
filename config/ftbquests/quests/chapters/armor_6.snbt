@@ -341,6 +341,71 @@
 			x: 5.0d
 			y: -2.0d
 		}
+		{
+			id: "4EFC3ED5184423BF"
+			tasks: [{
+				id: "41561ED8FB7BE812"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "7F9139DCE3C6D589"
+			tasks: [{
+				id: "4167B4DD67860583"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "511BE12D90E1165C"
+			tasks: [{
+				id: "47B3C11E45E91555"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "6EF217781F5B8579"
+			tasks: [{
+				id: "4BEA5C41CF96D8EE"
+				item: {
+					Count: 1b
+					id: "ad_astra:jet_suit_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
 	]
 	title: "Armor"
 }
