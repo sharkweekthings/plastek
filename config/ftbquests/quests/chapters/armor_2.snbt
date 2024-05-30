@@ -1465,6 +1465,133 @@
 			x: 8.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "4D14953EE2947E74"
+			shape: "circle"
+			tasks: [{
+				id: "5F8CDF9CEF5C3B5E"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_helmet"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 1.0f
+							"tconstruct:durability": 110.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "54F19E8EF4ECD6C9"
+			shape: "circle"
+			tasks: [{
+				id: "3BAA2FB8F18A0E23"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_chestplate"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.55f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 5.0f
+							"tconstruct:durability": 160.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "3AA133509BD3295F"
+			shape: "circle"
+			tasks: [{
+				id: "2810F2729E6551CD"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_leggings"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 4.0f
+							"tconstruct:durability": 150.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "2E29C5B11F805037"
+			shape: "circle"
+			tasks: [{
+				id: "31622767FE7C38E3"
+				item: {
+					Count: 1b
+					id: "tconstruct:travelers_boots"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:snow_boots"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 1.0f
+							"tconstruct:durability": 130.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							"tconstruct:snow_boots": 1b
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
 	]
 	title: "Armor"
 }

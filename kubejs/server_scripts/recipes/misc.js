@@ -1193,6 +1193,84 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'minecraft:bone',
     2: 'minecraft:leather_boots'}).id('immersive_armors:bone_boots')
 
+// Chainmail Helmet
+  event.shaped('minecraft:chainmail_helmet', 
+    ['   ','111','121'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_helmet'}).id('minecraft:chainmail_helmet')
+
+// Chainmail Chestplate
+  event.shaped('minecraft:chainmail_chestplate', 
+    ['1 1','121','111'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_chestplate'}).id('minecraft:chainmail_chestplate')
+
+// Chainmail Leggings>
+  event.shaped('minecraft:chainmail_leggings', 
+    ['111','121','1 1'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_leggings'}).id('minecraft:chainmail_leggings')
+
+// Chainmail Boots
+  event.shaped('minecraft:chainmail_boots', 
+    ['   ','121','1 1'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_boots'}).id('minecraft:chainmail_boots')
+
+// Iron Helmet
+  event.shaped('minecraft:iron_helmet', 
+    ['   ','111','121'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_helmet'}).id('minecraft:iron_helmet')
+
+// Iron Chestplate
+  event.shaped('minecraft:iron_chestplate', 
+    ['1 1','121','111'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_chestplate'}).id('minecraft:iron_chestplate')
+
+// Iron Leggings>
+  event.shaped('minecraft:iron_leggings', 
+    ['111','121','1 1'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_leggings'}).id('minecraft:iron_leggings')
+
+// Iron Boots
+  event.shaped('minecraft:iron_boots', 
+    ['   ','121','1 1'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_boots'}).id('minecraft:iron_boots')
+
+// Diamond Helmet
+  event.shaped('minecraft:diamond_helmet', 
+    ['   ','111','121'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_helmet'}).id('minecraft:diamond_helmet')
+
+// Diamond Chestplate
+  event.shaped('minecraft:diamond_chestplate', 
+    ['1 1','121','111'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_chestplate'}).id('minecraft:diamond_chestplate')
+
+// Diamond Leggings>
+  event.shaped('minecraft:diamond_leggings', 
+    ['111','121','1 1'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_leggings'}).id('minecraft:diamond_leggings')
+
+// Diamond Boots
+  event.shaped('minecraft:diamond_boots', 
+    ['   ','121','1 1'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_boots'}).id('minecraft:diamond_boots')
+
+// Chain
+  event.shaped('minecraft:chain', 
+    [' 2 ',' 1 ',' 2 '], {
+    1: 'minecraft:iron_ingot',
+    2: 'emendatusenigmatica:silver_nugget'}).id('minecraft:chain')
+
 // Thermo Generator Starter
   event.shaped('powah:thermo_generator_starter', 
     ['111','232','454'], {

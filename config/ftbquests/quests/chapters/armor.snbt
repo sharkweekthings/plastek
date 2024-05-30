@@ -29,8 +29,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -47,8 +47,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -65,8 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
@@ -83,8 +83,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -104,8 +104,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -125,8 +125,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -146,8 +146,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -167,8 +167,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5928D99A2F786286"]
@@ -463,7 +463,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0240FDF5F774DEEE"]
+			dependencies: ["141BB1A7D5C7030B"]
 			id: "622B3E584ADA278A"
 			shape: "circle"
 			tasks: [{
@@ -477,11 +477,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["0240FDF5F774DEEE"]
+			dependencies: ["141BB1A7D5C7030B"]
 			id: "059D7574C744ED3B"
 			shape: "circle"
 			tasks: [{
@@ -495,11 +495,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["0240FDF5F774DEEE"]
+			dependencies: ["141BB1A7D5C7030B"]
 			id: "4EA251A6BB2BD438"
 			shape: "circle"
 			tasks: [{
@@ -513,11 +513,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["0240FDF5F774DEEE"]
+			dependencies: ["141BB1A7D5C7030B"]
 			id: "4FC4807C8F83167C"
 			shape: "circle"
 			tasks: [{
@@ -531,131 +531,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			id: "17F36E6257E40FED"
-			shape: "circle"
-			tasks: [{
-				id: "0389498C2CB92945"
-				item: {
-					Count: 1b
-					id: "tconstruct:travelers_helmet"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_modifiers: [ ]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 1.0f
-							"tconstruct:durability": 110.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 2
-							upgrades: 3
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			id: "4A4BC30CFBA32C5D"
-			shape: "circle"
-			tasks: [{
-				id: "583706FAFFE82B7D"
-				item: {
-					Count: 1b
-					id: "tconstruct:travelers_chestplate"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_modifiers: [ ]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 0.55f
-						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 5.0f
-							"tconstruct:durability": 160.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 2
-							upgrades: 3
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			id: "338EAD4ED63C099D"
-			shape: "circle"
-			tasks: [{
-				id: "296609B570F6F22F"
-				item: {
-					Count: 1b
-					id: "tconstruct:travelers_leggings"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_modifiers: [ ]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 4.0f
-							"tconstruct:durability": 150.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 2
-							upgrades: 3
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.5d
-		}
-		{
-			id: "55EC12ADBEE459CA"
-			shape: "circle"
-			tasks: [{
-				id: "0C8923DE35230237"
-				item: {
-					Count: 1b
-					id: "tconstruct:travelers_boots"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_modifiers: [{
-							level: 1
-							name: "tconstruct:snow_boots"
-						}]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 1.0f
-							"tconstruct:durability": 130.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 2
-							"tconstruct:snow_boots": 1b
-							upgrades: 3
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			id: "59C0D15F15F80841"
@@ -665,8 +542,8 @@
 				title: "Become The Hunter"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -683,8 +560,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -701,8 +578,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -719,8 +596,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -737,8 +614,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -755,8 +632,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -773,8 +650,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -791,8 +668,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["59C0D15F15F80841"]
@@ -809,10 +686,12 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["5928D99A2F786286"]
+			description: ["You can't craft this until you get Iron Ingots, but you can wear it if you find some."]
 			id: "083C747FF4EB4CCC"
 			shape: "circle"
 			tasks: [{
@@ -826,10 +705,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["5928D99A2F786286"]
+			description: ["You can't craft this until you get Iron Ingots, but you can wear it if you find some."]
 			id: "2FEC89F81966B7A7"
 			shape: "circle"
 			tasks: [{
@@ -843,10 +724,12 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["5928D99A2F786286"]
+			description: ["You can't craft this until you get Iron Ingots, but you can wear it if you find some."]
 			id: "4358AC9E9ABB51FC"
 			shape: "circle"
 			tasks: [{
@@ -860,10 +743,12 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["5928D99A2F786286"]
+			description: ["You can't craft this until you get Iron Ingots, but you can wear it if you find some."]
 			id: "707142C029ED24C3"
 			shape: "circle"
 			tasks: [{
@@ -877,7 +762,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -1.0d
 		}
 	]
