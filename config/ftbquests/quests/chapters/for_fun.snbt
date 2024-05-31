@@ -360,7 +360,7 @@
 			]
 			title: "Easter Hats"
 			x: 1.0d
-			y: 3.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -426,7 +426,7 @@
 			]
 			title: "Summer Hats"
 			x: 2.0d
-			y: 3.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -485,7 +485,7 @@
 			]
 			title: "Halloween Hats"
 			x: 3.0d
-			y: 3.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -544,7 +544,7 @@
 			]
 			title: "Festive Hats"
 			x: 4.0d
-			y: 3.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -560,7 +560,7 @@
 				entity: "minecraft:zombie"
 				id: "1B90D62362D2FA00"
 				type: "kill"
-				value: 1000L
+				value: 500L
 			}]
 			x: -1.5d
 			y: -3.0d
@@ -579,7 +579,7 @@
 				entity: "minecraft:skeleton"
 				id: "1EE92A78B881BF94"
 				type: "kill"
-				value: 1000L
+				value: 500L
 			}]
 			x: -1.5d
 			y: -2.0d
@@ -598,7 +598,7 @@
 				entity: "minecraft:wither_skeleton"
 				id: "777BFE8CE35992CC"
 				type: "kill"
-				value: 1000L
+				value: 500L
 			}]
 			x: -1.5d
 			y: -1.0d
@@ -617,10 +617,10 @@
 				entity: "minecraft:creeper"
 				id: "208F381EF7D20FE1"
 				type: "kill"
-				value: 1000L
+				value: 500L
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -632,14 +632,15 @@
 				type: "random"
 			}]
 			shape: "circle"
+			subtitle: "End the Enderman"
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "7CE42F4E88ECDBFA"
 				type: "kill"
-				value: 1000L
+				value: 500L
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -657,8 +658,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -678,8 +679,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -697,8 +698,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -718,8 +719,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -737,8 +738,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -754,10 +755,10 @@
 				entity: "minecraft:warden"
 				id: "64164628797FA7CE"
 				type: "kill"
-				value: 500L
+				value: 200L
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -770,8 +771,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "6A79A1EB3DCD961E"
@@ -873,7 +874,7 @@
 				entity: "minecraft:blaze"
 				id: "068A4AFED07E62BF"
 				type: "kill"
-				value: 1000L
+				value: 500L
 			}]
 			x: -1.5d
 			y: 2.0d
@@ -976,8 +977,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -997,7 +998,7 @@
 				value: 200L
 			}]
 			x: -2.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1017,7 +1018,7 @@
 				value: 200L
 			}]
 			x: -2.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -1037,7 +1038,555 @@
 				value: 200L
 			}]
 			x: -2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "4E95A3249DE2CD15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D433FCB26254A8D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:badlands_enderman"
+				icon: "endermanoverhaul:badlands_enderman_spawn_egg"
+				id: "6456DABD66116497"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "63F6107692964951"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "730956D473215237"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:cave_enderman"
+				icon: "endermanoverhaul:cave_enderman_spawn_egg"
+				id: "52B53FE1AC3225D2"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "5865ABDEA8238A07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C3EABFE1B0D1AA4"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:crimson_forest_enderman"
+				icon: "endermanoverhaul:crimson_forest_enderman_spawn_egg"
+				id: "208434184F9BDC71"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "5464DA8198EC8F1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E3BB163B96A5ACC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:dark_oak_enderman"
+				icon: "endermanoverhaul:dark_oak_enderman_spawn_egg"
+				id: "6F052642A6D7E76E"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "104926BAE954D118"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F17CCF2791309F3"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:desert_enderman"
+				icon: "endermanoverhaul:desert_enderman_spawn_egg"
+				id: "4ECBDC07B6EED35A"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "2FA681C3F6BA86E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "426FB22D7171849E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:end_enderman"
+				icon: "endermanoverhaul:end_enderman_spawn_egg"
+				id: "5BBDD29D9BC0B034"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "63AFDB294D0C325F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6391B295F398598F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:end_islands_enderman"
+				icon: "endermanoverhaul:end_islands_enderman_spawn_egg"
+				id: "6847B1B59D1902B3"
+				type: "kill"
+				value: 250L
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "6151B0CA858822EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC70B91867AD847"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:flower_fields_enderman"
+				icon: "endermanoverhaul:flower_fields_enderman_spawn_egg"
+				id: "1EA787885205B57B"
+				type: "kill"
+				value: 250L
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "3EFC53C080A1B855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "209E0DAA72F74B38"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:ice_spikes_enderman"
+				icon: "endermanoverhaul:ice_spikes_enderman_spawn_egg"
+				id: "17134E02420C7046"
+				type: "kill"
+				value: 250L
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "27CF7E3ED76FCFEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25F57327B8F0E392"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:mushroom_fields_enderman"
+				icon: "endermanoverhaul:mushroom_fields_enderman_spawn_egg"
+				id: "4E4C02FB57891D9E"
+				type: "kill"
+				value: 250L
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "2EA0BFA432A3331A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "037158877D590B39"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:nether_wastes_enderman"
+				icon: "endermanoverhaul:nether_wastes_enderman_spawn_egg"
+				id: "015ADAE15F25B074"
+				type: "kill"
+				value: 250L
+			}]
+			x: 7.5d
 			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "52AEBC9CB0A04FA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7841600F7DECE007"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:savanna_enderman"
+				icon: "endermanoverhaul:savanna_enderman_spawn_egg"
+				id: "392DF9B0CBF215F1"
+				type: "kill"
+				value: 250L
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "47652C5364C84F8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367028D196750B0C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:snowy_enderman"
+				icon: "endermanoverhaul:snowy_enderman_spawn_egg"
+				id: "6E6B6DD3B4428B48"
+				type: "kill"
+				value: 250L
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "52E5FA489951AFB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EE17B7CEB5B86DC"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:soulsand_valley_enderman"
+				icon: "endermanoverhaul:soulsand_valley_enderman_spawn_egg"
+				id: "081671657EC86A04"
+				type: "kill"
+				value: 250L
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "7309AEE38F72FACE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B481A3FFB17CA3F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:swamp_enderman"
+				icon: "endermanoverhaul:swamp_enderman_spawn_egg"
+				id: "5D026A3F01095F83"
+				type: "kill"
+				value: 250L
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "2F9C629B5DAE60B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E23969796C8EBC4"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:warped_forest_enderman"
+				icon: "endermanoverhaul:warped_forest_enderman_spawn_egg"
+				id: "12D1FAEB1B92A98F"
+				type: "kill"
+				value: 250L
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "13EA7B2444D5ADED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24AC726BDF70935D"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "endermanoverhaul:windswept_hills_enderman"
+				icon: "endermanoverhaul:windswept_hills_enderman_spawn_egg"
+				id: "17A4D7FF37523DD5"
+				type: "kill"
+				value: 250L
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "12B71DD642E4A940"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BAE2DE228673BD3"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				icon: "occultism:spawn_egg/possessed_enderman"
+				id: "3207422650434EE3"
+				type: "kill"
+				value: 250L
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "2410DC5F88C689F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E4782C4374DABC4"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "End the Enderman"
+			tasks: [{
+				entity: "instrumentalmobs:tuba_enderman"
+				icon: "instrumentalmobs:tuba_enderman_spawn_egg"
+				id: "039DE1E483A950D2"
+				type: "kill"
+				value: 150L
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "00DBC04ACF612B59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01D10EB701B46C51"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "5D76F41721FF6168"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "683217156BFF66E9"
+			shape: "circle"
+			tasks: [{
+				count: 50L
+				id: "2AECBAF1B246E3EA"
+				item: "minecraft:elder_guardian_spawn_egg"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "7EE65B002B0B8427"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D5F0263D0D44FCD"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "741314D6892ECA29"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "5FE27D51E9ABCDE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49CF8FD697399977"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "tconstruct:sky_slime"
+				icon: "tconstruct:sky_slime_spawn_egg"
+				id: "348C33F10BFEC4BC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "6D7A6FF4296E8EF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FEEFAA9C90F9562"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "tconstruct:ender_slime"
+				icon: "tconstruct:ender_slime_spawn_egg"
+				id: "6F9653F292E7C4FB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "27E7A8D5BF01B027"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05F7423B0B307479"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "356DF74ADA577074"
+				type: "kill"
+				value: 500L
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "3D0EEDA93BAB4EB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EF52FFA939C3288"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "sleep_tight:bedbug"
+				icon: "sleep_tight:bedbug_spawn_egg"
+				id: "7837978B9366261E"
+				type: "kill"
+				value: 500L
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "3057171C85D11B72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33A7A5099203785F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "00D992E5909A86B5"
+				type: "kill"
+				value: 500L
+			}]
+			x: -6.5d
+			y: -0.5d
 		}
 	]
 	title: "For Fun"
