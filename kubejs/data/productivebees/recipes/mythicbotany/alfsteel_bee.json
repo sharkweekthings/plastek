@@ -17,10 +17,10 @@
             "nbt": "{EntityTag:{type:\"productivebees:arcane\"}}"
         },
         {
-            "tag": "botania:dragonstone_gems"
+            "item": "mythicbotany:alfsteel_block"
         },
         {
-            "item": "botania:pixie_dust"
+            "item": "iceandfire:pixie_dust"
         }
     ],
     "fromColor": 14441208,

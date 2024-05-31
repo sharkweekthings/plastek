@@ -247,6 +247,7 @@ JEIEvents.hideItems(event => {
 	event.hide('botania:apothecary_mesa')
 	event.hide('botania:apothecary_mossy')
 	event.hide('botania:apothecary_deepslate')
+	event.hide('botania:pixie_dust')
 
 // OCCULTISM
 	event.hide('theurgy:divination_rod_t4')

@@ -149,6 +149,12 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:steel_plate',
     3: 'pneumaticcraft:pressure_tube'}).id('iceandfire:dragonforge_lightning_input')
 
+// Pixie Jar Empty
+  event.shaped('iceandfire:pixie_jar_empty', 
+    ['121','1 1','111'], {
+    1: 'tconstruct:seared_glass',
+    2: '#minecraft:trapdoors'}).id('iceandfire:pixie_jar_empty')
+
 //    
 })
 //

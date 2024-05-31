@@ -1020,6 +1020,81 @@
 			x: -1.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["797C84F5C809F0CC"]
+			description: [
+				"Just craft the jar, and scoop up Pixies by right clicking them. It's that easy!"
+				""
+				"The mob named \"Alfheim Pixie\" will drop Pixie Dust, but cannot be captured and farmed for Pixie Dust. All other Pixie's should be able to be caught."
+			]
+			id: "7F3D55B9B08FD26C"
+			subtitle: "This glass prison is all they will ever know, now."
+			tasks: [{
+				id: "006DF7F2340EE90F"
+				item: "iceandfire:pixie_jar_empty"
+				type: "item"
+			}]
+			title: "Pixies in a Jar"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: [
+				"Even though you don't need Pixie Dust until a later age, it's suggested to get a Pixie farm going as soon as possible by capturing some Pixies in a jar."
+				""
+				"Pixie Dust generates pretty slowly, and you'll need a good amount of dust later on."
+				""
+				"You can also befriend certain Pixies by offering them some cake. If you make friends with them, they will offer various benefits: "
+				""
+				"&dPink&r - Strength"
+				"&5Purple&r - Jump Boost"
+				"&9Blue&r - Speed"
+				"&2Green&r - Luck"
+				"&eYellow&r - Haste"
+				""
+				"Here is where you can find Pixies:"
+				""
+				"&bOverworld&r - Various Forest like areas, namely Dark Forest."
+				"&aTwilight Forest&r -  Various Forest like areas, namely the Dart and Enchanted Forest."
+				"&6Alfheim&r - They can be in any biome."
+			]
+			id: "797C84F5C809F0CC"
+			tasks: [{
+				id: "11D4E746328F8D9B"
+				title: "Pixies in a Jar"
+				type: "checkmark"
+			}]
+			title: "Pixies"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F3D55B9B08FD26C"]
+			description: ["If you use a Hopper on the placed Pixie Jar, Dust will automatically collect into the Hopper!"]
+			id: "4426146BE2DCB9FB"
+			shape: "circle"
+			tasks: [{
+				id: "22BB8D6DC4AADDCF"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F3D55B9B08FD26C"]
+			description: ["The Hopper doesn't have much space, so you can feed the items into a Barrel. "]
+			id: "4017800882EF04AC"
+			shape: "circle"
+			tasks: [{
+				id: "60CE6FB9D219898C"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
 	]
 	title: "Magic"
 }

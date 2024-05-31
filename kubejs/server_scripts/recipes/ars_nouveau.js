@@ -56,6 +56,41 @@ ServerEvents.recipes(event => {
   2: 'ars_nouveau:source_gem',
 	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:arcane_core')
 
+// Agronomic Sourcelink
+  event.shaped('ars_nouveau:agronomic_sourcelink',
+    [' 2 ','313',' 2 '], {
+  1: 'minecraft:wheat',
+  2: 'ars_nouveau:source_gem',
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:agronomic_sourcelink')
+
+// Alchemical Sourcelink
+  event.shaped('ars_nouveau:alchemical_sourcelink',
+    [' 2 ','313',' 2 '], {
+  1: 'minecraft:brewing_stand',
+  2: 'ars_nouveau:source_gem',
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:alchemical_sourcelink')
+
+// Vitalic Sourcelink
+  event.shaped('ars_nouveau:vitalic_sourcelink',
+    [' 2 ','313',' 2 '], {
+  1: 'minecraft:glistering_melon_slice',
+  2: 'ars_nouveau:source_gem',
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:vitalic_sourcelink')
+
+// Mycelial Sourcelink
+  event.shaped('ars_nouveau:mycelial_sourcelink',
+    [' 2 ','313',' 2 '], {
+  1: 'minecraft:mushroom_stew',
+  2: 'ars_nouveau:source_gem',
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:mycelial_sourcelink')
+
+// Volcanic Sourcelink
+  event.shaped('ars_nouveau:volcanic_sourcelink',
+    [' 2 ','313',' 2 '], {
+  1: 'minecraft:lava_bucket',
+  2: 'ars_nouveau:source_gem',
+	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:volcanic_sourcelink')
+
 // Enchantiing Apparatus
   event.shaped('ars_nouveau:enchanting_apparatus',
     ['212','343','212'], {
