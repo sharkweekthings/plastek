@@ -1285,7 +1285,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   event.shaped('powah:capacitor_basic',
     [' 31','323','13'], {
     1: 'powah:dielectric_paste',
-    2: 'minecraft:signalum_block',
+    2: 'emendatusenigmatica:signalum_block',
     3: 'emendatusenigmatica:plasteel_plate'}).id('powah:crafting/capacitor_basic')
 
 // Dielectric Paste
