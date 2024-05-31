@@ -151,9 +151,10 @@ ServerEvents.recipes(event => {
 
 // Pixie Jar Empty
   event.shaped('iceandfire:pixie_jar_empty', 
-    ['121','1 1','111'], {
+    ['323','1 1','111'], {
     1: 'tconstruct:seared_glass',
-    2: '#minecraft:trapdoors'}).id('iceandfire:pixie_jar_empty')
+    2: '#minecraft:trapdoors',
+    3: 'occultism:spirit_attuned_gem'}).id('iceandfire:jar_empty')
 
 //    
 })
