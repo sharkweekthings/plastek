@@ -17,6 +17,7 @@
 
 8) If you're experiencing issues with your session invalidating, install the mod [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth). This will let you authorize your client at the Server Selection screen, so you hopefully won't need to reload the game.
 
+##
 ## Suggested World Seeds
 - Start in a village: 1797250694774521104
 - Start with a tower nearby: -4617567651137131285
