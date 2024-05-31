@@ -14,7 +14,7 @@
 			rewards: [{
 				id: "48700387B4D68A59"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -42,7 +42,7 @@
 			rewards: [{
 				id: "787668A9E3B25415"
 				item: "minecraft:emerald"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -71,7 +71,7 @@
 			rewards: [{
 				id: "1D048D4C64AD5772"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -99,7 +99,7 @@
 			rewards: [{
 				id: "7574200306994CC9"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -128,7 +128,7 @@
 			rewards: [{
 				id: "317FA63C1ACE0C60"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -157,7 +157,7 @@
 			rewards: [{
 				id: "04342DC26193E9BB"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -183,11 +183,12 @@
 		{
 			can_repeat: true
 			description: ["Plain Yogurt doesn't count for this!"]
+			hide_dependency_lines: false
 			id: "0325483182650407"
 			rewards: [{
 				id: "6CA8E9AD12588213"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -221,7 +222,7 @@
 			rewards: [{
 				id: "18ECA55B2FF3ED7E"
 				item: "minecraft:emerald"
-				random_bonus: 14
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -250,7 +251,7 @@
 			rewards: [{
 				id: "686B73CC77B7790C"
 				item: "minecraft:emerald"
-				random_bonus: 19
+				random_bonus: 9
 				type: "item"
 			}]
 			shape: "circle"
@@ -279,7 +280,7 @@
 			rewards: [{
 				id: "03823952F88F7DBC"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -308,7 +309,7 @@
 			rewards: [{
 				id: "0959551244584090"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -337,7 +338,7 @@
 			rewards: [{
 				id: "17627494696EE077"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -366,7 +367,7 @@
 			rewards: [{
 				id: "3D8814BCC07B8316"
 				item: "minecraft:emerald"
-				random_bonus: 14
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -396,7 +397,7 @@
 			rewards: [{
 				id: "3CE163870BE2A7D1"
 				item: "minecraft:emerald"
-				random_bonus: 9
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "circle"
@@ -424,7 +425,7 @@
 			rewards: [{
 				id: "3464EB56EEE8EDF5"
 				item: "minecraft:emerald"
-				random_bonus: 24
+				random_bonus: 14
 				type: "item"
 			}]
 			shape: "circle"
