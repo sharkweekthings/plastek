@@ -309,7 +309,7 @@ ServerEvents.recipes(event => {
   2: 'emendatusenigmatica:plasteel_gear',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'mekanism:basic_control_circuit',
-  5: 'emendatusenigmatica:iron_plate'}).id('mekanism:crusher')
+  5: 'emendatusenigmatica:steel_plate'}).id('mekanism:crusher')
 
 // Osmium Compressor
   event.shaped('mekanism:osmium_compressor',
@@ -394,7 +394,7 @@ ServerEvents.recipes(event => {
     ['323','212','323'], {
   1: 'pneumaticcraft:small_tank',
   2: 'minecraft:glass',
-	3: 'emendatusenigmatica:iron_plate'}).id('mekanism:basic_fluid_tank')
+	3: 'emendatusenigmatica:steel_plate'}).id('mekanism:basic_fluid_tank')
 
 // Basic Chemical Tank
   event.shaped('mekanism:basic_chemical_tank',
