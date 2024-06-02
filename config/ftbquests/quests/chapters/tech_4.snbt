@@ -414,7 +414,7 @@
 				""
 				"The good news is, you'll only have to deal with the bucket method until you're capable of manufacturing your Laser Assembly program. "
 				""
-				"You'll need 5 Green Powder, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic. "
+				"You'll need 2 Fertilizer, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic. "
 			]
 			id: "59AE13AF70687556"
 			subtitle: "Throw it in the Instant Pot."
@@ -1574,6 +1574,33 @@
 			}]
 			x: 7.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			id: "1F451EF299093BB6"
+			shape: "circle"
+			tasks: [{
+				id: "25D286B0130AC0DE"
+				item: "immersiveengineering:fertilizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F451EF299093BB6"]
+			description: ["Liquid Fertilizer can help speed up crop growth. Maybe try putting it in a Sprinkler over some crops?"]
+			id: "61AB74749A48B6AC"
+			shape: "circle"
+			subtitle: "Make it rain"
+			tasks: [{
+				amount: 5000L
+				fluid: "sliceanddice:fertilizer"
+				id: "0B597EC7D3B28C67"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 	title: "Tech"

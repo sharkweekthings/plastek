@@ -64,7 +64,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:mechanical_roller'})
   event.remove({id: 'sliceanddice:mixing/fertilizer/from_compost'})
   event.remove({id: 'sliceanddice:mixing/fertilizer/from_tree_fertilizer'})
-  event.remove({id: 'sliceanddice:sprinkler'})
   event.remove({id: 'sliceanddice:slicer'})
   event.remove({id: 'create:crafting/logistics/andesite_tunnel'})
   event.remove({id: 'create:crafting/logistics/brass_tunnel'})
@@ -206,7 +205,7 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:brass_plate', 
     2: 'create:fluid_pipe',
     3: 'quark:grate',
-    4: 'create:cogwheel'}).id('create:crafts/sprinkler')
+    4: 'emendatusenigmatica:bronze_gear'}).id('sliceanddice:sprinkler')
 
 // Shaft
   event.shaped('create:shaft', 
@@ -670,6 +669,14 @@ event.custom({
   "results": [{"item": "industrialforegoing:tinydryrubber","count": 2}],
   "heatRequirement": "none"
   }).id('create:mixing/tinydryrubber2')
+
+// Liquid Fertilizer
+event.custom({
+  "type": "create:mixing", "ingredients": [{"item": "immersiveengineering:fertilizer","count": 1}, {"item": "immersiveengineering:dust_saltpeter","count": 5},
+  {"fluidTag": "forge:experience","amount": 500}],
+  "results": [{"fluid": "sliceanddice:fertilizer","amount": 200}],
+  "heatRequirement": "none"
+  }).id('sliceanddice:mixing/fertilizer/from_phyto')
 
 event.custom({
   "type": "create:pressing", "ingredients": [{"item": "industrialforegoing:dryrubber","count": 1}],

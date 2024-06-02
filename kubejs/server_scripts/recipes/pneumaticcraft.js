@@ -524,8 +524,8 @@ event.custom({
       "inputs": [
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 5,
-          "item": "rootsclassic:growth_powder"
+          "count": 2,
+          "item": "immersiveengineering:fertilizer"
         },
         {
           "item": "mob_grinding_utils:nutritious_chicken_feed"

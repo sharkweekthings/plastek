@@ -1039,9 +1039,9 @@
 				item: "emendatusenigmatica:apatite_moon_stone_ore"
 				type: "item"
 			}]
-			title: "Rich Apatite Ore"
+			title: "Apatite Ore"
 			x: -6.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			description: [
@@ -1371,9 +1371,9 @@
 				item: "emendatusenigmatica:apatite_glacio_stone_ore"
 				type: "item"
 			}]
-			title: "Apatite Ore"
+			title: "Rich Apatite Ore"
 			x: -6.0d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			description: [

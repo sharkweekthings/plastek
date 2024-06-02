@@ -49,7 +49,7 @@
       ore.size = 5
     })
   
-    // Apatite
+    // Rich Apatite
     event.addOre(ore => {
       ore.id = 'kubejs:apatite_ore_gen_en'
       ore.biomes = '#kubejs:end_gen_1'

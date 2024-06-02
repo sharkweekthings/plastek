@@ -1184,6 +1184,8 @@ event.add('kubejs:age_2_exception',
 
 event.add('kubejs:age_3_item', 
   [
+  'mysticalagriculture:apatite_essence',
+  'mysticalagriculture:apatite_seeds',
   'mysticalagriculture:tertium_farmland',
   'mysticalagriculture:water_essence',
   'mysticalagriculture:ice_seeds',
@@ -2112,6 +2114,8 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mysticalagriculture:apatite_essence',
+  'mysticalagriculture:apatite_seeds',
   'mysticalagriculture:tertium_farmland',
   'mysticalagriculture:water_essence',
   'mysticalagriculture:dye_essence',

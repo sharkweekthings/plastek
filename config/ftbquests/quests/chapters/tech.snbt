@@ -628,7 +628,7 @@
 			description: [
 				"With the Crude Alloyer you can make Sterling Silver ingots. "
 				""
-				"With Sterling Silver ingots, you can make some new armor and tools!"
+				"With Sterling Silver ingots, you can make a Sterling Silver rod."
 			]
 			id: "0EAC1C918A0B2E6D"
 			rewards: [{
@@ -638,6 +638,7 @@
 				type: "random"
 			}]
 			shape: "gear"
+			subtitle: "Mostly useless. "
 			tasks: [{
 				id: "275D2192DBF0DC47"
 				item: "emendatusenigmatica:sterling_silver_ingot"
@@ -757,7 +758,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["6F712354DFDC89C5"]
+			dependencies: ["2C0FCA60C3101E81"]
 			description: [
 				"You'll first want to start out by finding, or crafting Organic Compost. "
 				""
@@ -781,8 +782,8 @@
 				type: "checkmark"
 			}]
 			title: "Rich Soil Farmland"
-			x: -1.0d
-			y: -1.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7FAD2D111A51760D"]
@@ -1039,6 +1040,30 @@
 			}]
 			x: 8.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			id: "5A75D85EA29F2A2B"
+			shape: "circle"
+			tasks: [{
+				id: "5E7457562BCE4989"
+				item: "minecraft:farmland"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A75D85EA29F2A2B"]
+			id: "2C0FCA60C3101E81"
+			shape: "circle"
+			tasks: [{
+				id: "393F66F04F0BAA96"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
 		}
 	]
 	title: "Tech"

@@ -80,7 +80,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:fire_charge/enderium_ingot_2'})
   event.remove({id: 'thermal:fire_charge/bronze_ingot_4'})
   event.remove({id: 'thermal:fire_charge/signalum_ingot_4'})
-
+  event.remove({id: 'thermal:phytogro_8'})
+  event.remove({id: 'thermal:phytogro_2'})
+  event.remove({id: 'thermal:phytogro_4'})
 //
 })
 //
@@ -1145,7 +1147,6 @@ ServerEvents.recipes(event => {
     [' 1 ','121',' 1 '], {
     1: 'emendatusenigmatica:electrum_ingot',
     2: 'create:super_glue'}).id('thermal:parts/electrum_gear')
-
 
 // Replace Thermal Machine Frame w/ Industrial Foregoing
 event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','industrialforegoing:machine_frame_advanced')

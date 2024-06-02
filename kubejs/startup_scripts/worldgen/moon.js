@@ -125,7 +125,7 @@ WorldgenEvents.add(event => {
 
 // BOTTOM
 
-  // Rich Apatite
+  // Apatite
   event.addOre(ore => {
     ore.id = 'kubejs:apatite_ore_gen_mn'
     ore.biomes = '#kubejs:moon_gen'

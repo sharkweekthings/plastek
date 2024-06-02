@@ -128,15 +128,6 @@ ServerEvents.recipes(event => {
     4: 'immersiveengineering:craftingtable',
     5: 'create:precision_mechanism'}).id('immersiveengineering:crafting/workbench')
 
-// // Conveyor Basic
-//   event.shaped('immersiveengineering:conveyor_basic',
-//     ['353','323','141'], {
-//     1: 'create:shaft',
-//     2: 'ad_astra:ostrum_plate',
-// 	  3: 'emendatusenigmatica:iron_rod',
-// 	  4: 'pneumaticcraft:plastic',
-//     5: '#forge:leather'}).id('immersiveengineering:crafting/conveyor_basic')
-
 // Thermoelectric Generator
   event.shaped('immersiveengineering:thermoelectric_generator',
     ['343','121','151'], {
@@ -145,6 +136,13 @@ ServerEvents.recipes(event => {
 	  3: 'emendatusenigmatica:constantan_plate',
 	  4: 'pneumaticcraft:plastic',
     5: '#energeticsheep:wool_energetic'}).id('immersiveengineering:crafting/thermoelectric_generator')
+
+// Fertilizer
+  event.shaped('immersiveengineering:fertilizer',
+    ['121','232','121'], {
+    1: '#forge:dusts/saltpeter', 
+    2: '#forge:slag',
+    3: 'farmersdelight:organic_compost'}).id('immersiveengineering:crafting/fertilizer')
 
 // Conveyor Vertical
   event.shaped('immersiveengineering:conveyor_vertical',

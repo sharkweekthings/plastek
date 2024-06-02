@@ -182,6 +182,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'farmersdelight:wheat_dough_from_eggs'})
   event.remove({id: 'pamhc2foodcore:doughitem_x2'})
   event.remove({id: 'powah:crafting/dielectric_paste_2'})
+  event.remove({id: 'farmersdelight:organic_compost_from_tree_bark'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
@@ -1294,6 +1295,14 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'immersiveengineering:dust_hop_graphite',
     2: 'minecraft:clay_ball',
     3: 'buildinggadgets:construction_paste'}).id('powah:crafting/dielectric_paste')
+
+// Organic Compost
+  event.shaped('farmersdelight:organic_compost',
+    ['122','334','444'], {
+    1: 'minecraft:farmland',
+    2: 'minecraft:rotten_flesh',
+    3: 'farmersdelight:straw',
+    4: 'minecraft:bone_meal'}).id('farmersdelight:organic_compost_from_rotten_flesh')
 
 // Meta Pet
   event.custom({
