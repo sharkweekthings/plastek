@@ -3817,7 +3817,6 @@ event.add('kubejs:everything_else',
   'mysticalagriculture:tertium_sword'
   ])
 
-
 // event.add('silentgear:saw', '#natprog:saw')
 event.add('natprog:saw', 'silentgear:saw')
 
@@ -3826,5 +3825,6 @@ event.add('natprog:saw', 'silentgear:saw')
 //
 
 // ServerEvents.tags('block', event => {
+
 
 // })

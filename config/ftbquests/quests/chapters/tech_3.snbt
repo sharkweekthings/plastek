@@ -466,6 +466,7 @@
 				"- Crystal Housing Unit"
 				"- ZPM Housing Unit"
 				"- Creative Blaze Cake"
+				"- Phytogro"
 			]
 			id: "24EDD34485EC3CB6"
 			subtitle: "Deployer > Deployer > Deployer > Spout > Press"
@@ -1289,7 +1290,6 @@
 				""
 				"- Sturdy Sheet"
 				"- Crystaltine Ingot"
-				"- Phytogro"
 			]
 			id: "4F8C16BA9CFB3610"
 			subtitle: "Spout > Press > Press"

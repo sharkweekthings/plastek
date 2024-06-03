@@ -958,6 +958,16 @@ event.custom({
   "heatRequirement": "none" 
   }).id('create:mixing/construction_paste')
 
+// Green Powder
+event.custom({
+  "type": "create:mixing", "ingredients": [
+  {"item": "rootsclassic:verdant_sprig","count": 1},
+  {"item": "rootsclassic:verdant_sprig","count": 1},
+  {"fluidTag": "forge:experience","amount": 400}],
+  "results": [{"item": "rootsclassic:growth_powder", "count": 1}],
+  "heatRequirement": "heated" 
+  }).id('create:mixing/green_powder')
+
 // Unassembled PCB
   event.custom({
   "type": "create:filling","ingredients": [
