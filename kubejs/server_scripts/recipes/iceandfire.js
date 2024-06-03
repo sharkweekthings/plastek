@@ -156,6 +156,12 @@ ServerEvents.recipes(event => {
     2: '#minecraft:trapdoors',
     3: 'occultism:spirit_attuned_gem'}).id('iceandfire:jar_empty')
 
+// Troll Tusk > Bone Meal
+event.smelting('2x minecraft:bone_meal', 'iceandfire:troll_tusk').id('iceandfire:troll_tusk_bonemeal')
+
+// Mob Skulls> Bone Meal
+event.smelting('4x minecraft:bone_meal', '#iceandfire:mob_skulls').id('iceandfire:skull_to_bone_meal')
+
 //    
 })
 //

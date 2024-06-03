@@ -338,7 +338,7 @@
 			id: "5F9650322884CAF2"
 			tasks: [
 				{
-					count: 7L
+					count: 6L
 					id: "51268A40044BB088"
 					item: "compressium:andesite_1"
 					type: "item"
@@ -1008,6 +1008,7 @@
 				}
 			]
 			shape: "gear"
+			subtitle: "Am I though?"
 			tasks: [{
 				id: "4114101298685855"
 				item: "emendatusenigmatica:silver_ingot"
