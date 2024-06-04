@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "mob_grinding_utils:solid_xp_mould_baby"
+  },
+  "cooling_time": 2400,
+  "fluid": {
+    "amount": 1000,
+    "fluidTag": "forge:experience"
+  },
+  "result": "mob_grinding_utils:solid_xp_baby"
+}

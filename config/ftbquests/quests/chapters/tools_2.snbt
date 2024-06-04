@@ -843,6 +843,26 @@
 			x: 4.5d
 			y: -0.5d
 		}
+		{
+			description: ["In order to get this working, you'll need to use the Mechanical Pump to push, pull, or both. "]
+			id: "0A6E2F6856C0A150"
+			subtitle: "If you put your ear up to it, you can hear the ocean."
+			tasks: [
+				{
+					id: "0FEC5704835FF9FB"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "7D36A02723DF21DE"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Fluid Pipe and Pump"
+			x: -2.5d
+			y: -6.5d
+		}
 	]
 	title: "Utility"
 }

@@ -1353,6 +1353,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["0389E2EBE3F0EE4C"]
 			id: "00655743E0DF1CC7"
 			shape: "circle"
 			tasks: [{
@@ -1360,8 +1361,27 @@
 				item: "iceandfire:summoning_crystal_ice"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -7.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			description: [
+				"You'll need a Mechanical Crafter setup when you get to a later age. So why not make it now? "
+				""
+				"With a Crushing Wheel setup you can crush up different items into resources. "
+				""
+				"If you crush up &bOre&r items you have a chance at getting a &aNugget of Experience&r, which you can melt down once you get some &6Blazing Blood&r as a fuel source for your Smeltery."
+			]
+			id: "1CDA1E6798031CEF"
+			shape: "circle"
+			tasks: [{
+				id: "42F0949EFAAE5ADC"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Utility"

@@ -84,6 +84,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'sophisticatedbackpacks:blasting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:auto_blasting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:upgrade_base'})
+  event.remove({id: 'sophisticatedbackpacks:pump_upgrade'})
+  event.remove({id: 'sophisticatedbackpacks:tank_upgrade'})
+  event.remove({id: 'sophisticatedbackpacks:advanced_pump_upgrade'})
   event.remove({id: 'storagenetwork:inventory'})
   event.remove({id: 'storagenetwork:exchange'})
   event.remove({id: 'storagenetwork:collector'})
@@ -1305,7 +1308,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     4: 'minecraft:bone_meal'}).id('farmersdelight:organic_compost_from_rotten_flesh')
 
 // Meta Pet
-  event.custom({
+  event.custom({  
   "result": {
     "item": "inventorypets:pet_meta"
   },
@@ -1393,6 +1396,14 @@ event.replaceInput({}, 'minecraft:flower_pot', 'botanypots:terracotta_botany_pot
 
 // Coal Nug to Coal
   event.shapeless(Item.of('minecraft:coal'), ['inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal']).id('inventorypets:nugget_to_coal')
+
+ event.replaceInput('*', Fluid.of('minecraft:water'), Fluid.of('minecraft:lava'))
+
+ event.replaceInput(
+                      { input: 'mob_grinding_utils:fluid_xp' }, // Arg 1: the filter
+                      'mob_grinding_utils:fluid_xp',            // Arg 2: the item to replace
+                      'pneumaticcraft:memory_essence'         // Arg 3: the item to replace it with
+                    )
 
 //    
 })

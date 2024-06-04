@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'create:crafting/kinetics/wrench'})
   event.remove({id: 'create:crafting/kinetics/fluid_tank'})
   event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
-  event.remove({id: 'create:crafting/kinetics/fluid_pipe'})
+  // event.remove({id: 'create:crafting/kinetics/fluid_pipe'})
   event.remove({id: 'create:crafting/kinetics/steam_engine'})
   event.remove({id: 'create:crafting/kinetics/mechanical_pump'})
   event.remove({id: 'create:mixing/brass_ingot'})
@@ -344,9 +344,9 @@ ServerEvents.recipes(event => {
 
 // Fluid Pipe
   event.shaped('2x create:fluid_pipe', 
-    ['   ','121','   '], {
-    1: 'emendatusenigmatica:brass_plate', 
-    2: 'minecraft:copper_ingot'}).id('create:crafts/fluid_pipe')
+    ['121','   ','121'], {
+    1: 'emendatusenigmatica:bronze_plate', 
+    2: 'minecraft:copper_ingot'}).id('create:crafting/kinetics/fluid_pipe')
 
 // Steam Engine
   event.shaped('create:steam_engine', 
@@ -357,10 +357,10 @@ ServerEvents.recipes(event => {
 
 // Mechanical Pump
   event.shaped('create:mechanical_pump', 
-    [' 2 ','131',' 2 '], {
-    1: 'emendatusenigmatica:brass_plate', 
-    2: 'create:cogwheel',
-    3: 'create:fluid_pipe'}).id('create:crafts/mechanical_pump')
+    ['   ','121',' 3 '], {
+    1: 'emendatusenigmatica:bronze_plate', 
+    2: 'emendatusenigmatica:iron_gear',
+    3: 'create:fluid_pipe'}).id('create:crafting/kinetics/mechanical_pump')
 
 // Empty Blaze Burner
   event.shaped('create:empty_blaze_burner', 

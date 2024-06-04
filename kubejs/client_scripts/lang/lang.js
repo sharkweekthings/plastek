@@ -92,6 +92,17 @@ ClientEvents.lang('en_us', event => {
   	rename('farmersdelight:tomato', "Roma Tomato")
 
 
+// ItemEvents.tooltip(tooltip => {
+// e.add(["thermal:fluid_reservoir"], Text.green("WARNING: Do NOT Add Fluid XP to this item. You won't be able to get the fluid out, and you'll need to make a new Fluid Reservor."))
+// })
+
+ItemEvents.tooltip(tooltip => {
+  tooltip.add([
+      'thermal:fluid_reservoir', 
+  ], Text.gray('WARNING: Do NOT Add Fluid XP to this item'))
+})
+
+
 //   Ingredient.of(/mekanism:.*crystals/).stacks.forEach(item => rename(item, "Test Rename"))
 // materials_add.forEach((material) => {
 //   Ingredient.of(`#mekanism:${material}_crystal`).stacks.forEach(item => rename(item, '${material}_Fragment'))

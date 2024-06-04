@@ -883,6 +883,7 @@
 		}
 		{
 			dependencies: ["769D6C69637F65E2"]
+			description: ["You can also make Jelly Babies in the Smelter but it takes quite a bit longer, and there are no speed upgrades."]
 			id: "320F53EFCF24A76B"
 			tasks: [
 				{

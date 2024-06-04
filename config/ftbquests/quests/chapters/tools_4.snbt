@@ -982,6 +982,30 @@
 			x: -1.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["317B3D9FEBAB32C5"]
+			id: "2EEECE1550B3DB96"
+			shape: "circle"
+			tasks: [{
+				id: "006FB8E311A87731"
+				item: "iceandfire:summoning_crystal_fire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40506A1CC2073B43"]
+			id: "405D31FF546F2698"
+			shape: "circle"
+			tasks: [{
+				id: "133722BAE4FD2A8C"
+				item: "iceandfire:summoning_crystal_lightning"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
 	]
 	title: "Utility"
 }

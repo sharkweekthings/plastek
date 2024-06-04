@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:experience_nugget"
+  },
+  "result": {
+    "amount": 75,
+    "fluid": "mob_grinding_utils:fluid_xp"
+  },
+  "temperature": 1500,
+  "time": 32
+}
