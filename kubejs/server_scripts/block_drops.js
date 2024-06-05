@@ -185,9 +185,9 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('thermal:oil_red_sand', 'thermal:bitumen', {min:1,max:2})
 	oreLoot('thermal:oil_sand', 'thermal:bitumen', {min:1,max:2})
 	oreLoot('minecraft:deepslate_coal_ore', 'minecraft:coal', {min:2,max:4})
-	oreLoot('minecraft:deepslate_copper_ore', 'emendatusenigmatica:copper_crystal', {min:2,max:4})
+	oreLoot('minecraft:deepslate_copper_ore', 'emendatusenigmatica:copper_crystal', {min:2,max:8})
 	oreLoot('powah:deepslate_uraninite_ore_poor', 'powah:uraninite_raw', {min:2,max:4})
-	oreLoot('minecraft:copper_ore', 'emendatusenigmatica:copper_crystal', {min:1,max:3})
+	oreLoot('minecraft:copper_ore', 'emendatusenigmatica:copper_crystal', {min:1,max:5})
 	oreLoot('create:deepslate_zinc_ore', 'emendatusenigmatica:zinc_crystal', {min:2,max:4})
 	oreLoot('thermal:deepslate_tin_ore', 'emendatusenigmatica:tin_crystal', {min:2,max:4})
 	oreLoot('silentgear:bort_ore', 'silentgear:bort', {min:1,max:2})
@@ -203,6 +203,7 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('minecraft:iron_ore', 'emendatusenigmatica:iron_crystal', {min:3,max:6})
 	oreLoot('powah:uraninite_ore_poor', 'powah:uraninite_raw', {min:1,max:2})
 	oreLoot('thermal:deepslate_silver_ore', 'emendatusenigmatica:silver_crystal', {min:3,max:6})
+	oreLoot('ad_astra:glacio_copper_ore', 'minecraft:raw_copper', {min:1,max:3})
 
 // Nether
 	oreLoot('mysticalagriculture:soulium_ore', 'mysticalagriculture:soulium_dust', {min:1,max:2})

@@ -38,6 +38,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'industrialforegoing:gold_gear'})
   event.remove({id: 'industrialforegoing:diamond_gear'})
   event.remove({id: 'industrialforegoing:dissolution_chamber/pink_slime_ball'})
+  event.remove({id: 'industrialforegoing:sewage_composter'})
 
 //
 })
@@ -382,6 +383,14 @@ ServerEvents.recipes(event => {
         "nbt": {"EntityTag": {
         "type": "productivebees:plastic"}}},
 "results":[{"base_ingredient":{"item":"industrialforegoing:plastic"},"count":1}],"time":100}).id('industrialforegoing:plastic_2')
+
+
+
+// Replace Flower Pot w/ Botany Pot
+event.replaceInput({}, 'industrialforegoing:fertilizer', 'immersiveengineering:fertilizer')
+
+// Replace Flower Pot w/ Botany Pot
+event.replaceOutput({}, 'industrialforegoing:fertilizer', 'immersiveengineering:fertilizer')
 
 //    
 })

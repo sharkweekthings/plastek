@@ -786,6 +786,9 @@ event.add('kubejs:age_1_exception',
 
 event.add('kubejs:age_2_item', 
   [
+  'create:super_glue',
+  'create:mechanical_pump',
+  'create:fluid_pipe',
   'twilightforest:knightmetal_leggings',
   'minecraft:diamond_helmet',
   'minecraft:diamond_chestplate',
@@ -1355,6 +1358,9 @@ event.add('kubejs:age_3_item',
 
 event.add('kubejs:age_3_exception', 
   [
+  'create:super_glue',
+  'create:mechanical_pump',
+  'create:fluid_pipe',
   'create:spout',
   'botania:record_gaia_1',
   'botania:record_gaia_2',

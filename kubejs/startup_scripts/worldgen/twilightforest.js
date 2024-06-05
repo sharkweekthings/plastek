@@ -91,6 +91,20 @@ WorldgenEvents.add(event => {
     ore.size = 7
   })
 
+  // Rich Copper
+  event.addOre(ore => {
+    ore.id = 'kubejs:rich_copper_ore_gen_bz'
+    ore.biomes = '#kubejs:twilightforest_gen_1'
+    ore.addTarget('minecraft:stone', 'ad_astra:glacio_copper_ore')
+    ore.count([4, 12])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(-16),
+        anchors.absolute(14)
+      )
+    ore.size = 6
+  })
+
 //  
 })
 //

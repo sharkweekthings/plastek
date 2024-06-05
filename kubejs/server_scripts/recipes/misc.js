@@ -186,6 +186,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pamhc2foodcore:doughitem_x2'})
   event.remove({id: 'powah:crafting/dielectric_paste_2'})
   event.remove({id: 'farmersdelight:organic_compost_from_tree_bark'})
+  event.remove({id: 'minecraft:pumpkin_pie'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
@@ -1122,6 +1123,12 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     ['   ','121','   '], {
     1: 'prettypipes:pipe',
     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
+    
+// Pretty Pipes Pipe
+  event.shaped('2x prettypipes:pipe', 
+    ['   ','212','   '], {
+    1: 'create:fluid_pipe',
+    2: 'minecraft:iron_bars',}).id('prettypipes:pipe')
 
 // Corrupted Blade
   event.shaped('endermanoverhaul:corrupted_blade',
@@ -1301,11 +1308,12 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 
 // Organic Compost
   event.shaped('farmersdelight:organic_compost',
-    ['122','334','444'], {
+    ['122','335','444'], {
     1: 'minecraft:farmland',
     2: 'minecraft:rotten_flesh',
     3: 'farmersdelight:straw',
-    4: 'minecraft:bone_meal'}).id('farmersdelight:organic_compost_from_rotten_flesh')
+    4: 'minecraft:bone_meal',
+    5: 'rootsclassic:growth_powder'}).id('farmersdelight:organic_compost_from_rotten_flesh')
 
 // Meta Pet
   event.custom({  

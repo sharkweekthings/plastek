@@ -537,7 +537,7 @@ event.custom({
           "item": "create:electron_tube"
         },
         {
-          "item": "pneumaticcraft:gasoline_bucket"
+          "item": "sliceanddice:fertilizer_bucket"
         },
         {
           "item": "pneumaticcraft:plastic_bucket"
@@ -545,24 +545,6 @@ event.custom({
           "pressure": 3, 
           "results": [{"item": "pneumaticcraft:etching_acid_bucket"}]
   }).id('pneumaticcraft:pressure_chamber/etching_acid')
-
-  // // Growth Powder
-  // event.custom({
-  //   "type": "pneumaticcraft:pressure_chamber", 
-  //     "inputs": [
-  //       {
-  //         "type": "pneumaticcraft:stacked_item",
-  //         "count": 2,
-  //         "item": "rootsclassic:verdant_sprig"
-  //       },
-  //       {
-  //         "type": "pneumaticcraft:stacked_item",
-  //         "count": 2,
-  //         "tag": "forge:seeds"
-  //       },],
-  //         "pressure": 2.5, 
-  //         "results": [{"item": "rootsclassic:growth_powder"}]
-  // }).id('rootsclassic:growth_powder_pc')
 
   // HDPE Sheet
   event.custom({

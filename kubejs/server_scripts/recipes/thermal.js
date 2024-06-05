@@ -83,6 +83,12 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:phytogro_8'})
   event.remove({id: 'thermal:phytogro_2'})
   event.remove({id: 'thermal:phytogro_4'})
+  event.remove({id: 'thermal:earth_charge/emerald_dust_from_emerald'})
+  event.remove({id: 'thermal:earth_charge/niter_dust_from_niter'})
+  event.remove({id: 'thermal:earth_charge/lapis_dust_from_lapis'})
+  event.remove({id: 'thermal:earth_charge/sulfur_dust_from_sulfur'})
+  event.remove({id: 'thermal:earth_charge/apatite_dust_from_apatite'})
+  event.remove({id: 'thermal:earth_charge/diamond_dust_from_diamond'})
 //
 })
 //

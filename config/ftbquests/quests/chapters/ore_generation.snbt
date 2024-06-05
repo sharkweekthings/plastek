@@ -12,16 +12,16 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 78"
-				"Y - 202"
+				"Y: 78"
+				"Y: 202"
 				"&6or&r"
-				"Y - -6"
-				"Y - 64"
+				"Y: -6"
+				"Y: 64"
 				""
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 54"
-				"Y - 98"
+				"Y: 54"
+				"Y: 98"
 			]
 			id: "4470DD294597AB80"
 			shape: "circle"
@@ -38,11 +38,11 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 78"
-				"Y - 208"
+				"Y: 78"
+				"Y: 208"
 				"&6or&r"
-				"Y - 20"
-				"Y - 86"
+				"Y: 20"
+				"Y: 86"
 			]
 			id: "259204EC919B7ED0"
 			shape: "circle"
@@ -59,16 +59,16 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 74"
-				"Y - 216"
+				"Y: 74"
+				"Y: 216"
 				"&6or&r"
-				"Y - -4"
-				"Y - 48"
+				"Y: -4"
+				"Y: 48"
 				""
 				"&a&nTWILIGHT FOREST&r&r"
 				""
-				"Y - -26"
-				"Y - -8"
+				"Y: -26"
+				"Y: -8"
 			]
 			id: "5CE8438348289DE0"
 			shape: "circle"
@@ -85,18 +85,18 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 124"
-				"Y - 222"
+				"Y: 124"
+				"Y: 222"
 				""
 				"&n&7MOON&r&r"
 				""
-				"Y - -38"
-				"Y - 32"
+				"Y: -38"
+				"Y: 32"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - 124"
-				"Y - 222"
+				"Y: 124"
+				"Y: 222"
 			]
 			id: "2BF530E63305976A"
 			shape: "circle"
@@ -113,31 +113,31 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 116"
-				"Y - 214"
+				"Y: 116"
+				"Y: 214"
 				"&6or&r"
-				"Y - -64"
-				"Y - -36"
+				"Y: -64"
+				"Y: -36"
 				""
 				"&n&eBUMBLEZONE&r&r"
 				""
-				"Y - 108"
-				"Y - 168"
+				"Y: 108"
+				"Y: 168"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - 116"
-				"Y - 214"
+				"Y: 116"
+				"Y: 214"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -34"
-				"Y - 72"
+				"Y: -34"
+				"Y: 72"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -64"
-				"Y - -38"
+				"Y: -64"
+				"Y: -38"
 			]
 			id: "06FCA26ED4AAB384"
 			shape: "circle"
@@ -154,33 +154,33 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 8"
-				"Y - 216"
+				"Y: 8"
+				"Y: 216"
 				""
 				"&a&nTWILIGHT FOREST&r&r"
 				""
-				"Y - -18"
-				"Y - 12"
+				"Y: -18"
+				"Y: 12"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - 132"
+				"Y: -64"
+				"Y: 132"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - 8"
-				"Y - 216"
+				"Y: 8"
+				"Y: 216"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -5"
-				"Y - 90"
+				"Y: -5"
+				"Y: 90"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - 90"
-				"Y - 120"
+				"Y: 90"
+				"Y: 120"
 			]
 			id: "23A9B9C6B3AFAE8F"
 			shape: "circle"
@@ -197,8 +197,8 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 6"
-				"Y - 34"
+				"Y: 6"
+				"Y: 34"
 			]
 			id: "1473E984A28CE556"
 			shape: "circle"
@@ -215,18 +215,18 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -18"
-				"Y - 16"
+				"Y: -18"
+				"Y: 16"
 				""
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 174 "
-				"Y - 198"
+				"Y: 174 "
+				"Y: 198"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - 14"
-				"Y - 106"
+				"Y: 14"
+				"Y: 106"
 			]
 			id: "1D884D9ABF454036"
 			shape: "circle"
@@ -243,21 +243,21 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 78"
-				"Y - 206"
+				"Y: 78"
+				"Y: 206"
 				"&6or&r"
-				"Y - 10"
-				"Y - 68"
+				"Y: 10"
+				"Y: 68"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - 12"
-				"Y - 116"
+				"Y: 12"
+				"Y: 116"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - 0"
-				"Y - 90"
+				"Y: 0"
+				"Y: 90"
 			]
 			id: "26F0DFB78F894FFC"
 			shape: "circle"
@@ -274,13 +274,13 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 44"
-				"Y - 78"
+				"Y: 44"
+				"Y: 78"
 				""
 				"&n&7MOON&r&r"
 				""
-				"Y - -30"
-				"Y - 88"
+				"Y: -30"
+				"Y: 88"
 			]
 			id: "484D0A2254811B25"
 			shape: "circle"
@@ -297,8 +297,8 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -40"
-				"Y - -8"
+				"Y: -40"
+				"Y: -8"
 			]
 			id: "7F1623A5D918F530"
 			shape: "circle"
@@ -315,8 +315,8 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 52"
-				"Y - 92"
+				"Y: 52"
+				"Y: 92"
 			]
 			id: "1402CF0077BA1DDD"
 			shape: "circle"
@@ -333,8 +333,8 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - 52"
-				"Y - 92"
+				"Y: 52"
+				"Y: 92"
 			]
 			id: "654CB6CF63488D17"
 			shape: "circle"
@@ -351,21 +351,21 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - -6"
+				"Y: -64"
+				"Y: -6"
 				""
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 228"
-				"Y - 246"
+				"Y: 228"
+				"Y: 246"
 				"&6or&r"
-				"Y - 6"
-				"Y - 82"
+				"Y: 6"
+				"Y: 82"
 				""
 				"&c&nNETHER&r&r"
 				""
-				"Y - 6"
-				"Y - 22"
+				"Y: 6"
+				"Y: 22"
 			]
 			id: "0A04AEED0A0D0D7C"
 			shape: "circle"
@@ -382,28 +382,28 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - -2"
+				"Y: -64"
+				"Y: -2"
 				""
 				"&c&nNETHER&r&r"
 				""
-				"Y - 166"
-				"Y - 182"
+				"Y: 166"
+				"Y: 182"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - -28"
+				"Y: -64"
+				"Y: -28"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - 0"
+				"Y: -64"
+				"Y: 0"
 				""
 				"&2&nVENUS&r&r"
 				""
-				"Y - -48"
-				"Y - -8"
+				"Y: -48"
+				"Y: -8"
 			]
 			id: "72FE86D62A0BBE0B"
 			shape: "circle"
@@ -420,8 +420,8 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - 26"
+				"Y: -64"
+				"Y: 26"
 			]
 			id: "3EBC33B4048F7436"
 			shape: "circle"
@@ -438,8 +438,8 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -34"
-				"Y - 6"
+				"Y: -34"
+				"Y: 6"
 			]
 			id: "02CAFCCA94F5950F"
 			shape: "circle"
@@ -456,18 +456,18 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - -42"
+				"Y: -64"
+				"Y: -42"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - 36"
-				"Y - 124"
+				"Y: 36"
+				"Y: 124"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -12"
-				"Y - 94"
+				"Y: -12"
+				"Y: 94"
 			]
 			id: "2CA5E27A65108A6B"
 			shape: "circle"
@@ -484,13 +484,13 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - -40"
+				"Y: -64"
+				"Y: -40"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - -42"
+				"Y: -64"
+				"Y: -42"
 			]
 			id: "716039B9379A6E3C"
 			shape: "circle"
@@ -507,13 +507,13 @@
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - -38"
+				"Y: -64"
+				"Y: -38"
 				""
 				"&n&7MOON&r&r"
 				""
-				"Y - -64"
-				"Y - -28"
+				"Y: -64"
+				"Y: -28"
 			]
 			id: "58F20D0D7FF042A3"
 			shape: "circle"
@@ -530,14 +530,14 @@
 			description: [
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 218"
-				"Y - 248"
+				"Y: 218"
+				"Y: 248"
 				"&6or&r"
-				"Y - 88"
-				"Y - 118"
+				"Y: 88"
+				"Y: 118"
 				"&6or&r"
-				"Y - 28"
-				"Y - 46"
+				"Y: 28"
+				"Y: 46"
 			]
 			id: "7CA3440FF9925B03"
 			shape: "circle"
@@ -554,21 +554,21 @@
 			description: [
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 182"
-				"Y - 224"
+				"Y: 182"
+				"Y: 224"
 				"&6or&r"
-				"Y - 0"
-				"Y - 32"
+				"Y: 0"
+				"Y: 32"
 				""
 				"&a&nTWILIGHT FOREST&r&r"
 				""
-				"Y - -28"
-				"Y - -18"
+				"Y: -28"
+				"Y: -18"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - -34"
+				"Y: -64"
+				"Y: -34"
 			]
 			id: "1A4504B8A7F0FE0A"
 			shape: "circle"
@@ -585,18 +585,18 @@
 			description: [
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 56"
-				"Y - 138"
+				"Y: 56"
+				"Y: 138"
 				""
 				"&c&nNETHER&r&r"
 				""
-				"Y - 32"
-				"Y - 186"
+				"Y: 32"
+				"Y: 186"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -12"
-				"Y - 30"
+				"Y: -12"
+				"Y: 30"
 			]
 			id: "0C9D0FB2176E9212"
 			shape: "circle"
@@ -613,28 +613,28 @@
 			description: [
 				"&e&nBUMBLEZONE&r&r"
 				""
-				"Y - 8"
-				"Y - 20"
+				"Y: 8"
+				"Y: 20"
 				""
 				"&n&7MOON&r&r"
 				""
-				"Y - -28"
-				"Y - 80"
+				"Y: -28"
+				"Y: 80"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - 32"
-				"Y - 64"
+				"Y: 32"
+				"Y: 64"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - 76"
-				"Y - 98"
+				"Y: 76"
+				"Y: 98"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - 0"
-				"Y - 90"
+				"Y: 0"
+				"Y: 90"
 			]
 			id: "0B2A963C448449AE"
 			shape: "circle"
@@ -651,23 +651,23 @@
 			description: [
 				"&a&nTWILIGHT FOREST&r&r"
 				""
-				"Y - -25"
-				"Y - 16"
+				"Y: -25"
+				"Y: 16"
 				""
 				"&n&7MOON&r&r"
 				""
-				"Y - -64"
-				"Y - -42"
+				"Y: -64"
+				"Y: -42"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - 64"
-				"Y - 112"
+				"Y: 64"
+				"Y: 112"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - 0"
-				"Y - 90"
+				"Y: 0"
+				"Y: 90"
 			]
 			id: "75A6090A4B73B8ED"
 			shape: "circle"
@@ -684,18 +684,18 @@
 			description: [
 				"&a&nTWILIGHT FOREST&r&r"
 				""
-				"Y - -20"
-				"Y - 8"
+				"Y: -20"
+				"Y: 8"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -4"
-				"Y - 22"
+				"Y: -4"
+				"Y: 22"
 				""
 				"&2&nVENUS&r&r"
 				""
-				"Y - 54"
-				"Y - 88"
+				"Y: 54"
+				"Y: 88"
 			]
 			id: "06328B4BF4D9653F"
 			shape: "circle"
@@ -712,13 +712,13 @@
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 172"
-				"Y - 186"
+				"Y: 172"
+				"Y: 186"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - 28"
-				"Y - 56"
+				"Y: 28"
+				"Y: 56"
 			]
 			id: "696D6C126C39AB01"
 			shape: "circle"
@@ -735,36 +735,36 @@
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 142"
-				"Y - 185"
+				"Y: 142"
+				"Y: 185"
 				"&6or&r"
-				"Y - 4"
-				"Y - 38"
+				"Y: 4"
+				"Y: 38"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - 46"
-				"Y - 74"
+				"Y: 46"
+				"Y: 74"
 				""
 				"&2&nVENUS&r&r"
 				""
-				"Y - -52"
-				"Y - 20"
+				"Y: -52"
+				"Y: 20"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - 64"
-				"Y - 82"
+				"Y: 64"
+				"Y: 82"
 				""
 				"&d&nEND&r&r"
 				""
-				"Y - 14"
-				"Y - 22"
+				"Y: 14"
+				"Y: 22"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -64"
-				"Y - -48"
+				"Y: -64"
+				"Y: -48"
 			]
 			id: "6A1B38688BBAC0BA"
 			shape: "circle"
@@ -781,18 +781,18 @@
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 18"
-				"Y - 168"
+				"Y: 18"
+				"Y: 168"
 				""
 				"&d&nEND&r&r"
 				""
-				"Y - 16"
-				"Y - 74"
+				"Y: 16"
+				"Y: 74"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -20"
-				"Y - 4"
+				"Y: -20"
+				"Y: 4"
 			]
 			id: "7711451A2FA9868B"
 			shape: "circle"
@@ -809,8 +809,8 @@
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 18"
-				"Y - 154"
+				"Y: 18"
+				"Y: 154"
 			]
 			id: "6D6D63EAB777C1B4"
 			shape: "circle"
@@ -820,15 +820,15 @@
 				type: "item"
 			}]
 			title: "Crimson Iron Ore"
-			x: -3.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 18"
-				"Y - 154"
+				"Y: 18"
+				"Y: 154"
 			]
 			id: "50848DD7B241885C"
 			shape: "circle"
@@ -838,20 +838,20 @@
 				type: "item"
 			}]
 			title: "Solar Metal Ore"
-			x: 0.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 4"
-				"Y - 184"
+				"Y: 4"
+				"Y: 184"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -56"
-				"Y - -44"
+				"Y: -56"
+				"Y: -44"
 			]
 			id: "709C609B53D3ED6F"
 			shape: "circle"
@@ -868,13 +868,13 @@
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 6"
-				"Y - 56"
+				"Y: 6"
+				"Y: 56"
 				""
 				"&n&0OTHERSIDE&r&r"
 				""
-				"Y - 16"
-				"Y - 48"
+				"Y: 16"
+				"Y: 48"
 			]
 			id: "2AD9AA8371D13265"
 			shape: "circle"
@@ -884,15 +884,15 @@
 				type: "item"
 			}]
 			title: "Ancient Debris"
-			x: -6.5d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 8"
-				"Y - 184"
+				"Y: 8"
+				"Y: 184"
 			]
 			id: "0218AFAD702849AA"
 			shape: "circle"
@@ -909,8 +909,8 @@
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 4"
-				"Y - 78"
+				"Y: 4"
+				"Y: 78"
 			]
 			id: "719BCC0DCE67DA9F"
 			shape: "circle"
@@ -920,25 +920,25 @@
 				type: "item"
 			}]
 			title: "Iesnium Ore"
-			x: -1.5d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 10"
-				"Y - 28"
+				"Y: 10"
+				"Y: 28"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - 32"
+				"Y: -64"
+				"Y: 32"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - 0"
+				"Y: -64"
+				"Y: 0"
 			]
 			id: "14C6CEA058A00C35"
 			shape: "circle"
@@ -955,8 +955,8 @@
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - 52"
-				"Y - 76"
+				"Y: 52"
+				"Y: 76"
 			]
 			id: "79F94D07846167A4"
 			shape: "circle"
@@ -973,18 +973,18 @@
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - 34"
-				"Y - 82"
+				"Y: 34"
+				"Y: 82"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - 28"
+				"Y: -64"
+				"Y: 28"
 				""
 				"&2&nVENUS&r&r"
 				""
-				"Y - -64"
-				"Y - -28"
+				"Y: -64"
+				"Y: -28"
 			]
 			id: "56954D5B299E6EB5"
 			shape: "circle"
@@ -994,25 +994,25 @@
 				type: "item"
 			}]
 			title: "Lead Ore"
-			x: -0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - -64"
-				"Y - 90"
+				"Y: -64"
+				"Y: 90"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - 132"
+				"Y: -64"
+				"Y: 132"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -64"
-				"Y - 90"
+				"Y: -64"
+				"Y: 90"
 			]
 			id: "1475DC1C03E2A9D6"
 			shape: "circle"
@@ -1029,8 +1029,8 @@
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - -36"
-				"Y - 82"
+				"Y: -36"
+				"Y: 82"
 			]
 			id: "6F7B82BCB8736C63"
 			shape: "circle"
@@ -1047,8 +1047,8 @@
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - -24"
-				"Y - 58"
+				"Y: -24"
+				"Y: 58"
 			]
 			id: "1B126A0003D7EAEC"
 			shape: "circle"
@@ -1065,8 +1065,8 @@
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - -64"
-				"Y - -32"
+				"Y: -64"
+				"Y: -32"
 			]
 			id: "55B2A001A62ECE55"
 			shape: "circle"
@@ -1083,16 +1083,16 @@
 			description: [
 				"&6&nMARS&r&r"
 				""
-				"Y - 32"
-				"Y - 138"
+				"Y: 32"
+				"Y: 138"
 				""
 				"&2&nVENUS&r&r"
 				""
-				"Y - 76"
-				"Y - 112"
+				"Y: 76"
+				"Y: 112"
 				"&6or&r"
-				"Y - -32"
-				"Y - -80"
+				"Y: -32"
+				"Y: -80"
 			]
 			id: "65A24CEA9480FE70"
 			shape: "circle"
@@ -1109,13 +1109,13 @@
 			description: [
 				"&6&nMARS&r&r"
 				""
-				"Y - -18"
-				"Y - 84"
+				"Y: -18"
+				"Y: 84"
 				""
 				"&d&nEND&r&r"
 				""
-				"Y - 12"
-				"Y - 68"
+				"Y: 12"
+				"Y: 68"
 			]
 			id: "17C3351D010F0EB0"
 			shape: "circle"
@@ -1132,8 +1132,8 @@
 			description: [
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - 28"
+				"Y: -64"
+				"Y: 28"
 			]
 			id: "2B8DDEDF22FD72A1"
 			shape: "circle"
@@ -1150,8 +1150,8 @@
 			description: [
 				"&6&nMARS&r&r"
 				""
-				"Y - 22"
-				"Y - 64"
+				"Y: 22"
+				"Y: 64"
 			]
 			id: "778DA154A41184D0"
 			shape: "circle"
@@ -1161,30 +1161,30 @@
 				type: "item"
 			}]
 			title: "Elementium Ore"
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&b&nOVERWORLD&r&r"
 				""
-				"Y - -64"
-				"Y - -40"
+				"Y: -64"
+				"Y: -40"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - 18"
-				"Y - 58"
+				"Y: 18"
+				"Y: 58"
 				""
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - -32"
+				"Y: -64"
+				"Y: -32"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -64"
-				"Y - -32"
+				"Y: -64"
+				"Y: -32"
 			]
 			id: "2F3A3457C9B3CFE2"
 			shape: "circle"
@@ -1201,8 +1201,8 @@
 			description: [
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - -16"
+				"Y: -64"
+				"Y: -16"
 			]
 			id: "77E730A6CC99B782"
 			shape: "circle"
@@ -1219,8 +1219,8 @@
 			description: [
 				"&6&nMARS&r&r"
 				""
-				"Y - -64"
-				"Y - -48"
+				"Y: -64"
+				"Y: -48"
 			]
 			id: "5D1BDA77E623BF14"
 			shape: "circle"
@@ -1237,8 +1237,8 @@
 			description: [
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -48"
-				"Y - 2"
+				"Y: -48"
+				"Y: 2"
 			]
 			id: "7B1EC471E52ACC9D"
 			shape: "circle"
@@ -1255,8 +1255,8 @@
 			description: [
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - 0"
+				"Y: -64"
+				"Y: 0"
 			]
 			id: "3DAAE93B4A97DF77"
 			shape: "circle"
@@ -1266,20 +1266,20 @@
 				type: "item"
 			}]
 			title: "Arc Metal Ore"
-			x: -5.5d
+			x: -5.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&a&nTWILIGHT FOREST&r&r"
 				""
-				"Y - -20"
-				"Y - -2"
+				"Y: -20"
+				"Y: -2"
 				""
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - 0"
+				"Y: -64"
+				"Y: 0"
 			]
 			id: "715439ED59A6C1C3"
 			shape: "circle"
@@ -1296,8 +1296,8 @@
 			description: [
 				"&9&nALFHEIM&r&r"
 				""
-				"Y - -64"
-				"Y - 0"
+				"Y: -64"
+				"Y: 0"
 			]
 			id: "0F007C3FB9F2D4E0"
 			shape: "circle"
@@ -1314,8 +1314,8 @@
 			description: [
 				"&d&nEND&r&r"
 				""
-				"Y - 8"
-				"Y - 54"
+				"Y: 8"
+				"Y: 54"
 			]
 			id: "6FDE66652C156746"
 			shape: "circle"
@@ -1325,25 +1325,25 @@
 				type: "item"
 			}]
 			title: "Azure Silver ore"
-			x: -4.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&n&0OTHERSIDE&r&r"
 				""
-				"Y - 2"
-				"Y - 38"
+				"Y: 2"
+				"Y: 38"
 				""
 				"&2&nVENUS&r&r"
 				""
-				"Y - -58"
-				"Y - -42"
+				"Y: -58"
+				"Y: -42"
 				""
 				"&d&nEND&r&r"
 				""
-				"Y - 12"
-				"Y - 68"
+				"Y: 12"
+				"Y: 68"
 			]
 			id: "4218E925F29DAD44"
 			shape: "circle"
@@ -1360,8 +1360,8 @@
 			description: [
 				"&d&nEND&r&r"
 				""
-				"Y - 14"
-				"Y - 72"
+				"Y: 14"
+				"Y: 72"
 			]
 			icon: "emendatusenigmatica:apatite_glacio_stone_ore"
 			id: "4E30F5AEAA342AFE"
@@ -1379,13 +1379,13 @@
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -64"
-				"Y - -26"
+				"Y: -64"
+				"Y: -26"
 				""
 				"&d&nEND&r&r"
 				""
-				"Y - 12"
-				"Y - 26"
+				"Y: 12"
+				"Y: 26"
 			]
 			id: "0816CD9151B48F13"
 			shape: "circle"
@@ -1402,13 +1402,13 @@
 			description: [
 				"&n&0OTHERSIDE&r&r"
 				""
-				"Y - 4"
-				"Y - 32"
+				"Y: 4"
+				"Y: 32"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -48"
-				"Y - -18"
+				"Y: -48"
+				"Y: -18"
 			]
 			id: "3A8A7396A0D6D0B2"
 			shape: "circle"
@@ -1425,13 +1425,13 @@
 			description: [
 				"&n&0OTHERSIDE&r&r"
 				""
-				"Y - 7"
-				"Y - 48"
+				"Y: 7"
+				"Y: 48"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -64"
-				"Y - -20"
+				"Y: -64"
+				"Y: -20"
 			]
 			id: "2B75BF512194129E"
 			shape: "circle"
@@ -1448,21 +1448,21 @@
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - 88"
-				"Y - 124"
+				"Y: 88"
+				"Y: 124"
 				"&6or&r"
-				"Y - -26"
-				"Y - 74"
+				"Y: -26"
+				"Y: 74"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - 50"
-				"Y - 130"
+				"Y: 50"
+				"Y: 130"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - 90"
-				"Y - 120"
+				"Y: 90"
+				"Y: 120"
 			]
 			id: "73B8D9BF9C5F77FD"
 			shape: "circle"
@@ -1479,8 +1479,8 @@
 			description: [
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -32"
-				"Y - 42"
+				"Y: -32"
+				"Y: 42"
 			]
 			id: "49D1EB441D4DE9DA"
 			shape: "circle"
@@ -1490,25 +1490,25 @@
 				type: "item"
 			}]
 			title: "Weekonium Ore"
-			x: 3.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -22"
-				"Y - -62"
+				"Y: -22"
+				"Y: -62"
 				""
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -60"
-				"Y - -44"
+				"Y: -60"
+				"Y: -44"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -20"
-				"Y - 8"
+				"Y: -20"
+				"Y: 8"
 			]
 			id: "3DFFDF4A7ADF5644"
 			shape: "circle"
@@ -1525,8 +1525,8 @@
 			description: [
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -64"
-				"Y - -26"
+				"Y: -64"
+				"Y: -26"
 			]
 			id: "4B0BAF237F58DA1E"
 			shape: "circle"
@@ -1543,8 +1543,8 @@
 			description: [
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -64"
-				"Y - -38"
+				"Y: -64"
+				"Y: -38"
 			]
 			id: "196CAC4F3AFF2438"
 			shape: "circle"
@@ -1561,8 +1561,8 @@
 			description: [
 				"&4&nMERCURY&r&r"
 				""
-				"Y - -36"
-				"Y - 42"
+				"Y: -36"
+				"Y: 42"
 			]
 			id: "72B769622CB227C9"
 			shape: "circle"
@@ -1579,8 +1579,8 @@
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -16"
-				"Y - 74"
+				"Y: -16"
+				"Y: 74"
 			]
 			id: "309C7D665777BB56"
 			shape: "circle"
@@ -1597,8 +1597,8 @@
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -12"
-				"Y - 44"
+				"Y: -12"
+				"Y: 44"
 			]
 			id: "66D996DD9D315AE6"
 			shape: "circle"
@@ -1615,8 +1615,8 @@
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -64"
-				"Y - -28"
+				"Y: -64"
+				"Y: -28"
 			]
 			id: "21643721BEF0E368"
 			shape: "circle"
@@ -1633,8 +1633,8 @@
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -60"
-				"Y - -28"
+				"Y: -60"
+				"Y: -28"
 			]
 			id: "7C1E08B3A251F476"
 			shape: "circle"
@@ -1644,20 +1644,20 @@
 				type: "item"
 			}]
 			title: "Venus Calorite Ore"
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&2&nVENUS&r&r"
 				""
-				"Y - -58"
-				"Y - -42"
+				"Y: -58"
+				"Y: -42"
 				""
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -50"
-				"Y - -22"
+				"Y: -50"
+				"Y: -22"
 			]
 			id: "3F79166DA323AFFD"
 			shape: "circle"
@@ -1672,8 +1672,8 @@
 		}
 		{
 			description: [
-				"Y - Lowest the ore can spawn"
-				"Y - Highest the ore can spawn"
+				"Y: Lowest the ore can spawn"
+				"Y: Highest the ore can spawn"
 			]
 			icon: "minecraft:book"
 			id: "1E1357370569E712"
@@ -1692,8 +1692,8 @@
 			description: [
 				"&n&7MOON&r&r"
 				""
-				"Y - -52"
-				"Y - 8"
+				"Y: -52"
+				"Y: 8"
 			]
 			icon: "immersiveengineering:deepslate_ore_aluminum"
 			id: "5E576B512C04ED47"
@@ -1711,8 +1711,8 @@
 			description: [
 				"&1&nGLACIO&r&r"
 				""
-				"Y - -28"
-				"Y - 8"
+				"Y: -28"
+				"Y: 8"
 			]
 			id: "140332130D133B75"
 			shape: "circle"
@@ -1728,8 +1728,8 @@
 			description: [
 				"&n&1GLACIO&r&r"
 				""
-				"Y - -42"
-				"Y - 6"
+				"Y: -42"
+				"Y: 6"
 			]
 			id: "59DB9ECF2D674009"
 			shape: "circle"
@@ -1738,15 +1738,15 @@
 				item: "emendatusenigmatica:sharkinite_deepslate_ore"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
 			description: [
 				"&c&nNETHER&r&r"
 				""
-				"Y - 1"
-				"Y - 189"
+				"Y: 1"
+				"Y: 189"
 			]
 			id: "584093A48E2B5EDE"
 			shape: "circle"
@@ -1757,6 +1757,23 @@
 			}]
 			x: 2.5d
 			y: -5.5d
+		}
+		{
+			description: [
+				"&a&nTWILIGHT FOREST&r&r"
+				""
+				"Y: -16"
+				"Y: 14"
+			]
+			id: "2224B354CF6D033C"
+			shape: "circle"
+			tasks: [{
+				id: "09C28DCB0121084D"
+				item: "ad_astra:glacio_copper_ore"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
 		}
 	]
 	title: "Ore Generation"

@@ -344,9 +344,8 @@ ServerEvents.recipes(event => {
 
 // Fluid Pipe
   event.shaped('2x create:fluid_pipe', 
-    ['121','   ','121'], {
-    1: 'emendatusenigmatica:bronze_plate', 
-    2: 'minecraft:copper_ingot'}).id('create:crafting/kinetics/fluid_pipe')
+    ['111','   ','111'], {
+    1: 'emendatusenigmatica:bronze_plate'}).id('create:crafting/kinetics/fluid_pipe')
 
 // Steam Engine
   event.shaped('create:steam_engine', 
@@ -1775,6 +1774,91 @@ event.custom({
     }
   ]
 }).id('create:crushing/deepslate_zinc_ore')
+
+// Nitrate Dust Colorless
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:sandstone/colorless"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "minecraft:sand",
+      "count": 2
+    },
+    {
+      "chance": 0.35,
+      "item": "immersiveengineering:dust_saltpeter"
+    }
+  ]
+}).id('create:crushing/nd_sandstone')
+
+// Nitrate Dust Red
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:sandstone/red"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "minecraft:red_sand",
+      "count": 2
+    },
+    {
+      "chance": 0.35,
+      "item": "immersiveengineering:dust_saltpeter"
+    }
+  ]
+}).id('create:crushing/nd_red_sandstone')
+
+// Nitrate Dust Red
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:sandstone/venus_sandstone"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "ad_astra:venus_sand",
+      "count": 2
+    },
+    {
+      "chance": 0.35,
+      "item": "immersiveengineering:dust_saltpeter"
+    }
+  ]
+}).id('create:crushing/nd_venus_sandstone')
+
+// Nitrate Dust Red
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:black_sandstone"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "biomesoplenty:black_sand",
+      "count": 2
+    },
+    {
+      "chance": 0.35,
+      "item": "immersiveengineering:dust_saltpeter"
+    }
+  ]
+}).id('create:crushing/nd_black_sandstone')
+
 
 //    
 })

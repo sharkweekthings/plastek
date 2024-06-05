@@ -408,7 +408,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["043ADB4D1CEE73C6"]
+			dependencies: [
+				"043ADB4D1CEE73C6"
+				"61AB74749A48B6AC"
+			]
 			description: [
 				"The Etching Acid recipe is going to be pretty annoying. "
 				""
@@ -1578,29 +1581,29 @@
 		{
 			dependencies: ["34B6EA6F438DBAED"]
 			id: "1F451EF299093BB6"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "25D286B0130AC0DE"
 				item: "immersiveengineering:fertilizer"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1F451EF299093BB6"]
 			description: ["Liquid Fertilizer can help speed up crop growth. Maybe try putting it in a Sprinkler over some crops?"]
 			id: "61AB74749A48B6AC"
-			shape: "circle"
+			shape: "square"
 			subtitle: "Make it rain"
 			tasks: [{
-				amount: 5000L
+				amount: 1000L
 				fluid: "sliceanddice:fertilizer"
 				id: "0B597EC7D3B28C67"
 				type: "fluid"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 5.5d
 		}
 	]
 	title: "Tech"

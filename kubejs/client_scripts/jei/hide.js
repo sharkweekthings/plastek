@@ -313,6 +313,8 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:conveyor_dropping_upgrade')
 	event.hide('industrialforegoing:conveyor_blinking_upgrade')
 	event.hide('industrialforegoing:conveyor_splitting_upgrade')
+	event.hide('industrialforegoing:sewage_composter')
+	event.hide('industrialforegoing:fertilizer')
 
 // BLOCKHEADS
 	event.hide('farmingforblockheads:feeding_trough')

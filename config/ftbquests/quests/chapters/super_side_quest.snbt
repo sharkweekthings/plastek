@@ -338,13 +338,13 @@
 			description: [
 				"The Sprinkler will let you pipe 4 different fluids to flow out on the blocks below it. "
 				""
-				"- Lava - Applies fire damage to the entities below"
+				"- Lava: Applies fire damage to the entities below"
 				""
-				"- Water - Keeps the area wet"
+				"- Water: Keeps the area wet"
 				""
-				"- Potions - Applies the potion affect to the entities below"
+				"- Potions: Applies the potion affect to the entities below"
 				""
-				"- Liquid Fertilizer - Applies a Bonemeal affect "
+				"- Liquid Fertilizer: Crops grow much faster"
 			]
 			id: "481E430051D7FED1"
 			shape: "circle"

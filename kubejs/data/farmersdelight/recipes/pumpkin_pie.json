@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "a": {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "create:dough"
+    }
+  },
+  "pattern": [
+    "#d#",
+    "aaa",
+    "xOx"
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_pie"
+  }
+}
