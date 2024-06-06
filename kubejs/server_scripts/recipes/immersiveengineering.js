@@ -77,6 +77,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'immersiveengineering:crafting/blastbrick_reinforced'})
   event.remove({id: 'immersiveengineering:metalpress/gear_steel'})
   event.remove({id: 'immersiveengineering:metalpress/gear_osmium'})
+  event.remove({id: 'immersivepetroleum:hydrotreater/propylene_plastic'})
+  event.remove({id: 'immersivepetroleum:hydrotreater/ethylene_plastic'})
 //
 })
 //
