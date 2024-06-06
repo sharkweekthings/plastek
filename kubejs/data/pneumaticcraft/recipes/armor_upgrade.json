@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "tag": "forge:gems/diamond"
+    },
+    "Z": {
+      "item": "productivebees:upgrade_base"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "XZX",
+    "LXL"
+  ],
+  "result": {
+    "item": "pneumaticcraft:armor_upgrade"
+  }
+}

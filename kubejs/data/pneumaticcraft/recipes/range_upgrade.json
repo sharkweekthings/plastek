@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:bow"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "tag": "minecraft:arrows"
+    },
+    "Z": {
+      "item": "productivebees:upgrade_base"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "XZX",
+    "LXL"
+  ],
+  "result": {
+    "item": "pneumaticcraft:range_upgrade"
+  }
+}

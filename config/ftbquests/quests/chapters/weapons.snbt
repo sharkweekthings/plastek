@@ -70,6 +70,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["141BB1A7D5C7030B"]
 			id: "50F8CEE3C872EF95"
 			shape: "circle"
 			tasks: [{
@@ -88,6 +89,7 @@
 		}
 		{
 			id: "33882CD630985676"
+			shape: "circle"
 			tasks: [{
 				id: "6541B84B31678D93"
 				item: {

@@ -844,7 +844,12 @@
 			y: -0.5d
 		}
 		{
-			description: ["In order to get this working, you'll need to use the Mechanical Pump to push, pull, or both. "]
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"In order to get this working, you'll need to use the Mechanical Pump to push, pull, or both. "
+				""
+				"&oDon't put your ear up to it. It might get stuck in the cogwheel&r"
+			]
 			id: "0A6E2F6856C0A150"
 			subtitle: "If you put your ear up to it, you can hear the ocean."
 			tasks: [

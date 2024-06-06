@@ -34,7 +34,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:thermo_plant/plastic_from_biodiesel'})
   event.remove({id: 'pneumaticcraft:heat_frame'})
   event.remove({id: 'pneumaticcraft:thermopneumatic_processing_plant'})
-  event.remove({id: 'pneumaticcraft:security_upgrade'})
   event.remove({id: 'pneumaticcraft:smart_chest'})
   event.remove({id: 'pneumaticcraft:pneumatic_dynamo'})
   event.remove({id: 'pneumaticcraft:assembly_platform'})
@@ -45,6 +44,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:assembly_controller'})
   event.remove({id: 'pneumaticcraft:bandage'})
   event.remove({id: 'pneumaticcraft:etching_tank'})
+  event.remove({id: 'pneumaticcraft:chunkloader_upgrade'})
 
 //
 })
@@ -118,13 +118,6 @@ ServerEvents.recipes(event => {
     3: 'pneumaticcraft:pressure_tube',
     4: 'emendatusenigmatica:iron_gear'}).id('pneumaticcraft:pressure_chamber_valve')
     
-// Security Upgrade
-  event.shaped('pneumaticcraft:security_upgrade', 
-    ['313','121','313'], {
-    1: '#pneumaticcraft:upgrade_components',
-    2: 'sophisticatedbackpacks:upgrade_base',
-    3: 'pneumaticcraft:pressure_tube'}).id('pneumaticcraft:security_upgrade')
-    
 // Thermopneumatic Processing Plant 
   event.shaped('pneumaticcraft:thermopneumatic_processing_plant', 
     ['414','232','414'], {
@@ -176,11 +169,19 @@ ServerEvents.recipes(event => {
     2: 'compressium:stone_1',
     3: 'immersiveengineering:concrete'}).id('pneumaticcraft:reinforced_stone')
     
-// PCB Blueprint
-  event.shaped('pneumaticcraft:pcb_blueprint', 
-    ['222','212','222'], {
-    1: 'pneumaticcraft:ingot_iron_compressed',
-    2: 'silentgear:blueprint_paper'}).id('pneumaticcraft:pcb_blueprint')
+// // PCB Blueprint
+//   event.shaped('pneumaticcraft:pcb_blueprint', 
+//     ['222','212','222'], {
+//     1: 'pneumaticcraft:ingot_iron_compressed',
+//     2: 'silentgear:blueprint_paper'}).id('pneumaticcraft:pcb_blueprint')
+
+// Spawner Agitator
+  event.shaped('pneumaticcraft:spawner_agitator', 
+    ['343','424','313'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'pneumaticcraft:heat_frame',
+    3: 'minecraft:fermented_spider_eye',
+    4: 'minecraft:blaze_rod'}).id('pneumaticcraft:spawner_agitator')
     
 // Finished PCB
   event.shaped('pneumaticcraft:printed_circuit_board', 

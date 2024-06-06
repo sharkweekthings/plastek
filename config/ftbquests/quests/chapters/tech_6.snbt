@@ -1396,22 +1396,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6A337CED7C4DE0ED"]
-			id: "0464A5D19D1AC159"
-			subtitle: "We had to use it somewhere!"
-			tasks: [{
-				count: 25L
-				id: "4D0F39CC3735299F"
-				item: "create:mechanical_crafter"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 5.0d
-		}
-		{
 			dependencies: [
 				"2BC345F3C5804940"
-				"0464A5D19D1AC159"
+				"4410DB0A1CC3F8E3"
 			]
 			description: [
 				"This item is one of two items where you will need the Mechanical Crafter to progress. "
@@ -1443,6 +1430,19 @@
 			}]
 			x: -6.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["6A337CED7C4DE0ED"]
+			description: [""]
+			id: "4410DB0A1CC3F8E3"
+			tasks: [{
+				count: 25L
+				id: "3A5EF42AA33EB8BA"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
 		}
 	]
 	title: "Tech"

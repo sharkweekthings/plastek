@@ -85,7 +85,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'sophisticatedbackpacks:auto_blasting_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:upgrade_base'})
   event.remove({id: 'sophisticatedbackpacks:pump_upgrade'})
-  event.remove({id: 'sophisticatedbackpacks:tank_upgrade'})
   event.remove({id: 'sophisticatedbackpacks:advanced_pump_upgrade'})
   event.remove({id: 'storagenetwork:inventory'})
   event.remove({id: 'storagenetwork:exchange'})
@@ -187,6 +186,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/dielectric_paste_2'})
   event.remove({id: 'farmersdelight:organic_compost_from_tree_bark'})
   event.remove({id: 'minecraft:pumpkin_pie'})
+  event.remove({id: 'prettypipes:pipe'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
@@ -1118,17 +1118,20 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     5: "prettypipes:high_extraction_module",
     6: "storagenetwork:master"}).id('prettypipes:item_terminal')
     
-// Pretty Pipes Fluid Pipe
-  event.shaped('ppfluids:fluid_pipe', 
-    ['   ','121','   '], {
-    1: 'prettypipes:pipe',
-    2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
+// // Pretty Pipes Fluid Pipe
+//   event.shaped('ppfluids:fluid_pipe', 
+//     ['   ','121','   '], {
+//     1: 'prettypipes:pipe',
+//     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
     
 // Pretty Pipes Pipe
-  event.shaped('2x prettypipes:pipe', 
+  event.shaped('2x ppfluids:fluid_pipe', 
     ['   ','212','   '], {
     1: 'create:fluid_pipe',
-    2: 'minecraft:iron_bars',}).id('prettypipes:pipe')
+    2: 'minecraft:iron_bars',}).id('ppfluids:fluid_pipe')
+
+// // Pretty Pipes Fluid Pipe To Pipe
+//   event.shapeless(Item.of('prettypipes:pipe'), ['ppfluids:fluid_pipe']).id('prettypipes:pipe')
 
 // Corrupted Blade
   event.shaped('endermanoverhaul:corrupted_blade',
@@ -1314,6 +1317,15 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     3: 'farmersdelight:straw',
     4: 'minecraft:bone_meal',
     5: 'rootsclassic:growth_powder'}).id('farmersdelight:organic_compost_from_rotten_flesh')
+
+// Pretty Pipes Blank Module
+  event.shaped('prettypipes:blank_module',
+    ['252','313','242'], {
+    1: 'productivebees:upgrade_base',
+    2: 'minecraft:quartz',
+    3: 'minecraft:redstone',
+    4: 'prettypipes:pipe',
+    5: 'ppfluids:fluid_pipe'}).id('prettypipes:blank_module')
 
 // Meta Pet
   event.custom({  

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    "Z": {
+      "item": "productivebees:upgrade_base"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "XZX",
+    "LXL"
+  ],
+  "result": {
+    "item": "pneumaticcraft:block_tracker_upgrade"
+  }
+}

@@ -274,6 +274,9 @@ JEIEvents.hideItems(event => {
 	event.hide('sophisticatedbackpacks:auto_smoking_upgrade')
 	event.hide('sophisticatedbackpacks:blasting_upgrade')
 	event.hide('sophisticatedbackpacks:auto_blasting_upgrade')
+	event.hide('sophisticatedbackpacks:pump_upgrade')
+	event.hide('sophisticatedbackpacks:advanced_pump_upgrade')
+
 
 // THERMAL
 	event.hide('thermal:dynamo_lapidary')
@@ -288,6 +291,7 @@ JEIEvents.hideItems(event => {
 	event.hide('thermal:netherite_gear')
 	event.hide('thermal:emerald_gear')
 	event.hide('thermal:quartz_gear')
+	event.hide('thermal:fluid_placer')
 
 // RF TOOLS
 	event.hide('rftoolsbase:machine_frame')
@@ -315,6 +319,7 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:conveyor_splitting_upgrade')
 	event.hide('industrialforegoing:sewage_composter')
 	event.hide('industrialforegoing:fertilizer')
+	event.hide('industrialforegoing:fluid_placer')
 
 // BLOCKHEADS
 	event.hide('farmingforblockheads:feeding_trough')

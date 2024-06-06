@@ -39,6 +39,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'industrialforegoing:diamond_gear'})
   event.remove({id: 'industrialforegoing:dissolution_chamber/pink_slime_ball'})
   event.remove({id: 'industrialforegoing:sewage_composter'})
+  event.remove({id: 'industrialforegoing:fluid_placer'})
 
 //
 })

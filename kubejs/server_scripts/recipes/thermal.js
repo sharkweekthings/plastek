@@ -89,6 +89,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'thermal:earth_charge/sulfur_dust_from_sulfur'})
   event.remove({id: 'thermal:earth_charge/apatite_dust_from_apatite'})
   event.remove({id: 'thermal:earth_charge/diamond_dust_from_diamond'})
+  event.remove({id: 'thermal:fluid_placer'})
 //
 })
 //

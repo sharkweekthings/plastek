@@ -8,6 +8,10 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
+		dependencies: [
+			"79705DCA6ADC0148"
+			"28699AB195F74472"
+		]
 		description: [
 			"This age, a simple remote to make your life a little easier for withdrawl and depositing. "
 			""

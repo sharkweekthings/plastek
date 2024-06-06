@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "Z": {
+      "item": "productivebees:upgrade_base"
+    },
+    "B": {
+      "item": "metalbarrels:iron_barrel"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "BZB",
+    "LCL"
+  ],
+  "result": {
+    "item": "pneumaticcraft:inventory_upgrade"
+  }
+}

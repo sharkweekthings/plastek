@@ -39,6 +39,16 @@
 				"Amadrone technology at it's best. "
 				""
 				"All Drones are ready to ship out your product in moments.  Just make your request, and wait for your items!"
+				""
+				"- Place an inventory (chest, barrel, tank, etc)"
+				""
+				"- Add some currency (Plastic or Emerald)"
+				""
+				"- Place your order"
+				""
+				"- Wait for One Day delivery (it's not really that long)"
+				""
+				"&oWith your new Amadron tablet, you can also become a seller on the marketplace. Playing on a server with other people? Sell some items to them through your Amadron!&r"
 			]
 			id: "68D6A04710DEFEA7"
 			shape: "square"
@@ -169,7 +179,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -294,7 +304,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -403,7 +413,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -428,7 +438,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -456,7 +466,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -489,92 +499,6 @@
 			}]
 			x: -0.5d
 			y: -6.0d
-		}
-		{
-			dependencies: ["481CC7DD0387169C"]
-			description: ["With Pretty Pipes: Fluids, you'll be able to transfer your fluids around much easier. "]
-			id: "402FFFD366D4B390"
-			shape: "circle"
-			subtitle: "It can do fluids too!?"
-			tasks: [{
-				id: "13BDD481C0DDE00F"
-				item: "ppfluids:fluid_pipe"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["402FFFD366D4B390"]
-			id: "6634C3DFF06F5FA6"
-			shape: "circle"
-			tasks: [
-				{
-					id: "0C91238F6551946D"
-					item: "ppfluids:low_fluid_extraction_module"
-					type: "item"
-				}
-				{
-					id: "55FB65592633FD62"
-					item: "ppfluids:medium_fluid_extraction_module"
-					type: "item"
-				}
-				{
-					id: "7D4129332AA17879"
-					item: "ppfluids:high_fluid_extraction_module"
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["402FFFD366D4B390"]
-			id: "0BDB715DB74F5148"
-			shape: "circle"
-			tasks: [
-				{
-					id: "49223DF75D481DB6"
-					item: "ppfluids:low_fluid_filter_module"
-					type: "item"
-				}
-				{
-					id: "7E002169A6C03F29"
-					item: "ppfluids:medium_fluid_filter_module"
-					type: "item"
-				}
-				{
-					id: "28467D8443797D81"
-					item: "ppfluids:high_fluid_filter_module"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["402FFFD366D4B390"]
-			id: "623E5AF7AE64D3A7"
-			shape: "circle"
-			tasks: [
-				{
-					id: "272F80FED431DFBB"
-					item: "ppfluids:low_fluid_retrieval_module"
-					type: "item"
-				}
-				{
-					id: "21DF10BFC89CDD04"
-					item: "ppfluids:medium_fluid_retrieval_module"
-					type: "item"
-				}
-				{
-					id: "745448CFE645F49C"
-					item: "ppfluids:high_fluid_retrieval_module"
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
@@ -734,7 +658,7 @@
 			}]
 			title: "Time in a Bottle"
 			x: -0.5d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -752,7 +676,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -770,7 +694,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -788,7 +712,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -808,7 +732,7 @@
 			]
 			title: "Chesties"
 			x: 1.5d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -843,7 +767,7 @@
 			]
 			title: "Casts For Special Tool Parts"
 			x: 0.0d
-			y: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -893,7 +817,7 @@
 			]
 			title: "Casts For Tool Parts"
 			x: -2.0d
-			y: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -912,7 +836,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -932,7 +856,7 @@
 			]
 			title: "Casts For Crafting Parts"
 			x: -1.0d
-			y: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -962,7 +886,7 @@
 			]
 			title: "Casts For Armor"
 			x: 1.0d
-			y: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -980,7 +904,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["317B3D9FEBAB32C5"]
@@ -992,7 +916,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["40506A1CC2073B43"]
@@ -1004,7 +928,27 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6EA4D563D61BDB4C"]
+			description: [
+				"Using a High Tech Cardboard Box you can wrap up a spawner, move it, place it where you need for your mob farm / build, and then start upgrading it!"
+				""
+				"Click on the \"Spawner\" in JEI to see the various upgrades you can do. "
+				""
+				"Since we're talking mob farms one good upgrade is the \"Ignore Players\". Pair this upgrade with a spawner in a loaded chunk and you'll be able to go off and do other things while your mob farm puts in the work."
+			]
+			id: "56D6F562693AAC29"
+			shape: "circle"
+			tasks: [{
+				id: "372DB1E042246F42"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			title: "Mob Spawner"
+			x: -3.0d
+			y: -7.0d
 		}
 	]
 	title: "Utility"

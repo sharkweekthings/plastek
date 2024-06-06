@@ -750,6 +750,8 @@
 				""
 				"It's definitely suggested to set up an Assembly production to speed up the process of PCBs, as well as the ability to start making more advanced Tubes, Compressors, and more."
 				" "
+				"{@pagebreak}"
+				"(new page placeholder text)"
 			]
 			id: "2E18138D211E9206"
 			rewards: [

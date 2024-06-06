@@ -771,7 +771,7 @@
 				"- Mycelium"
 				"- Rich Soil"
 				""
-				"Rich Soil Farmland has an added bonus of having crops immune to trample, as well as faster growth. "
+				"Rich Soil Farmland has an &aadded bonus of having crops immune to trample&r, as well as faster growth. "
 			]
 			icon: "farmersdelight:rich_soil_farmland"
 			id: "14EFAC1D0DBEF019"

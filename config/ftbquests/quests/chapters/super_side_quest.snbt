@@ -712,6 +712,7 @@
 			]
 			id: "6EA4D563D61BDB4C"
 			shape: "circle"
+			subtitle: "Whats in the box?"
 			tasks: [{
 				id: "386C3078458095E6"
 				item: "mekanism:cardboard_box"

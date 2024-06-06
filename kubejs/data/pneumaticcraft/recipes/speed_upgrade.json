@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 1000,
+      "tag": "forge:lubricant"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "item": "minecraft:sugar"
+    },
+    "Z": {
+      "item": "productivebees:upgrade_base"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "XZX",
+    "LXL"
+  ],
+  "result": {
+    "item": "pneumaticcraft:speed_upgrade"
+  }
+}

@@ -204,6 +204,14 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:brass_rod',
     3: '#minecraft:trapdoors'}).id('productivebees:bee_cage')
 
+// Upgrade Base
+  event.shaped('productivebees:upgrade_base', 
+    ['323','212','424'], {
+    1: 'sophisticatedbackpacks:upgrade_base',
+    2: 'minecraft:emerald',
+    3: 'productivebees:honey_treat',
+    4: 'industrialforegoing:plastic'}).id('productivebees:upgrades/base')
+
 // Centrifuge
   event.shaped('productivebees:centrifuge', 
     ['454','434','212'], {

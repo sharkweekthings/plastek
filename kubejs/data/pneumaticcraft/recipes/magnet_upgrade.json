@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "pneumaticcraft:plastic_sheets"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "Z": {
+      "item": "productivebees:upgrade_base"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "XZX",
+    "LXL"
+  ],
+  "result": {
+    "item": "pneumaticcraft:magnet_upgrade"
+  }
+}
