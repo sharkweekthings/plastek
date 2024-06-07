@@ -88,6 +88,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"0F782E09F52C1CEC"
+				"1DEC2874DEC28A2A"
+			]
 			id: "33882CD630985676"
 			shape: "circle"
 			tasks: [{

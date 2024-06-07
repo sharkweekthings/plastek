@@ -256,7 +256,7 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:deepslate_copper_ore_gen_ow'
     ore.biomes = '#kubejs:ow_gen'
     ore.addTarget('minecraft:deepslate', 'minecraft:deepslate_copper_ore')
-    ore.count([8, 21])
+    ore.count([8, 35])
       .squared()
       .triangleHeight(
         anchors.absolute(-64),

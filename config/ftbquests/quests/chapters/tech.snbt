@@ -71,7 +71,9 @@
 			description: [
 				"One of the most powerful metals in the world. Copper. Copper..... "
 				""
-				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll need to use Copper tools for a little while. Good thing Silver is just two quests away!"
+				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll need to use Copper tools for a little while. A Copper Pickaxe is much more durable than a Bone Pickaxe, however it just doesnt seem to hit as hard.  You'll sacrifice durability, for sanity, to trade in another kind of insanity. "
+				""
+				"&b&oGood thing Silver is just two quests away!&r&r"
 			]
 			id: "29ABB78197853F7B"
 			rewards: [
@@ -315,6 +317,7 @@
 			id: "24CAB28F70C0D5C1"
 			tasks: [
 				{
+					count: 8L
 					id: "6FA661FDE66603F8"
 					item: "compressium:cobblestone_1"
 					type: "item"

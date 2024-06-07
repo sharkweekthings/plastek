@@ -287,6 +287,7 @@
 			dependencies: ["29ABB78197853F7B"]
 			id: "378EB7B1D0917EEF"
 			shape: "circle"
+			subtitle: "Just get me to Silver.... please"
 			tasks: [{
 				id: "58D5380ED80972B1"
 				item: {
@@ -304,7 +305,9 @@
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
+			description: ["I am much more durable than my Bone counterpart, but the payoff is I am much weaker. "]
 			id: "74EA353F28795796"
+			subtitle: "Just get me to Silver.... please"
 			tasks: [{
 				id: "6EDC524C87C57AA5"
 				item: {
@@ -324,6 +327,7 @@
 			dependencies: ["29ABB78197853F7B"]
 			id: "1B85900C76F33C8B"
 			shape: "circle"
+			subtitle: "Just get me to Silver.... please"
 			tasks: [{
 				id: "1468443C688248F4"
 				item: {
@@ -684,6 +688,7 @@
 			dependencies: ["29ABB78197853F7B"]
 			id: "253EC9A77B380502"
 			shape: "circle"
+			subtitle: "Just get me to Silver.... please"
 			tasks: [{
 				id: "676C1ACC6D6B9927"
 				item: {
@@ -807,6 +812,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1DEC2874DEC28A2A"]
 			id: "49E4A79CFC5773A7"
 			shape: "circle"
 			tasks: [{
@@ -824,6 +830,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1DEC2874DEC28A2A"]
 			id: "1ED2774A9B997474"
 			shape: "circle"
 			tasks: [{
@@ -841,6 +848,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1DEC2874DEC28A2A"]
 			id: "6819EC63F078D468"
 			shape: "circle"
 			tasks: [{
@@ -858,6 +866,10 @@
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"0F782E09F52C1CEC"
+				"1DEC2874DEC28A2A"
+			]
 			id: "5C9EBBD030A66F03"
 			shape: "circle"
 			tasks: [{
