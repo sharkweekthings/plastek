@@ -168,12 +168,6 @@ ServerEvents.recipes(event => {
     1: 'industrialforegoing:plastic',
     2: 'compressium:stone_1',
     3: 'immersiveengineering:concrete'}).id('pneumaticcraft:reinforced_stone')
-    
-// // PCB Blueprint
-//   event.shaped('pneumaticcraft:pcb_blueprint', 
-//     ['222','212','222'], {
-//     1: 'pneumaticcraft:ingot_iron_compressed',
-//     2: 'silentgear:blueprint_paper'}).id('pneumaticcraft:pcb_blueprint')
 
 // Spawner Agitator
   event.shaped('pneumaticcraft:spawner_agitator', 
