@@ -3827,6 +3827,9 @@ event.add('kubejs:everything_else',
 event.add('natprog:saw', 'silentgear:saw')
 
 // event.add('silentgear:saw', '#natprog:saw')
+event.add('snd:fertilizer', 'sliceanddice:fertilizer')
+
+// event.add('silentgear:saw', '#natprog:saw')
 event.add('tconstruct:casts/multi_use', 'mob_grinding_utils:xp_solidifier')
 
 //
