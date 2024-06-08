@@ -173,6 +173,13 @@
         "negate": false,
         "value": "environmental:pine_barrens"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "ars_nouveau:archwood_forest"
+      }
     ]
   ]
 }

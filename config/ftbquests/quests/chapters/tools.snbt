@@ -200,7 +200,9 @@
 				""
 				"Put them out of their happy existence, and collect pieces of them."
 				""
-				"After you have a couple Bones -- put Flint in your offhand, and Bones on your Hotbar.  Right click them together and hope for some Bone Shards. "
+				"After you have a couple Bones -- put Flint in your offhand, and Bones on your Hotbar.  Right click them together and hope for some Bone Shards."
+				""
+				"&a&oMobs from vanilla Minecraft have a slightly higher chance to drop Bone.&r&r"
 			]
 			id: "67808FB71FA8E8F6"
 			tasks: [{
@@ -305,9 +307,9 @@
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
-			description: ["I am much more durable than my Bone counterpart, but the payoff is I am much weaker. "]
+			description: ["I am much more durable than my Bone counterpart, but the trade off is that I break blocks mucher more slowly.. "]
 			id: "74EA353F28795796"
-			subtitle: "Just get me to Silver.... please"
+			subtitle: "Did somebody say molasses?"
 			tasks: [{
 				id: "6EDC524C87C57AA5"
 				item: {
@@ -472,7 +474,9 @@
 		}
 		{
 			dependencies: ["159DC7234BD0097A"]
+			description: ["It's more durable, and much faster than it's Copper predecessor. "]
 			id: "4CB4012E79F09338"
+			subtitle: "Mining level is over 9000!!!"
 			tasks: [{
 				id: "1B9AEE50D6CB7981"
 				item: {
