@@ -59,6 +59,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_smelting_raw_ostrum'})
   event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_smelting_mars_ostrum_ore'})
   event.remove({id: 'ad_astra:recipes/ostrum_ingot_from_smelting_deepslate_ostrum_ore'})
+  event.remove({id: 'tcintegrations:smeltery/melting/metal/ostrum/ore_singular'})
+  event.remove({id: 'tcintegrations:smeltery/melting/metal/ostrum/raw'})
 
   event.remove({id: 'ad_astra:recipes/calorite_ingot_from_blasting_raw_calorite'})
   event.remove({id: 'ad_astra:recipes/calorite_ingot_from_blasting_venus_calorite_ore'})

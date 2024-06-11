@@ -177,8 +177,8 @@ ServerEvents.recipes(event => {
 // Fluid Pipe
   event.shaped('4x immersiveengineering:fluid_pipe',
     ['111',' 2 ','111'], {
-    1: 'emendatusenigmatica:iron_plate',
-	  2: 'create:fluid_pipe'}).id('immersiveengineering:crafting/fluid_pipe')
+    1: 'emendatusenigmatica:steel_plate',
+	  2: 'ppfluids:fluid_pipe'}).id('immersiveengineering:crafting/fluid_pipe')
 
 // Fluid Pipe
   event.shaped('4x immersiveengineering:radiator',
