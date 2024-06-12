@@ -195,7 +195,19 @@ ServerEvents.recipes(event => {
     3: 'immersiveengineering:concrete',
     4: '#forge:gravel'}).id('immersivepetroleum:asphalt')
 
+// Garden Cloche
+  event.shaped('immersiveengineering:cloche',
+    ['232','212','454'], {
+    1: 'botanypots:terracotta_hopper_botany_pot',
+	  2: 'pneumaticcraft:pressure_chamber_glass',
+    3: 'immersiveengineering:light_bulb',
+    4: '#forge:treated_wood',
+    5: 'immersiveengineering:component_steel'}).id('immersiveengineering:crafting/cloche')
 
+
+
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+event.replaceInput({}, 'immersiveengineering:electron_tube', 'create:electron_tube')
 
 // Components Blueprint
   event.shapeless(Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'), ['minecraft:copper_ingot', 'emendatusenigmatica:steel_ingot', 'minecraft:iron_ingot', 'minecraft:blue_dye', 'minecraft:blue_dye', 'minecraft:blue_dye', 'minecraft:paper', 'minecraft:paper', 'minecraft:paper'])

@@ -1,0 +1,6 @@
+{"type":"immersiveengineering:blueprint","category":"components",
+	"inputs":[{"item":"create:electron_tube"},
+		  	  {"tag":"forge:plates/copper"},
+		  	  {"tag":"forge:glass"},
+		  	  {"item":"pneumaticcraft:plastic"}],
+	"result": {"count":2,"item":"immersiveengineering:light_bulb"}}

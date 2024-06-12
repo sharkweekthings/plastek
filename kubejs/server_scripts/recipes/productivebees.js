@@ -204,6 +204,21 @@ ServerEvents.recipes(event => {
     2: 'emendatusenigmatica:brass_rod',
     3: '#minecraft:trapdoors'}).id('productivebees:bee_cage')
 
+// Sturdy Bee Cage
+  event.shaped('productivebees:jar_oak', 
+    ['121','131','111'], {
+    1: '#forge:glass_panes',
+    2: 'minecraft:oak_button',
+    3: 'productivebees:bee_cage'}).id('productivebees:jar_oak')
+
+// Bee Jar
+  event.shaped('productivebees:sturdy_bee_cage', 
+    ['434','414','424'], {
+    1: 'productivebees:bee_cage',
+    2: 'pneumaticcraft:printed_circuit_board',
+    3: 'create:electron_tube',
+    4: 'emendatusenigmatica:steel_rod'}).id('productivebees:sturdy_bee_cage')
+
 // Upgrade Base
   event.shaped('productivebees:upgrade_base', 
     ['323','212','424'], {
@@ -223,12 +238,13 @@ ServerEvents.recipes(event => {
 
 // Powered Centrifuge
   event.shaped('productivebees:powered_centrifuge', 
-    ['434','313','525'], {
+    ['464','313','525'], {
     1: 'productivebees:centrifuge',
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
     4: 'emendatusenigmatica:iron_plate',
-    5: 'minecraft:waxed_copper_block'}).id('productivebees:powered_centrifuge')
+    5: 'minecraft:waxed_copper_block',
+    6: 'create:electron_tube'}).id('productivebees:powered_centrifuge')
 
 // Powered Centrifuge
   event.shaped('productivebees:heated_centrifuge', 

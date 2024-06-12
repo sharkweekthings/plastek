@@ -1131,36 +1131,15 @@
 		}
 		{
 			dependencies: ["07F5B940549D2BF9"]
-			description: [
-				"The Sturdy Bee Cage won't break on you, however they cannot be crafted.  "
-				""
-				"You can obtain them by finding them in loot chests, or through trading a Bee Keeper Villager. "
-				""
-				"To make a Bee Keeper Villager you will need to either place an Advanced Bee Hive near a Villager, kidnap your own Villager and place them next to the Advanced Bee Hive, or buy a Villager Spawn Egg from the Market person and place it next to the Advanced Bee Hive.."
-				""
-				"The Bee Jar will let you decoratively display your Bees.  Read the tool tip for the Bee Jar to learn how!"
-			]
+			description: ["The Sturdy Bee Cage won't break on you. You can obtain them by finding them in loot chests, or crafting them once you're able to make PCBs."]
 			id: "49CE6A491850E06C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16CFD2188127FE21"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
 			shape: "circle"
-			tasks: [
-				{
-					id: "622125DF31A06FE8"
-					item: "productivebees:sturdy_bee_cage"
-					type: "item"
-				}
-				{
-					id: "6D634FF5C872AC4E"
-					item: "productivebees:jar_oak"
-					type: "item"
-				}
-			]
-			x: 6.0d
+			tasks: [{
+				id: "622125DF31A06FE8"
+				item: "productivebees:sturdy_bee_cage"
+				type: "item"
+			}]
+			x: 5.5d
 			y: -0.5d
 		}
 		{
@@ -1337,6 +1316,19 @@
 			}]
 			x: 5.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["07F5B940549D2BF9"]
+			description: ["The Bee Jar will let you decoratively display your Bees.  Read the tool tip for the Bee Jar to learn how!"]
+			id: "65E07F6FEF542468"
+			shape: "circle"
+			tasks: [{
+				id: "1ABD2F6E35835445"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
 		}
 	]
 	title: "Tech"
