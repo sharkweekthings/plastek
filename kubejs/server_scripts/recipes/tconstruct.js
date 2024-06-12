@@ -187,8 +187,21 @@ event.remove({id: 'tconstruct:smeltery/casting/seared/brick_composite'})
 event.remove({id: 'tconstruct:smeltery/seared/grout_multiple'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/aluminum/wire_gold_cast'})
 event.remove({id: 'tconstruct:smeltery/alloys/molten_brass'})
-
-//
+event.remove({id: 'tconstruct:smeltery/casting/metal/aluminum/ingot_gold_cast'})
+event.remove({id: 'tconstruct:smeltery/casting/metal/aluminum/ingot_sand_cast'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/block'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/dust'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/ingot'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/nugget'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/ore_singular'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/plates'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/raw'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/raw_block'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/rod'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/sheetmetal'})
+event.remove({id: 'tconstruct:smeltery/melting/metal/aluminum/wire'})
+event.remove({id: 'tconstruct:tools/materials/melting/aluminum/'})
+event.remove({id: 'productivebees:tconstruct/honeycomb/aluminum'})
 })
 //
 

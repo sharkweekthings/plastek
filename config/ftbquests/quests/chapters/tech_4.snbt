@@ -719,6 +719,8 @@
 				"- Put 1 Aluminum ingot into your Metal Press with a Metal Press Mold: Wire attached to get 2 Aluminum Wire"
 				""
 				"&o&eOnce you unlock the Thermal Induction Smelter, you will no longer need the Energized Wool to help bind the Aluminum Dust into a solid ingot.&r&r "
+				""
+				"&c&oThe Melter, Smeltery, and Foundry have been nerfed to be non compatible with Aluminum. Some things can be melted/created with Aluminum, but thats just because I couldn't figure out how to remove the recipes correctly!&r.&r"
 			]
 			id: "09A8F4E340FB7D21"
 			rewards: [{

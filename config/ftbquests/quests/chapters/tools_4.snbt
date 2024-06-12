@@ -950,6 +950,17 @@
 			x: -3.0d
 			y: -7.0d
 		}
+		{
+			id: "219E4031558D61C8"
+			shape: "circle"
+			tasks: [{
+				id: "4016235B4D21E9D2"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
 	]
 	title: "Utility"
 }

@@ -126,11 +126,7 @@
 		}
 		{
 			dependencies: ["45216AA2FD4ED89F"]
-			description: [
-				"Bitumen doesn't have much of a use at all, so we can either get rid of it, or recycle it. "
-				""
-				"Putting Bitumen in the Pyrolyzer will turn it into Coke/Tar/Heavy Oil, all of which will be beneficial some way or another."
-			]
+			description: ["Putting Bitumen in the Pyrolyzer will turn it into Coke/Tar/Heavy Oil, all of which will be beneficial some way or another."]
 			id: "2C823AA36886D512"
 			shape: "circle"
 			subtitle: "Bye bye by-product"
