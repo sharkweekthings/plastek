@@ -45,6 +45,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'pneumaticcraft:bandage'})
   event.remove({id: 'pneumaticcraft:etching_tank'})
   event.remove({id: 'pneumaticcraft:chunkloader_upgrade'})
+  event.remove({id: 'pneumaticcraft:pressure_chamber/etching_acid'})
 
 //
 })
@@ -518,9 +519,7 @@ event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
         {
-          "type": "pneumaticcraft:stacked_item",
-          "count": 2,
-          "item": "immersiveengineering:fertilizer"
+          "item": "create:electron_tube"
         },
         {
           "item": "mob_grinding_utils:nutritious_chicken_feed"
@@ -529,17 +528,21 @@ event.custom({
           "item": "mob_grinding_utils:gm_chicken_feed_cursed"
         },
         {
-          "item": "create:electron_tube"
+          "type": "pneumaticcraft:stacked_item",
+          "count": 10,
+          "item": "rootsclassic:growth_powder"
         },
         {
-          "item": "sliceanddice:fertilizer_bucket"
+          "type": "pneumaticcraft:stacked_item",
+          "count": 2,
+          "item": "immersiveengineering:fertilizer"
         },
         {
           "item": "pneumaticcraft:plastic_bucket"
         },],
           "pressure": 3, 
-          "results": [{"item": "pneumaticcraft:etching_acid_bucket"}]
-  }).id('pneumaticcraft:pressure_chamber/etching_acid')
+          "results": [{"item": "kubejs:etching_acid_catalyst"}]
+  }).id('pneumaticcraft:pressure_chamber/etching_acid_catalyst')
 
   // HDPE Sheet
   event.custom({

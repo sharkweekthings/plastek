@@ -906,6 +906,11 @@
 		}
 		{
 			dependencies: ["463F55548864F0FE"]
+			description: [
+				"You can find Fluix ore in the &0Otherside&r. "
+				""
+				"You'll then need to take some Tar and the Fluix Dust and put it in the Crystallizer to get a Fluix Crystal."
+			]
 			id: "723C121516417858"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -924,6 +929,11 @@
 		}
 		{
 			dependencies: ["463F55548864F0FE"]
+			description: [
+				"You may have noticed a lack of AE2 Meteorites in the world. You can find Certus Quartz ore in the &0Otherside&r. "
+				""
+				"You'll then need to take some Rosin and the Certus Quartz Dust and put it in the Crystallizer to get a Certus Quartz Crystal."
+			]
 			id: "3D2360638752DEBE"
 			rewards: [{
 				exclude_from_claim_all: true

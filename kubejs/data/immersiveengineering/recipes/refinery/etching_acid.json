@@ -1,0 +1,5 @@
+{"type":"immersiveengineering:refinery",
+	"catalyst":{"item":"kubejs:etching_acid_catalyst"},"energy":500,
+	"input0":{"amount":500,"tag":"sliceanddice:fertilizer"},
+	"input1":{"amount":500,"tag":"forge:experience"},
+	"result":{"amount":1000,"fluid":"pneumaticcraft:etching_acid"}}

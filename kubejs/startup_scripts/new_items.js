@@ -57,6 +57,7 @@ StartupEvents.registry('item', e => {
   e.create('ice_dragonforge_core_package')
   e.create('lightning_dragonforge_core_package')
   e.create('magical_note')
+  e.create('etching_acid_catalyst')
   e.create('bow_grip_steel_cast').tag('tconstruct:casts/multi_use').tag('tconstruct:casts/multi_use/bow_grip')
   e.create('bow_limb_steel_cast').tag('tconstruct:casts/multi_use').tag('tconstruct:casts/multi_use/bow_limb')
   e.create('broad_axe_head_steel_cast').tag('tconstruct:casts/multi_use').tag('tconstruct:casts/multi_use/broad_axe_head')

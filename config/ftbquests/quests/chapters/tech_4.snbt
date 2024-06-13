@@ -91,7 +91,7 @@
 				type: "checkmark"
 			}]
 			title: "You're So Refine You Blow My Mind"
-			x: -2.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -123,7 +123,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -135,7 +135,7 @@
 				item: "pneumaticcraft:vortex_tube"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -161,7 +161,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -199,7 +199,7 @@
 				}
 			]
 			title: "Buckets of Fun"
-			x: -5.5d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -226,7 +226,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -240,7 +240,7 @@
 				type: "checkmark"
 			}]
 			title: "Can't I Just Melt It In a Furnace?"
-			x: -2.5d
+			x: -3.0d
 			y: 4.0d
 		}
 		{
@@ -251,7 +251,7 @@
 				item: "pneumaticcraft:air_compressor"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 5.5d
 		}
 		{
@@ -262,7 +262,7 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
@@ -273,7 +273,7 @@
 				item: "pneumaticcraft:vortex_tube"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 5.5d
 		}
 		{
@@ -284,7 +284,7 @@
 				item: "pneumaticcraft:heat_pipe"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 7.0d
 		}
 		{
@@ -308,7 +308,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -3.5d
 			y: 7.0d
 		}
 		{
@@ -326,7 +326,7 @@
 				item: "pneumaticcraft:plastic_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 8.5d
 		}
 		{
@@ -338,7 +338,7 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -360,7 +360,7 @@
 				type: "checkmark"
 			}]
 			title: "PCB Tanning Bed"
-			x: 2.5d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -380,7 +380,7 @@
 				item: "pneumaticcraft:uv_light_box"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 7.0d
 		}
 		{
@@ -404,29 +404,33 @@
 				type: "item"
 			}]
 			title: "Etching Spout"
-			x: 3.0d
+			x: 3.5d
 			y: 7.0d
 		}
 		{
 			dependencies: [
 				"043ADB4D1CEE73C6"
-				"61AB74749A48B6AC"
+				"70CF244229126C5F"
 			]
 			description: [
 				"The Etching Acid recipe is going to be pretty annoying. "
 				""
-				"The good news is, you'll only have to deal with the bucket method until you're capable of manufacturing your Laser Assembly program. "
+				"The good news is, you'll only have to deal with this method until you're capable of manufacturing your Laser Assembly program. "
 				""
-				"You'll need 2 Fertilizer, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic. "
+				"You'll need &62 Fertilizer, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic&r. "
+				""
+				"Put all that nonsense &binto a Pressure Chamber&r to get &a1 Etching Acid Catalyst&r. "
+				""
+				"&aPut Liquid Fertilizer, Fluid XP, and 1 Etching Acid Catalyst into the Refinery to get 1000mb of Etching Acid&r."
 			]
 			id: "59AE13AF70687556"
-			subtitle: "Throw it in the Instant Pot."
 			tasks: [{
-				id: "744228BD35EB3958"
-				item: "pneumaticcraft:etching_acid_bucket"
-				type: "item"
+				amount: 1000L
+				fluid: "pneumaticcraft:etching_acid"
+				id: "79542DDDE5565075"
+				type: "fluid"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 5.5d
 		}
 		{
@@ -447,7 +451,7 @@
 				item: "pneumaticcraft:unassembled_pcb"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 8.5d
 		}
 		{
@@ -467,7 +471,7 @@
 				type: "checkmark"
 			}]
 			title: "It's Immersive"
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -486,7 +490,7 @@
 				type: "item"
 			}]
 			title: "Crude Blast Furnace"
-			x: 5.5d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -505,7 +509,7 @@
 				type: "item"
 			}]
 			title: "Alloy Kiln"
-			x: 5.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -555,7 +559,7 @@
 				}
 			]
 			title: "Industrial Squeezer"
-			x: 5.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -604,7 +608,7 @@
 				}
 			]
 			title: "Engineer's Workbench"
-			x: 5.5d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -667,7 +671,7 @@
 				}
 			]
 			title: "Arc Furnace"
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -704,7 +708,7 @@
 				}
 			]
 			title: "Metal Press"
-			x: 5.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -735,7 +739,7 @@
 				item: "immersiveengineering:wire_aluminum"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 7.0d
 		}
 		{
@@ -783,7 +787,7 @@
 				type: "item"
 			}]
 			title: "Sweet Circuit Boards"
-			x: 5.5d
+			x: 6.0d
 			y: 8.5d
 		}
 		{
@@ -818,7 +822,7 @@
 				item: "immersiveengineering:thermoelectric_generator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -852,7 +856,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -877,7 +881,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -908,7 +912,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -930,7 +934,7 @@
 				type: "checkmark"
 			}]
 			title: "Assemblerers: Unassemabled"
-			x: 7.0d
+			x: 7.5d
 			y: 8.5d
 		}
 		{
@@ -968,7 +972,7 @@
 				}
 			]
 			title: "Molten Plastic to Plastic Sheets"
-			x: -1.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -1000,7 +1004,7 @@
 				item: "pneumaticcraft:assembly_program_laser"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 9.0d
 		}
 		{
@@ -1041,7 +1045,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 9.0d
 			y: 8.0d
 		}
 		{
@@ -1063,7 +1067,7 @@
 				type: "item"
 			}]
 			title: "Unassembled From Assembly"
-			x: 10.0d
+			x: 10.5d
 			y: 8.5d
 		}
 		{
@@ -1095,7 +1099,7 @@
 				type: "checkmark"
 			}]
 			title: "Thermal Paste Eye Recovery"
-			x: 7.0d
+			x: 7.5d
 			y: 7.0d
 		}
 		{
@@ -1153,7 +1157,7 @@
 				}
 			]
 			title: "Excavator"
-			x: 7.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -1177,7 +1181,7 @@
 				}
 			]
 			title: "Bucket Wheel"
-			x: 7.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -1202,7 +1206,7 @@
 				item: "immersiveengineering:sample_drill"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -1214,7 +1218,7 @@
 				item: "pneumaticcraft:reinforced_pressure_tube"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
@@ -1232,7 +1236,7 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 8.5d
 		}
 		{
@@ -1273,7 +1277,7 @@
 				}
 			]
 			title: "Crusher"
-			x: 5.5d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -1359,7 +1363,7 @@
 				}
 			]
 			title: "Coker"
-			x: 5.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -1415,7 +1419,7 @@
 				}
 			]
 			title: "Distillation Tower"
-			x: 5.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -1468,7 +1472,7 @@
 				}
 			]
 			title: "Automated Engineer's Workbench"
-			x: 7.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -1521,7 +1525,7 @@
 				}
 			]
 			title: "Diesel Generator"
-			x: 3.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -1547,7 +1551,7 @@
 				}
 			]
 			title: "Improved Blast Furnace"
-			x: 7.0d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -1566,7 +1570,7 @@
 				item: "immersivepetroleum:petcoke_dust"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
@@ -1579,7 +1583,7 @@
 				item: "immersiveengineering:blastfurnace_preheater"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -5.0d
 		}
 		{
@@ -1592,7 +1596,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1F451EF299093BB6"]
@@ -1608,6 +1612,63 @@
 			}]
 			x: 0.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["61AB74749A48B6AC"]
+			description: [""]
+			id: "70CF244229126C5F"
+			tasks: [
+				{
+					count: 2L
+					id: "16F85C2CAE43A9F8"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4574993FB4502BF4"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2D9849CDC0C5A7D8"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "307CB1C64754A29A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6B0483762AF0A3BD"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5D490C426F2E6262"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Refinery"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: ["In order to get credit for any Fluid quests you'll need to pump the fluid into a Task Screen. Once the fluid is in the Task Screen the quest should update."]
+			id: "653ACB54F81024B6"
+			tasks: [{
+				id: "0EC1C702C74529B0"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Tech"
