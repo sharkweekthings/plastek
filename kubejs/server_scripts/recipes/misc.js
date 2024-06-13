@@ -125,7 +125,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'minecraft:flower_pot'})
   event.remove({id: 'botanypots:terracotta_botany_pot'})
   event.remove({id: 'supplementaries:soap_clean_botanypots_terracotta_hopper_botany_pot'})
-  // event.remove({ output: "#botanypots:essences"})
   event.remove({id: 'botanypots:botanypots/crafting/terracotta_botany_pot'})
   event.remove({id: 'botanypots:botanypots/crafting/terracotta_compact_hopper_botany_pot'})
   event.remove({id: 'sleep_tight:dreamer_essence'})
@@ -281,7 +280,6 @@ ServerEvents.recipes(event => {
     ['2 2','212','2 2'], {
     1: 'supplementaries:pedestal',
     2: '#forge:treated_wood'}).id('simplehats:hatdisplay')
-
 
 // Cooking Table
   event.shaped('cookingforblockheads:cooking_table',
@@ -506,24 +504,6 @@ ServerEvents.recipes(event => {
     ['111','111','111'], {
     1: 'inventorypets:nugget_ender'}).id('minecraft:misc/ender_pearl')
 
-// Emerald Shard Gets Replaced w/ Emerald Nugget
-event.replaceInput({}, 'silentgear:emerald_shard', 'inventorypets:nugget_emerald')
-
-// Diamond Shard Gets Replaced w/ Diamond Nugget
-event.replaceInput({}, 'silentgear:diamond_shard', 'inventorypets:nugget_diamond')
-
-// AE2 Ender Dust override
-event.replaceOutput({}, 'thermal:ender_pearl_dust', 'ae2:ender_dust')
-
-// Diamond Shard Gets Replaced w/ Diamond Nugget
-event.replaceInput({}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
-
-// Emerald Shard Gets Replaced w/ Emerald Nugget
-event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
-
-// Emerald Shard Gets Replaced w/ Emerald Nugget
-event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
-
 // Crude Ender Pearl
   event.shaped('kubejs:crude_ender_pearl',
     ['232','313','232'], {
@@ -596,10 +576,6 @@ event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
     3: 'minecraft:lava_bucket',
     4: 'minecraft:water_bucket',
     5: 'immersiveengineering:fluid_pump'}).id('rangedpumps:misc/pump')
-
-// Replace RF Tools Machine Frame w/ Industrial Foregoing
-event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_frame','industrialforegoing:machine_frame_advanced')
-
 
 // Bark Knife
   event.shaped('rootsclassic:bark_knife',
@@ -759,12 +735,6 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     2: 'apotheosis:epic_material',
     3: 'apotheosis:simple_reforging_table',
     4: 'minecraft:nether_bricks'}).id('apotheosis:reforging_table')
-
-// Flower Pot
-  event.shaped('minecraft:flower_pot',
-    ['222','121','212'], {
-    1: 'minecraft:brick',
-    2: 'minecraft:clay_ball'}).id('minecraft:misc/flower_pot')
 
 // Botany Pot
   event.shaped('botanypots:terracotta_botany_pot',
@@ -1036,7 +1006,7 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   6: 'rootsclassic:pestle',
   7: '#rootsclassic:berries'}).id('rootsclassic:misc/growth_powder')
 
-  // Healing Poultice
+// Healing Poultice
   event.shaped('rootsclassic:healing_poultice',
     ['434','212','525'], {
   1: 'minecraft:paper',
@@ -1045,28 +1015,28 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
   4: '#rootsclassic:berries',
   5: 'emendatusenigmatica:gold_plate'}).id('rootsclassic:healing_poultice')
 
-  // Sea Shelf
+// Sea Shelf
   event.shaped('apotheosis:seashelf',
     ['313','121','313'], {
   1: 'minecraft:prismarine_bricks',
   2: '#forge:bookshelves',
   3: 'botania:terrasteel_ingot'}).id('apotheosis:seashelf')
 
-  // Hell Shelf
+// Hell Shelf
   event.shaped('apotheosis:hellshelf',
     ['313','121','313'], {
   1: 'minecraft:nether_bricks',
   2: '#forge:bookshelves',
   3: 'botania:terrasteel_ingot'}).id('apotheosis:hellshelf')
 
-  // Dormant Deepshelf
+// Dormant Deepshelf
   event.shaped('apotheosis:dormant_deepshelf',
     ['313','121','313'], {
   1: 'minecraft:cracked_deepslate_tiles',
   2: '#forge:bookshelves',
   3: 'ars_nouveau:conjuration_essence'}).id('apotheosis:dormant_deepshelf')
 
-  // End Shelf
+// End Shelf
   event.shaped('apotheosis:endshelf',
     ['313','121','313'], {
   1: 'minecraft:end_stone_bricks',
@@ -1118,20 +1088,11 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     5: "prettypipes:high_extraction_module",
     6: "storagenetwork:master"}).id('prettypipes:item_terminal')
     
-// // Pretty Pipes Fluid Pipe
-//   event.shaped('ppfluids:fluid_pipe', 
-//     ['   ','121','   '], {
-//     1: 'prettypipes:pipe',
-//     2: 'create:fluid_pipe'}).id('ppfluids:fluid_pipe')
-    
 // Pretty Pipes Pipe
   event.shaped('2x ppfluids:fluid_pipe', 
     ['   ','212','   '], {
     1: 'create:fluid_pipe',
     2: 'minecraft:iron_bars',}).id('ppfluids:fluid_pipe')
-
-// // Pretty Pipes Fluid Pipe To Pipe
-//   event.shapeless(Item.of('prettypipes:pipe'), ['ppfluids:fluid_pipe']).id('prettypipes:pipe')
 
 // Corrupted Blade
   event.shaped('endermanoverhaul:corrupted_blade',
@@ -1208,84 +1169,6 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
     1: 'minecraft:bone',
     2: 'minecraft:leather_boots'}).id('immersive_armors:bone_boots')
 
-// Chainmail Helmet
-  event.shaped('minecraft:chainmail_helmet', 
-    ['   ','111','121'], {
-    1: 'minecraft:chain',
-    2: 'minecraft:leather_helmet'}).id('minecraft:chainmail_helmet')
-
-// Chainmail Chestplate
-  event.shaped('minecraft:chainmail_chestplate', 
-    ['1 1','121','111'], {
-    1: 'minecraft:chain',
-    2: 'minecraft:leather_chestplate'}).id('minecraft:chainmail_chestplate')
-
-// Chainmail Leggings>
-  event.shaped('minecraft:chainmail_leggings', 
-    ['111','121','1 1'], {
-    1: 'minecraft:chain',
-    2: 'minecraft:leather_leggings'}).id('minecraft:chainmail_leggings')
-
-// Chainmail Boots
-  event.shaped('minecraft:chainmail_boots', 
-    ['   ','121','1 1'], {
-    1: 'minecraft:chain',
-    2: 'minecraft:leather_boots'}).id('minecraft:chainmail_boots')
-
-// Iron Helmet
-  event.shaped('minecraft:iron_helmet', 
-    ['   ','111','121'], {
-    1: 'emendatusenigmatica:iron_plate',
-    2: 'minecraft:leather_helmet'}).id('minecraft:iron_helmet')
-
-// Iron Chestplate
-  event.shaped('minecraft:iron_chestplate', 
-    ['1 1','121','111'], {
-    1: 'emendatusenigmatica:iron_plate',
-    2: 'minecraft:leather_chestplate'}).id('minecraft:iron_chestplate')
-
-// Iron Leggings>
-  event.shaped('minecraft:iron_leggings', 
-    ['111','121','1 1'], {
-    1: 'emendatusenigmatica:iron_plate',
-    2: 'minecraft:leather_leggings'}).id('minecraft:iron_leggings')
-
-// Iron Boots
-  event.shaped('minecraft:iron_boots', 
-    ['   ','121','1 1'], {
-    1: 'emendatusenigmatica:iron_plate',
-    2: 'minecraft:leather_boots'}).id('minecraft:iron_boots')
-
-// Diamond Helmet
-  event.shaped('minecraft:diamond_helmet', 
-    ['   ','111','121'], {
-    1: 'minecraft:diamond',
-    2: 'minecraft:leather_helmet'}).id('minecraft:diamond_helmet')
-
-// Diamond Chestplate
-  event.shaped('minecraft:diamond_chestplate', 
-    ['1 1','121','111'], {
-    1: 'minecraft:diamond',
-    2: 'minecraft:leather_chestplate'}).id('minecraft:diamond_chestplate')
-
-// Diamond Leggings>
-  event.shaped('minecraft:diamond_leggings', 
-    ['111','121','1 1'], {
-    1: 'minecraft:diamond',
-    2: 'minecraft:leather_leggings'}).id('minecraft:diamond_leggings')
-
-// Diamond Boots
-  event.shaped('minecraft:diamond_boots', 
-    ['   ','121','1 1'], {
-    1: 'minecraft:diamond',
-    2: 'minecraft:leather_boots'}).id('minecraft:diamond_boots')
-
-// Chain
-  event.shaped('minecraft:chain', 
-    [' 2 ',' 1 ',' 2 '], {
-    1: 'minecraft:iron_ingot',
-    2: 'emendatusenigmatica:silver_nugget'}).id('minecraft:chain')
-
 // Thermo Generator Starter
   event.shaped('powah:thermo_generator_starter', 
     ['111','232','454'], {
@@ -1349,13 +1232,13 @@ event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_f
 }).id('inventorypets:meta_pet')
 
 // Seared Brick
-event.smelting('tconstruct:seared_brick', 'tconstruct:grout')
+  event.smelting('tconstruct:seared_brick', 'tconstruct:grout')
 
 // Bonemeal Fish
-event.smelting('minecraft:bone_meal', 'alexsmobs:fish_bones').id('alexsmobs:bonemeal_from_fish_bones')
+  event.smelting('minecraft:bone_meal', 'alexsmobs:fish_bones').id('alexsmobs:bonemeal_from_fish_bones')
 
 // Bonemeal Fish
-event.smelting('minecraft:bone_meal', '#forge:bones').id('quark:tweaks/smelting/bone_meal_utility')
+  event.smelting('minecraft:bone_meal', '#forge:bones').id('quark:tweaks/smelting/bone_meal_utility')
 
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')
@@ -1412,18 +1295,45 @@ event.smelting('minecraft:bone_meal', '#forge:bones').id('quark:tweaks/smelting/
   event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil']).id('supplementaries:planter_rich')
 
 // Replace Flower Pot w/ Botany Pot
-event.replaceInput({}, 'minecraft:flower_pot', 'botanypots:terracotta_botany_pot')   
+  event.replaceInput({}, 'minecraft:flower_pot', 'botanypots:terracotta_botany_pot')   
+
+// Replace RF Tools Machine Frame w/ Industrial Foregoing
+  event.replaceInput({ input: 'rftoolsbase:machine_frame' },'rftoolsbase:machine_frame','industrialforegoing:machine_frame_advanced')
 
 // Coal Nug to Coal
   event.shapeless(Item.of('minecraft:coal'), ['inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal', 'inventorypets:nugget_coal']).id('inventorypets:nugget_to_coal')
 
- event.replaceInput('*', Fluid.of('minecraft:water'), Fluid.of('minecraft:lava'))
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+  event.replaceInput({}, 'silentgear:emerald_shard', 'inventorypets:nugget_emerald')
 
- event.replaceInput(
-                      { input: 'mob_grinding_utils:fluid_xp' }, // Arg 1: the filter
-                      'mob_grinding_utils:fluid_xp',            // Arg 2: the item to replace
-                      'pneumaticcraft:memory_essence'         // Arg 3: the item to replace it with
-                    )
+// Diamond Shard Gets Replaced w/ Diamond Nugget
+  event.replaceInput({}, 'silentgear:diamond_shard', 'inventorypets:nugget_diamond')
+
+// AE2 Ender Dust override
+  event.replaceOutput({}, 'thermal:ender_pearl_dust', 'ae2:ender_dust')
+
+// Diamond Shard Gets Replaced w/ Diamond Nugget
+  event.replaceInput({}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
+
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+  event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
+
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+  event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
+
+
+
+// TEMPORARY DISABLED UNTIL I FIGURE OUT WHY I EVEN MADE THESE SCRIPTS:
+
+// // I dont remember, lets not break it though.
+//   event.replaceInput('*', Fluid.of('minecraft:water'), Fluid.of('minecraft:lava'))
+
+// // Replace fluid xp inputs
+//  event.replaceInput(
+//                       { input: 'mob_grinding_utils:fluid_xp' }, // Arg 1: the filter
+//                       'mob_grinding_utils:fluid_xp',            // Arg 2: the item to replace
+//                       'pneumaticcraft:memory_essence'         // Arg 3: the item to replace it with
+//                     )
 
 //    
 })

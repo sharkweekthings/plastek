@@ -171,6 +171,90 @@ ServerEvents.recipes(event => {
     2: 'immersiveengineering:insulating_glass',
     3: 'minecraft:glass'}).id('minecraft:green_stained_glass')
 
+// Chainmail Helmet
+  event.shaped('minecraft:chainmail_helmet', 
+    ['   ','111','121'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_helmet'}).id('minecraft:chainmail_helmet')
+
+// Chainmail Chestplate
+  event.shaped('minecraft:chainmail_chestplate', 
+    ['1 1','121','111'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_chestplate'}).id('minecraft:chainmail_chestplate')
+
+// Chainmail Leggings>
+  event.shaped('minecraft:chainmail_leggings', 
+    ['111','121','1 1'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_leggings'}).id('minecraft:chainmail_leggings')
+
+// Chainmail Boots
+  event.shaped('minecraft:chainmail_boots', 
+    ['   ','121','1 1'], {
+    1: 'minecraft:chain',
+    2: 'minecraft:leather_boots'}).id('minecraft:chainmail_boots')
+
+// Iron Helmet
+  event.shaped('minecraft:iron_helmet', 
+    ['   ','111','121'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_helmet'}).id('minecraft:iron_helmet')
+
+// Iron Chestplate
+  event.shaped('minecraft:iron_chestplate', 
+    ['1 1','121','111'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_chestplate'}).id('minecraft:iron_chestplate')
+
+// Iron Leggings>
+  event.shaped('minecraft:iron_leggings', 
+    ['111','121','1 1'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_leggings'}).id('minecraft:iron_leggings')
+
+// Iron Boots
+  event.shaped('minecraft:iron_boots', 
+    ['   ','121','1 1'], {
+    1: 'emendatusenigmatica:iron_plate',
+    2: 'minecraft:leather_boots'}).id('minecraft:iron_boots')
+
+// Diamond Helmet
+  event.shaped('minecraft:diamond_helmet', 
+    ['   ','111','121'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_helmet'}).id('minecraft:diamond_helmet')
+
+// Diamond Chestplate
+  event.shaped('minecraft:diamond_chestplate', 
+    ['1 1','121','111'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_chestplate'}).id('minecraft:diamond_chestplate')
+
+// Diamond Leggings>
+  event.shaped('minecraft:diamond_leggings', 
+    ['111','121','1 1'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_leggings'}).id('minecraft:diamond_leggings')
+
+// Diamond Boots
+  event.shaped('minecraft:diamond_boots', 
+    ['   ','121','1 1'], {
+    1: 'minecraft:diamond',
+    2: 'minecraft:leather_boots'}).id('minecraft:diamond_boots')
+
+// Chain
+  event.shaped('minecraft:chain', 
+    [' 2 ',' 1 ',' 2 '], {
+    1: 'minecraft:iron_ingot',
+    2: 'emendatusenigmatica:silver_nugget'}).id('minecraft:chain')
+
+// Flower Pot
+  event.shaped('minecraft:flower_pot',
+    ['222','121','212'], {
+    1: 'minecraft:brick',
+    2: 'minecraft:clay_ball'}).id('minecraft:misc/flower_pot')
+
 // Copper Dust
   event.custom({
   "type": "create:milling",
