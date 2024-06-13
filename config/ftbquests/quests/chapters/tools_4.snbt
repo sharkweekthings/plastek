@@ -36,7 +36,7 @@
 		{
 			dependencies: ["481CC7DD0387169C"]
 			description: [
-				"Amadrone technology at it's best. "
+				"Amadron technology at it's best. "
 				""
 				"All Drones are ready to ship out your product in moments.  Just make your request, and wait for your items!"
 				""
@@ -951,6 +951,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["3E511A31199739F8"]
 			id: "219E4031558D61C8"
 			shape: "circle"
 			tasks: [{

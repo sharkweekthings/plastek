@@ -964,7 +964,7 @@ event.custom({
   {"item": "rootsclassic:verdant_sprig","count": 1},
   {"fluidTag": "forge:experience","amount": 400}],
   "results": [{"item": "rootsclassic:growth_powder", "count": 1}],
-  "heatRequirement": "heated" 
+  "heatRequirement": "superheated" 
   }).id('create:mixing/green_powder')
 
 // Unassembled PCB

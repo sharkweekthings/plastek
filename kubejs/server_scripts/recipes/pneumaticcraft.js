@@ -519,13 +519,13 @@ event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
         {
+          "item": "minecraft:slime_block"
+        },
+        {
           "item": "create:electron_tube"
         },
         {
           "item": "mob_grinding_utils:nutritious_chicken_feed"
-        },
-        {
-          "item": "mob_grinding_utils:gm_chicken_feed_cursed"
         },
         {
           "type": "pneumaticcraft:stacked_item",

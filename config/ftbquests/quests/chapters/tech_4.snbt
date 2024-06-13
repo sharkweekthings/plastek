@@ -1615,7 +1615,6 @@
 		}
 		{
 			dependencies: ["61AB74749A48B6AC"]
-			description: [""]
 			id: "70CF244229126C5F"
 			tasks: [
 				{
@@ -1660,8 +1659,9 @@
 		}
 		{
 			dependencies: ["34B6EA6F438DBAED"]
-			description: ["In order to get credit for any Fluid quests you'll need to pump the fluid into a Task Screen. Once the fluid is in the Task Screen the quest should update."]
+			description: ["First, right click on the Task Screen and set the correct fluid. Then you'll just need to pump your fluid into the Task Screen in order to quest Quest Credit."]
 			id: "653ACB54F81024B6"
+			subtitle: "Give me your fluids"
 			tasks: [{
 				id: "0EC1C702C74529B0"
 				item: "ftbquests:screen_1"
