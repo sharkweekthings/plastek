@@ -13,12 +13,13 @@ ServerEvents.recipes(event => {
   event.remove({id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
   event.remove({id: 'ad_astra:recipes/steel_engine'})
   
-  event.remove({id: 'ad_astra:recipes/oxygen_tank'})
-  event.remove({id: 'ad_astra:recipes/calorite_tank'})
-  event.remove({id: 'ad_astra:recipes/ostrum_tank'})
-  event.remove({id: 'ad_astra:recipes/desh_tank'})
-  event.remove({id: 'ad_astra:recipes/desh_fluid_pipe'})
-  event.remove({id: 'ad_astra:recipes/ostrum_fluid_pipe'})
+  // event.remove({id: 'ad_astra:recipes/oxygen_tank'})
+  // event.remove({id: 'ad_astra:recipes/calorite_tank'})
+  // event.remove({id: 'ad_astra:recipes/ostrum_tank'})
+  // event.remove({id: 'ad_astra:recipes/desh_tank'})
+  // event.remove({id: 'ad_astra:recipes/desh_fluid_pipe'})
+  // event.remove({id: 'ad_astra:recipes/ostrum_fluid_pipe'})
+  
   event.remove({id: 'ad_astra:recipes/cable_duct'})
   event.remove({id: 'ad_astra:recipes/steel_cable'})
   event.remove({id: 'ad_astra:recipes/desh_cable'})
@@ -165,9 +166,10 @@ ServerEvents.recipes(event => {
     
 // Oxygen Tank
   event.shaped('ad_astra:oxygen_tank', 
-    ['21 ','22 ','22 '], {
+    ['21 ','23 ','22 '], {
     1: 'create:cogwheel',
-    2: 'emendatusenigmatica:iron_plate'}).id('ad_astra:recipes/oxygen_tank')
+    2: 'emendatusenigmatica:iron_plate',
+    3: 'pneumaticcraft:pressure_tube'}).id('ad_astra:recipes/oxygen_tank')
 
 // Desh Engine
   event.shaped('ad_astra:desh_engine', 

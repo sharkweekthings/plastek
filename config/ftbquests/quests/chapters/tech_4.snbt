@@ -1670,6 +1670,24 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["4596F14140B7AE67"]
+			id: "1A4575D60B14D9D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EF349C8B0097993"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4426DCF53095DBB1"
+				item: "emendatusenigmatica:steel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
 	]
 	title: "Tech"
 }
