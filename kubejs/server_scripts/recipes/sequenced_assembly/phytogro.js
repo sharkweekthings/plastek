@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "immersiveengineering:fertilizer",},[{ // incomplete item
-      item: "emendatusenigmatica:apatite_dust",},],], // item to deploy
+      item: "immersiveengineering:dust_saltpeter",},],], // item to deploy
      results: [{
       item: "immersiveengineering:fertilizer",},],
 },

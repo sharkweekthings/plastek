@@ -916,7 +916,7 @@ ServerEvents.recipes(event => {
 // Simulation Chamber Parts
   event.shaped('kubejs:simulation_chamber_parts',
     ['353','414','326'], {
-    1: 'industrialforegoing:machine_frame_advanced',
+    1: 'industrialforegoing:machine_frame_supreme',
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
     4: 'minecraft:goat_spawn_egg',
@@ -926,7 +926,7 @@ ServerEvents.recipes(event => {
 // Loot Fabricator Parts
   event.shaped('kubejs:loot_fabricator_parts',
     ['353','414','326'], {
-    1: 'industrialforegoing:machine_frame_advanced',
+    1: 'industrialforegoing:machine_frame_supreme',
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
     4: 'minecraft:donkey_spawn_egg',

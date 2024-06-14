@@ -170,6 +170,30 @@ ServerEvents.recipes(event => {
     3: 'botania:terrasteel_ingot',
     4: '#energeticsheep:wool_energetic'}).id('botania:mana_fluxfield')
 
+// Elementium Helmet
+  event.shaped('botania:elementium_helmet', 
+    ['   ','111','121'], {
+    1: 'botania:elementium_ingot',
+    2: 'botania:manaweave_helmet'}).id('botania:elementium_helmet')
+
+// Elementium Chestplate
+  event.shaped('botania:elementium_chestplate', 
+    ['1 1','121','111'], {
+    1: 'botania:elementium_ingot',
+    2: 'botania:manaweave_chestplate'}).id('botania:elementium_chestplate')
+
+// Elementium Leggings>
+  event.shaped('botania:elementium_leggings', 
+    ['111','121','1 1'], {
+    1: 'botania:elementium_ingot',
+    2: 'botania:manaweave_leggings'}).id('botania:elementium_leggings')
+
+// Elementium Boots
+  event.shaped('botania:elementium_boots', 
+    ['   ','121','1 1'], {
+    1: 'botania:elementium_ingot',
+    2: 'botania:manaweave_boots'}).id('botania:elementium_boots')
+
 // Pixie Dust For Pixie Dust
 event.replaceInput({}, 'botania:pixie_dust', 'iceandfire:pixie_dust')
 

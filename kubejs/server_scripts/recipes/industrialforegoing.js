@@ -240,10 +240,10 @@ ServerEvents.recipes(event => {
 				"item": "pneumaticcraft:plastic"
 			},
 			{
-				"item": "minecraft:iron_block"
+				"item": "pneumaticcraft:capacitor"
 			},
 			{
-				"item": "minecraft:iron_block"
+				"item": "pneumaticcraft:transistor"
 			},
 			{
 				"item": "emendatusenigmatica:steel_plate"
@@ -277,10 +277,10 @@ ServerEvents.recipes(event => {
 				"item": "emendatusenigmatica:aluminum_plate"
 			},
 			{
-				"item": "immersiveengineering:sheetmetal_lead"
+				"item": "pneumaticcraft:capacitor"
 			},
 			{
-				"item": "immersiveengineering:sheetmetal_lead"
+				"item": "pneumaticcraft:transistor"
 			},
 			{
 				"item": "immersiveengineering:wire_aluminum"
@@ -342,19 +342,19 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "pneumaticcraft:capacitor"
+				"item": "emendatusenigmatica:steel_plate"
 			},
 			{
 				"item": "industrialforegoing:machine_frame_advanced"
 			},
 			{
+				"item": "emendatusenigmatica:steel_plate"
+			},
+			{
+				"item": "pneumaticcraft:capacitor"
+			},
+			{
 				"item": "pneumaticcraft:transistor"
-			},
-			{
-				"item": "immersiveengineering:sheetmetal_electrum"
-			},
-			{
-				"item": "immersiveengineering:sheetmetal_electrum"
 			},
 			{
 				"item": "emendatusenigmatica:diamond_gear"
