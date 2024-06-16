@@ -1888,6 +1888,7 @@ event.add('kubejs:age_4_exception',
 
 event.add('kubejs:age_5_item', 
   [
+  'mekanism:hdpe_stick',
   'minecraft:echo_shard',
   'apotheosis:dormant_deepshelf',
   'kubejs:empty_prediction_parts',
@@ -2120,6 +2121,7 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mekanism:hdpe_stick',
   'mysticalagriculture:apatite_essence',
   'mysticalagriculture:apatite_seeds',
   'mysticalagriculture:tertium_farmland',

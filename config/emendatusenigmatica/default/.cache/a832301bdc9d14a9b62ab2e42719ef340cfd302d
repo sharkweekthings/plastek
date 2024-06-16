@@ -1,4 +1,4 @@
-// 1.19.2	2023-11-12T18:56:05.4187437	Emendatus Enigmatica Item Models
+// 1.19.2	2024-06-16T08:40:52.4331988	Emendatus Enigmatica Item Models
 80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/alien_gear.json
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/alien_rod.json
 e787d08cc53f9e63f47b913e1a4348a5b05a1de7 assets/emendatusenigmatica/models/item/aluminum_block.json
@@ -184,6 +184,7 @@ bff964ddbadcad46b5a944be41ea779b31a95a79 assets/emendatusenigmatica/models/item/
 058ec740a852e2b8173e5fe09344c8a23eb09b1f assets/emendatusenigmatica/models/item/signalum_ingot.json
 0f6a3a31fb83ac58f708d7163411b351dc38cb8b assets/emendatusenigmatica/models/item/signalum_nugget.json
 57851f40a9ad9c10ed7005f6ca42b1bff8dc59a3 assets/emendatusenigmatica/models/item/signalum_plate.json
+46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/signalum_rod.json
 d42afebd384042278a2f88d18f90b0a72aaee188 assets/emendatusenigmatica/models/item/silicon_gem.json
 ded8526a2831df8bb02ab647b236ef3fdcc7bfc3 assets/emendatusenigmatica/models/item/silver_block.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/silver_dust.json

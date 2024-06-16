@@ -1025,7 +1025,7 @@ ServerEvents.recipes(event => {
 // Hell Shelf
   event.shaped('apotheosis:hellshelf',
     ['313','121','313'], {
-  1: 'minecraft:nether_bricks',
+  1: 'kubejs:infused_nether_stone',
   2: '#forge:bookshelves',
   3: 'botania:terrasteel_ingot'}).id('apotheosis:hellshelf')
 
@@ -1033,14 +1033,14 @@ ServerEvents.recipes(event => {
   event.shaped('apotheosis:dormant_deepshelf',
     ['313','121','313'], {
   1: 'minecraft:cracked_deepslate_tiles',
-  2: '#forge:bookshelves',
+  2: 'apotheosis:seashelf',
   3: 'ars_nouveau:conjuration_essence'}).id('apotheosis:dormant_deepshelf')
 
 // End Shelf
   event.shaped('apotheosis:endshelf',
     ['313','121','313'], {
   1: 'minecraft:end_stone_bricks',
-  2: '#forge:bookshelves',
+  2: 'apotheosis:dormant_deepshelf',
   3: 'mysticalagriculture:end_essence'}).id('apotheosis:endshelf')
 
 // Natures Compass

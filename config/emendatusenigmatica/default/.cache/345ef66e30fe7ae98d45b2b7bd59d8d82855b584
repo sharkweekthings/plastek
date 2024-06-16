@@ -1,4 +1,4 @@
-// 1.19.2	2023-11-12T18:56:05.4296564	Emendatus Enigmatica Item Tags
+// 1.19.2	2024-06-16T08:40:52.4451666	Emendatus Enigmatica Item Tags
 baca836dcb6ee7c51ceebfb1e6924c38e0b3f0d2 data/forge/tags/items/armors/boots.json
 1666aec7e4a2366628e29456b86fa4dc7c145e82 data/forge/tags/items/armors/boots/copper.json
 fa90ab6cf8117ba5fc880b604b1ef8e38ad6b388 data/forge/tags/items/armors/boots/sterling_silver.json
@@ -163,7 +163,7 @@ cff14a7d05a3741df90de0a7601df1e244438d48 data/forge/tags/items/raw_materials/nic
 b6adc03fefa3b55fef76c7e617f3ff789342dca8 data/forge/tags/items/raw_materials/uranium.json
 5b4b4e41c2d889d540599b48380ba96c294ea34c data/forge/tags/items/raw_materials/weekonium.json
 af5d3cef8bdb96394308ac1abc96bb5ac7f451bc data/forge/tags/items/raw_materials/zinc.json
-4aad95d2f474686b7d7b39448116514ccfeda4e8 data/forge/tags/items/rods.json
+33a853c0573ee876e6c846add84ed2580277d4b5 data/forge/tags/items/rods.json
 25d9201ac9ca44edc512d10cacd46b0558adcae7 data/forge/tags/items/rods/alien.json
 b73e5e3ccf31aa87ab2bd4242a365c8a8fcc6388 data/forge/tags/items/rods/aluminum.json
 bd2e68faec1d9893f88d5512a5f0ab9ed7acb02b data/forge/tags/items/rods/brass.json
@@ -172,6 +172,7 @@ bd2e68faec1d9893f88d5512a5f0ab9ed7acb02b data/forge/tags/items/rods/brass.json
 c75eedce482e249551d7dc00d689f208400a65a8 data/forge/tags/items/rods/iron.json
 86830e5510f79a70056ec64fbd3554e06c23a834 data/forge/tags/items/rods/nickel.json
 97551df4ea022b32f32010ddfa8b210d5217f63e data/forge/tags/items/rods/plasteel.json
+5c5b23d57153776b287d5d8c2c6b1cd96bfe00b8 data/forge/tags/items/rods/signalum.json
 16f567596bbb6b700fa8f084afe4c279d96c502b data/forge/tags/items/rods/steel.json
 64a11d9516babe4bb4baf4bdf8269f79a79e840d data/forge/tags/items/rods/sterling_silver.json
 1c2118e525ff212b6c64bb7a20aac92f8e7950c8 data/forge/tags/items/storage_blocks.json

@@ -641,6 +641,11 @@ ServerEvents.recipes(event => {
   2: 'mekanism:hdpe_sheet',
   3: 'mekanism:ultimate_chemical_tank'}).id('mekanismgenerators:fission_reactor/fuel_assembly')
 
+// HDPE Stick
+  event.shaped('mekanism:hdpe_stick',
+    [' 1 ',' 1 ',' 1 '], {
+  1: 'pneumaticcraft:plastic'}).id('mekanism:hdpe_stick')
+
 // Bio Fuel Hand
   event.shapeless(Item.of('mekanism:bio_fuel'), ['thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', 'thermal:phytogro', ]).id('mekanism:bio_fuel')
 

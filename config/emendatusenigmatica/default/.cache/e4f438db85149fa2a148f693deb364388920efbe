@@ -1,4 +1,4 @@
-// 1.19.2	2023-09-04T17:06:51.6480652	Emendatus Enigmatica Recipes
+// 1.19.2	2024-06-16T08:40:52.4381843	Emendatus Enigmatica Recipes
 5b85d4dd1c669034e1b26b34344305969c00738d data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/axe/from_ingot/steel.json
 e48ceac53c24ce0d4eaf01dbb5a0cba26a345d0b data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/block/from_gem/apatite.json
 f3c5348e8faee15a0636aac3da073f9da91fd080 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/block/from_gem/cinnabar.json
@@ -249,6 +249,7 @@ c254db971e25325a1bf592628c8c54ec36b2c691 data/emendatusenigmatica/advancements/r
 355f0030be146b7a411c6d8f91ea972cd236cb84 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/rod/from_ingot/gold.json
 4fe240524abd6c600cf32a408e0a880cd4936fd0 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/rod/from_ingot/iron.json
 65c27a5a3a313ff662c4899de6e432392b0438ad data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/rod/from_ingot/nickel.json
+d4bdc0a2390824c21dc4a631d0287566ecabfac0 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/rod/from_ingot/signalum.json
 a01054daf4f0cb6512e4afdfc475d15bf1aac9d4 data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/rod/from_ingot/steel.json
 111a3ddd84c63362682012730b93840a036ce90c data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/rod/from_ingot/sterling_silver.json
 5a1464754be04ce73bb553eeab282854e6e9aa1c data/emendatusenigmatica/advancements/recipes/emendatusenigmatica/shovel/from_ingot/copper.json
@@ -519,6 +520,7 @@ c8b7989b1369124d648ccf55c99e1559c93a3138 data/emendatusenigmatica/recipes/rod/fr
 4fa14e219199f9b51f6f9fbbe32cb88bf6b554ca data/emendatusenigmatica/recipes/rod/from_ingot/gold.json
 9003f9fe5c5d42203b0085ed2706365edfce55a5 data/emendatusenigmatica/recipes/rod/from_ingot/iron.json
 0bd7227245e25e2c719ff1584c67803bb774e2b9 data/emendatusenigmatica/recipes/rod/from_ingot/nickel.json
+5900b465b9b669ecc9a06ddac1f3559ae15988cc data/emendatusenigmatica/recipes/rod/from_ingot/signalum.json
 76b29a22bbd0637b52dedf41821e406ad3f7dfa1 data/emendatusenigmatica/recipes/rod/from_ingot/steel.json
 4a2e949673a37a674ef83d5d0b299bcfb22c5944 data/emendatusenigmatica/recipes/rod/from_ingot/sterling_silver.json
 020a7de38fe6423d0d73e4b4ca3c25093632e5ff data/emendatusenigmatica/recipes/shovel/from_ingot/copper.json

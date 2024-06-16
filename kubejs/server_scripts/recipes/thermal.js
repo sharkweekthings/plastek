@@ -1095,6 +1095,18 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:tin_ingot',
     2: 'create:super_glue'}).id('thermal:parts/tin_gear')
 
+// Redstone Servo
+  event.shaped('thermal:redstone_servo',
+    ['212',' 1 ','212'], {
+    1: 'mekanism:hdpe_stick',
+    2: 'minecraft:redstone'}).id('thermal:redstone_servo')
+
+// Redstone Flux Coil
+  event.shaped('thermal:rf_coil',
+    ['  2',' 1 ','2  '], {
+    1: 'emendatusenigmatica:signalum_rod',
+    2: 'emendatusenigmatica:electrum_plate'}).id('thermal:rf_coil')
+
 // Copper Gear
   event.shaped('emendatusenigmatica:copper_gear',
     [' 1 ','121',' 1 '], {
