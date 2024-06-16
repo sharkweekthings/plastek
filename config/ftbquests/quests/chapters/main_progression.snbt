@@ -79,15 +79,6 @@
 										}
 									}
 								}
-								engineersdecor: {
-									0: {
-										Count: 1.0d
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "engineersdecor:engineersdecor_manual"
-										}
-									}
-								}
 								immersiveengineering: {
 									0: {
 										Count: 1.0d
