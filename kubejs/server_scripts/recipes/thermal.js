@@ -1167,6 +1167,147 @@ ServerEvents.recipes(event => {
     1: 'emendatusenigmatica:electrum_ingot',
     2: 'create:super_glue'}).id('thermal:parts/electrum_gear')
 
+// Augment - Knowledge Concentrator
+  event.shaped('thermal:xp_storage_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'mob_grinding_utils:fluid_xp_bucket',
+    4: 'emendatusenigmatica:lumium_gear'}).id('thermal:augments/xp_storage_augment')
+
+// Augment - Expanded RF Coil
+  event.shaped('thermal:rf_coil_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:rf_coil',
+    4: 'emendatusenigmatica:lumium_gear'}).id('thermal:augments/rf_coil_augment')
+
+// Augment - Stabalized RF Coil
+  event.shaped('thermal:rf_coil_storage_augment',
+    ['232','414','232'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:rf_coil',
+    4: 'emendatusenigmatica:lumium_gear'}).id('thermal:augments/rf_coil_storage_augment')
+
+// Augment - High Flux RF Coil
+  event.shaped('thermal:rf_coil_xfer_augment',
+    ['424','212','323'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:rf_coil',
+    4: 'emendatusenigmatica:lumium_gear'}).id('thermal:augments/rf_coil_xfer_augment')
+
+// Augment - Expanded Tank
+  event.shaped('thermal:fluid_tank_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'pneumaticcraft:medium_tank',
+    4: 'emendatusenigmatica:signalum_gear'}).id('thermal:augments/fluid_tank_augment')
+
+// Augment - Item Filter
+  event.shaped('thermal:item_filter_augment',
+    ['222','313','222'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'minecraft:paper'}).id('thermal:augments/item_filter_augment')
+
+// Augment - Fluid Filter
+  event.shaped('thermal:fluid_filter_augment',
+    ['222','313','222'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'minecraft:water_bucket'}).id('thermal:augments/fluid_filter_augment')
+
+// Augment - Flux Linkage Amplifier
+  event.shaped('thermal:machine_speed_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:redstone_servo',
+    4: 'emendatusenigmatica:signalum_gear'}).id('thermal:augments/machine_speed_augment')
+
+// Augment - Flux Linkage Amplifier
+  event.shaped('thermal:machine_efficiency_augment',
+    ['232','414','232'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:redstone_servo',
+    4: 'emendatusenigmatica:signalum_gear'}).id('thermal:augments/machine_efficiency_augment')
+
+// Augment - Auxiliary Process Sieve
+  event.shaped('thermal:machine_output_augment',
+    ['222','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:enderium_gear',
+    4: 'thermal:redstone_servo'}).id('thermal:augments/machine_output_augment')
+
+// Augment - Catalytic Reclaimation Chamber
+  event.shaped('thermal:machine_catalyst_augment',
+    ['242','313','222'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'thermal:enderium_gear',
+    4: 'thermal:redstone_servo'}).id('thermal:augments/machine_catalyst_augment')
+
+// Augment - Cyclical Processing
+  event.shaped('thermal:machine_cycle_augment',
+    ['222','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:signalum_gear',
+    4: 'thermal:redstone_servo'}).id('thermal:augments/machine_cycle_augment')
+
+// Augment - Auxilary Cactus
+  event.shaped('thermal:machine_null_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'minecraft:cactus',
+    4: 'emendatusenigmatica:signalum_gear'}).id('thermal:augments/machine_null_augment')
+
+// Augment - Auxilary Reaction Chamber
+  event.shaped('thermal:dynamo_output_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'pneumaticcraft:pressure_chamber_glass',
+    4: 'emendatusenigmatica:signalum_gear'}).id('thermal:augments/dynamo_output_augment')
+
+// Augment - Multi Cycle Injector
+  event.shaped('thermal:dynamo_fuel_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:lumium_gear',
+    4: '#thermal:glass/hardened'}).id('thermal:augments/dynamo_fuel_augment')
+
+// Augment - Radial Enchancement
+  event.shaped('thermal:area_radius_augment',
+    ['222','313','222'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'emendatusenigmatica:steel_gear'}).id('thermal:augments/area_radius_augment')
+
+// Augment - Potrion Amplifier
+  event.shaped('thermal:potion_amplifier_augment',
+    ['242','313','242'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'botania:brewery',
+    4: 'emendatusenigmatica:lumium_gear'}).id('thermal:augments/potion_amplifier_augment')
+
+// Augment - Alchemical Extender
+  event.shaped('thermal:potion_duration_augment',
+    ['232','414','232'], {
+    1: 'prettypipes:blank_module',
+    2: 'pneumaticcraft:plastic',
+    3: 'botania:brewery',
+    4: 'emendatusenigmatica:lumium_gear'}).id('thermal:augments/potion_duration_augment')
+
 // Replace Thermal Machine Frame w/ Industrial Foregoing
 event.replaceInput({ input: 'thermal:machine_frame' },'thermal:machine_frame','industrialforegoing:machine_frame_advanced')
 
