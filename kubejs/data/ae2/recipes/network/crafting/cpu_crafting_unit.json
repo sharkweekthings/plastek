@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "b": {
+      "item": "ae2:calculation_processor"
+    },
+    "c": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "d": {
+      "item": "ae2:logic_processor"
+    },
+    "m": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cmc",
+    "ada"
+  ],
+  "result": {
+    "item": "ae2:crafting_unit"
+  }
+}

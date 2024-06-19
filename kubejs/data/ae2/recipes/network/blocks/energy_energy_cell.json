@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "c": {
+      "item": "industrialforegoing:machine_frame_simple"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:energy_cell"
+  }
+}

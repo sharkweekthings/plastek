@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "d": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "b b",
+    "aba"
+  ],
+  "result": {
+    "item": "megacells:mega_fluid_cell_housing"
+  }
+}

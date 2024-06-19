@@ -126,7 +126,11 @@
 		}
 		{
 			dependencies: ["45216AA2FD4ED89F"]
-			description: ["Putting Bitumen in the Pyrolyzer will turn it into Coke/Tar/Heavy Oil, all of which will be beneficial some way or another."]
+			description: [
+				"Putting Bitumen in the Pyrolyzer will turn it into Coke/Tar/Heavy Oil, all of which will be beneficial some way or another."
+				""
+				"You can also drop an Etching Acid Catalyst into here for some Etching Acid, and a very small chance to get the catalyst returned. "
+			]
 			id: "2C823AA36886D512"
 			shape: "circle"
 			subtitle: "Bye bye by-product"
@@ -183,7 +187,7 @@
 				type: "checkmark"
 			}]
 			title: "Dissolution"
-			x: 5.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -196,7 +200,7 @@
 				type: "item"
 			}]
 			title: "Latex Dissolution Chamber"
-			x: 5.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -209,7 +213,7 @@
 				type: "item"
 			}]
 			title: "Plastic Dissolution Chamber"
-			x: 4.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -222,7 +226,7 @@
 				type: "item"
 			}]
 			title: "Destabalized Redstone Dissolution Chamber"
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -235,7 +239,7 @@
 				type: "item"
 			}]
 			title: "Resonant Ender Dissolution Chamber"
-			x: 7.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -401,7 +405,7 @@
 				item: "deeperdarker:heart_of_the_deep"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -419,7 +423,7 @@
 				item: "industrialforegoing:machine_frame_simple"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -445,7 +449,7 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
@@ -463,7 +467,7 @@
 				item: "industrialforegoing:machine_frame_supreme"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -585,11 +589,7 @@
 				"1AE7A2562C1774E2"
 				"790ECA9942A6B96B"
 			]
-			description: [
-				"The Dissolution Chamber, or Mystical Agriculture recipes are the only ones that will create these Presses."
-				""
-				"&oMystical Agriculture is not available until next age.&r"
-			]
+			description: ["The Dissolution Chamber is the only recipe that will create these Presses."]
 			id: "64159F99BA4E8F75"
 			tasks: [
 				{
@@ -781,7 +781,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -959,7 +959,7 @@
 				item: "thermal:machine_crucible"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -1214,7 +1214,7 @@
 				type: "checkmark"
 			}]
 			title: "Cursed Eye Recovery"
-			x: 8.5d
+			x: 9.0d
 			y: -2.5d
 		}
 		{

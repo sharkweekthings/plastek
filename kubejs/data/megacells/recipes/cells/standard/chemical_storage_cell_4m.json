@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "b": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "c": {
+      "item": "megacells:cell_component_4m"
+    },
+    "d": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "ddd"
+  ],
+  "result": {
+    "item": "megacells:chemical_storage_cell_4m"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "R": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    }
+  },
+  "pattern": [
+    "QRQ",
+    "R R",
+    "OOO"
+  ],
+  "result": {
+    "item": "appmek:chemical_cell_housing"
+  }
+}

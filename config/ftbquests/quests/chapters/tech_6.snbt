@@ -1400,11 +1400,7 @@
 				"2BC345F3C5804940"
 				"4410DB0A1CC3F8E3"
 			]
-			description: [
-				"This item is one of two items where you will need the Mechanical Crafter to progress. "
-				""
-				"When you enter the next age you will be able to make the Extended Crafting table to finish out the Age 7 recipes, which will also be created with the Mechanical Crafter."
-			]
+			description: ["This item is one of few items where you will need the Mechanical Crafter to progress. "]
 			id: "4A117A32B18470FE"
 			tasks: [{
 				id: "670A9A0E87D8E02E"

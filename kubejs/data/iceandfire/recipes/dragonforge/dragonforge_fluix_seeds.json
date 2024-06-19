@@ -3,12 +3,12 @@
   "dragon_type": "fire",
   "cook_time": 1000,
   "input": {
-    "item": "pneumaticcraft:compressed_iron_block"
+    "item": "ae2:fluix_pearl"
   },
   "blood": {
     "tag": "forge:seeds"
   },
   "result": {
-    "item": "mysticalagriculture:compressed_iron_seeds"
+    "item": "mysticalagriculture:fluix_seeds"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:fluix_pearl"
+    },
+    "b": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "c": {
+      "tag": "forge:dusts/ender_pearl"
+    },
+    "d": {
+      "item": "pneumaticcraft:plastic"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "aba",
+    "ddd"
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:wireless_booster"
+  }
+}

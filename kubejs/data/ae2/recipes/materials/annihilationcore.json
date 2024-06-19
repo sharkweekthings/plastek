@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "b": {
+      "tag": "forge:dusts/fluix"
+    },
+    "c": {
+      "item": "ae2:engineering_processor"
+    }
+  },
+  "pattern": [
+    "abc"
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:annihilation_core"
+  }
+}

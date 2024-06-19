@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:quartz_glass"
+    },
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "c": {
+      "item": "pneumaticcraft:plastic"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "b b",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:fluid_cell_housing"
+  }
+}

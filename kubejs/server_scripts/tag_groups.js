@@ -1888,6 +1888,10 @@ event.add('kubejs:age_4_exception',
 
 event.add('kubejs:age_5_item', 
   [
+  'mysticalagriculture:fluix_essence',
+  'mysticalagriculture:fluix_seeds',
+  'mysticalagriculture:certus_quartz_essence',
+  'mysticalagriculture:certus_quartz_seeds',
   'mekanism:hdpe_stick',
   'minecraft:echo_shard',
   'apotheosis:dormant_deepshelf',
@@ -2121,6 +2125,10 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'mysticalagriculture:fluix_essence',
+  'mysticalagriculture:fluix_seeds',
+  'mysticalagriculture:certus_quartz_essence',
+  'mysticalagriculture:certus_quartz_seeds',
   'mekanism:hdpe_stick',
   'mysticalagriculture:apatite_essence',
   'mysticalagriculture:apatite_seeds',

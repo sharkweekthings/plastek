@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "c": {
+      "item": "megacells:cell_component_64m"
+    },
+    "d": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "item": "megacells:fluid_storage_cell_64m"
+  }
+}

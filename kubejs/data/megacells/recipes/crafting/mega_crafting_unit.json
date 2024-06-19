@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:crafting_unit"
+    },
+    "b": {
+      "item": "ae2:logic_processor"
+    },
+    "c": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    },
+    "d": {
+      "item": "ae2:engineering_processor"
+    },
+    "e": {
+      "item": "ae2:calculation_processor"
+    },
+    "f": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "pattern": [
+    "cbc",
+    "dae",
+    "cfc"
+  ],
+  "result": {
+    "item": "megacells:mega_crafting_unit"
+  }
+}

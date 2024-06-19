@@ -47,54 +47,54 @@ ServerEvents.recipes(event => {
 // Inscriber
   event.shaped('ae2:inscriber',
     ['545','637','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
+	1: 'pneumaticcraft:printed_circuit_board',
+	2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'prettypipes:blank_module',
 	5: 'pneumaticcraft:plastic',
-  6: 'ae2:certus_quartz_crystal',
-  7: 'ae2:fluix_crystal'}).id('ae2:network/blocks/inscribers')
+	6: 'ae2:charged_certus_quartz_crystal',
+	7: 'ae2:fluix_crystal'}).id('ae2:network/blocks/inscribers')
   
 // Charger
   event.shaped('ae2:charger',
     ['545','637','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
+	1: 'pneumaticcraft:printed_circuit_board',
+	2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: '#energeticsheep:wool_energetic',
 	5: 'pneumaticcraft:plastic',
-  6: 'ae2:fluix_crystal',
-  7: 'prettypipes:blank_module'}).id('ae2:network/blocks/crystal_processing_charger')
+	6: 'ae2:fluix_crystal',
+	7: 'prettypipes:blank_module'}).id('ae2:network/blocks/crystal_processing_charger')
   
 // ME Controller
   event.shaped('ae2:controller',
     ['212','131','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
+	1: 'pneumaticcraft:printed_circuit_board',
+	2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_supreme'}).id('ae2:network/blocks/controller')
   
 // ME Drive
   event.shaped('ae2:drive',
     ['242','536','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
-  4: 'pneumaticcraft:plastic',
-  5: 'ae2:certus_quartz_crystal',
-  6: 'ae2:fluix_crystal'}).id('ae2:network/blocks/storage_drive')
+	1: 'pneumaticcraft:printed_circuit_board',
+	2: 'emendatusenigmatica:steel_plate',
+	3: 'industrialforegoing:machine_frame_supreme',
+	4: 'pneumaticcraft:plastic',
+	5: 'ae2:certus_quartz_crystal',
+	6: 'ae2:fluix_crystal'}).id('ae2:network/blocks/storage_drive')
   
 // Blank Pattern
   event.shaped('ae2:blank_pattern',
     ['222','132','222'], {
-  1: 'ae2:charged_certus_quartz_crystal',
-  2: 'pneumaticcraft:plastic',
+	1: 'ae2:charged_certus_quartz_crystal',
+	2: 'pneumaticcraft:plastic',
 	3: 'ae2:quartz_glass'}).id('ae2:network/blocks/patterns_blank')
   
 // Quartz Glass
   event.shaped('ae2:quartz_glass',
     ['212','121','212'], {
-  1: '#forge:glass',
-  2: 'ae2:certus_quartz_crystal'}).id('ae2:decorative/quartz_glass')
+	1: '#forge:glass',
+	2: 'ae2:certus_quartz_crystal'}).id('ae2:decorative/quartz_glass')
   
 // Matter Condenser
   event.shaped('ae2:condenser',
@@ -107,28 +107,28 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
 				"item": "prettypipes:blank_module"
 			},
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "minecraft:redstone"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			}
 		],
 		"processingTime": 300,
@@ -140,69 +140,69 @@ ServerEvents.recipes(event => {
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('ae2:inscriber/calculation_processor_press')
 
-// 1k ME Storage Component Starter
-	event.custom({
-		"input": [
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "pneumaticcraft:transistor"
-			},
-			{
-				"item": "minecraft:redstone"
-			},
-			{
-				"item": "pneumaticcraft:printed_circuit_board"
-			},
-			{
-				"item": "pneumaticcraft:printed_circuit_board"
-			},
-			{
-				"item": "thermal:lapis_dust"
-			},
-			{
-				"item": "pneumaticcraft:capacitor"
-			},
-			{
-				"item": "thermal:lapis_dust"
-			}
-		],
-		"processingTime": 300,
-		"output": {
-			"item": "ae2:cell_component_1k",
-			"count": 1
-		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
-		"type": "industrialforegoing:dissolution_chamber"
-	}).id('ae2:network/cells/item_storage_components_cell_1k_part_starter')
+// // 1k ME Storage Component Starter
+// 	event.custom({
+// 		"input": [
+// 			{
+// 				"item": "minecraft:redstone"
+// 			},
+// 			{
+// 				"item": "pneumaticcraft:transistor"
+// 			},
+// 			{
+// 				"item": "minecraft:redstone"
+// 			},
+// 			{
+// 				"item": "pneumaticcraft:printed_circuit_board"
+// 			},
+// 			{
+// 				"item": "pneumaticcraft:printed_circuit_board"
+// 			},
+// 			{
+// 				"item": "thermal:lapis_dust"
+// 			},
+// 			{
+// 				"item": "pneumaticcraft:capacitor"
+// 			},
+// 			{
+// 				"item": "thermal:lapis_dust"
+// 			}
+// 		],
+// 		"processingTime": 300,
+// 		"output": {
+// 			"item": "ae2:cell_component_1k",
+// 			"count": 1
+// 		},
+// 		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
+// 		"type": "industrialforegoing:dissolution_chamber"
+// 	}).id('ae2:network/cells/item_storage_components_cell_1k_part_starter')
 
 // Inscriber Silicon Press
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
 				"item": "prettypipes:blank_module"
 			},
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "minecraft:redstone"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			}
 		],
 		"processingTime": 300,
@@ -218,28 +218,28 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
 				"item": "prettypipes:blank_module"
 			},
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "minecraft:redstone"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			}
 		],
 		"processingTime": 300,
@@ -255,28 +255,28 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
 				"item": "prettypipes:blank_module"
 			},
 			{
-				"item": "emendatusenigmatica:iron_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_gear"
+				"item": "emendatusenigmatica:steel_gear"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "minecraft:redstone"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "emendatusenigmatica:iron_rod"
+				"item": "emendatusenigmatica:plasteel_plate"
 			}
 		],
 		"processingTime": 300,
@@ -292,25 +292,25 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "minecraft:redstone"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "minecraft:redstone"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:logic_processor"
 			},
 			{
-				"item": "ae2:logic_processor"
+				"item": "ae2:engineering_processor"
 			},
 			{
 				"item": "ae2:quartz_glass"
 			},
 			{
-				"item": "ae2:engineering_processor"
+				"item": "pneumaticcraft:printed_circuit_board"
 			},
 			{
 				"item": "ae2:quartz_glass"
@@ -329,13 +329,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "minecraft:redstone"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "minecraft:redstone"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:cell_component_1k"
@@ -366,13 +366,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "minecraft:glowstone_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "minecraft:glowstone_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:cell_component_4k"
@@ -403,13 +403,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "minecraft:glowstone_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "minecraft:glowstone_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:cell_component_16k"
@@ -440,13 +440,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "minecraft:glowstone_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "minecraft:glowstone_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:cell_component_64k"
@@ -477,13 +477,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "ae2:sky_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "ae2:sky_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:cell_component_256k"
@@ -514,13 +514,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "megacells:cell_component_1m"
@@ -551,13 +551,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "megacells:cell_component_4m"
@@ -588,13 +588,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "megacells:cell_component_16m"
@@ -625,13 +625,13 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"input": [
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "ae2:calculation_processor"
 			},
 			{
-				"item": "ae2:ender_dust"
+				"item": "ae2:fluix_pearl"
 			},
 			{
 				"item": "megacells:cell_component_64m"
@@ -658,6 +658,10 @@ ServerEvents.recipes(event => {
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('megacells:cells/cell_component_256m')
 
+
+
+// Emerald Shard Gets Replaced w/ Emerald Nugget
+//   event.replaceInput({}, 'ae2:certus_quartz_crystal', 'ae2:charged_certus_quartz_crystal')
 
 //    
 })

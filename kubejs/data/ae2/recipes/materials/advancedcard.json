@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "forge:gems/diamond"
+    },
+    "b": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "c": {
+      "tag": "forge:dusts/signalum"
+    },
+    "d": {
+      "item": "ae2:calculation_processor"
+    }
+  },
+  "pattern": [
+    "ab ",
+    "cdb",
+    "ab "
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:advanced_card"
+  }
+}

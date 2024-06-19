@@ -1315,10 +1315,10 @@ ServerEvents.recipes(event => {
 // Diamond Shard Gets Replaced w/ Diamond Nugget
   event.replaceInput({}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
 
-// Emerald Shard Gets Replaced w/ Emerald Nugget
+// Replace Wheat Dough w/ Create Dough
   event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
 
-// Emerald Shard Gets Replaced w/ Emerald Nugget
+// Replace Pam Dough w/ Create Dough
   event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
 
 

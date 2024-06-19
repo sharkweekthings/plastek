@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "b": {
+      "item": "minecraft:crafting_table"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "ae2:formation_core"
+    },
+    "m": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cmd",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:pattern_provider"
+  }
+}

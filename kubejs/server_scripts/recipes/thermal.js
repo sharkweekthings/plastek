@@ -233,8 +233,8 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "thermal:crystallizer",
   "ingredients": [
-    {"fluid": "minecraft:water",
-      "amount": 500},
+    {"fluid": "pneumaticcraft:etching_acid",
+      "amount": 50},
     {"item": "thermal:rosin"},
     {"item": "ae2:certus_quartz_dust"}],
   "result": [
@@ -246,8 +246,8 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "thermal:crystallizer",
   "ingredients": [
-    {"fluid": "minecraft:water",
-      "amount": 500},
+    {"fluid": "pneumaticcraft:etching_acid",
+      "amount": 50},
     {"item": "thermal:tar"},
     {"item": "ae2:fluix_dust"}],
   "result": [
@@ -272,8 +272,8 @@ ServerEvents.recipes(event => {
   event.custom({
   "type": "thermal:crystallizer",
   "ingredients": [
-    {"fluid": "minecraft:water",
-      "amount": 500},
+    {"fluid": "pneumaticcraft:etching_acid",
+      "amount": 50},
     {"item": "thermal:rosin"},
     {"item": "emendatusenigmatica:apatite_dust"}],
   "result": [

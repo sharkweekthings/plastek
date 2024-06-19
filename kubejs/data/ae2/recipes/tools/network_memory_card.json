@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:calculation_processor"
+    },
+    "b": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    },
+    "c": {
+      "item": "immersiveengineering:electrum_wire"
+    }
+  },
+  "pattern": [
+    "abb",
+    "ccc"
+  ],
+  "result": {
+    "item": "ae2:memory_card"
+  }
+}

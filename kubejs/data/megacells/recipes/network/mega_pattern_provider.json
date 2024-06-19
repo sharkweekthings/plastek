@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "ae2:calculation_processor"
+    },
+    "I": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    },
+    "P": {
+      "item": "ae2:pattern_provider"
+    },
+    "V": {
+      "item": "ae2:quartz_vibrant_glass"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "VPV",
+    "ICI"
+  ],
+  "result": {
+    "item": "megacells:mega_pattern_provider"
+  }
+}

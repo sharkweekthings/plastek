@@ -94,6 +94,12 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mysticalagriculture:seed/reprocessor/amethyst_bronze'})
   event.remove({id: 'mysticalagriculture:seed/reprocessor/hepatizon'})
   event.remove({id: 'mysticalagriculture:seed/reprocessor/rose_gold'})
+  event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/engineering_press'})
+  event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/logic_press'})
+  event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/silicon_press'})
+  event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/calculation_press'})
+  event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/certus_quartz'})
+  event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/fluix'})
   event.remove({id: 'mysticalagriculture:machine_frame'})
   event.remove({id:/botanypots:mysticalagriculture\/crop/})
 
