@@ -255,21 +255,26 @@ ServerEvents.recipes(event => {
 
 // Seared Fuel Tank
   event.shaped('tconstruct:seared_fuel_tank',
-    ['121','131','121'], {
+    ['121','131','424'], {
     1: 'tconstruct:seared_brick', 
     2: 'create:andesite_alloy',
-    3: 'tconstruct:seared_glass'}).id('tconstruct:smeltery/seared/fuel_tank')
+    3: 'tconstruct:seared_glass',
+    4: 'tconstruct:pattern'}).id('tconstruct:smeltery/seared/fuel_tank')
 
 // Seared Fuel Gauge
   event.shaped('tconstruct:seared_fuel_gauge',
-    ['121','222','121'], {
+    ['131','222','131'], {
     1: 'create:andesite_alloy',
-    2: 'tconstruct:seared_glass'}).id('tconstruct:smeltery/seared/fuel_gauge')// Seared Melter
+    2: 'tconstruct:seared_glass',
+    3: 'tconstruct:pattern'}).id('tconstruct:smeltery/seared/fuel_gauge')
+    
+// Seared Melter
   event.shaped('tconstruct:seared_melter',
-    [' 2 ','131','111'], {
+    ['424','131','111'], {
     1: 'tconstruct:seared_brick',
     2: '#tconstruct:seared_tanks',
-    3: 'minecraft:furnace'}).id('tconstruct:smeltery/seared/melter')
+    3: 'minecraft:furnace',
+    4: 'tconstruct:pattern'}).id('tconstruct:smeltery/seared/melter')
 
 // Smeltery Controller
   event.shaped('tconstruct:smeltery_controller',

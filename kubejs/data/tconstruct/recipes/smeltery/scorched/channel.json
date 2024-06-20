@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tconstruct:scorched_brick"
+    },
+    "Z": {
+      "item": "tconstruct:seared_channel"
+    }
+  },
+  "pattern": [
+    "#Z#",
+    "###"
+  ],
+  "result": {
+    "count": 5,
+    "item": "tconstruct:scorched_channel"
+  }
+}

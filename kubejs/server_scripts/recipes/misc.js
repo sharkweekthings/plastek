@@ -636,11 +636,12 @@ ServerEvents.recipes(event => {
 
 // Upgrade Base
   event.shaped('sophisticatedbackpacks:upgrade_base', 
-    ['434','121','434'], {
+    ['434','152','434'], {
     1: 'totemic:buffalo_hide', 
     2: 'minecraft:leather',
     3: 'minecraft:iron_ingot',
-    4: '#forge:string'}).id('sophisticatedbackpacks:misc/upgrade_base')
+    4: '#forge:string',
+    5: 'tconstruct:pattern'}).id('sophisticatedbackpacks:misc/upgrade_base')
 
 // Master
   event.shaped('storagenetwork:master',

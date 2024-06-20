@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "tconstruct:scorched_brick"
+    },
+    "Z": {
+      "item": "tconstruct:seared_melter"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BZB"
+  ],
+  "result": {
+    "item": "tconstruct:scorched_alloyer"
+  }
+}

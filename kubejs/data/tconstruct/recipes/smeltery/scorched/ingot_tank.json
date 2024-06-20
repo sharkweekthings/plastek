@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tconstruct:scorched_brick"
+    },
+    "B": {
+      "tag": "forge:gems/quartz"
+    },
+    "Z": {
+      "item": "tconstruct:seared_ingot_tank"
+    }
+  },
+  "pattern": [
+    "#B#",
+    "#Z#",
+    "#B#"
+  ],
+  "result": {
+    "item": "tconstruct:scorched_ingot_tank"
+  }
+}

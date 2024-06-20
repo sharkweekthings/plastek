@@ -1,0 +1,26 @@
+{
+  "type": "mantle:crafting_shaped_retextured",
+  "key": {
+    "#": {
+      "tag": "tconstruct:smeltery_bricks"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "Z": {
+      "item": "tconstruct:pattern"
+    }
+  },
+  "match_all": false,
+  "pattern": [
+    " C ",
+    " # ",
+    "ZCZ"
+  ],
+  "result": {
+    "item": "tconstruct:seared_chute"
+  },
+  "texture": {
+    "tag": "tconstruct:smeltery_bricks"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tconstruct:seared_brick"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "Z": {
+      "item": "tconstruct:pattern"
+    }
+  },
+  "pattern": [
+    "#B#",
+    "ZBZ",
+    "#B#"
+  ],
+  "result": {
+    "item": "tconstruct:seared_ingot_tank"
+  }
+}

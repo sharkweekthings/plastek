@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tconstruct:scorched_brick"
+    },
+    "Z": {
+      "item": "tconstruct:seared_faucet"
+    }
+  },
+  "pattern": [
+    "#Z#",
+    " # "
+  ],
+  "result": {
+    "count": 3,
+    "item": "tconstruct:scorched_faucet"
+  }
+}

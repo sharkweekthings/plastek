@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tconstruct:seared_brick"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "Z": {
+      "item": "tconstruct:pattern"
+    }
+  },
+  "pattern": [
+    "# #",
+    "CZC",
+    "#Z#"
+  ],
+  "result": {
+    "item": "tconstruct:seared_drain"
+  }
+}
