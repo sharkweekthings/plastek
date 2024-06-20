@@ -1,0 +1,36 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "ae2:fluix_crystal"
+    },
+    {
+      "item": "ae2:fluix_crystal"
+    },
+    {
+      "item": "ae2:fluix_crystal"
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "emendatusenigmatica:plasteel_gear"
+    },
+    {
+      "item": "pneumaticcraft:range_upgrade"
+    },
+    {
+      "item": "emendatusenigmatica:plasteel_gear"
+    }
+  ],
+  "inputFluid": "{Amount:500,FluidName:\"pneumaticcraft:plastic\"}",
+  "output": {
+    "count": 1,
+    "item": "industrialforegoing:range_addon0",
+    "nbt": "{TitaniumAugment:{Range:0.0f}}"
+  },
+  "processingTime": 200
+}
