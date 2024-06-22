@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "pneumaticcraft:plastic"},
+	{"item": "industrialforegoing:plastic"},
+	{"item": "mekanism:hdpe_pellet"},
+	{"item": "mekanism:hdpe_pellet"},
+	{"item": "industrialforegoing:plastic"},
+	{"item": "pneumaticcraft:plastic"}
+  ],
+  "energy": 10000000,
+  "result": {
+	"item": "mekanism:hdpe_sheet",
+	"count": 1
+  }
+}

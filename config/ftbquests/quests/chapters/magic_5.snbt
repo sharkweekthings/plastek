@@ -586,6 +586,7 @@
 		}
 		{
 			dependencies: ["3B52E0D0ABA63E2A"]
+			description: ["Thanks &bAliagor&r for suggesting this quest!"]
 			id: "25FAF59C9373315D"
 			shape: "circle"
 			subtitle: "Ars: Part 5"

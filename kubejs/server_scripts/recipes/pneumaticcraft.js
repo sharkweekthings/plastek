@@ -560,7 +560,7 @@ event.custom({
         },
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 1,
+          "count": 2,
           "item": "pneumaticcraft:plastic"
         },],
           "pressure": 2.5, 

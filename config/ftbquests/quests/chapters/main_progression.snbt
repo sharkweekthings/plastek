@@ -497,6 +497,12 @@
 									id: "ae2:guide"
 								}
 							}
+							alexsmobs: {
+								0: {
+									Count: 1.0d
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
 							apotheosis: {
 								0: {
 									Count: 1.0d
@@ -530,15 +536,6 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "deeperdarker:wanderers_notebook"
-									}
-								}
-							}
-							engineersdecor: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "engineersdecor:engineersdecor_manual"
 									}
 								}
 							}

@@ -23,6 +23,10 @@
 - Start with a tower nearby: -4617567651137131285
 - Start with a village nearby: 7013957087057633589
 - Start in a village next to a Monastery: 1587385653253805901
+- Start near a Tower, Camp and Blimp: -8411174313414847141
+- Start in/around a cave near 2 villages: -224526189806694434
+- Start near a Lighthouse and Tower: -3100214937844471584
+
 
 ##
 ## Difficulty Adjustment

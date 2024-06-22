@@ -589,7 +589,7 @@
 				"1AE7A2562C1774E2"
 				"790ECA9942A6B96B"
 			]
-			description: ["The Dissolution Chamber is the only recipe that will create these Presses."]
+			description: ["The Dissolution Chamber is the only machine that will create these Presses."]
 			id: "64159F99BA4E8F75"
 			tasks: [
 				{
@@ -909,7 +909,7 @@
 			description: [
 				"You can find Fluix ore in the &0Otherside&r. "
 				""
-				"You'll then need to take some Tar and the Fluix Dust and put it in the Crystallizer to get a Fluix Crystal."
+				"You'll then need to take some &2Etching Acid&r, &0Tar&r, and &5Fluix Dust&r then put it in the &bCrystallizer&r to get a &dFluix Crystal&r."
 			]
 			id: "723C121516417858"
 			rewards: [{
@@ -932,7 +932,7 @@
 			description: [
 				"You may have noticed a lack of AE2 Meteorites in the world. You can find Certus Quartz ore in the &0Otherside&r. "
 				""
-				"You'll then need to take some Rosin and the Certus Quartz Dust and put it in the Crystallizer to get a Certus Quartz Crystal."
+				"You'll then need to take some &2Etching Acid&r, &6Rosin&r, and &7Certus Quartz Dust&r then put it in the &bCrystallizer&r to get a &7Certus Quartz Crystal&r."
 			]
 			id: "3D2360638752DEBE"
 			rewards: [{
