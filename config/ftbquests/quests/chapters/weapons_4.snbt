@@ -158,6 +158,22 @@
 			x: 1.0d
 			y: 1.0d
 		}
+		{
+			id: "4D7B3F94D4517D5A"
+			tasks: [{
+				id: "70389611CC3528F4"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
 	]
 	title: "Weapons"
 }

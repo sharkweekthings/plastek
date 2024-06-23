@@ -1,0 +1,5 @@
+{"type":"immersiveengineering:refinery",
+	"catalyst":{"item":"biomancy:toxin_extract"},"energy":1000,
+	"input0":{"amount":300,"tag":"forge:kerosene"},
+	"input1":{"amount":200,"tag":"forge:experience"},
+	"result":{"amount":500,"fluid":"biomancy:acid"}}

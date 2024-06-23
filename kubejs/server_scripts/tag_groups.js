@@ -3835,7 +3835,7 @@ event.add('kubejs:everything_else',
   'mysticalagriculture:tertium_sword'
   ])
 
-// event.add('silentgear:saw', '#natprog:saw')
+// add silent saws to be usable with nat prog
 event.add('natprog:saw', 'silentgear:saw')
 
 // event.add('silentgear:saw', '#natprog:saw')
@@ -3852,3 +3852,13 @@ event.add('tconstruct:casts/multi_use', 'mob_grinding_utils:xp_solidifier')
 
 
 // })
+
+ServerEvents.tags('fluid', event => {
+
+event.add('biomancy:acid', 
+  [
+  'biomancy:acid',
+  'biomancy:flowing_acid'
+  ])
+
+})

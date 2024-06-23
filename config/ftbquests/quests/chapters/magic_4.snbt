@@ -25,9 +25,9 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Wrapping Up w/ Botania and Occultism"
+			title: "Wrapping Up w/ Botania and Occultism, and the Start of Something New"
 			x: 0.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -323,8 +323,8 @@
 				item: "mythicbotany:fimbultyr_tablet"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7370F0819950059B"]
@@ -541,8 +541,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 5.5d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0933440E7DFA2B10"]
@@ -595,7 +595,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4B4788A9A077FA41"]
+			dependencies: ["48ABF1D3186757AE"]
 			description: ["The Enchantment Library is an extremely powerful tool that will allow you to store enchantments, and combine them into a single book."]
 			id: "681F7D7C8F26B46F"
 			rewards: [{
@@ -611,8 +611,8 @@
 				type: "item"
 			}]
 			title: "Storing Knowledge"
-			x: 0.0d
-			y: -3.5d
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2EA3894CC2A995DD"]
@@ -734,6 +734,163 @@
 			title: "Eye of the Dragon"
 			x: -6.0d
 			y: -3.5d
+		}
+		{
+			dependencies: [
+				"04F72CBA9EC4223F"
+				"4D7B3F94D4517D5A"
+			]
+			id: "184611A6562A633A"
+			tasks: [{
+				id: "60E818484EECA3A7"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"Biomancy is a gross little mod where you'll be working with mob parts, flesh, bile, and other gross things. "
+				""
+				"&bFor this pack&r, the machines will have some additional added recipes that will help &bgenerate resources&r. "
+			]
+			id: "04F72CBA9EC4223F"
+			subtitle: "Ew. Gross!"
+			tasks: [{
+				id: "70A02D09A4E0ED32"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Biomancy"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["184611A6562A633A"]
+			id: "76D3433316A18AB7"
+			subtitle: "Lets Get Fleshy"
+			tasks: [{
+				id: "5DDDBE392F913E43"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76D3433316A18AB7"]
+			id: "29AE71B97E20AE6B"
+			tasks: [{
+				id: "1839A9FBD11DE0CA"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76D3433316A18AB7"]
+			id: "76D455075E60F11D"
+			tasks: [{
+				id: "3253896C82B143C3"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29AE71B97E20AE6B"]
+			id: "716245748C8D61DE"
+			tasks: [{
+				id: "49DA8789CAC60C25"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29AE71B97E20AE6B"]
+			id: "2114ACE80F749C5C"
+			tasks: [{
+				id: "131F4CA52FB04675"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76D455075E60F11D"]
+			id: "5D8030B2B922FD9F"
+			shape: "gear"
+			tasks: [
+				{
+					id: "4C95DECD935531E3"
+					item: "biomancy:mineral_fragment"
+					type: "item"
+				}
+				{
+					id: "3ED29F3D61C25FB1"
+					item: "biomancy:gem_fragments"
+					type: "item"
+				}
+				{
+					id: "06340F51FE98DBDB"
+					item: "biomancy:bone_fragments"
+					type: "item"
+				}
+				{
+					id: "7870D9C713F2DEEE"
+					item: "biomancy:elastic_fibers"
+					type: "item"
+				}
+				{
+					id: "174CDC353420740B"
+					item: "biomancy:flesh_bits"
+					type: "item"
+				}
+				{
+					id: "5E52ECC43CD8B3C8"
+					item: "biomancy:organic_matter"
+					type: "item"
+				}
+				{
+					id: "373F2941DE1A771E"
+					item: "biomancy:bio_lumens"
+					type: "item"
+				}
+				{
+					id: "5EAA28DEB1D3E849"
+					item: "biomancy:stone_powder"
+					type: "item"
+				}
+				{
+					id: "019FD809E01A4952"
+					item: "biomancy:exotic_dust"
+					type: "item"
+				}
+				{
+					id: "48E5C81EC9F3E4F6"
+					item: "biomancy:toxin_extract"
+					type: "item"
+				}
+				{
+					id: "553D2F590A02EDC5"
+					item: "biomancy:withering_ooze"
+					type: "item"
+				}
+				{
+					id: "55EAAD9213D49E84"
+					item: "biomancy:bile"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
 		}
 	]
 	title: "Magic"
