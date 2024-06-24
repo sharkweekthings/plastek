@@ -1,0 +1,9 @@
+{"type":"biomancy:bio_brewing","ingredients":[{
+"item":"biomancy:mineral_fragment"},{
+"item":"biomancy:bone_fragments"},{
+"item":"biomancy:elastic_fibers"},{
+"item":"minecraft:cobbled_deepslate"}],
+"nutrientsCost":8,
+"processingTime":200,
+"reactant":{"item":"biomancy:unstable_compound"},
+"result":{"count":2,"item":"mysticalagriculture:gold_essence"}}

@@ -1,0 +1,8 @@
+{"type":"minecraft:crafting_shaped","key":{
+	"E":{"item":"biomancy:primordial_core"},
+	"F":{"item":"biomancy:mob_sinew"},
+	"M":{"tag":"biomancy:raw_meats"},
+	"Z":{"item":"biomancy:mob_fang"},
+	"Y":{"item":"biomancy:mob_claw"}},
+	"pattern":["ZFY","MEM","MMM"],
+	"result":{"item":"biomancy:primordial_cradle"}}

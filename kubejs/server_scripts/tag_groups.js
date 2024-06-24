@@ -3834,6 +3834,19 @@ event.add('kubejs:everything_else',
   'mysticalagriculture:tertium_shovel',
   'mysticalagriculture:tertium_sword'
   ])
+  
+event.add('biomancy:raw_meats', 
+  [
+  'chococraft:chocobo_drumstick_raw',
+  'infernalexp:raw_hogchop',
+  'pneumaticcraft:raw_salmon_tempura',
+  'quark:raw_crab_leg',
+  'twilightforest:raw_venison',
+  'twilightforest:raw_meef',
+  'totemic:buffalo_meat',
+  'environmental:venison',
+  'environmental:duck',
+  ])
 
 // add silent saws to be usable with nat prog
 event.add('natprog:saw', 'silentgear:saw')

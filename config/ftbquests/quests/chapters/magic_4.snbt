@@ -740,6 +740,15 @@
 				"04F72CBA9EC4223F"
 				"4D7B3F94D4517D5A"
 			]
+			description: [
+				"Now you will need to construct a Primordial Cradle. "
+				""
+				"You may want to &cplace this block far from base, or in a compact dimension&r. There is a chance that Fleshy Veins will spawn. These will begin to rapidly spread and convert blocks in the area into flesh blocks."
+				""
+				"Fill the cradle up with raw meat, then use &b3 Golden Apples&r or &b2 Potion of Restoration&r on the machine."
+				""
+				"If you get a &aFlesh Blob&r to spawn, you'll need to kill that for some &aLiving Flesh&r. &bFeed hungry ones raw meat to make them bigger&r, and get more &aLiving Flesh&r when you kill them."
+			]
 			id: "184611A6562A633A"
 			tasks: [{
 				id: "60E818484EECA3A7"
@@ -754,7 +763,11 @@
 			description: [
 				"Biomancy is a gross little mod where you'll be working with mob parts, flesh, bile, and other gross things. "
 				""
-				"&bFor this pack&r, the machines will have some additional added recipes that will help &bgenerate resources&r. "
+				"For this pack, the machines will have some additional added recipes that will help &bgenerate resources&r. "
+				""
+				"Let's start by &amaking a Flesh Plunderer&r. This is a type of weapon that will let you get certain items off specific mobs."
+				""
+				"Hold CTRL over &bSharp Fang&r, &bSharp Claw&r and &bSinew&r to see which mobs drop the item. Then use a Flesh Plunderer to kill those mobs to get those items. "
 			]
 			id: "04F72CBA9EC4223F"
 			subtitle: "Ew. Gross!"
@@ -764,7 +777,7 @@
 				type: "checkmark"
 			}]
 			title: "Biomancy"
-			x: -2.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -780,53 +793,77 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["76D3433316A18AB7"]
+			dependencies: ["042648B51FF22978"]
+			description: [
+				"The Bio-Forge can make many decorative blocks. "
+				""
+				"If you look at the quest below this one, you can see some of the functional blocks of Biomancy."
+			]
 			id: "29AE71B97E20AE6B"
 			tasks: [{
 				id: "1839A9FBD11DE0CA"
 				item: "biomancy:bio_forge"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["76D3433316A18AB7"]
+			dependencies: ["042648B51FF22978"]
+			description: ["Putting items into the Decomposer will yield the various items above this quest."]
 			id: "76D455075E60F11D"
 			tasks: [{
 				id: "3253896C82B143C3"
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["29AE71B97E20AE6B"]
+			description: ["With the Bio-Lab you can convert decomposed items into certain Mystical Agriculture essences."]
 			id: "716245748C8D61DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D677752620542F"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Resource Generation!"
 			tasks: [{
 				id: "49DA8789CAC60C25"
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["29AE71B97E20AE6B"]
 			id: "2114ACE80F749C5C"
+			shape: "circle"
 			tasks: [{
 				id: "131F4CA52FB04675"
 				item: "biomancy:digester"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["76D455075E60F11D"]
+			description: ["Click on each item to see what you need to decompose your items."]
 			id: "5D8030B2B922FD9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "264AF771A04A6C98"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "gear"
+			subtitle: "The various results of decomposing items"
 			tasks: [
 				{
 					id: "4C95DECD935531E3"
@@ -888,9 +925,79 @@
 					item: "biomancy:bile"
 					type: "item"
 				}
+				{
+					id: "0D4E1CAB626F8D61"
+					item: "biomancy:volatile_fluid"
+					type: "item"
+				}
 			]
-			x: 1.0d
+			title: "Decomposition"
+			x: 2.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["76D3433316A18AB7"]
+			description: [
+				"The next 4 machines will require some &2Nutrient&r in order to work. "
+				""
+				"You can &2add any food items to fill up the machines with Nutrient&r. "
+				""
+				"Each recipe has it's own Nutrient cost. "
+			]
+			id: "042648B51FF22978"
+			tasks: [{
+				id: "03B39DC6BCF7DDBC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "My Nutrients. Please Retrieve Them!"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29AE71B97E20AE6B"]
+			description: [
+				"Biomancy has some pretty gross blocks for decorative purposes, however it also has some functional blocks. "
+				""
+				"You can hold 'ctrl' over each of the blocks in this quest to see what each one does."
+			]
+			id: "67A888441530DD43"
+			shape: "circle"
+			subtitle: "What do they smell like?"
+			tasks: [
+				{
+					id: "5DD58F8EE6E133B4"
+					item: "biomancy:tongue"
+					type: "item"
+				}
+				{
+					id: "24A8C34FFD45EB7A"
+					item: "biomancy:maw_hopper"
+					type: "item"
+				}
+				{
+					id: "76EB82A67F967E21"
+					item: "biomancy:fleshkin_chest"
+					type: "item"
+				}
+				{
+					id: "152AE957BF1BFFC1"
+					item: {
+						Count: 1b
+						id: "biomancy:storage_sac"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "22CFB36DADD97657"
+					item: "biomancy:fleshkin_pressure_plate"
+					type: "item"
+				}
+			]
+			title: "Some Disgustingly Cool Blocks"
+			x: 2.5d
+			y: -2.0d
 		}
 	]
 	title: "Magic"

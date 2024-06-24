@@ -1,0 +1,9 @@
+{"type":"biomancy:bio_brewing","ingredients":[{
+"item":"biomancy:bone_fragments"},{
+"item":"biomancy:organic_matter"},{
+"item":"biomancy:flesh_bits"},{
+"item":"minecraft:porkchop"}],
+"nutrientsCost":8,
+"processingTime":200,
+"reactant":{"item":"biomancy:genetic_compound"},
+"result":{"count":2,"item":"mysticalagriculture:pig_essence"}}

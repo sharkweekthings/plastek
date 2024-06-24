@@ -1,0 +1,8 @@
+{"type":"minecraft:crafting_shaped","key":{
+	"E":{"item":"biomancy:living_flesh"},
+	"F":{"item":"biomancy:mob_fang"},
+	"G":{"item":"biomancy:mob_gland"},
+	"Z":{"item":"minecraft:composter"},
+	"M":{"tag":"biomancy:raw_meats"}},
+	"pattern":["FGF","MZM","MEM"],
+	"result":{"item":"biomancy:decomposer"}}

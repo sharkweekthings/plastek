@@ -1,0 +1,9 @@
+{"type":"biomancy:bio_brewing","ingredients":[{
+"item":"biomancy:bone_fragments"},{
+"item":"biomancy:organic_matter"},{
+"item":"biomancy:flesh_bits"},{
+"item":"minecraft:blue_ice"}],
+"nutrientsCost":8,
+"processingTime":200,
+"reactant":{"item":"biomancy:organic_compound"},
+"result":{"count":2,"item":"mysticalagriculture:ice_essence"}}

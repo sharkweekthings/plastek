@@ -1,0 +1,8 @@
+{"type":"minecraft:crafting_shaped","key":{
+	"C":{"item":"biomancy:mob_claw"},
+	"E":{"item":"biomancy:living_flesh"},
+	"M":{"tag":"biomancy:raw_meats"},
+	"Z":{"item":"biomancy:primordial_core"},
+	"S":{"item":"minecraft:slime_block"}},
+	"pattern":["CSC","MZM","MEM"],
+	"result":{"item":"biomancy:bio_forge"}}
