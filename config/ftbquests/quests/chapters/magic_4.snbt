@@ -26,8 +26,8 @@
 				type: "checkmark"
 			}]
 			title: "Wrapping Up w/ Botania and Occultism, and the Start of Something New"
-			x: 0.0d
-			y: -0.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -45,8 +45,8 @@
 				type: "checkmark"
 			}]
 			title: "Demon Mining"
-			x: 2.0d
-			y: -0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -61,8 +61,8 @@
 				title: "Wormhole Extreme"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -88,7 +88,7 @@
 			}]
 			title: "Gaia Guardian - Part 1"
 			x: -2.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["545BCD238889A9AF"]
@@ -126,8 +126,8 @@
 				}
 			]
 			title: "Getting Thirsty"
-			x: -4.0d
-			y: 1.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["50C38CBD42331813"]
@@ -151,8 +151,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 2.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["50E223D6CA37794C"]
@@ -175,8 +175,8 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -208,7 +208,7 @@
 			]
 			title: "The Arena"
 			x: -2.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1AA726DA3A51CAC5"]
@@ -232,7 +232,7 @@
 				type: "advancement"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7F896FEF828D86E1"]
@@ -252,7 +252,7 @@
 				type: "advancement"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["48D65877C05F1D79"]
@@ -290,7 +290,7 @@
 			]
 			title: "Drinking from Yggdrasil"
 			x: -2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["637459C5F511748D"]
@@ -324,7 +324,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7370F0819950059B"]
@@ -357,8 +357,8 @@
 				}
 			]
 			title: "Some Basic Stuff"
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6CD12F2F9CAA0FD6"]
@@ -408,8 +408,8 @@
 				}
 			]
 			title: "The Ritual Items"
-			x: 2.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5C1F5DFD44351484"]
@@ -435,8 +435,8 @@
 				item: "occultism:dimensional_mineshaft"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["34BD9E6EC406BECB"]
@@ -477,8 +477,8 @@
 				}
 			]
 			title: "The Next Ritual"
-			x: 2.0d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["43AC23BA6F042C2C"]
@@ -518,7 +518,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["48ABF1D3186757AE"]
@@ -541,8 +541,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 6.0d
+			x: -6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0933440E7DFA2B10"]
@@ -559,8 +559,8 @@
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -591,8 +591,8 @@
 				type: "checkmark"
 			}]
 			title: "Dragon Eye Recovery"
-			x: -6.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["48ABF1D3186757AE"]
@@ -611,8 +611,8 @@
 				type: "item"
 			}]
 			title: "Storing Knowledge"
-			x: -5.5d
-			y: 5.0d
+			x: -6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2EA3894CC2A995DD"]
@@ -644,8 +644,8 @@
 				}
 			]
 			title: "More Basic Stuff"
-			x: 2.0d
-			y: 4.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["48ABF1D3186757AE"]
@@ -662,8 +662,8 @@
 				type: "checkmark"
 			}]
 			title: "Two More Forges"
-			x: -4.0d
-			y: -2.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4BC048AF7DADFD7D"]
@@ -688,8 +688,8 @@
 				}
 			]
 			title: "Lightning Dragon Forge"
-			x: -3.5d
-			y: -3.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4BC048AF7DADFD7D"]
@@ -714,8 +714,8 @@
 				}
 			]
 			title: "Fire Dragon Forge"
-			x: -4.5d
-			y: -3.5d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1DDAF7F532AD2DF4"]
@@ -732,31 +732,29 @@
 				type: "item"
 			}]
 			title: "Eye of the Dragon"
-			x: -6.0d
-			y: -3.5d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"04F72CBA9EC4223F"
-				"4D7B3F94D4517D5A"
-			]
+			dependencies: ["41F595BD54B7AFB0"]
 			description: [
-				"Now you will need to construct a Primordial Cradle. "
+				"The first device will be the Primordial Cradle. "
 				""
 				"You may want to &cplace this block far from base, or in a compact dimension&r. There is a chance that Fleshy Veins will spawn. These will begin to rapidly spread and convert blocks in the area into flesh blocks."
 				""
 				"Fill the cradle up with raw meat, then use &b3 Golden Apples&r or &b2 Potion of Restoration&r on the machine."
 				""
-				"If you get a &aFlesh Blob&r to spawn, you'll need to kill that for some &aLiving Flesh&r. &bFeed hungry ones raw meat to make them bigger&r, and get more &aLiving Flesh&r when you kill them."
+				"If you get a &aFlesh Blob&r to spawn, you'll need to kill that for some &aLiving Flesh&r. &bFeed hungry blobs raw meat to make them bigger&r, and get more &aLiving Flesh&r when you kill them."
 			]
 			id: "184611A6562A633A"
+			subtitle: "It's aliiiiveeeeee!"
 			tasks: [{
 				id: "60E818484EECA3A7"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
@@ -765,23 +763,32 @@
 				""
 				"For this pack, the machines will have some additional added recipes that will help &bgenerate resources&r. "
 				""
-				"Let's start by &amaking a Flesh Plunderer&r. This is a type of weapon that will let you get certain items off specific mobs."
-				""
-				"Hold CTRL over &bSharp Fang&r, &bSharp Claw&r and &bSinew&r to see which mobs drop the item. Then use a Flesh Plunderer to kill those mobs to get those items. "
+				"Let's start by &amaking a Flesh Plunderer&r. You will need this item to get Sharp Claw, Sharp Fang, Sinew, Bile Gland, and Toxic Gland."
 			]
 			id: "04F72CBA9EC4223F"
 			subtitle: "Ew. Gross!"
 			tasks: [{
-				id: "70A02D09A4E0ED32"
-				title: "Ok"
-				type: "checkmark"
+				id: "3F3AA65727EF11A6"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			title: "Biomancy"
-			x: -1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["184611A6562A633A"]
+			description: [
+				"To make the next 4 machines you will need at least 6 Living Flesh. "
+				""
+				"If you want to make some of the blocks from Biomancy you will need more."
+			]
 			id: "76D3433316A18AB7"
 			subtitle: "Lets Get Fleshy"
 			tasks: [{
@@ -789,15 +796,17 @@
 				item: "biomancy:living_flesh"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["042648B51FF22978"]
+			dependencies: ["76D3433316A18AB7"]
 			description: [
-				"The Bio-Forge can make many decorative blocks. "
+				"The Bio-Forge can make many decorative fleshy blocks. "
 				""
 				"If you look at the quest below this one, you can see some of the functional blocks of Biomancy."
+				""
+				"&o&aAll food items can be input to fill up the Nutrient gauge.&r&r"
 			]
 			id: "29AE71B97E20AE6B"
 			tasks: [{
@@ -805,20 +814,24 @@
 				item: "biomancy:bio_forge"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["042648B51FF22978"]
-			description: ["Putting items into the Decomposer will yield the various items above this quest."]
+			dependencies: ["76D3433316A18AB7"]
+			description: [
+				"Putting items into the Decomposer will yield the various items above this quest."
+				""
+				"&o&aAll food items can be input to fill up the Nutrient gauge.&r&r"
+			]
 			id: "76D455075E60F11D"
 			tasks: [{
 				id: "3253896C82B143C3"
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["29AE71B97E20AE6B"]
@@ -837,11 +850,12 @@
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29AE71B97E20AE6B"]
+			description: ["Digest various items into Nutrient Paste which can be turned into the item Nutrient."]
 			id: "2114ACE80F749C5C"
 			shape: "circle"
 			tasks: [{
@@ -849,12 +863,16 @@
 				item: "biomancy:digester"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["76D455075E60F11D"]
-			description: ["Click on each item to see what you need to decompose your items."]
+			description: [
+				"Clicking on each item will let you know which ingredient you need to put into the Decomposer."
+				""
+				"The &aToxin Extracts&r will be a key component in making &aAcid&r."
+			]
 			id: "5D8030B2B922FD9F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -932,27 +950,8 @@
 				}
 			]
 			title: "Decomposition"
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["76D3433316A18AB7"]
-			description: [
-				"The next 4 machines will require some &2Nutrient&r in order to work. "
-				""
-				"You can &2add any food items to fill up the machines with Nutrient&r. "
-				""
-				"Each recipe has it's own Nutrient cost. "
-			]
-			id: "042648B51FF22978"
-			tasks: [{
-				id: "03B39DC6BCF7DDBC"
-				title: "Ok"
-				type: "checkmark"
-			}]
-			title: "My Nutrients. Please Retrieve Them!"
-			x: 1.0d
-			y: -3.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["29AE71B97E20AE6B"]
@@ -996,8 +995,64 @@
 				}
 			]
 			title: "Some Disgustingly Cool Blocks"
-			x: 2.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04F72CBA9EC4223F"]
+			id: "41F595BD54B7AFB0"
+			shape: "square"
+			subtitle: "Hold CTRL over the items to see which mobs drop them."
+			tasks: [
+				{
+					id: "0BB324481FC2604A"
+					item: "biomancy:mob_claw"
+					type: "item"
+				}
+				{
+					id: "5310368A44F74CA3"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+				{
+					id: "7B7E97C3DF858452"
+					item: "biomancy:mob_sinew"
+					type: "item"
+				}
+				{
+					id: "5FF8D972D78E5496"
+					item: "biomancy:mob_gland"
+					type: "item"
+				}
+				{
+					id: "3EC399864EBCD506"
+					item: "biomancy:toxin_gland"
+					type: "item"
+				}
+			]
+			title: "Kill Mobs with a Flesh Plunderer"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04F72CBA9EC4223F"]
+			description: ["Bone Marrow will be used throughout Biomancy, but won't be used for the recipes I added."]
+			id: "7438C26FD70D6D4F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4CA1B5B661D5ADB3"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "1C03F1AE4D6EEDDC"
+					item: "biomancy:withered_mob_marrow"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
 		}
 	]
 	title: "Magic"

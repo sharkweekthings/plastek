@@ -1,0 +1,6 @@
+{"type":"minecraft:crafting_shaped","key":{
+	"B":{"tag":"forge:bones"},
+	"C":{"item":"emendatusenigmatica:steel_rod"},
+	"M":{"tag":"biomancy:raw_meats"}},
+	"pattern":["BB "," BM","MC "],
+	"result":{"item":"biomancy:despoil_sickle"}}

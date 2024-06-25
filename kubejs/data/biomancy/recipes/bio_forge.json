@@ -3,6 +3,7 @@
 	"E":{"item":"biomancy:living_flesh"},
 	"M":{"tag":"biomancy:raw_meats"},
 	"Z":{"item":"biomancy:primordial_core"},
-	"S":{"item":"minecraft:slime_block"}},
-	"pattern":["CSC","MZM","MEM"],
+	"S":{"item":"minecraft:slime_block"},
+	"T":{"item":"create:brass_casing"}},
+	"pattern":["CSC","EZE","MTM"],
 	"result":{"item":"biomancy:bio_forge"}}

@@ -3,6 +3,7 @@
 	"F":{"item":"biomancy:mob_fang"},
 	"G":{"item":"biomancy:mob_gland"},
 	"Z":{"item":"minecraft:composter"},
-	"M":{"tag":"biomancy:raw_meats"}},
-	"pattern":["FGF","MZM","MEM"],
+	"M":{"tag":"biomancy:raw_meats"},
+	"T":{"item":"create:brass_casing"}},
+	"pattern":["FGF","EZE","MTM"],
 	"result":{"item":"biomancy:decomposer"}}

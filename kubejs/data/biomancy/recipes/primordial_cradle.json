@@ -3,6 +3,7 @@
 	"F":{"item":"biomancy:mob_sinew"},
 	"M":{"tag":"biomancy:raw_meats"},
 	"Z":{"item":"biomancy:mob_fang"},
-	"Y":{"item":"biomancy:mob_claw"}},
-	"pattern":["ZFY","MEM","MMM"],
+	"Y":{"item":"biomancy:mob_claw"},
+	"T":{"item":"create:brass_casing"}},
+	"pattern":["ZFY","MEM","MTM"],
 	"result":{"item":"biomancy:primordial_cradle"}}

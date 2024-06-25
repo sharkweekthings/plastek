@@ -421,7 +421,7 @@
 				""
 				"Put all that nonsense &binto a Pressure Chamber&r to get &a1 Etching Acid Catalyst&r. "
 				""
-				"&aPut Liquid Fertilizer, Fluid XP, and 1 Etching Acid Catalyst into the Refinery to get 1000mb of Etching Acid&r."
+				"&aPut Liquid Fertilizer, Acid, and 1 Etching Acid Catalyst into the Refinery to get 1000mb of Etching Acid&r."
 			]
 			id: "59AE13AF70687556"
 			tasks: [{
@@ -1600,7 +1600,12 @@
 		}
 		{
 			dependencies: ["1F451EF299093BB6"]
-			description: ["Liquid Fertilizer can help speed up crop growth. Maybe try putting it in a Sprinkler over some crops?"]
+			description: [
+				"Liquid Fertilizer can be created by mixing Fertilizer, Nitrate Dust, and some Fluid XP in a Create Mixer. "
+				""
+				""
+				"It can help speed up crop growth! Maybe try putting it in a Sprinkler over some crops?"
+			]
 			id: "61AB74749A48B6AC"
 			shape: "square"
 			subtitle: "Make it rain"
@@ -1615,6 +1620,15 @@
 		}
 		{
 			dependencies: ["61AB74749A48B6AC"]
+			description: [
+				"You may want 2 of these. "
+				""
+				"&9&nRefinery #1&r&r"
+				"Put 300mb Kerosense, 200mb Fluid XP, and 1 Toxin Gland into a Refinery. This will net you 500mb of Acid. "
+				""
+				"&9R&nefinery #2&r&r"
+				"Put 500mb Liquid Fertilizer, 500mb Acid, and 1 Etching Acid Catalyst into a Refinery. This will net you 1000mb of Etching Acid. "
+			]
 			id: "70CF244229126C5F"
 			tasks: [
 				{
