@@ -1859,6 +1859,24 @@ event.custom({
   ]
 }).id('create:crushing/nd_black_sandstone')
 
+// Powdered Obsidian Milling
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": 'minecraft:obsidian'
+        }
+    ],
+    "processingTime": 50,
+    "results": [
+        {
+            "chance": 0.35,
+            "count": 1,
+            "item": 'create:powdered_obsidian'
+        }
+    ]
+}).id('create:powdered_obsidian_milling')
+
 
 //    
 })

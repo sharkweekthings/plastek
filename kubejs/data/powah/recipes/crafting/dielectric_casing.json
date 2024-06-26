@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"ihi",
+	"v v",
+	"ihi"
+  ],
+  "key": {
+	"v": {
+	  "item": "powah:dielectric_rod"
+	},
+	"h": {
+	  "item": "powah:dielectric_rod_horizontal"
+	},
+	"i": {
+	  "item": "mekanism:hdpe_sheet"
+	}
+  },
+  "result": {
+	"item": "powah:dielectric_casing"
+  }
+}

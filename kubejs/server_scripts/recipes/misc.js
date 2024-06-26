@@ -186,6 +186,34 @@ ServerEvents.recipes(event => {
   event.remove({id: 'farmersdelight:organic_compost_from_tree_bark'})
   event.remove({id: 'minecraft:pumpkin_pie'})
   event.remove({id: 'prettypipes:pipe'})
+  event.remove({id: 'powah:crafting/furnator_basic'})
+  event.remove({id: 'powah:crafting/furnator_blazing'})
+  event.remove({id: 'powah:crafting/furnator_hardened'})
+  event.remove({id: 'powah:crafting/furnator_niotic'})
+  event.remove({id: 'powah:crafting/furnator_nitro'})
+  event.remove({id: 'powah:crafting/furnator_spirited'})
+  event.remove({id: 'powah:crafting/furnator_starter'})
+  event.remove({id: 'powah:crafting/magmator_basic'})
+  event.remove({id: 'powah:crafting/magmator_blazing'})
+  event.remove({id: 'powah:crafting/magmator_hardened'})
+  event.remove({id: 'powah:crafting/magmator_niotic'})
+  event.remove({id: 'powah:crafting/magmator_nitro'})
+  event.remove({id: 'powah:crafting/magmator_spirited'})
+  event.remove({id: 'powah:crafting/magmator_starter'})
+  event.remove({id: 'powah:crafting/solar_panel_basic'})
+  event.remove({id: 'powah:crafting/solar_panel_blazing'})
+  event.remove({id: 'powah:crafting/solar_panel_hardened'})
+  event.remove({id: 'powah:crafting/solar_panel_niotic'})
+  event.remove({id: 'powah:crafting/solar_panel_nitro'})
+  event.remove({id: 'powah:crafting/solar_panel_spirited'})
+  event.remove({id: 'powah:crafting/solar_panel_starter'})
+  event.remove({id: 'powah:crafting/thermo_generator_basic'})
+  event.remove({id: 'powah:crafting/thermo_generator_blazing'})
+  event.remove({id: 'powah:crafting/thermo_generator_hardened'})
+  event.remove({id: 'powah:crafting/thermo_generator_niotic'})
+  event.remove({id: 'powah:crafting/thermo_generator_nitro'})
+  event.remove({id: 'powah:crafting/thermo_generator_spirited'})
+  event.remove({id: 'powah:crafting/thermo_generator_starter'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
   // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
@@ -1170,14 +1198,14 @@ ServerEvents.recipes(event => {
     1: 'minecraft:bone',
     2: 'minecraft:leather_boots'}).id('immersive_armors:bone_boots')
 
-// Thermo Generator Starter
-  event.shaped('powah:thermo_generator_starter', 
-    ['111','232','454'], {
-    1: 'powah:dielectric_paste',
-    2: 'powah:capacitor_basic_tiny',
-    3: 'powah:dielectric_casing',
-    4: 'powah:thermoelectric_plate',
-    5: 'powah:crystal_nitro',}).id('powah:crafting/thermo_generator_starter')
+// // Thermo Generator Starter
+//   event.shaped('powah:thermo_generator_starter', 
+//     ['111','232','454'], {
+//     1: 'powah:dielectric_paste',
+//     2: 'powah:capacitor_basic_tiny',
+//     3: 'powah:dielectric_casing',
+//     4: 'powah:thermoelectric_plate',
+//     5: 'powah:crystal_nitro',}).id('powah:crafting/thermo_generator_starter')
 
 // Basic Capacitor  
   event.shaped('powah:capacitor_basic',

@@ -346,7 +346,7 @@
 			]
 			title: "The Hopper and the Drawer"
 			x: -6.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["420F4920C8B2367B"]
@@ -363,6 +363,7 @@
 				""
 				"&eCheck the Utility section for a few Pneumatic Craft upgrades, tubes, etc.&r"
 			]
+			hide_dependency_lines: false
 			id: "3F3A305DB84B1A1E"
 			rewards: [
 				{
@@ -386,7 +387,7 @@
 			}]
 			title: "Pressure Pushing Down On the Iron Ingot"
 			x: -2.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["434CB01AA70F4D9B"]
@@ -554,7 +555,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0B1AAF40ACCABEB6"]
+			dependencies: [
+				"0B1AAF40ACCABEB6"
+				"5C631A8F1C8AC07F"
+			]
 			description: [
 				"If you're looking for Rose Quartz Shards, you can find them in the Nether at the Crystalline Chasm biome. "
 				""
@@ -562,6 +566,7 @@
 				""
 				"Once you have at least 1 shard, you can use the Pressure Chamber to start duplicating them. "
 			]
+			hide_dependency_lines: false
 			id: "564AA140606FC4F4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -582,6 +587,7 @@
 			dependencies: [
 				"3F3A305DB84B1A1E"
 				"564AA140606FC4F4"
+				"5C631A8F1C8AC07F"
 			]
 			description: [
 				"Are you ready to go to the Moon? "
@@ -599,7 +605,7 @@
 			}]
 			title: "Moon Landing"
 			x: 2.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5C177330670C0A81"]
@@ -610,7 +616,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C177330670C0A81"]
@@ -650,7 +656,7 @@
 			}]
 			title: "Bah."
 			x: 4.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3A9CE464B5D8E24F"]
@@ -661,7 +667,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3A9CE464B5D8E24F"]
@@ -672,7 +678,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7FE6C2524B72462E"]
@@ -720,7 +726,7 @@
 				}
 			]
 			x: 2.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["41FF7ECF419E6A49"]
@@ -741,7 +747,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["17D374CF3021FCC2"]
@@ -776,7 +782,7 @@
 			}]
 			title: "Chargin Up The Space Suit"
 			x: 5.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6BDAA8260D1272B1"]
@@ -787,7 +793,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6BDAA8260D1272B1"]
@@ -798,7 +804,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -840,7 +846,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["564AA140606FC4F4"]
@@ -1127,7 +1133,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["07F5B940549D2BF9"]
@@ -1152,7 +1158,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["07C95F2BD72BAC71"]
@@ -1170,7 +1176,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7FE6C2524B72462E"]
@@ -1183,7 +1189,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1215,7 +1221,7 @@
 			}]
 			title: "Lost Plastic Eye"
 			x: -6.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["34696C1BC236CA44"]
@@ -1315,7 +1321,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["07F5B940549D2BF9"]
@@ -1329,6 +1335,25 @@
 			}]
 			x: 6.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["54752DB4B41302DE"]
+			hide_dependency_lines: false
+			id: "5C631A8F1C8AC07F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57AF41138E87BF50"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "19AE77D111694B7A"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
 		}
 	]
 	title: "Tech"

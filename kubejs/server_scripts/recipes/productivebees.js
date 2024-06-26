@@ -233,7 +233,7 @@ ServerEvents.recipes(event => {
     1: 'create:basin',
     2: 'minecraft:waxed_copper_block',
     3: 'emendatusenigmatica:copper_gear',
-    4: 'emendatusenigmatica:brass_plate',
+    4: 'pneumaticcraft:ingot_iron_compressed',
     5: 'productivebees:bee_cage'}).id('productivebees:centrifuge')
 
 // Powered Centrifuge

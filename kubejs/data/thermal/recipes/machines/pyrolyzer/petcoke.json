@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pyrolyzer",
+  "ingredient": {
+    "item": "immersivepetroleum:petcoke"
+  },
+  "result": [
+    {
+      "item": "thermal:tar",
+      "chance": 0.75
+    },
+    {
+      "fluid": "pneumaticcraft:oil",
+      "amount": 50
+    }
+  ],
+  "experience": 0.15
+}
