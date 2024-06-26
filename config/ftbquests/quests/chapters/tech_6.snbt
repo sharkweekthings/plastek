@@ -1429,7 +1429,6 @@
 		}
 		{
 			dependencies: ["6A337CED7C4DE0ED"]
-			description: [""]
 			id: "4410DB0A1CC3F8E3"
 			tasks: [{
 				count: 25L

@@ -26,8 +26,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["46478F6D43F0A6EA"]
@@ -578,6 +578,71 @@
 			]
 			x: -3.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["42EBA0458399EFB6"]
+			description: [
+				"All Ender Chests are linked together by their 3 color pattern. "
+				""
+				"Heres an example of the default craft:"
+				""
+				"Ender Chest White/White/White"
+				""
+				"If you make 2 Ender Chests that are White/White/White, any item that you put inside will be accessible from the other point.  "
+				""
+				"You can further customize this by using Dye to add colors. Any of the same color pattern will be able to access one another. "
+			]
+			id: "4D804F7DE69CAEF9"
+			shape: "circle"
+			tasks: [{
+				id: "6D69A84B2EABFF20"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42EBA0458399EFB6"]
+			description: [
+				"All Ender Tanks are linked together by their 3 color pattern. "
+				""
+				"Heres an example:"
+				""
+				"Ender Tank dyed with Green/Red/Blue"
+				""
+				"If you make 2 Ender Tanks that are Green/Red/Blue, any fluid that you put inside will be accessible from the other point.   "
+			]
+			id: "6EBE0519DDAF9A54"
+			shape: "circle"
+			tasks: [{
+				id: "35F19BAF393E842B"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42EBA0458399EFB6"]
+			description: [
+				"All Ender Pouch are linked together by their 3 color pattern. "
+				""
+				"Heres an example:"
+				""
+				"Ender Pouch dyed with Red/Red/Blue"
+				""
+				"If you make 2 Ender Pouches that are Red/Red/Blue, any item that you put inside will be accessible from the other point.  "
+			]
+			id: "4F6B8B0FF9D768E4"
+			shape: "circle"
+			tasks: [{
+				id: "3E0AAA236CF7503E"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
 		}
 	]
 	title: "Storage"

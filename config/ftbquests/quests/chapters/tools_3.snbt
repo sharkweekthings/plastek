@@ -841,7 +841,7 @@
 			]
 			title: "Drill Bits"
 			x: -1.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F3A305DB84B1A1E"]
@@ -897,7 +897,7 @@
 				}
 			]
 			x: 5.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["79705DCA6ADC0148"]

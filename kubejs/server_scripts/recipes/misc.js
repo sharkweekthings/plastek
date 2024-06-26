@@ -924,68 +924,74 @@ ServerEvents.recipes(event => {
 
 // Dissolution Chamber Parts
   event.shaped('kubejs:dissolution_chamber_parts',
-    ['545','232','216'], {
+    ['545','232','716'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
     3: 'industrialforegoing:machine_frame_pity',
     4: 'minecraft:bucket',
     5: 'pneumaticcraft:plastic',
-    6: 'kubejs:empty_parts_box'}).id('kubejs:misc/dissolution_chamber_parts')
+    6: 'kubejs:empty_parts_box',
+    7: 'emendatusenigmatica:steel_gear'}).id('kubejs:misc/dissolution_chamber_parts')
 
 // Fluid Cell Parts
   event.shaped('kubejs:fluid_cell_parts',
-    ['343','212','645'], {
+    ['343','212','675'], {
     1: 'thermal:fluid_cell_frame',
     2: 'thermal:redstone_servo',
-    3: 'emendatusenigmatica:iron_plate',
+    3: 'emendatusenigmaticas:steel_plate',
     4: 'pneumaticcraft:plastic',
     5: 'kubejs:empty_parts_box',
-    6: 'pneumaticcraft:printed_circuit_board'}).id('kubejs:misc/fluid_cell_parts')
+    6: 'pneumaticcraft:printed_circuit_board',
+    7: 'emendatusenigmatica:plasteel_plate'}).id('kubejs:misc/fluid_cell_parts')
 
 // Simulation Chamber Parts
   event.shaped('kubejs:simulation_chamber_parts',
-    ['353','414','326'], {
+    ['353','414','726'], {
     1: 'industrialforegoing:machine_frame_supreme',
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
     4: 'minecraft:goat_spawn_egg',
     5: 'minecraft:black_dye',
-    6: 'kubejs:empty_parts_box'}).id('kubejs:misc/simulation_chamber_parts')
+    6: 'kubejs:empty_parts_box',
+    7: 'emendatusenigmatica:plasteel_plate'}).id('kubejs:misc/simulation_chamber_parts')
 
 // Loot Fabricator Parts
   event.shaped('kubejs:loot_fabricator_parts',
-    ['353','414','326'], {
+    ['353','414','726'], {
     1: 'industrialforegoing:machine_frame_supreme',
     2: 'pneumaticcraft:printed_circuit_board',
     3: 'pneumaticcraft:plastic',
     4: 'minecraft:donkey_spawn_egg',
     5: 'minecraft:black_dye',
-    6: 'kubejs:empty_parts_box'}).id('kubejs:misc/loot_fabricator_parts')
+    6: 'kubejs:empty_parts_box',
+    7: 'emendatusenigmatica:plasteel_plate'}).id('kubejs:misc/loot_fabricator_parts')
 
 // Digital Miner Parts
   event.shaped('kubejs:digital_miner_parts',
-    ['333','262','415'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'thermal:lead_plate',
-  3: 'thermal:netherite_plate',
-  4: 'pneumaticcraft:plastic',
-  5: 'kubejs:empty_parts_box',
-  6: 'industrialforegoing:machine_frame_supreme'}).id('kubejs:misc/digital_miner_parts')
+    ['737','262','415'], {
+    1: 'pneumaticcraft:printed_circuit_board',
+    2: 'thermal:lead_plate',
+    3: 'thermal:netherite_plate',
+    4: 'pneumaticcraft:plastic',
+    5: 'kubejs:empty_parts_box',
+    6: 'industrialforegoing:machine_frame_supreme',
+    7: 'emendatusenigmatica:plasteel_plate'}).id('kubejs:misc/digital_miner_parts')
 
 // Prediction Matrix Parts
   event.shaped('kubejs:empty_prediction_parts',
-    ['434','212','435'], {
-  1: 'thermal:enderium_glass',
-  2: 'emendatusenigmatica:brass_plate',
-  3: 'emendatusenigmatica:steel_plate',
-  4: 'pneumaticcraft:plastic',
-  5: 'kubejs:empty_parts_box'}).id('kubejs:misc/empty_prediction_parts')
+    ['434','212','665'], {
+    1: 'thermal:enderium_glass',
+    2: 'emendatusenigmatica:brass_plate',
+    3: 'emendatusenigmatica:steel_plate',
+    4: 'pneumaticcraft:plastic',
+    5: 'kubejs:empty_parts_box',
+    6: 'emendatusenigmatica:plasteel_plate'}).id('kubejs:misc/empty_prediction_parts')
 
 // Energy Cable Starter Parts
   event.shaped('kubejs:energy_cable_starter_parts',
     ['111','232','114'], {
   1: 'powah:dielectric_rod_horizontal',
-  2: 'emendatusenigmatica:steel_rod',
+  2: 'emendatusenigmatica:plasteel_rod',
   3: 'powah:capacitor_basic_tiny',
   4: 'kubejs:empty_parts_box'}).id('kubejs:misc/energy_cable_starter_parts')
 

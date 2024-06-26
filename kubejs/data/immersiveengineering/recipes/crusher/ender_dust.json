@@ -1,3 +1,0 @@
-{"type":"immersiveengineering:crusher","energy":8000,"input":{"tag":"forge:ender_pearls"},
-"result":{"item":"ae2:ender_dust"},"secondaries":[{"chance":0.05,
-"output":{"item":"ae2:ender_dust"}}]}

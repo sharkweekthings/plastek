@@ -125,22 +125,22 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["45216AA2FD4ED89F"]
+			dependencies: ["268D87327288B46D"]
 			description: [
 				"Putting Bitumen in the Pyrolyzer will turn it into Coke/Tar/Heavy Oil, all of which will be beneficial some way or another."
 				""
 				"You can also drop an Etching Acid Catalyst into here for some Etching Acid, and a very small chance to get the catalyst returned. "
 			]
 			id: "2C823AA36886D512"
-			shape: "circle"
+			shape: "square"
 			subtitle: "Bye bye by-product"
 			tasks: [{
 				id: "6AC3116388D87D5D"
 				item: "thermal:machine_pyrolyzer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5FCBAAD5BBD07EC0"]
@@ -193,26 +193,26 @@
 		{
 			dependencies: ["0EA3983877DAE009"]
 			id: "153362F00BFC2154"
-			subtitle: "Latex"
+			subtitle: "Plastic"
 			tasks: [{
 				id: "1E32E7A1929F5826"
 				item: "industrialforegoing:dissolution_chamber"
 				type: "item"
 			}]
-			title: "Latex Dissolution Chamber"
+			title: "Plastic Dissolution Chamber"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0EA3983877DAE009"]
 			id: "5BEA0D7195BF43F8"
-			subtitle: "Plastic"
+			subtitle: "Latex"
 			tasks: [{
 				id: "434D296406AE77E4"
 				item: "industrialforegoing:dissolution_chamber"
 				type: "item"
 			}]
-			title: "Plastic Dissolution Chamber"
+			title: "Latex Dissolution Chamber"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -250,7 +250,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Using Some Fluids"
+			title: "Lets Start With Fluids"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -331,10 +331,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["45216AA2FD4ED89F"]
+			dependencies: ["2C823AA36886D512"]
 			id: "5D84AA2C3504353F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -348,8 +348,8 @@
 				item: "thermal:tar"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["45216AA2FD4ED89F"]
@@ -367,7 +367,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["57046DF3FB29F0BB"]
@@ -487,7 +487,7 @@
 				type: "checkmark"
 			}]
 			title: "Smarter Resources"
-			x: 4.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -518,7 +518,7 @@
 				}
 			]
 			title: "Plant Things"
-			x: 3.0d
+			x: 3.5d
 			y: 5.5d
 		}
 		{
@@ -543,7 +543,7 @@
 				}
 			]
 			title: "Animal Things"
-			x: 5.0d
+			x: 5.5d
 			y: 5.5d
 		}
 		{
@@ -556,7 +556,7 @@
 				type: "item"
 			}]
 			title: "Sea Things"
-			x: 4.0d
+			x: 4.5d
 			y: 5.5d
 		}
 		{
@@ -570,7 +570,7 @@
 				type: "checkmark"
 			}]
 			title: "Applied Energistics 2"
-			x: -5.0d
+			x: -5.5d
 			y: 4.0d
 		}
 		{
@@ -581,7 +581,7 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 7.0d
 		}
 		{
@@ -613,7 +613,7 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
+			x: -7.0d
 			y: 6.5d
 		}
 		{
@@ -627,7 +627,7 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 6.5d
 		}
 		{
@@ -640,7 +640,7 @@
 				item: "prettypipes:blank_module"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 5.5d
 		}
 		{
@@ -658,7 +658,7 @@
 				item: "ae2:logic_processor"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
@@ -676,7 +676,7 @@
 				item: "ae2:calculation_processor"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 8.5d
 		}
 		{
@@ -694,7 +694,7 @@
 				item: "ae2:engineering_processor"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 8.5d
 		}
 		{
@@ -705,7 +705,7 @@
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -723,7 +723,7 @@
 				item: "ae2:matter_ball"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 4.0d
 		}
 		{
@@ -743,7 +743,7 @@
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 5.0d
 		}
 		{
@@ -866,18 +866,19 @@
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: ["You will need the Induction Smelter and Pyrolyzer (or Fractionating Still) for many Age 5 recipes. "]
 			id: "268D87327288B46D"
 			tasks: [{
 				id: "0B6947A51943B93B"
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "The Last Few Thermal Machines"
+			title: "We're Gonna Need.. Tar?"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -890,7 +891,7 @@
 				item: "thermal:machine_press"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -901,7 +902,7 @@
 				item: "thermal:machine_crystallizer"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -924,7 +925,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -947,7 +948,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -990,7 +991,7 @@
 				item: "silentcompat:plasteel_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: 9.0d
 		}
 		{
@@ -1021,7 +1022,7 @@
 				}
 			]
 			title: "Plasteel Parts"
-			x: 1.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -1039,7 +1040,7 @@
 				item: "silentcompat:voidmetal_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 9.0d
 		}
 		{
@@ -1270,7 +1271,7 @@
 				type: "item"
 			}]
 			title: "Smarter Mining"
-			x: 6.0d
+			x: 6.5d
 			y: 5.5d
 		}
 		{
@@ -1314,7 +1315,7 @@
 				}
 			]
 			title: "Molds and Dies"
-			x: 2.0d
+			x: 3.5d
 			y: 7.5d
 		}
 		{
@@ -1326,7 +1327,7 @@
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
-			x: -5.0000000000000036d
+			x: -5.5000000000000036d
 			y: 2.4000000000000004d
 		}
 	]

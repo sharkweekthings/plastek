@@ -108,39 +108,43 @@ ServerEvents.recipes(event => {
 
 // Arboreal Extractor
   event.shaped('thermal:device_tree_extractor',
-    ['545','232','212'], {
+    ['545','232','616'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_pity',
 	4: 'emendatusenigmatica:iron_gear',
-	5: 'pneumaticcraft:plastic'}).id('thermal:device_tree_extractor')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('thermal:device_tree_extractor')
 
 // Fractionating Still
   event.shaped('thermal:machine_refinery',
-    ['545','232','212'], {
+    ['545','232','616'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
+	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'create:mechanical_pump',
-	5: 'pneumaticcraft:plastic'}).id('thermal:machine_refinery')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('thermal:machine_refinery')
 
 // Crystallizer
   event.shaped('thermal:machine_crystallizer',
-    ['545','232','212'], {
+    ['545','232','616'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:diamond_block',
-	5: 'pneumaticcraft:plastic'}).id('thermal:machine_crystallizer')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('thermal:machine_crystallizer')
 
 // Magma Crucible
   event.shaped('thermal:machine_crucible',
-    ['545','232','212'], {
+    ['545','232','616'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:magma_block',
-	5: 'pneumaticcraft:plastic'}).id('thermal:machine_crucible')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('thermal:machine_crucible')
 
 // Induction Smelter
   event.shaped('thermal:machine_smelter',
@@ -153,21 +157,23 @@ ServerEvents.recipes(event => {
 
 // Centrifugal Separator
   event.shaped('thermal:machine_centrifuge',
-    ['545','232','212'], {
-  1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:steel_plate',
-	3: 'industrialforegoing:machine_frame_simple',
-	4: 'minecraft:compass',
-	5: 'pneumaticcraft:plastic'}).id('thermal:machine_centrifuge')
-
-// Multiservo Press
-  event.shaped('thermal:machine_press',
-    ['545','232','212'], {
+    ['545','232','616'], {
   1: 'pneumaticcraft:printed_circuit_board',
   2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
+	4: 'minecraft:compass',
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('thermal:machine_centrifuge')
+
+// Multiservo Press
+  event.shaped('thermal:machine_press',
+    ['545','232','616'], {
+  1: 'pneumaticcraft:printed_circuit_board',
+  2: 'emendatusenigmatica:steel_plate',
+	3: 'industrialforegoing:machine_frame_simple',
 	4: 'minecraft:anvil',
-	5: 'pneumaticcraft:plastic'}).id('thermal:machine_press')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('thermal:machine_press')
 
 // Pyrolyzer
   event.shaped('thermal:machine_pyrolyzer',
@@ -185,7 +191,7 @@ ServerEvents.recipes(event => {
   2: 'pneumaticcraft:plastic',
 	3: 'immersiveengineering:charging_station',
   4: 'emendatusenigmatica:gold_plate',
-  5: 'emendatusenigmatica:steel_plate'}).id('thermal:charge_bench')
+	5: 'emendatusenigmatica:plasteel_plate'}).id('thermal:charge_bench')
 
 // Hazmat Helmet
   event.shaped('thermal:hazmat_helmet',

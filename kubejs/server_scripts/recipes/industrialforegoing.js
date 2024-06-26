@@ -70,66 +70,73 @@ ServerEvents.recipes(event => {
 
 // Plant Gatherer
   event.shaped('industrialforegoing:plant_gatherer',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:netherite_hoe',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:plant_gatherer')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:plant_gatherer')
 
 // Plant Sower
   event.shaped('industrialforegoing:plant_sower',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:flower_pot',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:plant_sower')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:plant_sower')
 
 // Plant Fertilizer
   event.shaped('industrialforegoing:plant_fertilizer',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'immersiveengineering:fertilizer',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:plant_fertilizer')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:plant_fertilizer')
 
 // Marine Fisher
   event.shaped('industrialforegoing:marine_fisher',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'redstone_arsenal:flux_fishing_rod',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:marine_fisher')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:marine_fisher')
 
 // Animal Rancher
   event.shaped('industrialforegoing:animal_rancher',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:shears',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:animal_rancher')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:animal_rancher')
 
 // Animal Feeder
   event.shaped('industrialforegoing:animal_feeder',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'quark:feeding_trough',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:animal_feeder')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:animal_feeder')
 
 // Animal Baby Separator
   event.shaped('industrialforegoing:animal_baby_separator',
-    ['545','232','212'], {
+    ['545','232','616'], {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
 	3: 'industrialforegoing:machine_frame_advanced',
 	4: 'minecraft:golden_carrot',
-	5: 'pneumaticcraft:plastic'}).id('industrialforegoing:animal_baby_separator')
+	5: 'pneumaticcraft:plastic',
+	6: 'emendatusenigmatica:plasteel_plate'}).id('industrialforegoing:animal_baby_separator')
 
 // Heart of the Deep
 	event.custom({
@@ -178,7 +185,7 @@ ServerEvents.recipes(event => {
 				"item": "minecraft:amethyst_shard"
 			},
 			{
-				"item": "redstone_arsenal:obsidian_rod"
+				"item": "emendatusenigmatica:plasteel_rod"
 			}
 		],
 		"processingTime": 300,
@@ -260,7 +267,7 @@ ServerEvents.recipes(event => {
 			"item": "industrialforegoing:machine_frame_simple",
 			"count": 1
 		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
+		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('industrialforegoing:machine_frame_simple')
 
@@ -286,7 +293,7 @@ ServerEvents.recipes(event => {
 				"item": "immersiveengineering:wire_aluminum"
 			},
 			{
-				"item": "minecraft:netherite_scrap"
+				"item": "emendatusenigmatica:diamond_gear"
 			},
 			{
 				"item": "immersiveengineering:wire_aluminum"
@@ -297,7 +304,7 @@ ServerEvents.recipes(event => {
 			"item": "industrialforegoing:machine_frame_advanced",
 			"count": 1
 		},
-		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:500}",
+		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('industrialforegoing:machine_frame_advanced')
 
@@ -357,13 +364,13 @@ ServerEvents.recipes(event => {
 				"item": "pneumaticcraft:transistor"
 			},
 			{
-				"item": "emendatusenigmatica:diamond_gear"
+				"item": "emendatusenigmatica:plasteel_gear"
 			},
 			{
 				"item": "immersiveengineering:wire_electrum"
 			},
 			{
-				"item": "emendatusenigmatica:diamond_gear"
+				"item": "emendatusenigmatica:plasteel_gear"
 			}
 		],
 		"processingTime": 300,

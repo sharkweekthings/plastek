@@ -234,7 +234,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:rotary_condensentrator',
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_control_circuit',
   5: 'mekanism:basic_fluid_tank'}).id('mekanism:rotary_condensentrator')
@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:chemical_oxidizer',
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_chemical_tank',
   5: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_oxidizer')
@@ -261,7 +261,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:chemical_infuser',
     ['555','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:basic_chemical_tank',
   5: 'mekanism:basic_fluid_tank'}).id('mekanism:chemical_infuser')
@@ -300,7 +300,7 @@ ServerEvents.recipes(event => {
   2: 'mekanism:alloy_infused',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:advanced_control_circuit',
-  5: 'emendatusenigmatica:plasteel_plate'}).id('mekanism:purification_chamber')
+  5: 'mekanism:hdpe_rod'}).id('mekanism:purification_chamber')
 
 // Crusher
   event.shaped('mekanism:crusher',
@@ -324,7 +324,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:electrolytic_separator',
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:advanced_control_circuit',
   5: 'mekanism:alloy_infused',
@@ -343,7 +343,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:chemical_injection_chamber',
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:elite_control_circuit',
   5: 'mekanism:alloy_reinforced',
@@ -353,7 +353,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:chemical_dissolution_chamber',
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
@@ -363,7 +363,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:chemical_washer',
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
@@ -373,7 +373,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:chemical_crystallizer',
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'emendatusenigmatica:plasteel_gear',
+  2: 'mekanism:hdpe_rod',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:ultimate_control_circuit',
   5: 'mekanism:ingot_refined_obsidian',
