@@ -1,0 +1,9 @@
+{"type":"biomancy:bio_brewing","ingredients":[{
+"item":"biomancy:mineral_fragment"},{
+"item":"biomancy:bone_fragments"},{
+"item":"biomancy:elastic_fibers"},{
+"item":"hostilenetworks:overworld_prediction"}],
+"nutrientsCost":8,
+"processingTime":200,
+"reactant":{"item":"biomancy:genetic_compound"},
+"result":{"count":3,"item":"mysticalagriculture:slime_essence"}}

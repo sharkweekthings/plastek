@@ -1603,7 +1603,6 @@
 			description: [
 				"Liquid Fertilizer can be created by mixing Fertilizer, Nitrate Dust, and some Fluid XP in a Create Mixer. "
 				""
-				""
 				"It can help speed up crop growth! Maybe try putting it in a Sprinkler over some crops?"
 			]
 			id: "61AB74749A48B6AC"

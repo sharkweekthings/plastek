@@ -351,7 +351,7 @@
 		{
 			dependencies: ["420F4920C8B2367B"]
 			description: [
-				"With your Pressure Chamber built, the Hopper and Drawer attached to each of the Input/Output Interfaces, and some Iron Ingots thrown into the Pressure Chamber  -- you should be able to make Compressed Iron Ingots!"
+				"With your Pressure Chamber built, the Hopper and Drawer attached to each of the Input/Output Interfaces, some &7Iron Ingots&r, and &7Sturdy Sheets&r thrown into the Pressure Chamber  -- you should be able to make Compressed Iron Ingots!"
 				""
 				"This will be an important metal for this age. "
 				""

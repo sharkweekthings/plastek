@@ -14,7 +14,7 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:in_mtn_copper_ore_gen_ow'
     ore.biomes = '#kubejs:ow_mountain_gen'
     ore.addTarget('#forge:stone', 'minecraft:copper_ore')
-    ore.count([7, 23])
+    ore.count([7, 30])
       .squared()
       .triangleHeight(
         anchors.absolute(78),
@@ -121,6 +121,20 @@ WorldgenEvents.add(event => {
         anchors.absolute(64)
       )
     ore.size = 12
+  })
+
+  // Copper Extra
+  event.addOre(ore => {
+    ore.id = 'kubejs:copper_extra_ore_gen_ow'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#forge:stone', 'minecraft:copper_ore')
+    ore.count([5, 30])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(50),
+        anchors.absolute(15)
+      )
+    ore.size = 8
   })
 
   // Tin

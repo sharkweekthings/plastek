@@ -1036,7 +1036,7 @@
 		}
 		{
 			dependencies: ["04F72CBA9EC4223F"]
-			description: ["Bone Marrow will be used throughout Biomancy, but won't be used for the recipes I added."]
+			description: ["Bone Marrow will be used throughout Biomancy, but will have limited usage for the recipes I added."]
 			id: "7438C26FD70D6D4F"
 			shape: "circle"
 			tasks: [

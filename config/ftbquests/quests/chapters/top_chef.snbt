@@ -99,7 +99,7 @@
 			rewards: [{
 				id: "7574200306994CC9"
 				item: "minecraft:emerald"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -128,7 +128,7 @@
 			rewards: [{
 				id: "317FA63C1ACE0C60"
 				item: "minecraft:emerald"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -280,7 +280,7 @@
 			rewards: [{
 				id: "03823952F88F7DBC"
 				item: "minecraft:emerald"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -367,7 +367,7 @@
 			rewards: [{
 				id: "3D8814BCC07B8316"
 				item: "minecraft:emerald"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"
@@ -397,7 +397,7 @@
 			rewards: [{
 				id: "3CE163870BE2A7D1"
 				item: "minecraft:emerald"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "circle"

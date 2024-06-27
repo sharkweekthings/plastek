@@ -896,6 +896,11 @@
 		}
 		{
 			dependencies: ["1AE7A2562C1774E2"]
+			description: [
+				"The Crystallizer can turn some dust items into a crystal or gem. "
+				""
+				"It is also capable of making Arcmetal Fragments which you can use to craft up into an Arcmetal Nugget."
+			]
 			id: "463F55548864F0FE"
 			tasks: [{
 				id: "50381FF8D1CF403D"

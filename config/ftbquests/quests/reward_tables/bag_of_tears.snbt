@@ -201,6 +201,7 @@
 		{ item: "pamhc2foodextended:raspberryyogurtitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:sonichood", weight: 300.0f }
 		{ item: "simplehats:rgbbigribbon", weight: 300.0f }
+		{ item: "powah:furnator_hardened", weight: 300.0f }
 		{ item: "pamhc2foodextended:grapefruitjellysandwichitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:julydouble", weight: 300.0f }
 		{ item: "pamhc2foodextended:datejellysandwichitem", random_bonus: 9, weight: 1000.0f }
@@ -271,9 +272,11 @@
 		{ item: "pamhc2foodextended:ovenroastedcaulifloweritem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:burgerhat", weight: 300.0f }
 		{ item: "simplehats:bicorne", weight: 300.0f }
+		{ item: "powah:magmator_hardened", weight: 300.0f }
 		{ item: "pamhc2foodextended:blackberryjellysandwichitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:lycheejuiceitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:megamanhat", weight: 300.0f }
+		{ item: "powah:magmator_starter", weight: 300.0f }
 		{ item: "pamhc2foodextended:honeysoyribsitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:veggiestripsitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:sandcastle", weight: 300.0f }
@@ -295,6 +298,7 @@
 		{ item: "simplehats:egghead", weight: 300.0f }
 		{ item: "artifacts:umbrella" }
 		{ item: "simplehats:headshot", weight: 300.0f }
+		{ item: "powah:furnator_starter", weight: 300.0f }
 		{ item: "pamhc2foodcore:smoresitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "minecraft:mossy_cobblestone", random_bonus: 31, weight: 1000.0f }
 		{ item: "simplehats:baseballhatfestive", weight: 300.0f }
@@ -315,15 +319,18 @@
 		{ item: "pamhc2foodextended:peanutbuttercookiesitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:floatingstar", weight: 300.0f }
 		{ item: "simplehats:beehat", weight: 300.0f }
+		{ item: "powah:thermo_generator_hardened", weight: 300.0f }
 		{ item: "simplehats:doctorhat", weight: 300.0f }
 		{ item: "pamhc2foodextended:sausageitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:ricepuddingitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:camerabeard", weight: 300.0f }
 		{ item: "pamhc2foodcore:baconandeggsitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:rock", weight: 300.0f }
+		{ item: "powah:thermo_generator_starter", weight: 300.0f }
 		{ item: "simplehats:bandana", weight: 300.0f }
 		{ item: "pamhc2foodextended:pecanbutteritem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:rgbushanka", weight: 300.0f }
+		{ item: "powah:solar_panel_starter", weight: 300.0f }
 		{ item: "pamhc2foodextended:cucumbersandwichitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:meringuebrownieitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "minecraft:birch_sign", random_bonus: 31, weight: 500.0f }
@@ -354,6 +361,7 @@
 		{ item: "pamhc2foodextended:coffeeconlecheitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:orangejuiceitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:peachjuiceitem", random_bonus: 9, weight: 1000.0f }
+		{ item: "powah:solar_panel_hardened", weight: 300.0f }
 		{ item: "pamhc2foodextended:bltitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:mintchocolatechipicecreamitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodcore:pumpkinsoupitem", random_bonus: 9, weight: 1000.0f }
@@ -370,6 +378,7 @@
 		}
 		{ item: "pamhc2foodcore:glowberrysmoothieitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "immersive_paintings:painting", weight: 1000.0f }
+		{ item: "powah:magmator_basic", weight: 300.0f }
 		{ item: "pamhc2foodextended:succotashitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:friedfeastitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:fishonhead", weight: 300.0f }
@@ -387,6 +396,7 @@
 		{ item: "pamhc2foodextended:slawdogitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "create:andesite_alloy", random_bonus: 9, weight: 100.0f }
 		{ item: "simplehats:rgbpartyhat", weight: 300.0f }
+		{ item: "powah:furnator_basic", weight: 300.0f }
 		{ item: "simplehats:sheep", weight: 300.0f }
 		{ item: "tempad:he_who_remains_tempad" }
 		{ item: "pamhc2foodextended:bananasplititem", random_bonus: 9, weight: 1000.0f }
@@ -410,6 +420,7 @@
 		{ item: "pamhc2foodextended:peanutbutteritem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:fortunecookieitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:chefshat", weight: 300.0f }
+		{ item: "powah:thermo_generator_basic", weight: 300.0f }
 		{ item: "energeticsheep:light_gray_energetic_wool", random_bonus: 14, weight: 1000.0f }
 		{ item: "pamhc2foodextended:wafflesitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "simplehats:floatinghearts", weight: 300.0f }
@@ -428,6 +439,7 @@
 		{ item: "pamhc2foodextended:chickennoodlesoupitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:cantaloupeyogurtitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "artifacts:thorn_pendant" }
+		{ item: "powah:solar_panel_basic", weight: 300.0f }
 		{ item: "pamhc2foodextended:pearjellytoastitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "pamhc2foodextended:pepperoniitem", random_bonus: 9, weight: 1000.0f }
 		{ item: "artifacts:superstitious_hat" }

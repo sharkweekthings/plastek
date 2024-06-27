@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "create:brass_casing",},[{ // incomplete item
-      item: "emendatusenigmatica:iron_plate",},],], // item to deploy
+      item: "pneumaticcraft:ingot_iron_compressed",},],], // item to deploy
      results: [{
       item: "create:brass_casing",},],
 },
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     type: "create:deploying",
      ingredients: [{
       item: "create:brass_casing",},[{ // incomplete item
-      item: "emendatusenigmatica:iron_plate",},],], // item to deploy
+      item: "pneumaticcraft:ingot_iron_compressed",},],], // item to deploy
      results: [{
       item: "create:brass_casing",},],
 },
