@@ -420,8 +420,6 @@
 				"You'll need &62 Fertilizer, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic&r. "
 				""
 				"Put all that nonsense &binto a Pressure Chamber&r to get &a1 Etching Acid Catalyst&r. "
-				""
-				"&aPut Liquid Fertilizer, Acid, and 1 Etching Acid Catalyst into the Refinery to get 1000mb of Etching Acid&r."
 			]
 			id: "59AE13AF70687556"
 			tasks: [{
