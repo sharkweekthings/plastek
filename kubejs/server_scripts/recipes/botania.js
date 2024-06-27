@@ -193,6 +193,12 @@ ServerEvents.recipes(event => {
     ['   ','121','1 1'], {
     1: 'botania:elementium_ingot',
     2: 'botania:manaweave_boots'}).id('botania:elementium_boots')
+    
+// Floral Fertilizer
+  event.shaped('botania:fertilizer', 
+    ['111','121','111'], {
+    1: '#minecraft:flowers', 
+    2: 'immersiveengineering:fertilizer'}).id('botania:fertilizer_dye')
 
 // Pixie Dust For Pixie Dust
 event.replaceInput({}, 'botania:pixie_dust', 'iceandfire:pixie_dust')

@@ -222,6 +222,14 @@ ServerEvents.recipes(event => {
   2: 'thermal:lead_plate',
 	3: 'thermal:hazmat_fabric'}).id('thermal:hazmat_boots')
 
+// Batch Composter
+  event.shaped('thermal:device_composter',
+    ['2 2','313','444'], {
+  1: 'minecraft:composter',
+  2: 'emendatusenigmatica:steel_plate',
+	3: 'pneumaticcraft:plastic',
+  4: 'pneumaticcraft:ingot_iron_compressed'}).id('thermal:device_composter')
+
 // Arc Metal Crystal
   event.custom({
   "type": "thermal:crystallizer",

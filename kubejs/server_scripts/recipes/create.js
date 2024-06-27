@@ -399,6 +399,12 @@ ServerEvents.recipes(event => {
     2: 'minecraft:redstone',
     3: 'biomesoplenty:rose_quartz_shard'}).id('create:crafts/rose_quartz')
     
+// Tree
+  event.shaped('create:tree_fertilizer', 
+    ['111','121','111'], {
+    1: '#forge:sapling', 
+    2: 'immersiveengineering:fertilizer'}).id('create:crafting/appliances/tree_fertilizer')
+    
 
 // Andesite Alloy Kiln
   event.custom({"type":"immersiveengineering:alloy","conditions":[{"type":"forge:not","value":
@@ -407,7 +413,6 @@ ServerEvents.recipes(event => {
   "input0":{"item":"minecraft:andesite"},
   "input1":{"tag":"forge:ingots/zinc"},
   "result":{"base_ingredient":{"tag":"forge:ingots/andesite_alloy"},"count":2},"time":200}).id('create:immersive_engineering_andesite_alloy')
-
 
 // Bone Meal Operations
   event.custom({

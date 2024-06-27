@@ -1596,7 +1596,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1F451EF299093BB6"]
@@ -1604,16 +1604,25 @@
 				"Liquid Fertilizer can be created by mixing Fertilizer, Nitrate Dust, and some Fluid XP in a Create Mixer. "
 				""
 				"It can help speed up crop growth! Maybe try putting it in a Sprinkler over some crops?"
+				""
+				"&aIn order to get credit for the quest you will need to pump the fluid through a Task Screen&r"
 			]
 			id: "61AB74749A48B6AC"
 			shape: "square"
 			subtitle: "Make it rain"
-			tasks: [{
-				amount: 1000L
-				fluid: "sliceanddice:fertilizer"
-				id: "0B597EC7D3B28C67"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "sliceanddice:fertilizer"
+					id: "0B597EC7D3B28C67"
+					type: "fluid"
+				}
+				{
+					id: "452803EA3257969C"
+					item: "ftbquests:screen_1"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 5.5d
 		}
@@ -1671,19 +1680,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["34B6EA6F438DBAED"]
-			description: ["First, right click on the Task Screen and set the correct fluid. Then you'll just need to pump your fluid into the Task Screen in order to quest Quest Credit."]
-			id: "653ACB54F81024B6"
-			subtitle: "Give me your fluids"
-			tasks: [{
-				id: "0EC1C702C74529B0"
-				item: "ftbquests:screen_1"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["4596F14140B7AE67"]
 			id: "1A4575D60B14D9D6"
 			rewards: [{
@@ -1700,6 +1696,19 @@
 			}]
 			x: 6.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: ["The Batch Composter is the only way you'll be able to get regular Compost. "]
+			id: "1ABA22E8D1FBD385"
+			subtitle: "ComPOOst"
+			tasks: [{
+				id: "1D0B0E17240369F9"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "Tech"

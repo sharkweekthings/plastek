@@ -17,6 +17,9 @@
     },
     "Pam's HarvestCraft 2 Trees Saplings": {
       "enabled": false
+    },
+    "Create Fertilizer": {
+      "enabled": false
     }
   },
   "customCategories": {
@@ -2445,17 +2448,17 @@
       },
       "category": "shopping"
     },    
-    {
-      "output": {
-        "item": "create:tree_fertilizer",
-        "count": 1
-      },
-      "payment": {
-        "item": "minecraft:diamond",
-        "count": 1
-      },
-      "category": "shopping"
-    },     
+    // {
+    //   "output": {
+    //     "item": "create:tree_fertilizer",
+    //     "count": 1
+    //   },
+    //   "payment": {
+    //     "item": "minecraft:diamond",
+    //     "count": 1
+    //   },
+    //   "category": "create:tree_fertilizer"
+    // },     
     {
       "output": {
         "item": "minecraft:name_tag",
@@ -2852,6 +2855,50 @@
       },
       "category": "shopping"
     },    
+    {
+      "output": {
+        "item": "apotheosis:uncommon_material",
+        "count": 1
+      },
+      "payment": {
+        "item": "apotheosis:common_material",
+        "count": 30
+      },
+      "category": "shopping"
+    },    
+    {
+      "output": {
+        "item": "apotheosis:rare_material",
+        "count": 1
+      },
+      "payment": {
+        "item": "apotheosis:uncommon_material",
+        "count": 30
+      },
+      "category": "shopping"
+    },     
+    {
+      "output": {
+        "item": "apotheosis:epic_material",
+        "count": 1
+      },
+      "payment": {
+        "item": "apotheosis:rare_material",
+        "count": 30
+      },
+      "category": "shopping"
+    },      
+    {
+      "output": {
+        "item": "apotheosis:mythic_material",
+        "count": 1
+      },
+      "payment": {
+        "item": "apotheosis:epic_material",
+        "count": 30
+      },
+      "category": "shopping"
+    },     
     {
       "output": {
         "item": "kubejs:zpm",

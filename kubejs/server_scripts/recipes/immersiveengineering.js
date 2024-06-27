@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
   event.shaped('immersiveengineering:fertilizer',
     ['121','232','121'], {
     1: '#forge:dusts/saltpeter', 
-    2: '#forge:slag',
+    2: 'thermal:compost',
     3: 'farmersdelight:organic_compost'}).id('immersiveengineering:crafting/fertilizer')
 
 // Conveyor Vertical

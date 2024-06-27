@@ -27,7 +27,7 @@
 			}]
 			title: "Wrapping Up w/ Botania and Occultism, and the Start of Something New"
 			x: 0.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4B4788A9A077FA41"]
