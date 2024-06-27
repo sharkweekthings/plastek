@@ -128,7 +128,7 @@ WorldgenEvents.add(event => {
     ore.id = 'kubejs:copper_extra_ore_gen_ow'
     ore.biomes = '#kubejs:ow_gen'
     ore.addTarget('#forge:stone', 'minecraft:copper_ore')
-    ore.count([2, 25])
+    ore.count([2, 10])
       .squared()
       .triangleHeight(
         anchors.absolute(15),
