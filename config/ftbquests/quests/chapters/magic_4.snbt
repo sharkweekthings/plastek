@@ -652,7 +652,7 @@
 			description: [
 				"Like the Ice Dragon Forge in Age 3, the Fire and Lightning Dragon Forge have their own newly added special recipes that will help out with progression."
 				""
-				"&e&oBefore going into The End in Age 4, you will need to create the Dragon Eye item.&r&r"
+				"&e&oBefore going into The End in Age 5, you will need to create the Dragon Eye item.&r&r"
 			]
 			id: "4BC048AF7DADFD7D"
 			shape: "square"
@@ -740,7 +740,9 @@
 			description: [
 				"The first device will be the Primordial Cradle. "
 				""
-				"You may want to &cplace this block far from base, or in a compact dimension&r. There is a chance that Fleshy Veins will spawn. These will begin to rapidly spread and convert blocks in the area into flesh blocks."
+				"You may want to &cplace this block far from base, or in a compact dimension&r. There is a chance that Fleshy Veins will spawn. "
+				""
+				"These will begin to rapidly spread and convert blocks in the area into flesh blocks, and continue growing and mutating until it becomes a giant disgusting blob tower that spews flowing &aacid&r from within it's chambers."
 				""
 				"Fill the cradle up with raw meat, then use &b3 Golden Apples&r or &b2 Potion of Restoration&r on the machine."
 				""
