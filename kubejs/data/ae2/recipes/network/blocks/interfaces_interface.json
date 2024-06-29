@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "a": {
-      "item": "pneumaticcraft:plastic"
+      "item": "emendatusenigmatica:plasteel_plate"
     },
     "b": {
-      "item": "minecraft:crafting_table"
+      "item": "ae2:quartz_vibrant_glass"
     },
     "c": {
       "item": "ae2:annihilation_core"
@@ -13,16 +13,16 @@
     "d": {
       "item": "ae2:formation_core"
     },
-    "m": {
-      "item": "immersiveengineering:heavy_engineering"
+    "z": {
+      "item": "immersiveengineering:rs_engineering"
     }
   },
   "pattern": [
     "aba",
-    "cmd",
+    "czd",
     "aba"
   ],
   "result": {
-    "item": "ae2:pattern_provider"
+    "item": "ae2:interface"
   }
 }

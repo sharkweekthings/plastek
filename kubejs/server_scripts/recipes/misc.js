@@ -215,7 +215,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/thermo_generator_spirited'})
   event.remove({id: 'powah:crafting/thermo_generator_starter'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
-  // event.remove({type: 'minecraft:smelting', output: /^minecraft:.*/})
 //
 //
 })
@@ -1204,14 +1203,11 @@ ServerEvents.recipes(event => {
     1: 'minecraft:bone',
     2: 'minecraft:leather_boots'}).id('immersive_armors:bone_boots')
 
-// // Thermo Generator Starter
-//   event.shaped('powah:thermo_generator_starter', 
-//     ['111','232','454'], {
-//     1: 'powah:dielectric_paste',
-//     2: 'powah:capacitor_basic_tiny',
-//     3: 'powah:dielectric_casing',
-//     4: 'powah:thermoelectric_plate',
-//     5: 'powah:crystal_nitro',}).id('powah:crafting/thermo_generator_starter')
+// Ash Brick
+  event.shaped('supplementaries:ash_brick', 
+    ['222','212','222'], {
+    1: 'tconstruct:seared_brick',
+    2: 'supplementaries:ash'}).id('supplementaries:ash_brick')
 
 // Basic Capacitor  
   event.shaped('powah:capacitor_basic',
@@ -1356,10 +1352,15 @@ ServerEvents.recipes(event => {
 // Replace Pam Dough w/ Create Dough
   event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
 
+// Ash
+  event.custom({"type":"minecraft:smelting","cookingtime":200,"experience":0.1,
+  "ingredient":{"tag":"minecraft:planks"},
+  "result":"supplementaries:ash"}).id('supplementaries:ash')
+
+
 
 
 // TEMPORARY DISABLED UNTIL I FIGURE OUT WHY I EVEN MADE THESE SCRIPTS:
-
 // // I dont remember, lets not break it though.
 //   event.replaceInput('*', Fluid.of('minecraft:water'), Fluid.of('minecraft:lava'))
 

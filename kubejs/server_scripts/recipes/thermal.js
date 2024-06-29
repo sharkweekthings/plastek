@@ -399,6 +399,32 @@ ServerEvents.recipes(event => {
   ]
 }).id('minecraft:thermal_crystallizer_amethyst')
 
+// Fire Dragon Egg
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "ae2:singularity",
+      "count": 1
+    },
+    {
+      "item": "kubejs:enchanted_dragon_egg",
+      "count": 1
+    },
+    {
+      "item": "biomancy:primordial_core",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "iceandfire:dragonegg_red",
+      "count": 1
+    }
+  ],
+  "energy": 50000
+}).id('iceandfire:fire_dragon_egg')
+
 // Alfsteel Ingot
   event.custom({
   "type": "thermal:smelter",

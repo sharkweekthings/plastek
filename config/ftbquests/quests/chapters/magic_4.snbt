@@ -950,6 +950,11 @@
 					item: "biomancy:volatile_fluid"
 					type: "item"
 				}
+				{
+					id: "7562DBBBB921EBB1"
+					item: "biomancy:regenerative_fluid"
+					type: "item"
+				}
 			]
 			title: "Decomposition"
 			x: 2.0d

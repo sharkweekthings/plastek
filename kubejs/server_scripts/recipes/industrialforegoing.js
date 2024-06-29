@@ -381,6 +381,43 @@ ServerEvents.recipes(event => {
 		"inputFluid": "{FluidName:\"thermal:redstone\",Amount:500}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('industrialforegoing:machine_frame_supreme')
+
+// Dragon Egg Test
+	event.custom({
+		"input": [
+			{
+				"tag": "iceandfire:scales/dragon/fire"
+			},
+			{
+				"item": "kubejs:ancient_dragon_egg"
+			},
+			{
+				"tag": "iceandfire:scales/dragon/fire"
+			},
+			{
+				"item": "biomancy:rejuvenation_serum"
+			},
+			{
+				"item": "biomancy:rejuvenation_serum"
+			},
+			{
+				"tag": "iceandfire:scales/dragon/fire"
+			},
+			{
+				"item": "deeperdarker:heart_of_the_deep"
+			},
+			{
+				"tag": "iceandfire:scales/dragon/fire"
+			}
+		],
+		"processingTime": 300,
+		"output": {
+			"item": "kubejs:glowing_dragon_egg",
+			"count": 1
+		},
+		"inputFluid": "{FluidName:\"tconstruct:blazing_blood\",Amount:8000}",
+		"type": "industrialforegoing:dissolution_chamber"
+	}).id('kubejs:dragonegg_test')
 	
 // Cheap Plastic #2
   event.custom({"type":"immersiveengineering:arc_furnace",

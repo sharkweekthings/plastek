@@ -2448,17 +2448,6 @@
       },
       "category": "shopping"
     },    
-    // {
-    //   "output": {
-    //     "item": "create:tree_fertilizer",
-    //     "count": 1
-    //   },
-    //   "payment": {
-    //     "item": "minecraft:diamond",
-    //     "count": 1
-    //   },
-    //   "category": "create:tree_fertilizer"
-    // },     
     {
       "output": {
         "item": "minecraft:name_tag",
@@ -2898,7 +2887,18 @@
         "count": 30
       },
       "category": "shopping"
-    },     
+    },       
+    {
+      "output": {
+        "item": "kubejs:ancient_dragon_egg",
+        "count": 1
+      },
+      "payment": {
+        "item": "iceandfire:dragonscales_red",
+        "count": 64
+      },
+      "category": "shopping"
+    },       
     {
       "output": {
         "item": "kubejs:zpm",

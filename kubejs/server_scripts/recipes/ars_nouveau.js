@@ -146,41 +146,41 @@ Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:enderman
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
   "output": {
-    "item": "emendatusenigmatica:weekonium_ingot"
+      "item": "kubejs:enchanted_dragon_egg"
   },
   "pedestalItems": [
     {
-      "item": "ars_nouveau:earth_essence"
+      "item": "apotheosis:mythic_material"
     },
     {
-      "item": "ars_nouveau:air_essence"
+      "item": "botania:gaia_ingot"
     },
     {
-      "item": "ars_nouveau:fire_essence"
+      "item": "apotheosis:mythic_material"
     },
     {
-      "item": "ars_nouveau:water_essence"
+      "item": "botania:gaia_ingot"
     },
     {
-      "item": "ars_nouveau:earth_essence"
+      "item": "apotheosis:mythic_material"
     },
     {
-      "item": "ars_nouveau:air_essence"
+      "item": "botania:gaia_ingot"
     },
     {
-      "item": "ars_nouveau:fire_essence"
+      "item": "apotheosis:mythic_material"
     },
     {
-      "item": "ars_nouveau:water_essence"
+      "item": "botania:gaia_ingot"
     }
   ],
   "reagent": [
     {
-      "item": "emendatusenigmatica:raw_weekonium"
+      "item": "kubejs:glowing_dragon_egg"
     }
   ],
   "sourceCost": 9000
-}).id('kubejs:weekonium_ingot')
+}).id('kubejs:dragonegg_red')
 
 // Weekonium Ingot From Dust
   event.custom({

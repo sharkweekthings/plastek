@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "emendatusenigmatica:plasteel_rod"
+    },
+    "b": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "e": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:molecular_assembler"
+  }
+}

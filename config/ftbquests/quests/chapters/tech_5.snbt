@@ -170,7 +170,7 @@
 		{
 			dependencies: ["3C7EC7EF220BF3DB"]
 			description: [
-				"You should only need 4 Dissolution Chambers with different fluids to finish up the pack."
+				"You should only need 4 Dissolution Chambers with different fluids to finish up the pack, unless you opt to craft a Fire Dragon Egg instead of defeat a Stage 4 - 5 dragon, in which case you will need a Dissolution Chamber for Blazing Blood."
 				""
 				"Fluid Cells make a great way to store, push, and pull fluids. They can even be enchanted with various enchants to increase their holding.  There are also a variety of different fluid tanks, and a barrel or two to hold liquid.   "
 				""
@@ -737,7 +737,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			subtitle: "These won't be used until Age 7"
+			subtitle: "Limited usage until Age 7"
 			tasks: [{
 				id: "34BC1F1F96C0C4E6"
 				item: "ae2:singularity"
@@ -1334,6 +1334,32 @@
 			}]
 			x: -5.5000000000000036d
 			y: 2.4000000000000004d
+		}
+		{
+			dependencies: ["2D895377F6FE3960"]
+			description: [
+				"In order to bypass searching for a Stage 4 - 5 Fire Dragon; you can go through this lengthy process to create one:"
+				""
+				"- Purchase Ancient Dragon Egg from Market Block for 64 &cRed Dragon Scales&r"
+				""
+				"- 1 Ancient Dragon Egg, 1 Heart of the Deep, 4 of any dragon scale, 2 Rejuvination Serums, and 9000mb of Blazing Blood in a Dissolution Chamber will give you a Shimmering Dragon Egg."
+				""
+				"- Take the Shimmering Dragon Egg to your Enchanting Apparatus with 4 God Forged Pearls, 4 Gaia Spirit Ingots, and 9000 Source to create an Enchanted Dragon Egg"
+				""
+				"- Now put the Enchanted Dragon Egg, 1 Singularity, and a Primordial Core into an Induction Smelter to get 1 Fire Dragon Egg! "
+				""
+				"With the Fire Dragon Egg you will be able to raise your very own Fire Dragon. "
+			]
+			id: "2D0411447A7FA40F"
+			shape: "circle"
+			subtitle: "Creating a Fire Dragon Egg"
+			tasks: [{
+				id: "6713DCCEC6DE6198"
+				item: "kubejs:glowing_dragon_egg"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
 		}
 	]
 	title: "Tech"
