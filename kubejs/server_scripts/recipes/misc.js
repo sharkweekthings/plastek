@@ -214,6 +214,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/thermo_generator_nitro'})
   event.remove({id: 'powah:crafting/thermo_generator_spirited'})
   event.remove({id: 'powah:crafting/thermo_generator_starter'})
+  event.remove({id: 'biomancy:bio_forging/fertilizer_from_bio_forging'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
 //
 //

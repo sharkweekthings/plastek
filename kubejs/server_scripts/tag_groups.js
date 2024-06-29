@@ -1631,7 +1631,7 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
-  'thermal:batch_composter',
+  'thermal:device_composter',
   'mysticalagriculture:copper_essence',
   'mysticalagriculture:cow_essence',
   'mysticalagriculture:gold_essence',
@@ -1962,7 +1962,7 @@ event.add('kubejs:age_5_item',
 
 event.add('kubejs:age_5_exception', 
   [
-  'thermal:batch_composter',
+  'thermal:device_composter',
   'thermal:bitumen',
   'thermal:bitumen_block',
   'thermal:white_rockwool',
