@@ -747,6 +747,11 @@
 				"Fill the cradle up with raw meat, then use &b3 Golden Apples&r or &b2 Potion of Restoration&r on the machine."
 				""
 				"If you get a &aFlesh Blob&r to spawn, you'll need to kill that for some &aLiving Flesh&r. &bFeed hungry blobs raw meat to make them bigger&r, and get more &aLiving Flesh&r when you kill them."
+				""
+				"&o&6Here is what it may look like after a few hours:&r&r"
+				"{image:kubejs:textures/biomancy/biomancy_flesh_tower.png width:200 height:150 align:1}"
+				""
+				"&c&oThe Primordial Cradle may start expanding without any fleshy veins being created.&r&r"
 			]
 			id: "184611A6562A633A"
 			subtitle: "It's aliiiiveeeeee!"
