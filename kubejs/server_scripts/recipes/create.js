@@ -719,22 +719,22 @@ event.custom({
   ]
 }).id('inventorypets:nuggets/diamond')
 
-// Obsidian Nugget
-  event.custom({
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "minecraft:obsidian"
-    }
-  ],
-  "processingTime": 20000,
-  "results": [
-    {
-      "count": 5,
-      "item": "inventorypets:nugget_obsidian"
-    }
-  ]
-}).id('inventorypets:nuggets/obsidian')
+// // Obsidian Nugget
+//   event.custom({
+//   "type": "create:milling",
+//   "ingredients": [
+//     {
+//       "item": "minecraft:obsidian"
+//     }
+//   ],
+//   "processingTime": 20000,
+//   "results": [
+//     {
+//       "count": 5,
+//       "item": "inventorypets:nugget_obsidian"
+//     }
+//   ]
+// }).id('inventorypets:nuggets/obsidian')
 
 // Coal Nugget
   event.custom({
@@ -1872,12 +1872,17 @@ event.custom({
             "item": 'minecraft:obsidian'
         }
     ],
-    "processingTime": 50,
+    "processingTime": 500,
     "results": [
         {
             "chance": 0.35,
             "count": 1,
             "item": 'create:powdered_obsidian'
+        },
+        {
+            "chance": 0.75,
+            "count": 3,
+            "item": 'inventorypets:nugget_obsidian'
         }
     ]
 }).id('create:powdered_obsidian_milling')
