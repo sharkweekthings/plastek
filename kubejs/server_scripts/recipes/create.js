@@ -422,7 +422,7 @@ ServerEvents.recipes(event => {
             "item": 'minecraft:bone_block'
         }
     ],
-    "processingTime": 50,
+    "processingTime": 150,
     "results": [
         {
             "count": 7,
@@ -444,7 +444,7 @@ ServerEvents.recipes(event => {
             "item": 'minecraft:bone'
         }
     ],
-    "processingTime": 50,
+    "processingTime": 150,
     "results": [
         {
             "count": 1,
@@ -461,7 +461,7 @@ ServerEvents.recipes(event => {
             "item": 'infernalexp:soul_stone'
         }
     ],
-    "processingTime": 85,
+    "processingTime": 150,
     "results": [
         {
             "count": 1,
@@ -548,7 +548,7 @@ ServerEvents.recipes(event => {
             "item": 'minecraft:quartz'
         }
     ],
-    "processingTime": 50,
+    "processingTime": 150,
     "results": [
         {
             "count": 1,
@@ -1104,7 +1104,7 @@ event.custom({
       "item": "minecraft:deepslate_copper_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 5,
@@ -1133,7 +1133,7 @@ event.custom({
       "item": "minecraft:diamond_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "item": "minecraft:diamond"
@@ -1190,7 +1190,7 @@ event.custom({
       "item": "minecraft:emerald_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "item": "minecraft:emerald"
@@ -1276,7 +1276,7 @@ event.custom({
       "item": "minecraft:deepslate_gold_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 2,
@@ -1306,7 +1306,7 @@ event.custom({
       "item": "minecraft:nether_gold_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 18,
@@ -1359,7 +1359,7 @@ event.custom({
       "item": "minecraft:deepslate_iron_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 2,
@@ -1417,7 +1417,7 @@ event.custom({
       "item": "minecraft:deepslate_lapis_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 5,
@@ -1455,7 +1455,7 @@ event.custom({
       "tag": "forge:ores/lead"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 250,
   "results": [
     {
       "item": "create:crushed_raw_lead"
@@ -1479,7 +1479,7 @@ event.custom({
       "item": "minecraft:nether_quartz_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 2,
@@ -1517,7 +1517,7 @@ event.custom({
       "tag": "forge:ores/nickel"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 250,
   "results": [
     {
       "item": "create:crushed_raw_nickel"
@@ -1550,7 +1550,7 @@ event.custom({
       "tag": "forge:ores/osmium"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 250,
   "results": [
     {
       "item": "create:crushed_raw_osmium"
@@ -1603,7 +1603,7 @@ event.custom({
       "item": "minecraft:deepslate_redstone_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 5,
@@ -1641,7 +1641,7 @@ event.custom({
       "tag": "forge:ores/silver"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 250,
   "results": [
     {
       "item": "create:crushed_raw_silver"
@@ -1674,7 +1674,7 @@ event.custom({
       "tag": "forge:ores/tin"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 250,
   "results": [
     {
       "item": "create:crushed_raw_tin"
@@ -1707,7 +1707,7 @@ event.custom({
       "tag": "forge:ores/uranium"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 250,
   "results": [
     {
       "item": "create:crushed_raw_uranium"
@@ -1759,7 +1759,7 @@ event.custom({
       "item": "create:deepslate_zinc_ore"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "count": 2,
@@ -1788,7 +1788,7 @@ event.custom({
       "tag": "forge:sandstone/colorless"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "item": "minecraft:sand",
@@ -1809,7 +1809,7 @@ event.custom({
       "tag": "forge:sandstone/red"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "item": "minecraft:red_sand",
@@ -1830,7 +1830,7 @@ event.custom({
       "tag": "forge:sandstone/venus_sandstone"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "item": "ad_astra:venus_sand",
@@ -1851,7 +1851,7 @@ event.custom({
       "item": "biomesoplenty:black_sandstone"
     }
   ],
-  "processingTime": 350,
+  "processingTime": 150,
   "results": [
     {
       "item": "biomesoplenty:black_sand",
@@ -1869,10 +1869,10 @@ event.custom({
     "type": "create:milling",
     "ingredients": [
         {
-            "item": 'minecraft:obsidian'
+            "tag": 'chipped:obsidian'
         }
     ],
-    "processingTime": 500,
+    "processingTime": 200,
     "results": [
         {
             "chance": 0.35,
@@ -1886,6 +1886,29 @@ event.custom({
         }
     ]
 }).id('create:powdered_obsidian_milling')
+
+// Powdered Obsidian Milling
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": 'chipped:crying_obsidian'
+        }
+    ],
+    "processingTime": 250,
+    "results": [
+        {
+            "chance": 0.50,
+            "count": 1,
+            "item": 'create:powdered_obsidian'
+        },
+        {
+            "chance": 0.75,
+            "count": 4,
+            "item": 'inventorypets:nugget_obsidian'
+        }
+    ]
+}).id('create:powdered_obsidian_milling_2')
 
 
 //    

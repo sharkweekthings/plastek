@@ -129,23 +129,35 @@
 		{
 			dependencies: ["65FA1B632359CE14"]
 			description: [
-				"You see that right. &cYour HP is lower&r. "
+				"You see that right. &cYour HP is lower&r than normal, and thanks to &cHarder Natural Healing&r your HP regeneration is also slowed down."
 				""
-				"While there are some mods in the pack that will grant some extra HP to your armor, weapons,  &aSpice of Life: Carrot&r is in the pack as well. "
+				"&b&lDiet&r&r"
+				"This mod encourages eating a balanced set of foods. You will start with 30% in all groups except Sugar. If you die, all Protein, Fruits, Vegetables, and Grains will be set to 30%, and Sugars will be set to 0%. "
 				""
+				"&n&a&nPositive Effects&r&r"
+				""
+				"- By maintaining 80% and higher in Proteins, Fruits, Vegetables, or Grains you will gain bonus Health, Attack Damage, Attack Speed, Knockback Resistance, and Armor Toughness. For each group that you get above 80% the buffs will become slightly stronger. "
+				""
+				"- If your Sugars stay between 20% and 30% you will gain 25% Movement Speed. "
+				""
+				"&a&oIn total you can gain: 4 Knockback Resistance, 16 Max Health, 4 Armor Toughness, 20% Attack Speed, and +20 Attack Damage&r&r"
+				""
+				"&c&nNegative Effects&r&r"
+				""
+				"- If Proteins, Fruits, Vegetables, and Grains all fall below 15% you will Hunger, Weakness, and Mining Fatigue. "
+				""
+				"- You will have a sugar crash if you go above 70% in Sugars. This will cause you to have Hunger, Weakness, Mining Fatigue, and Slowness. "
+				""
+				"&c&oMining Fatigue II, Slowness II, Weakness II, and Hungering IV are the negative effects you may experience.&r&r"
+				""
+				"&b&lSpice of Life: Carrot&r&r"
 				"By eating unique foods you will be able to significantly increase your HP through the life of the pack.  "
 				""
 				"There is a total of &a20 Hearts&r attainable through this method, spanned over the course of 1,240 foods.  The \"Food Book\" shows slightly more food than this. The number has been modified to account for inacessible/uncraftable foods. "
 				""
 				"&aPam's&r and &aFarmer's Delight&r are both in the pack so there are plenty of various foods to craft, and eat!"
 				""
-				"&aDiet&r is also in the pack to encourage eating a balanced set of foods, rather than just slamming potatos.  By not eating a balanced diet you will gain no, or negative benefits. However, if you eat a balanced diet you can increase your characters HP, Power, Attack Speed, and more."
-				""
-				"Too much sugar can affect you negatively. &cIf you go above 80% sugar level, you will gain Hunger 4!&r You will need to reduce your sugar intake for this effect to go away."
-				""
-				"This pack also makes use of &cHarder Natural Healing&r, which means that your HP regeneration is slowed down.  "
-				""
-				"Healing spells/potions/wands will be accessible throughout the pack to aide in healing, in addition to the extra HP you'll get. "
+				"&a&oHealing spells/potions/wands will be accessible throughout the pack to aide in healing, in addition to the extra HP you'll get.&r&r "
 			]
 			icon: "artifacts:crystal_heart"
 			id: "47A6293F3DEEF2D2"
@@ -254,7 +266,7 @@
 		{
 			dependencies: ["35334801DA66A2DD"]
 			description: [
-				"Resource generation for this pack will be done through Mob Grinding Utils, Productive Bees, Ice and Fire, Hostile Neural Networks, and Mystical Agriculture. "
+				"Resource generation for this pack will be done through Mob Grinding Utils, Productive Bees, Ice and Fire, Biomancy, Hostile Neural Networks, and Mystical Agriculture. "
 				""
 				"Each mod has been roughly balanced out to provide necessity to the other.  "
 				""
@@ -447,7 +459,7 @@
 				""
 				"When recovering your items, everything should equip back into their original slots. This includes Curio."
 				""
-				"Be sure to access the Knowledge of Death menu (default K). There are ways to gain experience through dying, praying with an ankh, and others -- to get experience toward this skill tree.ee"
+				"Be sure to access the Knowledge of Death menu (default K). There are ways to gain experience through dying, praying with an ankh, and others -- to get experience toward this skill tree."
 			]
 			hide_dependency_lines: true
 			icon: {
