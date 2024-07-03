@@ -5,7 +5,7 @@
       "tag": "minecraft:planks"
     },
     "s": {
-      "tag": "forge:leather"
+      "item": "silentgear:leather_scrap"
     },
     "x": {
       "item": "minecraft:paper"
