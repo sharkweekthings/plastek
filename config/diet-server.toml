@@ -15,7 +15,7 @@ deathPenaltyMethod = "RESET"
 gainPenaltyPerGroup = 15
 #The percentage reduction in total decay for each diet group decayed at once.
 #Range: 0 ~ 100
-decayPenaltyPerGroup = 16
+decayPenaltyPerGroup = 15
 #List of food quality overrides for diet gain values.
 #Format: "modid:name;quality"
 foodOverrides = []
