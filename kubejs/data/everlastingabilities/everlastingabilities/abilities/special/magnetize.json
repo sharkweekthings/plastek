@@ -3,6 +3,6 @@
   "name": "ability.everlastingabilities.magnetize",
   "rarity": "uncommon",
   "max_level": 5,
-  "xp_per_level": 20,
+  "xp_per_level": 400,
   "move_xp": true
 }

@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.slow_falling",
   "rarity": "uncommon",
   "max_level": 1,
-  "xp_per_level": 50,
+  "xp_per_level": 700,
   "effect": "minecraft:slow_falling"
 }

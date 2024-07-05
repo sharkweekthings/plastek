@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.jump_boost",
   "rarity": "common",
   "max_level": 5,
-  "xp_per_level": 10,
+  "xp_per_level": 500,
   "effect": "minecraft:jump_boost"
 }

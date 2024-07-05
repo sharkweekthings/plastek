@@ -5,5 +5,9 @@
   "rarity": "rare",
   "max_level": 3,
   "xp_per_level": 75,
-  "effect": "minecraft:levitation"
+  "effect": "minecraft:levitation",  
+  "condition": {
+  "type": "forge:mod_loaded",
+  "modid": "plastekisnotamod"
+  }
 }

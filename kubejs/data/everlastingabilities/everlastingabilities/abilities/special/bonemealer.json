@@ -3,5 +3,9 @@
   "name": "ability.everlastingabilities.bonemealer",
   "rarity": "uncommon",
   "max_level": 5,
-  "xp_per_level": 30
+  "xp_per_level": 30,  
+  "condition": {
+  "type": "forge:mod_loaded",
+  "modid": "plastekisnotamod"
+  }
 }

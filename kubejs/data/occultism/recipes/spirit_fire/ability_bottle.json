@@ -1,0 +1,9 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "item": "everlastingabilities:ability_bottle"
+  }
+}

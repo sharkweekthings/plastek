@@ -126,7 +126,7 @@
         {
             "groups": ["proteins", "fruits", "vegetables", "grains"],
             "match": "average",
-            "below": 0.15
+            "below": 0.10
         }
       ]
     }

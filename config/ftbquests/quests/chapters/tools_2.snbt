@@ -868,6 +868,36 @@
 			x: -2.5d
 			y: -6.5d
 		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: [
+				"You've probably found a few &aAbility Totems&r by now and haven't been able to use them. "
+				""
+				"Well, with the low cost of 1 block of gold you can make yourself an &bAbility Bottle&r! "
+				""
+				"With your Ability Bottle you can store up to 4 abilities per bottle. Just right click the Ability Totem, and as long as you have enough &eExperience Points&r you will be able to add the totem to the bottle, and gain that ability!"
+				""
+				"You can level up your abilities by finding duplicates, and adding those to the bottle. Each ability has it's own level cap. "
+				""
+				"If you find that you have an excess of totems that you aren't using, you can combine 6 of them together to make a new one!"
+			]
+			id: "05660794C830C7F7"
+			shape: "circle"
+			subtitle: "I have the power!"
+			tasks: [{
+				id: "790A77BD00CEA34C"
+				item: {
+					Count: 1b
+					id: "everlastingabilities:ability_bottle"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
 	]
 	title: "Utility"
 }

@@ -5,5 +5,9 @@
   "rarity": "uncommon",
   "max_level": 1,
   "xp_per_level": 20,
-  "effect": "minecraft:invisibility"
+  "effect": "minecraft:invisibility",  
+  "condition": {
+  "type": "forge:mod_loaded",
+  "modid": "plastekisnotamod"
+  }
 }

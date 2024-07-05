@@ -7,5 +7,9 @@
   "xp_per_level": 50,
   "effect": "minecraft:saturation",
   "tick_modulus": 200,
-  "duration_factor": 1
+  "duration_factor": 1,  
+  "condition": {
+  "type": "forge:mod_loaded",
+  "modid": "plastekisnotamod"
+  }
 }

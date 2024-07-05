@@ -100,6 +100,13 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:painting", "immersive_paintings:painting");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:rotten_flesh", "iceandfire:manuscript");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("iceandfire:sapphire_gem", "inventorypets:nugget_diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("create:dough", "create:wheat_flour");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:stone_axe", "emendatusenigmatica:copper_crystal");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:wood_axe", "inventorypets:nugget_diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_axe", "inventorypets:nugget_diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:stone_sword", "inventorypets:nugget_diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:wood_sword", "inventorypets:nugget_diamond");
+    event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_sword", "emendatusenigmatica:iron_crystal");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:pneumatic_cylinder", "immersive_paintings:painting");
     event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:iron_backpack", "botanypots:terracotta_botany_pot");
 

@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.bad_omen",
   "rarity": "epic",
   "max_level": 4,
-  "xp_per_level": 200,
+  "xp_per_level": 350,
   "effect": "minecraft:bad_omen"
 }

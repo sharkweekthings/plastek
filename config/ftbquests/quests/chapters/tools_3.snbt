@@ -1484,6 +1484,36 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			description: ["Adds 1 skill point to the Passive Skill Tree."]
+			id: "65A817B91B6E0AD1"
+			shape: "circle"
+			subtitle: "For some reason you feel the need to eat the magical paper. "
+			tasks: [{
+				id: "5767032B992F4DFC"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Forget everything you ever knew about yourself, and everybody else! "
+				""
+				"Just kidding, this will return all of your spent points in the Passive Skill Tree."
+			]
+			id: "1B2D1CCEA5FB2316"
+			shape: "circle"
+			subtitle: "Wait, who are you again?"
+			tasks: [{
+				id: "55F98FA9FE3C5109"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
 	]
 	title: "Utility"
 }

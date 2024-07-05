@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.water_breathing",
   "rarity": "uncommon",
   "max_level": 1,
-  "xp_per_level": 10,
+  "xp_per_level": 700,
   "effect": "minecraft:water_breathing"
 }

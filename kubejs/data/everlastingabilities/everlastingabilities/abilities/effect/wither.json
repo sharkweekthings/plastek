@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.wither",
   "rarity": "epic",
   "max_level": 3,
-  "xp_per_level": 125,
+  "xp_per_level": 1000,
   "effect": "minecraft:wither"
 }

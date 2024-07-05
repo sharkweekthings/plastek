@@ -3868,7 +3868,8 @@ event.add('kubejs:everything_else',
   'mysticalagriculture:tertium_leggings',
   'mysticalagriculture:tertium_pickaxe',
   'mysticalagriculture:tertium_shovel',
-  'mysticalagriculture:tertium_sword'
+  'mysticalagriculture:tertium_sword',
+  'minecraft:trident'
   ])
   
 event.add('biomancy:raw_meats', 

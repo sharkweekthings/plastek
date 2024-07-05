@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.dolphins_grace",
   "rarity": "uncommon",
   "max_level": 1,
-  "xp_per_level": 50,
+  "xp_per_level": 300,
   "effect": "minecraft:dolphins_grace"
 }

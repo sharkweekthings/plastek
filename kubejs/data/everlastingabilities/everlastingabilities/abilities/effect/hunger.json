@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.hunger",
   "rarity": "rare",
   "max_level": 3,
-  "xp_per_level": 70,
+  "xp_per_level": 700,
   "effect": "minecraft:hunger"
 }

@@ -4,6 +4,6 @@
   "name": "ability.everlastingabilities.poison",
   "rarity": "epic",
   "max_level": 3,
-  "xp_per_level": 100,
+  "xp_per_level": 500,
   "effect": "minecraft:poison"
 }

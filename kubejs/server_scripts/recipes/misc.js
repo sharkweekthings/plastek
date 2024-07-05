@@ -214,6 +214,26 @@ ServerEvents.recipes(event => {
   event.remove({id: 'powah:crafting/thermo_generator_nitro'})
   event.remove({id: 'powah:crafting/thermo_generator_spirited'})
   event.remove({id: 'powah:crafting/thermo_generator_starter'})
+  event.remove({id: 'everlastingabilities:ability_bottle'})
+  event.remove({id: 'skilltree:copper_ring'})
+  event.remove({id: 'skilltree:iron_ring'})
+  event.remove({id: 'skilltree:golden_ring'})
+  event.remove({id: 'skilltree:simple_necklace'})
+  event.remove({id: 'skilltree:traveler_necklace'})
+  event.remove({id: 'skilltree:fisherman_necklace'})
+  event.remove({id: 'skilltree:assassin_necklace'})
+  event.remove({id: 'skilltree:healer_necklace'})
+  event.remove({id: 'skilltree:scholar_necklace'})
+  event.remove({id: 'skilltree:arsonist_necklace'})
+  event.remove({id: 'skilltree:quiver'})
+  event.remove({id: 'skilltree:fiery_quiver'})
+  event.remove({id: 'skilltree:armored_quiver'})
+  event.remove({id: 'skilltree:gilded_quiver'})
+  event.remove({id: 'skilltree:toxic_quiver'})
+  event.remove({id: 'skilltree:diamond_quiver'})
+  event.remove({id: 'skilltree:healing_quiver'})
+  event.remove({id: 'skilltree:silent_quiver'})
+  event.remove({id: 'skilltree:bone_quiver'})
   event.remove({id: 'biomancy:bio_forging/fertilizer_from_bio_forging'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
 //
@@ -1241,6 +1261,24 @@ ServerEvents.recipes(event => {
     3: 'minecraft:redstone',
     4: 'prettypipes:pipe',
     5: 'ppfluids:fluid_pipe'}).id('prettypipes:blank_module')
+
+// Wisdom Scroll
+  event.shaped('skilltree:wisdom_scroll',
+    ['434','212','555'], {
+    1: 'productivebees:upgrade_base',
+    2: 'mob_grinding_utils:solid_xp_baby',
+    3: 'mob_grinding_utils:fluid_xp_bucket',
+    4: 'botania:mana_diamond',
+    5: 'botania:terrasteel_ingot'}).id('skilltree:wisdom_scroll')
+
+// Amnesia Scroll
+  event.shaped('skilltree:amnesia_scroll',
+    ['434','212','555'], {
+    1: 'productivebees:upgrade_base',
+    2: 'mob_grinding_utils:solid_xp_baby',
+    3: 'mob_grinding_utils:fluid_xp_bucket',
+    4: 'botania:mana_pearl',
+    5: 'botania:terrasteel_ingot'}).id('skilltree:amnesia_scroll')
 
 // Meta Pet
   event.custom({  

@@ -129,13 +129,12 @@
 		{
 			dependencies: ["65FA1B632359CE14"]
 			description: [
-				"You see that right. &cYour HP is lower&r than normal, and thanks to &cHarder Natural Healing&r your HP regeneration is also slowed down."
+				"You see that right. &cYour HP is lower&r than normal, and thanks to &cHarder Natural Healing&r your HP regeneration is also slowed down. Don't worry! There are other mods that will help you get more HP, and more power."
 				""
 				"&b&lDiet&r&r"
-				"This mod encourages eating a balanced set of foods. You will start with 30% in all groups except Sugar. If you die, all Protein, Fruits, Vegetables, and Grains will be set to 30%, and Sugars will be set to 0%. "
+				"This mod encourages eating a balanced set of foods. You will start with 25% in all groups except Sugar. If you die, all Protein, Fruits, Vegetables, and Grains will be set to 25%, and Sugars will be set to 0%. "
 				""
 				"&n&a&nPositive Effects&r&r"
-				""
 				"- By maintaining 80% and higher in Proteins, Fruits, Vegetables, or Grains you will gain bonus Health, Attack Damage, Attack Speed, Knockback Resistance, and Armor Toughness. For each group that you get above 80% the buffs will become slightly stronger. "
 				""
 				"- If your Sugars stay between 20% and 30% you will gain 25% Movement Speed. "
@@ -143,8 +142,7 @@
 				"&a&oIn total you can gain: 4 Knockback Resistance, 16 Max Health, 4 Armor Toughness, 20% Attack Speed, and +20 Attack Damage&r&r"
 				""
 				"&c&nNegative Effects&r&r"
-				""
-				"- If Proteins, Fruits, Vegetables, and Grains all fall below 15% you will Hunger, Weakness, and Mining Fatigue. "
+				"- If Proteins, Fruits, Vegetables, and Grains all fall below 10% you will get Hunger, Weakness, and Mining Fatigue. "
 				""
 				"- You will have a sugar crash if you go above 70% in Sugars. This will cause you to have Hunger, Weakness, Mining Fatigue, and Slowness. "
 				""
@@ -157,7 +155,14 @@
 				""
 				"&aPam's&r and &aFarmer's Delight&r are both in the pack so there are plenty of various foods to craft, and eat!"
 				""
-				"&a&oHealing spells/potions/wands will be accessible throughout the pack to aide in healing, in addition to the extra HP you'll get.&r&r "
+				"&b&lPassive Skill Tree&r&r"
+				"The &ekeybind 'o'&r will open your Passive Skill Tree. This is an extensive tree of varying abilities / benefits with a total of 85 skill points. Each skill point is pretty expensive in terms of raw experience. "
+				""
+				"In age 3 you will gain access to crafting both a Wisdom and Amnesia scroll. The Wisdom Scroll will grant you 1 skill point, and the Amnesia Scroll will refund your points."
+				""
+				"Other mods like &aArtifacts&r, &aEverlasting Abilities&r, and &aRelics&r will give you alternate ways to power up your character."
+				""
+				"&2&oHealing spells/potions/wands will be accessible throughout the pack to aide in healing, in addition to the extra HP you'll get.&r&r "
 			]
 			icon: "artifacts:crystal_heart"
 			id: "47A6293F3DEEF2D2"
@@ -166,7 +171,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Health"
+			title: "Health and Power"
 			x: -15.5d
 			y: -12.5d
 		}

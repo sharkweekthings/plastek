@@ -1,24 +1,99 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
-      "name": "main",
-      "rolls": 3,
-      "entries": [
+      "rolls": 1,
+      "entries": 
+      [
         {
           "type": "item",
           "name": "everlastingabilities:ability_totem",
-          "weight": 1,
+          "weight": 500,
           "functions": [
             {
               "function": "everlastingabilities:set_random_ability"
             }
           ]
-        }
-      ],
-      "conditions": [
+        },
+        {"type": "minecraft:empty","weight": 40},
+        {"type": "minecraft:empty","weight": 25}
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": 
+      [
         {
-          "condition": "random_chance",
-          "chance": 0.5
+          "type": "item",
+          "name": "everlastingabilities:ability_totem",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "everlastingabilities:set_random_ability"
+            }
+          ]
+        },
+        {"type":"minecraft:item","weight":60,"name":"skilltree:copper_ring"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:iron_ring"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:golden_ring"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:simple_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:traveler_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:fisherman_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:assassin_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:healer_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:scholar_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:arsonist_necklace"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:fiery_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:armored_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:gilded_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:toxic_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:diamond_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:healing_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:silent_quiver"},
+        {"type":"minecraft:item","weight":60,"name":"skilltree:bone_quiver"},
+        {"type": "minecraft:empty","weight": 20},
+        {"type": "minecraft:empty","weight": 20},
+        {"type": "minecraft:empty","weight": 15},
+        {"type": "minecraft:empty","weight": 10}
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "everlastingabilities:ability_totem",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "everlastingabilities:set_random_ability"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apotheosis:gem_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apotheosis:common_material"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apotheosis:uncommon_material"
         }
       ]
     }

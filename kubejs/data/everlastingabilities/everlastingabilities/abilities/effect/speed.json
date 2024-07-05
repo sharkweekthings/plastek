@@ -4,6 +4,10 @@
   "name": "ability.everlastingabilities.speed",
   "rarity": "common",
   "max_level": 5,
-  "xp_per_level": 10,
-  "effect": "minecraft:speed"
+  "xp_per_level": 2000,
+  "effect": "minecraft:speed",  
+  "condition": {
+  "type": "forge:mod_loaded",
+  "modid": "plastekisnotamod"
+  }
 }
