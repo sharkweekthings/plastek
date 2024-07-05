@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " Z "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "B": {
+      "item": "immersiveengineering:stick_treated"
+    },
+    "C": {
+      "item": "pneumaticcraft:spawner_agitator"
+    },
+    "Z": {
+      "item": "emendatusenigmatica:steel_rod"
+    }
+  },
+  "result": {
+    "item": "scarecrowsterritory:primitive_scarecrow"
+  }
+}

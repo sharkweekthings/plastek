@@ -1264,19 +1264,19 @@ ServerEvents.recipes(event => {
 
 // Wisdom Scroll
   event.shaped('skilltree:wisdom_scroll',
-    ['434','212','555'], {
+    ['424','313','555'], {
     1: 'productivebees:upgrade_base',
     2: 'mob_grinding_utils:solid_xp_baby',
-    3: 'mob_grinding_utils:fluid_xp_bucket',
-    4: 'botania:mana_diamond',
+    3: 'pneumaticcraft:plastic',
+    4: 'botania:mana_diamond_block',
     5: 'botania:terrasteel_ingot'}).id('skilltree:wisdom_scroll')
 
 // Amnesia Scroll
   event.shaped('skilltree:amnesia_scroll',
-    ['434','212','555'], {
+    ['424','313','555'], {
     1: 'productivebees:upgrade_base',
     2: 'mob_grinding_utils:solid_xp_baby',
-    3: 'mob_grinding_utils:fluid_xp_bucket',
+    3: 'pneumaticcraft:plastic',
     4: 'botania:mana_pearl',
     5: 'botania:terrasteel_ingot'}).id('skilltree:amnesia_scroll')
 

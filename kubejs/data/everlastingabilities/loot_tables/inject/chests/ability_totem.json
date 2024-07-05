@@ -20,7 +20,7 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": 
       [
         {
@@ -53,7 +53,7 @@
         {"type":"minecraft:item","weight":60,"name":"skilltree:silent_quiver"},
         {"type":"minecraft:item","weight":60,"name":"skilltree:bone_quiver"},
         {"type": "minecraft:empty","weight": 20},
-        {"type": "minecraft:empty","weight": 20},
+        {"type": "minecraft:empty","weight": 25},
         {"type": "minecraft:empty","weight": 15},
         {"type": "minecraft:empty","weight": 10}
       ]
