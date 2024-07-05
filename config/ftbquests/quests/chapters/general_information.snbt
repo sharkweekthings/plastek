@@ -142,7 +142,7 @@
 				"&a&oIn total you can gain: 4 Knockback Resistance, 16 Max Health, 4 Armor Toughness, 20% Attack Speed, and +20 Attack Damage&r&r"
 				""
 				"&c&nNegative Effects&r&r"
-				"- If Proteins, Fruits, Vegetables, and Grains all fall below 10% you will get Hunger, Weakness, and Mining Fatigue. "
+				"- If Proteins, Fruits, Vegetables, or Grains fall below 10% you will get Hunger, Weakness, and Mining Fatigue. "
 				""
 				"- You will have a sugar crash if you go above 70% in Sugars. This will cause you to have Hunger, Weakness, Mining Fatigue, and Slowness. "
 				""

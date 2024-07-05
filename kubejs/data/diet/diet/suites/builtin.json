@@ -125,7 +125,7 @@
       "conditions": [
         {
             "groups": ["proteins", "fruits", "vegetables", "grains"],
-            "match": "average",
+            "match": "any",
             "below": 0.10
         }
       ]
