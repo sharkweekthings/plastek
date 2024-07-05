@@ -964,7 +964,11 @@
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
-			description: ["Comes in many different colors, just add dye!"]
+			description: [
+				"Even when a chunk is force loaded, when you leave the area mobs will no longer spawn. This handy little scarecrow will stand in for you to let your spawners continue to do their thing."
+				""
+				"&3&oComes in many different colors, just add dye!&r&r"
+			]
 			id: "5172EFC3C3186A51"
 			shape: "circle"
 			subtitle: "Keeps spawners active, and allows passive mob spawning."
