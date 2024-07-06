@@ -1264,7 +1264,7 @@ ServerEvents.recipes(event => {
 
 // Wisdom Scroll
   event.shaped('skilltree:wisdom_scroll',
-    ['424','313','555'], {
+    ['424','313','525'], {
     1: 'productivebees:upgrade_base',
     2: 'mob_grinding_utils:solid_xp_baby',
     3: 'pneumaticcraft:plastic',
@@ -1273,7 +1273,7 @@ ServerEvents.recipes(event => {
 
 // Amnesia Scroll
   event.shaped('skilltree:amnesia_scroll',
-    ['424','313','555'], {
+    ['424','313','525'], {
     1: 'productivebees:upgrade_base',
     2: 'mob_grinding_utils:solid_xp_baby',
     3: 'pneumaticcraft:plastic',
