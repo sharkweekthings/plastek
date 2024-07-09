@@ -544,6 +544,8 @@
 				"If you look under the \"Super Side Quests\" > \"Age 4\" there is quest for Greenhouse Glass.  If you click this quest, it will show you the various glass that will work as Greenhouse Glass.   "
 				""
 				"It starts with Minecraft Green Stained Glass, which can then be Chipped for different designs."
+				""
+				"&o&aIf the snow from Serene Seasons starts to be too much the \"Ritual: Clear Weather\" from Occultism, available in Age 2 will help make the skies clear again.&r&r"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:wheat_seeds"
