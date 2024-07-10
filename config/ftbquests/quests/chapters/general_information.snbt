@@ -545,7 +545,7 @@
 				""
 				"It starts with Minecraft Green Stained Glass, which can then be Chipped for different designs."
 				""
-				"&o&aIf the snow from Serene Seasons starts to be too much the \"Ritual: Clear Weather\" from Occultism, available in Age 2 will help make the skies clear again.&r&r"
+				"&o&aIf the snow effect starts to be too annoying, use the \"Ritual: Clear Weather\" from Occultism. The ritual will be available in Age 2 will help make the skies clear again.&r&r"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:wheat_seeds"
