@@ -307,7 +307,7 @@
 		}
 		{
 			dependencies: ["29ABB78197853F7B"]
-			description: ["I am much more durable than my Bone counterpart, but the trade off is that I break blocks mucher more slowly.. "]
+			description: ["I am much more durable than my Bone counterpart, but the trade off is that I break blocks much more slowly.. "]
 			id: "74EA353F28795796"
 			subtitle: "Did somebody say molasses?"
 			tasks: [{
