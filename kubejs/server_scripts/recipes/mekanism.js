@@ -324,7 +324,7 @@ ServerEvents.recipes(event => {
   event.shaped('mekanism:electrolytic_separator',
     ['565','232','414'], {
   1: 'pneumaticcraft:printed_circuit_board',
-  2: 'mekanism:hdpe_rod',
+  2: 'mekanism:hdpe_stick',
 	3: 'industrialforegoing:machine_frame_supreme',
 	4: 'mekanism:advanced_control_circuit',
   5: 'mekanism:alloy_infused',
