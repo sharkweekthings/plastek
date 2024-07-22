@@ -91,6 +91,7 @@
 				}
 			]
 			shape: "gear"
+			subtitle: "That's going to be 500 DKP minus for making me sit through Copper. -Guarddog, probably"
 			tasks: [{
 				id: "708FA8DB9D272073"
 				item: "minecraft:copper_ingot"
