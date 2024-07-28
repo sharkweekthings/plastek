@@ -17,6 +17,7 @@
 				{
 					id: "5EE3EC9212267126"
 					item: "pamhc2foodcore:carrotbreaditem"
+					random_bonus: 14
 					type: "item"
 				}
 				{
@@ -71,7 +72,9 @@
 			description: [
 				"One of the most powerful metals in the world. Copper. Copper..... "
 				""
-				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll need to use Copper tools for a little while. A Copper Pickaxe is much more durable than a Bone Pickaxe, however it just doesnt seem to hit as hard.  You'll sacrifice durability, for sanity, to trade in another kind of insanity. "
+				"It really isn't one of the most powerful metals in the world. Unfortunately for you, you'll need to use Copper tools for a little while. A Copper Pickaxe is much more durable than a Bone Pickaxe, however it just doesnt seem to hit as hard.  "
+				""
+				"You'll sacrifice durability, for sanity, to trade in another kind of insanity. "
 				""
 				"&b&oGood thing Silver is just two quests away!&r&r"
 			]
@@ -130,9 +133,9 @@
 			dependencies: ["6F712354DFDC89C5"]
 			id: "744FE5C3E16276EB"
 			rewards: [{
-				count: 3
 				id: "4AAC767F98FD9EBB"
-				item: "statues:marshmallow"
+				item: "pamhc2foodcore:smoresitem"
+				random_bonus: 14
 				type: "item"
 			}]
 			shape: "circle"
@@ -977,8 +980,8 @@
 				item: "tconstruct:seared_fuel_tank"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -10.5d
+			x: 12.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7BF76498DE7536C5"]
@@ -989,8 +992,8 @@
 				item: "tconstruct:seared_fuel_gauge"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -10.5d
+			x: 14.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4A56A6C0FACF11EA"]
