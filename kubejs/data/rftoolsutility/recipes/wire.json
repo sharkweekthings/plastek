@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "rftoolsbase:machine_base"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "rAr"
+  ],
+  "result": {
+    "item": "rftoolsutility:wire"
+  }
+}

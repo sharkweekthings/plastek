@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "g": {
+      "item": "emendatusenigmatica:electrum_ingot"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "deg",
+    "irX",
+    "qCG"
+  ],
+  "result": {
+    "item": "rftoolsbase:dimensionalshard"
+  }
+}

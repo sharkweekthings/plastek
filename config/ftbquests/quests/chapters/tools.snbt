@@ -108,23 +108,12 @@
 				"&o&cTry sticking to Vanilla or Biomes o Plenty trees for this step.&r&r "
 			]
 			id: "6C04ACB8F1639713"
-			rewards: [
-				{
-					id: "5C1AA0D03107272D"
-					item: "farmersdelight:cooked_cod_slice"
-					type: "item"
-				}
-				{
-					id: "4E7C2C06AD4F5097"
-					item: "farmersdelight:sweet_berry_cheesecake_slice"
-					type: "item"
-				}
-				{
-					id: "3D0CDF56D9D3E1A2"
-					item: "farmersdelight:cooked_chicken_cuts"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "037C7F6C1BC4A34D"
+				item: "pamhc2foodextended:pizzasliceitem"
+				random_bonus: 19
+				type: "item"
+			}]
 			tasks: [{
 				id: "45DE169F9C50D4E5"
 				item: {
@@ -150,6 +139,12 @@
 				"&oYou can get the seeds barehand if you want, but the Farmer's Delight Straw only drops with a Farmer's Delight knife.&r"
 			]
 			id: "38B7F4C768357451"
+			rewards: [{
+				id: "110F619F03508363"
+				item: "pamhc2foodextended:pizzasliceitem"
+				random_bonus: 19
+				type: "item"
+			}]
 			tasks: [{
 				id: "6337E2697BBFF287"
 				item: {
@@ -172,6 +167,12 @@
 				"This is optional though, so if you want you can just power through it with a Hatchet, like you're still a caveman."
 			]
 			id: "0ADCEDA0DE534C90"
+			rewards: [{
+				id: "2FF819932D809D3B"
+				item: "pamhc2foodextended:pizzasliceitem"
+				random_bonus: 9
+				type: "item"
+			}]
 			shape: "circle"
 			subtitle: "Flint Upgrade!"
 			tasks: [{
@@ -224,6 +225,12 @@
 			dependencies: ["67808FB71FA8E8F6"]
 			description: ["With this, you should be able to start getting Copper!"]
 			id: "01849E75E7A04443"
+			rewards: [{
+				id: "5B44BC620BA5C04A"
+				item: "pamhc2foodextended:baklavaitem"
+				random_bonus: 9
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D61C13D609F2E3C"
 				item: {
@@ -243,6 +250,12 @@
 			dependencies: ["67808FB71FA8E8F6"]
 			description: ["A small boost to damage from the other Knife."]
 			id: "60B972150AF5F7C3"
+			rewards: [{
+				id: "08ED7059571EF64C"
+				item: "pamhc2foodextended:baklavaitem"
+				random_bonus: 9
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A6C117380898A22"
 				item: {
@@ -309,6 +322,12 @@
 			dependencies: ["29ABB78197853F7B"]
 			description: ["I am much more durable than my Bone counterpart, but the trade off is that I break blocks much more slowly.. "]
 			id: "74EA353F28795796"
+			rewards: [{
+				id: "3BE4DA0563460497"
+				item: "pamhc2foodcore:carrotbreaditem"
+				random_bonus: 14
+				type: "item"
+			}]
 			subtitle: "Did somebody say molasses?"
 			tasks: [{
 				id: "6EDC524C87C57AA5"
@@ -476,6 +495,12 @@
 			dependencies: ["159DC7234BD0097A"]
 			description: ["It's more durable, and much faster than it's Copper predecessor. "]
 			id: "4CB4012E79F09338"
+			rewards: [{
+				id: "60FE5CC18E95C149"
+				item: "pamhc2foodcore:pumpkinbreaditem"
+				random_bonus: 14
+				type: "item"
+			}]
 			subtitle: "Mining level is over 9000!!!"
 			tasks: [{
 				id: "1B9AEE50D6CB7981"

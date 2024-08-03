@@ -295,6 +295,7 @@ JEIEvents.hideItems(event => {
 
 // RF TOOLS
 	event.hide('rftoolsbase:machine_frame')
+	event.hide('rftoolsutility:flight_module')
 
 // MEKANISM
 	event.hide('mekanism:dust_quartz')
@@ -418,6 +419,7 @@ JEIEvents.hideItems(event => {
 	event.hide('mysticalagriculture:amethyst_bronze_essence')
 	event.hide('mysticalagriculture:hepatizon_essence')
 	event.hide('mysticalagriculture:rose_gold_essence')
+	event.hide('mysticalagriculture:flight_augment')
 
 // Mob Grinding Utils
 	event.hide('mob_grinding_utils:spawner_upgrade_width')

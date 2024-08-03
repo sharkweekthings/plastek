@@ -326,7 +326,7 @@
 				type: "item"
 			}]
 			title: "Bituminous Sand"
-			x: -4.0d
+			x: -4.5d
 			y: -9.0d
 		}
 		{
@@ -344,7 +344,7 @@
 				type: "item"
 			}]
 			title: "Bituminous Red Sand"
-			x: -3.0d
+			x: -3.5d
 			y: -9.0d
 		}
 		{
@@ -774,7 +774,7 @@
 				type: "item"
 			}]
 			title: "Inferium Ore"
-			x: -1.0d
+			x: -1.5d
 			y: -9.0d
 		}
 		{
@@ -861,7 +861,7 @@
 				type: "item"
 			}]
 			title: "Soulium Ore"
-			x: 1.0d
+			x: 0.5d
 			y: -9.0d
 		}
 		{
@@ -1022,7 +1022,7 @@
 				type: "item"
 			}]
 			title: "Ice Shard Ore"
-			x: -2.0d
+			x: -2.5d
 			y: -9.0d
 		}
 		{
@@ -1472,7 +1472,7 @@
 				type: "item"
 			}]
 			title: "Sulfur Ore"
-			x: 0.0d
+			x: -0.5d
 			y: -9.0d
 		}
 		{
@@ -1774,6 +1774,23 @@
 			}]
 			x: -6.0d
 			y: -2.0d
+		}
+		{
+			description: [
+				"&b&nOVERWORLD&r&r"
+				""
+				"Y: -64"
+				"Y: 64"
+			]
+			id: "0909EB94BBA5EB16"
+			shape: "circle"
+			tasks: [{
+				id: "20FF69B32ED84008"
+				item: "xp_veins:xp_ore"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
 		}
 	]
 	title: "Ore Generation"

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "o": {
+      "tag": "forge:ender_pearls"
+    }
+  },
+  "pattern": [
+    " o ",
+    "oRo",
+    "ioi"
+  ],
+  "result": {
+    "item": "rftoolsutility:charged_porter"
+  }
+}

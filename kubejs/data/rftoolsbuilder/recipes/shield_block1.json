@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "emendatusenigmatica:signalum_dust"
+    },
+    "g": {
+      "item": "powah:steel_energized"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "gTg",
+    "rFr",
+    "OOO"
+  ],
+  "result": {
+    "item": "rftoolsbuilder:shield_block1"
+  }
+}

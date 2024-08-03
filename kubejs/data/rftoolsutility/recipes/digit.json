@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "rftoolsbase:machine_base"
+    },
+    "P": {
+      "tag": "forge:glass_panes"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "rAr",
+    "PPP"
+  ],
+  "result": {
+    "item": "rftoolsutility:digit"
+  }
+}

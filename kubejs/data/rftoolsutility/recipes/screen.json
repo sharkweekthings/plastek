@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "rftoolsbase:machine_base"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GAG",
+    "iii"
+  ],
+  "result": {
+    "item": "rftoolsutility:screen"
+  }
+}

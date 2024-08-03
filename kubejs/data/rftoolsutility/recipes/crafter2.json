@@ -1,0 +1,22 @@
+{
+  "type": "mcjtylib:copy_nbt",
+  "key": {
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "M": {
+      "item": "rftoolsutility:crafter1"
+    },
+    "T": {
+      "item": "emendatusenigmatica:plasteel_plate"
+    }
+  },
+  "pattern": [
+    " T ",
+    "CMC",
+    " T "
+  ],
+  "result": {
+    "item": "rftoolsutility:crafter2"
+  }
+}

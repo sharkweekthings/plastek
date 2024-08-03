@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "h": {
+      "item": "minecraft:hopper"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    " h ",
+    "rir",
+    " p "
+  ],
+  "result": {
+    "item": "rftoolsbase:filter_module"
+  }
+}

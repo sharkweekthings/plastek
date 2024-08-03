@@ -657,7 +657,7 @@
 				type: "item"
 			}]
 			title: "Time in a Bottle"
-			x: -0.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -979,6 +979,19 @@
 			}]
 			x: -0.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["70B420DBF0D5F0F2"]
+			id: "19543692E0D7F9F1"
+			shape: "circle"
+			subtitle: "Auto Crafting!"
+			tasks: [{
+				id: "52DA6ED0C7D62566"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
 		}
 	]
 	title: "Utility"

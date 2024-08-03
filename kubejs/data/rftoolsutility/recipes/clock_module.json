@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:clock"
+    },
+    "Z": {
+      "tag": "forge:dyes/black"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    " X ",
+    "rir",
+    " Z "
+  ],
+  "result": {
+    "item": "rftoolsutility:clock_module"
+  }
+}

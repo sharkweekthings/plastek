@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "powah:steel_energized"
+    },
+    "i": {
+      "item": "prettypipes:blank_module"
+    },
+    "p": {
+      "item": "powah:crystal_nitro"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "pBp",
+    "rir",
+    "pBp"
+  ],
+  "result": {
+    "item": "rftoolsbuilder:shape_card_def"
+  }
+}

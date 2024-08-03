@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "l": {
+      "tag": "forge:dyes/blue"
+    }
+  },
+  "pattern": [
+    "  i",
+    " l ",
+    "l  "
+  ],
+  "result": {
+    "item": "rftoolsbase:smartwrench"
+  }
+}

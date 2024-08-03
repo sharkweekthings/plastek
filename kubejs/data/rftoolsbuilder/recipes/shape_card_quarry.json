@@ -1,0 +1,28 @@
+{
+  "type": "mcjtylib:copy_nbt",
+  "key": {
+    "M": {
+      "item": "rftoolsbuilder:shape_card_def"
+    },
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "i": {
+      "item": "powah:crystal_nitro"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "rPr",
+    "iMi",
+    "rSr"
+  ],
+  "result": {
+    "item": "rftoolsbuilder:shape_card_quarry"
+  }
+}

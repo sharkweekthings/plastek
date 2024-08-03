@@ -101,6 +101,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/certus_quartz'})
   event.remove({id: 'mysticalagriculture:essence/appliedenergistics2/fluix'})
   event.remove({id: 'mysticalagriculture:machine_frame'})
+  event.remove({id: 'mysticalagriculture:augment/flight'})
   event.remove({id: 'mysticalagriculture:mystical_fertilizer'})
   event.remove({id:/botanypots:mysticalagriculture\/crop/})
 

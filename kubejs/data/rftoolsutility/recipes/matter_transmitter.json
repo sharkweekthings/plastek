@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "o": {
+      "tag": "forge:ender_pearls"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "ooo",
+    "rFr",
+    "iii"
+  ],
+  "result": {
+    "item": "rftoolsutility:matter_transmitter"
+  }
+}

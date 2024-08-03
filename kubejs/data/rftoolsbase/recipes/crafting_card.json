@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "p": {
+      "item": "prettypipes:blank_module"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    "pC",
+    "rp"
+  ],
+  "result": {
+    "count": 8,
+    "item": "rftoolsbase:crafting_card"
+  }
+}

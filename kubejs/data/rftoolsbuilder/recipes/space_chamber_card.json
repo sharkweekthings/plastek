@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "immersiveengineering:concrete"
+    },
+    "i": {
+      "item": "powah:crystal_nitro"
+    },
+    "r": {
+      "item": "emendatusenigmatica:signalum_dust"
+    }
+  },
+  "pattern": [
+    " B ",
+    "rir",
+    " B "
+  ],
+  "result": {
+    "item": "rftoolsbuilder:space_chamber_card"
+  }
+}

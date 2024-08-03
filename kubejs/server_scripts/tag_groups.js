@@ -1631,6 +1631,7 @@ event.add('kubejs:age_3_exception',
 
 event.add('kubejs:age_4_item', 
   [
+  'rftoolsutility:crafter1',
   'thermal:device_composter',
   'mysticalagriculture:copper_essence',
   'mysticalagriculture:cow_essence',
@@ -1902,6 +1903,7 @@ event.add('kubejs:age_4_exception',
 
 event.add('kubejs:age_5_item', 
   [
+  'rftoolsutility:crafter2',
   'mysticalagriculture:fluix_essence',
   'mysticalagriculture:fluix_seeds',
   'mysticalagriculture:certus_quartz_essence',
@@ -2140,6 +2142,8 @@ event.add('kubejs:age_6_item',
 
 event.add('kubejs:age_6_exception', 
   [
+  'rftoolsutility:crafter1',
+  'rftoolsutility:crafter2',
   'powah:furnator_starter',
   'powah:magmator_starter',
   'powah:thermo_generator_starter',

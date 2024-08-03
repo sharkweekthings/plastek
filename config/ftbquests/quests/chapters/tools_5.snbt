@@ -2005,6 +2005,19 @@
 			x: 14.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["342F53F8AED7FC27"]
+			id: "3A7B29DD2E3718BD"
+			shape: "circle"
+			subtitle: "Auto Crafting, But Tier Twoier"
+			tasks: [{
+				id: "67FCFBC056A19CEE"
+				item: "rftoolsutility:crafter2"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
 	]
 	title: "Utility"
 }

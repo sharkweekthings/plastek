@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "F": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "T": {
+      "item": "pneumaticcraft:plastic"
+    }
+  },
+  "pattern": [
+    " T ",
+    "CFC",
+    " T "
+  ],
+  "result": {
+    "item": "rftoolsutility:crafter1"
+  }
+}

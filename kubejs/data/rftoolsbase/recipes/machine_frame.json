@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "l": {
+      "tag": "forge:dyes/blue"
+    }
+  },
+  "pattern": [
+    "ili",
+    "g g",
+    "ili"
+  ],
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}

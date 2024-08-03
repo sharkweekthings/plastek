@@ -1221,6 +1221,10 @@
 		}
 		{
 			dependencies: ["65347C6676E31024"]
+			description: [
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
 			id: "70B420DBF0D5F0F2"
 			rewards: [{
 				exclude_from_claim_all: true

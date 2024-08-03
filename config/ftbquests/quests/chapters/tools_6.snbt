@@ -1076,7 +1076,7 @@
 				item: "mysticalagriculture:poison_resistance_augment"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -1088,7 +1088,7 @@
 				item: "mysticalagriculture:mining_fatigue_resistance_augment"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -1100,20 +1100,23 @@
 				item: "mysticalagriculture:wither_resistance_augment"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2839B98FEEEB68EB"]
+			description: ["RECIPE HAS BEEN DISABLED FOR VERSION 1.59 AND ABOVE"]
 			id: "328458C2234EFAEA"
+			invisible: true
 			shape: "circle"
+			subtitle: "You will need to seek another way to fly."
 			tasks: [{
 				id: "70FA393EF9D8EF54"
 				item: "mysticalagriculture:flight_augment"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6477D7ABD5D11941"]
@@ -1267,7 +1270,7 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
@@ -1443,6 +1446,31 @@
 			]
 			x: -1.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["75B016316EC60D51"]
+			id: "72A856FCEF893F43"
+			shape: "circle"
+			tasks: [{
+				id: "0144C59A740E06B2"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6477D7ABD5D11941"]
+			id: "576141034728AC4A"
+			shape: "circle"
+			subtitle: "Auto Crafting final form"
+			tasks: [{
+				id: "0A6187A198871231"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
 		}
 	]
 	title: "Utility"

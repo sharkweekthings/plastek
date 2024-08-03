@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:book"
+    },
+    "g": {
+      "item": "powah:steel_energized"
+    }
+  },
+  "pattern": [
+    "Xg",
+    "gg"
+  ],
+  "result": {
+    "item": "rftoolsbase:manual"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "z": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "pattern": [
+    "i  ",
+    " i ",
+    "  z"
+  ],
+  "result": {
+    "item": "rftoolsutility:syringe"
+  }
+}

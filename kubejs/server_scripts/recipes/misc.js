@@ -234,6 +234,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'skilltree:healing_quiver'})
   event.remove({id: 'skilltree:silent_quiver'})
   event.remove({id: 'skilltree:bone_quiver'})
+  event.remove({id: 'rftoolsutility:flight_module'})
   event.remove({id: 'biomancy:bio_forging/fertilizer_from_bio_forging'})
   event.remove([{ type: 'minecraft:smelting', output: '#forge:ingots' }, { type: 'minecraft:blasting', output: '#forge:ingots' }])
 //
