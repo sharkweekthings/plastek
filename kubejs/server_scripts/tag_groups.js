@@ -2873,6 +2873,7 @@ event.add('kubejs:plastek_cake',
   'pamhc2foodextended:chocolatesprinklecakeitem',
   'pamhc2foodextended:rivermudcakeitem',
   'pamhc2foodextended:fruitcakeitem',
+  'pamhc2foodextended:mochicakeitem',
   'pamhc2foodextended:lemondrizzlecakeitem',
   'chococraft:gysahl_cake',
   'minecraft:cake'
