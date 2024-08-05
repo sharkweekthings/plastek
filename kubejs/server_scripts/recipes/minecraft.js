@@ -58,6 +58,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'minecraft:green_concrete_powder'})
   event.remove({id: 'minecraft:red_concrete_powder'})
   event.remove({id: 'minecraft:black_concrete_powder'})
+  event.remove({id: 'minecraft:cake'})
 
 //
 })

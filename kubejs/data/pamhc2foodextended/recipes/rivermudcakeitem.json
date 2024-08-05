@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_bakeware"
+    },
+	{	
+      "tag": "forge:cocoapowder"
+    },
+	{	
+      "tag": "forge:crops/coconut"
+    },
+	{	
+      "tag": "forge:marshmellows"
+    },
+	{	
+      "tag": "forge:flour"
+    },
+	{	
+      "tag": "forge:egg"
+    },
+	{	
+      "tag": "forge:butter"
+    },
+	{	
+      "item": "create:dough"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:rivermudcakeitem",
+	"count": 1}
+	
+}
