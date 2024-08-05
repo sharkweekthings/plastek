@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
     [' 1 ',' 2 ','434'], {
     1: 'create:electron_tube',
     2: 'create:brass_casing',
-    3: 'immersiveengineering:craftingtable',
+    3: 'tconstruct:crafting_station',
     4: 'create:precision_mechanism'}).id('create:crafts/mechanical_crafter')
 
 // Mechanical Roller

@@ -258,13 +258,12 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Sorry, we don't."
 			tasks: [{
 				id: "368EADB1817CB8FD"
 				title: "ok"
 				type: "checkmark"
 			}]
-			title: "When Do We Meet Ichigo?"
+			title: "Flame On!"
 			x: -3.5d
 			y: 5.0d
 		}

@@ -734,7 +734,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -4.5d
 			y: 8.500000000000002d
 		}
 		{
@@ -882,7 +882,7 @@
 				item: "sophisticatedbackpacks:jukebox_upgrade"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
@@ -901,7 +901,7 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -5.5d
 			y: 8.5d
 		}
 		{
@@ -914,8 +914,8 @@
 				item: "sophisticatedbackpacks:tank_upgrade"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
 			id: "2FE500E99FAC48A7"
@@ -946,7 +946,7 @@
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 8.5d
 		}
 		{
@@ -1085,7 +1085,7 @@
 				item: "sophisticatedbackpacks:anvil_upgrade"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 8.5d
 		}
 		{

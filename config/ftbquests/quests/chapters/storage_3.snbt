@@ -7,27 +7,50 @@
 	id: "32CE7CEA258BA7E0"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"79705DCA6ADC0148"
-			"28699AB195F74472"
-		]
-		description: [
-			"This age, a simple remote to make your life a little easier for withdrawl and depositing. "
-			""
-			"Unfortunately, this remote isn't capable of crafting, and Simple Storage for this pack doesnt have any remote that will let you craft."
-			""
-			"Pretty Pipes, available this age -- has it's own storage system if you prefer that style, but there isn't a quest created for it."
-		]
-		id: "4A18F27CE021405C"
-		shape: "circle"
-		tasks: [{
-			id: "10A52B51D21B52E9"
-			item: "storagenetwork:inventory_remote"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"79705DCA6ADC0148"
+				"28699AB195F74472"
+			]
+			description: [
+				"This age, a simple remote to make your life a little easier for withdrawl and depositing. "
+				""
+				"Unfortunately, this remote isn't capable of crafting, and Simple Storage for this pack doesnt have any remote that will let you craft."
+				""
+				"Pretty Pipes, available this age -- has it's own storage system if you prefer that style, but there isn't a quest created for it."
+			]
+			id: "4A18F27CE021405C"
+			shape: "circle"
+			tasks: [{
+				id: "10A52B51D21B52E9"
+				item: "storagenetwork:inventory_remote"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: ["{@pagebreak}"]
+			id: "1C4E6F09B3C8F1BC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "353984950A135DFE"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					id: "546BC168B8E39924"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			title: "Chesties"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
 	title: "Storage"
 }

@@ -186,6 +186,6 @@ LootJS.modifiers(event => {
     'quark:foxhound',
     'quark:shiba',
     'quark:toretoise')
-        .randomChance(0.35)
+        .randomChance(0.37)
         .addLoot('minecraft:bone');
 });

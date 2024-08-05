@@ -398,16 +398,17 @@ ServerEvents.recipes(event => {
 
 // Compact Machine Wall
   event.shaped('4x compactmachines:wall',
-    ['212','121','212'], {
+    ['212','131','212'], {
     1: 'compressium:stone_2',
-    2: 'minecraft:polished_deepslate'}).id('compactmachines:misc/wall_4x')
+    2: 'immersiveengineering:concrete',
+    3: 'minecraft:polished_deepslate'}).id('compactmachines:misc/wall_4x')
 
 // Compact Machines Tiny
   event.shaped('compactmachines:machine_tiny',
     ['313','121','313'], {
     1: 'compactmachines:wall',
     2: 'minecraft:copper_block',
-    3: 'pneumaticcraft:plastic'}).id('compactmachines:misc/machine_tiny')
+    3: 'pneumaticcraft:plastic',}).id('compactmachines:misc/machine_tiny')
 
 // Compact Machines Small
   event.shaped('compactmachines:machine_small',

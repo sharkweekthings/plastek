@@ -13,9 +13,11 @@
 			description: [
 				"And with the future, comes choices. Like these choices: "
 				""
-				"Choice 1) Set up the necessities to better Tools, Armors, and Weapons"
-				"Choice 2) Set up the necessities to get Treated Wood so you can make better storage systems."
-				"Choice 3) Set up the necessities to start powering your Create machines with a Water Wheel"
+				"&bChoice 1:&r Set up the necessities to better Tools, Armors, and Weapons"
+				""
+				"&bChoice 2:&r Set up the necessities to get Treated Wood so you can make better storage systems."
+				""
+				"&bChoice 3:&r Set up the necessities to start powering your Create machines with a Water Wheel"
 				""
 				"You can also head over to the Magic tab and start on Botania. You'll need Livingrock to do some things with Occultism, so it's suggested to do Botania first in the Magic tab."
 			]

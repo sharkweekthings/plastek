@@ -1474,7 +1474,7 @@
 			dependencies: ["564AA140606FC4F4"]
 			description: ["Before completing the pack you will need 25 Mechanical Crafters. You may as well get a head start, now and make some Crushing Wheels!"]
 			id: "65DD44F9D92C7733"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				count: 21L
 				id: "06C2ADD528D88646"
@@ -1485,6 +1485,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0F2AB9FBA1B60CFE"]
 			description: ["Adds 1 skill point to the Passive Skill Tree."]
 			id: "65A817B91B6E0AD1"
 			shape: "circle"
@@ -1498,6 +1499,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["0F2AB9FBA1B60CFE"]
 			description: [
 				"Forget everything you ever knew about yourself, and everybody else! "
 				""

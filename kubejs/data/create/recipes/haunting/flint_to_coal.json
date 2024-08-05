@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.45,
+      "item": "minecraft:coal"
+    }
+  ]
+}

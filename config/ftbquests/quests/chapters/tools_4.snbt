@@ -163,7 +163,7 @@
 				""
 				"There are several different designs you can pick from, and if you don't like the ones you picked, they should be re-craftable using the current Tiara + whatever extra material is required."
 				""
-				"To see more either look in JEI for \"Tiara\"."
+				"&a&oTo see more variations look in JEI for \"Tiara\"&r&r."
 			]
 			id: "0AF42A3D59A25B9F"
 			shape: "circle"
@@ -413,7 +413,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -438,7 +438,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -466,7 +466,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -675,26 +675,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["481CC7DD0387169C"]
-			id: "1B6992FF260D94B6"
-			shape: "circle"
-			tasks: [{
-				id: "631CFA14B8C4D79D"
-				item: {
-					Count: 1b
-					id: "tconstruct:part_builder"
-					tag: {
-						texture: "minecraft:oak_planks"
-					}
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: 2.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -712,27 +694,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["481CC7DD0387169C"]
-			id: "0838EFEBF40A49F7"
-			shape: "circle"
-			tasks: [
-				{
-					id: "1E34BAA08C9A5B72"
-					item: "tconstruct:cast_chest"
-					type: "item"
-				}
-				{
-					id: "4AF69ECFA9A7AAA9"
-					item: "tconstruct:part_chest"
-					type: "item"
-				}
-			]
-			title: "Chesties"
-			x: 1.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -836,7 +798,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -903,8 +865,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["317B3D9FEBAB32C5"]
@@ -978,7 +940,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["70B420DBF0D5F0F2"]
