@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "inventorypets:nugget_emerald",
+        "count": 1
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "inventorypets:nugget_diamond",
+        "count": 1
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "base_ingredient": {
+      "item": "silentgear:bort"
+    }
+  },
+  "input": {
+    "item": "silentgear:bort_ore"
+  },
+  "energy": 10000
+}

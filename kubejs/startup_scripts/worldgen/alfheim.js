@@ -53,6 +53,20 @@ WorldgenEvents.add(event => {
     ore.size = 12
   })
 
+  // XP Ore
+  event.addOre(ore => {
+    ore.id = 'kubejs:xp_ore_gen_ah'
+    ore.biomes = '#kubejs:alfheim_gen_1'
+    ore.addTarget('botania:livingrock', 'xp_veins:xp_ore')
+    ore.count([7, 30])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(8),
+        anchors.absolute(216)
+      )
+    ore.size = 6
+  })
+
   // Gold
   event.addOre(ore => {
     ore.id = 'kubejs:gold_ore_gen_ah'

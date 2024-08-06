@@ -21,6 +21,48 @@ WorldgenEvents.add(event => {
     ore.size = 10
   })
 
+// Silver
+  event.addOre(ore => {
+    ore.id = 'kubejs:silver_ore_gen_tf'
+    ore.biomes = '#kubejs:twilightforest_gen_1'
+    ore.addTarget('minecraft:stone', 'thermal:silver_ore')
+    ore.count([3, 30])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(-25),
+        anchors.absolute(16)
+      )
+    ore.size = 7
+  })
+
+// Silver 2
+  event.addOre(ore => {
+    ore.id = 'kubejs:silver_ore_gen_tf2'
+    ore.biomes = '#kubejs:twilightforest_gen_2'
+    ore.addTarget('minecraft:stone', 'thermal:silver_ore')
+    ore.count([3, 30])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(-25),
+        anchors.absolute(16)
+      )
+    ore.size = 7
+  })
+
+// XP Ore
+  event.addOre(ore => {
+    ore.id = 'kubejs:xp_ore_gen_tf'
+    ore.biomes = '#kubejs:twilightforest_gen_1'
+    ore.addTarget('minecraft:stone', 'xp_veins:xp_ore')
+    ore.count([8, 10])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(-25),
+        anchors.absolute(16)
+      )
+    ore.size = 6
+  })
+
 // Coal
   event.addOre(ore => {
     ore.id = 'kubejs:coal_ore_gen_tf'

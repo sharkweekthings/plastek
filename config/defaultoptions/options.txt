@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","emendatusenigmatica_assets","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip"]
+incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -48,7 +48,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -67,17 +67,17 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
-syncChunkWrites:true
+syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
 chatPreview:1
 onlyShowSecureChat:false
-soundCategory_master:0.50827813
+soundCategory_master:0.16721854
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

@@ -107,6 +107,20 @@
       ore.size = 11
     })
 
+  // XP Ore
+    event.addOre(ore => {
+      ore.id = 'kubejs:xp_ore_ore_gen_nth'
+      ore.biomes = '#kubejs:nether_gen'
+      ore.addTarget('minecraft:netherrack', 'xp_veins:xp_ore')
+      ore.count([15, 40])
+        .squared()
+        .triangleHeight(
+          anchors.absolute(18),
+          anchors.absolute(154)
+        )
+      ore.size = 6
+    })
+
   // Soulium
     event.addOre(ore => {
       ore.id = 'kubejs:soulium_ore_gen_nth'

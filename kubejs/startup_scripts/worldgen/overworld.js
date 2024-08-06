@@ -23,6 +23,90 @@ WorldgenEvents.add(event => {
     ore.size = 7
   }) 
 
+  // Copper Mtn 2
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_mtn_copper_ore_gen_ow2'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#forge:stone', 'minecraft:copper_ore')
+    ore.count([10, 40])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(50),
+        anchors.absolute(115)
+      )
+    ore.size = 10
+  }) 
+
+  // Bort Mtn
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_mtn_bort_ore_gen_ow2'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#forge:stone', 'silentgear:bort_ore')
+    ore.count([12, 30])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(50),
+        anchors.absolute(115)
+      )
+    ore.size = 8
+  })  
+
+  // XP Ore Mtn
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_mtn_xp_ore_gen_ow'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#forge:stone', 'xp_veins:xp_ore')
+    ore.count([10, 20])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(45),
+        anchors.absolute(120)
+      )
+    ore.size = 6
+  }) 
+
+  // Lapis Lazuli Mtn
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_mtn_lapis_gen_ow'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#forge:stone', 'minecraft:lapis_ore')
+    ore.count([10, 40])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(75),
+        anchors.absolute(120)
+      )
+    ore.size = 6
+  }) 
+
+  // Silver Mtn
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_mtn_silver_gen_ow'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#forge:stone', 'thermal:silver_ore')
+    ore.count([10, 20])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(75),
+        anchors.absolute(120)
+      )
+    ore.size = 6
+  }) 
+
+  // Copper Dirt
+  event.addOre(ore => {
+    ore.id = 'kubejs:copper_extra_ore_gen_ow_dirt'
+    ore.biomes = '#kubejs:ow_gen'
+    ore.addTarget('#minecraft:dirt', 'minecraft:copper_ore')
+    ore.count([8, 15])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(40),
+        anchors.absolute(140)
+      )
+    ore.size = 6
+  })
+
   // Zinc
   event.addOre(ore => {
     ore.id = 'kubejs:in_mtn_zinc_ore_gen_ow'
