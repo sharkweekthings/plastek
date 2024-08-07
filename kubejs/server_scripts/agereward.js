@@ -1,6 +1,6 @@
 ////
 // ftb age rewards
-//// renik
+//// renik test
 // The idea for this script came from a modpack called Decursio Project and was originally Authored by Lady Lexxie and Alexandr
 
 FTBQuestsEvents.customReward('75C204049F7833F5', event => {
