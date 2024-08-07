@@ -871,13 +871,13 @@
 		{
 			dependencies: ["596C93F25C178797"]
 			description: [
-				"You've probably found a few &aAbility Totems&r by now and haven't been able to use them. "
+				"You've probably found a few &aAbility Totems&r by now, and they are cluttering up space."
 				""
 				"Well, with the low cost of 1 block of gold you can make yourself an &bAbility Bottle&r! "
 				""
-				"With your Ability Bottle you can store up to 4 abilities per bottle. Just right click the Ability Totem, and as long as you have enough &eExperience Points&r you will be able to add the totem to the bottle, and gain that ability!"
+				"With your Ability Bottle you can store up to 4 abilities per bottle. If you have some excess abilities that you want to keep in bottles, this is a great way to store them, and your Experience points. "
 				""
-				"You can have multiple bottles, but only 4 abilities can be active at a time. &cIf you die, you will drop all of your abilities and need to recover them&r. "
+				"Only 4 abilities can be active at a time. &cIf you die, you will drop all of your abilities and need to recover them&r. "
 				""
 				"You can level up your abilities by finding duplicates, and adding those to the bottle. Each ability has it's own level cap. "
 				""
