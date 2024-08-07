@@ -10,6 +10,11 @@ ServerEvents.recipes(event => {
   event.remove({id: 'iceandfire:dragonforge_ice_core_disabled'})
   event.remove({id: 'iceandfire:dragonforge_fire_core_disabled'})
   event.remove({id: 'iceandfire:dragonforge_lightning_core_disabled'})
+  event.remove({id: 'dragonseeker:dragonseeker'})
+  event.remove({id: 'dragonseeker:epic_dragonseeker'})
+  event.remove({id: 'dragonseeker:legendary_dragonseeker_fire'})
+  event.remove({id: 'dragonseeker:legendary_dragonseeker_ice'})
+  event.remove({id: 'dragonseeker:legendary_dragonseeker_lightning'})
 
 
 //
@@ -155,6 +160,14 @@ ServerEvents.recipes(event => {
     1: 'tconstruct:seared_glass',
     2: '#minecraft:trapdoors',
     3: 'occultism:spirit_attuned_gem'}).id('iceandfire:jar_empty')
+
+// Dragonseeker
+  event.shaped('dragonseeker:godly_dragonseeker', 
+    ['424','343','313'], {
+    1: 'redstone_arsenal:flux_obsidian_rod',
+    2: '#iceandfire:dragon_skulls',
+    3: 'botania:dragonstone',
+    4: 'botania:life_essence'}).id('dragonseeker:godly_dragonseeker')
 
 // Troll Tusk > Bone Meal
 event.smelting('2x minecraft:bone_meal', 'iceandfire:troll_tusk').id('iceandfire:troll_tusk_bonemeal')

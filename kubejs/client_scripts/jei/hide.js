@@ -539,6 +539,9 @@ JEIEvents.hideItems(event => {
 
 // Ice & Fire
 	event.hide('iceandfire:sapphire_ore')
+	event.hide('dragonseeker:dragonseeker')
+	event.hide('dragonseeker:epic_dragonseeker')
+	event.hide('dragonseeker:legendary_dragonseeker')
 
 // EE
 	event.hide('emendatusenigmatica:copper_sword')

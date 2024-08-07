@@ -179,7 +179,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -304,7 +304,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -954,6 +954,25 @@
 			}]
 			x: -0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["48ABF1D3186757AE"]
+			description: [
+				"&c&oIf you are on a multiplayer server, use this item responsibly!&r&r"
+				""
+				"Do not spam it like a mad man. 1 click every few steps will do just fine. "
+			]
+			id: "265F46988079A285"
+			shape: "circle"
+			subtitle: "Will give you the coordinates of Dragons"
+			tasks: [{
+				id: "10D59C8BC813D071"
+				item: "dragonseeker:godly_dragonseeker"
+				type: "item"
+			}]
+			title: "Be Responsible"
+			x: -0.5d
+			y: -0.5d
 		}
 	]
 	title: "Utility"
