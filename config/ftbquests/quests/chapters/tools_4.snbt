@@ -179,7 +179,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -304,7 +304,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -413,7 +413,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -438,7 +438,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -466,7 +466,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -676,7 +676,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -694,7 +694,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -729,7 +729,7 @@
 			]
 			title: "Casts For Special Tool Parts"
 			x: 0.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -779,7 +779,7 @@
 			]
 			title: "Casts For Tool Parts"
 			x: -2.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2E18138D211E9206"]
@@ -798,7 +798,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -818,7 +818,7 @@
 			]
 			title: "Casts For Crafting Parts"
 			x: -1.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4596F14140B7AE67"]
@@ -848,7 +848,7 @@
 			]
 			title: "Casts For Armor"
 			x: 1.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["481CC7DD0387169C"]
@@ -866,7 +866,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["317B3D9FEBAB32C5"]
@@ -877,8 +877,8 @@
 				item: "iceandfire:summoning_crystal_fire"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40506A1CC2073B43"]
@@ -889,8 +889,8 @@
 				item: "iceandfire:summoning_crystal_lightning"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6EA4D563D61BDB4C"]
@@ -940,7 +940,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["70B420DBF0D5F0F2"]
@@ -964,7 +964,7 @@
 			]
 			id: "265F46988079A285"
 			shape: "circle"
-			subtitle: "Will give you the coordinates of Dragons"
+			subtitle: "Will give you the coordinates of Dragons in a radius around the player"
 			tasks: [{
 				id: "10D59C8BC813D071"
 				item: "dragonseeker:godly_dragonseeker"
@@ -972,7 +972,7 @@
 			}]
 			title: "Be Responsible"
 			x: -0.5d
-			y: -0.5d
+			y: 0.5d
 		}
 	]
 	title: "Utility"

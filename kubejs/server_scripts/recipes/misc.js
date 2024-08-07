@@ -1394,6 +1394,12 @@ ServerEvents.recipes(event => {
 // Replace Pam Dough w/ Create Dough
   event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
 
+// Resonant > Angelring
+  event.shapeless(Item.of('angelring:angel_ring'), ['angelring:resonant_angel_ring']).id('angelring:resonant_to_angelring')
+
+// angelring > Resonant  
+  event.shapeless(Item.of('angelring:resonant_angel_ring'), ['angelring:angel_ring']).id('angelring:angelring_to_resonant')
+
 // Ash
   event.custom({"type":"minecraft:smelting","cookingtime":200,"experience":0.1,
   "ingredient":{"tag":"minecraft:planks"},

@@ -1449,8 +1449,14 @@
 		}
 		{
 			dependencies: ["75B016316EC60D51"]
+			description: [
+				"There is a known issue with Angel Ring 2 mod that may cause the ring to malfunction and not grant flight as intended. "
+				""
+				"If you experience any issues like this; you may want to convert your ring into a Resonant Angel Ring which will cost RF to power."
+			]
 			id: "72A856FCEF893F43"
 			shape: "circle"
+			subtitle: "Creative Flight!"
 			tasks: [{
 				id: "0144C59A740E06B2"
 				item: "angelring:angel_ring"
