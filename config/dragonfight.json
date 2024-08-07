@@ -47,14 +47,18 @@
   "spawnoncrystaldestroy": {
     "desc:": "List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
     "spawnoncrystaldestroy": [
-      "minecraft:zombie",
-      "minecraft:creeper",
+      "minecraft:phantom",
+      "minecraft:blaze",
+      "thermal:basalz",
+      "thermal:blitz",
+      "thermal:blizz",
       "unusualend:ender_firefly"
     ]
   },
   "spawnoncrystalrespawn": {
     "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
     "spawnoncrystalrespawn": [
+      "minecraft:phantom",
       "minecraft:blaze",
       "thermal:basalz",
       "thermal:blitz",
