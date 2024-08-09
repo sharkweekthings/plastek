@@ -418,7 +418,7 @@
 		}
 		{
 			dependencies: ["0FEB97C69E0EE49C"]
-			description: ["Clicking on the base of the Totem with this staff will give you more informationa bout the totem."]
+			description: ["Clicking on the base of the Totem with this staff will give you more information about the totem."]
 			id: "0F9BC217E79FD2C8"
 			shape: "circle"
 			tasks: [{

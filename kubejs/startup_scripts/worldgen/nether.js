@@ -107,6 +107,20 @@
       ore.size = 11
     })
 
+  // Deepslate Iron Ore
+    event.addOre(ore => {
+      ore.id = 'kubejs:ds_iron_ore_gen_nth'
+      ore.biomes = '#kubejs:nether_gen'
+      ore.addTarget('minecraft:netherrack', 'minecraft:deepslate_iron_ore') 
+      ore.count([15, 30])
+        .squared()
+        .triangleHeight(
+          anchors.absolute(20),
+          anchors.absolute(152)
+        )
+      ore.size = 8
+    })
+
   // XP Ore
     event.addOre(ore => {
       ore.id = 'kubejs:xp_ore_ore_gen_nth'
@@ -206,6 +220,20 @@
         )
       ore.size = 10
     })
+
+  // Deepslate Diamond
+  event.addOre(ore => {
+    ore.id = 'kubejs:in_deepslate_ds_diamond_ore_gen_nth'
+      ore.biomes = '#kubejs:nether_gen'
+    ore.addTarget('minecraft:netherrack', 'minecraft:deepslate_diamond_ore')
+    ore.count([7, 15])
+      .squared()
+      .triangleHeight(
+        anchors.absolute(10),
+        anchors.absolute(40)
+      )
+    ore.size = 6
+  })
 
   // Deepslate Redstone
     event.addOre(ore => {
