@@ -1,0 +1,29 @@
+{
+  "type": "pneumaticcraft:refinery",
+  "input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 10,
+    "tag": "forge:crude_oil"
+  },
+  "results": [
+    {
+      "amount": 45,
+      "fluid": "pneumaticcraft:diesel"
+    },
+    {
+      "amount": 6,
+      "fluid": "pneumaticcraft:kerosene"
+    },
+    {
+      "amount": 5,
+      "fluid": "pneumaticcraft:gasoline"
+    },
+    {
+      "amount": 6,
+      "fluid": "pneumaticcraft:lpg"
+    }
+  ],
+  "temperature": {
+    "min_temp": 373
+  }
+}

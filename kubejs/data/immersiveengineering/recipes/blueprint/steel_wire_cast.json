@@ -1,0 +1,4 @@
+{"type":"immersiveengineering:blueprint","category":"components",
+	"inputs":[{"item":"emendatusenigmatica:steel_plate"},
+		  	  {"item":"minecraft:string"}],
+	"result": {"count":1,"item":"kubejs:wire_steel_cast"}}

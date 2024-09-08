@@ -411,44 +411,39 @@ ServerEvents.recipes(event => {
 	3: 'mekanism:energy_tablet'}).id('mekanism:basic_energy_cube')
 
 // Basic Universal Cable
-  event.shaped('3x mekanism:basic_universal_cable',
-    ['121','434','121'], {
+  event.shaped('4x mekanism:basic_universal_cable',
+    [' 1 ','323',' 1 '], {
   1: 'emendatusenigmatica:steel_rod',
-  2: 'immersiveengineering:wire_electrum',
-  3: 'minecraft:redstone',
-  4: 'prettypipes:pipe'}).id('mekanism:basic_universal_cable')
+  2: 'minecraft:redstone',
+  3: 'prettypipes:pipe'}).id('mekanism:basic_universal_cable')
 
 // Basic Mechanical Pipe
-  event.shaped('3x mekanism:basic_mechanical_pipe',
-    ['121','434','121'], {
+  event.shaped('4x mekanism:basic_mechanical_pipe',
+    [' 1 ','323',' 1 '], {
   1: 'emendatusenigmatica:steel_rod',
-  2: 'immersiveengineering:wire_electrum',
-  3: 'minecraft:bucket',
-  4: 'prettypipes:pipe'}).id('mekanism:basic_mechanical_pipe')
+  2: 'minecraft:bucket',
+  3: 'prettypipes:pipe'}).id('mekanism:basic_mechanical_pipe')
 
 // Basic Pressurized Tube
-  event.shaped('3x mekanism:basic_pressurized_tube',
-    ['121','434','121'], {
+  event.shaped('4x mekanism:basic_pressurized_tube',
+    [' 1 ','323',' 1 '], {
   1: 'emendatusenigmatica:steel_rod',
-  2: 'immersiveengineering:wire_electrum',
-  3: 'pneumaticcraft:pressure_tube',
-  4: 'prettypipes:pipe'}).id('mekanism:basic_pressurized_tube')
+  2: 'pneumaticcraft:pressure_tube',
+  3: 'prettypipes:pipe'}).id('mekanism:basic_pressurized_tube')
 
 // Basic Logisitical Transporter
-  event.shaped('3x mekanism:basic_logistical_transporter',
-    ['121','434','121'], {
+  event.shaped('4x mekanism:basic_logistical_transporter',
+    [' 1 ','323',' 1 '], {
   1: 'emendatusenigmatica:steel_rod',
-  2: 'immersiveengineering:wire_electrum',
-  3: 'mekanism:basic_control_circuit',
-  4: 'prettypipes:pipe'}).id('mekanism:basic_logistical_transporter')
+  2: 'minecraft:chest',
+  3: 'prettypipes:pipe'}).id('mekanism:basic_logistical_transporter')
 
 // Basic Thermodynamic Conductor
-  event.shaped('3x mekanism:basic_thermodynamic_conductor',
-    ['121','434','121'], {
+  event.shaped('4x mekanism:basic_thermodynamic_conductor',
+    [' 1 ','323',' 1 '], {
   1: 'emendatusenigmatica:steel_rod',
-  2: 'immersiveengineering:wire_electrum',
-  3: 'pneumaticcraft:vortex_tube',
-  4: 'prettypipes:pipe'}).id('mekanism:basic_thermodynamic_conductor')
+  2: 'pneumaticcraft:vortex_tube',
+  3: 'prettypipes:pipe'}).id('mekanism:basic_thermodynamic_conductor')
 
 // Basic Tier Installer
   event.shaped('mekanism:basic_tier_installer',

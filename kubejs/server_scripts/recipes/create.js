@@ -114,8 +114,8 @@ ServerEvents.recipes(event => {
     4: 'thermal:saw_blade'}).id('create:crafts/mechanical_harvester')
 
 // Mechanical Belt
-  event.shaped('2x create:belt_connector', 
-    ['   ','111','111'], {
+  event.shaped('3x create:belt_connector', 
+    ['   ','111','   '], {
     1: 'thermal:cured_rubber'}).id('crafting/kinetics/belt_connector')
 
 // Sequenced Gearshift
@@ -142,11 +142,10 @@ ServerEvents.recipes(event => {
 
 // Mechanical Crafter
   event.shaped('create:mechanical_crafter', 
-    [' 1 ',' 2 ','434'], {
+    ['   ',' 1 ','323'], {
     1: 'create:electron_tube',
-    2: 'create:brass_casing',
-    3: 'tconstruct:crafting_station',
-    4: 'create:precision_mechanism'}).id('create:crafts/mechanical_crafter')
+    2: 'tconstruct:crafting_station',
+    3: 'create:precision_mechanism'}).id('create:crafts/mechanical_crafter')
 
 // Mechanical Roller
   event.shaped('create:mechanical_roller', 
@@ -252,7 +251,7 @@ ServerEvents.recipes(event => {
     [' 1 ',' 2 ',' 3 '], {
     1: 'emendatusenigmatica:sterling_silver_rod',
     2: 'create:andesite_casing',
-    3: 'compressium:copper_1',}).id('create:crafts/mechanical_press')
+    3: 'minecraft:copper_block',}).id('create:crafts/mechanical_press')
 
 // Whisk
   event.shaped('create:whisk', 
@@ -275,19 +274,19 @@ ServerEvents.recipes(event => {
 
 // Train Casing
   event.shaped('create:railway_casing', 
-    ['111','121','111'], {
+    [' 1 ','121',' 1 '], {
     1: 'emendatusenigmatica:gold_plate', 
     2: 'create:andesite_casing'}).id('create:crafts/railway_casing')
 
 // Copper Casing
   event.shaped('create:copper_casing', 
-    ['111','121','111'], {
+    [' 1 ','121',' 1 '], {
     1: 'emendatusenigmatica:copper_plate', 
     2: 'create:andesite_casing'}).id('create:crafts/copper_casing')
 
 // Copper Casing
   event.shaped('create:brass_casing', 
-    ['111','121','111'], {
+    [' 1 ','121',' 1 '], {
     1: 'emendatusenigmatica:brass_plate', 
     2: 'create:copper_casing'}).id('create:crafts/brass_casing')
 
@@ -394,10 +393,9 @@ ServerEvents.recipes(event => {
 
 // Rose Quartz
   event.shaped('create:rose_quartz', 
-    ['323','212','323'], {
+    ['   ','212','   '], {
     1: 'thermal:quartz_dust', 
-    2: 'minecraft:redstone',
-    3: 'biomesoplenty:rose_quartz_shard'}).id('create:crafts/rose_quartz')
+    2: 'biomesoplenty:rose_quartz_shard'}).id('create:crafts/rose_quartz')
     
 // Tree
   event.shaped('create:tree_fertilizer', 
@@ -435,6 +433,28 @@ ServerEvents.recipes(event => {
         }
     ]
 }).id('create:minecraft_bone_meal_from_block')
+
+// Bone Meal Operations
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": 'rftoolsbase:dimensionalshard'
+        }
+    ],
+    "processingTime": 150,
+    "results": [
+        {
+            "count": 1,
+            "item": 'thermal:quartz_dust'
+        },
+        {
+            "chance": 0.15,
+            "count": 2,
+            "item": 'thermal:quartz_dust'
+        }
+    ]
+}).id('create:dimensionalshard_to_quartz_dust')
 
 // Bone Meal From Bone
   event.custom({
@@ -563,6 +583,18 @@ event.custom({
   "results": [{"item": "emendatusenigmatica:constantan_plate"}]
   }).id('create:pressing/constantan_plate')
 
+//Wire Alternate
+// event.custom({
+//   "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:steel_plate","count": 1}],
+//   "results": [{"item": "kubejs:wire_steel_cast"}]
+//   }).id('create:pressing/wire_steel_cast')
+
+//Bronze Plate
+event.custom({
+  "type": "create:pressing", "ingredients": [{"item": "emendatusenigmatica:bronze_ingot","count": 1}],
+  "results": [{"item": "emendatusenigmatica:bronze_plate"}]
+  }).id('create:pressing/bronze_plate')
+
 // Leather Operations
 event.custom({
   "type": "create:mixing", "ingredients": [{"item": "kubejs:rawhide","count": 1},
@@ -662,7 +694,7 @@ event.custom({
 event.custom({
   "type": "create:mixing", "ingredients": [{"item": "thermal:quartz_dust","count": 1}, {"item": "emendatusenigmatica:cinnabar_dust","count": 1},
   {"fluidTag": "minecraft:water","amount": 200}],
-  "results": [{"item": "industrialforegoing:tinydryrubber"}],
+  "results": [{"item": "industrialforegoing:tinydryrubber","count": 4}],
   "heatRequirement": "none"
   }).id('create:mixing/tinydryrubber')
 
@@ -670,14 +702,14 @@ event.custom({
 event.custom({
   "type": "create:mixing", "ingredients": [{"item": "thermal:quartz_dust","count": 1}, {"item": "emendatusenigmatica:cinnabar_dust","count": 1},
   {"fluidTag": "forge:experience","amount": 200}],
-  "results": [{"item": "industrialforegoing:tinydryrubber","count": 2}],
+  "results": [{"item": "industrialforegoing:tinydryrubber","count": 6}],
   "heatRequirement": "none"
   }).id('create:mixing/tinydryrubber2')
 
 // Liquid Fertilizer
 event.custom({
   "type": "create:mixing", "ingredients": [{"item": "immersiveengineering:fertilizer","count": 1}, {"item": "immersiveengineering:dust_saltpeter","count": 5},
-  {"fluidTag": "forge:experience","amount": 500}],
+  {"fluidTag": "forge:experience","amount": 150}],
   "results": [{"fluid": "sliceanddice:fertilizer","amount": 200}],
   "heatRequirement": "none"
   }).id('sliceanddice:mixing/fertilizer/from_phyto')
@@ -941,14 +973,11 @@ event.custom({
 
 // Liquid Concrete
 event.custom({
-  "type": "create:mixing", "ingredients": [
+  "type": "create:mixing", "ingredients": [ 
   {"item": "buildinggadgets:construction_paste","count": 1}, 
   {"item": "buildinggadgets:construction_paste","count": 1}, 
-  {"item": "buildinggadgets:construction_paste","count": 1}, 
-  {"item": "buildinggadgets:construction_paste","count": 1}, 
-  {"item": "buildinggadgets:construction_paste","count": 1},
   {"fluid": "minecraft:water","amount": 200}],
-  "results": [{"fluid": "immersiveengineering:concrete", "amount": 150}],
+  "results": [{"fluid": "immersiveengineering:concrete", "amount": 250}],
   "heatRequirement": "none" 
   }).id('create:mixing/concrete_fluid')
 
@@ -957,7 +986,7 @@ event.custom({
   "type": "create:mixing", "ingredients": [
   {"item": "minecraft:sand","count": 1}, 
   {"item": "minecraft:clay_ball","count": 1}, 
-  {"fluid": "minecraft:water","amount": 400}],
+  {"fluid": "minecraft:water","amount": 200}],
   "results": [{"item": "buildinggadgets:construction_paste", "count": 1}],
   "heatRequirement": "none" 
   }).id('create:mixing/construction_paste')
@@ -966,10 +995,9 @@ event.custom({
 event.custom({
   "type": "create:mixing", "ingredients": [
   {"item": "rootsclassic:verdant_sprig","count": 1},
-  {"item": "rootsclassic:verdant_sprig","count": 1},
-  {"fluidTag": "forge:experience","amount": 400}],
+  {"fluidTag": "forge:experience","amount": 200}],
   "results": [{"item": "rootsclassic:growth_powder", "count": 1}],
-  "heatRequirement": "superheated" 
+  "heatRequirement": "heated" 
   }).id('create:mixing/green_powder')
 
 // Unassembled PCB
@@ -999,7 +1027,7 @@ event.custom({
   "type": "create:filling","ingredients": [
     {"item": "minecraft:gravel"},
     {
-      "amount": 500,
+      "amount": 250,
       "fluid": "immersiveengineering:concrete",
       "nbt": {}
     }
@@ -1875,12 +1903,12 @@ event.custom({
     "processingTime": 200,
     "results": [
         {
-            "chance": 0.35,
-            "count": 1,
+            "chance": 0.75,
+            "count": 4,
             "item": 'create:powdered_obsidian'
         },
         {
-            "chance": 0.75,
+            "chance": 0.80,
             "count": 3,
             "item": 'inventorypets:nugget_obsidian'
         }
@@ -1898,18 +1926,40 @@ event.custom({
     "processingTime": 250,
     "results": [
         {
-            "chance": 0.50,
-            "count": 1,
+            "chance": 0.90,
+            "count": 5,
             "item": 'create:powdered_obsidian'
         },
         {
-            "chance": 0.75,
-            "count": 4,
+            "chance": 0.90,
+            "count": 6,
             "item": 'inventorypets:nugget_obsidian'
         }
     ]
 }).id('create:powdered_obsidian_milling_2')
 
+// Moon Cobblestone Grind
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "ad_astra:moon_cobblestone"
+        }
+    ],
+    "processingTime": 250,
+    "results": [
+        {
+            "chance": 0.08,
+            "item": "ad_astra:raw_desh",
+            "count": 1
+        },
+        {
+            "chance": 0.08,
+            "item": "emendatusenigmatica:raw_aluminum",
+            "count": 1
+        }
+    ]
+}).id('create:desh_alu_from_moon_cobble')
 
 //    
 })

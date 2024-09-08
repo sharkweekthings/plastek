@@ -189,3 +189,28 @@ LootJS.modifiers(event => {
         .randomChance(0.37)
         .addLoot('minecraft:bone');
 });
+
+LootJS.modifiers(event => {
+  event.addEntityLootModifier
+  ( 'minecraft:cow',
+    'minecraft:sheep',
+    'energeticsheep:energetic_sheep',
+    'iceandfire:cyclops',
+    'environmental:deer',
+    'twilightforest:deer',
+    'minecraft:donkey',
+    'quark:foxhound',
+    'icenadfire:hippogryph',
+    'minecraft:hoglin',
+    'minecraft:horse',
+    'minecraft:llama',
+    'ad_astra:mogler',
+    'minecraft:mooshroom',
+    'minecraft:mule',
+    'environmental:reindeer',
+    'minecraft:donkey',
+    'minecraft:trader_llama',
+    'environmental:zebra')
+        .randomChance(0.50)
+        .addLoot('silentgear:leather_scrap');
+});

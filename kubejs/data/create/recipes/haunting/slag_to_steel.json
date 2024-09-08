@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "tag": "forge:slag"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.07,
+      "item": "emendatusenigmatica:steel_dust"
+    }
+  ]
+}

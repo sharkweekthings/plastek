@@ -429,20 +429,12 @@
 		{
 			dependencies: ["153362F00BFC2154"]
 			id: "7E14196C07D3C339"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6BF4AF94CAD93157"
-					table_id: 5825749635945163331L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "554478F4436F7F3E"
-					table_id: 3325230720908722317L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554478F4436F7F3E"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "555BD69295E454C5"
@@ -1050,7 +1042,7 @@
 		}
 		{
 			dependencies: ["0EA3983877DAE009"]
-			description: ["To get through this age, you're going to need at least 2 Enderman Predictions in order to fill the Heart of the Deep.   "]
+			description: ["To get through this age, you're going to need at least 4 Enderman Predictions in order to fill the Heart of the Deep.   "]
 			id: "3AA57C1952A2FAC6"
 			rewards: [{
 				id: "7D265500B8C0E4FE"

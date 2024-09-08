@@ -209,6 +209,12 @@ ServerEvents.recipes(event => {
       "results": [{"item": "mob_grinding_utils:solid_xp_mould_baby"}]
   }).id('mob_grinding_utils:solid_xp_mould_baby')
 
+// Rotten Egg
+  event.shapeless(Item.of('mob_grinding_utils:rotten_egg'), ['minecraft:egg', 'minecraft:rotten_flesh']).id('mob_grinding_utils:rotten_egg_custom')
+
+// Golden Egg
+  event.shapeless(Item.of('mob_grinding_utils:golden_egg'), ['minecraft:egg', 'emendatusenigmatica:gold_dust']).id('mob_grinding_utils:golden_egg_custom')
+
 //    
 })
 //

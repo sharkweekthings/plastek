@@ -197,6 +197,45 @@ ServerEvents.recipes(event => {
     2: 'apotheosis:mythic_material',
     3: 'mysticalagriculture:supremium_essence'}).id('mysticalagriculture:master_infusion_crystal')
 
+// Cinnabar Gem
+  event.shaped('emendatusenigmatica:cinnabar_gem',
+    ['121','131','121'], {
+    1: 'mysticalagriculture:fire_essence',
+    2: 'mysticalagriculture:air_essence',
+    3: 'mysticalagriculture:diamond_essence'}).id('mysticalagriculture:cinnabar_gem_essence')
+
+// Fluix Gem
+  event.shaped('ae2:fluix_crystal',
+    ['111','222','   '], {
+    1: 'mysticalagriculture:fluix_essence',
+    2: 'mysticalagriculture:water_essence'}).id('mysticalagriculture:fluix_crystal_essence')
+
+// Certus Quartz
+  event.shaped('ae2:certus_quartz_crystal',
+    ['111','222','   '], {
+    1: 'mysticalagriculture:certus_quartz_essence',
+    2: 'mysticalagriculture:water_essence'}).id('mysticalagriculture:certus_quartz_essence')
+
+// Certus Quartz Charged
+  event.shaped('ae2:charged_certus_quartz_crystal',
+    ['111','222','   '], {
+    1: 'mysticalagriculture:certus_quartz_essence',
+    2: 'mysticalagriculture:water_essence',
+    2: 'mysticalagriculture:air_essence'}).id('mysticalagriculture:charged_certus_quartz_essence')
+
+// Petcoke
+  event.shaped('3x immersivepetroleum:petcoke',
+    ['111','121','121'], {
+    1: 'mysticalagriculture:coal_essence',
+    2: 'minecraft:coal'}).id('mysticalagriculture:coal_to_petcoke')
+
+// Petcoke
+  event.shaped('3x immersivepetroleum:petcoke',
+    ['111','121','111'], {
+    1: 'mysticalagriculture:coal_essence',
+    2: 'thermal:bitumen'}).id('mysticalagriculture:bitumen_to_petcoke')
+
+
 // Replace Mystical Agri w/ Industrial Foregoing
 event.replaceInput({ input: 'mysticalagriculture:machine_frame' },'mysticalagriculture:machine_frame','industrialforegoing:machine_frame_advanced')
 

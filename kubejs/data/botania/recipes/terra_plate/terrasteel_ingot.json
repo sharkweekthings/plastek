@@ -11,7 +11,7 @@
       "item": "occultism:spirit_attuned_gem"
     }
   ],
-  "mana": 250000,
+  "mana": 50000,
   "result": {
     "item": "botania:terrasteel_ingot"
   }

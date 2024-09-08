@@ -1,0 +1,3 @@
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/sterling_silver"}},
+{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:rods/sterling_silver"}}],"energy":2400,"input":{"base_ingredient":
+{"tag":"forge:ingots/sterling_silver"},"count":4},"mold":"immersiveengineering:mold_rod","result":{"tag":"forge:rods/sterling_silver"}}

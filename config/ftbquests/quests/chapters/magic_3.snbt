@@ -763,7 +763,7 @@
 			description: [
 				"By sending Mana to this block you can charge it up with power. "
 				""
-				"When you have access to some time of energy cable, you can transfer the power to other machines. "
+				"When you have access to some type of energy cable, you can transfer the power to other machines. "
 				""
 				"For now, you'll have to connect a machine directly to this in order to power it."
 			]

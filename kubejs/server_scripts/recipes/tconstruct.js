@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
     4: 'minecraft:bone_meal'}).id('tconstruct:smeltery/seared/grout')
 
 // Nether Grout
-  event.shaped('2x tconstruct:nether_grout',
+  event.shaped('5x tconstruct:nether_grout',
     ['232','414','232'], {
     1: 'tconstruct:grout', 
     2: 'minecraft:soul_sand',

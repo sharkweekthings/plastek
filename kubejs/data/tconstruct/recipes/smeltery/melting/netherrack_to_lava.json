@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "result": {
+    "amount": 50,
+    "fluid": "minecraft:lava"
+  },
+  "temperature": 1500,
+  "time": 50
+}

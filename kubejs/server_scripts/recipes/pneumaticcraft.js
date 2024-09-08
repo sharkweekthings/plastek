@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
   event.shaped('pneumaticcraft:pressure_chamber_valve', 
     ['111','232','141'], {
     1: 'industrialforegoing:plastic',
-    2: 'compressium:iron_1',
+    2: 'minecraft:iron_block',
     3: 'pneumaticcraft:pressure_tube',
     4: 'emendatusenigmatica:iron_gear'}).id('pneumaticcraft:pressure_chamber_valve')
     
@@ -136,13 +136,13 @@ ServerEvents.recipes(event => {
     
 // Pressure Chamber Wall
   event.shaped('4x pneumaticcraft:pressure_chamber_wall', 
-    ['222','212','222'], {
+    [' 2 ','212',' 2 '], {
     1: 'industrialforegoing:plastic',
     2: 'pneumaticcraft:reinforced_bricks'}).id('pneumaticcraft:pressure_chamber_wall')
     
 // Pressure Chamber Glass
   event.shaped('4x pneumaticcraft:pressure_chamber_glass', 
-    ['222','212','222'], {
+    [' 2 ','212',' 2 '], {
     1: 'tconstruct:seared_glass',
     2: 'pneumaticcraft:reinforced_bricks'}).id('pneumaticcraft:pressure_chamber_glass')
     
@@ -164,11 +164,11 @@ ServerEvents.recipes(event => {
     5: 'emendatusenigmatica:iron_gear'}).id('pneumaticcraft:air_compressor')
     
 // Reinforced Stone
-  event.shaped('4x pneumaticcraft:reinforced_stone', 
+  event.shaped('32x pneumaticcraft:reinforced_stone', 
     ['232','313','232'], {
     1: 'industrialforegoing:plastic',
     2: 'compressium:stone_1',
-    3: 'immersiveengineering:concrete'}).id('pneumaticcraft:reinforced_stone')
+    3: '#forge:concrete'}).id('pneumaticcraft:reinforced_stone')
 
 // Spawner Agitator
   event.shaped('pneumaticcraft:spawner_agitator', 
@@ -178,13 +178,13 @@ ServerEvents.recipes(event => {
     3: 'minecraft:fermented_spider_eye',
     4: 'minecraft:blaze_rod'}).id('pneumaticcraft:spawner_agitator')
     
-// Finished PCB
-  event.shaped('pneumaticcraft:printed_circuit_board', 
-    ['414','232','414'], {
-    1: 'pneumaticcraft:transistor',
-    2: 'pneumaticcraft:capacitor',
-    3: 'pneumaticcraft:unassembled_pcb',
-    4: 'immersiveengineering:wire_aluminum'}).id('pneumaticcraft:printed_circuit_board')
+// // Finished PCB
+//   event.shaped('pneumaticcraft:printed_circuit_board', 
+//     ['414','232','414'], {
+//     1: 'pneumaticcraft:transistor',
+//     2: 'pneumaticcraft:capacitor',
+//     3: 'pneumaticcraft:unassembled_pcb',
+//     4: 'immersiveengineering:wire_aluminum'}).id('pneumaticcraft:printed_circuit_board')
 
 // Vortex Tube  
   event.shaped('pneumaticcraft:vortex_tube', 
@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
     
 // Capacitor
   event.shaped('pneumaticcraft:capacitor', 
-    ['151','343','222'], {
+    ['151','343',' 2 '], {
     1: 'pneumaticcraft:plastic',
     2: 'immersiveengineering:wire_electrum',
     3: 'emendatusenigmatica:apatite_dust',
@@ -256,7 +256,7 @@ ServerEvents.recipes(event => {
     
 // Transistor
   event.shaped('pneumaticcraft:transistor', 
-    ['151','343','222'], {
+    ['151','343',' 2 '], {
     1: 'pneumaticcraft:plastic',
     2: 'immersiveengineering:wire_electrum',
     3: 'immersiveengineering:dust_hop_graphite',
@@ -268,6 +268,9 @@ ServerEvents.recipes(event => {
     [' 1 ','121',' 1 '], {
     1: 'pneumaticcraft:ingot_iron_compressed',
     2: 'create:super_glue'}).id('pneumaticcraft:compressed_iron_gear')
+
+// Green Board
+  event.shapeless(Item.of('pneumaticcraft:printed_circuit_board'), ['pneumaticcraft:unassembled_pcb', 'immersiveengineering:wire_aluminum', 'immersiveengineering:wire_aluminum', 'pneumaticcraft:transistor', 'pneumaticcraft:capacitor']).id('pneumaticcraft:printed_circuit_board')
 
 // Pneumatic Helmet
 event.custom({
@@ -404,7 +407,8 @@ event.custom({
         {"item": "emendatusenigmatica:desh_dust",},
         {"item": "emendatusenigmatica:apatite_dust",}],
           "pressure": 2.0, 
-          "results": [{"item": "pneumaticcraft:plastic"}]
+          "results": [{"item": "pneumaticcraft:plastic",
+                       "count": 2}]
 }).id('pneumaticcraft:pressure_chamber_plastic')
 
 // Plastim Dust
@@ -469,9 +473,7 @@ event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
         {"item": "silentcompat:raw_solarmetal",},
-        {"item": "industrialforegoing:plastic",},
-        {"item": "minecraft:blaze_powder",},
-        {"item": "emendatusenigmatica:cinnabar_dust",}],
+        {"item": "industrialforegoing:plastic",},],
           "pressure": 2.3, 
           "results": [{"item": "silentcompat:solarmetal_ingot"}]
   }).id('silentcompat:pressure_chamber_solarmetal_ingot')
@@ -488,7 +490,7 @@ event.custom({
         },],
           "pressure": 2.0, 
           "results": [{"item": "biomesoplenty:rose_quartz_shard",
-                       "count": 2}]
+                       "count": 3}]
   }).id('biomesoplenty:rose_quartz_shard_2')
 
 // Diamond Ring
@@ -519,22 +521,19 @@ event.custom({
     "type": "pneumaticcraft:pressure_chamber", 
       "inputs": [
         {
-          "item": "minecraft:slime_block"
+          "item": "minecraft:slime_ball"
         },
         {
           "item": "create:electron_tube"
         },
         {
-          "item": "mob_grinding_utils:nutritious_chicken_feed"
-        },
-        {
           "type": "pneumaticcraft:stacked_item",
-          "count": 10,
+          "count": 5,
           "item": "rootsclassic:growth_powder"
         },
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 2,
+          "count": 5,
           "item": "immersiveengineering:fertilizer"
         },
         {
@@ -550,17 +549,17 @@ event.custom({
       "inputs": [
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 2,
+          "count": 5,
           "item": "mekanism:hdpe_pellet"
         },
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 2,
+          "count": 1,
           "item": "industrialforegoing:plastic"
         },
         {
           "type": "pneumaticcraft:stacked_item",
-          "count": 2,
+          "count": 1,
           "item": "pneumaticcraft:plastic"
         },],
           "pressure": 2.5, 
@@ -593,7 +592,7 @@ event.custom({
   "exothermic": false,
   "fluid_input": {
     "type": "pneumaticcraft:fluid",
-    "amount": 100,
+    "amount": 75,
     "tag": "forge:biodiesel"
   },
   "fluid_output": {
@@ -618,7 +617,7 @@ event.custom({
   "exothermic": false,
   "fluid_input": {
     "type": "pneumaticcraft:fluid",
-    "amount": 100,
+    "amount": 75,
     "tag": "forge:lpg"
   },
   "fluid_output": {

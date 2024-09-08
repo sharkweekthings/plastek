@@ -20,47 +20,39 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "create:sequenced_assembly",
      ingredient: {
-      item: "emendatusenigmatica:brass_plate",},
+      item: "industrialforegoing:plastic",},
      results: [{
       item: "create:precision_mechanism",
       count: 1,},],
-      loops: 3,
+      loops: 1,
      sequence: [
 {
     type: "create:deploying",
      ingredients: [{
-      item: "emendatusenigmatica:brass_plate",},[{ // incomplete item
+      item: "industrialforegoing:plastic",},[{ // incomplete item
       item: "create:shaft",},],], // item to deploy
      results: [{
-      item: "emendatusenigmatica:brass_plate",},],
+      item: "industrialforegoing:plastic",},],
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "emendatusenigmatica:brass_plate",},[{ // incomplete item
+      item: "industrialforegoing:plastic",},[{ // incomplete item
       item: "create:cogwheel",},],], // item to deploy
      results: [{
-      item: "emendatusenigmatica:brass_plate",},],
+      item: "industrialforegoing:plastic",},],
 },
 {
     type: "create:deploying",
      ingredients: [{
-      item: "emendatusenigmatica:brass_plate",},[{ // incomplete item
-      item: "emendatusenigmatica:copper_gear",},],], // item to deploy
+      item: "industrialforegoing:plastic",},[{ // incomplete item
+      item: "emendatusenigmatica:brass_plate",},],], // item to deploy
      results: [{
-      item: "emendatusenigmatica:brass_plate",},],
-},
-{
-    type: "create:deploying",
-     ingredients: [{
-      item: "emendatusenigmatica:brass_plate",},[{ // incomplete item
-      item: "industrialforegoing:plastic",},],], // item to deploy
-     results: [{
-      item: "emendatusenigmatica:brass_plate",},],
+      item: "industrialforegoing:plastic",},],
 },
 ],
     transitionalItem: {
-      item: "emendatusenigmatica:brass_plate",
+      item: "industrialforegoing:plastic",
     },
   });
 

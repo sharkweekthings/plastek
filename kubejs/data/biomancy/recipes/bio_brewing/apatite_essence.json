@@ -1,0 +1,9 @@
+{"type":"biomancy:bio_brewing","ingredients":[{
+"item":"biomancy:bone_fragments"},{
+"item":"biomancy:nutrients"},{
+"item":"biomancy:gem_fragments"},{
+"item":"mysticalagriculture:apatite_dust"}],
+"nutrientsCost":8,
+"processingTime":200,
+"reactant":{"item":"biomancy:organic_compound"},
+"result":{"count":3,"item":"mysticalagriculture:apatite_essence"}}

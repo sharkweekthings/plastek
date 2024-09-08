@@ -76,11 +76,6 @@ ServerEvents.recipes(event => {
     ['111','121','111'], {
     1: '#forge:treated_wood', 
     2: '#minecraft:trapdoors'}).id('minecraft:chest')
-
-// Iron Bars
-  event.shaped('8x minecraft:iron_bars',
-    ['   ','111','111'], {
-    1: 'emendatusenigmatica:iron_rod'}).id('minecraft:iron_bars')
     
 // Ender Chest
   event.shaped('minecraft:ender_chest',
@@ -273,8 +268,14 @@ ServerEvents.recipes(event => {
   ]
 }).id('emendatusenigmatica:copper_dust')
 
+// Netherrack to Magma Block
+  event.smelting('minecraft:magma_block', 'minecraft:netherrack')
+
 // Leather + Raw Rabbit = Rabbit Hide  
   event.shapeless(Item.of('minecraft:rabbit_hide'), ['minecraft:leather', 'minecraft:rabbit']).id('minecraft:rabbit_hide')
+
+// Netherite Ingot 
+  event.shapeless(Item.of('minecraft:netherite_ingot'), ['minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'minecraft:gold_ingot', 'minecraft:iron_ingot','minecraft:copper_ingot', 'minecraft:diamond']).id('minecraft:netherite_ingot')
 
 //    
 })

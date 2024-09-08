@@ -106,6 +106,12 @@
 				"{image:kubejs:textures/pneumaticcraft/pnematic_refinery_sample.png width:125 height:125 align:1}"
 			]
 			id: "3DCA2CCC13D97EFC"
+			rewards: [{
+				count: 2
+				id: "764D4DD0A9A7D79B"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "220604312A89E50F"
@@ -417,7 +423,7 @@
 				""
 				"The good news is, you'll only have to deal with this method until you're capable of manufacturing your Laser Assembly program. "
 				""
-				"You'll need &62 Fertilizer, 1 GM Chicken Feed Cursed, 1 GM Chicken Feed Nutritional, 1 Electron Tube, 1 Bucket of Gasoline, and 1 Bucket of Molten Plastic&r. "
+				"You'll need &65 Fertilizer, 5 Green Powder, 1 Electron Tube, 1 Slime Ball, and 1 Bucket of Molten Plastic&r. "
 				""
 				"Put all that nonsense &binto a Pressure Chamber&r to get &a1 Etching Acid Catalyst&r. "
 			]
@@ -435,6 +441,19 @@
 			dependencies: [
 				"6FC92C323C8EE144"
 				"7FC2073903E11EAF"
+			]
+			description: [
+				"Craft a Green Board"
+				""
+				"Run the Green Board through Sequenced Assembly to get an Empty PCB"
+				""
+				"Put the Empty PCB in the UV Light Box until it reaches 100%"
+				""
+				"Pour 1000mb of Etching Acid on it with a Create Spout to get your &aUnassembled PCB&r"
+				""
+				"Now you just need some Capacitors, Transistors, and Aluminum Wires to make your Finished PCB"
+				""
+				"You can setup the Laser Assembly for a Finished PCB after you make a few PCBs. This will skip a few steps of this process."
 			]
 			id: "5BC3C965E32561AF"
 			rewards: [{
@@ -499,6 +518,12 @@
 				"In some ways it's an upgrade, in some ways not."
 			]
 			id: "49661D794D571EE6"
+			rewards: [{
+				count: 5
+				id: "41471B651FA3A114"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
 			subtitle: "#2"
 			tasks: [{
 				count: 8L
@@ -512,6 +537,7 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
+			description: ["This will help turn Coke and Petcoke into Hop Graphite Dust."]
 			id: "4C1816CFCA8A5D47"
 			subtitle: "#4"
 			tasks: [
@@ -725,12 +751,26 @@
 				"&c&oThe Melter, Smeltery, and Foundry have been nerfed to be non compatible with Aluminum. Some things can be melted/created with Aluminum, but thats just because I couldn't figure out how to remove the recipes correctly!&r.&r"
 			]
 			id: "09A8F4E340FB7D21"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "446EE79CBB736871"
-				table_id: 3325230720908722317L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "446EE79CBB736871"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+				{
+					count: 200
+					id: "265AC11FAD5BDF9B"
+					item: "mysticalagriculture:aluminum_essence"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6239DB4F196C51A5"
+					item: "mysticalagriculture:aluminum_seeds"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "37F82F29A75CF3BD"
@@ -755,7 +795,6 @@
 				"It's definitely suggested to set up an Assembly production to speed up the process of PCBs, as well as the ability to start making more advanced Tubes, Compressors, and more."
 				" "
 				"{@pagebreak}"
-				"(new page placeholder text)"
 			]
 			id: "2E18138D211E9206"
 			rewards: [
@@ -859,7 +898,7 @@
 		}
 		{
 			dependencies: ["5E46D02E8E6D542A"]
-			description: ["These connectors will connect Machines, Generators, and Capacitors to Wires, and have the abilit to input and output energy. "]
+			description: ["These connectors will connect Machines, Generators, and Capacitors to Wires, and have the ability to input and output energy. "]
 			id: "2BB10B34413A1537"
 			shape: "circle"
 			tasks: [
@@ -1221,10 +1260,7 @@
 		}
 		{
 			dependencies: ["65347C6676E31024"]
-			description: [
-				"{@pagebreak}"
-				"(new page placeholder text)"
-			]
+			description: ["{@pagebreak}"]
 			id: "70B420DBF0D5F0F2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1354,7 +1390,7 @@
 				{
 					count: 82L
 					id: "6D651318B715500D"
-					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
 					type: "item"
 				}
 				{
@@ -1410,7 +1446,7 @@
 				{
 					count: 30L
 					id: "4E803B1544B7B1CB"
-					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
 					type: "item"
 				}
 				{
@@ -1607,24 +1643,15 @@
 				""
 				"It can help speed up crop growth! Maybe try putting it in a Sprinkler over some crops?"
 				""
-				"&aIn order to get credit for the quest you will need to pump the fluid through a Task Screen&r"
 			]
 			id: "61AB74749A48B6AC"
 			shape: "square"
 			subtitle: "Make it rain"
-			tasks: [
-				{
-					amount: 1000L
-					fluid: "sliceanddice:fertilizer"
-					id: "0B597EC7D3B28C67"
-					type: "fluid"
-				}
-				{
-					id: "452803EA3257969C"
-					item: "ftbquests:screen_1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0AD89D047FD54439"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.5d
 		}

@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "thermal:hazmat_fabric",
       count: 1,},],
-      loops: 2,
+      loops: 1,
      sequence: [
 {
     type: "create:deploying",
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
      ingredients: [{
       item: "immersiveengineering:hemp_fabric",},{
       fluid: "minecraft:water",
-      amount: 500,},],
+      amount: 250,},],
      results: [{
       item: "immersiveengineering:hemp_fabric",},],
 },

@@ -1,0 +1,9 @@
+{"type":"biomancy:bio_brewing","ingredients":[{
+"item":"biomancy:bone_fragments"},{
+"item":"biomancy:nutrients"},{
+"item":"biomancy:mineral_fragment"},{
+"item":"immersiveengineering:wire_aluminum"}],
+"nutrientsCost":8,
+"processingTime":200,
+"reactant":{"item":"biomancy:organic_compound"},
+"result":{"count":3,"item":"mysticalagriculture:apatite_essence"}}

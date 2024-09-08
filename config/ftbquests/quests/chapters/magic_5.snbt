@@ -591,9 +591,9 @@
 			shape: "circle"
 			subtitle: "Ars: Part 5"
 			tasks: [{
-				id: "31515FC36281028E"
-				item: "minecraft:stone"
-				type: "item"
+				id: "336FD487A35F9E30"
+				title: "Ok"
+				type: "checkmark"
 			}]
 			title: "I Dream of Drygmy"
 			x: 0.0d

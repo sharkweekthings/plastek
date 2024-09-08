@@ -113,14 +113,21 @@ ServerEvents.recipes(event => {
     1: 'silentgear:blueprint_paper',
     2: 'sophisticatedbackpacks:upgrade_base'}).id('silentgear:blueprint_package')
 
+// Crimson Steel
+  event.shaped('silentgear:crimson_steel_ingot',
+    ['   ','121','   '], {
+    1: 'silentgear:crimson_iron_ingot',
+    2: 'emendatusenigmatica:steel_ingot'}).id('silentgear:crimson_steel_ingot')
+
 // Material Grader
   event.shaped('silentgear:material_grader',
-    ['121','131','454'], {
+    ['626','131','454'], {
     1: 'industrialforegoing:plastic', 
     2: 'occultism:spirit_attuned_gem',
     3: 'occultism:otherstone',
-    4: 'emendatusenigmatica:iron_gea',
-    5: 'botania:manasteel_ingot'}).id('silentgear:material_grader')
+    4: 'emendatusenigmatica:iron_gear',
+    5: 'botania:manasteel_ingot',
+    6: 'occultism:iesnium_ingot'}).id('silentgear:material_grader')
 
 // Crystalline Ingot
   event.shaped('silentcompat:crystalline_alloy',

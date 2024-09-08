@@ -37,9 +37,9 @@ ServerEvents.recipes(event => {
 
 // Arcane Pedestal
   event.shaped('ars_nouveau:arcane_pedestal',
-    ['121','313','313'], {
-  1: 'ars_nouveau:sourcestone',
-  2: 'ars_nouveau:source_gem',
+    ['111','323','323'], {
+  1: 'emendatusenigmatica:plasteel_plate',
+  2: 'emendatusenigmatica:gold_plate',
 	3: 'mythicbotany:alfsteel_ingot'}).id('ars_nouveau:arcane_pedestal')
 
 // Source Jar
@@ -125,10 +125,10 @@ ServerEvents.recipes(event => {
       "item": "ars_nouveau:water_essence"
     },
     {
-      "item": "ae2:matter_ball"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "ae2:matter_ball"
+      "item": "minecraft:ender_pearl"
     },
 Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:enderman"}}').strongNBT(),
 Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:enderman"}}').strongNBT()

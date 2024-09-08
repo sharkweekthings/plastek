@@ -247,10 +247,10 @@ ServerEvents.recipes(event => {
 				"item": "pneumaticcraft:plastic"
 			},
 			{
-				"item": "pneumaticcraft:capacitor"
+				"item": "emendatusenigmatica:steel_plate"
 			},
 			{
-				"item": "pneumaticcraft:transistor"
+				"item": "emendatusenigmatica:steel_plate"
 			},
 			{
 				"item": "emendatusenigmatica:steel_plate"
@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
 			"item": "industrialforegoing:machine_frame_simple",
 			"count": 1
 		},
-		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:500}",
+		"inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:50}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('industrialforegoing:machine_frame_simple')
 
@@ -278,16 +278,16 @@ ServerEvents.recipes(event => {
 				"item": "emendatusenigmatica:aluminum_plate"
 			},
 			{
-				"item": "industrialforegoing:machine_frame_simple"
+				"item": "industrialforegoing:machine_frame_pity"
 			},
 			{
 				"item": "emendatusenigmatica:aluminum_plate"
 			},
 			{
-				"item": "pneumaticcraft:capacitor"
+				"item": "emendatusenigmatica:aluminum_plate"
 			},
 			{
-				"item": "pneumaticcraft:transistor"
+				"item": "emendatusenigmatica:aluminum_plate"
 			},
 			{
 				"item": "immersiveengineering:wire_aluminum"
@@ -304,7 +304,7 @@ ServerEvents.recipes(event => {
 			"item": "industrialforegoing:machine_frame_advanced",
 			"count": 1
 		},
-		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:500}",
+		"inputFluid": "{FluidName:\"pneumaticcraft:plastic\",Amount:150}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('industrialforegoing:machine_frame_advanced')
 
@@ -352,22 +352,22 @@ ServerEvents.recipes(event => {
 				"item": "emendatusenigmatica:steel_plate"
 			},
 			{
-				"item": "industrialforegoing:machine_frame_advanced"
+				"item": "industrialforegoing:machine_frame_pity"
 			},
 			{
-				"item": "emendatusenigmatica:steel_plate"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "pneumaticcraft:capacitor"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
-				"item": "pneumaticcraft:transistor"
+				"item": "emendatusenigmatica:plasteel_plate"
 			},
 			{
 				"item": "emendatusenigmatica:plasteel_gear"
 			},
 			{
-				"item": "immersiveengineering:wire_electrum"
+				"item": "emendatusenigmatica:plasteel_rod"
 			},
 			{
 				"item": "emendatusenigmatica:plasteel_gear"
@@ -378,7 +378,7 @@ ServerEvents.recipes(event => {
 			"item": "industrialforegoing:machine_frame_supreme",
 			"count": 1
 		},
-		"inputFluid": "{FluidName:\"thermal:redstone\",Amount:500}",
+		"inputFluid": "{FluidName:\"thermal:redstone\",Amount:100}",
 		"type": "industrialforegoing:dissolution_chamber"
 	}).id('industrialforegoing:machine_frame_supreme')
 
@@ -427,7 +427,7 @@ ServerEvents.recipes(event => {
         "item": "productivebees:configurable_honeycomb",
         "nbt": {"EntityTag": {
         "type": "productivebees:plastic"}}},
-"results":[{"base_ingredient":{"item":"industrialforegoing:plastic"},"count":1}],"time":100}).id('industrialforegoing:plastic_2')
+"results":[{"base_ingredient":{"item":"industrialforegoing:plastic"},"count":4}],"time":100}).id('industrialforegoing:plastic_2')
 
 
 

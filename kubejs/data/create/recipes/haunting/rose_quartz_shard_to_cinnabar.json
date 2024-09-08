@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:rose_quartz_shard"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.51,
+      "item": "emendatusenigmatica:cinnabar_gem"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mob_grinding_utils:solid_xp_baby"
+  },
+  "result": {
+    "amount": 1000,
+    "fluid": "mob_grinding_utils:fluid_xp"
+  },
+  "temperature": 1500,
+  "time": 50
+}

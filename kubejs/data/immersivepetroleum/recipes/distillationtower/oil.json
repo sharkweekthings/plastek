@@ -2,13 +2,14 @@
   "type": "immersivepetroleum:distillation",
   "byproducts": [
     {
-      "chance": "0.35",
+      "amount": 5,
+      "chance": "0.45",
       "item": "thermal:bitumen"
     }
   ],
   "energy": 1024,
   "input": {
-    "amount": 50,
+    "amount": 35,
     "tag": "forge:crude_oil"
   },
   "results": [

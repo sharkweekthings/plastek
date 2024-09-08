@@ -65,17 +65,11 @@
 			]
 			id: "268262DFB73CF55A"
 			shape: "circle"
-			tasks: [
-				{
-					id: "7313533EBB79D542"
-					title: "Ok"
-					type: "checkmark"
-				}
-				{
-					id: "3A11D49FE97C6406"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "7313533EBB79D542"
+				title: "Ok"
+				type: "checkmark"
+			}]
 			title: "Age 1 - Extra"
 			x: 0.0d
 			y: -1.5d

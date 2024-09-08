@@ -1,0 +1,4 @@
+{"type":"immersiveengineering:arc_furnace",
+"additives":[{"item":"pneumaticcraft:plastic"}],"energy":21200,
+"input":{"item":"pneumaticcraft:pressure_tube"},
+"results":[{"base_ingredient":{"item":"pneumaticcraft:reinforced_pressure_tube"},"count":1}],"time":500}

@@ -1,0 +1,7 @@
+{
+  "type": "thermal:stirling_fuel",
+  "ingredient": {
+    "item": "immersivepetroleum:petcoke_block"
+  },
+  "energy": 500000
+}

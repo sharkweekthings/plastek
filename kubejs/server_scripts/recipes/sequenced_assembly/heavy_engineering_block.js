@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
      ingredients: [{
       item: "emendatusenigmatica:electrum_block",},{
       fluid: "pneumaticcraft:plastic",
-      amount: 800,},],
+      amount: 50,},],
      results: [{
       item: "emendatusenigmatica:electrum_block",},],
 },

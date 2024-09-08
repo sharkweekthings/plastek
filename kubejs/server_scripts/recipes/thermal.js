@@ -253,7 +253,8 @@ ServerEvents.recipes(event => {
     {"item": "ae2:certus_quartz_dust"}],
   "result": [
     {"item": "ae2:certus_quartz_crystal"}
-  ]
+  ],
+  "energy": 2000
 }).id('ae2:thermal_crystallizer_certus_quartz')
 
 // Fluix Crystal
@@ -266,7 +267,8 @@ ServerEvents.recipes(event => {
     {"item": "ae2:fluix_dust"}],
   "result": [
     {"item": "ae2:fluix_crystal"}
-  ]
+  ],
+  "energy": 2000
 }).id('ae2:thermal_crystallizer_fluix')
 
 // Rose Quartz
@@ -445,16 +447,15 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "mythicbotany:alfsteel_ingot",
-      "chance": 0.4,
       "count": 1
     },
     {
       "item": "mythicbotany:alfsteel_ingot",
-      "chance": 0.2,
-      "count": 1
+      "chance": 0.3,
+      "count": 2
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('mythicbotany:thermal_smelter_alfsteel_ingot')
 
 // Andesite Alloy
@@ -466,24 +467,118 @@ ServerEvents.recipes(event => {
       "count": 1
     },
     {
-      "item": "emendatusenigmatica:zinc_dust",
+      "item": "emendatusenigmatica:zinc_ingot",
       "count": 1
     }
   ],
   "result": [
     {
       "item": "create:andesite_alloy",
+      "count": 3
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 0.4,
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}).id('create:andesite_alloy_induction_smelter')
+
+// Ostrum
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "ad_astra:raw_ostrum",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "ad_astra:ostrum_ingot",
+      "count": 1
+    },
+    {
+      "item": "ad_astra:ostrum_ingot",
+      "chance": 0.25,
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}).id('thermal:raw_ostrum_to_ingot')
+
+// Crimson Iron
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "silentgear:blackstone_crimson_iron_ore",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "silentgear:crimson_iron_ingot",
+      "chance": 0.8,
+      "count": 4
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.8,
+      "count": 3
+    }
+  ],
+  "energy": 20000
+}).id('create:blackstone_crimson_induction_smelter')
+
+// Crimson Iron
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "silentgear:crimson_iron_ore",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "silentgear:crimson_iron_ingot",
+      "chance": 0.8,
+      "count": 3
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.8,
+      "count": 2
+    }
+  ],
+  "energy": 20000
+}).id('create:crimson_iron_ore_induction_smelter')
+
+// Crimson Iron
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "silentgear:raw_crimson_iron",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "silentgear:crimson_iron_ingot",
       "chance": 0.8,
       "count": 2
     },
     {
-      "item": "create:andesite_alloy",
-      "chance": 0.2,
+      "item": "minecraft:redstone",
+      "chance": 0.8,
       "count": 1
     }
   ],
-  "energy": 12000
-}).id('create:andesite_alloy_induction_smelter')
+  "energy": 20000
+}).id('create:crimson_iron_raw_induction_smelter')
 
 // Terrasteel Ingot
   event.custom({
@@ -514,7 +609,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('botania:thermal_smelter_terrasteel_ingot')
 
 // Tyrian Steel
@@ -542,7 +637,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('silentgear:thermal_smelter_tyrian_steel_ingot')
 
 // Azure Silver
@@ -570,7 +665,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('silentgear:thermal_smelter_azure_silver_ingot')
 
 // Brass Ingot
@@ -603,7 +698,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('emendatusenigmatica:thermal_smelter_brass_ingot')
 
 // Cured Rubber
@@ -625,7 +720,7 @@ ServerEvents.recipes(event => {
       "count": 4
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('thermal:thermal_smelter_cured_rubber')
 
 // Better Leather
@@ -651,8 +746,34 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('thermal:thermal_smelter_leather')
+
+// HDPE Sheet
+  event.custom({
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "mekanism:hdpe_pellet",
+      "count": 5
+    },
+    {
+      "item": "industrialforegoing:plastic",
+      "count": 1
+    },
+    {
+      "item": "pneumaticcraft:plastic",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "mekanism:hdpe_sheet",
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}).id('thermal:thermal_smelter_hdpe_sheet')
 
 // Better Durable Leather
   event.custom({
@@ -677,7 +798,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('thermal:thermal_smelter_buffalo_hide')
 
 // Plasteel Ingot
@@ -703,7 +824,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('silentcompat:thermal_smelter_plasteel_ingot')
 
 // Voidmetal Ingot
@@ -729,7 +850,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "energy": 12000
+  "energy": 20000
 }).id('silentcompat:thermal_smelter_voidmetal_ingot')
 
 // Copper Wire
@@ -747,7 +868,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "immersiveengineering:wire_copper",
-      "count": 2
+      "count": 3
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_copper')
@@ -767,7 +888,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "immersiveengineering:wire_electrum",
-      "count": 2
+      "count": 3
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_electrum')
@@ -787,7 +908,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "immersiveengineering:wire_aluminum",
-      "count": 2
+      "count": 3
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_aluminum')
@@ -807,7 +928,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "immersiveengineering:wire_steel",
-      "count": 2
+      "count": 3
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_steel')
@@ -827,7 +948,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "immersiveengineering:wire_lead",
-      "count": 2
+      "count": 3
     }
   ]
 }).id('immersiveengineering:thermal_press_wire_lead')
@@ -987,7 +1108,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "mekanism:hdpe_rod",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('mekanism:thermal_press_hdpe_rod')
@@ -1004,7 +1125,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "industrialforegoing:plastic",
-      "count": 2
+      "count": 5
     }
   ]
 }).id('industrialforegoing:thermal_press_plastic')
@@ -1021,7 +1142,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "emendatusenigmatica:plasteel_plate",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('thermal:plasteel_plate_press')
@@ -1038,7 +1159,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "emendatusenigmatica:brass_plate",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('thermal:brass_plate_press')
@@ -1058,10 +1179,30 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "emendatusenigmatica:plasteel_gear",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('emendatusenigmatica:thermal_press_plasteel_gear')
+
+// Steel Gear
+  event.custom({
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/steel",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_gear_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "emendatusenigmatica:steel_gear",
+      "count": 2
+    }
+  ]
+}).id('emendatusenigmatica:thermal_press_steel_gear')
 
 // Diamond Gear
   event.custom({
@@ -1078,7 +1219,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "emendatusenigmatica:diamond_gear",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('emendatusenigmatica:thermal_press_diamond_gear')
@@ -1095,7 +1236,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "emendatusenigmatica:steel_plate",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('thermal:steel_plate_press')
@@ -1112,7 +1253,7 @@ ServerEvents.recipes(event => {
   "result": [
     {
       "item": "emendatusenigmatica:voidmetal_plate",
-      "count": 1
+      "count": 2
     }
   ]
 }).id('thermal:voidmetal_plate_press')

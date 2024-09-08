@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "create:electron_tube",
       count: 1,},],
-      loops: 3,
+      loops: 1,
      sequence: [
 {
     type: "create:deploying",

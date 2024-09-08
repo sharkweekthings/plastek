@@ -1,9 +1,6 @@
 {
   "type": "ae2:inscriber",
   "ingredients": {
-    "bottom": {
-      "item": "emendatusenigmatica:osmium_dust"
-    },
     "middle": {
       "item": "ae2:certus_quartz_crystal"
     },

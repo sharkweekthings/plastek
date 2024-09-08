@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
      ingredients: [{
       item: "minecraft:redstone_block",},{
       fluid: "pneumaticcraft:plastic",
-      amount: 500,},],
+      amount: 50,},],
      results: [{
       item: "minecraft:redstone_block",},],
 },

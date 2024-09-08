@@ -190,12 +190,11 @@ ServerEvents.recipes(event => {
 
 // Expansion Box Oak
   event.shaped('productivebees:expansion_box_oak', 
-    ['545','313','424'], {
-    1: '#productivebees:advanced_beehives',
+    ['141','313','424'], {
+    1: 'minecraft:waxed_copper_block',
     2: 'minecraft:chest',
     3: 'minecraft:honeycomb_block',
-    4: 'minecraft:oak_planks',
-    5: 'minecraft:waxed_copper_block'}).id('productivebees:expansion_box_oak')
+    4: 'minecraft:oak_planks'}).id('productivebees:expansion_box_oak')
 
 // Bee Cage
   event.shaped('productivebees:bee_cage', 
@@ -222,9 +221,9 @@ ServerEvents.recipes(event => {
 // Upgrade Base
   event.shaped('productivebees:upgrade_base', 
     ['323','212','424'], {
-    1: 'sophisticatedbackpacks:upgrade_base',
-    2: 'minecraft:emerald',
-    3: 'productivebees:honey_treat',
+    1: 'tconstruct:pattern',
+    2: 'minecraft:quartz',
+    3: 'minecraft:honeycomb',
     4: 'industrialforegoing:plastic'}).id('productivebees:upgrades/base')
 
 // Centrifuge
@@ -365,6 +364,9 @@ ServerEvents.recipes(event => {
 
 // Advanced Jacaranda Beehive 
   event.shapeless(Item.of('productivebees:expansion_box_bop_jacaranda'), ['productivebees:expansion_box_oak', 'biomesoplenty:jacaranda_planks']).id('productivebees:boxes/expansion_box_bop_jacaranda')
+
+// Honey Treat
+  event.shapeless(Item.of('productivebees:honey_treat'), ['minecraft:honeycomb', 'minecraft:sugar']).id('productivebees:hives/honey_treat_sugar')
 
 //    
 })

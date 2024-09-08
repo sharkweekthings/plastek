@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.50,
+      "item": "natprog:cobbled_netherrack"
+    }
+  ]
+}

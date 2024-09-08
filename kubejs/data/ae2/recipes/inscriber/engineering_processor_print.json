@@ -1,9 +1,6 @@
 {
   "type": "ae2:inscriber",
   "ingredients": {
-    "bottom": {
-      "item": "emendatusenigmatica:osmium_dust"
-    },
     "middle": {
       "tag": "forge:gems/diamond"
     },

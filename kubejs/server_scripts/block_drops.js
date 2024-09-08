@@ -176,39 +176,39 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('minecraft:emerald_ore', 'inventorypets:nugget_emerald', {min:1,max:1})
 	oreLoot('thermal:silver_ore', 'emendatusenigmatica:silver_crystal', {min:1,max:2})
 	oreLoot('minecraft:lapis_ore', 'inventorypets:nugget_lapis', {min:1,max:2})
-	oreLoot('thermal:deepslate_nickel_ore', 'emendatusenigmatica:nickel_crystal', {min:2,max:3})
-	oreLoot('immersiveengineering:ore_aluminum', 'emendatusenigmatica:aluminum_crystal', {min:1,max:2})
+	oreLoot('thermal:deepslate_nickel_ore', 'emendatusenigmatica:raw_nickel', {min:2,max:3})
+	oreLoot('immersiveengineering:ore_aluminum', 'emendatusenigmatica:raw_aluminum', {min:1,max:5})
 	oreLoot('minecraft:diamond_ore', 'inventorypets:nugget_diamond', {min:1,max:3})
 	oreLoot('minecraft:redstone_ore', 'minecraft:redstone', {min:1,max:2})
-	oreLoot('create:zinc_ore', 'emendatusenigmatica:zinc_crystal', {min:1,max:2})
+	oreLoot('create:zinc_ore', 'emendatusenigmatica:raw_zinc', {min:1,max:5})
 	oreLoot('thermal:tin_ore', 'emendatusenigmatica:tin_crystal', {min:1,max:2})
 	oreLoot('thermal:oil_red_sand', 'thermal:bitumen', {min:1,max:2})
 	oreLoot('thermal:oil_sand', 'thermal:bitumen', {min:1,max:2})
 	oreLoot('minecraft:deepslate_coal_ore', 'minecraft:coal', {min:2,max:4})
-	oreLoot('minecraft:deepslate_copper_ore', 'emendatusenigmatica:copper_crystal', {min:2,max:8})
+	oreLoot('minecraft:deepslate_copper_ore', 'minecraft:raw_copper', {min:1,max:3})
 	oreLoot('powah:deepslate_uraninite_ore_poor', 'powah:uraninite_raw', {min:2,max:4})
 	oreLoot('minecraft:copper_ore', 'emendatusenigmatica:copper_crystal', {min:1,max:5})
-	oreLoot('create:deepslate_zinc_ore', 'emendatusenigmatica:zinc_crystal', {min:2,max:4})
-	oreLoot('thermal:deepslate_tin_ore', 'emendatusenigmatica:tin_crystal', {min:2,max:4})
+	oreLoot('create:deepslate_zinc_ore', 'emendatusenigmatica:raw_zinc', {min:2,max:5})
+	oreLoot('thermal:deepslate_tin_ore', 'emendatusenigmatica:raw_tin', {min:2,max:4})
 	oreLoot('silentgear:bort_ore', 'silentgear:bort', {min:1,max:2})
 
 // Bumblezone
 	oreLoot('mysticalagriculture:prosperity_ore', 'mysticalagriculture:prosperity_shard', {min:1,max:2})
 	oreLoot('minecraft:gold_ore', 'emendatusenigmatica:gold_crystal', {min:1,max:6})
-	oreLoot('minecraft:deepslate_gold_ore', 'emendatusenigmatica:gold_crystal', {min:2,max:7})
-	oreLoot('minecraft:deepslate_lapis_ore', 'inventorypets:nugget_lapis', {min:2,max:4})
+	oreLoot('minecraft:deepslate_gold_ore', 'minecraft:raw_gold', {min:1,max:3})
+	oreLoot('minecraft:deepslate_lapis_ore', 'minecraft:lapis_lazuli', {min:1,max:3})
 
 // Twilight Forest
 	oreLoot('thermal:nickel_ore', 'emendatusenigmatica:nickel_crystal', {min:2,max:4})
 	oreLoot('minecraft:iron_ore', 'emendatusenigmatica:iron_crystal', {min:3,max:6})
 	oreLoot('powah:uraninite_ore_poor', 'powah:uraninite_raw', {min:1,max:2})
-	oreLoot('thermal:deepslate_silver_ore', 'emendatusenigmatica:silver_crystal', {min:3,max:6})
+	oreLoot('thermal:deepslate_silver_ore', 'emendatusenigmatica:raw_silver', {min:1,max:3})
 	oreLoot('ad_astra:glacio_copper_ore', 'minecraft:raw_copper', {min:1,max:3})
 
 // Nether
 	oreLoot('mysticalagriculture:soulium_ore', 'mysticalagriculture:soulium_dust', {min:1,max:2})
 	oreLoot('minecraft:nether_gold_ore', 'minecraft:raw_gold', {min:1,max:1})
-	oreLoot('minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_crystal', {min:3,max:6})
+	oreLoot('minecraft:nether_quartz_ore', 'minecraft:quartz', {min:1,max:2})
 	oreLoot('mysticalagradditions:nether_inferium_ore', 'mysticalagriculture:inferium_essence', {min:1,max:1})
 	oreLoot('mysticalagriculture:deepslate_inferium_ore', 'mysticalagriculture:inferium_essence', {min:1,max:3})
 	oreLoot('rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard', {min:1,max:3})
@@ -225,7 +225,7 @@ ServerEvents.blockLootTables(event => {
 	oreLoot('emendatusenigmatica:apatite_moon_stone_ore', 'emendatusenigmatica:apatite_dust', {min:1,max:3})
 	oreLoot('minecraft:deepslate_emerald_ore', 'minecraft:emerald', {min:1,max:2})
 	oreLoot('mysticalagriculture:deepslate_prosperity_ore', 'mysticalagriculture:prosperity_shard', {min:2,max:6})
-	oreLoot('immersiveengineering:deepslate_ore_aluminum', 'emendatusenigmatica:raw_aluminum', {min:1,max:3})
+	oreLoot('immersiveengineering:deepslate_ore_aluminum', 'emendatusenigmatica:raw_aluminum', {min:2,max:6})
 
 // Mars
 	oreLoot('thermal:niter_ore', 'thermal:niter_dust', {min:1,max:1})
@@ -243,7 +243,7 @@ ServerEvents.blockLootTables(event => {
 // Alfheim
 	oreLoot('ad_astra:venus_diamond_ore', 'minecraft:diamond', {min:1,max:3})
 	oreLoot('mythicbotany:dragonstone_ore', 'botania:dragonstone', {min:1,max:1})
-	oreLoot('silentcompat:arcmetal_ore', 'emendatusenigmatica:arcmetal_crystal', {min:2,max:7})
+	oreLoot('silentcompat:arcmetal_ore', 'silentcompat:raw_arcmetal', {min:2,max:5})
 	oreLoot('silentgear:deepslate_bort_ore', 'silentgear:bort', {min:2,max:4})
 
 // Otherside
@@ -290,32 +290,32 @@ ServerEvents.blockLootTables(event => {
 // Dirt and Grass
   	event.modifyBlock(/^minecraft:.*dirt/, table => {
 		table.addPool(pool => {
-		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.01)})
+		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.10)})
 		})
 
   	event.modifyBlock(/^minecraft:.*leaves/, table => {
 		table.addPool(pool => {
-		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.02)})
+		pool.addItem('rootsclassic:verdant_sprig').randomChance(0.12)})
 		})
 
   	event.modifyBlock('minecraft:tall_grass', table => {
 		table.addPool(pool => {
-		pool.addItem('rootsclassic:old_root').randomChance(0.03)})
+		pool.addItem('rootsclassic:old_root').randomChance(0.13)})
 		})
 
   	event.modifyBlock('minecraft:grass', table => {
 		table.addPool(pool => {
-		pool.addItem('rootsclassic:old_root').randomChance(0.03)})
+		pool.addItem('rootsclassic:old_root').randomChance(0.13)})
 		})
 
   	event.modifyBlock('ad_astra:mercury_stone', table => {
 		table.addPool(pool => {
-		pool.addItem('emendatusenigmatica:alien_gear').randomChance(0.03)})
+		pool.addItem('emendatusenigmatica:alien_gear').randomChance(0.10)})
 		})
 
   	event.modifyBlock('ad_astra:venus_stone', table => {
 		table.addPool(pool => {
-		pool.addItem('emendatusenigmatica:alien_rod').randomChance(0.03)})
+		pool.addItem('emendatusenigmatica:alien_rod').randomChance(0.10)})
 		})
 })
 

@@ -337,13 +337,13 @@ ServerEvents.recipes(event => {
     1: 'tombstone:white_marble_slab',
     2: 'minecraft:terracotta',
     3: 'industrialforegoing:plastic',
-    4: 'cookingforblockheads:crafting_book'}).id('cookingforblockheads:misc/cooking_table')
+    4: 'minecraft:campfire'}).id('cookingforblockheads:misc/cooking_table')
 
 // Oven
   event.shaped('cookingforblockheads:oven',
     ['121','242','333'], {
     1: 'tombstone:white_marble_slab',
-    2: 'emendatusenigmatica:steel_plate',
+    2: 'emendatusenigmatica:iron_plate',
     3: 'industrialforegoing:plastic',
     4: 'minecraft:furnace'}).id('cookingforblockheads:misc/oven')
 
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
   event.shaped('cookingforblockheads:fridge',
     ['323','242','313'], {
     1: 'minecraft:iron_door',
-    2: 'emendatusenigmatica:steel_plate',
+    2: 'emendatusenigmatica:iron_plate',
     3: 'industrialforegoing:plastic',
     4: 'minecraft:chest'}).id('cookingforblockheads:misc/fridge')
 
@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
   event.shaped('cookingforblockheads:sink',
     ['222','343','111'], {
     1: 'minecraft:terracotta',
-    2: 'emendatusenigmatica:steel_plate',
+    2: 'emendatusenigmatica:iron_plate',
     3: 'industrialforegoing:plastic',
     4: 'minecraft:bucket'}).id('cookingforblockheads:misc/sink')
 
@@ -398,11 +398,11 @@ ServerEvents.recipes(event => {
     5: 'botania:mana_diamond'}).id('totemic:medicine_bag')
 
 // Compact Machine Wall
-  event.shaped('4x compactmachines:wall',
+  event.shaped('8x compactmachines:wall',
     ['212','131','212'], {
-    1: 'compressium:stone_2',
-    2: 'immersiveengineering:concrete',
-    3: 'minecraft:polished_deepslate'}).id('compactmachines:misc/wall_4x')
+    1: 'compressium:stone_1',
+    2: '#forge:concrete',
+    3: 'minecraft:polished_deepslate'}).id('compactmachines:misc/wall_8x')
 
 // Compact Machines Tiny
   event.shaped('compactmachines:machine_tiny',
@@ -415,36 +415,36 @@ ServerEvents.recipes(event => {
   event.shaped('compactmachines:machine_small',
     ['212','131','212'], {
     1: 'compactmachines:wall',
-    2: 'minecraft:iron_block',
+    2: 'emendatusenigmatica:iron_plate',
     3: 'compactmachines:machine_tiny'}).id('compactmachines:misc/machine_small')
 
 // Compact Machines Normal
   event.shaped('compactmachines:machine_normal',
     ['212','131','212'], {
     1: 'compactmachines:wall',
-    2: 'emendatusenigmatica:electrum_block',
-    3: 'compactmachines:machine_small'}).id('compactmachines:misc/machine_normal')
+    2: 'emendatusenigmatica:electrum_plate',
+    3: 'compactmachines:machine_tiny'}).id('compactmachines:misc/machine_normal')
 
 // Compact Machines Large
   event.shaped('compactmachines:machine_large',
     ['212','131','212'], {
     1: 'compactmachines:wall',
-    2: 'emendatusenigmatica:steel_block',
-    3: 'compactmachines:machine_normal'}).id('compactmachines:misc/machine_large')
+    2: 'emendatusenigmatica:steel_plate',
+    3: 'compactmachines:machine_tiny'}).id('compactmachines:misc/machine_large')
 
 // Compact Machines Giant
   event.shaped('compactmachines:machine_giant',
     ['212','131','212'], {
     1: 'compactmachines:wall',
-    2: 'minecraft:diamond_block',
-    3: 'compactmachines:machine_large'}).id('compactmachines:misc/machine_giant')
+    2: 'minecraft:diamond',
+    3: 'compactmachines:machine_tiny'}).id('compactmachines:misc/machine_giant')
 
 // Compact Machines Maximum
   event.shaped('compactmachines:machine_maximum',
     ['212','131','212'], {
     1: 'compactmachines:wall',
-    2: 'minecraft:emerald_block',
-    3: 'compactmachines:machine_giant'}).id('compactmachines:misc/machine_maximum')
+    2: 'minecraft:emerald',
+    3: 'compactmachines:machine_tiny'}).id('compactmachines:misc/machine_maximum')
 
 // Building Gadget
   event.shaped('buildinggadgets:gadget_building',
@@ -564,12 +564,12 @@ ServerEvents.recipes(event => {
 
 // Rawhide    
   event.shaped('kubejs:rawhide',
-    ['111','1 1','111'], {
+    ['11 ','11 ','   '], {
     1: 'silentgear:leather_scrap'}).id('kubejs:misc/rawhide')
 
 // Durable Rawhide    
   event.shaped('kubejs:durable_rawhide',
-    ['111','121','111'], {
+    ['11 ','121','   '], {
     1: 'silentgear:leather_scrap',
     2: '#rootsclassic:barks'}).id('kubejs:misc/durable_rawhide')
 
@@ -611,7 +611,7 @@ ServerEvents.recipes(event => {
     2: 'minecraft:flint'}).id('kubejs:misc/flint_saw')
 
 // Starter Reactor
-  event.shaped('powah:reactor_starter',
+  event.shaped('3x powah:reactor_starter',
     ['232','415','232'], {
     1: 'powah:dielectric_casing',
     2: 'powah:uraninite',
@@ -686,13 +686,12 @@ ServerEvents.recipes(event => {
     4: 'minecraft:string'}).id('sophisticatedbackpacks:misc/backpack')
 
 // Upgrade Base
-  event.shaped('sophisticatedbackpacks:upgrade_base', 
-    ['434','152','434'], {
-    1: 'totemic:buffalo_hide', 
-    2: 'minecraft:leather',
-    3: 'minecraft:iron_ingot',
-    4: '#forge:string',
-    5: 'tconstruct:pattern'}).id('sophisticatedbackpacks:misc/upgrade_base')
+  event.shaped('2x sophisticatedbackpacks:upgrade_base', 
+    ['323','141','323'], { 
+    1: 'minecraft:leather',
+    2: 'minecraft:iron_ingot',
+    3: '#forge:string',
+    4: 'tconstruct:pattern'}).id('sophisticatedbackpacks:misc/upgrade_base')
 
 // Master
   event.shaped('storagenetwork:master',
@@ -883,12 +882,13 @@ ServerEvents.recipes(event => {
 
 // Empty PCB Parts
   event.shaped('kubejs:empty_pcb_parts', 
-    ['353','212','343'], {
+    ['323','212','546'], {
     1: 'kubejs:empty_parts_box',
-    2: 'emendatusenigmatica:electrum_plate',
+    2: 'immersiveengineering:wire_electrum',
     3: 'emendatusenigmatica:aluminum_plate',
-    4: 'pneumaticcraft:empty_pcb',
-    5: 'create:electron_tube'}).id('kubejs:misc/empty_pcb_parts')
+    4: 'kubejs:green_board',
+    5: 'pneumaticcraft:capacitor',
+    6: 'pneumaticcraft:transistor'}).id('kubejs:misc/empty_pcb_parts')
 
 // Netherite Drill Parts
   event.shaped('kubejs:netherite_drill_bit_parts', 
@@ -911,7 +911,7 @@ ServerEvents.recipes(event => {
     1: 'pneumaticcraft:printed_circuit_board',
     2: 'emendatusenigmatica:steel_plate',
     3: 'industrialforegoing:machine_frame_simple',
-    4: 'thermal:coal_coke_block',
+    4: 'immersiveengineering:petcoke_block',
     5: 'pneumaticcraft:plastic',
     6: 'kubejs:empty_parts_box'}).id('kubejs:misc/stirling_dynamo_parts')
 
@@ -1002,13 +1002,9 @@ ServerEvents.recipes(event => {
 
 // Prediction Matrix Parts
   event.shaped('kubejs:empty_prediction_parts',
-    ['434','212','665'], {
+    [' 1 ','121',' 1 '], {
     1: 'thermal:enderium_glass',
-    2: 'emendatusenigmatica:brass_plate',
-    3: 'emendatusenigmatica:steel_plate',
-    4: 'pneumaticcraft:plastic',
-    5: 'kubejs:empty_parts_box',
-    6: 'emendatusenigmatica:plasteel_plate'}).id('kubejs:misc/empty_prediction_parts')
+    2: 'pneumaticcraft:plastic',}).id('kubejs:misc/empty_prediction_parts')
 
 // Energy Cable Starter Parts
   event.shaped('kubejs:energy_cable_starter_parts',
@@ -1150,7 +1146,7 @@ ServerEvents.recipes(event => {
   event.shaped('2x ppfluids:fluid_pipe', 
     ['   ','212','   '], {
     1: 'create:fluid_pipe',
-    2: 'minecraft:iron_bars',}).id('ppfluids:fluid_pipe')
+    2: 'minecraft:iron_bars',}).id('ppfluids:fluid_pipe')   
 
 // Corrupted Blade
   event.shaped('endermanoverhaul:corrupted_blade',
@@ -1235,17 +1231,15 @@ ServerEvents.recipes(event => {
 
 // Basic Capacitor  
   event.shaped('powah:capacitor_basic',
-    [' 31','323','13 '], {
+    ['  1',' 2 ','1  '], {
     1: 'powah:dielectric_paste',
-    2: 'emendatusenigmatica:signalum_block',
-    3: 'emendatusenigmatica:plasteel_plate'}).id('powah:crafting/capacitor_basic')
+    2: 'minecraft:glass'}).id('powah:crafting/capacitor_basic')
 
 // Dielectric Paste
-  event.shaped('12x powah:dielectric_paste',
-    ['111','223','111'], {
+  event.shaped('3x powah:dielectric_paste',
+    ['   ','121','   '], {
     1: 'immersiveengineering:dust_hop_graphite',
-    2: 'minecraft:clay_ball',
-    3: 'buildinggadgets:construction_paste'}).id('powah:crafting/dielectric_paste')
+    2: 'minecraft:clay_ball'}).id('powah:crafting/dielectric_paste')
 
 // Organic Compost
   event.shaped('farmersdelight:organic_compost',
@@ -1258,12 +1252,11 @@ ServerEvents.recipes(event => {
 
 // Pretty Pipes Blank Module
   event.shaped('prettypipes:blank_module',
-    ['252','313','242'], {
-    1: 'productivebees:upgrade_base',
+    ['242','313','242'], {
+    1: 'tconstruct:pattern',
     2: 'minecraft:quartz',
     3: 'minecraft:redstone',
-    4: 'prettypipes:pipe',
-    5: 'ppfluids:fluid_pipe'}).id('prettypipes:blank_module')
+    4: 'industrialforegoing:plastic'}).id('prettypipes:blank_module')
 
 // Wisdom Scroll
   event.shaped('skilltree:wisdom_scroll',
@@ -1282,6 +1275,11 @@ ServerEvents.recipes(event => {
     3: 'pneumaticcraft:plastic',
     4: 'botania:mana_pearl',
     5: 'botania:terrasteel_ingot'}).id('skilltree:amnesia_scroll')
+
+// Obsidian from Nugget
+  event.shaped('minecraft:obsidian',
+    ['111','111','111'], {
+    1: 'inventorypets:nugget_obsidian'}).id('inventorypets:obsidian_nugget_to_obsidian')
 
 // Meta Pet
   event.custom({  
@@ -1307,11 +1305,17 @@ ServerEvents.recipes(event => {
 // Seared Brick
   event.smelting('tconstruct:seared_brick', 'tconstruct:grout')
 
+// Leather Scrap
+  event.smelting('silentgear:leather_scrap', 'minecraft:rotten_flesh')
+
 // Bonemeal Fish
   event.smelting('minecraft:bone_meal', 'alexsmobs:fish_bones').id('alexsmobs:bonemeal_from_fish_bones')
 
 // Bonemeal Fish
   event.smelting('minecraft:bone_meal', '#forge:bones').id('quark:tweaks/smelting/bone_meal_utility')
+
+// Pretty Pipe to Pretty Pipe Fluid Pipe
+  event.shapeless(Item.of('ppfluids:fluid_pipe'), ['prettypipes:pipe']).id('ppfluids:pipe_to_fluid_pipe')
 
 // White Concrete
   event.shapeless(Item.of('minecraft:white_concrete'), ['immersiveengineering:concrete', 'minecraft:white_dye']).id('minecraft:white_concrete')
@@ -1363,6 +1367,9 @@ ServerEvents.recipes(event => {
 
 // Planter
   event.shapeless(Item.of('supplementaries:planter'), ['minecraft:flower_pot', 'minecraft:dirt']).id('supplementaries:planter')
+
+// Green Board
+  event.shapeless(Item.of('kubejs:green_board'), ['pneumaticcraft:plastic', 'minecraft:green_dye']).id('kubejs:green_board_shapeless')
 
 // Rich Soil Planter
   event.shapeless(Item.of('supplementaries:planter_rich'), ['minecraft:flower_pot', 'farmersdelight:rich_soil']).id('supplementaries:planter_rich')

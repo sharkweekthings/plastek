@@ -4,23 +4,14 @@
     "a": {
       "item": "pneumaticcraft:plastic"
     },
-    "b": {
-      "item": "ae2:calculation_processor"
-    },
-    "c": {
-      "item": "ae2:fluix_glass_cable"
-    },
-    "d": {
-      "item": "ae2:logic_processor"
-    },
     "m": {
       "item": "immersiveengineering:heavy_engineering"
     }
   },
   "pattern": [
-    "aba",
-    "cmc",
-    "ada"
+    "aaa",
+    "ama",
+    "aaa"
   ],
   "result": {
     "item": "ae2:crafting_unit"

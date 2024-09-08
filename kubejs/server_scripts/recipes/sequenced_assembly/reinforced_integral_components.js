@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "thermal:upgrade_augment_2",
       count: 1,},],
-      loops: 2,
+      loops: 1,
      sequence: [
 {
     type: "create:deploying",

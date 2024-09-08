@@ -5,6 +5,7 @@
   },
   "program": "laser",
   "result": {
+    "count": 3,
     "item": "powah:ender_gate_starter"
   }
 }

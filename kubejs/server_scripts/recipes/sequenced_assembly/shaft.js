@@ -20,14 +20,14 @@ ServerEvents.recipes((event) => {
       item: "emendatusenigmatica:iron_rod",},
      results: [{
       item: "create:shaft",
-      count: 3,},],
+      count: 6,},],
       loops: 1,
      sequence: [
 {
     type: "create:deploying",
      ingredients: [{
       item: "emendatusenigmatica:iron_rod",},[{ // incomplete item
-      item: "pneumaticcraft:ingot_iron_compressed",},],], // item to deploy
+      item: "industrialforegoing:plastic",},],], // item to deploy
      results: [{
       item: "emendatusenigmatica:iron_rod",},],
 },

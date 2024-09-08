@@ -321,6 +321,7 @@
 			]
 			id: "420F4920C8B2367B"
 			rewards: [{
+				count: 2
 				id: "702DD5066C668FEF"
 				item: "pneumaticcraft:security_upgrade"
 				type: "item"
@@ -1275,6 +1276,7 @@
 				""
 				"- Sturdy Sheet"
 				"- Crystaltine Ingot"
+				"- Rose Quartz Shard from Cinnabar Dust"
 			]
 			id: "4F8C16BA9CFB3610"
 			subtitle: "Spout > Press > Press"

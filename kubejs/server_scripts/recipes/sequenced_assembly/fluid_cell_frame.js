@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "thermal:fluid_cell_frame",
       count: 1,},],
-      loops: 3,
+      loops: 1,
      sequence: [
 {
       type: "create:cutting",

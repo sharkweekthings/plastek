@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
      results: [{
       item: "create:large_cogwheel",
       count: 3,},],
-      loops: 3,
+      loops: 1,
      sequence: [
 {
       type: "create:cutting",

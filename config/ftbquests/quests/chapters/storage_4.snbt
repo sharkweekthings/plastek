@@ -202,8 +202,6 @@
 				"There are many ways to build this. "
 				""
 				"The most simple would be to surround the ME Interface with several Molecular Assemblers."
-				""
-				"For more advanced setups, you should check out: &n&bhttps://mysticalmachines.com/wiki/ae2-automatic-crafting&r&r"
 			]
 			id: "690E0E1BC832F620"
 			shape: "circle"
