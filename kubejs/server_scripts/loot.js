@@ -1,5 +1,5 @@
 ////
-// custom chest loot testing
+// custom chest loot
 //// renik
 
 // Waystones
