@@ -3955,8 +3955,8 @@ event.add('biomancy:raw_meats',
 // add silent saws to be usable with nat prog
 event.add('natprog:saw', 'silentgear:saw')
 
-// event.add('silentgear:saw', '#natprog:saw')
-event.add('snd:fertilizer', 'sliceanddice:fertilizer')
+// // event.add('silentgear:saw', '#natprog:saw')
+// event.add('snd:fertilizer', 'sliceanddice:fertilizer')
 
 // event.add('silentgear:saw', '#natprog:saw')
 event.add('tconstruct:casts/multi_use', 'mob_grinding_utils:xp_solidifier')
@@ -3976,6 +3976,12 @@ event.add('biomancy:acid',
   [
   'biomancy:acid',
   'biomancy:flowing_acid'
+  ])
+
+event.add('snd:fertilizer', 
+  [
+  'sliceanddice:fertilizer',
+  'sliceanddice:flowing_fertilizer'
   ])
 
 })
